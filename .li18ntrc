@@ -1,0 +1,12 @@
+{
+    "quiet": false,
+    "skipInvalid": false,
+    "rules": {
+        "prettified": ["warn", {"indent": "tab"}],
+        "conflicts": "warn",
+        "duplicates": ["warn", {
+            "ignore": [
+            ]
+        }]
+    }
+}

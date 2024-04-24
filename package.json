@@ -1,0 +1,15 @@
+{
+  "name": "asiga-i18n",
+  "version": "1.0.0",
+  "description": "Asiga i18n Internationalisation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "li18nt /app/**/*.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "li18nt": "^5.0.0"
+  }
+}

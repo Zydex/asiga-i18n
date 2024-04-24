@@ -1,0 +1,8 @@
+steps:
+  - label: ":node: Linting"
+    command: npm run lint
+    plugins:
+      - docker-compose#v3.9.0:
+          run: app
+    agents:
+      queue: build

@@ -1,0 +1,18 @@
+{
+  "label": {
+    "companyName": "Company Name",
+    "country": "Country",
+    "industry": "Industry Type",
+    "phoneNumber": "Phone Number",
+    "setTimezone": "Set my timezone automatically",
+    "timezone": "Timezone",
+    "website": "Website"
+  },
+  "message": {
+    "completePersonalDetails": "Complete your personal details",
+    "noCreditCard": "No credit card required",
+    "signUp": "Sign up for your Asiga Cloud account",
+    "termsAndConditions": "By continuing, you agree to Asiga's <2>terms</2>, and acknowledge you have read our <5>privacy policy</5>.",
+    "welcomeRedirect": "Welcome to Asiga Cloud! You will be redirected shortly..."
+  }
+}
