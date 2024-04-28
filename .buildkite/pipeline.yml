@@ -16,8 +16,6 @@ steps:
     env:
       AWS_ASSUME_ROLE_ARN: arn:aws:iam::037538343661:role/i18n-dev-asiga-com-deployment
     plugins:
-      - artifacts#v1.9.2:
-          download: "build/*"
       - cultureamp/aws-assume-role
     agents:
       queue: deploy
