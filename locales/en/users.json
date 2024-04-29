@@ -1,0 +1,37 @@
+{
+  "alt": {
+    "profile": "User profile"
+  },
+  "field": {
+    "email": "email",
+    "name": "name",
+    "nickname": "nickname"
+  },
+  "label": {
+    "email": "Email",
+    "name": "Name",
+    "nickname": "Nickname",
+    "profile": "Profile",
+    "role": "Role",
+    "updatedAt": "Updated At",
+    "users": "Users"
+  },
+  "message": {
+    "confirmDelAccounts": "Are you sure you wish to delete these accounts? This cannot be undone.",
+    "warnCreateAccount": "Are you sure you wish to create this account?"
+  },
+  "role": {
+    "accountant": "Accountant",
+    "admin": "Admin",
+    "designer": "Designer",
+    "owner": "Owner",
+    "technician": "Technician"
+  },
+  "title": {
+    "blocked": "Blocked",
+    "edit": "Edit",
+    "invite": "Invite a user",
+    "profile": "Profile",
+    "updatedAt": "Updated At"
+  }
+}

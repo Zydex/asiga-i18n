@@ -1,0 +1,55 @@
+{
+  "alt": {
+    "devices": "Devices"
+  },
+  "button": {
+    "add": "Add Device"
+  },
+  "details": {
+    "aboutPrinter": "About Printer",
+    "currentBuild": "Current Build",
+    "printStatus": "Print Status",
+    "queuedBuild": "Queued Builds"
+  },
+  "label": {
+    "devices": "Devices",
+    "devicesTab": "Device Tab",
+    "requiresAttention": "Requires Attention",
+    "status": {
+      "currentBuildName": "Current Build Name",
+      "currentLayer": "Current Layer",
+      "currentLayerHeight": "Current Layer Height",
+      "elapsed": "Elapsed",
+      "firmwareVersion": "Firmware Version",
+      "layers": "Layers",
+      "manufacturer": "Manufacturer",
+      "model": "Model",
+      "paused": "Paused",
+      "remaining": "Remaining",
+      "serialNumber": "Serial Number"
+    }
+  },
+  "message": {
+    "noDevices": "No Devices",
+    "warnRemoveDevice": "Are you sure you want to remove this device?"
+  },
+  "state": {
+    "canceled": "Canceled",
+    "canceled_error": "Error: Canceled",
+    "cancelling": "Cancelling",
+    "cancelling_error": "Error: Cancelling",
+    "finished": "Print Complete",
+    "idle": "Printer Idle",
+    "paused": "Paused",
+    "paused_error": "Error: Paused",
+    "pausing": "Pausing",
+    "pausing_error": "Error: Pausing",
+    "printing": "{{duration}} remaining",
+    "staring": "Starting",
+    "userbusy": "User Busy"
+  },
+  "title": {
+    "devices": "Devices",
+    "removeDevice": "Remove Devices"
+  }
+}
