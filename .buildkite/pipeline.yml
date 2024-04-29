@@ -12,7 +12,9 @@ steps:
   - label: ":aws: :s3: Deploy to Dev Environment"
     command:
       - aws s3 cp --sse AES256 --recursive locales s3://i18n-dev-asiga-com
-      - aws cloudfront create-invalidation --distribution-id $(aws cloudfront list-distributions --query "DistributionList.Items[?Aliases.Items[0]=='app.dev.asiga.com'].{Id: Id}" | jq -r '.[0].Id') --paths "/*"
+      - DISTRIBUTION=$(aws cloudfront list-distributions --query "DistributionList.Items[?Aliases.Items[0]=='app.dev.asiga.com'].{Id: Id}" | jq -r '.[0].Id')
+      - echo $$DISTRIBUTION
+      - aws cloudfront create-invalidation --distribution-id $$DISTRIBUTION --paths "/*"
     env:
       AWS_ASSUME_ROLE_ARN: arn:aws:iam::037538343661:role/i18n-dev-asiga-com-deployment
     plugins:
