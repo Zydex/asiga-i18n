@@ -1,6 +1,6 @@
 {
   "alt": {
-    "logo": "Asiga Logo."
+    "logo": "Asiga Web Portal"
   },
   "boolean": {
     "false": "false",
@@ -132,8 +132,6 @@
     "sort": "Sort"
   },
   "title": {
-    "settings": "Settings",
-    "warning": "Warning",
-    "webPortal": "Asiga Web Portal {{version}}"
+    "warning": "Warning"
   }
 }
