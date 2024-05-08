@@ -1,6 +1,7 @@
 {
   "alt": {
-    "logo": "Asiga Web Portal"
+    "logo": "Asiga Web Portal",
+    "sort": "Sort By"
   },
   "boolean": {
     "false": "false",
@@ -9,19 +10,17 @@
   "button": {
     "add": "Add",
     "back": "Back",
-    "block": "Block",
     "cancel": "Cancel",
     "close": "Close",
     "continue": "Continue",
-    "delete": "Delete",
     "edit": "Edit",
-    "filter": "Filter",
+    "invite": "Invite",
     "logout": "Logout",
     "pause": "Pause",
+    "refresh": "Refresh",
     "remove": "Remove",
-    "reset": "Reset",
     "save": "Save",
-    "unblock": "UnBlock"
+    "update": "Update"
   },
   "dialog": {
     "no": "No",
@@ -91,6 +90,8 @@
     "userNotFound": "User not found.",
     "userNotInOrg": "User is not associated with an organisation.",
     "userResetForbidden": "Unable to reset users password.",
+    "userRoleAddForbidden": "Unable to add role to user.",
+    "userRoleRemoveForbidden": "Unable to remove role from user.",
     "userSearchField": "Invalid field settings for user search.",
     "userSearchForbidden": "Unable to search for users.",
     "userSearchPagination": "Invalid pagination settings for user search.",
@@ -110,9 +111,9 @@
   "links": {
     "devices": "Devices",
     "inbox": "Inbox",
+    "manage": "Manage",
     "parts": "Parts",
     "printJobs": "Print Jobs",
-    "settings": "Settings",
     "timeline": "Timeline"
   },
   "loading": {
@@ -120,18 +121,12 @@
   },
   "table": {
     "expandRow": "Expand Row",
-    "field": "Field",
-    "order": {
-      "ascending": "Ascending",
-      "descending": "Descending",
-      "label": "Order"
-    },
     "pageAmount": "Amount",
-    "perPage": "Per Page",
-    "search": "Search",
-    "sort": "Sort"
+    "perPage": "Per Page"
   },
   "title": {
+    "integrations": "Integrations",
+    "manage": "Manage",
     "warning": "Warning"
   }
 }

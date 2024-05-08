@@ -2,22 +2,34 @@
   "alt": {
     "profile": "User profile"
   },
-  "field": {
-    "email": "email",
-    "name": "name",
-    "nickname": "nickname"
+  "button": {
+    "add": "Add User",
+    "changeRole": "Change Role",
+    "remove": "Remove User",
+    "remove_one": "Remove User",
+    "remove_other": "Remove Users",
+    "restoreAccess": "Restore Access"
   },
   "label": {
     "email": "Email",
+    "enterEmails": "Enter email, comma separated",
     "name": "Name",
     "nickname": "Nickname",
-    "profile": "Profile",
-    "role": "Role",
+    "search": "Search for a user",
     "updatedAt": "Updated At",
     "users": "Users"
   },
   "message": {
-    "confirmDelAccounts": "Are you sure you wish to delete these accounts? This cannot be undone.",
+    "addUsers": "Enter emails below to invite users to this organisation.",
+    "addUsers_org": "Enter emails below to invite users to {{org}}.",
+    "changeRole": "Update role:",
+    "changeRole_user": "Update the role of {{user}}:",
+    "confirmDelAccounts_one": "This user will no longer have access to this organisation.",
+    "confirmDelAccounts_other": "These users will no longer have access to this organisation.",
+    "confirmDelAccounts_org_one": "This user will no longer have access to {{org}}.",
+    "confirmDelAccounts_org_other": "These users will no longer have access to {{org}}.",
+    "confirmRestoreAccess": "Access was revoked due to brute force protections.",
+    "confirmRestoreAccess_user": "Access for {{user}} was revoked due to brute force protections.",
     "warnCreateAccount": "Are you sure you wish to create this account?"
   },
   "role": {
@@ -28,10 +40,14 @@
     "technician": "Technician"
   },
   "title": {
-    "blocked": "Blocked",
+    "changeRole": "Change Role",
     "edit": "Edit",
-    "invite": "Invite a user",
-    "profile": "Profile",
-    "updatedAt": "Updated At"
+    "email": "Email",
+    "invite": "Invite users",
+    "name": "Name",
+    "remove_one": "Remove user?",
+    "remove_other": "Remove users?",
+    "restoreAccess": "Restore access for user?",
+    "role": "Role"
   }
 }
