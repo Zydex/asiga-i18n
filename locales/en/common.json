@@ -128,5 +128,9 @@
     "integrations": "Integrations",
     "manage": "Manage",
     "warning": "Warning"
+  },
+  "underConstruction": {
+    "subtitle1": "We're building something special",
+    "subtitle2": "Check back later"
   }
 }
