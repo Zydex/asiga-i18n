@@ -8,7 +8,12 @@
     "remove": "Remove User",
     "remove_one": "Remove User",
     "remove_other": "Remove Users",
-    "restoreAccess": "Restore Access"
+    "restoreAccess": "Restore Access",
+    "newPhoto": "New Photo",
+    "removePhoto": "Remove Photo",
+    "uploadPhoto": "Upload Photo",
+    "changePassword": "Change Password",
+    "deleteProfile": "Delete Profile"
   },
   "label": {
     "email": "Email",
@@ -30,7 +35,13 @@
     "confirmDelAccounts_org_other": "These users will no longer have access to {{org}}.",
     "confirmRestoreAccess": "Access was revoked due to brute force protections.",
     "confirmRestoreAccess_user": "Access for {{user}} was revoked due to brute force protections.",
-    "warnCreateAccount": "Are you sure you wish to create this account?"
+    "warnCreateAccount": "Are you sure you wish to create this account?",
+    "profilePicture": "This helps others recognise you and lets you know that you're signed in to the correct account.",
+    "changePassword_email": "A email will be sent to {{email}} with a password change link.",
+    "changePassword": "A email will be sent with a password change link.",
+    "deleteProfile_org": "Your profile will permanently be removed from {{org}}.",
+    "deleteProfile": "Your profile will permanently be removed from your organisation.",
+    "linkSent": "Link Sent"
   },
   "role": {
     "accountant": "Accountant",
@@ -48,6 +59,9 @@
     "remove_one": "Remove user?",
     "remove_other": "Remove users?",
     "restoreAccess": "Restore access for user?",
-    "role": "Role"
+    "role": "Role",
+    "deleteProfile": "Delete Profile",
+    "changePassword": "Change Password",
+    "confirmDeleteProfile": "Confirm profile deletion"
   }
 }

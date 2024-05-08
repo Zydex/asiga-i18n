@@ -127,7 +127,10 @@
   "title": {
     "integrations": "Integrations",
     "manage": "Manage",
-    "warning": "Warning"
+    "warning": "Warning",
+    "profile": "Profile",
+    "photo": "Photo",
+    "name": "Display Name"
   },
   "underConstruction": {
     "subtitle1": "We're building something special",
