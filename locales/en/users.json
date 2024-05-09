@@ -1,6 +1,7 @@
 {
   "alt": {
-    "profile": "User profile"
+    "profile": "User profile",
+    "addUsers": "Add Users"
   },
   "button": {
     "add": "Add User",
@@ -41,7 +42,9 @@
     "changePassword": "A email will be sent with a password change link.",
     "deleteProfile_org": "Your profile will permanently be removed from {{org}}.",
     "deleteProfile": "Your profile will permanently be removed from your organisation.",
-    "linkSent": "Link Sent"
+    "linkSent": "Link Sent",
+    "userPageInfo": "The users in your organisation are shown on this page",
+    "howToAddUsers": "Use the 'Add User' button at the top right of this page or use the button below to add users to your organisation"
   },
   "role": {
     "accountant": "Accountant",
