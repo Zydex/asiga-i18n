@@ -1,6 +1,8 @@
 {
   "alt": {
-    "devices": "Devices"
+    "devices": "Devices",
+    "noDevices": "No Devices",
+    "devicesNeedingAttention": "Devices needing attention"
   },
   "button": {
     "add": "Add Device"
@@ -31,7 +33,11 @@
   },
   "message": {
     "noDevices": "No Devices",
-    "warnRemoveDevice": "Are you sure you want to remove this device?"
+    "warnRemoveDevice": "Are you sure you want to remove this device?",
+    "devicesPageInfo": "The status for all devices in your organisation are shown on this page",
+    "addDevices": "Use the 'Add Devices' button at the top right of this page or use the button below to add devices to your organisation",
+    "allGood": "All good!",
+    "noDevicesNeedAttention": "No devices currently require attention"
   },
   "state": {
     "canceled": "Canceled",
