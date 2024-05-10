@@ -73,6 +73,7 @@
     "partNotFound": "Part not found.",
     "partNotFound_details": "Part with id {{details}} not found.",
     "partUpdateForbidden": "You are not allowed to update a part for this organisation.",
+    "partDequeForbidden": "You are not allowed to dequeue a part that is not awaiting placement.",
     "roleNotFound": "Role id does not exist.",
     "sortField": "Invalid field name.",
     "sortField_details": "Invalid field name: {{details}}.",
