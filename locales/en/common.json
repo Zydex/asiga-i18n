@@ -1,7 +1,8 @@
 {
   "alt": {
     "logo": "Asiga Web Portal",
-    "sort": "Sort By"
+    "sort": "Sort By",
+    "noSearchResults": "No Search Results"
   },
   "boolean": {
     "false": "false",
@@ -135,5 +136,9 @@
   "underConstruction": {
     "subtitle1": "We're building something special",
     "subtitle2": "Check back later"
+  },
+  "message": {
+    "noMatches": "Sorry, no matches were found",
+    "noMatchesHelp": "Check for typos or try more general words\nAlternatively, try using the table filters"
   }
 }
