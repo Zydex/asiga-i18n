@@ -102,7 +102,8 @@
     "validation": "Unable to validate this request.",
     "value": "A invalid value was provided to this request.",
     "workflowNotFound": "Workflow not found.",
-    "workflowNotFound_details": "Workflow with id {{details}} not found."
+    "workflowNotFound_details": "Workflow with id {{details}} not found.",
+    "partMarkAsUploadedIncorrectState": "You are not allowed to mark a part as uploaded that is not in the correct status."
   },
   "label": {
     "fullname": "Full Name",
