@@ -70,7 +70,7 @@
     "uploads": "Uploads"
   },
   "actionBar": {
-    "designSelected": "Design selected",
-    "designsSelected": "Designs selected"
+    "designsSelected_one": "Design selected",
+    "designsSelected_other": "Designs selected"
   }
 }
