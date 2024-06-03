@@ -1,0 +1,76 @@
+{
+  "alt": {
+    "all": "All",
+    "userUpload": "User Uploads"
+  },
+  "button": {
+    "cancel": "Cancel",
+    "expand": "Expand",
+    "retry": "Retry",
+    "uploadPart": "Upload Part"
+  },
+  "label": {
+    "toReview": "To Review",
+    "toAccept": "To Accept",
+    "accepted": "Accepted",
+    "rejected": "Rejected",
+    "search": "Search for a part"
+  },
+  "message": {
+    "noParts": "No Parts",
+    "partsPageInfo": "The status for all parts in your organisation are shown on this page",
+    "uploadParts": "Use the 'Upload Parts' button at the top right of this page or use the button below to add parts to your organisation"
+  },
+  "uploadErrors": {
+    "fileTooLarge": "File size exceeds 500MB limit",
+    "invalidFileFormat": "File must be of type .stl"
+  },
+  "table": {
+    "userUpload": "User upload",
+    "partClassification": {
+      "other": "Other",
+      "hollowModel": "Hollow Model",
+      "solidModel": "Solid Model",
+      "crownOrToothOrVeneer": "Crown or Tooth or Veneer",
+      "screwInTooth": "Screw in Tooth",
+      "die": "Die",
+      "flatGingiva": "Flat Gingiva",
+      "pillowGingiva": "Pillow Gingiva",
+      "teethRow": "Teeth Row",
+      "dentureBase": "Denture Base",
+      "denturePartial": "Denture Partial",
+      "tryInDenture": "Try in Denture",
+      "occlusalSplint": "Occlusal Splint",
+      "surgicalGuide": "Surgical Guide",
+      "bridge": "Bridge",
+      "partialFramework": "Partial Framework",
+    },
+    "partStatus": {
+      "uploadPending": "Upload pending",
+      "uploaded": "Uploaded",
+      "submitted": "Submitted",
+      "rejected": "Rejected",
+      "processing": "Processing",
+      "awaitingPlacement": "Awaiting Placement",
+      "placing": "Placing",
+      "placed": "Placed",
+      "printing": "Printing",
+      "printed": "Printed",
+      "failed": "Failed"
+    }
+  },
+
+  "title": {
+    "name": "Name",
+    "partType": "Part type",
+    "received": "Received",
+    "source": "Source",
+    "status": "Status",
+    "template": "Template",
+    "uploads": "Uploads"
+  },
+  "actionBar": {
+    "designSelected": "Design selected",
+    "designsSelected": "Designs selected"
+  }
+}
