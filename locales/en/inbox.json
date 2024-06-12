@@ -21,10 +21,6 @@
     "partsPageInfo": "The status for all parts in your organisation are shown on this page",
     "uploadParts": "Use the 'Upload Parts' button at the top right of this page or use the button below to add parts to your organisation"
   },
-  "uploadErrors": {
-    "fileTooLarge": "File size exceeds 500MB limit",
-    "invalidFileFormat": "File must be of type .stl"
-  },
   "table": {
     "userUpload": "User upload",
     "partClassification": {
@@ -59,7 +55,6 @@
       "failed": "Failed"
     }
   },
-
   "title": {
     "name": "Name",
     "partType": "Part type",
@@ -72,5 +67,11 @@
   "actionBar": {
     "designsSelected_one": "Design selected",
     "designsSelected_other": "Designs selected"
+  },
+  "errors": {
+    "partCreateError": "Error creating part",
+    "noFilesUploaded": "No files uploaded",
+    "fileTooLarge": "File size exceeds 500MB limit",
+    "invalidFileFormat": "File must be of type .stl"
   }
 }
