@@ -7,19 +7,41 @@
     "cancel": "Cancel",
     "expand": "Expand",
     "retry": "Retry",
-    "uploadPart": "Upload Part"
+    "uploadPart": "Upload Part",
+    "download": "Download",
+    "accept": "Accept",
+    "reject": "Reject",
+    "prioritise": "Prioritise",
+    "partType": "Part type",
+    "confirm": "Confirm",
+    "moveToReview": "Move To Review"
+     
   },
   "label": {
-    "toReview": "To Review",
-    "toAccept": "To Accept",
+    "confirm": "Confirm",
+    "review": "Review",
     "accepted": "Accepted",
     "rejected": "Rejected",
     "search": "Search for a part"
   },
-  "message": {
-    "noParts": "No Parts",
-    "partsPageInfo": "The status for all parts in your organisation are shown on this page",
-    "uploadParts": "Use the 'Upload Parts' button at the top right of this page or use the button below to add parts to your organisation"
+  "emptyInboxMessages": {
+    "confirm": {
+      "title": "No parts",
+      "message": "Use the 'Upload Parts' button at the top right of this page or use the button below to add parts to your organisation",
+    },
+    "review": {
+      "title": "No parts to review",
+      "message": "Parts that have been confirmed will appear here ",
+    },
+    "accepted": {
+      "title": "No parts accepted",
+      "message": "Parts from the 'Review' tab will appear here when they have been accepted" 
+    },
+    "rejected": {
+      "title": "No parts rejected",
+      "message": "Parts that have been rejected will appear here "
+    }
+    
   },
   "table": {
     "userUpload": "User upload",
@@ -44,7 +66,10 @@
     "partStatus": {
       "uploadPending": "Upload pending",
       "uploaded": "Uploaded",
-      "submitted": "Submitted",
+      "preProcessing": "Pre-processing",
+      "toConfirm": "To confirm",
+      "toAccept": "To accept",
+      "accepted": "Accepted",
       "rejected": "Rejected",
       "processing": "Processing",
       "awaitingPlacement": "Awaiting Placement",
@@ -52,7 +77,8 @@
       "placed": "Placed",
       "printing": "Printing",
       "printed": "Printed",
-      "failed": "Failed"
+      "failed": "Failed",
+      "offline": "Offline"
     }
   },
   "title": {
