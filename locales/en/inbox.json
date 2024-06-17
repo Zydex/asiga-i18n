@@ -27,7 +27,7 @@
   "emptyInboxMessages": {
     "confirm": {
       "title": "No parts",
-      "message": "Use the 'Upload Parts' button at the top right of this page or use the button below to add parts to your organisation",
+      "message": "Use the 'Upload Parts' button at the top right of this page or use the button below to add parts to your organisation"
     },
     "review": {
       "title": "No parts to review",
