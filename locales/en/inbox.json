@@ -17,6 +17,14 @@
     "moveToReview": "Move To Review"
      
   },
+  "partInspector": {
+    "title_zero": "No items selected",
+    "title_other": "items selected",
+    "partInformation": "Part Information",
+    "Status": "Status",
+    "received": "Received",
+    "Source": "Source"
+  },
   "label": {
     "confirm": "Confirm",
     "review": "Review",
