@@ -30,7 +30,8 @@
     "review": "Review",
     "accepted": "Accepted",
     "rejected": "Rejected",
-    "search": "Search for a part"
+    "search": "Search for a part",
+    "dropFile": "Add file to the Inbox"
   },
   "emptyInboxMessages": {
     "confirm": {
