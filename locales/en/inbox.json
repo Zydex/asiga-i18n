@@ -7,19 +7,50 @@
     "cancel": "Cancel",
     "expand": "Expand",
     "retry": "Retry",
-    "uploadPart": "Upload Part"
+    "uploadPart": "Upload Part",
+    "download": "Download",
+    "accept": "Accept",
+    "reject": "Reject",
+    "prioritise": "Prioritise",
+    "partType": "Part type",
+    "confirm": "Confirm",
+    "moveToReview": "Move To Review"
+     
+  },
+  "partInspector": {
+    "title_zero": "No items selected",
+    "title_other": "items selected",
+    "partInformation": "Part Information",
+    "Status": "Status",
+    "received": "Received",
+    "Source": "Source"
   },
   "label": {
-    "toReview": "To Review",
-    "toAccept": "To Accept",
+    "confirm": "Confirm",
+    "review": "Review",
     "accepted": "Accepted",
     "rejected": "Rejected",
-    "search": "Search for a part"
+    "search": "Search for a part",
+    "dropFile": "Add file to the Inbox"
   },
-  "message": {
-    "noParts": "No Parts",
-    "partsPageInfo": "The status for all parts in your organisation are shown on this page",
-    "uploadParts": "Use the 'Upload Parts' button at the top right of this page or use the button below to add parts to your organisation"
+  "emptyInboxMessages": {
+    "confirm": {
+      "title": "No parts",
+      "message": "Use the 'Upload Parts' button at the top right of this page or use the button below to add parts to your organisation"
+    },
+    "review": {
+      "title": "No parts to review",
+      "message": "Parts that have been confirmed will appear here "
+    },
+    "accepted": {
+      "title": "No parts accepted",
+      "message": "Parts from the 'Review' tab will appear here when they have been accepted" 
+    },
+    "rejected": {
+      "title": "No parts rejected",
+      "message": "Parts that have been rejected will appear here "
+    }
+    
   },
   "table": {
     "userUpload": "User upload",
@@ -42,17 +73,14 @@
       "partialFramework": "Partial Framework"
     },
     "partStatus": {
-      "uploadPending": "Upload pending",
-      "uploaded": "Uploaded",
-      "submitted": "Submitted",
-      "rejected": "Rejected",
       "processing": "Processing",
-      "awaitingPlacement": "Awaiting Placement",
-      "placing": "Placing",
-      "placed": "Placed",
-      "printing": "Printing",
+      "toConfirm": "To confirm",
+      "pendingAcceptance": "Pending acceptance",
+      "printReady": "Print ready",
+      "addedToJob": "Added to job",
       "printed": "Printed",
-      "failed": "Failed"
+      "reworkedOffline": "Reworked offline",
+      "rejected": "Rejected"
     }
   },
   "title": {
@@ -72,6 +100,13 @@
     "partCreateError": "Error creating part",
     "noFilesUploaded": "No files uploaded",
     "fileTooLarge": "File size exceeds 500MB limit",
-    "invalidFileFormat": "File must be of type .stl"
+    "invalidFileFormat": "File must be of type .stl",
+    "rejectPartError": "Failed to reject part",
+    "acceptPartError": "Failed to accept part",
+    "downloadPartError": "Failed to download part",
+    "confirmPartError": "Failed to confirm part",
+    "undoAcceptPartError": "Failed to undo accept part",
+    "setPartTypeError": "Failed to update part type",
+    "cancelPartUploadError": "Failed to cancel part upload"
   }
 }
