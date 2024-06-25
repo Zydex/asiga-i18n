@@ -113,6 +113,7 @@
     "downloadPartError": "Failed to download part",
     "confirmPartError": "Failed to confirm part",
     "undoAcceptPartError": "Failed to undo accept part",
-    "setPartTypeError": "Failed to update part type"
+    "setPartTypeError": "Failed to update part type",
+    "cancelPartUploadError": "Failed to cancel part upload"
   }
 }
