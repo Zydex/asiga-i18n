@@ -107,6 +107,12 @@
     "partCreateError": "Error creating part",
     "noFilesUploaded": "No files uploaded",
     "fileTooLarge": "File size exceeds 500MB limit",
-    "invalidFileFormat": "File must be of type .stl"
+    "invalidFileFormat": "File must be of type .stl",
+    "rejectPartError": "Failed to reject part",
+    "acceptPartError": "Failed to accept part",
+    "downloadPartError": "Failed to download part",
+    "confirmPartError": "Failed to confirm part",
+    "undoAcceptPartError": "Failed to undo accept part",
+    "setPartTypeError": "Failed to update part type"
   }
 }
