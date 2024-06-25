@@ -73,21 +73,14 @@
       "partialFramework": "Partial Framework"
     },
     "partStatus": {
-      "uploadPending": "Upload pending",
-      "uploaded": "Uploaded",
-      "preProcessing": "Pre-processing",
-      "toConfirm": "To confirm",
-      "toAccept": "To accept",
-      "accepted": "Accepted",
-      "rejected": "Rejected",
       "processing": "Processing",
-      "awaitingPlacement": "Awaiting Placement",
-      "placing": "Placing",
-      "placed": "Placed",
-      "printing": "Printing",
+      "toConfirm": "To confirm",
+      "pendingAcceptance": "Pending acceptance",
+      "printReady": "Print ready",
+      "addedToJob": "Added to job",
       "printed": "Printed",
-      "failed": "Failed",
-      "offline": "Offline"
+      "reworkedOffline": "Reworked offline",
+      "rejected": "Rejected"
     }
   },
   "title": {
