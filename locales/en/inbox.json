@@ -21,9 +21,10 @@
     "title_zero": "No items selected",
     "title_other": "items selected",
     "partInformation": "Part Information",
-    "Status": "Status",
+    "status": "Status",
     "received": "Received",
-    "Source": "Source"
+    "source": "Source",
+    "partType":"Part Type"
   },
   "label": {
     "confirm": "Confirm",
