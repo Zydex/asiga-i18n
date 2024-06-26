@@ -31,7 +31,8 @@
     "accepted": "Accepted",
     "rejected": "Rejected",
     "search": "Search for a part",
-    "dropFile": "Add file to the Inbox"
+    "dropFile": "Add file to the Inbox",
+    "preparingDownload": "Preparing download"
   },
   "emptyInboxMessages": {
     "confirm": {
@@ -75,7 +76,7 @@
     "partStatus": {
       "processing": "Processing",
       "toConfirm": "To confirm",
-      "pendingAcceptance": "Pending acceptance",
+      "toAccept": "To accept",
       "printReady": "Print ready",
       "addedToJob": "Added to job",
       "printed": "Printed",
