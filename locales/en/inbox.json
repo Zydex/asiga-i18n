@@ -33,7 +33,9 @@
     "rejected": "Rejected",
     "search": "Search for a part",
     "dropFile": "Add file to the Inbox",
-    "preparingDownload": "Preparing download"
+    "preparingDownload": "Preparing download",
+    "designSelected_one": "Design selected",
+    "designSelected_other": "Designs selected"
   },
   "emptyInboxMessages": {
     "confirm": {
@@ -93,10 +95,6 @@
     "status": "Status",
     "template": "Template",
     "uploads": "Uploads"
-  },
-  "actionBar": {
-    "designsSelected_one": "Design selected",
-    "designsSelected_other": "Designs selected"
   },
   "errors": {
     "partCreateError": "Error creating part",
