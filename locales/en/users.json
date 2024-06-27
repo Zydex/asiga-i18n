@@ -1,20 +1,20 @@
 {
   "alt": {
-    "profile": "User profile",
-    "addUsers": "Add Users"
+    "addUsers": "Add Users",
+    "profile": "User profile"
   },
   "button": {
     "add": "Add User",
+    "changePassword": "Change Password",
     "changeRole": "Change Role",
+    "deleteProfile": "Delete Profile",
+    "newPhoto": "New Photo",
     "remove": "Remove User",
     "remove_one": "Remove User",
     "remove_other": "Remove Users",
-    "restoreAccess": "Restore Access",
-    "newPhoto": "New Photo",
     "removePhoto": "Remove Photo",
-    "uploadPhoto": "Upload Photo",
-    "changePassword": "Change Password",
-    "deleteProfile": "Delete Profile"
+    "restoreAccess": "Restore Access",
+    "uploadPhoto": "Upload Photo"
   },
   "label": {
     "email": "Email",
@@ -28,6 +28,8 @@
   "message": {
     "addUsers": "Enter emails below to invite users to this organisation.",
     "addUsers_org": "Enter emails below to invite users to {{org}}.",
+    "changePassword": "A email will be sent with a password change link.",
+    "changePassword_email": "A email will be sent to {{email}} with a password change link.",
     "changeRole": "Update role:",
     "changeRole_user": "Update the role of {{user}}:",
     "confirmDelAccounts_one": "This user will no longer have access to this organisation.",
@@ -36,15 +38,13 @@
     "confirmDelAccounts_org_other": "These users will no longer have access to {{org}}.",
     "confirmRestoreAccess": "Access was revoked due to brute force protections.",
     "confirmRestoreAccess_user": "Access for {{user}} was revoked due to brute force protections.",
-    "warnCreateAccount": "Are you sure you wish to create this account?",
-    "profilePicture": "This helps others recognise you and lets you know that you're signed in to the correct account.",
-    "changePassword_email": "A email will be sent to {{email}} with a password change link.",
-    "changePassword": "A email will be sent with a password change link.",
-    "deleteProfile_org": "Your profile will permanently be removed from {{org}}.",
     "deleteProfile": "Your profile will permanently be removed from your organisation.",
+    "deleteProfile_org": "Your profile will permanently be removed from {{org}}.",
+    "howToAddUsers": "Use the 'Add User' button at the top right of this page or use the button below to add users to your organisation",
     "linkSent": "Link Sent",
+    "profilePicture": "This helps others recognise you and lets you know that you're signed in to the correct account.",
     "userPageInfo": "The users in your organisation are shown on this page",
-    "howToAddUsers": "Use the 'Add User' button at the top right of this page or use the button below to add users to your organisation"
+    "warnCreateAccount": "Are you sure you wish to create this account?"
   },
   "role": {
     "accountant": "Accountant",
@@ -54,17 +54,18 @@
     "technician": "Technician"
   },
   "title": {
+    "changePassword": "Change Password",
     "changeRole": "Change Role",
+    "confirmDeleteProfile": "Confirm profile deletion",
+    "deleteProfile": "Delete Profile",
     "edit": "Edit",
     "email": "Email",
     "invite": "Invite users",
     "name": "Name",
+    "profile": "",
     "remove_one": "Remove user?",
     "remove_other": "Remove users?",
     "restoreAccess": "Restore access for user?",
-    "role": "Role",
-    "deleteProfile": "Delete Profile",
-    "changePassword": "Change Password",
-    "confirmDeleteProfile": "Confirm profile deletion"
+    "role": "Role"
   }
 }

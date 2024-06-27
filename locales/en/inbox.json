@@ -1,0 +1,112 @@
+{
+  "alt": {
+    "all": "All",
+    "userUpload": "User Uploads"
+  },
+  "button": {
+    "cancel": "Cancel",
+    "expand": "Expand",
+    "retry": "Retry",
+    "uploadPart": "Upload Part",
+    "download": "Download",
+    "accept": "Accept",
+    "reject": "Reject",
+    "prioritise": "Prioritise",
+    "partType": "Part type",
+    "confirm": "Confirm",
+    "moveToReview": "Move To Review"
+     
+  },
+  "partInspector": {
+    "title_zero": "No items selected",
+    "title_other": "{{count}} items selected",
+    "partInformation": "Part Information",
+    "status": "Status",
+    "received": "Received",
+    "source": "Source",
+    "partType":"Part Type"
+  },
+  "label": {
+    "confirm": "Confirm",
+    "review": "Review",
+    "accepted": "Accepted",
+    "rejected": "Rejected",
+    "search": "Search for a part",
+    "dropFile": "Add file to the Inbox",
+    "preparingDownload": "Preparing download",
+    "designSelected_one": "Design selected",
+    "designSelected_other": "{{count}} Designs selected"
+  },
+  "emptyInboxMessages": {
+    "confirm": {
+      "title": "No parts",
+      "message": "Use the 'Upload Parts' button at the top right of this page or use the button below to add parts to your organisation"
+    },
+    "review": {
+      "title": "No parts to review",
+      "message": "Parts that have been confirmed will appear here "
+    },
+    "accepted": {
+      "title": "No parts accepted",
+      "message": "Parts from the 'Review' tab will appear here when they have been accepted" 
+    },
+    "rejected": {
+      "title": "No parts rejected",
+      "message": "Parts that have been rejected will appear here "
+    }
+    
+  },
+  "table": {
+    "userUpload": "User upload",
+    "partClassification": {
+      "other": "Other",
+      "hollowModel": "Hollow Model",
+      "solidModel": "Solid Model",
+      "crownOrToothOrVeneer": "Crown or Tooth or Veneer",
+      "screwInTooth": "Screw in Tooth",
+      "die": "Die",
+      "flatGingiva": "Flat Gingiva",
+      "pillowGingiva": "Pillow Gingiva",
+      "teethRow": "Teeth Row",
+      "dentureBase": "Denture Base",
+      "denturePartial": "Denture Partial",
+      "tryInDenture": "Try in Denture",
+      "occlusalSplint": "Occlusal Splint",
+      "surgicalGuide": "Surgical Guide",
+      "bridge": "Bridge",
+      "partialFramework": "Partial Framework"
+    },
+    "partStatus": {
+      "processing": "Processing",
+      "toConfirm": "To confirm",
+      "toAccept": "To accept",
+      "printReady": "Print ready",
+      "addedToJob": "Added to job",
+      "printed": "Printed",
+      "reworkedOffline": "Reworked offline",
+      "rejected": "Rejected"
+    }
+  },
+  "title": {
+    "name": "Name",
+    "partType": "Part type",
+    "received": "Received",
+    "source": "Source",
+    "status": "Status",
+    "template": "Template",
+    "uploads": "Uploads"
+  },
+  "errors": {
+    "partCreateError": "Error creating part",
+    "noFilesUploaded": "No files uploaded",
+    "fileTooLarge": "File size exceeds 500MB limit",
+    "invalidFileFormat": "File must be of type .stl",
+    "rejectPartError": "Failed to reject part",
+    "acceptPartError": "Failed to accept part",
+    "downloadPartError": "Failed to download part",
+    "confirmPartError": "Failed to confirm part",
+    "undoAcceptPartError": "Failed to undo accept part",
+    "setPartTypeError": "Failed to update part type",
+    "cancelPartUploadError": "Failed to cancel part upload"
+  }
+}

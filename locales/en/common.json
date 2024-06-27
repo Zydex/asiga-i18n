@@ -1,8 +1,8 @@
 {
   "alt": {
     "logo": "Asiga Web Portal",
-    "sort": "Sort By",
-    "noSearchResults": "No Search Results"
+    "noSearchResults": "No Search Results",
+    "sort": "Sort By"
   },
   "boolean": {
     "false": "false",
@@ -12,16 +12,16 @@
     "add": "Add",
     "back": "Back",
     "cancel": "Cancel",
-    "close": "Close",
     "continue": "Continue",
-    "edit": "Edit",
     "invite": "Invite",
     "logout": "Logout",
-    "pause": "Pause",
     "refresh": "Refresh",
     "remove": "Remove",
-    "save": "Save",
-    "update": "Update"
+    "update": "Update",
+    "close": "Close",
+    "edit": "Edit",
+    "pause": "Pause",
+    "save": "Save"
   },
   "dialog": {
     "no": "No",
@@ -69,6 +69,7 @@
     "organisationViewUsersForbidden": "You are not allowed to view users this organisation.",
     "partCreateForbidden": "You are not allowed to create a part for this organisation.",
     "partDeleteForbidden": "You are not allowed to delete a part for this organisation.",
+    "partDequeForbidden": "You are not allowed to dequeue a part that is not awaiting placement.",
     "partGetForbidden": "You are not allowed to get a part for this organisation.",
     "partNotFound": "Part not found.",
     "partNotFound_details": "Part with id {{details}} not found.",
@@ -153,6 +154,10 @@
   "loading": {
     "unavailable": "Unavailable"
   },
+  "message": {
+    "noMatches": "Sorry, no matches were found",
+    "noMatchesHelp": "Check for typos or try more general words\nAlternatively, try using the table filters"
+  },
   "table": {
     "expandRow": "Expand Row",
     "pageAmount": "Amount",
@@ -161,17 +166,13 @@
   "title": {
     "integrations": "Integrations",
     "manage": "Manage",
-    "warning": "Warning",
-    "profile": "Profile",
+    "name": "Display Name",
     "photo": "Photo",
-    "name": "Display Name"
+    "profile": "Profile",
+    "warning": "Warning"
   },
   "underConstruction": {
     "subtitle1": "We're building something special",
     "subtitle2": "Check back later"
-  },
-  "message": {
-    "noMatches": "Sorry, no matches were found",
-    "noMatchesHelp": "Check for typos or try more general words\nAlternatively, try using the table filters"
   }
 }
