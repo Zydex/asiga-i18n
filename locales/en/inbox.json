@@ -19,7 +19,7 @@
   },
   "partInspector": {
     "title_zero": "No items selected",
-    "title_other": "items selected",
+    "title_other": "{{count}} items selected",
     "partInformation": "Part Information",
     "status": "Status",
     "received": "Received",
@@ -35,7 +35,7 @@
     "dropFile": "Add file to the Inbox",
     "preparingDownload": "Preparing download",
     "designSelected_one": "Design selected",
-    "designSelected_other": "Designs selected"
+    "designSelected_other": "{{count}} Designs selected"
   },
   "emptyInboxMessages": {
     "confirm": {
