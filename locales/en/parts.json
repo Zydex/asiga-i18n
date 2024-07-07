@@ -1,0 +1,29 @@
+{
+    "label": {
+        "allParts": "All Parts",
+        "printReady": "Print ready",
+        "sent": "Sent",
+        "rejectModal": "Selected parts will no longer be considered for any print jobs.",
+        "rejectModalTitle_one": "Reject",
+        "rejectModalTitle_other": "Reject {{count}} selected parts?"
+        
+    },
+    "button": {
+        "reject": "Reject"
+    },
+    "emptyPartsMessages": {
+        "allParts": {
+            "title": "No parts print ready",
+            "message": "When parts are accepted in the inbox they will appear here to be considered for printing"
+        },
+        "printReady": {
+            "title": "No parts queued",
+            "message": "Parts that are ready to be added to a print job will appear here"
+        },
+        "sent": {
+            "title": "No parts sent",
+            "message": "Parts will appear here when they have been assembled in a print job and sent to the printer" 
+        }
+    }
+  }
+  
