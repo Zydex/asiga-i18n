@@ -35,7 +35,8 @@
     "dropFile": "Add file to the Inbox",
     "preparingDownload": "Preparing download",
     "designSelected_one": "{{count}} Design selected",
-    "designSelected_other": "{{count}} Designs selected"
+    "designSelected_other": "{{count}} Designs selected",
+    "uploadCancelled": "{{partName}} (cancelled)"
   },
   "emptyInboxMessages": {
     "confirm": {
