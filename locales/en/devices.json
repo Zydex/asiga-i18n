@@ -52,7 +52,8 @@
     "pausing_error": "Error: Pausing",
     "printing": "{{duration}} remaining",
     "staring": "Starting",
-    "userbusy": "User Busy"
+    "userbusy": "User Busy",
+    "offline": "Offline"
   },
   "title": {
     "removeDevice": "Remove Devices"
