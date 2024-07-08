@@ -56,6 +56,8 @@
     "offline": "Offline"
   },
   "title": {
-    "removeDevice": "Remove Devices"
+    "removeDevice": "Remove Devices",
+    "devices": "Devices"
+
   }
 }
