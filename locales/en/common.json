@@ -22,7 +22,8 @@
     "edit": "Edit",
     "pause": "Pause",
     "save": "Save",
-    "reject": "Reject"
+    "reject": "Reject",
+    "accept": "Accept"
   },
   "dialog": {
     "no": "No",
@@ -156,7 +157,11 @@
     "rejectModalTitle_other": "Reject {{count}} selected parts?",
     "rejectingParts": "Rejecting parts",
     "rejectedSuccess_one": "{{count}} part moved to Rejected",
-    "rejectedSuccess_other": "{{count}} parts moved to Rejected"
+    "rejectedSuccess_other": "{{count}} parts moved to Rejected",
+    "itemSelected": "Item selected",
+    "itemSelected_one": "{{count}} item selected",
+    "itemSelected_other": "{{count}} items selected",
+    "itemSelected_zero": "No items selected"
   },
   "links": {
     "devices": "Devices",
