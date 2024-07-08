@@ -56,6 +56,8 @@
     "jobNoSlicedBuildFile": "The job does not have a sliced build file ready for printing.",
     "jobNotFound": "Job not found.",
     "jobNotFound_details": "Job with id {{details}} not found.",
+    "jobReviewIncorrectState": "Job is not waiting for review.",
+    "jobDownloadIncorrectState": "A job can only be downloaded when it is waiting review.",
     "luceneParseError": "Unable to parse Lucene Query.",
     "luceneIllegalCharacterError": "Illegal character in lucene query.",
     "luceneIllegalCharacterError_details": "Illegal character in lucene query. ({{details}})",

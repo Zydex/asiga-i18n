@@ -1,0 +1,44 @@
+{
+    "label": {
+        "estimatedPrintTime": "Estimated Print Time",
+        "estimatedMaterial": "Estimated Material",
+        "targetDevice": "Target Device",
+        "partName": "Part Name",
+        "jobsTab": "Job Tabs",
+        "toReview": "To Review",
+        "accepted": "Accepted",
+        "rejected": "Rejected"
+    },
+    "button": {
+        "reshuffle": "Reshuffle",
+        "download": "Download"
+    },
+    "details": {
+        "jobInformation": "Job Information",
+        "parts": "Parts"
+    },
+    "message": {
+        "noJobs": "No Jobs Found.",
+        "noParts": "This job has no parts.",
+        "rejectInfo": "Pressing 'Reshuffle' will result in part position and rotation being varied as part of a new print job. Some parts may be removed or added during the reshuffle.",
+        "downloadInfo": "Alternatively, the print job can be downloaded for editing in Composer."
+    },
+    "title": {
+        "material": "Material",
+        "jobNumber": "Job Number",
+        "device": "Device",
+        "status": "Status",
+        "printJobs": "Print Jobs",
+        "rejectJob": "Reshuffle rejected job?"
+    },
+    "status": {
+        "generating": "Generating print job",
+        "awaitingApproval": "Awaiting Approval",
+        "printPending": "Print Pending",
+        "printing": "Printing",
+        "printed": "Printed",
+        "failed": "Failed",
+        "cancelled": "Cancelled",
+        "offline": "Reworked Offline"
+    }
+}
