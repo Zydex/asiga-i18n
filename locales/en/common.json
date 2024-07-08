@@ -150,7 +150,7 @@
     "settingsTab": "Settings Tab",
     "preparingDownload": "Preparing download",
     "rejectModal": "Selected parts will no longer be considered for any print jobs.",
-    "rejectModalTitle_one": "Reject",
+    "rejectModalTitle_one": "Reject {{partName}}?",
     "rejectModalTitle_other": "Reject {{count}} selected parts?",
     "rejectingParts": "Rejecting parts",
     "rejectedSuccess_one": "{{count}} part moved to Rejected",
