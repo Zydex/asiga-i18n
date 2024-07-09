@@ -39,6 +39,7 @@
         "printed": "Printed",
         "failed": "Failed",
         "cancelled": "Cancelled",
-        "offline": "Reworked Offline"
+        "offline": "Reworked Offline",
+        "prepareToSend": "Preparing To Send"
     }
 }
