@@ -95,7 +95,8 @@
     "source": "Source",
     "status": "Status",
     "template": "Template",
-    "uploads": "Uploads"
+    "uploads": "Uploads",
+    "inbox": "Inbox"
   },
   "errors": {
     "partCreateError": "Error creating part",

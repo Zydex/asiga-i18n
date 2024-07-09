@@ -17,6 +17,10 @@
             "title": "No parts sent",
             "message": "Parts will appear here when they have been assembled in a print job and sent to the printer" 
         }
+    },
+    "title": {
+        "parts": "Parts"
     }
+
   }
   
