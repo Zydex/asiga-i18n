@@ -7,7 +7,8 @@
         "jobsTab": "Job Tabs",
         "toReview": "To Review",
         "accepted": "Accepted",
-        "rejected": "Rejected"
+        "rejected": "Rejected",
+        "search": "Search for jobs"
     },
     "button": {
         "reshuffle": "Reshuffle",
