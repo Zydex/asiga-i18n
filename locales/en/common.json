@@ -23,7 +23,9 @@
     "pause": "Pause",
     "save": "Save",
     "reject": "Reject",
-    "accept": "Accept"
+    "accept": "Accept",
+    "connect": "Connect",
+    "unlink": "Unlink"
   },
   "dialog": {
     "no": "No",
