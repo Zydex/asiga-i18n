@@ -12,7 +12,8 @@
     },
     "button": {
         "reshuffle": "Reshuffle",
-        "download": "Download"
+        "download": "Download",
+        "moveOffline": "Rework Offline"
     },
     "details": {
         "jobInformation": "Job Information",
@@ -22,7 +23,10 @@
         "noJobs": "No Jobs Found.",
         "noParts": "This job has no parts.",
         "rejectInfo": "Pressing 'Reshuffle' will result in part position and rotation being varied as part of a new print job. Some parts may be removed or added during the reshuffle.",
-        "downloadInfo": "Alternatively, the print job can be downloaded for editing in Composer."
+        "downloadInfo": "Alternatively, the print job can be downloaded for editing in Composer.",
+        "moveOffline": "This will reject the job and download it for editing in composer.",
+        "moveOffline_one": "This will reject the selected job and download it for editing in composer.",
+        "moveOffline_other": "This will reject the selected jobs and download them for editing in composer."
     },
     "title": {
         "material": "Material",
@@ -30,7 +34,10 @@
         "device": "Device",
         "status": "Status",
         "printJobs": "Print Jobs",
-        "rejectJob": "Reshuffle rejected job?"
+        "rejectJob": "Reshuffle rejected job?",
+        "moveOffline": "Rework job offline?",
+        "moveOffline_one": "Rework job offline?",
+        "moveOffline_other": "Rework jobs offline?"
     },
     "status": {
         "generating": "Generating print job",
