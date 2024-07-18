@@ -171,7 +171,11 @@
     "itemSelected": "Item selected",
     "itemSelected_one": "{{count}} item selected",
     "itemSelected_other": "{{count}} items selected",
-    "itemSelected_zero": "No items selected"
+    "itemSelected_zero": "No items selected",
+    "cancelUploadsModalTitle": "Cancel remaining uploads?",
+    "cancelUploadsModalBody": "Part uploads are not complete. Would you like to cancel the remaining uploads?",
+    "cancelUploadsModalButtonPrimary": "Cancel Uploads",
+    "cancelUploadModalButtonSecondary": "Continue Uploads"
   },
   "links": {
     "devices": "Devices",
