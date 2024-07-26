@@ -41,13 +41,13 @@
     },
     "status": {
         "generating": "Generating print job",
-        "awaitingApproval": "Awaiting Approval",
-        "printPending": "Print Pending",
+        "awaitingApproval": "Awaiting approval",
+        "printPending": "Print pending",
         "printing": "Printing",
         "printed": "Printed",
         "failed": "Failed",
         "cancelled": "Cancelled",
-        "offline": "Reworked Offline",
-        "prepareToSend": "Preparing To Send"
+        "offline": "Reworked offline",
+        "prepareToSend": "Preparing to send"
     }
 }
