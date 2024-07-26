@@ -26,7 +26,10 @@
         "downloadInfo": "Alternatively, the print job can be downloaded for editing in Composer.",
         "moveOffline": "This will reject the job and download it for editing in composer.",
         "moveOffline_one": "This will reject the selected job and download it for editing in composer.",
-        "moveOffline_other": "This will reject the selected jobs and download them for editing in composer."
+        "moveOffline_other": "This will reject the selected jobs and download them for editing in composer.",
+        "submittingJob": "Submitting #{{id}}",
+        "submittingJob_device": "Submitting  <bold>#{{id}}</bold> to <bold>{{device}}</bold>",
+        "reworkOffline": "Print job <bold>#{{id}}</bold> marked as <bold>Reworked offline</bold>"
     },
     "title": {
         "material": "Material",
