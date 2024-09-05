@@ -190,7 +190,9 @@
   },
   "message": {
     "noMatches": "Sorry, no matches were found",
-    "noMatchesHelp": "Check for typos or try more general words\nAlternatively, try using the table filters"
+    "noMatchesHelp": "Check for typos or try more general words\nAlternatively, try using the table filters",
+    "noConnection": "Unable to connect, retrying in {{time}}",
+    "reconnecting": "Reconnecting..."
   },
   "table": {
     "expandRow": "Expand Row",
