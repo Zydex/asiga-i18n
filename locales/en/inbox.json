@@ -85,7 +85,8 @@
       "addedToJob": "Added to job",
       "printed": "Printed",
       "reworkedOffline": "Reworked offline",
-      "rejected": "Rejected"
+      "rejected": "Rejected",
+      "failed": "Failed"
     }
   },
   "title": {
