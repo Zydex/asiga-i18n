@@ -205,7 +205,8 @@
     "name": "Display Name",
     "photo": "Photo",
     "profile": "Profile",
-    "warning": "Warning"
+    "warning": "Warning",
+    "manageSubscription": "Manage subscription"
   },
   "underConstruction": {
     "subtitle1": "We're building something special",
