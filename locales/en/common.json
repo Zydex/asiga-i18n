@@ -206,7 +206,8 @@
     "photo": "Photo",
     "profile": "Profile",
     "warning": "Warning",
-    "manageSubscription": "Manage subscription"
+    "manageSubscription": "Manage subscription",
+    "subscriptionOptions": "Subscription Options"
   },
   "underConstruction": {
     "subtitle1": "We're building something special",
