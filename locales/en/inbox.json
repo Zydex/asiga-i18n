@@ -75,7 +75,8 @@
       "occlusalSplint": "Occlusal Splint",
       "surgicalGuide": "Surgical Guide",
       "bridge": "Bridge",
-      "partialFramework": "Partial Framework"
+      "partialFramework": "Partial Framework",
+      "dentureAOX": "Denture AOX"
     },
     "partStatus": {
       "processing": "Processing",
