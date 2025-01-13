@@ -1,0 +1,30 @@
+{
+    "title": {
+       "newSubscription": "New Subscription",
+       "subscription": "Subscription",
+       "organisation": "Organisation",
+       "subscriptionStatus": "Subscription Status",
+       "manageBilling": "Manage Billing",
+       "subscriptionTiers": "Subscription Tiers",
+       "availableWithSubscription": "Available with a Subscription",
+       "trialEnding": "Trial ending in {{amount}} days",
+       "trialEndingUnknown": "Trial ending",
+       "trialEnded": "Trial has ended"
+    },
+    "description": {
+       "subscriptionStatus": "{{subscriptionTier}} which renews on {{subscriptionEnd, datetime}}",
+       "subscriptionStatusEnding": "{{subscriptionTier}} which ends on {{subscriptionEnd, datetime}}",
+       "subscriptionUnknownActiveStatus": "Your subscription is active",
+       "manageBilling": "View invoices, review and update billing details.",
+       "subscriptionTiers": "You can update your subscription tier whenever the needs of your organisation change.",
+       "paymentIssue": "There was an issue with your payment details.",
+       "trialEnding": "You will need to subscribe when the free trial expires to create and send print jobs.",
+       "trialEnded": "Subscribe to continue creating and sending print jobs."
+    },
+    "button": {
+        "manageBilling": "Manage Billing",
+        "subscriptionOptions": "Subscription Options",
+        "manageSubscription": "Manage subscription",
+        "subscribeLater": "Subscribe Later"
+    }
+}
