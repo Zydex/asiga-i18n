@@ -112,5 +112,8 @@
     "undoAcceptPartError": "Failed to undo accept part",
     "setPartTypeError": "Failed to update part type",
     "cancelPartUploadError": "Failed to cancel part upload"
+  },
+  "description": {
+    "functionality": "Upload parts or automatically pull in parts from third party apps. Parts types are recognised, print templates applied, and added to suitable Print Jobs with other parts automatically."
   }
 }
