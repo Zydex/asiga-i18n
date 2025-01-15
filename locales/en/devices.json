@@ -5,7 +5,10 @@
     "noDevices": "No Devices"
   },
   "button": {
-    "add": "Add Device"
+    "add": "Add Device",
+    "includeDevice": "Include for Automatic Print Jobs",
+    "excludeDevice": "Exclude from Automatic Print Jobs",
+    "exclude": "Exclude"
   },
   "details": {
     "aboutPrinter": "About Printer",
@@ -29,7 +32,8 @@
       "paused": "Paused",
       "remaining": "Remaining",
       "serialNumber": "Serial Number"
-    }
+    },
+    "excludedDevice": "Device has been excluded from receiving print jobs from the Funnel"
   },
   "message": {
     "addDevices": "Use the 'Add Devices' button at the top right of this page or use the button below to add devices to your organisation",
@@ -37,7 +41,10 @@
     "devicesPageInfo": "The status for all devices in your organisation are shown on this page",
     "noDevices": "No Devices",
     "noDevicesNeedAttention": "No devices currently require attention",
-    "warnRemoveDevice": "Are you sure you want to remove this device?"
+    "warnRemoveDevice": "Are you sure you want to remove this device?",
+    "includeDevice": "{{device}} included for funnel print jobs",
+    "excludeDevice": "{{device}} excluded from receiving funnel print jobs",
+    "willExcludeDevice": "Print Jobs will no longer be created for this machine when it is excluded"
   },
   "state": {
     "canceled": "Canceled",
@@ -57,6 +64,7 @@
   },
   "title": {
     "removeDevice": "Remove Devices",
+    "excludeDevice": "Exclude {{device}}?",
     "devices": "Devices"
 
   }
