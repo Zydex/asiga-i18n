@@ -59,6 +59,7 @@
     "integrationNotFound": "Unable to find integration.",
     "jobForbidden": "You are not allowed to get the job for this organisation.",
     "jobNoSlicedBuildFile": "The job does not have a sliced build file ready for printing.",
+    "jobNoPreviewFile": "The job does not have a preview file available.",
     "jobNotFound": "Job not found.",
     "jobNotFound_details": "Job with id {{details}} not found.",
     "jobReviewIncorrectState": "Job is not waiting for review.",
