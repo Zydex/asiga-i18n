@@ -1,0 +1,39 @@
+{
+    "label": {
+        "templateName": "Template name",
+        "manufacturer": "Manufacturer",
+        "material": "Material",
+        "materialName": "Material Name",
+        "printerAndTrayType": "Printer and tray types",
+        "trayType": "Tray Type",
+        "partType": "Associated Part Type",
+        "supports": "Use supports",
+        "thickness": "Thickness",
+        "search": "Search for templates",
+        "deleteSuccess_one": "{{count}} template deleted",
+        "deleteSuccess_other": "{{count}} templates deleted"
+    },
+    "title": {
+        "editTemplate": "Edit Template",
+        "createTemplate": "New Template",
+        "deleteTemplate": "Delete Template?"
+    },
+    "message": {
+        "deleteTemplateWarning": "This will permanently delete any selected templates. Any existing parts that use this template will keep their template print settings."
+    },
+    "types": {
+        "trays": {
+            "universal": "Universal",
+            "lowForce": "Low Force",
+            "ultraGLOSS": "UltraGLOSS",
+            "endurance": "Endurance",
+            "LIFT": "LIFT",
+            "ultraGLOSSLIFT": "UltraGLOSS LIFT"
+        },
+        "printerTypes": {
+            "max": "Max & Max 2",
+            "ultra": "Ultra",
+            "pro": "Pro 4K"
+        }
+    }
+}

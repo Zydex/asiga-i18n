@@ -25,7 +25,10 @@
     "reject": "Reject",
     "accept": "Accept",
     "connect": "Connect",
-    "unlink": "Unlink"
+    "unlink": "Unlink",
+    "create": "Create",
+    "delete": "Delete",
+    "confirm": "Confirm"
   },
   "dialog": {
     "no": "No",
@@ -200,6 +203,7 @@
     "perPage": "Per Page"
   },
   "title": {
+    "templates": "Templates",
     "integrations": "Integrations",
     "manage": "Manage",
     "name": "Display Name",
