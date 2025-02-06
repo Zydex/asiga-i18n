@@ -212,7 +212,8 @@
     "profile": "Profile",
     "warning": "Warning",
     "manageSubscription": "Manage subscription",
-    "subscriptionOptions": "Subscription Options"
+    "subscriptionOptions": "Subscription Options",
+    "help": "View Help"
   },
   "underConstruction": {
     "subtitle1": "We're building something special",
