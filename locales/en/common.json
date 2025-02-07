@@ -187,7 +187,15 @@
     "manage": "Manage",
     "parts": "Parts",
     "printJobs": "Print Jobs",
-    "timeline": "Timeline"
+    "timeline": "Timeline",
+    "tooltips": {
+      "inbox": "Upload & review parts from users or applications.\n\nConfirm parts have the correct print template applied & accept for manufacturing.",
+      "parts": "View parts that have been accepted for manufacture.\n\nCheck on the status to see where they are in the manufacturing process.",
+      "printJobs": "Review print jobs that have been created.\n\nCheck on the status to see what stage they are at in the manufacturing process.",
+      "devices": "A live overview of all the devices to help you monitor your lab.",
+      "timeline": "See the print jobs you have queued on each of your devices to monitor progress & utilisation.",
+      "manage": "Add or edit users, link external apps, general settings."
+    }
   },
   "loading": {
     "unavailable": "Unavailable"
