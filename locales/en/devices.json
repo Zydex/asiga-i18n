@@ -21,6 +21,7 @@
     "devicesTab": "Device Tab",
     "requiresAttention": "Requires Attention",
     "status": {
+      "availableInFunnel": "Accept Funnel Jobs",
       "currentBuildName": "Current Build Name",
       "currentLayer": "Current Layer",
       "currentLayerHeight": "Current Layer Height",
