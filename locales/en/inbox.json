@@ -14,8 +14,8 @@
     "prioritise": "Prioritise",
     "partType": "Part type",
     "confirm": "Confirm",
-    "moveToReview": "Move To Review"
-     
+    "moveToReview": "Move To Review",
+    "viewMoreParts": "View More Parts" 
   },
   "partInspector": {
     "title_zero": "No items selected",
@@ -115,5 +115,8 @@
   },
   "description": {
     "functionality": "Upload parts or automatically pull in parts from third party apps. Parts types are recognised, print templates applied, and added to suitable Print Jobs with other parts automatically."
+  },
+  "message": {
+    "noParts": "No Parts"
   }
 }
