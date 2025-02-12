@@ -28,8 +28,8 @@
   "message": {
     "addUsers": "Enter emails below to invite users to this organisation.",
     "addUsers_org": "Enter emails below to invite users to {{org}}.",
-    "changePassword": "A email will be sent with a password change link.",
-    "changePassword_email": "A email will be sent to {{email}} with a password change link.",
+    "changePassword": "An email will be sent with a password change link.",
+    "changePassword_email": "An email will be sent to {{email}} with a password change link.",
     "changeRole": "Update role:",
     "changeRole_user": "Update the role of {{user}}:",
     "confirmDelAccounts_one": "This user will no longer have access to this organisation.",
