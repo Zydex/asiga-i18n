@@ -33,6 +33,7 @@
     "rejected": "Rejected",
     "search": "Search for a part",
     "dropFile": "Add file to the Inbox",
+    "invalidUploadFileType": "Only STL files are supported",
     "preparingDownload": "Preparing download",
     "designSelected_one": "{{count}} Design selected",
     "designSelected_other": "{{count}} Designs selected",
