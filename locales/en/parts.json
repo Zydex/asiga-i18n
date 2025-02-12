@@ -2,6 +2,7 @@
     "label": {
         "allParts": "All Parts",
         "printReady": "Print ready",
+        "partsQueue": "Parts Queued",
         "sent": "Sent"
     },
     "emptyPartsMessages": {
