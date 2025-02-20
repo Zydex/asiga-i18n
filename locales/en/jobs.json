@@ -10,12 +10,15 @@
         "rejected": "Rejected",
         "search": "Search for jobs",
         "source": "Source",
-        "external": "External"
+        "external": "External",
+        "requeuingParts": "Requeuing Parts",
+        "requeuedPartsSuccess": "Successfully Requeued Parts"
     },
     "button": {
         "reshuffle": "Reshuffle",
         "download": "Download",
-        "moveOffline": "Rework Offline"
+        "moveOffline": "Rework Offline",
+        "requeueParts": "Requeue Parts"
     },
     "details": {
         "jobInformation": "Job Information",
@@ -31,7 +34,8 @@
         "moveOffline_other": "This will reject the selected jobs and download them for editing in composer.",
         "submittingJob": "Submitting #{{id}}",
         "submittingJob_device": "Submitting  <bold>#{{id}}</bold> to <bold>{{device}}</bold>",
-        "reworkOffline": "Print job <bold>#{{id}}</bold> marked as <bold>Reworked offline</bold>"
+        "reworkOffline": "Print job <bold>#{{id}}</bold> marked as <bold>Reworked offline</bold>",
+        "requeueParts": "This will mark the job as rejected and move all parts in the job back to the queue."
     },
     "title": {
         "material": "Material",
@@ -42,7 +46,8 @@
         "rejectJob": "Reshuffle rejected job?",
         "moveOffline": "Rework job offline?",
         "moveOffline_one": "Rework job offline?",
-        "moveOffline_other": "Rework jobs offline?"
+        "moveOffline_other": "Rework jobs offline?",
+        "requeueParts": "Requeue Parts?"
     },
     "status": {
         "generating": "Generating print job",
