@@ -6,6 +6,6 @@
     "title": {
       "timeline": "Timeline"
     },
-    "viewHours": "Hours"
+    "viewHours_other": "{{count}} hour view"
   }
   
