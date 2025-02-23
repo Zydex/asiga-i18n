@@ -8,7 +8,9 @@
         "toReview": "To Review",
         "accepted": "Accepted",
         "rejected": "Rejected",
-        "search": "Search for jobs"
+        "search": "Search for jobs",
+        "source": "Source",
+        "external": "External"
     },
     "button": {
         "reshuffle": "Reshuffle",
