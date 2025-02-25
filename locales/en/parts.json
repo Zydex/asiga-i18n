@@ -36,7 +36,7 @@
         "orientatePart": {
             "orientatePart": "Orientate part",
             "orientatingPart": "Orientating part",
-            "parOrientated": "Part orientated",
+            "partOrientated": "Part orientated",
             "orientationFailed": "Orientation failed"
         },
         "nestPrintJob": {
