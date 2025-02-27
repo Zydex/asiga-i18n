@@ -161,6 +161,7 @@
     "templateDeleteForbidden": "You are not allowed to delete a template for this organisation."
   },
   "label": {
+    "tabs": "Tabs",
     "fullname": "Full Name",
     "locale": "Locale",
     "openDrawer": "Open Drawer",
