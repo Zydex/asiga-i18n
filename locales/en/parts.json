@@ -21,7 +21,51 @@
     },
     "title": {
         "parts": "Parts"
+    },
+    "status": {
+        "partIdentification": {
+            "partIdentification": "Part identification",
+            "identifyingPartType": "Identifying part type",
+            "confirmPartType": "Confirm part type",
+            "partTypeConfirmed": "Part type confirmed"
+        },
+        "acceptPartForPrinting": {
+            "acceptPartForPrinting": "Accept part for printing",
+            "partAccepted": "Part accepted"
+        },
+        "orientatePart": {
+            "orientatePart": "Orientate part",
+            "orientatingPart": "Orientating part",
+            "partOrientated": "Part orientated",
+            "orientationFailed": "Orientation failed"
+        },
+        "nestPrintJob": {
+            "nestPrintJob": "Nest print job",
+            "partQueued": "Part queued",
+            "nestingPrintJob": "Nesting print job",
+            "nestingFailed": "Nesting failed",
+            "addedToPrintJob": "Added to print job"
+        },
+        "approvePrintJob": {
+            "approvePrintJob": "Approve print job",
+            "printJobPendingApproval": "Print job pending approval",
+            "printJobApproved": "Print job approved"
+        },
+        "sendToPrinter": {
+            "sendToPrinter": "Send to printer",
+            "slicingPrintJob": "Slicing print job",
+            "slicingFailed": "Slicing failed",
+            "sendingToPrinter": "Sending to printer",
+            "sendingFailed": "Sending failed",
+            "sentToPrinter": "Sent to printer",
+            "printJobDownloaded": "Print job downloaded"
+        },
+        "print": {
+            "print": "Print",
+            "printing": "Printing",
+            "printed": "Printed",
+            "printFailed": "Print failed"
+        }
     }
-
   }
   
