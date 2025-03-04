@@ -65,7 +65,8 @@
             "printing": "Printing",
             "printed": "Printed",
             "printFailed": "Print failed"
-        }
+        },
+        "rejected": "Rejected"
     }
   }
   
