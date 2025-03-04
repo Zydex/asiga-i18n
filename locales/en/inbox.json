@@ -24,7 +24,8 @@
     "status": "Status",
     "received": "Received",
     "source": "Source",
-    "partType":"Part Type"
+    "partType":"Part Type",
+    "progress":"Progress"
   },
   "label": {
     "confirm": "Confirm",
