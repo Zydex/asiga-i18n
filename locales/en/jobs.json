@@ -1,6 +1,8 @@
 {
     "label": {
         "estimatedPrintTime": "Estimated Print Time",
+        "trayType": "Tray Type",
+        "layerThickness": "Layer Thickness",
         "estimatedMaterial": "Estimated Material",
         "targetDevice": "Target Device",
         "partName": "Part Name",
