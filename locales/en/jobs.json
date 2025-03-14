@@ -20,7 +20,8 @@
         "reshuffle": "Reshuffle",
         "download": "Download",
         "moveOffline": "Rework Offline",
-        "requeueParts": "Requeue Parts"
+        "requeueParts": "Requeue Parts",
+        "promoteJob": "Promote Job"
     },
     "details": {
         "jobInformation": "Job Information",
