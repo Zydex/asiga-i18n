@@ -202,7 +202,10 @@
     "cancelUploadsModalTitle": "Cancel remaining uploads?",
     "cancelUploadsModalBody": "Part uploads are not complete. Would you like to cancel the remaining uploads?",
     "cancelUploadsModalButtonPrimary": "Cancel Uploads",
-    "cancelUploadModalButtonSecondary": "Continue Uploads"
+    "cancelUploadModalButtonSecondary": "Continue Uploads",
+    "promotingJobs": "Promoting jobs",
+    "promotedJobsSuccess_one": "{{count}} job promoted",
+    "promotedJobsSuccess_other": "{{count}} jobs promoted"
   },
   "links": {
     "devices": "Devices",
