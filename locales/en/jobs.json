@@ -5,6 +5,7 @@
         "layerThickness": "Layer Thickness",
         "estimatedMaterial": "Estimated Material",
         "targetDevice": "Target Device",
+        "buildAreaUsage": "Build Area Usage",
         "partName": "Part Name",
         "jobsTab": "Job Tabs",
         "toReview": "To Review",
