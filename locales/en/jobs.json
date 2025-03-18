@@ -5,6 +5,7 @@
         "layerThickness": "Layer Thickness",
         "estimatedMaterial": "Estimated Material",
         "targetDevice": "Target Device",
+        "buildAreaUsage": "Build Area Usage",
         "partName": "Part Name",
         "jobsTab": "Job Tabs",
         "toReview": "To Review",
@@ -20,7 +21,8 @@
         "reshuffle": "Reshuffle",
         "download": "Download",
         "moveOffline": "Rework Offline",
-        "requeueParts": "Requeue Parts"
+        "requeueParts": "Requeue Parts",
+        "promoteJob": "Promote Job"
     },
     "details": {
         "jobInformation": "Job Information",
