@@ -19,6 +19,8 @@
         "deleteTemplate": "Delete Template?"
     },
     "message": {
+        "noTemplates": "No Templates",
+        "noTemplatesInfo": "Templates will be listed here. Use the 'Create' button to create your first template.",
         "deleteTemplateWarning": "This will permanently delete any selected templates. Any existing parts that use this template will keep their template print settings."
     },
     "types": {
