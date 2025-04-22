@@ -1,0 +1,13 @@
+{
+    "title": {
+       "materials": "Materials"
+    },
+    "button": {
+        "add": "Add Materials"
+    },
+    "label": {
+        "name": "MaterialName",
+        "manufacturer": "Manufacturer",
+        "search": "Search for a material"
+    }
+}
