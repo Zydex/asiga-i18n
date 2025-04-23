@@ -7,6 +7,8 @@
     "printerAndTrayType": "Printer and tray types",
     "trayType": "Tray Type",
     "partType": "Part Type",
+    "associatedWith": "Associated With",
+    "partTypes_other": "{{count}} Part Types",
     "associatedPartType": "Associated part type",
     "supports": "Supports",
     "thickness": "Thickness",
