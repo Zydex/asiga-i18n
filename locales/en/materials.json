@@ -1,13 +1,34 @@
 {
     "title": {
-       "materials": "Materials"
+       "materials": "Materials",
+       "addMaterials": "Add Materials",
+       "updateMaterial_one": "Update Material?",
+       "updateMaterial_other": "Update Materials?",
+       "deleteMaterial": "Delete Material?",
+       "unableToDelete_one": "Unable To Delete Material",
+       "unableToDelete_other": "Unable To Delete Materials"
     },
     "button": {
-        "add": "Add Materials"
+        "add": "Add Materials",
+        "upload": "Upload local material"
+    },
+    "message": {
+        "addMaterials": "Add materials to your organisation by selecting them from the Open Material Library below. Material files can also be added by using the upload button.",
+        "updateMaterial_one": "U<bold>{{name}}</bold> will be updated to the latest version.",
+        "updateMaterial_other": "{{count}} material INI files will be updated to the latest version.",
+
+        "unableToDelete_one": "The selected material cannot be deleted as it is currently being used in templates. Please assign different materials to the following templates to continue with deletion:",
+        "unableToDelete_other": "The selected materials cannot be deleted as they are currently being used in templates. Please assign different materials to the following templates to continue with deletion:",
+        "deleteMaterialWarning": "Are you sure you want to delete the selected materials? Only the latest version of each material will be available to download again in the future."
     },
     "label": {
         "name": "MaterialName",
         "manufacturer": "Manufacturer",
-        "search": "Search for a material"
+        "search": "Search for a material",
+        "material": "Material",
+        "updateMaterial": "Material update available",
+        "deleteSuccess_one": "{{count}} material deleted",
+        "deleteSuccess_other": "{{count}} materials deleted",
+        "templateName": "Template name"
     }
 }
