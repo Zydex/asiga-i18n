@@ -13,9 +13,10 @@
     "reject": "Reject",
     "prioritise": "Prioritise",
     "partType": "Part type",
+    "template": "Template",
     "confirm": "Confirm",
     "moveToReview": "Move To Review",
-    "viewMoreParts": "View More Parts" 
+    "viewMoreParts": "View More Parts"
   },
   "partInspector": {
     "title_zero": "No items selected",
@@ -24,8 +25,8 @@
     "status": "Status",
     "received": "Received",
     "source": "Source",
-    "partType":"Part Type",
-    "progress":"Progress"
+    "partType": "Part Type",
+    "progress": "Progress"
   },
   "label": {
     "confirm": "Confirm",
@@ -51,13 +52,12 @@
     },
     "accepted": {
       "title": "No parts accepted",
-      "message": "Parts from the 'Review' tab will appear here when they have been accepted" 
+      "message": "Parts from the 'Review' tab will appear here when they have been accepted"
     },
     "rejected": {
       "title": "No parts rejected",
       "message": "Parts that have been rejected will appear here "
     }
-    
   },
   "table": {
     "userUpload": "User upload",
