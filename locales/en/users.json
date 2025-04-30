@@ -52,7 +52,8 @@
     "admin": "Admin",
     "designer": "Designer",
     "owner": "Owner",
-    "technician": "Technician"
+    "technician": "Technician",
+    "user": "User"
   },
   "title": {
     "changePassword": "Change Password",
