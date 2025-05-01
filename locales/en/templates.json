@@ -21,12 +21,14 @@
   "title": {
     "editTemplate": "Edit Template",
     "createTemplate": "New Template",
-    "deleteTemplate": "Delete Template?"
+    "deleteTemplate": "Delete Template?",
+    "changesApplyToNewParts": "Changes apply to new parts"
   },
   "message": {
     "noTemplates": "No Templates",
     "noTemplatesInfo": "Templates will be listed here. Use the 'Create' button to create your first template.",
-    "deleteTemplateWarning": "This will permanently delete any selected templates. Any existing parts that use this template will keep their template print settings."
+    "deleteTemplateWarning": "This will permanently delete any selected templates. Any existing parts that use this template will keep their template print settings.",
+    "changesApplyToNewParts": "Changes will only apply to new parts added to the Funnel. Existing parts will be printed using the previous template settings."
   },
   "types": {
     "trays": {
