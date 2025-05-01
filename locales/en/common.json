@@ -28,7 +28,8 @@
     "unlink": "Unlink",
     "create": "Create",
     "delete": "Delete",
-    "confirm": "Confirm"
+    "confirm": "Confirm",
+    "ok": "OK"
   },
   "dialog": {
     "no": "No",
