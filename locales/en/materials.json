@@ -14,7 +14,7 @@
     },
     "message": {
         "addMaterials": "Add materials to your organisation by selecting them from the Open Material Library below. Material files can also be added by using the upload button.",
-        "updateMaterial_one": "U<bold>{{name}}</bold> will be updated to the latest version.",
+        "updateMaterial_one": "<bold>{{name}}</bold> will be updated to the latest version.",
         "updateMaterial_other": "{{count}} material INI files will be updated to the latest version.",
 
         "unableToDelete_one": "The selected material cannot be deleted as it is currently being used in templates. Please assign different materials to the following templates to continue with deletion:",
