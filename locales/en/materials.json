@@ -10,7 +10,8 @@
     },
     "button": {
         "add": "Add Materials",
-        "upload": "Upload local material"
+        "upload": "Upload local material",
+        "uploadLocalMaterial": "Upload local material"
     },
     "message": {
         "addMaterials": "Add materials to your organisation by selecting them from the Open Material Library below. Material files can also be added by using the upload button.",
@@ -19,7 +20,8 @@
 
         "unableToDelete_one": "The selected material cannot be deleted as it is currently being used in templates. Please assign different materials to the following templates to continue with deletion:",
         "unableToDelete_other": "The selected materials cannot be deleted as they are currently being used in templates. Please assign different materials to the following templates to continue with deletion:",
-        "deleteMaterialWarning": "Are you sure you want to delete the selected materials? Only the latest version of each material will be available to download again in the future."
+        "deleteMaterialWarning": "Are you sure you want to delete the selected materials? Only the latest version of each material will be available to download again in the future.",
+        "manufacturerHasNoMaterials": "Manufacturer has no materials"
     },
     "label": {
         "name": "MaterialName",
@@ -27,8 +29,16 @@
         "search": "Search for a material",
         "material": "Material",
         "updateMaterial": "Material update available",
+        "deleting": "Deleting material",
+        "deleting_one": "Deleting material",
+        "deleting_other": "Deleting materials",
         "deleteSuccess_one": "{{count}} material deleted",
         "deleteSuccess_other": "{{count}} materials deleted",
+        "adding": "Adding material",
+        "adding_one": "Adding material",
+        "adding_other": "Adding materials",
+        "addSuccess_one": "{{count}} material added",
+        "addSuccess_other": "{{count}} materials added",
         "templateName": "Template name"
     }
 }
