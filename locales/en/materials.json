@@ -39,6 +39,7 @@
         "adding_other": "Adding materials",
         "addSuccess_one": "{{count}} material added",
         "addSuccess_other": "{{count}} materials added",
-        "templateName": "Template name"
+        "templateName": "Template name",
+        "dropFile": "Add file to <strong>Materials</strong>"
     }
 }
