@@ -90,6 +90,10 @@
       "reworkedOffline": "Reworked offline",
       "rejected": "Rejected",
       "failed": "Failed"
+    },
+    "template": {
+      "noTemplate": "No template",
+      "noTemplateTooltip": "<a>Create a template</a> with this part's type to accept the part for printing."
     }
   },
   "title": {
