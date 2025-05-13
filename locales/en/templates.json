@@ -16,7 +16,9 @@
     "deleteSuccess_one": "{{count}} template deleted",
     "deleteSuccess_other": "{{count}} templates deleted",
     "printerModel": "Printer Model",
-    "tray": "Tray"
+    "tray": "Tray",
+    "outdated": "Outdated Template",
+    "deleted": "Deleted Template"
   },
   "title": {
     "editTemplate": "Edit Template",
