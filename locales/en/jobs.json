@@ -4,6 +4,7 @@
         "trayType": "Tray Type",
         "layerThickness": "Layer Thickness",
         "estimatedMaterial": "Estimated Material",
+        "material": "Material",
         "targetDevice": "Target Device",
         "buildAreaUsage": "Build Area Usage",
         "partName": "Part Name",
