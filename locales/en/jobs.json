@@ -17,6 +17,12 @@
         "requeuingParts": "Requeuing Parts",
         "requeuedPartsSuccess": "Successfully Requeued Parts"
     },
+    "tooltips": {
+        "toReview": "Print jobs that are ready to review are shown here. Accept them to send to the printer.",
+        "accepted": "All jobs that have been accepted are shown here, alongside their status.",
+        "rejected": "All jobs that have been rejected are shown here.",
+        "provisional": "This shows the expected upcoming jobs based on printer availability, template compatibility and unprinted parts in the Funnel.\n\nPromoting them will create a finalised print job that will include the identified parts, layout and target printer. When supports have been generated for finalised jobs, they will appear in the 'To Review' tab."
+    },
     "button": {
         "reshuffle": "Reshuffle",
         "download": "Download",

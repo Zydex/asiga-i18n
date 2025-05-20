@@ -25,6 +25,9 @@
     "updatedAt": "Updated At",
     "users": "Users"
   },
+  "tooltips": {
+    "users": "Lists all the users that are part of the organisation. Users can be added and roles changed here."
+  },
   "message": {
     "addUsers": "Enter emails below to invite users to this organisation.",
     "addUsers_org": "Enter emails below to invite users to {{org}}.",

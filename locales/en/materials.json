@@ -40,5 +40,8 @@
         "addSuccess_other": "{{count}} materials added",
         "templateName": "Template name",
         "dropFile": "Add file to <bold>Materials</bold>"
+    },
+    "tooltips": {
+        "materials": "Lists all the materials that have been added to the Funnel.\n\nMaterials can be added from the Open Material library or uploaded manually."
     }
 }

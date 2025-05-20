@@ -36,6 +36,10 @@
     },
     "excludedDevice": "Device has been excluded from receiving print jobs from the Funnel"
   },
+  "tooltips": {
+    "devices": "All the devices that have been added to your Funnel are shown in this tab.",
+    "requiresAttention": "This shows devices that have an error or have lost connection."
+  },
   "message": {
     "addDevices": "Use the 'Add Devices' button at the top right of this page or use the button below to add devices to your organisation",
     "allGood": "All good!",

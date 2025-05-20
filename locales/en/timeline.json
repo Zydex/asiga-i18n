@@ -3,6 +3,9 @@
       "allMachines": "All Machines",
       "requiresAttention": "Requires Attention"
     },
+    "tooltips": {
+      "allMachines": "Shows all the devices added to the Funnel alongside their queued jobs."
+    },
     "title": {
       "timeline": "Timeline"
     },

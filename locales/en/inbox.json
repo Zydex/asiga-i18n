@@ -41,6 +41,11 @@
     "designSelected_other": "{{count}} Designs selected",
     "uploadCancelled": "{{partName}} (cancelled)"
   },
+  "tooltips": {
+    "review": "Parts that have been added to the Funnel are shown here to be reviewed. Choose a template to apply to the part before accepting it for manufacture.",
+    "accepted": "Parts that have been accepted for manufacture are shown here.",
+    "rejected": "Parts that have been rejected for manufacture are shown here."
+  },
   "emptyInboxMessages": {
     "confirm": {
       "title": "No parts to confirm",

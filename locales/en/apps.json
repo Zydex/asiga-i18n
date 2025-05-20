@@ -31,5 +31,9 @@
     },
     "label": {
         "search": "Search for apps"
+    },
+    "tooltips": {
+        "apps": "Lists all the apps that the Funnel supports. Use these to automatically receive parts from third party services.",
+        "connectedApps": "Lists all the apps that have permission to send parts to the Funnel."
     }
 }
