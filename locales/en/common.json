@@ -224,7 +224,8 @@
       "printJobs": "Review print jobs that have been created.\n\nCheck on the status to see what stage they are at in the manufacturing process.",
       "devices": "A live overview of all the devices to help you monitor your lab.",
       "timeline": "See the print jobs you have queued on each of your devices to monitor progress & utilisation.",
-      "manage": "Add or edit users, link external apps, general settings."
+      "manage": "Add or edit users, link external apps, general settings.",
+      "templates": "Lists all the templates in the Funnel. These control which materials, print settings and printers are used for each part type."
     }
   },
   "loading": {

@@ -5,6 +5,10 @@
         "partsQueue": "Parts Queued",
         "sent": "Sent"
     },
+    "tooltips": {
+        "allParts": "All parts that have been accepted are shown here, alongside their status.",
+        "partsQueue": "Parts that are queued for printing are shown here, grouped by their template."
+    },
     "emptyPartsMessages": {
         "allParts": {
             "title": "No parts print ready",
