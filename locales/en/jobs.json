@@ -36,7 +36,7 @@
         "parts": "Parts"
     },
     "message": {
-        "noJobs": "No Jobs Found.",
+        "noJobsToReview": "Provisional jobs that have been promoted will appear here. Upload parts in the inbox to get started.",
         "noParts": "This job has no parts.",
         "rejectInfo": "Pressing 'Reshuffle' will result in part position and rotation being varied as part of a new print job. Some parts may be removed or added during the reshuffle.",
         "downloadInfo": "Alternatively, the print job can be downloaded for editing in Composer.",
@@ -58,7 +58,10 @@
         "moveOffline": "Rework job offline?",
         "moveOffline_one": "Rework job offline?",
         "moveOffline_other": "Rework jobs offline?",
-        "requeueParts": "Requeue Parts?"
+        "requeueParts": "Requeue Parts?",
+        "noJobsToReview": "No jobs to review",
+        "noJobsAccepted": "No jobs accepted",
+        "noJobsRejected": "No jobs rejected"
     },
     "status": {
         "generating": "Generating print job",

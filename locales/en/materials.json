@@ -6,7 +6,8 @@
        "updateMaterial_other": "Update Materials?",
        "deleteMaterial": "Delete Material?",
        "unableToDelete_one": "Unable To Delete Material",
-       "unableToDelete_other": "Unable To Delete Materials"
+       "unableToDelete_other": "Unable To Delete Materials",
+       "noMaterials":"No materials in library"
     },
     "button": {
         "add": "Add Materials",
@@ -20,7 +21,9 @@
         "unableToDelete_one": "The selected material cannot be deleted as it is currently being used in templates. Please assign different materials to the following templates to continue with deletion:",
         "unableToDelete_other": "The selected materials cannot be deleted as they are currently being used in templates. Please assign different materials to the following templates to continue with deletion:",
         "deleteMaterialWarning": "Are you sure you want to delete the selected materials? Only the latest version of each material will be available to download again in the future.",
-        "manufacturerHasNoMaterials": "Manufacturer has no materials"
+        "manufacturerHasNoMaterials": "Manufacturer has no materials",
+
+        "noMaterials": "Use the 'Add Materials' button at the top right of this page to add materials to your organisation"
     },
     "label": {
         "name": "MaterialName",
