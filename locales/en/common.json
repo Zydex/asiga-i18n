@@ -205,8 +205,8 @@
     "cancelUploadsModalButtonPrimary": "Cancel Uploads",
     "cancelUploadModalButtonSecondary": "Continue Uploads",
     "promotingJobs": "Promoting jobs",
-    "promotedJobsSuccess_one": "{{count}} job promoted",
-    "promotedJobsSuccess_other": "{{count}} jobs promoted",
+    "promotedJobsSuccess_one": "{{count}} job promoted <a>To Review</a>",
+    "promotedJobsSuccess_other": "{{count}} jobs promoted <a>To Review</a>",
     "assigningTemplates": "Assigning template to parts",
     "assigningTemplatesSuccess_one": "Assigned template to {{count}} part",
     "assigningTemplatesSuccess_other": "Assigned template to {{count}} parts"

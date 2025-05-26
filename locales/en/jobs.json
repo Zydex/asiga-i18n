@@ -1,5 +1,6 @@
 {
     "label": {
+        "template": "Template",
         "estimatedPrintTime": "Estimated Print Time",
         "trayType": "Tray Type",
         "layerThickness": "Layer Thickness",
@@ -8,10 +9,12 @@
         "targetDevice": "Target Device",
         "buildAreaUsage": "Build Area Usage",
         "partName": "Part Name",
+        "partType": "Part Type",
         "jobsTab": "Job Tabs",
         "toReview": "To Review",
         "accepted": "Accepted",
         "rejected": "Rejected",
+        "provisional": "Provisional",
         "search": "Search for jobs",
         "source": "Source",
         "external": "External",
@@ -33,7 +36,9 @@
     },
     "details": {
         "jobInformation": "Job Information",
-        "parts": "Parts"
+        "parts": "Parts",
+        "currentJob": "Current Job",
+        "currentParts": "Current Parts"
     },
     "message": {
         "noJobsToReview": "Provisional jobs that have been promoted will appear here. Upload parts in the inbox to get started.",
@@ -64,6 +69,7 @@
         "noJobsRejected": "No jobs rejected"
     },
     "status": {
+        "provisional": "Provisional",
         "generating": "Generating print job",
         "awaitingApproval": "Awaiting approval",
         "printPending": "Print pending",
