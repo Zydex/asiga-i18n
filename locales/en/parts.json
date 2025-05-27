@@ -71,6 +71,52 @@
             "printFailed": "Print failed"
         },
         "rejected": "Rejected"
+    },
+    "statusTooltips": {
+        "partIdentification": {
+            "partIdentification": "Analyse part geometry to identify part type.",
+            "identifyingPartType": "Analysing part geometry to identify part type.",
+            "confirmPartType": "Waiting for confirmation on part type.\nThis determines how a part is orientated & the templates that are suggested.",
+            "partTypeConfirmed": "Part type has been confirmed by the user."
+        },
+        "acceptPartForPrinting": {
+            "acceptPartForPrinting": "The part is waiting for the user to accept.",
+            "partAccepted": "The part has been accepted for printing."
+        },
+        "orientatePart": {
+            "orientatePart": "Orientate part based on its type.",
+            "orientatingPart": "The part is currently being orientated based on its type.",
+            "partOrientated": "The part was orientated successfully for printing.",
+            "orientationFailed": "The part could not be orientated successfully for printing.\nThis could be caused by issues with the part file."
+        },
+        "nestPrintJob": {
+            "nestPrintJob": "The part will be nested when a suitable printer becomes available & on a “first in first out” basis.",
+            "partQueued": "The part will be nested when a suitable printer becomes available & on a “first in first out” basis.",
+            "nestingPrintJob": "The part is being nested with other parts to create a print job.",
+            "nestingFailed": "The nesting of parts has failed.\nThis could be caused by issues with the part file.",
+            "addedToPrintJob": "The part has been added to a print job."
+        },
+        "approvePrintJob": {
+            "approvePrintJob": "Approve provisional jobs for sending to printers.",
+            "printJobPendingApproval": "The provisional job is waiting for the user to accept.",
+            "printJobApproved": "The job has been accepted for printing."
+        },
+        "sendToPrinter": {
+            "sendToPrinter": "Prepares and sends the job to a printer.",
+            "slicingPrintJob": "The print layers are being prepared.",
+            "slicingFailed": "The print job has failed to whilst preparing the print layers.\nThis could be caused by issues with the part files.",
+            "sendingToPrinter": "Submitting job to printer.",
+            "sendingFailed": "The print job failed when sending to the printer.\nThis could be caused by printer connectivity issues.",
+            "sentToPrinter": "Print job submitted.",
+            "printJobDownloaded": "Print job has been downloaded for manual editing in Composer."
+        },
+        "print": {
+            "print": "The job will begin printing on a device.",
+            "printing": "Print job is currently being printed.",
+            "printed": "The print job has completed successfully.",
+            "printFailed": "The print job has failed.\nRefer to the printer screen for more information."
+        },
+        "rejected": "The part has been rejected by a user."
     }
   }
   
