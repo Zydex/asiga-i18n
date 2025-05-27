@@ -116,7 +116,7 @@
             "printed": "The print job has completed successfully.",
             "printFailed": "The print job has failed.\nRefer to the printer screen for more information."
         },
-        "rejected": "Rejected"
+        "rejected": "The part has been rejected by a user."
     }
   }
   
