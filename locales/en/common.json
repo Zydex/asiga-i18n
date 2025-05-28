@@ -161,6 +161,11 @@
     "templateMaterialPendingConflict": "A material pending upload can not be assigned to a template.",
     "templateDeleteForbidden": "You are not allowed to delete a template for this organisation."
   },
+  "notFoundPage": {
+    "title": "We can't find that page",
+    "messageWide": "Check the page address for typos or use the navigation buttons on the left",
+    "messageNarrow": "Check the page address for typos or use the navigation menu on the top left"
+  },
   "label": {
     "tabs": "Tabs",
     "fullname": "Full Name",
