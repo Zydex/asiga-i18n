@@ -166,6 +166,10 @@
     "message_wide": "Check the page address for typos or use the navigation buttons on the left",
     "message_narrow": "Check the page address for typos or use the navigation menu on the top left"
   },
+  "displayError": {
+    "message": "Check connection and try refreshing the web page.\nContact support if the problem continues.",
+    "button": "Contact Support"
+  },
   "label": {
     "tabs": "Tabs",
     "fullname": "Full Name",
