@@ -26,7 +26,8 @@
     "received": "Received",
     "source": "Source",
     "partType": "Part Type",
-    "progress": "Progress"
+    "progress": "Progress",
+    "printJob": "Print Job"
   },
   "label": {
     "confirm": "Confirm",
