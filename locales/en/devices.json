@@ -47,7 +47,8 @@
     "devicesPageInfo": "The status for all devices in your organisation are shown on this page",
     "noDevices": "No Devices",
     "noDevicesNeedAttention": "No devices currently require attention",
-    "warnRemoveDevice": "Are you sure you want to remove this device?",
+    "warnRemoveDevice": "You will no longer be able to monitor or send print jobs to this device from the Funnel.",
+    "warnRemoveDevice_name": "You will no longer be able to monitor or send print jobs to {{device}} from the Funnel.",
     "includeDevice": "{{device}} included for funnel print jobs",
     "excludeDevice": "{{device}} excluded from receiving funnel print jobs",
     "willExcludeDevice": "Print Jobs will no longer be created for this machine when it is excluded"
@@ -69,7 +70,7 @@
     "offline": "Offline"
   },
   "title": {
-    "removeDevice": "Remove Devices",
+    "removeDevice": "Remove device?",
     "excludeDevice": "Exclude {{device}}?",
     "devices": "Devices"
 
