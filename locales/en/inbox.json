@@ -26,7 +26,9 @@
     "received": "Received",
     "source": "Source",
     "partType": "Part Type",
-    "progress": "Progress"
+    "progress": "Progress",
+    "printJob": "Print Job",
+    "noPrintJob": "The print job will appear here once the part has been nested."
   },
   "label": {
     "confirm": "Confirm",
