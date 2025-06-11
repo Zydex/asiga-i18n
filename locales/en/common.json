@@ -81,11 +81,11 @@
     "luceneIllegalCharacterError_details": "Illegal character in lucene query. ({{details}})",
     "luceneSyntaxError": "Syntax error in lucene query.",
     "luceneSyntaxError_details": "Syntax error in lucene query. ({{details}})",
-    "materialFileEmpty": "Material file is empty.\n$t(message.materialFileRequirement)",
-    "materialFileName": "Unsupported Material file name: {{details}}.\n$t(message.materialFileRequirement)",
-    "materialFileType": "Unsupported Material file type: {{details}}.\n$t(message.materialFileRequirement)",
-    "materialFileParse": "Unsupported Material file.\n$t(message.materialFileRequirement)",
-    "materialFileRead": "Unsupported Material file.\n$t(message.materialFileRequirement)",
+    "materialFileEmpty": "Material file is empty.",
+    "materialFileName": "Unsupported file type.",
+    "materialFileType": "Unsupported file type.",
+    "materialFileParse": "Unable to read material file.",
+    "materialFileRead": "Unable to read material file.",
     "noAuthorized": "You are not authenticated. Please sign in.",
     "notAllowedFieldFilter": "A supplied field is not filterable.",
     "notAllowedFieldFilter_details": "The field '{{details}}' is not filterable.",
@@ -252,8 +252,7 @@
     "noMatches": "Sorry, no matches were found",
     "noMatchesHelp": "Check for typos or try more general words\nAlternatively, try using the table filters",
     "noConnection": "Unable to connect, retrying in {{time}}",
-    "reconnecting": "Attempting to reconnect",
-    "materialFileRequirement": "Please upload a material file with an .ini extension"
+    "reconnecting": "Attempting to reconnect"
   },
   "table": {
     "expandRow": "Expand Row",
