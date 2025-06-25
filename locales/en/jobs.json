@@ -30,6 +30,7 @@
     "button": {
         "reshuffle": "Reshuffle",
         "download": "Download",
+        "exportReportPdf": "Export PDF",
         "moveOffline": "Rework Offline",
         "requeueParts": "Requeue Parts",
         "promoteJob": "Promote Job"
