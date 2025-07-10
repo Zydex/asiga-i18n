@@ -272,7 +272,7 @@
     "name": "Display Name",
     "photo": "Photo",
     "profile": "Profile",
-    "languageAndLocation": "Language & Location",
+    "language": "Language",
     "termsAndPolicy": "Terms and Policy",
     "termsOfService": "Terms of service",
     "privacyPolicy": "Privacy policy",
