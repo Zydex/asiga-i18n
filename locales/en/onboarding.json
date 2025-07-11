@@ -4,8 +4,6 @@
     "country": "Country",
     "industry": "Industry Type",
     "phoneNumber": "Phone Number",
-    "setTimezone": "Set my timezone automatically",
-    "timezone": "Timezone",
     "website": "Website"
   },
   "message": {
