@@ -4,13 +4,13 @@
     "country": "Country",
     "industry": "Industry Type",
     "phoneNumber": "Phone Number",
-    "website": "Website"
+    "website": "Website",
+    "subtitle": "Your gateway to simple, automated 3D print set-up and production management",
+    "title": "Create your Asiga Funnel account"
   },
   "message": {
     "completePersonalDetails": "Complete your personal details",
-    "noCreditCard": "No credit card required",
-    "signUp": "Sign up for your Asiga Cloud account",
-    "termsAndConditions": "By continuing, you agree to Asiga's <2>terms</2>, and acknowledge you have read our <5>privacy policy</5>.",
-    "welcomeRedirect": "Welcome to Asiga Cloud! You will be redirected shortly..."
+    "welcomeRedirect": "Welcome to Asiga Cloud! You will be redirected shortly...",
+    "regionError": "The Asiga Funnel is currently only supported in Australia."
   }
 }
