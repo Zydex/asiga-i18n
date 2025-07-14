@@ -184,8 +184,6 @@
   "label": {
     "tabs": "Tabs",
     "fullname": "Full Name",
-    "locale": "Locale",
-    "localeTooltip": "Select a locale to format dates, numbers, and other text according to your language and region.",
     "setTimezone": "Set my timezone automatically",
     "timezone": "Timezone",
     "language": "Language",
