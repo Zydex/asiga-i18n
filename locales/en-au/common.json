@@ -24,6 +24,7 @@
     "save": "Save",
     "reject": "Reject",
     "accept": "Accept",
+    "acceptAll": "Accept All",
     "connect": "Connect",
     "unlink": "Unlink",
     "create": "Create",
