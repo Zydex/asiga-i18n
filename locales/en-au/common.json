@@ -24,6 +24,7 @@
     "save": "Save",
     "reject": "Reject",
     "accept": "Accept",
+    "acceptAll": "Accept All",
     "connect": "Connect",
     "unlink": "Unlink",
     "create": "Create",
@@ -184,8 +185,6 @@
   "label": {
     "tabs": "Tabs",
     "fullname": "Full Name",
-    "setTimezone": "Set my timezone automatically",
-    "timezone": "Timezone",
     "language": "Language",
     "openDrawer": "Open Drawer",
     "settings": "Settings",
