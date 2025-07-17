@@ -10,7 +10,12 @@
   },
   "message": {
     "completePersonalDetails": "Complete your personal details",
-    "welcomeRedirect": "Welcome to Asiga Cloud! You will be redirected shortly...",
+    "emailVerified": "<bold>Email successfully verified</bold>\nYou will be redirected shortly...",
+    "verifyEmail": "Please verify your email address to access the Asiga Funnel.",
+    "resendEmail": "Resend verification email",
+    "resendEmailError": "Unable to resend verification email. Please try again later.",
+    "sendingEmail": "Sending verification email...",
+    "emailResendSuccess": "Email sent. Please check your inbox.",
     "regionError": "The Asiga Funnel is currently only supported in Australia."
   }
 }
