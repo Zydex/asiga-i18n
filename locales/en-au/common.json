@@ -133,6 +133,7 @@
     "userBFPForbidden": "Unable to unblock user.",
     "userBlockForbidden": "Unable modify block status of user.",
     "userConflict": "User already exists.",
+    "userConflict_details": "User with email {{details}} already exists.",
     "userCreateForbidden": "Unable to create user.",
     "userDeleteForbidden": "Unable to delete user.",
     "userGetBFPForbidden": "Unable to get block status of user",
