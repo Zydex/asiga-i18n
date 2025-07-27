@@ -142,6 +142,7 @@
     "userGetBlockForbidden": "Unable to get block status of user.",
     "userGetForbidden": "Unable to find user.",
     "userNotFound": "User not found.",
+    "userNotFound_details": "User with email {{details}} could not be found.",
     "userNotInOrg": "User is not associated with an organisation.",
     "userResetForbidden": "Unable to reset users password.",
     "userRoleAddForbidden": "Unable to add role to user.",
