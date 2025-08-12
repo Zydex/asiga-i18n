@@ -12,6 +12,8 @@
     "associatedPartType": "Associated part type",
     "supports": "Supports",
     "thickness": "Thickness",
+    "fastPrintMode": "Fast print mode",
+    "separationDetect": "Separation detect",
     "search": "Search for templates",
     "deleteSuccess_one": "{{count}} template deleted",
     "deleteSuccess_other": "{{count}} templates deleted",
@@ -25,6 +27,10 @@
     "createTemplate": "New Template",
     "deleteTemplate": "Delete Template?",
     "changesApplyToNewParts": "Changes apply to new parts"
+  },
+  "tooltip": {
+    "fastPrintMode": "<bold>Fast print mode</bold>\nAccelerates all non-essential build platform movements, quickly repositioning between layers to minimise idle time and shorten total print duration.",
+    "separationDetect": "<bold>Separation detect</bold>\nDetects film release, reducing lift distance between layers.\n\nMay risk print defects if separation isn't properly sensed."
   },
   "message": {
     "noTemplates": "No Templates",
