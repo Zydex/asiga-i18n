@@ -260,7 +260,10 @@
     "noMatches": "Sorry, no matches were found",
     "noMatchesHelp": "Check for typos or try more general words\nAlternatively, try using the table filters",
     "noConnection": "Unable to connect, retrying in {{time}}",
-    "reconnecting": "Attempting to reconnect"
+    "reconnecting": "Attempting to reconnect",
+    "acceptPrivacyPolicy": "I accept the <a>Privacy Policy</a>",
+    "acceptTermsOfService": "I accept the <a>Terms of Service</a>",
+    "reviewAndAgreeToPolicies": "Before continuing, you need to review and agree to the <terms>Terms of Service</terms> and the <privacy>Privacy Policy</privacy>."
   },
   "table": {
     "expandRow": "Expand Row",
