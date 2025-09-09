@@ -11,7 +11,7 @@
     },
     "button": {
         "add": "Add Materials",
-        "uploadLocalMaterial": "Upload local material"
+        "uploadLocalMaterial": "Upload Local Material"
     },
     "message": {
         "addMaterials": "Add materials to your organisation by selecting them from the Open Material Library below. Material files can also be added by using the upload button.",
