@@ -16,9 +16,14 @@
     "template": "Template",
     "confirm": "Confirm",
     "moveToReview": "Move To Review",
-    "viewMoreParts": "View More Parts"
+    "viewMoreParts": "View More Parts",
+    "createPartGroup": "Create Part Group",
+    "splitPartGroup_one": "Split Part Group",
+    "splitPartGroup_other": "Split Part Groups",
+    "removeFromGroup": "Remove from Group",
+    "regroup": "Regroup"
   },
-  "partInspector": {
+  "details": {
     "title_zero": "No items selected",
     "title_other": "{{count}} items selected",
     "partInformation": "Part Information",
@@ -28,7 +33,15 @@
     "partType": "Part Type",
     "progress": "Progress",
     "printJob": "Print Job",
-    "noPrintJob": "The print job will appear here once the part has been nested."
+    "noPrintJob": "The print job will appear here once the part has been nested.",
+    "groupLabel": "Group",
+    "groupName": "Group {{id}}",
+    "group": {
+      "groupInformation": "Group Information",
+      "template": "Template",
+      "parts": "Parts",
+      "partName": "Part Name"
+    }
   },
   "label": {
     "confirm": "Confirm",
@@ -46,7 +59,8 @@
   "tooltips": {
     "review": "Parts that have been added to the Funnel are shown here to be reviewed. Choose a template to apply to the part before accepting it for manufacture.",
     "accepted": "Parts that have been accepted for manufacture are shown here.",
-    "rejected": "Parts that have been rejected for manufacture are shown here."
+    "rejected": "Parts that have been rejected for manufacture are shown here.",
+    "createPartGroupDisabled": "Only parts that use the same template can be grouped together."
   },
   "emptyInboxMessages": {
     "confirm": {
