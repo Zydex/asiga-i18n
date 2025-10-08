@@ -18,8 +18,7 @@
     "moveToReview": "Move To Review",
     "viewMoreParts": "View More Parts",
     "createPartGroup": "Create Part Group",
-    "splitPartGroup_one": "Split Part Group",
-    "splitPartGroup_other": "Split Part Groups",
+    "ungroupPartGroup": "Ungroup",
     "removeFromGroup": "Remove from Group",
     "regroup": "Regroup"
   },

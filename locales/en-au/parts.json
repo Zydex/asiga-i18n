@@ -122,7 +122,7 @@
     },
     "group": {
         "tooLarge": "Group too large",
-        "tooLargeTooltip": "Group is too large to fit on any printer platform this template specifies.\n\nSplit the group or update the template to use a larger printer."
+        "tooLargeTooltip": "Group is too large to fit on any printer platform this template specifies.\n\nUngroup the parts or update the template to use a larger printer."
     }
   }
   
