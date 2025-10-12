@@ -53,7 +53,8 @@
     "preparingDownload": "Preparing download",
     "designSelected_one": "{{count}} Design selected",
     "designSelected_other": "{{count}} Designs selected",
-    "uploadCancelled": "{{partName}} (cancelled)"
+    "uploadCancelled": "{{partName}} (cancelled)",
+    "renameGroup": "Rename Part Group"
   },
   "tooltips": {
     "review": "Parts that have been added to the Funnel are shown here to be reviewed. Choose a template to apply to the part before accepting it for manufacture.",
@@ -143,6 +144,7 @@
     "functionality": "Upload parts or automatically pull in parts from third party apps. Parts types are recognised, print templates applied, and added to suitable Print Jobs with other parts automatically."
   },
   "message": {
-    "noParts": "No Parts"
+    "noParts": "No Parts",
+    "renameGroup": "Enter a new name for the part group:"
   }
 }
