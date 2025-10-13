@@ -16,9 +16,13 @@
     "template": "Template",
     "confirm": "Confirm",
     "moveToReview": "Move To Review",
-    "viewMoreParts": "View More Parts"
+    "viewMoreParts": "View More Parts",
+    "createPartGroup": "Create Part Group",
+    "ungroupPartGroup": "Ungroup",
+    "removeFromGroup": "Remove from Group",
+    "regroup": "Regroup"
   },
-  "partInspector": {
+  "details": {
     "title_zero": "No items selected",
     "title_other": "{{count}} items selected",
     "partInformation": "Part Information",
@@ -28,7 +32,16 @@
     "partType": "Part Type",
     "progress": "Progress",
     "printJob": "Print Job",
-    "noPrintJob": "The print job will appear here once the part has been nested."
+    "noPrintJob_one": "The print job will appear here once the part has been nested.",
+    "noPrintJob_other": "The print job will appear here once the parts have been nested.",
+    "groupLabel": "Group",
+    "groupName": "Group {{id}}",
+    "group": {
+      "groupInformation": "Group Information",
+      "template": "Template",
+      "parts": "Parts",
+      "partName": "Part Name"
+    }
   },
   "label": {
     "confirm": "Confirm",
@@ -41,12 +54,14 @@
     "preparingDownload": "Preparing download",
     "designSelected_one": "{{count}} Design selected",
     "designSelected_other": "{{count}} Designs selected",
-    "uploadCancelled": "{{partName}} (cancelled)"
+    "uploadCancelled": "{{partName}} (cancelled)",
+    "renameGroup": "Rename Part Group"
   },
   "tooltips": {
     "review": "Parts that have been added to the Funnel are shown here to be reviewed. Choose a template to apply to the part before accepting it for manufacture.",
     "accepted": "Parts that have been accepted for manufacture are shown here.",
-    "rejected": "Parts that have been rejected for manufacture are shown here."
+    "rejected": "Parts that have been rejected for manufacture are shown here.",
+    "createPartGroupDisabled": "Only parts that use the same template can be grouped together."
   },
   "emptyInboxMessages": {
     "confirm": {
@@ -130,6 +145,7 @@
     "functionality": "Upload parts or automatically pull in parts from third party apps. Parts types are recognised, print templates applied, and added to suitable Print Jobs with other parts automatically."
   },
   "message": {
-    "noParts": "No Parts"
+    "noParts": "No Parts",
+    "renameGroup": "Enter a new name for the part group:"
   }
 }
