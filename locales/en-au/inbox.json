@@ -32,7 +32,8 @@
     "partType": "Part Type",
     "progress": "Progress",
     "printJob": "Print Job",
-    "noPrintJob": "The print job will appear here once the part has been nested.",
+    "noPrintJob_one": "The print job will appear here once the part has been nested.",
+    "noPrintJob_other": "The print job will appear here once the parts have been nested.",
     "groupLabel": "Group",
     "groupName": "Group {{id}}",
     "group": {
