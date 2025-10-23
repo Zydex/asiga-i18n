@@ -1,7 +1,9 @@
 {
     "label": {
       "allMachines": "All Machines",
-      "requiresAttention": "Requires Attention"
+      "requiresAttention": "Requires Attention",
+      "noDevices": "Jobs queued for your devices are shown in a timeline on this page",
+      "noDevicesMessage": "Use the button below to add devices to your organisation"
     },
     "tooltips": {
       "allMachines": "Shows all the devices added to the Funnel alongside their queued jobs."
