@@ -234,6 +234,8 @@
     "rejectedSuccess_one": "{{count}} part moved to <a>Rejected</a>",
     "rejectedSuccess_other": "{{count}} parts moved to <a>Rejected</a>",
     "renamingGroup": "Renaming part group",
+    "reprintingParts": "Requeuing parts for printing",
+    "reprintPartsSuccess": "{{count}} part requeued and moved to <a>Accepted</a>",
     "undoingRejectParts": "Undoing rejecting parts",
     "undoRejectPartsSuccess_one": "{{count}} part removed from Rejected",
     "undoRejectPartsSuccess_other": "{{count}} parts removed from Rejected",

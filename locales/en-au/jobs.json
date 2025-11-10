@@ -19,7 +19,8 @@
         "source": "Source",
         "external": "External",
         "requeuingParts": "Requeuing Parts",
-        "requeuedPartsSuccess": "Successfully Requeued Parts"
+        "requeuedPartsSuccess": "Successfully Requeued Parts",
+        "reprintParts": "Reprint parts from this job?"
     },
     "tooltips": {
         "toReview": "Print jobs that are ready to review are shown here. Accept them to send to the printer.",
@@ -33,7 +34,9 @@
         "exportReportPdf": "Export PDF",
         "moveOffline": "Rework Offline",
         "requeueParts": "Requeue Parts",
-        "promoteJob": "Promote Job"
+        "promoteJob": "Promote Job",
+        "reprintParts": "Reprint Parts",
+        "reprint": "Reprint"
     },
     "details": {
         "jobInformation": "Job Information",
@@ -52,7 +55,8 @@
         "submittingJob": "Submitting #{{id}}",
         "submittingJob_device": "Submitting  <bold>#{{id}}</bold> to <bold>{{device}}</bold>",
         "reworkOffline": "Print job <bold>#{{id}}</bold> marked as <bold>Reworked offline</bold>",
-        "requeueParts": "This will mark the job as rejected and move all parts in the job back to the queue."
+        "requeueParts": "This will mark the job as rejected and move all parts in the job back to the queue.",
+        "reprintParts": "Selected parts will be prioritised for reprinting as part of the next suitable print job."
     },
     "title": {
         "material": "Material",
