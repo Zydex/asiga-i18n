@@ -309,5 +309,8 @@
   "underConstruction": {
     "subtitle1": "We're building something special",
     "subtitle2": "Check back later"
+  },
+  "units": {
+    "microns": "{{value}} μm"
   }
 }
