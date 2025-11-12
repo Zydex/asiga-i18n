@@ -12,6 +12,7 @@
     "accept": "Accept",
     "reject": "Reject",
     "prioritise": "Prioritise",
+    "deprioritise": "Deprioritise",
     "partType": "Part type",
     "template": "Template",
     "confirm": "Confirm",
