@@ -47,6 +47,7 @@
     "message": {
         "noJobsToReview": "Provisional jobs that have been promoted will appear here. Upload parts in the inbox to get started.",
         "noParts": "This job has no parts.",
+        "noPartsToReprint": "There are no parts available to reprint from this job.\n\nAll parts from this job may have already been requeued for reprinting.",
         "rejectInfo": "Pressing 'Reshuffle' will result in part position and rotation being varied as part of a new print job. Some parts may be removed or added during the reshuffle.",
         "downloadInfo": "Alternatively, the print job can be downloaded for editing in Composer.",
         "moveOffline": "This will reject the job and download it for editing in composer.",
