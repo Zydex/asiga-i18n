@@ -21,7 +21,8 @@
     "createPartGroup": "Create Part Group",
     "ungroupPartGroup": "Ungroup",
     "removeFromGroup": "Remove from Group",
-    "regroup": "Regroup"
+    "regroup": "Regroup",
+    "reprint": "Reprint Part"
   },
   "details": {
     "title_zero": "No items selected",
