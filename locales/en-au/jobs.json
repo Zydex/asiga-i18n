@@ -21,7 +21,8 @@
         "requeuingParts": "Requeuing Parts",
         "requeuedPartsSuccess": "Successfully Requeued Parts",
         "reprintParts": "Reprint parts from this job?",
-        "reprintPartsNoneAvailable": "All parts are being reprinted"
+        "reprintPartsNoneAvailable": "All parts are being reprinted",
+        "jobContainsPriorityParts": "Job contains prioritised parts"
     },
     "tooltips": {
         "toReview": "Print jobs that are ready to review are shown here. Accept them to send to the printer.",
