@@ -12,7 +12,7 @@
     "accept": "Accept",
     "reject": "Reject",
     "prioritise": "Prioritise",
-    "deprioritise": "Deprioritise",
+    "deprioritise": "Clear Priority",
     "partType": "Part type",
     "template": "Template",
     "confirm": "Confirm",
@@ -57,7 +57,9 @@
     "designSelected_one": "{{count}} Design selected",
     "designSelected_other": "{{count}} Designs selected",
     "uploadCancelled": "{{partName}} (cancelled)",
-    "renameGroup": "Rename Part Group"
+    "renameGroup": "Rename Part Group",
+    "groupHasBeenPrioritised": "Group has been prioritised",
+    "partHasBeenPrioritised": "Part has been prioritised"
   },
   "tooltips": {
     "review": "Parts that have been added to the Funnel are shown here to be reviewed. Choose a template to apply to the part before accepting it for manufacture.",
