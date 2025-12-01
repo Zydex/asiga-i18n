@@ -46,8 +46,10 @@
         "nestPrintJob": {
             "nestPrintJob": "Nest print job",
             "partQueued": "Part queued",
-            "nestingPrintJob": "Nesting print job",
+            "nestingPrintJob": "Adding to provisional job",
             "nestingFailed": "Nesting failed",
+            "nestedInProvisionalJob": "Nested in provisional job",
+            "generatingSupports": "Generating supports",
             "addedToPrintJob": "Added to print job",
             "partTooLarge": "Part too large"
         },
@@ -95,6 +97,8 @@
             "partQueued": "The part will be nested when a suitable printer becomes available & on a “first in first out” basis.",
             "nestingPrintJob": "The part is being nested with other parts to create a print job.",
             "nestingFailed": "The nesting of parts has failed.\nThis could be caused by issues with the part file.",
+            "nestedInProvisionalJob": "Part has been nested in a provisional job.\nIt will become finalised when:\n\n- More parts are added to fill the job, and\n- A suitable printer is about to be available to print it",
+            "generatingSupports": "Supports are being added to the provisional job before it is finalised for the user to approve for printing.",
             "addedToPrintJob": "The part has been added to a print job.",
             "partTooLarge": "The part is too large for the printers specified in the print template.\n\nCheck the part size or consider adding a larger printer to the template."
         },
