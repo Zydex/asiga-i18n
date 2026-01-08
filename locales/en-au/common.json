@@ -24,6 +24,7 @@
     "save": "Save",
     "rename": "Rename",
     "reject": "Reject",
+    "rejectAll": "Reject All",
     "dismiss": "Dismiss",
     "accept": "Accept",
     "acceptAll": "Accept All",
@@ -32,7 +33,8 @@
     "create": "Create",
     "delete": "Delete",
     "confirm": "Confirm",
-    "ok": "OK"
+    "ok": "OK",
+    "essentialOnly": "Essential Only"
   },
   "dialog": {
     "no": "No",
@@ -292,7 +294,8 @@
     "acceptPrivacyPolicy": "I accept the <a>Privacy Policy</a>",
     "acceptTermsOfService": "I accept the <a>Terms of Service</a>",
     "reviewAndAgreeToPolicies": "Before continuing, you need to review and agree to the <terms>Terms of Service</terms> and the <privacy>Privacy Policy</privacy>.",
-    "betaTest": "You're using the beta, let us know how we can improve. <a>Provide Feedback</a>"
+    "betaTest": "You're using the beta, let us know how we can improve. <a>Provide Feedback</a>",
+    "cookiePolicy": "We use cookies to enhance your browsing experience. To find out more, visit our <cookie>Cookie Policy</cookie> & <privacy>Privacy Statement</privacy>."
   },
   "table": {
     "expandRow": "Expand Row",
@@ -313,7 +316,8 @@
     "warning": "Warning",
     "manageSubscription": "Manage Subscription",
     "subscriptionOptions": "Subscription Options",
-    "help": "View Help"
+    "help": "View Help",
+    "cookiePolicy": "Cookie policy"
   },
   "underConstruction": {
     "subtitle1": "We're building something special",
