@@ -7,11 +7,15 @@
        "deleteMaterial": "Delete Material?",
        "unableToDelete_one": "Unable To Delete Material",
        "unableToDelete_other": "Unable To Delete Materials",
-       "noMaterials":"No materials in library"
+       "noMaterials":"No materials in library",
+       "materialAlreadyAdded": "Material file already added",
+       "materialNameConflict": "Material names already exist"
     },
     "button": {
         "add": "Add Materials",
-        "uploadLocalMaterial": "Upload Local Material"
+        "uploadLocalMaterial": "Upload Local Material",
+        "keepBoth": "Keep Both",
+        "replaceMaterial": "Replace Material"
     },
     "message": {
         "addMaterials": "Add materials to your organisation by selecting them from the Open Material Library below. Material files can also be added by using the upload button.",
@@ -23,7 +27,13 @@
         "deleteMaterialWarning": "Are you sure you want to delete the selected materials? Only the latest version of each material will be available to download again in the future.",
         "manufacturerHasNoMaterials": "Manufacturer has no materials",
 
-        "noMaterials": "Use the 'Add Materials' button at the top right of this page to add materials to your organisation"
+        "noMaterials": "Use the 'Add Materials' button at the top right of this page to add materials to your organisation",
+        "materialAlreadyAdded_one": "{{name}} has already been added to your organisation.",
+        "materialAlreadyAdded_other": "The following materials have already been added to your organisation:",
+        "materialNameConflict": "A material file named {{name}} already exists in your organisation.\n\nYou can replace the existing material, or keep both.",
+        "materialNameConflictDorForAll_one": "Do this for {{count}} remaining naming conflict",
+        "materialNameConflictDorForAll_other": "Do this for {{count}} remaining naming conflicts",
+        "materialNameConflictWithRevision": "A material file named {{name}}, Revision {{revision}} already exists in your organisation.\n\nDo you want to replace the existing material with Revision {{requestedRevision}}?"
     },
     "label": {
         "name": "MaterialName",
