@@ -31,8 +31,8 @@
         "materialAlreadyAdded_one": "{{name}} has already been added to your organisation.",
         "materialAlreadyAdded_other": "The following materials have already been added to your organisation:",
         "materialNameConflict": "A material file named {{name}} already exists in your organisation.\n\nYou can replace the existing material, or keep both.",
-        "materialNameConflictDorForAll_one": "Do this for {{count}} remaining naming conflict",
-        "materialNameConflictDorForAll_other": "Do this for {{count}} remaining naming conflicts",
+        "materialNameConflictDoForAll_one": "Do this for {{count}} remaining naming conflict",
+        "materialNameConflictDoForAll_other": "Do this for {{count}} remaining naming conflicts",
         "materialNameConflictWithRevision": "A material file named {{name}}, Revision {{revision}} already exists in your organisation.\n\nDo you want to replace the existing material with Revision {{requestedRevision}}?"
     },
     "label": {
