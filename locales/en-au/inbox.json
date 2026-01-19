@@ -150,6 +150,7 @@
   },
   "message": {
     "noParts": "No Parts",
-    "renameGroup": "Enter a new name for the part group:"
+    "renameGroup": "Enter a new name for the part group:",
+    "renamePart": "Enter a new name for the part:"
   }
 }
