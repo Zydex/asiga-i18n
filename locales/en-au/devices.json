@@ -47,6 +47,7 @@
     "devicesPageInfo": "The status for all devices in your organisation are shown on this page",
     "noDevices": "No Devices",
     "noDevicesNeedAttention": "No devices currently require attention",
+    "noCurrentBuild": "No build currently printing.",
     "warnRemoveDevice": "You will no longer be able to monitor or send print jobs to this device from the Funnel.",
     "warnRemoveDevice_name": "You will no longer be able to monitor or send print jobs to {{device}} from the Funnel.",
     "includeDevice": "{{device}} included for funnel print jobs",
