@@ -1,53 +1,57 @@
 {
   "label": {
-    "templateName": "Template name",
+    "associatedPartType": "Associated part type",
+    "associatedWith": "Associated With",
+    "deleted": "Deleted Template",
+    "deleteSuccess_one": "{{count}} template deleted",
+    "deleteSuccess_other": "{{count}} templates deleted",
+    "fastPrintMode": "Fast print mode",
     "manufacturer": "Manufacturer",
     "material": "Material",
     "materialName": "Material Name",
-    "printerAndTrayType": "Printer and tray types",
-    "trayType": "Tray Type",
-    "partType": "Part Type",
-    "associatedWith": "Associated With",
-    "partTypes_other": "{{count}} Part Types",
-    "associatedPartType": "Associated part type",
-    "supports": "Supports",
-    "thickness": "Layer thickness",
-    "selectThickness": "Select layer thickness",
-    "fastPrintMode": "Fast print mode",
-    "separationDetect": "Separation detect",
-    "search": "Search for templates",
-    "deleteSuccess_one": "{{count}} template deleted",
-    "deleteSuccess_other": "{{count}} templates deleted",
-    "printerModel": "Printer Model",
-    "tray": "Tray",
     "outdated": "Outdated Template",
-    "deleted": "Deleted Template"
+    "partType": "Part Type",
+    "partTypes_other": "{{count}} Part Types",
+    "printerAndTrayType": "Printer and tray types",
+    "printerModel": "Printer Model",
+    "search": "Search for templates",
+    "selectThickness": "Select layer thickness",
+    "separationDetect": "Separation detect",
+    "supports": "Supports",
+    "templateName": "Template name",
+    "thickness": "Layer thickness",
+    "tray": "Tray",
+    "trayType": "Tray Type"
+  },
+  "message": {
+    "changesApplyToNewParts": "Changes will only apply to new parts added to the Funnel. Existing parts will be printed using the previous template settings.",
+    "deleteTemplateWarning": "This will permanently delete any selected templates. Any existing parts that use this template will keep their template print settings.",
+    "noTemplates": "No Templates",
+    "noTemplatesInfo": "Templates will be listed here. Use the 'Create' button to create your first template."
   },
   "title": {
-    "editTemplate": "Edit Template",
+    "changesApplyToNewParts": "Changes apply to new parts",
     "createTemplate": "New Template",
     "deleteTemplate": "Delete Template?",
-    "changesApplyToNewParts": "Changes apply to new parts"
+    "editTemplate": "Edit Template"
   },
   "tooltip": {
     "fastPrintMode": "<bold>Fast print mode</bold>\nAccelerates all non-essential build platform movements, quickly repositioning between layers to minimise idle time and shorten total print duration.",
     "separationDetect": "<bold>Separation detect</bold>\nDetects film release, reducing lift distance between layers.\n\nMay risk print defects if separation isn't properly sensed."
   },
-  "message": {
-    "noTemplates": "No Templates",
-    "noTemplatesInfo": "Templates will be listed here. Use the 'Create' button to create your first template.",
-    "deleteTemplateWarning": "This will permanently delete any selected templates. Any existing parts that use this template will keep their template print settings.",
-    "changesApplyToNewParts": "Changes will only apply to new parts added to the Funnel. Existing parts will be printed using the previous template settings."
-  },
   "types": {
+    "printerTypes": {
+      "max": "Max & Max 2",
+      "pro": "Pro 4K",
+      "ultra": "Ultra"
+    },
     "trays": {
-      "universal": "Universal",
-      "lowForce": "Low Force",
-      "ultraGLOSS": "UltraGLOSS",
       "endurance": "Endurance",
       "LIFT": "LIFT",
-      "ultraGLOSSLIFT": "UltraGLOSS LIFT"
-    },
-    "printerTypes": { "max": "Max & Max 2", "ultra": "Ultra", "pro": "Pro 4K" }
+      "lowForce": "Low Force",
+      "ultraGLOSS": "UltraGLOSS",
+      "ultraGLOSSLIFT": "UltraGLOSS LIFT",
+      "universal": "Universal"
+    }
   }
 }

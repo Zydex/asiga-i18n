@@ -1,16 +1,15 @@
 {
-    "label": {
-      "allMachines": "All Machines",
-      "requiresAttention": "Requires Attention",
-      "noDevices": "Jobs queued for your devices are shown in a timeline on this page",
-      "noDevicesMessage": "Use the button below to add devices to your organisation"
-    },
-    "tooltips": {
-      "allMachines": "Shows all the devices added to the Funnel alongside their queued jobs."
-    },
-    "title": {
-      "timeline": "Timeline"
-    },
-    "viewHours_other": "{{count}} Hour view"
-  }
-  
+  "label": {
+    "allMachines": "All Machines",
+    "noDevices": "Jobs queued for your devices are shown in a timeline on this page",
+    "noDevicesMessage": "Use the button below to add devices to your organisation",
+    "requiresAttention": "Requires Attention"
+  },
+  "title": {
+    "timeline": "Timeline"
+  },
+  "tooltips": {
+    "allMachines": "Shows all the devices added to the Funnel alongside their queued jobs."
+  },
+  "viewHours_other": "{{count}} Hour view"
+}

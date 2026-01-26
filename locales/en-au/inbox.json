@@ -4,153 +4,153 @@
     "userUpload": "User Uploads"
   },
   "button": {
-    "cancel": "Cancel",
-    "expand": "Expand",
-    "retry": "Retry",
-    "uploadPart": "Upload Part",
-    "download": "Download",
     "accept": "Accept",
-    "reject": "Reject",
-    "prioritise": "Prioritise",
-    "deprioritise": "Clear Priority",
-    "partType": "Part type",
-    "template": "Template",
+    "cancel": "Cancel",
     "confirm": "Confirm",
-    "moveToReview": "Move To Review",
-    "viewMoreParts": "View More Parts",
     "createPartGroup": "Create Part Group",
-    "ungroupPartGroup": "Ungroup",
-    "removeFromGroup": "Remove from Group",
+    "deprioritise": "Clear Priority",
+    "download": "Download",
+    "expand": "Expand",
+    "moveToReview": "Move To Review",
+    "partType": "Part type",
+    "prioritise": "Prioritise",
     "regroup": "Regroup",
-    "reprint": "Reprint Part"
+    "reject": "Reject",
+    "removeFromGroup": "Remove from Group",
+    "reprint": "Reprint Part",
+    "retry": "Retry",
+    "template": "Template",
+    "ungroupPartGroup": "Ungroup",
+    "uploadPart": "Upload Part",
+    "viewMoreParts": "View More Parts"
+  },
+  "description": {
+    "functionality": "Upload parts or automatically pull in parts from third party apps. Parts types are recognised, print templates applied, and added to suitable Print Jobs with other parts automatically."
   },
   "details": {
-    "title_zero": "No items selected",
-    "title_other": "{{count}} items selected",
-    "partInformation": "Part Information",
-    "status": "Status",
-    "received": "Received",
-    "source": "Source",
-    "partType": "Part Type",
-    "progress": "Progress",
-    "printJob": "Print Job",
-    "noPrintJob_one": "The print job will appear here once the part has been nested.",
-    "noPrintJob_other": "The print job will appear here once the parts have been nested.",
-    "groupLabel": "Group",
-    "groupName": "Group {{id}}",
     "group": {
       "groupInformation": "Group Information",
-      "template": "Template",
+      "partName": "Part Name",
       "parts": "Parts",
-      "partName": "Part Name"
-    }
-  },
-  "label": {
-    "confirm": "Confirm",
-    "review": "To Review",
-    "accepted": "Accepted",
-    "rejected": "Rejected",
-    "search": "Search for a part",
-    "dropFile": "Add file to the Inbox",
-    "invalidUploadFileType": "Only STL files are supported",
-    "preparingDownload": "Preparing download",
-    "designSelected_one": "{{count}} Design selected",
-    "designSelected_other": "{{count}} Designs selected",
-    "uploadCancelled": "{{partName}} (cancelled)",
-    "renameGroup": "Rename Part Group",
-    "groupHasBeenPrioritised": "Group has been prioritised",
-    "partHasBeenPrioritised": "Part has been prioritised"
-  },
-  "tooltips": {
-    "review": "Parts that have been added to the Funnel are shown here to be reviewed. Choose a template to apply to the part before accepting it for manufacture.",
-    "accepted": "Parts that have been accepted for manufacture are shown here.",
-    "rejected": "Parts that have been rejected for manufacture are shown here.",
-    "createPartGroupDisabled": "Only parts that use the same template can be grouped together."
+      "template": "Template"
+    },
+    "groupLabel": "Group",
+    "groupName": "Group {{id}}",
+    "noPrintJob_one": "The print job will appear here once the part has been nested.",
+    "noPrintJob_other": "The print job will appear here once the parts have been nested.",
+    "partInformation": "Part Information",
+    "partType": "Part Type",
+    "printJob": "Print Job",
+    "progress": "Progress",
+    "received": "Received",
+    "source": "Source",
+    "status": "Status",
+    "title_other": "{{count}} items selected",
+    "title_zero": "No items selected"
   },
   "emptyInboxMessages": {
-    "confirm": {
-      "title": "No parts to confirm",
-      "message": "Use the 'Upload Parts' button or drag and drop files, to add parts to your organisation"
-    },
-    "review": {
-      "title": "No parts to review",
-      "message": "Use the ‘Upload Parts’ button at the top right of this page or use the button below to add parts to your organisation"
-    },
     "accepted": {
-      "title": "No parts accepted",
-      "message": "Parts from the 'Review' tab will appear here when they have been accepted"
+      "message": "Parts from the 'Review' tab will appear here when they have been accepted",
+      "title": "No parts accepted"
+    },
+    "confirm": {
+      "message": "Use the 'Upload Parts' button or drag and drop files, to add parts to your organisation",
+      "title": "No parts to confirm"
     },
     "rejected": {
-      "title": "No parts rejected",
-      "message": "Parts that have been rejected will appear here "
+      "message": "Parts that have been rejected will appear here ",
+      "title": "No parts rejected"
+    },
+    "review": {
+      "message": "Use the ‘Upload Parts’ button at the top right of this page or use the button below to add parts to your organisation",
+      "title": "No parts to review"
     }
   },
+  "errors": {
+    "acceptPartError": "Failed to accept part",
+    "cancelPartUploadError": "Failed to cancel part upload",
+    "confirmPartError": "Failed to confirm part",
+    "downloadPartError": "Failed to download part",
+    "fileTooLarge": "File size exceeds 500MB limit",
+    "invalidFileFormat": "File must be of type .stl",
+    "noFilesUploaded": "No files uploaded",
+    "partCreateError": "Error creating part",
+    "rejectPartError": "Failed to reject part",
+    "setPartTypeError": "Failed to update part type",
+    "undoAcceptPartError": "Failed to undo accept part"
+  },
+  "label": {
+    "accepted": "Accepted",
+    "confirm": "Confirm",
+    "designSelected_one": "{{count}} Design selected",
+    "designSelected_other": "{{count}} Designs selected",
+    "dropFile": "Add file to the Inbox",
+    "groupHasBeenPrioritised": "Group has been prioritised",
+    "invalidUploadFileType": "Only STL files are supported",
+    "partHasBeenPrioritised": "Part has been prioritised",
+    "preparingDownload": "Preparing download",
+    "rejected": "Rejected",
+    "renameGroup": "Rename Part Group",
+    "review": "To Review",
+    "search": "Search for a part",
+    "uploadCancelled": "{{partName}} (cancelled)"
+  },
+  "message": {
+    "noParts": "No Parts",
+    "renameGroup": "Enter a new name for the part group:",
+    "renamePart": "Enter a new name for the part:"
+  },
   "table": {
-    "userUpload": "User upload",
     "partClassification": {
-      "other": "Other",
-      "hollowModel": "Model (Hollow)",
-      "solidModel": "Model (Solid)",
+      "bridge": "Bridge",
       "crownOrToothOrVeneer": "Crown/Tooth/Veneer",
-      "screwInTooth": "Implant Crown",
-      "die": "Die",
-      "flatGingiva": "Gingiva",
-      "pillowGingiva": "Gingiva (Pillow)",
-      "teethRow": "Denture Teeth",
+      "dentureAOX": "Denture (AoX)",
       "dentureBase": "Denture (Base)",
       "denturePartial": "Denture (Partial)",
-      "tryInDenture": "Denture (Try-in)",
+      "die": "Die",
+      "flatGingiva": "Gingiva",
+      "hollowModel": "Model (Hollow)",
       "occlusalSplint": "Splint",
-      "surgicalGuide": "Surgical Guide",
-      "bridge": "Bridge",
+      "other": "Other",
       "partialFramework": "Partial Framework",
-      "dentureAOX": "Denture (AoX)"
+      "pillowGingiva": "Gingiva (Pillow)",
+      "screwInTooth": "Implant Crown",
+      "solidModel": "Model (Solid)",
+      "surgicalGuide": "Surgical Guide",
+      "teethRow": "Denture Teeth",
+      "tryInDenture": "Denture (Try-in)"
     },
     "partStatus": {
-      "processing": "Processing",
-      "toConfirm": "To confirm",
-      "toAccept": "To accept",
-      "printReady": "Print ready",
       "addedToJob": "Added to job",
+      "failed": "Failed",
       "printed": "Printed",
-      "reworkedOffline": "Reworked offline",
+      "printReady": "Print ready",
+      "processing": "Processing",
       "rejected": "Rejected",
-      "failed": "Failed"
+      "reworkedOffline": "Reworked offline",
+      "toAccept": "To accept",
+      "toConfirm": "To confirm"
     },
     "template": {
       "noTemplate": "No template",
       "noTemplateTooltip": "<a>Create a template</a> with this part's type to accept the part for printing."
-    }
+    },
+    "userUpload": "User upload"
   },
   "title": {
+    "inbox": "Inbox",
     "name": "Name",
     "partType": "Part type",
     "received": "Received",
     "source": "Source",
     "status": "Status",
     "template": "Template",
-    "uploads": "Uploads",
-    "inbox": "Inbox"
+    "uploads": "Uploads"
   },
-  "errors": {
-    "partCreateError": "Error creating part",
-    "noFilesUploaded": "No files uploaded",
-    "fileTooLarge": "File size exceeds 500MB limit",
-    "invalidFileFormat": "File must be of type .stl",
-    "rejectPartError": "Failed to reject part",
-    "acceptPartError": "Failed to accept part",
-    "downloadPartError": "Failed to download part",
-    "confirmPartError": "Failed to confirm part",
-    "undoAcceptPartError": "Failed to undo accept part",
-    "setPartTypeError": "Failed to update part type",
-    "cancelPartUploadError": "Failed to cancel part upload"
-  },
-  "description": {
-    "functionality": "Upload parts or automatically pull in parts from third party apps. Parts types are recognised, print templates applied, and added to suitable Print Jobs with other parts automatically."
-  },
-  "message": {
-    "noParts": "No Parts",
-    "renameGroup": "Enter a new name for the part group:",
-    "renamePart": "Enter a new name for the part:"
+  "tooltips": {
+    "accepted": "Parts that have been accepted for manufacture are shown here.",
+    "createPartGroupDisabled": "Only parts that use the same template can be grouped together.",
+    "rejected": "Parts that have been rejected for manufacture are shown here.",
+    "review": "Parts that have been added to the Funnel are shown here to be reviewed. Choose a template to apply to the part before accepting it for manufacture."
   }
 }

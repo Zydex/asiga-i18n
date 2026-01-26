@@ -1,21 +1,21 @@
 {
   "label": {
-    "organisationName": "Organisation Name",
     "country": "Country",
     "industry": "Industry Type",
+    "organisationName": "Organisation Name",
     "phoneNumber": "Phone Number",
-    "website": "Website",
     "subtitle": "Your gateway to simple, automated 3D print set-up and production management",
-    "title": "Create your Asiga Funnel account"
+    "title": "Create your Asiga Funnel account",
+    "website": "Website"
   },
   "message": {
     "completePersonalDetails": "Complete your personal details",
+    "emailResendSuccess": "Email sent. Please check your inbox.",
     "emailVerified": "<bold>Email successfully verified</bold>\nYou will be redirected shortly...",
-    "verifyEmail": "Please verify your email address to access the Asiga Funnel.",
+    "regionError": "The Asiga Funnel is currently only supported in Australia.",
     "resendEmail": "Resend verification email",
     "resendEmailError": "Unable to resend verification email. Please try again later.",
     "sendingEmail": "Sending verification email...",
-    "emailResendSuccess": "Email sent. Please check your inbox.",
-    "regionError": "The Asiga Funnel is currently only supported in Australia."
+    "verifyEmail": "Please verify your email address to access the Asiga Funnel."
   }
 }
