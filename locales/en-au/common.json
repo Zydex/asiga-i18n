@@ -205,6 +205,7 @@
     "dismissSuccess_one": "{{count}} part has been dismissed",
     "dismissSuccess_other": "{{count}} parts have been dismissed",
     "acceptingParts": "Accepting parts",
+    "acceptingGroups": "Accepting part groups",
     "acceptedPartsSuccess_one": "{{count}} part moved to <a>Accepted</a>",
     "acceptedPartsSuccess_other": "{{count}} parts moved to <a>Accepted</a>",
     "acceptedGroupsSuccess_one": "{{count}} group moved to <a>Accepted</a>",
