@@ -1,39 +1,39 @@
 {
-    "alt": {
-        "noApps": "No Apps Linked"
-    },
-    "button": {
-        "apps": "Apps"
-    },
-    "label": {
-        "search": "Search for apps"
-    },
-    "message": {
-        "noApps": "No Apps Linked",
-        "noAppsInfo": "Linked apps will be listed here. Use the 'Apps' button below to view available apps that can be linked.",
-        "unlink": "Your organisation will no longer receive parts from the app.",
-        "unlink_name_one": "Your organisation will no longer receive parts from the {{name}}.",
-        "unlink_nameOrg_one": "{{org}} will no longer receive parts from the {{name}}.",
-        "unlink_one": "Your organisation will no longer receive parts from the app.",
-        "unlink_org_other": "{{org}} will no longer receive parts from the apps.",
-        "unlink_other": "Your organisation will no longer receive parts from the apps.",
-        "unlinkParts": "Parts already received will remain in your organisation.",
-        "unlinkParts_org": "Parts already received will remain in {{org}}."
-    },
-    "title": {
-        "apps": "Apps",
-        "connectedApps": "Connected Apps",
-        "lastUsed": "Last Used",
-        "linked": "Linked",
-        "name": "Name",
-        "never": "Never",
-        "unlink": "Unlink App?",
-        "unlink_name": "Unlink {{name}}?",
-        "unlink_one": "Unlink App?",
-        "unlink_other": "Unlink Apps?"
-    },
-    "tooltips": {
-        "apps": "Lists all the apps that the Funnel supports. Use these to automatically receive parts from third party services.",
-        "connectedApps": "Lists all the apps that have permission to send parts to the Funnel."
-    }
+  "alt": {
+    "noApps": "No Apps Linked"
+  },
+  "button": {
+    "apps": "Apps"
+  },
+  "label": {
+    "search": "Search for apps"
+  },
+  "message": {
+    "noApps": "No Apps Linked",
+    "noAppsInfo": "Linked apps will be listed here. Use the 'Apps' button below to view available apps that can be linked.",
+    "unlink": "Your organisation will no longer receive parts from the app.",
+    "unlink_one": "Your organisation will no longer receive parts from the app.",
+    "unlink_other": "Your organisation will no longer receive parts from the apps.",
+    "unlink_name_one": "Your organisation will no longer receive parts from the {{name}}.",
+    "unlink_nameOrg_one": "{{org}} will no longer receive parts from the {{name}}.",
+    "unlink_org_other": "{{org}} will no longer receive parts from the apps.",
+    "unlinkParts": "Parts already received will remain in your organisation.",
+    "unlinkParts_org": "Parts already received will remain in {{org}}."
+  },
+  "title": {
+    "apps": "Apps",
+    "connectedApps": "Connected Apps",
+    "lastUsed": "Last Used",
+    "linked": "Linked",
+    "name": "Name",
+    "never": "Never",
+    "unlink": "Unlink App?",
+    "unlink_name": "Unlink {{name}}?",
+    "unlink_one": "Unlink App?",
+    "unlink_other": "Unlink Apps?"
+  },
+  "tooltips": {
+    "apps": "Lists all the apps that the Funnel supports. Use these to automatically receive parts from third party services.",
+    "connectedApps": "Lists all the apps that have permission to send parts to the Funnel."
+  }
 }

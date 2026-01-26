@@ -12,6 +12,8 @@
     "outdated": "Outdated Template",
     "partType": "Part Type",
     "partTypes_other": "{{count}} Part Types",
+    "partTypes_other_one": "1 Part Type",
+    "partTypes_other_other": "{{count}} Part Types",
     "printerAndTrayType": "Printer and tray types",
     "printerModel": "Printer Model",
     "search": "Search for templates",

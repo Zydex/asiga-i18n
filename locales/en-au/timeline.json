@@ -11,5 +11,6 @@
   "tooltips": {
     "allMachines": "Shows all the devices added to the Funnel alongside their queued jobs."
   },
+  "viewHours_one": "1 Hour view",
   "viewHours_other": "{{count}} Hour view"
 }

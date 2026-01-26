@@ -21,6 +21,7 @@
     "create": "Create",
     "delete": "Delete",
     "dismiss": "Dismiss",
+    "download": "Download",
     "edit": "Edit",
     "essentialOnly": "Essential Only",
     "invite": "Invite",
@@ -32,6 +33,7 @@
     "rejectAll": "Reject All",
     "remove": "Remove",
     "rename": "Rename",
+    "retry": "Retry",
     "save": "Save",
     "unlink": "Unlink",
     "update": "Update"
@@ -223,9 +225,9 @@
     "groupUpdateSuccess_one": "Successfully updated {{count}} group",
     "groupUpdateSuccess_other": "Successfully updated {{count}} groups",
     "itemSelected": "Item selected",
+    "itemSelected_zero": "No items selected",
     "itemSelected_one": "{{count}} item selected",
     "itemSelected_other": "{{count}} items selected",
-    "itemSelected_zero": "No items selected",
     "language": "Language",
     "openDrawer": "Open Drawer",
     "partRenameSuccess": "Successfully renamed part",
@@ -250,8 +252,10 @@
     "reprintingParts": "Requeuing parts for reprinting",
     "reprintPartsSuccess_one": "{{count}} part requeued and moved to <a>Accepted</a>",
     "reprintPartsSuccess_other": "{{count}} parts requeued and moved to <a>Accepted</a>",
+    "setTimezone": "Set Timezone",
     "settings": "Settings",
     "tabs": "Tabs",
+    "timezone": "Timezone",
     "undoAcceptedPartsSuccess_one": "{{count}} part removed from Accepted",
     "undoAcceptedPartsSuccess_other": "{{count}} parts removed from Accepted",
     "undoingAcceptParts": "Undoing accept parts",
@@ -297,6 +301,7 @@
     "reviewAndAgreeToPolicies": "Before continuing, you need to review and agree to the <terms>Terms of Service</terms> and the <privacy>Privacy Policy</privacy>."
   },
   "notFoundPage": {
+    "message": "Check the page address for typos or use the navigation menu on the top left",
     "message_narrow": "Check the page address for typos or use the navigation menu on the top left",
     "message_wide": "Check the page address for typos or use the navigation buttons on the left",
     "title": "We can't find that page"
