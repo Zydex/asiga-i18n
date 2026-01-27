@@ -28,9 +28,9 @@
     "name": "Name",
     "never": "Never",
     "unlink": "Unlink App?",
-    "unlink_name": "Unlink {{name}}?",
     "unlink_one": "Unlink App?",
-    "unlink_other": "Unlink Apps?"
+    "unlink_other": "Unlink Apps?",
+    "unlink_name": "Unlink {{name}}?"
   },
   "tooltips": {
     "apps": "Lists all the apps that the Funnel supports. Use these to automatically receive parts from third party services.",
