@@ -16,6 +16,7 @@ const CONSOLE_RESET = '\x1b[0m'
 
 type PluralForm = 'zero' | 'one' | 'other'
 
+/** Interface for parsed i18n keys */
 interface ParsedKey {
   original: string
   base: string
@@ -24,13 +25,17 @@ interface ParsedKey {
   value: any
 }
 
+/** Sort order for i18n plural forms */
 const PLURAL_ORDER: Record<PluralForm, number> = {
   zero: 0,
   one: 1,
   other: 2,
 }
+
+// Target directory containing locale JSON files
 const LOCALES_DIR = path.join(__dirname, 'locales')
 
+/** Recursively get all JSON files in a directory */
 function getAllJsonFiles(dir: string): string[] {
   let results: string[] = []
   const list = fs.readdirSync(dir)
@@ -46,6 +51,7 @@ function getAllJsonFiles(dir: string): string[] {
   return results
 }
 
+/** Parse an i18n key into its components (base, context, plural) with the original key and value stored */
 function parseKey(key: string, value: any): ParsedKey {
   const parts = key.split('_')
   const last = parts[parts.length - 1]
@@ -61,9 +67,28 @@ function parseKey(key: string, value: any): ParsedKey {
   }
 }
 
+/** Custom i18n key sort: group base/context, then all plural forms in {@link PLURAL_ORDER}, then sort base/context alphabetically.  */
+function i18nKeySort(a: ParsedKey, b: ParsedKey): number {
+  // 1. Base key A–Z
+  if (a.base !== b.base) {
+    return a.base.localeCompare(b.base)
+  }
 
+  // 2. Context A–Z (null before non-null)
+  if (a.context !== b.context) {
+    if (a.context === null) return -1
+    if (b.context === null) return 1
+    return a.context.localeCompare(b.context)
+  }
 
-// Recursively sort all object keys (deep sort), using i18n key sort for flat string objects
+  // 3. Plural order: base/context first, then zero, one, other
+  if (a.plural === b.plural) return 0
+  if (a.plural === null) return -1
+  if (b.plural === null) return 1
+  return PLURAL_ORDER[a.plural] - PLURAL_ORDER[b.plural]
+}
+
+/** Recursively sort all object keys (deep sort), using the {@link i18nKeySort} function */
 function deepSortObject(obj: any): any {
     if (Array.isArray(obj)) {
       return obj.map(deepSortObject)
@@ -85,31 +110,14 @@ function deepSortObject(obj: any): any {
     return obj
 }
 
-// Custom i18n key sort: group base/context, then all plural forms in PLURAL_ORDER, then next base/context, etc.
-function i18nKeySort(a: ParsedKey, b: ParsedKey): number {
-  // 1. Base key A–Z
-  if (a.base !== b.base) {
-    return a.base.localeCompare(b.base)
-  }
 
-  // 2. Context A–Z (null before non-null)
-  if (a.context !== b.context) {
-    if (a.context === null) return -1
-    if (b.context === null) return 1
-    return a.context.localeCompare(b.context)
-  }
-
-  // 3. Plural order: base/context first, then zero, one, other
-  if (a.plural === b.plural) return 0
-  if (a.plural === null) return -1
-  if (b.plural === null) return 1
-  return PLURAL_ORDER[a.plural] - PLURAL_ORDER[b.plural]
-}
-
+// Process all JSON files in the locales directory
 const files = getAllJsonFiles(LOCALES_DIR)
 let needsFormatting = false
 let unchangedFiles = 0
+
 files.forEach((file: string) => {
+  // Read and parse the JSON file
   const raw = fs.readFileSync(file, 'utf8')
   let json: any
   try {
@@ -119,10 +127,10 @@ files.forEach((file: string) => {
     return
   }
 
-
-  // Always use deepSortObject, which now handles both flat and nested cases
   const output = deepSortObject(json)
   const formatted = JSON.stringify(output, null, 2) + '\n'
+
+  // Check if formatting is needed and apply changes if not a dry run
   if (raw !== formatted) {
     needsFormatting = true
     if (!dryRun) {
@@ -138,8 +146,10 @@ files.forEach((file: string) => {
   }
 })
 
+// Summary output
 console.log(`Checked ${CONSOLE_GREEN}${files.length}${CONSOLE_RESET} files. ${CONSOLE_GREEN}${unchangedFiles}${CONSOLE_RESET} already formatted. ${CONSOLE_CYAN}${files.length - unchangedFiles}${CONSOLE_RESET} needed formatting.`)
 
+// Exit code for dry run for CI integration
 if (dryRun) {
   if (needsFormatting) {
     process.exit(1)
