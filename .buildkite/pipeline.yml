@@ -1,5 +1,5 @@
 steps:
-  - label: ":node: Linting"
+  - label: ':node: :typescript: Linting'
     command: npm run lint
     plugins:
       - docker-compose#v3.9.0:
@@ -9,7 +9,7 @@ steps:
 
   - wait
 
-  - label: ":aws: :s3: Deploy to Dev Environment"
+  - label: ':aws: :s3: Deploy to Dev Environment'
     commands: |
       aws s3 cp --sse AES256 --recursive locales s3://i18n-dev-asiga-com
       DISTRIBUTION=$(aws cloudfront list-distributions --query "DistributionList.Items[?Aliases.Items[0]=='i18n.dev.asiga.com'].{Id: Id}" | jq -r '.[0].Id')
@@ -21,4 +21,4 @@ steps:
     agents:
       queue: deploy
     branches:
-      - "main"
+      - 'main'

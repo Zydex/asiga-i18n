@@ -144,9 +144,7 @@ files.forEach((file: string) => {
       console.log(`Would sort: ${file}`)
     }
   } else {
-    if (!dryRun) {
-      unchangedFiles++
-    }
+    unchangedFiles++
   }
 })
 
