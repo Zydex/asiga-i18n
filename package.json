@@ -6,8 +6,7 @@
   "scripts": {
     "test": "vitest run ./format.test.ts",
     "lint": "li18nt /app/locales/**/*.json && tsx ./format.ts --dry-run",
-    "fmt": "tsx ./format.ts",
-    "check": "tsx ./format.ts --dry-run"
+    "fmt": "tsx ./format.ts"
   },
   "author": "",
   "license": "ISC",
