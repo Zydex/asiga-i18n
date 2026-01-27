@@ -90,26 +90,30 @@ function i18nKeySort(a: ParsedKey, b: ParsedKey): number {
 
 /** Recursively sort all object keys (deep sort), using the {@link i18nKeySort} function */
 function deepSortObject(obj: any): any {
-    if (Array.isArray(obj)) {
-      return obj.map(deepSortObject)
-    } else if (obj && typeof obj === 'object' && obj.constructor === Object) {
-      const sorted = Object.entries(obj)
-        .map(([key, value]) => parseKey(key, value))
-        .sort(i18nKeySort)
-      const result: any = {}
-      for (const item of sorted) {
-        // If the value is an object (not a string), deepSort it
-        if (item.value && typeof item.value === 'object' && typeof item.value !== 'string' && item.value.constructor === Object) {
-          result[item.original] = deepSortObject(item.value)
-        } else {
-          result[item.original] = item.value
-        }
+  if (Array.isArray(obj)) {
+    return obj.map(deepSortObject)
+  } else if (obj && typeof obj === 'object' && obj.constructor === Object) {
+    const sorted = Object.entries(obj)
+      .map(([key, value]) => parseKey(key, value))
+      .sort(i18nKeySort)
+    const result: any = {}
+    for (const item of sorted) {
+      // If the value is an object (not a string), deepSort it
+      if (
+        item.value &&
+        typeof item.value === 'object' &&
+        typeof item.value !== 'string' &&
+        item.value.constructor === Object
+      ) {
+        result[item.original] = deepSortObject(item.value)
+      } else {
+        result[item.original] = item.value
       }
-      return result
     }
-    return obj
+    return result
+  }
+  return obj
 }
-
 
 // Process all JSON files in the locales directory
 const files = getAllJsonFiles(LOCALES_DIR)
@@ -141,13 +145,15 @@ files.forEach((file: string) => {
     }
   } else {
     if (!dryRun) {
-      unchangedFiles ++
+      unchangedFiles++
     }
   }
 })
 
 // Summary output
-console.log(`Checked ${CONSOLE_GREEN}${files.length}${CONSOLE_RESET} files. ${CONSOLE_GREEN}${unchangedFiles}${CONSOLE_RESET} already formatted. ${CONSOLE_CYAN}${files.length - unchangedFiles}${CONSOLE_RESET} needed formatting.`)
+console.log(
+  `Checked ${CONSOLE_GREEN}${files.length}${CONSOLE_RESET} files. ${CONSOLE_GREEN}${unchangedFiles}${CONSOLE_RESET} already formatted. ${CONSOLE_CYAN}${files.length - unchangedFiles}${CONSOLE_RESET} needed formatting.`,
+)
 
 // Exit code for dry run for CI integration
 if (dryRun) {
@@ -158,3 +164,12 @@ if (dryRun) {
   }
 }
 
+// Export functions for testing
+export {
+  deepSortObject,
+  i18nKeySort,
+  ParsedKey,
+  parseKey,
+  PLURAL_ORDER,
+  PluralForm,
+}

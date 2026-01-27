@@ -4,7 +4,7 @@
   "description": "Asiga i18n Internationalisation.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest run ./format.test.ts",
     "lint": "li18nt /app/locales/**/*.json && tsx ./format.ts --dry-run",
     "fmt": "tsx ./format.ts",
     "check": "tsx ./format.ts --dry-run"
