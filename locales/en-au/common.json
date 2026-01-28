@@ -36,7 +36,15 @@
     "retry": "Retry",
     "save": "Save",
     "unlink": "Unlink",
-    "update": "Update"
+    "update": "Update",
+    "tooltips": {
+      "changeRoleDisabled_user": "You do not have permission to change the roles of other users.",
+      "changeRoleDisabled_admin": "You do not have permission to change the role of Admin or Owner users.",
+      "changeRoleDisabled_owner": "You do not have permission to change the role of Owner users.",
+      "deleteUserDisabled_user": "You do not have permission to delete other users.",
+      "deleteUserDisabled_admin": "You do not have permission to delete Admin or Owner users.",
+      "deleteUserDisabled_owner": "You do not have permission to delete other Owner users."
+    }
   },
   "dialog": {
     "no": "No",
