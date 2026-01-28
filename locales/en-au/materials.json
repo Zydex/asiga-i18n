@@ -1,60 +1,58 @@
 {
-    "title": {
-       "materials": "Materials",
-       "addMaterials": "Add Materials",
-       "updateMaterial_one": "Update Material?",
-       "updateMaterial_other": "Update Materials?",
-       "deleteMaterial": "Delete Material?",
-       "unableToDelete_one": "Unable To Delete Material",
-       "unableToDelete_other": "Unable To Delete Materials",
-       "noMaterials":"No materials in library",
-       "materialAlreadyAdded": "Material file already added",
-       "materialNameConflict": "Material names already exist"
-    },
-    "button": {
-        "add": "Add Materials",
-        "uploadLocalMaterial": "Upload Local Material",
-        "keepBoth": "Keep Both",
-        "replaceMaterial": "Replace Material"
-    },
-    "message": {
-        "addMaterials": "Add materials to your organisation by selecting them from the Open Material Library below. Material files can also be added by using the upload button.",
-        "updateMaterial_one": "<bold>{{name}}</bold> will be updated to the latest version.",
-        "updateMaterial_other": "{{count}} material INI files will be updated to the latest version.",
-
-        "unableToDelete_one": "The selected material cannot be deleted as it is currently being used in templates. Please assign different materials to the following templates to continue with deletion:",
-        "unableToDelete_other": "The selected materials cannot be deleted as they are currently being used in templates. Please assign different materials to the following templates to continue with deletion:",
-        "deleteMaterialWarning": "Are you sure you want to delete the selected materials? Only the latest version of each material will be available to download again in the future.",
-        "manufacturerHasNoMaterials": "Manufacturer has no materials",
-
-        "noMaterials": "Use the 'Add Materials' button at the top right of this page to add materials to your organisation",
-        "materialAlreadyAdded_one": "{{name}} has already been added to your organisation.",
-        "materialAlreadyAdded_other": "The following materials have already been added to your organisation:",
-        "materialNameConflict": "A material file named {{name}} already exists in your organisation.\n\nYou can replace the existing material, or keep both.",
-        "materialNameConflictDoForAll_one": "Do this for {{count}} remaining naming conflict",
-        "materialNameConflictDoForAll_other": "Do this for {{count}} remaining naming conflicts",
-        "materialNameConflictWithRevision": "A material file named {{name}}, Revision {{revision}} already exists in your organisation.\n\nDo you want to replace the existing material with Revision {{requestedRevision}}?"
-    },
-    "label": {
-        "name": "MaterialName",
-        "manufacturer": "Manufacturer",
-        "search": "Search for a material",
-        "material": "Material",
-        "updateMaterial": "Material update available",
-        "deleting": "Deleting a material",
-        "deleting_one": "Deleting {{count}} material",
-        "deleting_other": "Deleting {{count}} materials",
-        "deleteSuccess_one": "{{count}} material deleted",
-        "deleteSuccess_other": "{{count}} materials deleted",
-        "adding": "Adding a material",
-        "adding_one": "Adding {{count}} material",
-        "adding_other": "Adding {{count}} materials",
-        "addSuccess_one": "{{count}} material added",
-        "addSuccess_other": "{{count}} materials added",
-        "templateName": "Template name",
-        "dropFile": "Add file to <bold>Materials</bold>"
-    },
-    "tooltips": {
-        "materials": "Lists all the materials that have been added to the Funnel.\n\nMaterials can be added from the Open Material library or uploaded manually."
-    }
+  "button": {
+    "add": "Add Materials",
+    "keepBoth": "Keep Both",
+    "replaceMaterial": "Replace Material",
+    "uploadLocalMaterial": "Upload Local Material"
+  },
+  "label": {
+    "adding": "Adding a material",
+    "adding_one": "Adding {{count}} material",
+    "adding_other": "Adding {{count}} materials",
+    "addSuccess_one": "{{count}} material added",
+    "addSuccess_other": "{{count}} materials added",
+    "deleteSuccess_one": "{{count}} material deleted",
+    "deleteSuccess_other": "{{count}} materials deleted",
+    "deleting": "Deleting a material",
+    "deleting_one": "Deleting {{count}} material",
+    "deleting_other": "Deleting {{count}} materials",
+    "dropFile": "Add file to <bold>Materials</bold>",
+    "manufacturer": "Manufacturer",
+    "material": "Material",
+    "name": "MaterialName",
+    "search": "Search for a material",
+    "templateName": "Template name",
+    "updateMaterial": "Material update available"
+  },
+  "message": {
+    "addMaterials": "Add materials to your organisation by selecting them from the Open Material Library below. Material files can also be added by using the upload button.",
+    "deleteMaterialWarning": "Are you sure you want to delete the selected materials? Only the latest version of each material will be available to download again in the future.",
+    "manufacturerHasNoMaterials": "Manufacturer has no materials",
+    "materialAlreadyAdded_one": "{{name}} has already been added to your organisation.",
+    "materialAlreadyAdded_other": "The following materials have already been added to your organisation:",
+    "materialNameConflict": "A material file named {{name}} already exists in your organisation.\n\nYou can replace the existing material, or keep both.",
+    "materialNameConflictDoForAll_one": "Do this for {{count}} remaining naming conflict",
+    "materialNameConflictDoForAll_other": "Do this for {{count}} remaining naming conflicts",
+    "materialNameConflictWithRevision": "A material file named {{name}}, Revision {{revision}} already exists in your organisation.\n\nDo you want to replace the existing material with Revision {{requestedRevision}}?",
+    "noMaterials": "Use the 'Add Materials' button at the top right of this page to add materials to your organisation",
+    "unableToDelete_one": "The selected material cannot be deleted as it is currently being used in templates. Please assign different materials to the following templates to continue with deletion:",
+    "unableToDelete_other": "The selected materials cannot be deleted as they are currently being used in templates. Please assign different materials to the following templates to continue with deletion:",
+    "updateMaterial_one": "<bold>{{name}}</bold> will be updated to the latest version.",
+    "updateMaterial_other": "{{count}} material INI files will be updated to the latest version."
+  },
+  "title": {
+    "addMaterials": "Add Materials",
+    "deleteMaterial": "Delete Material?",
+    "materialAlreadyAdded": "Material file already added",
+    "materialNameConflict": "Material names already exist",
+    "materials": "Materials",
+    "noMaterials": "No materials in library",
+    "unableToDelete_one": "Unable To Delete Material",
+    "unableToDelete_other": "Unable To Delete Materials",
+    "updateMaterial_one": "Update Material?",
+    "updateMaterial_other": "Update Materials?"
+  },
+  "tooltips": {
+    "materials": "Lists all the materials that have been added to the Funnel.\n\nMaterials can be added from the Open Material library or uploaded manually."
+  }
 }

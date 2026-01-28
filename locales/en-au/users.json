@@ -25,9 +25,6 @@
     "updatedAt": "Updated At",
     "users": "Users"
   },
-  "tooltips": {
-    "users": "Lists all the users that are part of the organisation. Users can be added and roles changed here."
-  },
   "message": {
     "addUsers": "Enter emails below to invite users to this organisation.",
     "addUsers_org": "Enter emails below to invite users to {{org}}.",
@@ -44,11 +41,11 @@
     "deleteProfile": "Your profile will permanently be removed from your organisation.",
     "deleteProfile_org": "Your profile will permanently be removed from {{org}}.",
     "howToAddUsers": "Use the 'Add User' button at the top right of this page or use the button below to add users to your organisation",
+    "invitationSent": "Invitation Sent",
     "linkSent": "Link Sent",
     "profilePicture": "This helps others recognise you and lets you know that you're signed in to the correct account.",
     "userPageInfo": "The users in your organisation are shown on this page",
-    "warnCreateAccount": "Are you sure you wish to create this account?",
-    "invitationSent": "Invitation Sent"
+    "warnCreateAccount": "Are you sure you wish to create this account?"
   },
   "role": {
     "accountant": "Accountant",
@@ -72,5 +69,8 @@
     "remove_other": "Remove users?",
     "restoreAccess": "Restore access for user?",
     "role": "Role"
+  },
+  "tooltips": {
+    "users": "Lists all the users that are part of the organisation. Users can be added and roles changed here."
   }
 }
