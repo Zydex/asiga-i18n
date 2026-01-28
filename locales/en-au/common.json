@@ -335,7 +335,7 @@
       }
     },
     "failedToPrint": {
-      "name": "",
+      "name": "Print failed",
       "tooltip": {
         "default": "The print job has failed.\n\nRefer to the printer screen for more information."
       }
