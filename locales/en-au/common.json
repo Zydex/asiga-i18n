@@ -46,6 +46,9 @@
     "unlink": "Unlink",
     "update": "Update"
   },
+  "details": {
+    "progress": "Progress"
+  },
   "dialog": {
     "no": "No",
     "yes": "Yes"
@@ -313,6 +316,230 @@
     "message_narrow": "Check the page address for typos or use the navigation menu on the top left",
     "message_wide": "Check the page address for typos or use the navigation buttons on the left",
     "title": "We can't find that page"
+  },
+  "progressStatus": {
+    "acceptPartForPrinting": {
+      "name": "Accept part for printing",
+      "tooltip": {
+        "part": "The part will be presented for review to confirm the type and the template settings that will be used."
+      }
+    },
+    "addingToProvisionalJob": {
+      "name": "Adding to provisional job",
+      "tooltip": {
+        "default": "Part is being nested in a provisional job."
+      }
+    },
+    "approvePrintJob": {
+      "name": "Approve print job",
+      "tooltip": {
+        "default": "The print job will be presented for review so the layout of parts and the supports can be checked before approving the print job for printing."
+      }
+    },
+    "cancelled": {
+      "name": "Print cancelled",
+      "tooltip": {
+        "default": "The print job has been cancelled before it finished or deleted from the build queue."
+      }
+    },
+    "failedToPrint": {
+      "name": "Print failed",
+      "tooltip": {
+        "default": "The print job has failed.\n\nRefer to the printer screen for more information."
+      }
+    },
+    "generatingSupports": {
+      "name": "Generating supports",
+      "tooltip": {
+        "job": "The provisional Job layout has been finalised and the print layers are being prepared.",
+        "part": "Supports are being added to the provisional job before it is finalised for the user to approve for printing."
+      }
+    },
+    "groupTooLarge": {
+      "name": "Group too large",
+      "tooltip": {
+        "part": "The group the part belongs to is too large to print. Try ungrouping the parts."
+      }
+    },
+    "identifiedPartType": {
+      "name": "Part type identified",
+      "tooltip": {
+        "part": "The part type has been identified, this impacts which templates can be chosen and how the part will be orientated later."
+      }
+    },
+    "identifyingPartType": {
+      "name": "Identifying part type",
+      "tooltip": {
+        "part": "Analysing part geometry to identify part type."
+      }
+    },
+    "nestedInJob": {
+      "name": "Print job created",
+      "tooltip": {
+        "job": "The print job has been created.",
+        "part": "The part has been added to a print job."
+      }
+    },
+    "nestedInProvisionalJob": {
+      "name": "Nested in provisional job",
+      "tooltip": {
+        "job": "Job is in a provisional state and will become finalised when:\n\n- more parts are added to fill the job, and\n- a suitable printer is about to be available to print it\n\nThe job can also manually be promoted to a finalised state.",
+        "part": "The part has been nested in a provisional job.\nIt will become finalised when:\n\n- more parts are added to fill the job, and\n- A suitable printer is about to be available to print it"
+      }
+    },
+    "nestingFailed": {
+      "name": "Nesting failed",
+      "tooltip": {
+        "default": "The nesting of parts has failed.\nThis could be caused by issues with the part file."
+      }
+    },
+    "nestPrintJob": {
+      "name": "Nest print job",
+      "tooltip": {
+        "part": "The part will be added to a provisional job along with other parts using the same template. They will then be arrange on the platform."
+      }
+    },
+    "orientatePart": {
+      "name": "Orientating part",
+      "tooltip": {
+        "part": "The part orientation will be optimised based on the part type, before being nested in a print job."
+      }
+    },
+    "orientatingPart": {
+      "name": "Orientating part",
+      "tooltip": {
+        "part": "The part is currently being orientated based on its type."
+      }
+    },
+    "orientationFailed": {
+      "name": "Orientation failed",
+      "tooltip": {
+        "part": "The part could not be orientated successfully for printing.\nThis could be caused by issues with the part file."
+      }
+    },
+    "partAccepted": {
+      "name": "Part accepted",
+      "tooltip": {
+        "part": "The part has been accepted for printing."
+      }
+    },
+    "partIdentification": {
+      "name": "Part Identification"
+    },
+    "partOrientated": {
+      "name": "Part orientated",
+      "tooltip": {
+        "part": "The part was orientated successfully for printing."
+      }
+    },
+    "partRejected": {
+      "name": "Part rejected",
+      "tooltip": {
+        "part": "The part was rejected by the user."
+      }
+    },
+    "partTooLarge": {
+      "name": "Part too large",
+      "tooltip": {
+        "part": "The part is too large to fit on a printer associated with the parts template.\n\nTry checking the scale of the uploaded part, and that the parts template has a printer large enough to accommodate it."
+      }
+    },
+    "print": {
+      "name": "Print",
+      "tooltip": {
+        "default": "The print job will be sent to the machine where it will be printed."
+      }
+    },
+    "printed": {
+      "name": "Printed",
+      "tooltip": {
+        "default": "The Job has completed successfully."
+      }
+    },
+    "printing": {
+      "name": "Printing",
+      "tooltip": {
+        "default": "The Job is currently being printed."
+      }
+    },
+    "printJobApproved": {
+      "name": "Print job approved",
+      "tooltip": {
+        "default": "The print job has been approved."
+      }
+    },
+    "printJobPendingApproval": {
+      "name": "Print job pending approval",
+      "tooltip": {
+        "default": "The finalised Job is ready to review."
+      }
+    },
+    "printJobRejected": {
+      "name": "Print job rejected",
+      "tooltip": {
+        "default": "The job was rejected and the parts have been requeued."
+      }
+    },
+    "printJobReworkedOffline": {
+      "name": "Print job reworked offline",
+      "tooltip": {
+        "default": "The print job was downloaded by the user to edit in Composer."
+      }
+    },
+    "printPaused": {
+      "name": "Print Paused",
+      "tooltip": {
+        "default": "The print job has been paused by the user."
+      }
+    },
+    "printPending": {
+      "name": "Print pending",
+      "tooltip": {
+        "default": "The Job is on the printer and ready to print."
+      }
+    },
+    "sendingFailed": {
+      "name": "Sending failed",
+      "tooltip": {
+        "default": "The print job failed when sending to the printer.\n\nCheck the printer is online and try resending the job."
+      }
+    },
+    "sendingToPrinter": {
+      "name": "Sending to printer",
+      "tooltip": {
+        "default": "The print layers are being sent to the printer."
+      }
+    },
+    "sendToPrinter": {
+      "name": "Send to printer",
+      "tooltip": {
+        "default": "The print job will be sliced into separate layers and sent to the printer for printing."
+      }
+    },
+    "sentToPrinter": {
+      "name": "Sent to printer",
+      "tooltip": {
+        "default": "The print job is on the printer and ready to print."
+      }
+    },
+    "slicingFailed": {
+      "name": "Slicing failed",
+      "tooltip": {
+        "default": "The print job has failed whilst preparing the print layers.\n\nThis could be caused by issues with the part files."
+      }
+    },
+    "slicingPrintJob": {
+      "name": "Slicing print job",
+      "tooltip": {
+        "default": "The print layers are being prepared."
+      }
+    },
+    "waitingForPartToBeAccepted": {
+      "name": "Accept part for printing",
+      "tooltip": {
+        "part": "The part is waiting for the user to accept."
+      }
+    }
   },
   "table": {
     "expandRow": "Expand Row",

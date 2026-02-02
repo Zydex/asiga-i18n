@@ -59,16 +59,66 @@
     "submittingJob_device": "Submitting  <bold>#{{id}}</bold> to <bold>{{device}}</bold>"
   },
   "status": {
-    "awaitingApproval": "Awaiting approval",
-    "cancelled": "Cancelled",
-    "failed": "Failed",
-    "generating": "Generating print job",
-    "offline": "Reworked offline",
-    "prepareToSend": "Preparing to send",
-    "printed": "Printed",
-    "printing": "Printing",
-    "printPending": "Print pending",
-    "provisional": "Provisional"
+    "awaitingApproval": {
+      "name": "Awaiting approval",
+      "tooltip": "The finalised Job is ready to review."
+    },
+    "cancelled": {
+      "name": "Cancelled",
+      "tooltip": "The print job has been cancelled before it finished or deleted from the build queue."
+    },
+    "failed": {
+      "name": "Failed",
+      "tooltip": "The print job has failed.\n\nRefer to the printer screen for more information."
+    },
+    "generating": {
+      "name": "Finalising print job",
+      "tooltip": "The provisional Job layout has been finalised and the print layers are being prepared."
+    },
+    "nestingFailed": {
+      "name": "Nesting Failed",
+      "tooltip": "The nesting of parts has failed. This could be caused by issues with one or more of the part files."
+    },
+    "offline": {
+      "name": "Reworked offline",
+      "tooltip": "The Job was downloaded to edit and send in Composer."
+    },
+    "printed": {
+      "name": "Printed",
+      "tooltip": "The Job has completed successfully."
+    },
+    "printing": {
+      "name": "Printing",
+      "tooltip": "The Job is currently being printed."
+    },
+    "printPending": {
+      "name": "Print pending",
+      "tooltip": "The Job is on the printer and ready to print."
+    },
+    "provisional": {
+      "name": "Provisional",
+      "tooltip": "Job is in a provisional state and will become finalised when:\n- more parts are added to fill the job, and\n- a suitable printer is about to be available to print it\nThe job can also manually be promoted to a finalised state."
+    },
+    "rejected": {
+      "name": "Rejected",
+      "tooltip": "The job was rejected and the parts have been requeued."
+    },
+    "sendingFailed": {
+      "name": "Sending failed",
+      "tooltip": "The print job failed when sending to the printer.\n\nCheck the printer is online and try resending the job."
+    },
+    "sendingToPrinter": {
+      "name": "Sending to printer",
+      "tooltip": "The print layers are being sent to the printer."
+    },
+    "slicing": {
+      "name": "Slicing print job",
+      "tooltip": "The print layers are being prepared."
+    },
+    "slicingFailed": {
+      "name": "Slicing failed",
+      "tooltip": "The print job has failed whilst preparing the print layers.\n\nThis could be caused by issues with the part files."
+    }
   },
   "title": {
     "device": "Device",
