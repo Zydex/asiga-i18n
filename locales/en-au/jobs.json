@@ -54,7 +54,8 @@
     "reprintParts": "Selected parts will be prioritised for reprinting as part of the next suitable print job.",
     "reprintPartsKey": "Parts in grey have already been reprinted.",
     "requeueParts": "This will mark the job as rejected and move all parts in the job back to the queue.",
-    "reworkOffline": "Print job <bold>#{{id}}</bold> marked as <bold>Reworked offline</bold>",
+    "reworkOffline_one": "Print job <bold>#{{id}}</bold> marked as <bold>Reworked offline</bold>",
+    "reworkOffline_other": "{{count}} print jobs marked as <bold>Reworked offline</bold>",
     "submittingJob": "Submitting #{{id}}",
     "submittingJob_device": "Submitting  <bold>#{{id}}</bold> to <bold>{{device}}</bold>"
   },
