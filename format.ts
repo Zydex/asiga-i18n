@@ -67,25 +67,28 @@ function parseKey(key: string, value: any): ParsedKey {
   }
 }
 
-/** Custom i18n key sort: group base/context, then all plural forms in {@link PLURAL_ORDER}, then sort base/context alphabetically.  */
+/** Custom i18n key sort: group base/context, then sort base/context alphabetically, finally, sort all plural forms in {@link PLURAL_ORDER}. */
 function i18nKeySort(a: ParsedKey, b: ParsedKey): number {
   // 1. Base key A–Z
   if (a.base !== b.base) {
     return a.base.localeCompare(b.base)
   }
 
-  // 2. Context A–Z (null before non-null)
+  // 2. Plural order: base/context first, then zero, one, other
+  if (a.plural !== b.plural) {
+    if (a.plural === null) return -1
+    if (b.plural === null) return 1
+    return PLURAL_ORDER[a.plural] - PLURAL_ORDER[b.plural]
+  }
+
+  // 3. Context A–Z (null before non-null)
   if (a.context !== b.context) {
     if (a.context === null) return -1
     if (b.context === null) return 1
     return a.context.localeCompare(b.context)
   }
 
-  // 3. Plural order: base/context first, then zero, one, other
-  if (a.plural === b.plural) return 0
-  if (a.plural === null) return -1
-  if (b.plural === null) return 1
-  return PLURAL_ORDER[a.plural] - PLURAL_ORDER[b.plural]
+  return 0
 }
 
 /** Recursively sort all object keys (deep sort), using the {@link i18nKeySort} function */
