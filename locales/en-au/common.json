@@ -38,6 +38,14 @@
     "rename": "Rename",
     "retry": "Retry",
     "save": "Save",
+    "tooltips": {
+      "changeRoleDisabled_admin": "You do not have permission to change the role of Admin or Owner users.",
+      "changeRoleDisabled_owner": "You do not have permission to change the role of Owner users.",
+      "changeRoleDisabled_user": "You do not have permission to change the roles of other users.",
+      "deleteUserDisabled_admin": "You do not have permission to remove Admin or Owner users.",
+      "deleteUserDisabled_owner": "You do not have permission to remove other Owner users.",
+      "deleteUserDisabled_user": "You do not have permission to remove other users."
+    },
     "unlink": "Unlink",
     "update": "Update"
   },
