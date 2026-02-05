@@ -26,8 +26,10 @@
     "trayType": "Tray Type"
   },
   "message": {
-    "changesApplyToNewParts": "Changes will only apply to new parts added to the Funnel. Existing parts will be printed using the previous template settings.",
-    "deleteTemplateWarning": "This will permanently delete any selected templates. Any existing parts that use this template will keep their template print settings.",
+    "changesApplyToNewParts": "Existing parts will be updated with the new template settings and requeued for printing.",
+    "deleteTemplateWarning": "Any parts using this template will be returned to the Inbox for review. Assign a new template to print them, or reject them to remove from the Funnel.",
+    "modifyWillAffectParts": "Associated part types using this template will be requeued for printing and any removed part types will be returned to the Inbox for review.",
+    "modifyWillRequeueParts": "Existing parts will be updated with the new template settings and requeued for printing.",
     "noTemplates": "No Templates",
     "noTemplatesInfo": "Templates will be listed here. Use the 'Create' button to create your first template."
   },
@@ -35,7 +37,18 @@
     "changesApplyToNewParts": "Changes apply to new parts",
     "createTemplate": "New Template",
     "deleteTemplate": "Delete Template?",
-    "editTemplate": "Edit Template"
+    "deleteTemplate_zero": "Delete Template?",
+    "deleteTemplate_one": "{{count}} part will be returned to the inbox",
+    "deleteTemplate_other": "{{count}} parts will be returned to the inbox",
+    "editTemplate": "Edit Template",
+    "modifyWillAffectParts": "Parts might be affected by this change",
+    "modifyWillAffectParts_zero": "Parts might be affected by this change",
+    "modifyWillAffectParts_one": "{{count}} part will be affected by this change",
+    "modifyWillAffectParts_other": "{{count}} parts will be affected by this change",
+    "modifyWillRequeueParts": "Parts may be requeued",
+    "modifyWillRequeueParts_zero": "Parts may be requeued",
+    "modifyWillRequeueParts_one": "{{count}} part will be requeued",
+    "modifyWillRequeueParts_other": "{{count}} parts will be requeued"
   },
   "tooltip": {
     "fastPrintMode": "<bold>Fast print mode</bold>\nAccelerates all non-essential build platform movements, quickly repositioning between layers to minimise idle time and shorten total print duration.",
