@@ -2,6 +2,7 @@
   "label": {
     "associatedPartType": "Associated part type",
     "associatedWith": "Associated With",
+    "default": "Default",
     "deleted": "Deleted Template",
     "deleteSuccess_one": "{{count}} template deleted",
     "deleteSuccess_other": "{{count}} templates deleted",
