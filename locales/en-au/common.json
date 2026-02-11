@@ -230,6 +230,7 @@
     "dismissingParts": "Dismissing parts",
     "dismissSuccess_one": "{{count}} part has been dismissed",
     "dismissSuccess_other": "{{count}} parts have been dismissed",
+    "downloading": "Downloading",
     "downloadJobsSuccess_one": "{{count}} job downloaded",
     "downloadJobsSuccess_other": "{{count}} jobs downloaded",
     "downloadPartsSuccess_one": "{{count}} part downloaded",
