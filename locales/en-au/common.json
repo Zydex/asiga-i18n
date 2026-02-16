@@ -508,7 +508,7 @@
     "sendingFailed": {
       "name": "Sending failed",
       "tooltip": {
-        "default": "The print job failed when sending to the printer.\n\nCheck the printer is online and try resending the job."
+        "default": "The print job failed when sending to the printer.\n\nThis could be caused by the printer going offline or the build queue being full with insufficient memory left."
       }
     },
     "sendingToPrinter": {
