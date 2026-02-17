@@ -288,6 +288,7 @@
   },
   "links": {
     "devices": "Devices",
+    "home": "Home",
     "inbox": "Inbox",
     "manage": "Manage",
     "parts": "Parts",
@@ -295,6 +296,7 @@
     "timeline": "Timeline",
     "tooltips": {
       "devices": "A live overview of all the devices to help you monitor your lab.",
+      "home": "A snapshot of your lab's activity to keep you up to date.",
       "inbox": "Upload & review parts from users or applications.\n\nConfirm parts have the correct print template applied & accept for manufacturing.",
       "manage": "Add or edit users, link external apps, general settings.",
       "parts": "View parts that have been accepted for manufacture.\n\nCheck on the status to see where they are in the manufacturing process.",
