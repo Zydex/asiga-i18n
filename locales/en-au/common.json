@@ -55,9 +55,9 @@
     "daysInterval": "Date range",
     "daysInterval_0": "Today",
     "daysInterval_1": "Yesterday",
-    "daysInterval_30": "Last Month",
-    "daysInterval_7": "Last Week",
-    "daysInterval_90": "Last 3 Months"
+    "daysInterval_30": "Last 30 Days",
+    "daysInterval_7": "Last 7 Days",
+    "daysInterval_90": "Last 90 Days"
   },
   "details": {
     "progress": "Progress"
