@@ -51,6 +51,14 @@
     "unlink": "Unlink",
     "update": "Update"
   },
+  "date": {
+    "daysInterval": "Date range",
+    "daysInterval_0": "Today",
+    "daysInterval_1": "Yesterday",
+    "daysInterval_30": "Last Month",
+    "daysInterval_7": "Last Week",
+    "daysInterval_90": "Last 3 Months"
+  },
   "details": {
     "progress": "Progress"
   },

@@ -1,11 +1,4 @@
 {
-  "dateRange": {
-    "1d": "Yesterday",
-    "30d": "Last Month",
-    "7d": "Last Week",
-    "90d": "Last 3 Months",
-    "today": "Today"
-  },
   "emptyState": {
     "message": "This page shows statistics about parts, printers and material usage\n\nConnect a printer, add parts and send print jobs to see data here",
     "title": "Welcome home"
