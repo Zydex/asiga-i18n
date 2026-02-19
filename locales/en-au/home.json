@@ -1,0 +1,29 @@
+{
+  "emptyState": {
+    "message": "This page shows statistics about parts, printers and material usage\n\nConnect a printer, add parts and send print jobs to see data here",
+    "title": "Welcome home"
+  },
+  "label": {
+    "jobs": "Jobs",
+    "overview": "Overview",
+    "parts": "Parts"
+  },
+  "metrics": {
+    "jobsPrinted": "Jobs printed",
+    "jobsToAccept": "Jobs to accept",
+    "partsPerTemplate": "Parts per template",
+    "partsPrinted": "Parts printed",
+    "partsToApprove": "Parts to approve",
+    "partTypes": "Part types",
+    "tooltips": {
+      "jobsPrinted": "Total number of jobs printed within the specified date range",
+      "jobsPrintedPerDay": "Total number of jobs printed per day within the specified date range",
+      "jobsToAccept": "Total number of jobs that require acceptance before printing",
+      "partsPerTemplate": "Total number of parts created per template within the specified date range",
+      "partsPrinted": "Total number of parts printed within the specified date range",
+      "partsPrintedPerDay": "Total number of parts printed per day within the specified date range",
+      "partsToApprove": "Total number of parts that require approval before printing",
+      "partTypes": "Total number of parts created per part type within the specified date range"
+    }
+  }
+}
