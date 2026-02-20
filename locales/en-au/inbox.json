@@ -102,8 +102,10 @@
     "noParts": "No Parts",
     "renameGroup": "Enter a new name for the part group:",
     "renamePart": "Enter a new name for the part:",
-    "reprocessPart_one": "{{name}} was previously added on {{time}}.",
-    "reprocessPart_other": "{{count}} parts were previously added to the funnel."
+    "reprocessPart_one": "{{name}} was previously added.",
+    "reprocessPart_other": "{{count}} parts were previously added to the funnel.",
+    "reprocessPart_time_one": "{{name}} was previously added on {{time}}.",
+    "reprocessPart_time_other": "{{count}} parts were previously added to the funnel."
   },
   "table": {
     "partClassification": {
