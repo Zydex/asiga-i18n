@@ -52,6 +52,7 @@
     "update": "Update"
   },
   "date": {
+    "all": "All",
     "daysInterval": "Date range",
     "daysInterval_0": "Today",
     "daysInterval_1": "Yesterday",
@@ -325,6 +326,9 @@
     "noConnection": "Unable to connect, retrying in {{time}}",
     "noMatches": "Sorry, no matches were found",
     "noMatchesHelp": "Check for typos or try more general words\nAlternatively, try using the table filters",
+    "noMatchesHelp_both": "Check for typos or try more general words\nAlternatively, try updating or clearing the table filters",
+    "noMatchesHelp_filtering": "Try updating or clearing the table filters",
+    "noMatchesHelp_searching": "Check for typos or try more general words\nAlternatively, try using the table filters",
     "reconnecting": "Attempting to reconnect",
     "reviewAndAgreeToPolicies": "Before continuing, you need to review and agree to the <terms>Terms of Service</terms> and the <privacy>Privacy Policy</privacy>."
   },
@@ -559,6 +563,8 @@
     }
   },
   "table": {
+    "activeFilters": "Active filters:",
+    "clearFilters": "Clear filters",
     "expandRow": "Expand Row",
     "pageAmount": "Amount",
     "perPage": "Per Page"
