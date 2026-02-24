@@ -37,7 +37,6 @@
     "remove": "Remove",
     "rename": "Rename",
     "reprocess": "Reprocess",
-    "reset": "button.reset",
     "retry": "Retry",
     "save": "Save",
     "tooltips": {
@@ -54,7 +53,6 @@
     "update": "Update"
   },
   "date": {
-    "all": "common:date.all",
     "daysInterval": "Date range",
     "daysInterval_0": "Today",
     "daysInterval_1": "Yesterday",
@@ -562,8 +560,6 @@
     }
   },
   "table": {
-    "activeFilters": "table.activeFilters",
-    "clearFilters": "table.clearFilters",
     "expandRow": "Expand Row",
     "pageAmount": "Amount",
     "perPage": "Per Page"
