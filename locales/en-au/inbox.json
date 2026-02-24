@@ -101,7 +101,11 @@
   "message": {
     "noParts": "No Parts",
     "renameGroup": "Enter a new name for the part group:",
-    "renamePart": "Enter a new name for the part:"
+    "renamePart": "Enter a new name for the part:",
+    "reprocessPart_one": "{{name}} was previously added.\n\nReprocessing this part will create another copy in the Funnel for printing.",
+    "reprocessPart_other": "{{count}} parts were previously added to the funnel.\n\nReprocessing this part will create another copy in the Funnel for printing.",
+    "reprocessPart_time_one": "{{name}} was previously added on {{time}}.\n\nReprocessing this part will create another copy in the Funnel for printing.",
+    "reprocessPart_time_other": "{{count}} parts were previously added to the funnel.\n\nReprocessing this part will create another copy in the Funnel for printing."
   },
   "table": {
     "partClassification": {
@@ -145,6 +149,8 @@
     "name": "Name",
     "partType": "Part type",
     "received": "Received",
+    "reprocessPart_one": "Reprocess {{name}}?",
+    "reprocessPart_other": "Reprocess {{count}} parts?",
     "source": "Source",
     "status": "Status",
     "template": "Template",
