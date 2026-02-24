@@ -85,7 +85,7 @@
     "nestPrintJob": {
       "addedToPrintJob": "The part has been added to a print job.",
       "generatingSupports": "Supports are being added to the provisional job before it is finalised for the user to approve for printing.",
-      "nestedInProvisionalJob": "Part has been nested in a provisional job.\nIt will become finalised when:\n\n- More parts are added to fill the job, and\n- A suitable printer is about to be available to print it",
+      "nestedInProvisionalJob": "Part has been nested in a provisional job. It will become finalised when:<ul><li>More parts are added to fill the job</li><li>A suitable printer is about to be available to print it</li></ul>",
       "nestingFailed": "The nesting of parts has failed.\nThis could be caused by issues with the part file.",
       "nestingPrintJob": "Part is being nested in a provisional job.",
       "nestPrintJob": "The part will be nested when a suitable printer becomes available & on a “first in first out” basis.",
