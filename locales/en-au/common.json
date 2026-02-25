@@ -178,6 +178,7 @@
     "templateGetForbidden": "You are not allowed to get a template for this organisation.",
     "templateMaterialForbidden": "You do not have access to assign this material to a template.",
     "templateMaterialPendingConflict": "A material pending upload can not be assigned to a template.",
+    "templateNoEligibleDefault": "A default template is required for every part type specified. Set another template as the default before removing this one.",
     "templateNotFound": "Template could not be found.",
     "templateUpdateForbidden": "You are not allowed to update a template for this organisation.",
     "unauthorized": "You are not authenticated. Please sign in.",

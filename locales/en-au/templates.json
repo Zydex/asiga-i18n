@@ -2,6 +2,7 @@
   "label": {
     "associatedPartType": "Associated part type",
     "associatedWith": "Associated With",
+    "default": "Default",
     "deleted": "Deleted Template",
     "deleteSuccess_one": "{{count}} template deleted",
     "deleteSuccess_other": "{{count}} templates deleted",
@@ -51,6 +52,9 @@
     "modifyWillRequeueParts_other": "{{count}} parts will be requeued"
   },
   "tooltip": {
+    "defaultPartType": "Make this the default template for the selected part type",
+    "defaultPartType_disabled": "This is currently the default template for {{partType}}. Select another template as default to replace it.",
+    "defaultPartType_only": "This is the default template as no other template is associated with this part type",
     "fastPrintMode": "<bold>Fast print mode</bold>\nAccelerates all non-essential build platform movements, quickly repositioning between layers to minimise idle time and shorten total print duration.",
     "separationDetect": "<bold>Separation detect</bold>\nDetects film release, reducing lift distance between layers.\n\nMay risk print defects if separation isn't properly sensed."
   },
