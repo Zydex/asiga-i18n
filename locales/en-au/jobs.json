@@ -98,7 +98,7 @@
     },
     "provisional": {
       "name": "Provisional",
-      "tooltip": "Job is in a provisional state and will become finalised when:\n- more parts are added to fill the job, and\n- a suitable printer is about to be available to print it\nThe job can also manually be promoted to a finalised state."
+      "tooltip": "Job is in a provisional state and will become finalised when:\n<ul><li>more parts are added to fill the job</li><li>a suitable printer is about to be available to print it</li></ul>The job can also manually be promoted to a finalised state."
     },
     "rejected": {
       "name": "Rejected",

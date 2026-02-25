@@ -180,6 +180,7 @@
     "templateGetForbidden": "You are not allowed to get a template for this organisation.",
     "templateMaterialForbidden": "You do not have access to assign this material to a template.",
     "templateMaterialPendingConflict": "A material pending upload can not be assigned to a template.",
+    "templateNoEligibleDefault": "A default template is required for every part type specified. Set another template as the default before removing this one.",
     "templateNotFound": "Template could not be found.",
     "templateUpdateForbidden": "You are not allowed to update a template for this organisation.",
     "unauthorized": "You are not authenticated. Please sign in.",
@@ -406,8 +407,8 @@
     "nestedInProvisionalJob": {
       "name": "Nested in provisional job",
       "tooltip": {
-        "job": "Job is in a provisional state and will become finalised when:\n\n- more parts are added to fill the job, and\n- a suitable printer is about to be available to print it\n\nThe job can also manually be promoted to a finalised state.",
-        "part": "The part has been nested in a provisional job.\nIt will become finalised when:\n\n- more parts are added to fill the job, and\n- A suitable printer is about to be available to print it"
+        "job": "Job is in a provisional state and will become finalised when:<ul><li>more parts are added to fill the job</li><li>a suitable printer is about to be available to print it</li></ul>The job can also manually be promoted to a finalised state.",
+        "part": "The part has been nested in a provisional job. It will become finalised when:<ul><li>more parts are added to fill the job, and</li><li>A suitable printer is about to be available to print it</li></ul>"
       }
     },
     "nestingFailed": {
