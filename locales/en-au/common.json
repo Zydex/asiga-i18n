@@ -401,8 +401,8 @@
     "nestedInProvisionalJob": {
       "name": "Nested in provisional job",
       "tooltip": {
-        "job": "Job is in a provisional state and will become finalised when:\n\n- more parts are added to fill the job, and\n- a suitable printer is about to be available to print it\n\nThe job can also manually be promoted to a finalised state.",
-        "part": "The part has been nested in a provisional job.\nIt will become finalised when:\n\n- more parts are added to fill the job, and\n- A suitable printer is about to be available to print it"
+        "job": "Job is in a provisional state and will become finalised when:<ul><li>more parts are added to fill the job</li><li>a suitable printer is about to be available to print it</li></ul>The job can also manually be promoted to a finalised state.",
+        "part": "The part has been nested in a provisional job. It will become finalised when:<ul><li>more parts are added to fill the job, and</li><li>A suitable printer is about to be available to print it</li></ul>"
       }
     },
     "nestingFailed": {
