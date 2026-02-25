@@ -37,6 +37,7 @@
     "remove": "Remove",
     "rename": "Rename",
     "reprocess": "Reprocess",
+    "reset": "Reset",
     "retry": "Retry",
     "save": "Save",
     "tooltips": {
