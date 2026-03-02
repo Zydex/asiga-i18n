@@ -21,6 +21,7 @@
     "devicesTab": "Device Tab",
     "excludedDevice": "Device has been excluded from receiving print jobs from the Funnel",
     "requiresAttention": "Requires Attention",
+    "search": "Search for a device",
     "status": {
       "availableInFunnel": "Accept Funnel Jobs",
       "currentBuildName": "Current Build Name",
