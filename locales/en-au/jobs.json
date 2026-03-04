@@ -141,6 +141,7 @@
     "accepted": "All jobs that have been accepted are shown here, alongside their status.",
     "provisional": "This shows the expected upcoming jobs based on printer availability, template compatibility and unprinted parts in the Funnel.\n\nPromoting them will create a finalised print job that will include the identified parts, layout and target printer. When supports have been generated for finalised jobs, they will appear in the 'To Review' tab.",
     "rejected": "All jobs that have been rejected are shown here.",
+    "resendJob": "Resend a job to a printer. This may be useful if the job was cancelled or if the device encountered an error.",
     "toReview": "Print jobs that are ready to review are shown here. Accept them to send to the printer."
   }
 }
