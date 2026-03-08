@@ -414,6 +414,16 @@
         "part": "The part has been nested in a provisional job. It will become finalised when:<ul><li>more parts are added to fill the job, and</li><li>A suitable printer is about to be available to print it</li></ul>"
       }
     },
+    "nestingBlocked": {
+      "name": "Nesting blocked",
+      "tooltip": {
+        "allDevicesExcludedFromFunnel": "Compatible printers have been excluded from accepting jobs from the Funnel.\n\nInclude these printers for automatic print jobs, or update the template to use other printers.",
+        "allDevicesOfflineOrExcluded": "No compatible printers are online, or accepting Funnel print jobs.\n\nCheck printers are connected and included for automatic print jobs, or update the template to use other connected printers.",
+        "groupMemberFailed": "One or more parts in the group have failed orientation.\n\nRemove the failed part(s) to print this group.",
+        "groupMembersProcessing": "One or more parts in this group are still being orientated.",
+        "noAvailableDevices": "No compatible printers are online to print this part.\n\nCheck printers are connected, or update the template to use other connected printers."
+      }
+    },
     "nestingFailed": {
       "name": "Nesting failed",
       "tooltip": {
