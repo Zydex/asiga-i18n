@@ -415,7 +415,7 @@
       }
     },
     "nestingBlocked": {
-      "name": "Nesting blocked",
+      "name": "Unable to add to provisional job",
       "tooltip": {
         "allDevicesExcludedFromFunnel": "Compatible printers have been excluded from accepting jobs from the Funnel.\n\nInclude these printers for automatic print jobs, or update the template to use other printers.",
         "allDevicesOfflineOrExcluded": "No compatible printers are online, or accepting Funnel print jobs.\n\nCheck printers are connected and included for automatic print jobs, or update the template to use other connected printers.",
