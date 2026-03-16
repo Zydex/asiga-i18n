@@ -38,6 +38,7 @@
     "rename": "Rename",
     "reprocess": "Reprocess",
     "reset": "Reset",
+    "resetToDefault": "Reset to default",
     "retry": "Retry",
     "save": "Save",
     "tooltips": {
@@ -236,6 +237,7 @@
     "confirmedSuccess_other": "{{count}} parts confirmed",
     "confirmingParts": "Confirming parts",
     "creatingGroup": "Creating part group",
+    "default": "Default",
     "deprioritiseSuccess_one": "Cleared part priority.",
     "deprioritiseSuccess_other": "Cleared parts priorities.",
     "deprioritisingParts": "Clearing part priorities.",
@@ -608,6 +610,10 @@
     "subtitle2": "Check back later"
   },
   "units": {
-    "microns": "{{value}} μm"
+    "microns": "{{value}} μm",
+    "suffix": {
+      "degrees": " °",
+      "millimetres": " mm"
+    }
   }
 }
