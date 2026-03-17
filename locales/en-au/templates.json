@@ -85,7 +85,8 @@
     "templateName": "Template name",
     "thickness": "Layer thickness",
     "tray": "Tray",
-    "trayType": "Tray Type"
+    "trayType": "Tray Type",
+    "overrideMaterialSettings": "Entering values in these fields will override the defaults set by the material."
   },
   "message": {
     "changesApplyToNewParts": "Existing parts will be updated with the new template settings and requeued for printing.",
