@@ -13,7 +13,7 @@
     "jobsToAccept": "Jobs to accept",
     "partsPerTemplate": "Parts per template",
     "partsPrinted": "Parts printed",
-    "partsToApprove": "Parts to approve",
+    "partsToApprove": "Parts to accept",
     "partTypes": "Part types",
     "tooltips": {
       "jobsPrinted": "Total number of jobs printed within the specified date range",
@@ -22,7 +22,7 @@
       "partsPerTemplate": "Total number of parts created per template within the specified date range",
       "partsPrinted": "Total number of parts printed within the specified date range",
       "partsPrintedPerDay": "Total number of parts printed per day within the specified date range",
-      "partsToApprove": "Total number of parts that require approval before printing",
+      "partsToApprove": "Total number of parts that require acceptance before printing",
       "partTypes": "Total number of parts created per part type within the specified date range"
     }
   }
