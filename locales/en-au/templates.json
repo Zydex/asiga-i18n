@@ -72,6 +72,7 @@
     "material": "Material",
     "materialName": "Material Name",
     "outdated": "Outdated Template",
+    "overrideMaterialSettings": "Entering values in these fields will override the defaults set by the material.",
     "partType": "Part Type",
     "partTypes_other": "{{count}} Part Types",
     "partTypes_other_one": "1 Part Type",
@@ -85,8 +86,7 @@
     "templateName": "Template name",
     "thickness": "Layer thickness",
     "tray": "Tray",
-    "trayType": "Tray Type",
-    "overrideMaterialSettings": "Entering values in these fields will override the defaults set by the material."
+    "trayType": "Tray Type"
   },
   "message": {
     "changesApplyToNewParts": "Existing parts will be updated with the new template settings and requeued for printing.",
