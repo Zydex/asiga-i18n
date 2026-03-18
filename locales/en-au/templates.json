@@ -1,7 +1,68 @@
 {
+  "basePlate": {
+    "addTo": {
+      "enum": {
+        "allParts": "All parts",
+        "supportedParts": "Supported parts"
+      },
+      "label": "Add base plate to",
+      "tooltip": "Add a base plate to supported, or all, parts."
+    },
+    "enabled": {
+      "label": "Base plate",
+      "tooltip": "Enable base plate generation"
+    },
+    "engraved": {
+      "label": "Add build name to base plate",
+      "tooltip": "Add the build name and XYZ resolution in µm onto the base plate."
+    },
+    "meshShape": {
+      "enum": {
+        "hexagon": "Hexagon",
+        "none": "None",
+        "square": "Square",
+        "triangle": "Triangle"
+      },
+      "label": "Mesh shape",
+      "tooltip": "Selecting a shape other than None will add a pattern of holes in the base plate of the selected shape."
+    },
+    "meshSize": {
+      "label": "Mesh size",
+      "tooltip": "The diameter of holes in the base plate."
+    },
+    "meshWidth": {
+      "label": "Mesh width",
+      "tooltip": "Thickness of walls between the holes."
+    },
+    "placement": {
+      "enum": {
+        "intersecting": "Intersecting",
+        "underneath": "Underneath"
+      },
+      "label": "Placement",
+      "tooltip": "The placement of the base plate relative to each part and it's supports.\n<ul><li>Underneath - shift parts and supports up, and place build plate underneath.</li><li>Intersecting - intersect the build plate with the bottom of the part or it's support.</li></lu>"
+    },
+    "thickness": {
+      "label": "Thickness",
+      "tooltip": "Base plate thickness in millimetres."
+    },
+    "type": {
+      "enum": {
+        "boundingBox": "Bounding box",
+        "full": "Full",
+        "shadow": "Shadow"
+      },
+      "label": "Type",
+      "tooltip": "Base plate type:\n<ul><li>Full - cover the whole platform with a base plate</li><li>Shadow - cover regions directly below parts.</li><li>Bounding Box - cover the bounding of each part.</li></ul>"
+    }
+  },
+  "button": {
+    "editBasePlateSettings": "Edit..."
+  },
   "label": {
     "associatedPartType": "Associated part type",
     "associatedWith": "Associated With",
+    "basePlateSettings": "Base plate settings",
     "default": "Default",
     "deleted": "Deleted Template",
     "deleteSuccess_one": "{{count}} template deleted",
@@ -11,6 +72,7 @@
     "material": "Material",
     "materialName": "Material Name",
     "outdated": "Outdated Template",
+    "overrideMaterialSettings": "Entering values in these fields will override the defaults set by the material.",
     "partType": "Part Type",
     "partTypes_other": "{{count}} Part Types",
     "partTypes_other_one": "1 Part Type",
@@ -34,8 +96,106 @@
     "noTemplates": "No Templates",
     "noTemplatesInfo": "Templates will be listed here. Use the 'Create' button to create your first template."
   },
+  "supportSettings": {
+    "accuracyZ": {
+      "label": "Accuracy Z",
+      "tooltip": "The slice thickness used to autogenerate structures and avoid intersection with the part."
+    },
+    "aspectRatio": {
+      "label": "Aspect ratio",
+      "tooltip": "Controls the widening rate of support structures."
+    },
+    "connectGap": {
+      "label": "Connect gap",
+      "tooltip": "Number of lattice levels to suppress connection after a vertical connection was found (available)."
+    },
+    "connection": {
+      "label": "Connection",
+      "tooltip": "Number of nodes to connect on the lattice level below. Setting this value to 0 will create flexible supports."
+    },
+    "contactWidth": {
+      "label": "Contact width",
+      "tooltip": "For default supports: Width of support structure as it contacts the part.\n\nFor lattice supports: Width of contact ball as it contacts the part."
+    },
+    "halfContactWidth": {
+      "label": "Half contact width",
+      "tooltip": "Retry adding contact points with half the width."
+    },
+    "heightLevel": {
+      "label": "Height level",
+      "toggle": "Height leveling",
+      "tooltip": "Apply a Z-margin between the parts and the platform."
+    },
+    "islandWidth": {
+      "label": "Island width",
+      "tooltip": "For default supports: Width of support structure upon first contact with the part.\n\nFor lattice supports: Width of contact ball upon first contact for each part body."
+    },
+    "lattice": {
+      "label": "Lattice",
+      "tooltip": "Enable lattice supports. Lattice supports generate an interconnected network of supporting beams around the model."
+    },
+    "layout": {
+      "enum": {
+        "circle": "Circle",
+        "hexagon": "Hexagon",
+        "square": "Square",
+        "triangle": "Triangle"
+      },
+      "label": "Layout",
+      "tooltip": "How nodes are spread over XY positions."
+    },
+    "margin": {
+      "label": "Margin",
+      "tooltip": "Additional collision avoidance distance from the part."
+    },
+    "maximumWidth": {
+      "label": "Maximum width",
+      "tooltip": "Limits the width of support structures at the base."
+    },
+    "minimumHeight": {
+      "label": "Minimum height",
+      "tooltip": "Avoid adding re-intersecting supports if their height is less than the specified height."
+    },
+    "modelInterSupport": {
+      "label": "Model intersupport",
+      "tooltip": "Allow support columns that will reintersect and stand on the part."
+    },
+    "selfSupportAngle": {
+      "label": "Self-support angle",
+      "tooltip": "The angle in degrees from horizontal that does not require supports."
+    },
+    "sideFaces": {
+      "label": "Side faces",
+      "tooltip": "Defines the number of side faces for new support structures."
+    },
+    "sideFeaturesSize": {
+      "label": "Side-feature size",
+      "tooltip": "The distance a detail can protrude from a surface without being supported."
+    },
+    "spacingXY": {
+      "label": "Spacing XY",
+      "tooltip": "Distance between nodes over XY plane"
+    },
+    "spacingZ": {
+      "label": "Spacing Z",
+      "tooltip": "Distance between lattice levels over Z axis."
+    },
+    "supportSpacing": {
+      "label": "Support spacing",
+      "tooltip": "Distance between support points of on a part."
+    },
+    "tallestSupport": {
+      "label": "Tallest support",
+      "tooltip": "Ignore any supportable feature above the specified height."
+    },
+    "undershoot": {
+      "label": "Under/Over-shoot",
+      "tooltip": "For default supports: The maximum injected distance where the support point enters the part.\n\nFor lattice supports: Distance from contact point where the structure begins to taper to a point."
+    }
+  },
   "title": {
     "changesApplyToNewParts": "Changes apply to new parts",
+    "classificationSupportSettings": "{{classification}} supports",
     "createTemplate": "New Template",
     "deleteTemplate": "Delete Template?",
     "deleteTemplate_zero": "Delete Template?",
@@ -49,7 +209,8 @@
     "modifyWillRequeueParts": "Parts may be requeued",
     "modifyWillRequeueParts_zero": "Parts may be requeued",
     "modifyWillRequeueParts_one": "{{count}} part will be requeued",
-    "modifyWillRequeueParts_other": "{{count}} parts will be requeued"
+    "modifyWillRequeueParts_other": "{{count}} parts will be requeued",
+    "templateBasePlate": "{{name}} base plate"
   },
   "tooltip": {
     "defaultPartType": "Make this the default template for the selected part type",
