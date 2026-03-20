@@ -11,6 +11,7 @@
     "reshuffle": "Reshuffle"
   },
   "details": {
+    "basePlate": "Base Plate settings",
     "currentJob": "Current Job",
     "currentParts": "Current Parts",
     "jobInformation": "Job Information",
