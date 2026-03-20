@@ -67,6 +67,7 @@
     "deleted": "Deleted Template",
     "deleteSuccess_one": "{{count}} template deleted",
     "deleteSuccess_other": "{{count}} templates deleted",
+    "enabled": "Enabled",
     "fastPrintMode": "Fast print mode",
     "manufacturer": "Manufacturer",
     "material": "Material",
