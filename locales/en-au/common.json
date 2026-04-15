@@ -68,6 +68,7 @@
   "details": {
     "copyLink": "Copy link",
     "linkCopied": "Link copied to clipboard",
+    "linkCopyFailed": "Failed to copy link",
     "progress": "Progress"
   },
   "dialog": {
