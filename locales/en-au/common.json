@@ -66,6 +66,9 @@
     "daysInterval_90": "Last 90 Days"
   },
   "details": {
+    "copyLink": "Copy link",
+    "linkCopied": "Link copied to clipboard",
+    "linkCopyFailed": "Failed to copy link",
     "progress": "Progress"
   },
   "dialog": {
@@ -582,6 +585,9 @@
         "part": "The part is waiting for the user to accept."
       }
     }
+  },
+  "share": {
+    "notFound": "The shared item could not be found"
   },
   "table": {
     "activeFilters": "Active filters:",
