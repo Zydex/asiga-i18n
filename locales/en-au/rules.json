@@ -15,7 +15,7 @@
     "title": "Automatic part grouping",
     "tooltips": {
       "characterPosition": "Specify the character to match relative to the start of the uploaded part name, or the end of uploaded part name. Helpful if order numbers appear at the start or the end of the uploaded part name.",
-      "characterRange": "Specify the number of characters you wish to match. The maximum is 8.",
+      "characterRange": "Specify the number of characters you wish to match.",
       "editPermission": "You do not have permission to update automatic grouping settings. Ask an Admin or Owner in your organisation to make changes",
       "startingCharacterPosition": "How many character spaces from the start or the end do you want the range to start at. Helpful if order numbers appear in the middle of a name."
     }
