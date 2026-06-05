@@ -1,4 +1,18 @@
 {
+  "approvals": {
+    "jobs": {
+      "message": "When enabled, print jobs will automatically be sent to a printer, without any user review.",
+      "title": "Approve created print jobs"
+    },
+    "parts": {
+      "message": "When enabled, parts will be accepted and have templates applied automatically.",
+      "title": "Approve parts for manufacture"
+    },
+    "title": "Approvals",
+    "tooltips": {
+      "editPermission": "You do not have permission to update approval settings. Ask an Admin or Owner in your organisation to make changes"
+    }
+  },
   "autoPartGrouping": {
     "label": {
       "characterPosition": "Character position",
