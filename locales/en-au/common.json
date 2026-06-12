@@ -352,6 +352,11 @@
     "message_wide": "Check the page address for typos or use the navigation buttons on the left",
     "title": "We can't find that page"
   },
+  "notifications": {
+    "clearAll": "Clear All",
+    "empty": "No notifications",
+    "title": "Notifications"
+  },
   "progressStatus": {
     "acceptPartForPrinting": {
       "name": "Accept part for printing",
