@@ -355,6 +355,10 @@
   "notifications": {
     "clearAll": "Clear All",
     "empty": "No notifications",
+    "settings": {
+      "label": "Show real time notifications on the bottom left of the screen",
+      "title": "Pop-up notifications"
+    },
     "title": "Notifications"
   },
   "progressStatus": {
