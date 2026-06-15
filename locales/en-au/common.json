@@ -353,13 +353,66 @@
     "title": "We can't find that page"
   },
   "notifications": {
+    "actions": {
+      "inbox": "Inbox",
+      "reprintParts": "Reprint Parts",
+      "requeueParts": "Requeue Parts",
+      "resend": "Resend",
+      "reviewGroup": "Review Group",
+      "reviewPart": "Review Part",
+      "reworkOffline": "Rework Offline",
+      "ungroup": "Ungroup"
+    },
     "clearAll": "Clear All",
     "empty": "No notifications",
+    "requeuePartsConfirmation": "Are you sure you want to requeue the parts from this job? This will remove the current job and create new parts in the inbox.",
     "settings": {
       "label": "Show real time notifications on the bottom left of the screen",
       "title": "Pop-up notifications"
     },
-    "title": "Notifications"
+    "title": "Notifications",
+    "types": {
+      "groupTooLarge": {
+        "body_one": "{{name}} is too large to print together",
+        "body_other": "Multiple groups are too large to print together",
+        "title": "Group too large"
+      },
+      "nestingFailed": {
+        "body_one": "Unable to nest {{name}}",
+        "body_other": "Unable to nest multiple jobs",
+        "title": "Job nesting failed"
+      },
+      "orientationFailed": {
+        "body_one": "Unable to orientate {{name}}",
+        "body_other": "Unable to orientate multiple parts",
+        "title": "Part orientation failed"
+      },
+      "partTooLarge": {
+        "body_one": "{{name}} is too large to print",
+        "body_other": "Multiple parts are too large to print",
+        "title": "Part too large"
+      },
+      "printerError": {
+        "body_one": "{{buildName}} on {{printerName}} failed during printing.\n\nConsult printer screen for more information.",
+        "body_other": "Multiple prints failed.\n\nConsult printer screen for more information.",
+        "title": "Print failed"
+      },
+      "sendingFailed": {
+        "body_one": "Failed to send {{name}}",
+        "body_other": "Failed to send multiple jobs",
+        "title": "Job failed to send"
+      },
+      "slicingFailed": {
+        "body_one": "Failed to slice {{name}}",
+        "body_other": "Failed to slice multiple jobs",
+        "title": "Job failed to slice"
+      },
+      "supportsFailed": {
+        "body_one": "Failed to generate supports for {{name}}",
+        "body_other": "Failed to generate supports for multiple jobs",
+        "title": "Job supports failed"
+      }
+    }
   },
   "progressStatus": {
     "acceptPartForPrinting": {
