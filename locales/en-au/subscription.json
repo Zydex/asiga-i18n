@@ -24,6 +24,7 @@
     "subscriptionStatus": "Subscription Status",
     "subscriptionTiers": "Subscription Tiers",
     "trialEnded": "Trial has ended",
+    "trialEnding_zero": "Trial is ending today",
     "trialEnding_one": "Trial ending in {{count}} day",
     "trialEnding_other": "Trial ending in {{count}} days",
     "trialEndingUnknown": "Trial ending soon"
