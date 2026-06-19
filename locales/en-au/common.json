@@ -393,22 +393,22 @@
         "title": "Part too large"
       },
       "printerError": {
-        "body_one": "{{buildName}} on {{printerName}} failed during printing.\n\nConsult printer screen for more information.",
+        "body_one": "{{buildName}} failed during printing.\n\nConsult printer screen for more information.",
         "body_other": "Multiple prints failed.\n\nConsult printer screen for more information.",
         "title": "Print failed"
       },
       "sendingFailed": {
-        "body_one": "Failed to send {{name}}",
+        "body_one": "Failed to send job #{{name}}",
         "body_other": "Failed to send multiple jobs",
         "title": "Job failed to send"
       },
       "slicingFailed": {
-        "body_one": "Failed to slice {{name}}",
+        "body_one": "Failed to slice job #{{name}}",
         "body_other": "Failed to slice multiple jobs",
         "title": "Job failed to slice"
       },
       "supportsFailed": {
-        "body_one": "Failed to generate supports for {{name}}",
+        "body_one": "Failed to generate supports for job #{{name}}",
         "body_other": "Failed to generate supports for multiple jobs",
         "title": "Job supports failed"
       }
@@ -503,7 +503,7 @@
     "nestPrintJob": {
       "name": "Nest print job",
       "tooltip": {
-        "part": "The part will be added to a provisional job along with other parts using the same template. They will then be arrange on the platform."
+        "part": "The part will be added to a provisional job along with other parts using the same template. They will then be arranged on the platform."
       }
     },
     "orientatePart": {
@@ -647,6 +647,17 @@
         "part": "The part is waiting for the user to accept."
       }
     }
+  },
+  "relativeTime": {
+    "daysAgo_one": "{{count}} day ago",
+    "daysAgo_other": "{{count}} days ago",
+    "hoursAgo_one": "{{count}} hour ago",
+    "hoursAgo_other": "{{count}} hours ago",
+    "justNow": "Just now",
+    "minutesAgo_one": "{{count}} minute ago",
+    "minutesAgo_other": "{{count}} minutes ago",
+    "weeksAgo_one": "{{count}} week ago",
+    "weeksAgo_other": "{{count}} weeks ago"
   },
   "share": {
     "notFound": "The shared item could not be found"
