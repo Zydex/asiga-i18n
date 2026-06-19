@@ -367,8 +367,8 @@
     "empty": "No notifications",
     "requeuePartsConfirmation": "Are you sure you want to requeue the parts from this job? This will remove the current job and create new parts in the inbox.",
     "settings": {
-      "label": "Show real time notifications on the bottom left of the screen",
-      "title": "Pop-up notifications"
+      "label": "Show real-time notifications for parts, groups, jobs and devices that require attention.",
+      "title": "Notifications"
     },
     "title": "Notifications",
     "types": {
