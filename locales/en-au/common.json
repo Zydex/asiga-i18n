@@ -354,6 +354,7 @@
   },
   "notifications": {
     "actions": {
+      "dismiss": "Dismiss",
       "inbox": "Inbox",
       "reprintParts": "Reprint Parts",
       "requeueParts": "Requeue Parts",
@@ -361,7 +362,8 @@
       "reviewGroup": "Review Group",
       "reviewPart": "Review Part",
       "reworkOffline": "Rework Offline",
-      "ungroup": "Ungroup"
+      "ungroup": "Ungroup",
+      "viewDevices": "View Devices"
     },
     "clearAll": "Clear All",
     "empty": "No notifications",
@@ -406,6 +408,11 @@
         "body_one": "Failed to slice job #{{name}}",
         "body_other": "Failed to slice multiple jobs",
         "title": "Job failed to slice"
+      },
+      "deviceOffline": {
+        "body_one": "{{name}} has gone offline",
+        "body_other": "Multiple printers have gone offline",
+        "title": "Printer offline"
       },
       "supportsFailed": {
         "body_one": "Failed to generate supports for job #{{name}}",
