@@ -354,6 +354,7 @@
   },
   "notifications": {
     "actions": {
+      "dismiss": "Dismiss",
       "inbox": "Inbox",
       "reprintParts": "Reprint Parts",
       "requeueParts": "Requeue Parts",
