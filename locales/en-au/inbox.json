@@ -30,6 +30,7 @@
     "functionality": "Upload parts or automatically pull in parts from third party apps. Parts types are recognised, print templates applied, and added to suitable Print Jobs with other parts automatically."
   },
   "details": {
+    "datePrinted": "Date Printed",
     "group": {
       "groupInformation": "Group Information",
       "partName": "Part Name",
@@ -47,6 +48,8 @@
     "received": "Received",
     "source": "Source",
     "status": "Status",
+    "targetDevice": "Target Device",
+    "template": "Template",
     "title_zero": "No items selected",
     "title_one": "1 item selected",
     "title_other": "{{count}} items selected"
