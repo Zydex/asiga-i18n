@@ -373,6 +373,11 @@
     },
     "title": "Notifications",
     "types": {
+      "deviceOffline": {
+        "body_one": "{{name}} has gone offline",
+        "body_other": "Multiple printers have gone offline",
+        "title": "Printer offline"
+      },
       "groupTooLarge": {
         "body_one": "{{name}} is too large to print together",
         "body_other": "Multiple groups are too large to print together",
