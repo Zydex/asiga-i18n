@@ -1,12 +1,12 @@
 {
   "approvals": {
     "jobs": {
-      "message": "When enabled, print jobs will automatically be sent to a printer, without any user review.",
-      "title": "Approve created print jobs"
+      "message": "When enabled, print jobs are accepted automatically and sent to a printer.",
+      "title": "Auto accept jobs"
     },
     "parts": {
-      "message": "When enabled, parts will be accepted and have templates applied automatically.",
-      "title": "Approve parts for manufacture"
+      "message": "When enabled, parts with a template are accepted automatically for manufacture.",
+      "title": "Auto accept parts"
     },
     "title": "Approvals",
     "tooltips": {
