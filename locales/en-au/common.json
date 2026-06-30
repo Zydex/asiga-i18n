@@ -36,7 +36,6 @@
     "refresh": "Refresh",
     "reject": "Reject",
     "rejectAll": "Reject All",
-    "rejectAndDeleteJob": "Reject & Delete Job",
     "rejectAndRequeue": "Reject and Requeue",
     "rejectOnly": "Reject Only",
     "remove": "Remove",
