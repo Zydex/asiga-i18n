@@ -39,6 +39,16 @@
     },
     "groupLabel": "Group",
     "groupName": "Group {{id}}",
+    "history": {
+      "status": {
+        "accepted": "Accepted for printing",
+        "failed": "Print failed",
+        "offline": "Reworked offline",
+        "printed": "Printed",
+        "unknown": "Unknown"
+      },
+      "title": "Print History"
+    },
     "noPrintJob_one": "The print job will appear here once the part has been nested.",
     "noPrintJob_other": "The print job will appear here once the parts have been nested.",
     "partInformation": "Part Information",
