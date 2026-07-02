@@ -28,7 +28,6 @@
     "layerThickness": "Layer Thickness",
     "material": "Material",
     "partName": "Part Name",
-    "partReprintedElsewhere": "This part has since been reprinted and is no longer part of this job",
     "partType": "Part Type",
     "provisional": "Provisional",
     "rejected": "Rejected",

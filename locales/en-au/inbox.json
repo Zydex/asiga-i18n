@@ -40,6 +40,8 @@
     "groupLabel": "Group",
     "groupName": "Group {{id}}",
     "history": {
+      "date": "Date",
+      "outcome": "Outcome",
       "status": {
         "accepted": "Accepted for printing",
         "failed": "Print failed",
