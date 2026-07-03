@@ -43,7 +43,7 @@
       "date": "Date",
       "outcome": "Outcome",
       "status": {
-        "accepted": "Accepted for printing",
+        "accepted": "Print accepted",
         "failed": "Print failed",
         "offline": "Reworked offline",
         "printed": "Printed",
