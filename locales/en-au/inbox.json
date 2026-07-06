@@ -121,8 +121,8 @@
     "daysUntilReset_one": "{{count}} day",
     "daysUntilReset_other": "{{count}} days",
     "reached": {
+      "descriptionEditor": "Allowance will reset in {{days}}. Adjust subscription tier to process more parts.",
       "descriptionMember": "Allowance will reset in {{days}}. Contact the administrator to adjust subscription tier and process more parts.",
-      "descriptionOwner": "Allowance will reset in {{days}}. Adjust subscription tier to process more parts.",
       "title": "Monthly limit reached"
     }
   },
