@@ -10,6 +10,7 @@
     "createPartGroup": "Create Part Group",
     "deprioritise": "Clear Priority",
     "download": "Download",
+    "duplicate": "Duplicate",
     "expand": "Expand",
     "moveToReview": "Move To Review",
     "partType": "Part type",
@@ -121,6 +122,22 @@
     "reprocessPart_other": "{{count}} parts were previously added to the funnel.\n\nReprocessing this part will create another copy in the Funnel for printing.",
     "reprocessPart_time_one": "{{name}} was previously added on {{time}}.\n\nReprocessing this part will create another copy in the Funnel for printing.",
     "reprocessPart_time_other": "{{count}} parts were previously added to the funnel.\n\nReprocessing this part will create another copy in the Funnel for printing."
+  },
+  "subscriptionNotice": {
+    "approaching": {
+      "description_one": "There is {{count}} part remaining in the organisation's monthly limit. Limit resets in {{days}}.",
+      "description_other": "There are {{count}} parts remaining in the organisation's monthly limit. Limit resets in {{days}}.",
+      "title": "Approaching monthly limit"
+    },
+    "button": "Subscription Options",
+    "close": "Dismiss",
+    "daysUntilReset_one": "{{count}} day",
+    "daysUntilReset_other": "{{count}} days",
+    "reached": {
+      "descriptionEditor": "Allowance will reset in {{days}}. Adjust subscription tier to process more parts.",
+      "descriptionMember": "Allowance will reset in {{days}}. Contact the administrator to adjust subscription tier and process more parts.",
+      "title": "Monthly limit reached"
+    }
   },
   "table": {
     "partClassification": {
