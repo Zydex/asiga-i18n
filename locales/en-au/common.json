@@ -15,6 +15,7 @@
     "addMore_zero": "Add...",
     "addMore_one": "Add more...",
     "addMore_other": "Add more...",
+    "apply": "Apply",
     "back": "Back",
     "cancel": "Cancel",
     "close": "Close",
@@ -61,12 +62,22 @@
   },
   "date": {
     "all": "All",
+    "custom": "Custom",
     "daysInterval": "Date range",
     "daysInterval_0": "Today",
     "daysInterval_1": "Yesterday",
     "daysInterval_30": "Last 30 Days",
     "daysInterval_7": "Last 7 Days",
     "daysInterval_90": "Last 90 Days"
+  },
+  "dateRange": {
+    "error": {
+      "outOfRange": "Selected dates must be within the last year.",
+      "toBeforeFrom": "The selected 'To' date cannot be before the 'From' date."
+    },
+    "from": "From",
+    "title": "{{field}} date range",
+    "to": "To"
   },
   "details": {
     "copyLink": "Copy link",
