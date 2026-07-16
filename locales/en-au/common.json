@@ -67,9 +67,13 @@
     "daysInterval": "Date range",
     "daysInterval_0": "Today",
     "daysInterval_1": "Yesterday",
-    "daysInterval_30": "Last 30 Days",
     "daysInterval_7": "Last 7 Days",
-    "daysInterval_90": "Last 90 Days"
+    "homeRange": "Date range",
+    "homeRange_last12Months": "Last 12 Months",
+    "homeRange_lastWeek": "Last Week",
+    "homeRange_thisWeek": "This Week",
+    "homeRange_today": "Today",
+    "homeRange_yesterday": "Yesterday"
   },
   "dateRange": {
     "error": {
