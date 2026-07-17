@@ -11,6 +11,7 @@
   "metrics": {
     "jobsPrinted": "Jobs printed",
     "jobsToAccept": "Jobs to accept",
+    "partsAccepted": "Parts accepted",
     "partsPerTemplate": "Parts per template",
     "partsPrinted": "Parts printed",
     "partsToApprove": "Parts to accept",
@@ -19,6 +20,7 @@
       "jobsPrinted": "Total number of jobs printed within the specified date range",
       "jobsPrintedPerDay": "Total number of jobs printed per day within the specified date range",
       "jobsToAccept": "Total number of jobs that require acceptance before printing",
+      "partsAccepted": "Parts that have been accepted count towards your subscription quota limit",
       "partsPerTemplate": "Total number of parts created per template within the specified date range",
       "partsPrinted": "Total number of parts printed within the specified date range",
       "partsPrintedPerDay": "Total number of parts printed per day within the specified date range",

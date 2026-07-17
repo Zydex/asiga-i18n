@@ -69,6 +69,7 @@
     "daysInterval_1": "Yesterday",
     "daysInterval_7": "Last 7 Days",
     "homeRange": "Date range",
+    "homeRange_currentPeriod": "Billing Period",
     "homeRange_last12Months": "Last 12 Months",
     "homeRange_lastWeek": "Last Week",
     "homeRange_thisWeek": "This Week",
