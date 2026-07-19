@@ -86,6 +86,10 @@
       "name": "Reworked offline",
       "tooltip": "The Job was downloaded to edit and send in Composer."
     },
+    "paused": {
+      "name": "Paused",
+      "tooltip": "The print job has been paused on the printer."
+    },
     "printed": {
       "name": "Printed",
       "tooltip": "The Job has completed successfully."
