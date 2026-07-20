@@ -45,9 +45,9 @@
     "trayType": "Tray Type"
   },
   "message": {
-    "deviceOffline": "Check {{device}} is online and has an active internet connection.",
-    "deviceOffline_one": "Check {{device}} is online and has an active internet connection.",
-    "deviceOffline_other": "Check the printers are online and have an active internet connection.",
+    "deviceOffline": "This job will not be sent until the printer comes back online.\n\nCheck {{device}} is online and has an active internet connection.",
+    "deviceOffline_one": "This job will not be sent until the printer comes back online.\n\nCheck {{device}} is online and has an active internet connection.",
+    "deviceOffline_other": "These jobs will not be sent until each printer comes back online.\n\nCheck the printers are online and have an active internet connection.",
     "downloadInfo": "Alternatively, the print job can be downloaded for editing in Composer.",
     "moveOffline": "This will reject the job and download it for editing in composer.",
     "moveOffline_one": "This will reject the selected job and download it for editing in composer.",
