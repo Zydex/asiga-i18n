@@ -106,6 +106,7 @@
     "dropFile": "Add file to the Inbox",
     "groupHasBeenPrioritised": "Group has been prioritised",
     "invalidUploadFileContent": "One or more files could not be read as valid STL content",
+    "invalidUploadFileSize": "One or more files exceed the maximum upload size",
     "invalidUploadFileType": "Only STL files are supported",
     "partHasBeenPrioritised": "Part has been prioritised",
     "preparingDownload": "Preparing download",
