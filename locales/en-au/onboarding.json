@@ -1,4 +1,42 @@
 {
+  "gettingStarted": {
+    "dismissDialog": {
+      "description": "Choose whether to permanently dismiss the getting started guide, or to hide it until your next session.",
+      "dismissPermanently": "Dismiss Permanently",
+      "hide": "Hide",
+      "title": "Dismiss \"Getting Started\""
+    },
+    "help": "Need more help? View our detailed <guide>user guide</guide>",
+    "label": {
+      "collapse": "Collapse",
+      "dismiss": "Dismiss",
+      "expand": "Expand"
+    },
+    "step": {
+      "acceptJobs": {
+        "description": "On the <bold>Jobs</bold> page, select jobs and click “Accept”",
+        "title": "Accept jobs"
+      },
+      "createTemplate": {
+        "description": "On the <bold>Manage</bold> / <bold>Templates</bold> page, click “Create”",
+        "title": "Create a template"
+      },
+      "enrolPrinter": {
+        "description": "On the <bold>Devices</bold> page, click “Add Device”",
+        "title": "Enrol a printer"
+      },
+      "inviteColleagues": {
+        "description": "On the <bold>Manage</bold> / <bold>Users</bold> page, click “Add User”",
+        "title": "Invite colleagues (Optional)"
+      },
+      "uploadAcceptParts": {
+        "description": "On the <bold>Inbox</bold> page, drag-and-drop your STL files, select uploaded parts and click “Accept”",
+        "title": "Upload & accept parts"
+      }
+    },
+    "subtitle": "Complete the steps to send print jobs to your devices",
+    "title": "Getting Started"
+  },
   "label": {
     "country": "Country",
     "industry": "Industry Type",
