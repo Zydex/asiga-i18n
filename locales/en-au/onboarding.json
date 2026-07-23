@@ -1,5 +1,11 @@
 {
   "gettingStarted": {
+    "dismissDialog": {
+      "description": "Choose whether to permanently dismiss the getting started guide, or to hide it until your next session.",
+      "dismissPermanently": "Dismiss Permanently",
+      "hide": "Hide",
+      "title": "Dismiss \"Getting Started\""
+    },
     "help": "Need more help? View our detailed <guide>user guide</guide>",
     "label": {
       "collapse": "Collapse",
