@@ -123,6 +123,7 @@
     "deviceNotFound": "Device not found.",
     "deviceNotFound_details": "Device with serial number '{{details}}' not found.",
     "deviceStateConflict": "The device has a desired state that has not been acknowledged.",
+    "fileChecksumMismatch": "The uploaded file '{{fileName}}' did not upload correctly. Try uploading it again.",
     "forbidden": "You do not have permission to perform this request.",
     "integrationNotFound": "Unable to find integration.",
     "jobDownloadIncorrectState": "A job can only be downloaded when it is waiting review.",
@@ -508,6 +509,18 @@
         "part": "Analysing part geometry to identify part type."
       }
     },
+    "invalidGeometry": {
+      "name": "Invalid geometry",
+      "tooltip": {
+        "part": "The part could not be processed because its geometry is invalid.\n\nTry repairing the model and uploading it again."
+      }
+    },
+    "invalidModel": {
+      "name": "Invalid model",
+      "tooltip": {
+        "part": "The part could not be processed because the uploaded file is not a model.\n\nCheck the file isn't corrupted and upload it again."
+      }
+    },
     "nestedInJob": {
       "name": "Print job created",
       "tooltip": {
@@ -677,6 +690,12 @@
       "name": "Slicing print job",
       "tooltip": {
         "default": "The print layers are being prepared."
+      }
+    },
+    "uploadTooLarge": {
+      "name": "Upload too large",
+      "tooltip": {
+        "part": "The uploaded file is too large.\n\nTry reducing the file size and uploading it again."
       }
     },
     "waitingForPartToBeAccepted": {
