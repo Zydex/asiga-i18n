@@ -361,6 +361,10 @@
   "loading": {
     "unavailable": "Unavailable"
   },
+  "maintenancePage": {
+    "message": "We are working to make the Funnel better.\nWe will be back soon.",
+    "title": "Scheduled maintenance"
+  },
   "message": {
     "acceptPrivacyPolicy": "I accept the <a>Privacy Policy</a>",
     "acceptTermsOfService": "I accept the <a>Terms of Service</a>",
@@ -381,10 +385,6 @@
     "noMatchesHelp_searching": "Check for typos or try more general words\nAlternatively, try using the table filters",
     "reconnecting": "Attempting to reconnect",
     "reviewAndAgreeToPolicies": "Before continuing, you need to review and agree to the <terms>Terms of Service</terms> and the <privacy>Privacy Policy</privacy>."
-  },
-  "maintenancePage": {
-    "title": "Scheduled maintenance",
-    "message": "We are working to make the Funnel better.\nWe will be back soon."
   },
   "notFoundPage": {
     "message": "Check the page address for typos or use the navigation menu on the top left",
