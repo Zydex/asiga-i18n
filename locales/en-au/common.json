@@ -361,6 +361,10 @@
   "loading": {
     "unavailable": "Unavailable"
   },
+  "maintenancePage": {
+    "message": "We are working to make the Funnel better.\nWe will be back soon.",
+    "title": "Scheduled maintenance"
+  },
   "message": {
     "acceptPrivacyPolicy": "I accept the <a>Privacy Policy</a>",
     "acceptTermsOfService": "I accept the <a>Terms of Service</a>",
@@ -370,6 +374,9 @@
     "cookiePolicy": "We use cookies to enhance your browsing experience. To find out more, visit our <cookie>Cookie Policy</cookie> & <privacy>Privacy Statement</privacy>.",
     "cookiePreferencesAllowed": "You have allowed all cookies including analytics and support.",
     "cookiePreferencesDenied": "You are using only strictly necessary cookies.",
+    "maintenanceMode": "The Funnel will be unavailable on {{startDate}}, between {{startTime}} and {{endTime}} for essential maintenance. <a>Learn More</a>",
+    "maintenanceMode_multiDay": "The Funnel will be unavailable from {{startDate}} {{startTime}} to {{endDate}} {{endTime}} for essential maintenance. <a>Learn More</a>",
+    "maintenanceModeActive": "The Funnel is undergoing scheduled maintenance until {{endDate}} {{endTime}}. <a>Learn More</a>",
     "noConnection": "Unable to connect, retrying in {{time}}",
     "noMatches": "Sorry, no matches were found",
     "noMatchesHelp": "Check for typos or try more general words\nAlternatively, try using the table filters",
