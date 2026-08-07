@@ -1,0 +1,131 @@
+{
+  "emptyPartsMessages": {
+    "allParts": {
+      "message": "When trinkets be accepted in th' crow's nest they will appear here to be considered for forgin'",
+      "title": "No trinkets forge ready"
+    },
+    "printReady": {
+      "message": "Trinkets that be ready to join a forge voyage will appear here",
+      "title": "No trinkets in th' line"
+    },
+    "sent": {
+      "message": "Trinkets will appear here when they have been assembled into a forge voyage an' sent to th' contraption",
+      "title": "No trinkets sent"
+    }
+  },
+  "group": {
+    "tooLarge": "Hoard too large",
+    "tooLargeTooltip": "Hoard be too large to fit on any contraption platform this chart specifies.\n\nUnhoard th' trinkets or update th' chart to use a larger contraption."
+  },
+  "label": {
+    "allParts": "All Trinkets",
+    "partsQueue": "Trinkets Waitin'",
+    "printReady": "Forge ready",
+    "sent": "Sailed Off"
+  },
+  "status": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "Accept trinket for forgin'",
+      "partAccepted": "Trinket accepted"
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Approve forge voyage",
+      "printJobApproved": "Forge voyage approved",
+      "printJobPendingApproval": "Forge voyage awaitin' approval"
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "Added to forge voyage",
+      "generatingSupports": "Riggin' up supports",
+      "nestedInProvisionalJob": "Stowed in provisional voyage",
+      "nestingFailed": "Stowin' went down",
+      "nestingPrintJob": "Addin' to provisional voyage",
+      "nestPrintJob": "Stow forge voyage",
+      "partQueued": "Trinket in th' line",
+      "partTooLarge": "Trinket too large"
+    },
+    "orientatePart": {
+      "orientatePart": "Orientate trinket",
+      "orientatingPart": "Orientatin' trinket",
+      "orientationFailed": "Orientation went down",
+      "partOrientated": "Trinket orientated"
+    },
+    "partIdentification": {
+      "confirmPartType": "Confirm trinket type",
+      "identifyingPartType": "Identifyin' trinket type",
+      "partIdentification": "Trinket identification",
+      "partTypeConfirmed": "Trinket type confirmed"
+    },
+    "print": {
+      "print": "Forge",
+      "printed": "Forged",
+      "printFailed": "Forge sunk",
+      "printing": "Forgin'"
+    },
+    "rejected": "Cast overboard",
+    "sendToPrinter": {
+      "printJobDownloaded": "Forge voyage hauled ashore",
+      "sendingFailed": "Sendin' went down",
+      "sendingToPrinter": "Sendin' to contraption",
+      "sendToPrinter": "Send to contraption",
+      "sentToPrinter": "Sent to contraption",
+      "slicingFailed": "Slicin' went down",
+      "slicingPrintJob": "Slicin' forge voyage"
+    }
+  },
+  "statusTooltips": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "Th' trinket be waitin' for a crewmate to accept.",
+      "partAccepted": "Th' trinket has been accepted for forgin'."
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Approve provisional voyages for sendin' to contraptions.",
+      "printJobApproved": "Th' voyage has been accepted for forgin'.",
+      "printJobPendingApproval": "Th' provisional voyage be waitin' for a crewmate to accept."
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "Th' trinket has been added to a forge voyage.",
+      "generatingSupports": "Supports be bein' added to th' provisional voyage afore it be finalised for th' crewmate to approve for forgin'.",
+      "nestedInProvisionalJob": "Trinket has been stowed in a provisional voyage. It will be finalised when:<ul><li>More trinkets be added to fill th' voyage</li><li>A suitable contraption be about to come free to forge it</li></ul>",
+      "nestingFailed": "Th' stowin' o' trinkets has gone down.\nThis could be caused by trouble with th' trinket scroll.",
+      "nestingPrintJob": "Trinket be bein' stowed in a provisional voyage.",
+      "nestPrintJob": "Th' trinket will be stowed when a suitable contraption comes free & on a “first in first out” basis.",
+      "partQueued": "Th' trinket will be stowed when a suitable contraption comes free & on a “first in first out” basis.",
+      "partTooLarge": "Th' trinket be too large for th' contraptions named in th' forge chart.\n\nCheck th' trinket size or consider addin' a larger contraption to th' chart."
+    },
+    "orientatePart": {
+      "orientatePart": "Orientate trinket based on its type.",
+      "orientatingPart": "Th' trinket be currently bein' orientated based on its type.",
+      "orientationFailed": "Th' trinket could not be orientated successfully for forgin'.\nThis could be caused by trouble with th' trinket scroll.",
+      "partOrientated": "Th' trinket were orientated successfully for forgin'."
+    },
+    "partIdentification": {
+      "confirmPartType": "Waitin' for confirmation on trinket type.\nThis determines how a trinket be orientated & th' charts that be suggested.",
+      "identifyingPartType": "Analysin' trinket geometry to identify trinket type.",
+      "partIdentification": "Analyse trinket geometry to identify trinket type.",
+      "partTypeConfirmed": "Trinket type has been confirmed by a crewmate."
+    },
+    "print": {
+      "print": "Th' voyage will begin forgin' on a contraption.",
+      "printed": "Th' forge voyage has finished with smooth sailin'.",
+      "printFailed": "Th' forge voyage has sunk.\nRefer to th' contraption screen for more information.",
+      "printing": "Forge voyage be currently bein' forged."
+    },
+    "rejected": "Th' trinket has been cast overboard by a crewmate.",
+    "sendToPrinter": {
+      "printJobDownloaded": "Forge voyage has been hauled ashore for manual editin' in Composer.",
+      "sendingFailed": "Th' forge voyage went down when sendin' to th' contraption.\nThis could be caused by contraption connection trouble.",
+      "sendingToPrinter": "Submittin' voyage to th' contraption.",
+      "sendToPrinter": "Prepares an' sends th' voyage to a contraption.",
+      "sentToPrinter": "Forge voyage submitted.",
+      "slicingFailed": "Th' forge voyage has sunk whilst preparin' th' forge layers.\nThis could be caused by trouble with th' trinket scrolls.",
+      "slicingPrintJob": "Th' forge layers be bein' prepared."
+    }
+  },
+  "title": {
+    "parts": "Trinkets"
+  },
+  "tooltips": {
+    "allParts": "All trinkets that have been accepted be shown here, alongside their status.",
+    "partsQueue": "Trinkets in th' line for forgin' be shown here, grouped by their chart."
+  }
+}

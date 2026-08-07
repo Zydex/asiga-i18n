@@ -1,0 +1,199 @@
+{
+  "alt": {
+    "all": "All",
+    "userUpload": "Crew Hoists"
+  },
+  "button": {
+    "accept": "Take Aboard",
+    "cancel": "Belay",
+    "confirm": "Vouch",
+    "createPartGroup": "Create Trinket Band",
+    "deprioritise": "Clear Bump",
+    "download": "Haul Ashore",
+    "duplicate": "Copy",
+    "expand": "Unfurl",
+    "moveToReview": "Send t' Review",
+    "partType": "Trinket type",
+    "prioritise": "Bump Up",
+    "regroup": "Re-band",
+    "regroup_one": "Re-band",
+    "regroup_other": "Re-band",
+    "reject": "Cast Off",
+    "removeFromGroup": "Cast Out o' Band",
+    "reprint": "Re-forge Trinket",
+    "retry": "Try Again",
+    "template": "Chart",
+    "ungroupPartGroup": "Disband",
+    "uploadPart": "Hoist Trinket",
+    "viewMoreParts": "Spy More Trinkets"
+  },
+  "description": {
+    "functionality": "Hoist trinkets aboard or automatically pull in trinkets from third party apps. Trinket types be recognised, forge charts applied, and added to suitable Forge Voyages with other trinkets automatically."
+  },
+  "details": {
+    "datePrinted": "Date Forged",
+    "group": {
+      "groupInformation": "Band Information",
+      "partName": "Trinket Name",
+      "parts": "Trinkets",
+      "template": "Chart"
+    },
+    "groupLabel": "Band",
+    "groupName": "Band {{id}}",
+    "history": {
+      "date": "Day",
+      "outcome": "Fate",
+      "status": {
+        "accepted": "Forge taken aboard",
+        "failed": "Forge went down",
+        "offline": "Reworked ashore",
+        "printed": "Forged",
+        "unknown": "Unbeknownst"
+      },
+      "title": "Forge Log"
+    },
+    "noPrintJob_one": "Th' forge voyage will appear here once th' trinket has been nested.",
+    "noPrintJob_other": "Th' forge voyage will appear here once th' trinkets have been nested.",
+    "partInformation": "Trinket Information",
+    "partType": "Trinket Type",
+    "printJob": "Forge Voyage",
+    "progress": "Headway",
+    "received": "Hauled In",
+    "source": "Origin",
+    "status": "Standin'",
+    "targetDevice": "Target Contraption",
+    "template": "Chart",
+    "title_zero": "No items picked",
+    "title_one": "1 item picked",
+    "title_other": "{{count}} items picked"
+  },
+  "emptyInboxMessages": {
+    "accepted": {
+      "message": "Trinkets from the 'Review' tab will appear here once they have been taken aboard",
+      "title": "No trinkets taken aboard"
+    },
+    "confirm": {
+      "message": "Use the 'Hoist Trinkets' button or drag and drop scrolls, to add trinkets to yer crew",
+      "title": "No trinkets to confirm"
+    },
+    "rejected": {
+      "message": "Trinkets that have been cast off will appear here ",
+      "title": "No trinkets cast off"
+    },
+    "review": {
+      "message": "Use the ‘Hoist Trinkets’ button at the top right o' this page or use the button below to add trinkets to yer crew",
+      "title": "No trinkets to review"
+    }
+  },
+  "errors": {
+    "acceptPartError": "Couldn't take th' trinket aboard",
+    "cancelPartUploadError": "Couldn't belay th' trinket hoist",
+    "confirmPartError": "Couldn't confirm th' trinket",
+    "downloadPartError": "Couldn't haul th' trinket ashore",
+    "fileTooLarge": "Scroll size exceeds 500MB limit",
+    "invalidFileFormat": "Scroll must be o' type .stl",
+    "noFilesUploaded": "No scrolls hoisted aboard",
+    "partCreateError": "Blunder creatin' trinket",
+    "rejectPartError": "Couldn't cast off th' trinket",
+    "setPartTypeError": "Couldn't update th' trinket type",
+    "undoAcceptPartError": "Couldn't undo takin' th' trinket aboard"
+  },
+  "label": {
+    "accepted": "Taken Aboard",
+    "confirm": "Vouch",
+    "designSelected_one": "{{count}} Design picked",
+    "designSelected_other": "{{count}} Designs picked",
+    "dropFile": "Add scroll to th' Crow's Nest",
+    "groupHasBeenPrioritised": "Band has been prioritised",
+    "invalidUploadFileContent": "One or more scrolls could not be read as proper STL content",
+    "invalidUploadFileSize": "One or more scrolls exceed th' maximum hoist size",
+    "invalidUploadFileType": "Only STL scrolls be supported",
+    "partHasBeenPrioritised": "Trinket has been prioritised",
+    "preparingDownload": "Preparin' th' haul ashore",
+    "rejected": "Cast Off",
+    "renameGroup": "Rename Trinket Band",
+    "review": "To Eye Over",
+    "search": "Scout for a trinket",
+    "uploadCancelled": "{{partName}} (belayed)"
+  },
+  "message": {
+    "noParts": "No Trinkets",
+    "renameGroup": "Enter a new name for th' trinket band:",
+    "renamePart": "Enter a new name for th' trinket:",
+    "reprocessPart_one": "{{name}} was previously added.\n\nReprocessin' this trinket will create another copy in th' Funnel for forgin'.",
+    "reprocessPart_other": "{{count}} trinkets were previously added to th' funnel.\n\nReprocessin' this trinket will create another copy in th' Funnel for forgin'.",
+    "reprocessPart_time_one": "{{name}} was previously added on {{time}}.\n\nReprocessin' this trinket will create another copy in th' Funnel for forgin'.",
+    "reprocessPart_time_other": "{{count}} trinkets were previously added to th' funnel.\n\nReprocessin' this trinket will create another copy in th' Funnel for forgin'."
+  },
+  "subscriptionNotice": {
+    "approaching": {
+      "description_one": "There be {{count}} trinket remainin' in th' crew's monthly limit. Limit resets in {{days}}.",
+      "description_other": "There be {{count}} trinkets remainin' in th' crew's monthly limit. Limit resets in {{days}}.",
+      "title": "Nearin' th' monthly limit"
+    },
+    "button": "Tithe Options",
+    "close": "Wave Off",
+    "daysUntilReset_one": "{{count}} sunrise",
+    "daysUntilReset_other": "{{count}} sunrises",
+    "reached": {
+      "descriptionEditor": "Allowance will reset in {{days}}. Adjust th' tithe tier to process more trinkets.",
+      "descriptionMember": "Allowance will reset in {{days}}. Hail th' quartermaster to adjust th' tithe tier and process more trinkets.",
+      "title": "Monthly limit be reached"
+    }
+  },
+  "table": {
+    "partClassification": {
+      "bridge": "Bridge",
+      "crownOrToothOrVeneer": "Crown/Tooth/Veneer",
+      "dentureAOX": "Denture (AoX)",
+      "dentureBase": "Denture (Base)",
+      "denturePartial": "Denture (Partial)",
+      "die": "Die",
+      "flatGingiva": "Gingiva",
+      "hollowModel": "Model (Hollow)",
+      "occlusalSplint": "Splint",
+      "other": "Other",
+      "partialFramework": "Partial Framework",
+      "pillowGingiva": "Gingiva (Pillow)",
+      "screwInTooth": "Implant Crown",
+      "solidModel": "Model (Solid)",
+      "surgicalGuide": "Surgical Guide",
+      "teethRow": "Denture Teeth",
+      "tryInDenture": "Denture (Try-in)"
+    },
+    "partStatus": {
+      "addedToJob": "Added to voyage",
+      "failed": "Sunk",
+      "printed": "Forged",
+      "printReady": "Forge ready",
+      "processing": "Processin'",
+      "rejected": "Cast off",
+      "reworkedOffline": "Reworked ashore",
+      "toAccept": "To take aboard",
+      "toConfirm": "To vouch"
+    },
+    "template": {
+      "noTemplate": "No chart",
+      "noTemplateTooltip": "<a>Create a chart</a> with this trinket's type to take th' trinket aboard for forgin'."
+    },
+    "userUpload": "Crew hoist"
+  },
+  "title": {
+    "inbox": "Crow's Nest",
+    "name": "Moniker",
+    "partType": "Trinket type",
+    "received": "Hauled in",
+    "reprocessPart_one": "Run {{name}} through anew?",
+    "reprocessPart_other": "Run {{count}} trinkets through anew?",
+    "source": "Origin",
+    "status": "Standin'",
+    "template": "Chart",
+    "uploads": "Hoists"
+  },
+  "tooltips": {
+    "accepted": "Trinkets that have been taken aboard for makin' be shown here.",
+    "createPartGroupDisabled": "Only trinkets that use th' same chart can be banded together.",
+    "rejected": "Trinkets that have been cast off for makin' be shown here.",
+    "review": "Trinkets that have been added to th' Funnel be shown here for review. Choose a chart to apply to th' trinket afore takin' it aboard for makin'."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "gettingStarted": {
+    "dismissDialog": {
+      "description": "Choose whether to send the gettin' started guide to Davy Jones for good, or to stow it away until yer next voyage.",
+      "dismissPermanently": "Dismiss For Good",
+      "hide": "Stow Away",
+      "title": "Dismiss \"Gettin' Started\""
+    },
+    "help": "Need more help? Read our detailed <guide>crew guide</guide>",
+    "label": {
+      "collapse": "Furl",
+      "dismiss": "Shove Off",
+      "expand": "Unfurl"
+    },
+    "step": {
+      "acceptJobs": {
+        "description": "On the <bold>Voyages</bold> page, select voyages and click “Accept”",
+        "title": "Accept voyages"
+      },
+      "createTemplate": {
+        "description": "On the <bold>Manage</bold> / <bold>Charts</bold> page, click “Create”",
+        "title": "Draw up a chart"
+      },
+      "enrolPrinter": {
+        "description": "On the <bold>Contraptions</bold> page, click “Add Contraption”",
+        "title": "Enlist a contraption"
+      },
+      "inviteColleagues": {
+        "description": "On the <bold>Manage</bold> / <bold>Crew</bold> page, click “Add Crewmate”",
+        "title": "Press-gang shipmates (Optional)"
+      },
+      "uploadAcceptParts": {
+        "description": "On the <bold>Crow's Nest</bold> page, drag-and-drop yer STL scrolls, select hoisted trinkets and click “Accept”",
+        "title": "Hoist & accept trinkets"
+      }
+    },
+    "subtitle": "Complete the steps to send forgin' voyages to yer contraptions",
+    "title": "Gettin' Started"
+  },
+  "label": {
+    "country": "Homeland",
+    "industry": "Trade Type",
+    "organisationName": "Crew Name",
+    "phoneNumber": "Hailin' Number",
+    "subtitle": "Yer gateway to simple, automated 3D forgin' set-up and production management",
+    "title": "Open yer Asiga Funnel ledger",
+    "website": "Web Port"
+  },
+  "message": {
+    "completePersonalDetails": "Complete yer personal details",
+    "emailResendSuccess": "Email sent. Please check yer crow's nest.",
+    "emailVerified": "<bold>Email verified, smooth sailin'</bold>\nYe'll be steered onward shortly...",
+    "regionError": "The Asiga Funnel only sails Australian waters at present.",
+    "resendEmail": "Send the verification email again",
+    "resendEmailError": "Unable to send the verification email again. Please try again later.",
+    "sendingEmail": "Sendin' verification email...",
+    "verifyEmail": "Please verify yer email address to board the Asiga Funnel."
+  }
+}

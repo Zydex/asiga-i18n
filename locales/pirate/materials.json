@@ -1,0 +1,58 @@
+{
+  "button": {
+    "add": "Add Grog",
+    "keepBoth": "Stow Both",
+    "replaceMaterial": "Replace Grog",
+    "uploadLocalMaterial": "Hoist Local Grog"
+  },
+  "label": {
+    "adding": "Addin' a grog",
+    "adding_one": "Addin' {{count}} grog",
+    "adding_other": "Addin' {{count}} grogs",
+    "addSuccess_one": "{{count}} grog added",
+    "addSuccess_other": "{{count}} grogs added",
+    "deleteSuccess_one": "{{count}} grog scuttled",
+    "deleteSuccess_other": "{{count}} grogs scuttled",
+    "deleting": "Scuttlin' a grog",
+    "deleting_one": "Scuttlin' {{count}} grog",
+    "deleting_other": "Scuttlin' {{count}} grogs",
+    "dropFile": "Add scroll to <bold>Grog</bold>",
+    "manufacturer": "Brewer",
+    "material": "Grog",
+    "name": "MaterialName",
+    "search": "Scout for a grog",
+    "templateName": "Chart name",
+    "updateMaterial": "Grog update available"
+  },
+  "message": {
+    "addMaterials": "Add grog to yer crew by pickin' it from the Open Material Library below. Grog scrolls can also be added by usin' the hoist button.",
+    "deleteMaterialWarning": "Be ye sure ye want to scuttle th' selected grog? Only the latest version of each grog will be available to haul ashore again in the future.",
+    "manufacturerHasNoMaterials": "Brewer has no grog",
+    "materialAlreadyAdded_one": "{{name}} has already been added to yer crew.",
+    "materialAlreadyAdded_other": "The followin' grog has already been added to yer crew:",
+    "materialNameConflict": "A grog scroll named {{name}} already exists in yer crew.\n\nYe can replace th' existin' grog, or keep both.",
+    "materialNameConflictDoForAll_one": "Do this for {{count}} remainin' name clash",
+    "materialNameConflictDoForAll_other": "Do this for {{count}} remainin' name clashes",
+    "materialNameConflictWithRevision": "A grog scroll named {{name}}, Revision {{revision}} already exists in yer crew.\n\nDo ye want to replace th' existin' grog with Revision {{requestedRevision}}?",
+    "noMaterials": "Use th' 'Add Grog' button at the top right o' this page to add grog to yer crew",
+    "unableToDelete_one": "The selected grog cannot be scuttled as it be currently used in charts. Please assign different grog to the followin' charts to continue with the scuttlin':",
+    "unableToDelete_other": "The selected grogs cannot be scuttled as they be currently used in charts. Please assign different grog to the followin' charts to continue with the scuttlin':",
+    "updateMaterial_one": "<bold>{{name}}</bold> will be updated to th' latest version.",
+    "updateMaterial_other": "{{count}} grog INI scrolls will be updated to th' latest version."
+  },
+  "title": {
+    "addMaterials": "Add Grog",
+    "deleteMaterial": "Scuttle Grog?",
+    "materialAlreadyAdded": "Grog scroll already added",
+    "materialNameConflict": "Grog names already exist",
+    "materials": "Grog",
+    "noMaterials": "No grog in th' hold",
+    "unableToDelete_one": "Unable To Scuttle Grog",
+    "unableToDelete_other": "Unable To Scuttle Grogs",
+    "updateMaterial_one": "Update Grog?",
+    "updateMaterial_other": "Update Grogs?"
+  },
+  "tooltips": {
+    "materials": "Lists all th' grog that has been added to the Funnel.\n\nGrog can be added from the Open Material library or hoisted aboard by hand."
+  }
+}
