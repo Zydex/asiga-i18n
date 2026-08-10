@@ -1,0 +1,79 @@
+{
+  "alt": {
+    "devices": "Contraptions",
+    "devicesNeedingAttention": "Contraptions needin' tendin'",
+    "noDevices": "No Contraptions"
+  },
+  "button": {
+    "add": "Add Contraption",
+    "exclude": "Bar",
+    "excludeDevice": "Bar from Automatic Forge Voyages",
+    "includeDevice": "Enlist for Automatic Forge Voyages"
+  },
+  "details": {
+    "aboutPrinter": "About Contraption",
+    "currentBuild": "Current Haul",
+    "printStatus": "Forge Status",
+    "queuedBuild": "Hauls Waitin'"
+  },
+  "label": {
+    "devices": "Contraptions",
+    "devicesTab": "Contraption Tab",
+    "excludedDevice": "Contraption has been barred from receivin' forge voyages from th' Funnel",
+    "requiresAttention": "Needs Tendin'",
+    "search": "Scout for a contraption",
+    "status": {
+      "availableInFunnel": "Accept Funnel Voyages",
+      "currentBuildName": "Current Haul Name",
+      "currentLayer": "Current Layer",
+      "currentLayerHeight": "Current Layer Height",
+      "elapsed": "Sailed",
+      "firmwareVersion": "Firmware Version",
+      "layers": "Layers",
+      "manufacturer": "Shipwright",
+      "model": "Model",
+      "paused": "Anchored",
+      "remaining": "Remainin'",
+      "serialNumber": "Serial Number",
+      "status": "Standin'"
+    }
+  },
+  "message": {
+    "addDevices": "Use th' 'Add Contraptions' button at th' top right o' this page or use th' button below to add contraptions to yer crew",
+    "allGood": "All shipshape!",
+    "devicesPageInfo": "Th' status for all contraptions in yer crew be shown on this page",
+    "excludeDevice": "{{device}} barred from receivin' funnel forge voyages",
+    "includeDevice": "{{device}} enlisted for funnel forge voyages",
+    "noCurrentBuild": "No haul currently forgin'.",
+    "noDevices": "No Contraptions",
+    "noDevicesNeedAttention": "No contraptions currently need tendin'",
+    "warnRemoveDevice": "Ye will no longer be able to watch or send forge voyages to this contraption from th' Funnel.",
+    "warnRemoveDevice_name": "Ye will no longer be able to watch or send forge voyages to {{device}} from th' Funnel.",
+    "willExcludeDevice": "Forge Voyages will no longer be created for this contraption once it be barred"
+  },
+  "state": {
+    "canceled": "Belayed",
+    "canceled_error": "Blunder: Belayed",
+    "cancelling": "Belayin'",
+    "cancelling_error": "Blunder: Belayin'",
+    "finished": "Forge Complete",
+    "idle": "Contraption Restin'",
+    "offline": "Lost at Sea",
+    "paused": "Anchored",
+    "paused_error": "Blunder: Anchored",
+    "pausing": "Droppin' Anchor",
+    "pausing_error": "Blunder: Droppin' Anchor",
+    "printing": "{{duration}} remainin'",
+    "staring": "Settin' Sail",
+    "userbusy": "Crewmate Busy"
+  },
+  "title": {
+    "devices": "Contraptions",
+    "excludeDevice": "Bar {{device}}?",
+    "removeDevice": "Scuttle contraption?"
+  },
+  "tooltips": {
+    "devices": "All th' contraptions that have been added to yer Funnel be shown in this tab.",
+    "requiresAttention": "This shows contraptions that have a blunder or have lost connection."
+  }
+}

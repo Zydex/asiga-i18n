@@ -1,0 +1,32 @@
+{
+  "button": {
+    "manageBilling": "Manage Coin",
+    "manageSubscription": "Manage Tithe",
+    "subscribeLater": "Tithe Later",
+    "subscriptionOptions": "Tithe Options"
+  },
+  "description": {
+    "manageBilling": "View invoices, review and update yer coin details.",
+    "paymentIssue": "There be trouble with yer payment details.",
+    "subscriptionStatus": "{{subscriptionTier}} which be renewed come {{subscriptionEnd, datetime}}",
+    "subscriptionStatusEnding": "{{subscriptionTier}} which be endin' come {{subscriptionEnd, datetime}}",
+    "subscriptionTiers": "Ye can update yer tithe tier whenever the needs o' yer crew change.",
+    "subscriptionUnknownActiveStatus": "Yer tithe be active",
+    "trialEnded": "Pay yer tithe to keep creatin' and sendin' forgin' voyages.",
+    "trialEnding": "Ye'll need to pay yer tithe when the free trial runs out to create and send forgin' voyages."
+  },
+  "title": {
+    "availableWithSubscription": "Available with a Tithe",
+    "manageBilling": "Manage Coin",
+    "newSubscription": "New Tithe",
+    "organisation": "Crew",
+    "subscription": "Tithe",
+    "subscriptionStatus": "Tithe Status",
+    "subscriptionTiers": "Tithe Tiers",
+    "trialEnded": "Trial has run aground",
+    "trialEnding_zero": "Trial runs out today",
+    "trialEnding_one": "Trial runs out in {{count}} day",
+    "trialEnding_other": "Trial runs out in {{count}} days",
+    "trialEndingUnknown": "Trial runs out soon"
+  }
+}
