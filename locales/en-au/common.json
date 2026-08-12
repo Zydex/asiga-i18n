@@ -58,6 +58,7 @@
       "deleteUserDisabled_owner": "You do not have permission to remove other Owner users.",
       "deleteUserDisabled_user": "You do not have permission to remove other users."
     },
+    "transfer": "Transfer",
     "unlink": "Unlink",
     "update": "Update"
   },
