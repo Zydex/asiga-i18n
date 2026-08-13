@@ -71,6 +71,9 @@
     "sendingEmail": "Sending verification email...",
     "setupComplete": "<bold>Your organisation is ready</bold>\nYou will be redirected shortly...",
     "signBaa": "Sign the Business Associate Agreement",
+    "stepStatusComplete": "Complete",
+    "stepStatusIncomplete": "Not complete",
+    "stepStatusLoading": "Checking status",
     "verifyEmail": "Please verify your email address to access the Asiga Funnel.",
     "verifyEmailAddress": "Verify your email address"
   }
