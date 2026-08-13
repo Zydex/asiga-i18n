@@ -58,6 +58,7 @@
       "deleteUserDisabled_owner": "Ye don't have leave to scuttle other Cap'n crew.",
       "deleteUserDisabled_user": "Ye don't have leave to scuttle other crew."
     },
+    "transfer": "Hand Over",
     "unlink": "Unmoor",
     "update": "Renew"
   },
