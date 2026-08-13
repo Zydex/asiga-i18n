@@ -1,0 +1,238 @@
+{
+  "basePlate": {
+    "addTo": {
+      "enum": {
+        "allParts": "All trinkets",
+        "supportedParts": "Supported trinkets"
+      },
+      "label": "Add keel plate to",
+      "tooltip": "Add a keel plate to supported, or all, trinkets."
+    },
+    "enabled": {
+      "label": "Keel plate",
+      "tooltip": "Let th' keel plate be conjured up"
+    },
+    "engraved": {
+      "label": "Add haul name to keel plate",
+      "tooltip": "Carve th' haul name and XYZ resolution in µm onto th' keel plate."
+    },
+    "meshShape": {
+      "enum": {
+        "hexagon": "Hexagon",
+        "none": "None",
+        "square": "Square",
+        "triangle": "Triangle"
+      },
+      "label": "Net shape",
+      "tooltip": "Choosin' a shape other than None will punch a pattern o' holes in th' keel plate o' the chosen shape."
+    },
+    "meshSize": {
+      "label": "Net size",
+      "tooltip": "Th' diameter o' holes in th' keel plate."
+    },
+    "meshWidth": {
+      "label": "Net width",
+      "tooltip": "Thickness o' th' walls between th' holes."
+    },
+    "placement": {
+      "enum": {
+        "intersecting": "Intersecting",
+        "underneath": "Underneath"
+      },
+      "label": "Stowage",
+      "tooltip": "Where th' keel plate sits relative to each trinket and its supports.\n<ul><li>Underneath - shift trinkets and supports up, and place th' haul plate underneath.</li><li>Intersecting - intersect th' haul plate with th' bottom o' the trinket or its support.</li></lu>"
+    },
+    "thickness": {
+      "label": "Stoutness",
+      "tooltip": "How thick th' keel plate be, in millimetres."
+    },
+    "type": {
+      "enum": {
+        "boundingBox": "Bounding box",
+        "full": "Full",
+        "shadow": "Shadow"
+      },
+      "label": "Kind",
+      "tooltip": "Keel plate kind:\n<ul><li>Full - cover th' whole platform with a keel plate</li><li>Shadow - cover regions directly below th' trinkets.</li><li>Bounding Box - cover th' bounding o' each trinket.</li></ul>"
+    }
+  },
+  "button": {
+    "editBasePlateSettings": "Tinker..."
+  },
+  "label": {
+    "associatedPartType": "Associated trinket kind",
+    "associatedWith": "Lashed To",
+    "basePlateSettings": "Keel plate riggin'",
+    "default": "Th' Usual",
+    "deleted": "Scuttled Chart",
+    "deleteSuccess_one": "{{count}} chart scuttled",
+    "deleteSuccess_other": "{{count}} charts scuttled",
+    "enabled": "Rigged",
+    "fastPrintMode": "Fast forgin' mode",
+    "manufacturer": "Maker",
+    "material": "Grog",
+    "materialName": "Grog Name",
+    "outdated": "Outdated Chart",
+    "overrideMaterialSettings": "Enterin' values in these fields will override th' defaults set by th' grog.",
+    "partType": "Trinket Kind",
+    "partTypes_other": "{{count}} Trinket Kinds",
+    "partTypes_other_one": "1 Trinket Kind",
+    "partTypes_other_other": "{{count}} Trinket Kinds",
+    "printerAndTrayType": "Contraption and tray kinds",
+    "printerModel": "Contraption Model",
+    "search": "Scout for charts",
+    "selectThickness": "Choose layer thickness",
+    "separationDetect": "Separation detect",
+    "supports": "Th' Supports",
+    "templateName": "Chart name",
+    "thickness": "Layer thickness",
+    "tray": "Grog Tray",
+    "trayType": "Tray Kind"
+  },
+  "message": {
+    "changesApplyToNewParts": "Existin' trinkets will be updated with th' new chart riggin' and sent back to th' line o' waitin' for forgin'.",
+    "deleteTemplateWarning": "Any trinkets usin' this chart will be sent back to th' Crow's Nest for review. Assign a new chart to forge 'em, or reject 'em to scuttle 'em from th' Funnel.",
+    "modifyWillAffectParts": "Associated trinket types usin' this chart will rejoin th' line o' waitin' for forgin', and any scuttled trinket types will be sent back to th' Crow's Nest for review.",
+    "modifyWillRequeueParts": "Existin' trinkets will be updated with th' new chart riggin' and sent back to th' line o' waitin' for forgin'.",
+    "noTemplates": "No Charts",
+    "noTemplatesInfo": "Charts will be listed here. Use th' 'Create' button to draw yer first chart."
+  },
+  "supportSettings": {
+    "accuracyZ": {
+      "label": "Accuracy Z",
+      "tooltip": "Th' slice thickness used to autogenerate structures and avoid intersectin' with th' trinket."
+    },
+    "aspectRatio": {
+      "label": "Aspect ratio",
+      "tooltip": "Controls how quick support structures widen out."
+    },
+    "connectGap": {
+      "label": "Connect gap",
+      "tooltip": "Number o' lattice levels to suppress connection after a vertical connection was found (available)."
+    },
+    "connection": {
+      "label": "Connection",
+      "tooltip": "Number o' nodes to connect on th' lattice level below. Settin' this value to 0 will make flexible supports."
+    },
+    "contactWidth": {
+      "label": "Contact width",
+      "tooltip": "For default supports: Width o' th' support structure where it touches th' trinket.\n\nFor lattice supports: Width o' th' contact ball where it touches th' trinket."
+    },
+    "halfContactWidth": {
+      "label": "Half contact width",
+      "tooltip": "Have another go at addin' contact points with half th' width."
+    },
+    "heightLevel": {
+      "label": "Height level",
+      "toggle": "Height leveling",
+      "tooltip": "Apply a Z-margin between th' trinkets and th' platform."
+    },
+    "islandWidth": {
+      "label": "Island width",
+      "tooltip": "For default supports: Width o' th' support structure upon first contact with th' trinket.\n\nFor lattice supports: Width o' th' contact ball upon first contact for each trinket body."
+    },
+    "lattice": {
+      "label": "Lattice",
+      "tooltip": "Enable lattice supports. Lattice supports weave a riggin' o' interconnected beams around th' model."
+    },
+    "layout": {
+      "enum": {
+        "circle": "Circle",
+        "hexagon": "Hexagon",
+        "square": "Square",
+        "triangle": "Triangle"
+      },
+      "label": "Spread",
+      "tooltip": "How nodes be spread over XY positions."
+    },
+    "margin": {
+      "label": "Margin",
+      "tooltip": "Extra distance from th' trinket to steer clear o' collisions."
+    },
+    "maximumWidth": {
+      "label": "Maximum width",
+      "tooltip": "Limits th' width o' support structures at th' base."
+    },
+    "minimumHeight": {
+      "label": "Minimum height",
+      "tooltip": "Avoid addin' re-intersectin' supports if their height be less than th' specified height."
+    },
+    "modelInterSupport": {
+      "label": "Model intersupport",
+      "tooltip": "Allow support columns that reintersect and stand on th' trinket."
+    },
+    "selfSupportAngle": {
+      "label": "Self-support angle",
+      "tooltip": "Th' angle in degrees from horizontal that needs no supports."
+    },
+    "sideFaces": {
+      "label": "Side faces",
+      "tooltip": "Sets th' number o' side faces for new support structures."
+    },
+    "sideFeaturesSize": {
+      "label": "Side-feature size",
+      "tooltip": "How far a detail can jut out from a surface without bein' supported."
+    },
+    "spacingXY": {
+      "label": "Spacing XY",
+      "tooltip": "Distance between nodes over th' XY plane"
+    },
+    "spacingZ": {
+      "label": "Spacing Z",
+      "tooltip": "Distance between lattice levels over th' Z axis."
+    },
+    "supportSpacing": {
+      "label": "Support spacing",
+      "tooltip": "Distance between support points on a trinket."
+    },
+    "tallestSupport": {
+      "label": "Tallest support",
+      "tooltip": "Ignore any supportable feature above th' specified height."
+    },
+    "undershoot": {
+      "label": "Under/Over-shoot",
+      "tooltip": "For default supports: Th' maximum injected distance where th' support point enters th' trinket.\n\nFor lattice supports: Distance from th' contact point where th' structure starts to taper to a point."
+    }
+  },
+  "title": {
+    "changesApplyToNewParts": "Changes apply to new trinkets",
+    "classificationSupportSettings": "Supports fer {{classification}}",
+    "createTemplate": "New Chart",
+    "deleteTemplate": "Scuttle Chart?",
+    "deleteTemplate_zero": "Scuttle Chart?",
+    "deleteTemplate_one": "{{count}} trinket will be sent back to th' crow's nest",
+    "deleteTemplate_other": "{{count}} trinkets will be sent back to th' crow's nest",
+    "editTemplate": "Edit Chart",
+    "modifyWillAffectParts": "Trinkets might be affected by this change",
+    "modifyWillAffectParts_zero": "Trinkets might be affected by this change",
+    "modifyWillAffectParts_one": "{{count}} trinket will be affected by this change",
+    "modifyWillAffectParts_other": "{{count}} trinkets will be affected by this change",
+    "modifyWillRequeueParts": "Trinkets may rejoin th' line o' waitin'",
+    "modifyWillRequeueParts_zero": "Trinkets may rejoin th' line o' waitin'",
+    "modifyWillRequeueParts_one": "{{count}} trinket will rejoin th' line o' waitin'",
+    "modifyWillRequeueParts_other": "{{count}} trinkets will rejoin th' line o' waitin'",
+    "templateBasePlate": "{{name}} keel plate"
+  },
+  "tooltip": {
+    "defaultPartType": "Make this th' default chart for th' chosen trinket type",
+    "defaultPartType_disabled": "This be th' default chart for {{partType}}. Choose another chart as default to replace it.",
+    "defaultPartType_only": "This be th' default chart, as no other chart be lashed to this trinket type",
+    "fastPrintMode": "<bold>Fast forgin' mode</bold>\nSpeeds up all non-essential haul platform movements, smartly repositionin' between layers to cut idle time and shorten th' total forgin' duration.",
+    "separationDetect": "<bold>Separation detect</bold>\nSpies th' film releasin', reducin' lift distance between layers.\n\nMay risk forgin' defects if separation isn't properly sensed."
+  },
+  "types": {
+    "printerTypes": {
+      "max": "Max & Max 2",
+      "pro": "Pro 4K",
+      "ultra": "Ultra"
+    },
+    "trays": {
+      "endurance": "Endurance",
+      "LIFT": "LIFT",
+      "lowForce": "Low Force",
+      "ultraGLOSS": "UltraGLOSS",
+      "ultraGLOSSLIFT": "UltraGLOSS LIFT",
+      "universal": "Universal"
+    }
+  }
+}

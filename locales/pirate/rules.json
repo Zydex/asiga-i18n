@@ -1,0 +1,43 @@
+{
+  "approvals": {
+    "jobs": {
+      "message": "When enabled, forgin' voyages be accepted automatically and sent to a contraption.",
+      "title": "Auto accept voyages"
+    },
+    "parts": {
+      "message": "When enabled, trinkets with a chart be accepted automatically for makin'.",
+      "title": "Auto accept trinkets"
+    },
+    "title": "Blessin's",
+    "tooltips": {
+      "editPermission": "Ye have no leave to update approval riggin'. Ask a Quartermaster or Cap'n in yer crew to make changes"
+    }
+  },
+  "autoPartGrouping": {
+    "label": {
+      "characterPosition": "Character mark",
+      "characterRange": "Character span",
+      "example": "Fer example",
+      "fromEnd": "From th' end",
+      "fromStart": "From th' start",
+      "grouping": "Auto lashin'",
+      "grouping_off": "Auto lashin' Off",
+      "grouping_on": "Auto lashin' On",
+      "startingCharacterPosition": "Startin' character position"
+    },
+    "message": "Have trinkets automatically lashed together so that they be forged together on the same voyage. Set the range o' matchin' characters to align with a convention ye use.",
+    "title": "Automatic trinket lashin'",
+    "tooltips": {
+      "characterPosition": "Specify the character to match relative to the start o' the hoisted trinket name, or the end o' the hoisted trinket name. Handy if order numbers appear at the start or the end o' the hoisted trinket name.",
+      "characterRange": "Specify the number o' characters ye wish to match.",
+      "editPermission": "Ye have no leave to update automatic lashin' riggin'. Ask a Quartermaster or Cap'n in yer crew to make changes",
+      "startingCharacterPosition": "How many character spaces from the start or the end do ye want the range to start at. Handy if order numbers appear in the middle o' a name."
+    }
+  },
+  "label": {
+    "rules": "Articles"
+  },
+  "tooltips": {
+    "rules": "Riggin' that affects how trinkets and forgin' voyages be handled in yer crew's Funnel."
+  }
+}

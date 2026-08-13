@@ -1,0 +1,31 @@
+{
+  "emptyState": {
+    "message": "This page shows tallies o' trinkets, contraptions an' grog usage\n\nConnect a contraption, add trinkets an' send forge voyages to see data here",
+    "title": "Welcome to th' helm"
+  },
+  "label": {
+    "jobs": "Voyages",
+    "overview": "Lookout",
+    "parts": "Trinkets"
+  },
+  "metrics": {
+    "jobsPrinted": "Voyages forged",
+    "jobsToAccept": "Voyages to take aboard",
+    "partsAccepted": "Trinkets taken aboard",
+    "partsPerTemplate": "Trinkets per chart",
+    "partsPrinted": "Trinkets forged",
+    "partsToApprove": "Trinkets to take aboard",
+    "partTypes": "Trinket kinds",
+    "tooltips": {
+      "jobsPrinted": "Total tally o' voyages forged within th' chosen date range",
+      "jobsPrintedPerDay": "Total tally o' voyages forged per day within th' chosen date range",
+      "jobsToAccept": "Total tally o' voyages needin' acceptance afore forgin'",
+      "partsAccepted": "Trinkets taken aboard count towards yer tithe quota limit",
+      "partsPerTemplate": "Total tally o' trinkets created per chart within th' chosen date range",
+      "partsPrinted": "Total tally o' trinkets forged within th' chosen date range",
+      "partsPrintedPerDay": "Total tally o' trinkets forged per day within th' chosen date range",
+      "partsToApprove": "Total tally o' trinkets needin' acceptance afore forgin'",
+      "partTypes": "Total tally o' trinkets created per trinket kind within th' chosen date range"
+    }
+  }
+}

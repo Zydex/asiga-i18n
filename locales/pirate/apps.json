@@ -1,0 +1,39 @@
+{
+  "alt": {
+    "noApps": "No Apps Lashed On"
+  },
+  "button": {
+    "apps": "Ship's Apps"
+  },
+  "label": {
+    "search": "Scout for apps"
+  },
+  "message": {
+    "noApps": "No Apps Lashed On",
+    "noAppsInfo": "Lashed apps will be listed here. Use th' 'Apps' button below to spy th' apps ye can lash on.",
+    "unlink": "Yer crew will no longer receive trinkets from th' app.",
+    "unlink_one": "Yer crew will no longer receive trinkets from th' app.",
+    "unlink_other": "Yer crew will no longer receive trinkets from th' apps.",
+    "unlink_name_one": "Yer crew will no longer receive trinkets from th' {{name}}.",
+    "unlink_nameOrg_one": "{{org}} will no longer receive trinkets from th' {{name}}.",
+    "unlink_org_other": "{{org}} will no longer receive trinkets from th' apps.",
+    "unlinkParts": "Trinkets already received will stay with yer crew.",
+    "unlinkParts_org": "Trinkets already received will stay with {{org}}."
+  },
+  "title": {
+    "apps": "Ship's Apps",
+    "connectedApps": "Lashed-On Apps",
+    "lastUsed": "Last Sailed",
+    "linked": "Lashed On",
+    "name": "Moniker",
+    "never": "Ne'er",
+    "unlink": "Cut Loose App?",
+    "unlink_name": "Cut Loose {{name}}?",
+    "unlink_one": "Cut Loose App?",
+    "unlink_other": "Cut Loose Apps?"
+  },
+  "tooltips": {
+    "apps": "Lists all th' apps that th' Funnel supports. Use these to automatically receive trinkets from third party services.",
+    "connectedApps": "Lists all th' apps that have leave to send trinkets to th' Funnel."
+  }
+}

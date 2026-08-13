@@ -1,5 +1,766 @@
 {
   "alt": {
-    "logo": "Asig'arr Web Portal"
+    "logo": "Asig'arr Web Portal",
+    "noSearchResults": "No Scoutin' Results",
+    "sort": "Sortin' By"
+  },
+  "boolean": {
+    "false": "nay",
+    "true": "aye"
+  },
+  "button": {
+    "accept": "Aye",
+    "acceptAll": "Aye to All",
+    "add": "Add",
+    "addMore_zero": "Bring aboard...",
+    "addMore_one": "Bring more aboard...",
+    "addMore_other": "Bring more aboard...",
+    "apply": "Make It So",
+    "back": "Astern",
+    "cancel": "Belay",
+    "close": "Shut",
+    "confirm": "Vouch",
+    "connect": "Moor",
+    "continue": "Sail On",
+    "create": "Craft",
+    "delete": "Scuttle",
+    "deny": "Forbid",
+    "dismiss": "Wave Off",
+    "download": "Haul Ashore",
+    "edit": "Amend",
+    "essentialOnly": "Essentials Only",
+    "invite": "Press-Gang",
+    "logout": "Ashore",
+    "off": "Off",
+    "ok": "OK",
+    "on": "On",
+    "pause": "Heave To",
+    "promote": "Raise Up",
+    "refresh": "Freshen",
+    "reject": "Nay",
+    "rejectAll": "Nay to All",
+    "rejectAndRequeue": "Nay and Back in Line",
+    "rejectOnly": "Nay Only",
+    "remove": "Scuttle",
+    "rename": "Rechristen",
+    "reprocess": "Process Anew",
+    "reset": "Swab Clean",
+    "resetToDefault": "Back to th' default",
+    "retry": "Try Again",
+    "save": "Stow",
+    "tooltips": {
+      "changeRoleDisabled": "Ye don't have leave to change th' role o' the selected crew.",
+      "changeRoleDisabled_admin": "Ye don't have leave to change th' role o' Quartermaster or Cap'n crew.",
+      "changeRoleDisabled_owner": "Ye don't have leave to change th' role o' Cap'n crew.",
+      "changeRoleDisabled_user": "Ye don't have leave to change th' roles o' other crew.",
+      "deleteUserDisabled": "Ye don't have leave to scuttle th' selected crew.",
+      "deleteUserDisabled_admin": "Ye don't have leave to scuttle Quartermaster or Cap'n crew.",
+      "deleteUserDisabled_owner": "Ye don't have leave to scuttle other Cap'n crew.",
+      "deleteUserDisabled_user": "Ye don't have leave to scuttle other crew."
+    },
+    "unlink": "Unmoor",
+    "update": "Renew"
+  },
+  "date": {
+    "all": "All",
+    "custom": "Yer Own",
+    "daysInterval": "Span o' days",
+    "daysInterval_0": "This Day",
+    "daysInterval_1": "Th' Day Afore",
+    "daysInterval_7": "Last 7 Suns",
+    "homeRange": "Span o' days",
+    "homeRange_currentPeriod": "Tithin' Period",
+    "homeRange_last12Months": "Last 12 Moons",
+    "homeRange_lastWeek": "Th' Week Afore",
+    "homeRange_thisWeek": "This Here Week",
+    "homeRange_today": "This Day",
+    "homeRange_yesterday": "Th' Day Afore"
+  },
+  "dateRange": {
+    "error": {
+      "outOfRange": "Th' chosen dates must be within th' last year.",
+      "toBeforeFrom": "Th' chosen endin' date can't be afore th' startin' date."
+    },
+    "from": "Startin'",
+    "title": "{{field}} span o' days",
+    "to": "Endin'"
+  },
+  "details": {
+    "copyLink": "Copy th' link",
+    "linkCopied": "Link copied to yer clipboard",
+    "linkCopyFailed": "Copyin' th' link went down",
+    "progress": "Headway"
+  },
+  "dialog": {
+    "no": "Nay",
+    "yes": "Aye"
+  },
+  "displayError": {
+    "button": "Hail Support",
+    "message": "Check yer connection and try refreshin' th' web page.\nHail support if th' trouble continues."
+  },
+  "error": {
+    "400": "Th' request were invalid.",
+    "401": "Ye be not authenticated. Sign in, if ye please.",
+    "403": "Ye don't have leave to perform this request.",
+    "404": "This resource weren't found.",
+    "409": "Yer request couldn't be processed on account o' a conflict.",
+    "422": "Can't validate this request.",
+    "500": "An unexpected blunder occurred.",
+    "activeWorkflowNotFound": "No active workflow to be found.",
+    "activeWorkflowNotFound_details": "No active workflow found for th' crew with ID {{details}}.",
+    "addressCreateForbidden": "Ye ain't allowed to create addresses for this crew.",
+    "addressDeleteForbidden": "Ye ain't allowed to scuttle th' addresses for this crew.",
+    "addressNotFound": "No address to be found.",
+    "addressNotFound_details": "No address with id {{details}} to be found.",
+    "addressUpdateForbidden": "Ye ain't allowed to update th' addresses for this crew.",
+    "auth0BadRequest": "Unable to verify yer crewmate.",
+    "auth0Forbidden": "Yer role don't have th' leave needed to make this request.",
+    "auth0Unauthorized": "Ye be not authenticated. Sign in, if ye please.",
+    "badRequest": "Th' request were invalid.",
+    "conflict": "Yer request couldn't be processed on account o' a conflict.",
+    "deviceForbidden": "Ye ain't allowed to view contraptions o' this crew.",
+    "deviceNotFound": "Contraption not found.",
+    "deviceNotFound_details": "Contraption with serial number '{{details}}' not found.",
+    "deviceStateConflict": "Th' contraption has a desired state that ain't been acknowledged.",
+    "fileChecksumMismatch": "Th' scroll '{{fileName}}' didn't hoist aboard correctly. Try hoistin' it again.",
+    "forbidden": "Ye don't have leave to perform this request.",
+    "integrationNotFound": "Unable to find th' integration.",
+    "jobDownloadIncorrectState": "A voyage can only be hauled ashore when it be waitin' review.",
+    "jobDownloadReportIncorrectState": "Th' voyage has no report scroll available.",
+    "jobForbidden": "Ye ain't allowed to get th' voyage for this crew.",
+    "jobNoPreviewFile": "Th' voyage has no preview scroll available.",
+    "jobNoReportFile": "Th' voyage has no report scroll available.",
+    "jobNoSlicedBuildFile": "Th' voyage has no sliced haul scroll ready for forgin'.",
+    "jobNotFound": "Voyage not found.",
+    "jobNotFound_details": "Voyage with id {{details}} not found.",
+    "jobReviewIncorrectState": "Th' voyage ain't waitin' for review.",
+    "linkCreateConflict": "An integration link already exists for this crew.",
+    "linkCreateForbidden": "Ye ain't allowed to create an integration link for this crew.",
+    "linkDeleteForbidden": "Ye ain't allowed to scuttle an integration link for this crew.",
+    "linkGetForbidden": "Ye ain't allowed to get an integration link for this crew.",
+    "linkNotFound": "No integration link to be found.",
+    "linkUpdateForbidden": "Ye ain't allowed to update an integration link for this crew.",
+    "linkUserCreateForbidden": "Ye ain't allowed to create an integration link on another crewmate's behalf.",
+    "luceneIllegalCharacterError": "Illegal character in th' lucene query.",
+    "luceneIllegalCharacterError_details": "Illegal character in th' lucene query. ({{details}})",
+    "luceneParseError": "Unable to parse th' Lucene Query.",
+    "luceneSyntaxError": "Syntax blunder in th' lucene query.",
+    "luceneSyntaxError_details": "Syntax blunder in th' lucene query. ({{details}})",
+    "materialCancelIncorrectState": "Ye ain't allowed to belay grog that ain't pendin' a hoist aboard.",
+    "materialCreateForbidden": "Ye ain't allowed to create a grog for this crew.",
+    "materialDeleteForbidden": "Ye ain't allowed to scuttle a grog for this crew.",
+    "materialFileEmpty": "Th' grog scroll be empty.",
+    "materialFileName": "Unsupported scroll type.",
+    "materialFileParse": "Unable to read th' grog scroll.",
+    "materialFileRead": "Unable to read th' grog scroll.",
+    "materialFileType": "Unsupported scroll type.",
+    "materialGetForbidden": "Ye ain't allowed to get a grog for this crew.",
+    "materialMarkAsUploadedIncorrectState": "Ye ain't allowed to mark a grog as hoisted aboard when it ain't pendin' a hoist aboard.",
+    "materialNotFound": "Th' grog could not be found.",
+    "materialNotUploadedIncorrectState": "No ini scroll has been hoisted aboard for this grog.",
+    "materialRetryUploadIncorrectState": "Ye ain't allowed to retry hoistin' a grog that ain't pendin' a hoist aboard.",
+    "materialUpdateForbidden": "Ye ain't allowed to update a grog for this crew.",
+    "materialVisibilityConflict": "Ye ain't allowed to change th' visibility o' a grog that be bein' hoisted aboard.",
+    "noAuthorized": "Ye be not authenticated. Sign in, if ye please.",
+    "notAllowedFieldFilter": "A supplied field ain't filterable.",
+    "notAllowedFieldFilter_details": "Th' field '{{details}}' ain't filterable.",
+    "notAllowedFieldSort": "A supplied field ain't sortable.",
+    "notAllowedFieldSort_details": "Th' field '{{details}}' ain't sortable.",
+    "notFound": "This resource weren't found.",
+    "organisationNotFound": "Crew not found.",
+    "organisationNotFound_details": "Crew with id {{details}} not found.",
+    "organisationUpdateForbidden": "Ye ain't allowed to update this crew.",
+    "organisationViewForbidden": "Ye ain't allowed to view this crew.",
+    "organisationViewUsersForbidden": "Ye ain't allowed to view th' crewmates o' this crew.",
+    "partCancelIncorrectState": "Ye ain't allowed to belay a trinket that ain't pendin' a hoist aboard.",
+    "partCreateForbidden": "Ye ain't allowed to create a trinket for this crew.",
+    "partDeleteForbidden": "Ye ain't allowed to scuttle a trinket for this crew.",
+    "partDequeForbidden": "Ye ain't allowed to pull a trinket from th' line o' waitin' when it ain't awaitin' placement.",
+    "partDownloadIncorrectState": "Ye ain't allowed to haul ashore a trinket that has not been hoisted aboard.",
+    "partFileNameEmpty": "Th' trinket scroll name be empty",
+    "partFileNameExcessive": "Th' trinket scroll name be too long",
+    "partGetForbidden": "Ye ain't allowed to get a trinket for this crew.",
+    "partMarkAsAcceptedIncorrectState": "Ye ain't allowed to accept a trinket that ain't ready to be accepted.",
+    "partMarkAsConfirmedIncorrectState": "Ye ain't allowed to confirm a trinket that ain't waitin' to be confirmed.",
+    "partMarkAsRejectedIncorrectState": "Ye ain't allowed to reject a trinket that ain't waitin' to be reviewed or accepted.",
+    "partMarkAsReviewedIncorrectState": "Ye ain't allowed to review a trinket that ain't ready to be reviewed.",
+    "partMarkAsUploadedIncorrectState": "Ye ain't allowed to mark a trinket as hoisted aboard when it ain't in th' correct status.",
+    "partMarkQueuedAsRejectedIncorrectState": "Ye ain't allowed to reject a trinket that be part o' th' voyage line o' waitin'.",
+    "partMarkToConfirmAsRejectedIncorrectState": "Ye ain't allowed to reject a trinket that ain't waitin' to be confirmed.",
+    "partNeedsTemplateConflict": "This trinket needs a chart, but no charts can be assigned to it.",
+    "partNotFound": "Trinket not found.",
+    "partNotFound_details": "Trinket with id {{details}} not found.",
+    "partRetryUploadIncorrectState": "Ye ain't allowed to retry hoistin' a trinket that ain't pendin' a hoist aboard.",
+    "partUndoAcceptIncorrectState": "Ye can't undo acceptin' when a trinket hasn't been accepted.",
+    "partUndoRejectIncorrectState": "A rejection can't be undone when a trinket hasn't been rejected.",
+    "partUpdateAcceptedIncorrectState": "Ye ain't allowed to update a trinket that has been accepted.",
+    "partUpdateForbidden": "Ye ain't allowed to update a trinket for this crew.",
+    "roleNotFound": "That role id don't exist.",
+    "sortField": "That field name ain't proper.",
+    "sortField_details": "That field name ain't proper: {{details}}.",
+    "sortOrder": "That order value ain't proper. Must be either '-1' or '1'",
+    "sortOrder_details": "That order value ain't proper: {{details}}. Must be either '-1' or '1'",
+    "templateCreateForbidden": "Ye ain't allowed to create a chart for this crew.",
+    "templateDeleteForbidden": "Ye ain't allowed to scuttle a chart for this crew.",
+    "templateDeleteHardForbidden": "Ye can't scuttle a chart directly.",
+    "templateGetForbidden": "Ye ain't allowed to get a chart for this crew.",
+    "templateMaterialForbidden": "Ye don't have leave to assign this grog to a chart.",
+    "templateMaterialPendingConflict": "A grog pendin' a hoist aboard can not be assigned to a chart.",
+    "templateNoEligibleDefault": "A default chart be required for every trinket type specified. Set another chart as th' default afore scuttlin' this one.",
+    "templateNotFound": "Th' chart could not be found.",
+    "templateUpdateForbidden": "Ye ain't allowed to update a chart for this crew.",
+    "unauthorized": "Ye be not authenticated. Sign in, if ye please.",
+    "unexpected": "An unexpected blunder occurred.",
+    "unprocessableContent": "Th' content can't be worked",
+    "unspecified": "An unspecified blunder occurred.",
+    "unsupportedMediaType": "That media type ain't supported",
+    "userBFPForbidden": "Unable to unblock th' crewmate.",
+    "userBlockForbidden": "Unable modify block status o' th' crewmate.",
+    "userConflict": "That crewmate already exists.",
+    "userConflict_details": "A crewmate with email {{details}} already exists in yer crew or another crew. Use an alternate email.",
+    "userConflictAnotherOrg_details": "Th' email {{details}} be already tied to another crew. Use an alternate email or ask th' crewmate to unenrol from their previous crew.",
+    "userConflictWithinOrg_details": "A crewmate with th' email {{details}} already exists in yer crew.",
+    "userCreateForbidden": "Unable to create th' crewmate.",
+    "userDeleteForbidden": "Unable to scuttle th' crewmate.",
+    "userGetBFPForbidden": "Unable to get block status o' th' crewmate",
+    "userGetBlockForbidden": "Unable to get block status o' th' crewmate.",
+    "userGetForbidden": "Unable to find th' crewmate.",
+    "userNotFound": "Crewmate not found.",
+    "userNotFound_details": "Crewmate with email {{details}} could not be found.",
+    "userNotInOrg": "That crewmate ain't tied to a crew.",
+    "userResetForbidden": "Unable to reset th' crewmate's password.",
+    "userRoleAddForbidden": "Unable to add a role to th' crewmate.",
+    "userRoleRemoveForbidden": "Unable to remove a role from th' crewmate.",
+    "userSearchField": "Invalid field riggin' for th' crewmate scout.",
+    "userSearchForbidden": "Unable to scout for crew.",
+    "userSearchPagination": "Invalid pagination riggin' for th' crewmate scout.",
+    "userSearchSort": "Invalid sort riggin' for th' crewmate scout.",
+    "userUpdateForbidden": "Unable to update th' crewmate.",
+    "validation": "Can't validate this request.",
+    "value": "An invalid value were provided to this request.",
+    "workflowNotFound": "No workflow to be found.",
+    "workflowNotFound_details": "No workflow with id {{details}} to be found."
+  },
+  "label": {
+    "acceptedGroupsSuccess_one": "{{count}} band moved to <a>Accepted</a>",
+    "acceptedGroupsSuccess_other": "{{count}} bands moved to <a>Accepted</a>",
+    "acceptedJobsSuccess_one": "{{count}} voyage moved to <a>Accepted</a>",
+    "acceptedJobsSuccess_other": "{{count}} voyages moved to <a>Accepted</a>",
+    "acceptedPartsSuccess_one": "{{count}} trinket moved to <a>Accepted</a>",
+    "acceptedPartsSuccess_other": "{{count}} trinkets moved to <a>Accepted</a>",
+    "acceptingGroups": "Acceptin' trinket bands",
+    "acceptingJobs": "Acceptin' voyages",
+    "acceptingParts": "Acceptin' trinkets",
+    "assigningTemplates": "Assignin' chart to trinkets",
+    "assigningTemplatesSuccess_one": "Assigned chart to {{count}} trinket",
+    "assigningTemplatesSuccess_other": "Assigned chart to {{count}} trinkets",
+    "cancelUploadModalButtonSecondary": "Carry On Hoistin'",
+    "cancelUploadsModalBody": "Yer trinkets ain't all hoisted aboard yet. Care to belay th' rest o' th' hoistin'?",
+    "cancelUploadsModalButtonPrimary": "Belay Hoistin'",
+    "cancelUploadsModalTitle": "Belay th' rest o' th' hoistin'?",
+    "confirmedSuccess_one": "{{count}} trinket confirmed",
+    "confirmedSuccess_other": "{{count}} trinkets confirmed",
+    "confirmingParts": "Confirmin' trinkets",
+    "creatingGroup": "Creatin' trinket band",
+    "default": "Th' Usual",
+    "deprioritiseSuccess_one": "Cleared th' trinket's place in line.",
+    "deprioritiseSuccess_other": "Cleared th' trinkets' places in line.",
+    "deprioritisingParts": "Clearin' trinket places in line.",
+    "dismissingParts": "Wavin' off trinkets",
+    "dismissSuccess_one": "{{count}} trinket has been waved off",
+    "dismissSuccess_other": "{{count}} trinkets have been waved off",
+    "downloading": "Haulin' ashore",
+    "downloadJobsSuccess_one": "{{count}} voyage hauled ashore",
+    "downloadJobsSuccess_other": "{{count}} voyages hauled ashore",
+    "downloadPartsSuccess_one": "{{count}} trinket hauled ashore",
+    "downloadPartsSuccess_other": "{{count}} trinkets hauled ashore",
+    "duplicatePartsSuccess_one": "{{count}} trinket copied <a>To Review</a>",
+    "duplicatePartsSuccess_other": "{{count}} trinkets copied <a>To Review</a>",
+    "duplicatingParts": "Copyin' trinkets",
+    "fullname": "Full Sailin' Name",
+    "groupCreateSuccess": "Trinket band created, smooth sailin'",
+    "groupRegroupSuccess": "Trinkets regrouped, smooth sailin'",
+    "groupRenameSuccess": "Trinket band renamed, smooth sailin'",
+    "groupUpdateSuccess_one": "Updated {{count}} band, smooth sailin'",
+    "groupUpdateSuccess_other": "Updated {{count}} bands, smooth sailin'",
+    "itemSelected": "Item picked",
+    "itemSelected_zero": "No items picked",
+    "itemSelected_one": "{{count}} item picked",
+    "itemSelected_other": "{{count}} items picked",
+    "language": "Tongue",
+    "openDrawer": "Open Hatch",
+    "partRenameSuccess": "Trinket renamed, smooth sailin'",
+    "preparingDownload": "Preparin' to haul ashore",
+    "prioritiseSuccess_one": "{{count}} trinket bumped up th' line.",
+    "prioritiseSuccess_other": "{{count}} trinkets bumped up th' line.",
+    "prioritisingParts": "Bumpin' trinkets up th' line",
+    "promotedJobsSuccess_one": "{{count}} voyage promoted <a>To Review</a>",
+    "promotedJobsSuccess_other": "{{count}} voyages promoted <a>To Review</a>",
+    "promotingJobs": "Promotin' voyages",
+    "regroupingParts": "Regroupin' trinkets",
+    "rejectedSuccess_one": "{{count}} trinket moved to <a>Rejected</a>",
+    "rejectedSuccess_other": "{{count}} trinkets moved to <a>Rejected</a>",
+    "rejectingParts": "Rejectin' trinkets",
+    "rejectJobPartModalIntro_one": "This trinket be nested in a voyage that's ready to review.",
+    "rejectJobPartModalIntro_other": "These trinkets be nested in a voyage that's ready to review.",
+    "rejectJobPartModalRejectAndRequeue_one": "Scuttle this trinket an' send th' rest back to th' line for re-nestin'.",
+    "rejectJobPartModalRejectAndRequeue_other": "Scuttle these trinkets an' send th' rest back to th' line for re-nestin'.",
+    "rejectJobPartModalRejectOnly_one": "Scuttle this trinket an' keep th' rest o' th' voyage intact.",
+    "rejectJobPartModalRejectOnly_other": "Scuttle these trinkets an' keep th' rest o' th' voyage intact.",
+    "rejectJobPartModalTitle": "Re-nest voyage?",
+    "rejectModal": "Picked trinkets won't be considered for any forgin' voyages no more.",
+    "rejectModalTitle_one": "Say nay to {{partName}}?",
+    "rejectModalTitle_other": "Say nay to {{count}} picked trinkets?",
+    "removingFromGroups": "Takin' trinkets out o' bands",
+    "renamePart": "Rename trinket",
+    "renamingGroup": "Renamin' trinket band",
+    "renamingPart": "Renamin' trinket",
+    "reprintingParts": "Sendin' trinkets back in line for re-forgin'",
+    "reprintPartsSuccess_one": "{{count}} trinket back in line an' moved to <a>Accepted</a>",
+    "reprintPartsSuccess_other": "{{count}} trinkets back in line an' moved to <a>Accepted</a>",
+    "resendingJobs": "Resendin' voyages",
+    "resentJobs_one": "Resent {{count}} voyage",
+    "resentJobs_other": "Resent {{count}} voyages",
+    "setTimezone": "Set Ship's Time",
+    "settings": "Riggin'",
+    "tabs": "Th' Tabs",
+    "timezone": "Ship's Time",
+    "undoAcceptedPartsSuccess_one": "{{count}} trinket removed from Accepted",
+    "undoAcceptedPartsSuccess_other": "{{count}} trinkets removed from Accepted",
+    "undoingAcceptParts": "Undoin' acceptin' o' trinkets",
+    "undoingRejectParts": "Undoin' rejectin' o' trinkets",
+    "undoRejectPartsSuccess_one": "{{count}} trinket removed from Rejected",
+    "undoRejectPartsSuccess_other": "{{count}} trinkets removed from Rejected",
+    "ungroupingGroups": "Unbandin' trinkets",
+    "ungroupSuccess_one": "Unbanded {{count}} band, smooth sailin'",
+    "ungroupSuccess_other": "Unbanded {{count}} bands, smooth sailin'",
+    "updatingPartTypes": "Updatin' trinket types",
+    "updatingPartTypesSuccess_one": "{{count}} trinket type updated",
+    "updatingPartTypesSuccess_other": "{{count}} trinket types updated"
+  },
+  "links": {
+    "devices": "Contraptions",
+    "home": "Helm",
+    "inbox": "Crow's Nest",
+    "manage": "Command",
+    "parts": "Trinkets",
+    "printJobs": "Forge Voyages",
+    "timeline": "Ship's Log",
+    "tooltips": {
+      "devices": "A live lookout over all th' contraptions to help ye watch yer lab.",
+      "home": "A snapshot o' yer lab's doin's to keep ye up to date.",
+      "inbox": "Hoist aboard & review trinkets from crew or applications.\n\nConfirm th' trinkets have th' right forgin' chart applied & accept them for makin'.",
+      "manage": "Add or edit crew, link outside apps, general riggin'.",
+      "parts": "View trinkets that have been accepted for makin'.\n\nCheck th' status to see where they be in th' makin' process.",
+      "printJobs": "Review forgin' voyages that have been created.\n\nCheck th' status to see what stage they be at in th' makin' process.",
+      "templates": "Lists all th' charts in th' Funnel. These control which grog, forgin' riggin' and contraptions be used for each trinket type.",
+      "timeline": "See th' forgin' voyages ye have waitin' in line on each o' yer contraptions to watch progress & use."
+    }
+  },
+  "loading": {
+    "unavailable": "Lost at sea"
+  },
+  "maintenancePage": {
+    "message": "We be workin' to make th' Funnel better.\nWe'll be back afore ye know it.",
+    "title": "Scheduled careenin'"
+  },
+  "message": {
+    "acceptPrivacyPolicy": "I accept th' <a>Privacy Policy</a>",
+    "acceptTermsOfService": "I accept th' <a>Terms of Service</a>",
+    "betaTest": "Ye be sailin' th' beta, tell us how we can do better. <a>Provide Feedback</a>",
+    "betaTest_narrow": "Ye be sailin' th' beta. <a>Provide Feedback</a>",
+    "checkConnectionForBuildInfo": "Check th' contraption's internet connection to see th' current an' waitin' hauls.",
+    "cookiePolicy": "We use cookies to make yer browsin' smoother. To learn more, visit our <cookie>Cookie Policy</cookie> & <privacy>Privacy Statement</privacy>.",
+    "cookiePreferencesAllowed": "Ye have allowed all cookies, includin' analytics an' support.",
+    "cookiePreferencesDenied": "Ye be usin' only th' strictly necessary cookies.",
+    "maintenanceMode": "Th' Funnel will be out o' reach on {{startDate}}, between {{startTime}} an' {{endTime}} for essential careenin'.",
+    "maintenanceMode_multiDay": "Th' Funnel will be out o' reach from {{startDate}} {{startTime}} to {{endDate}} {{endTime}} for essential careenin'.",
+    "maintenanceModeActive": "Th' Funnel be in dry dock for scheduled careenin' until {{endDate}} {{endTime}}.",
+    "noConnection": "Can't make contact, tryin' again in {{time}}",
+    "noMatches": "Sorry, we scouted an' found nothin'",
+    "noMatchesHelp": "Check yer spellin' or try broader words\nOr else, try th' table filters",
+    "noMatchesHelp_both": "Check yer spellin' or try broader words\nOr else, try updatin' or clearin' th' table filters",
+    "noMatchesHelp_filtering": "Try updatin' or clearin' th' table filters",
+    "noMatchesHelp_searching": "Check yer spellin' or try broader words\nOr else, try th' table filters",
+    "reconnecting": "Attemptin' to hail again",
+    "reviewAndAgreeToPolicies": "Afore ye carry on, ye must review an' agree to th' <terms>Terms of Service</terms> and th' <privacy>Privacy Policy</privacy>."
+  },
+  "notFoundPage": {
+    "message": "Check th' page address for spellin' blunders or use th' navigation menu up top left",
+    "message_narrow": "Check th' page address for spellin' blunders or use th' navigation menu up top left",
+    "message_wide": "Check th' page address for spellin' blunders or use th' navigation buttons on th' left",
+    "title": "That page be lost at sea"
+  },
+  "notifications": {
+    "actions": {
+      "dismiss": "Wave Off",
+      "inbox": "Crow's Nest",
+      "reprintParts": "Re-forge Trinkets",
+      "requeueParts": "Requeue Trinkets",
+      "resend": "Send Again",
+      "reviewGroup": "Review Band",
+      "reviewPart": "Review Trinket",
+      "reworkOffline": "Rework Ashore",
+      "ungroup": "Unband"
+    },
+    "clearAll": "Swab All",
+    "empty": "No tidings",
+    "requeuePartsConfirmation": "Be ye sure ye want to send th' trinkets from this voyage back in line? This will scuttle th' current voyage an' create new trinkets in th' crow's nest.",
+    "settings": {
+      "label": "Show live tidings for trinkets, bands, voyages and contraptions that need yer eye.",
+      "title": "Tidings"
+    },
+    "title": "Tidings",
+    "types": {
+      "deviceOffline": {
+        "body_one": "{{name}} has gone adrift",
+        "body_other": "Several contraptions have gone adrift",
+        "title": "Contraption adrift"
+      },
+      "groupTooLarge": {
+        "body_one": "{{name}} be too large to forge together",
+        "body_other": "Several bands be too large to forge together",
+        "title": "Band too large"
+      },
+      "nestingFailed": {
+        "body_one": "Couldn't nest {{name}}",
+        "body_other": "Couldn't nest several voyages",
+        "title": "Voyage nestin' sunk"
+      },
+      "orientationFailed": {
+        "body_one": "Couldn't turn {{name}} about",
+        "body_other": "Couldn't turn several trinkets about",
+        "title": "Trinket orientation sunk"
+      },
+      "partTooLarge": {
+        "body_one": "{{name}} be too large to forge",
+        "body_other": "Several trinkets be too large to forge",
+        "title": "Trinket too large"
+      },
+      "printerError": {
+        "body_one": "{{buildName}} went down mid-forge.\n\nConsult th' contraption's screen for more.",
+        "body_other": "Several forges went down.\n\nConsult th' contraption's screen for more.",
+        "title": "Forge sunk"
+      },
+      "sendingFailed": {
+        "body_one": "Couldn't send voyage #{{name}}",
+        "body_other": "Couldn't send several voyages",
+        "title": "Voyage failed to send"
+      },
+      "slicingFailed": {
+        "body_one": "Couldn't slice voyage #{{name}}",
+        "body_other": "Couldn't slice several voyages",
+        "title": "Voyage failed to slice"
+      },
+      "supportsFailed": {
+        "body_one": "Couldn't generate supports for voyage #{{name}}",
+        "body_other": "Couldn't generate supports for several voyages",
+        "title": "Voyage supports sunk"
+      }
+    }
+  },
+  "progressStatus": {
+    "acceptPartForPrinting": {
+      "name": "Accept trinket fer forgin'",
+      "tooltip": {
+        "part": "Th' trinket will be shown fer review to confirm th' type and th' chart riggin' that'll be used."
+      }
+    },
+    "addingToProvisionalJob": {
+      "name": "Addin' to provisional voyage",
+      "tooltip": {
+        "default": "Trinket be bein' nested in a provisional voyage."
+      }
+    },
+    "approvePrintJob": {
+      "name": "Approve forge voyage",
+      "tooltip": {
+        "default": "Th' forge voyage will be shown fer review so th' layout o' trinkets and th' supports can be checked afore approvin' th' forge voyage fer forgin'."
+      }
+    },
+    "cancelled": {
+      "name": "Forge belayed",
+      "tooltip": {
+        "default": "Th' forge voyage were belayed afore it finished, or scuttled from th' haul line o' waitin'."
+      }
+    },
+    "failedToPrint": {
+      "name": "Forge sunk",
+      "tooltip": {
+        "default": "Th' forge voyage went down.\n\nLook to th' contraption screen fer more word."
+      }
+    },
+    "generatingSupports": {
+      "name": "Riggin' up supports",
+      "tooltip": {
+        "job": "Th' provisional Voyage layout be finalised and th' forge layers be bein' prepared.",
+        "part": "Supports be bein' added to th' provisional voyage afore it be finalised fer th' crewmate to approve fer forgin'."
+      }
+    },
+    "groupTooLarge": {
+      "name": "Group too grand",
+      "tooltip": {
+        "part": "Th' group th' trinket belongs to be too grand to forge. Try ungroupin' th' trinkets."
+      }
+    },
+    "identifiedPartType": {
+      "name": "Trinket type identified",
+      "tooltip": {
+        "part": "Th' trinket type be identified; this affects which charts can be chosen and how th' trinket will be turned about later."
+      }
+    },
+    "identifyingPartType": {
+      "name": "Identifyin' trinket type",
+      "tooltip": {
+        "part": "Analysin' trinket geometry to identify trinket type."
+      }
+    },
+    "invalidGeometry": {
+      "name": "Crooked geometry",
+      "tooltip": {
+        "part": "Th' trinket could not be worked because its geometry be crooked.\n\nTry patchin' th' model and hoistin' it aboard again."
+      }
+    },
+    "invalidModel": {
+      "name": "Crooked model",
+      "tooltip": {
+        "part": "Th' trinket could not be worked because th' hoisted scroll be no model.\n\nCheck th' scroll ain't corrupted and hoist it aboard again."
+      }
+    },
+    "nestedInJob": {
+      "name": "Forge voyage created",
+      "tooltip": {
+        "job": "Th' forge voyage be created.",
+        "part": "Th' trinket be added to a forge voyage."
+      }
+    },
+    "nestedInProvisionalJob": {
+      "name": "Nested in provisional voyage",
+      "tooltip": {
+        "job": "Voyage be in a provisional state and will become finalised when:<ul><li>more trinkets be added to fill th' voyage</li><li>a fittin' contraption be about to be free to forge it</li></ul>Th' voyage can also be promoted to a finalised state by hand.",
+        "part": "Th' trinket be nested in a provisional voyage. It will become finalised when:<ul><li>more trinkets be added to fill th' voyage, and</li><li>A fittin' contraption be about to be free to forge it</li></ul>"
+      }
+    },
+    "nestingBlocked": {
+      "name": "Cannot add to provisional voyage",
+      "tooltip": {
+        "allDevicesExcludedFromFunnel": "Compatible contraptions be excluded from takin' voyages from th' Funnel.\n\nInclude these contraptions fer automatic forge voyages, or update th' chart to use other contraptions.",
+        "allDevicesOfflineOrExcluded": "No compatible contraptions be online, nor takin' Funnel forge voyages.\n\nCheck contraptions be connected and included fer automatic forge voyages, or update th' chart to use other connected contraptions.",
+        "groupMemberFailed": "One or more trinkets in th' group went down durin' turnin' about.\n\nScuttle th' sunk trinkets to forge this group.",
+        "groupMembersProcessing": "One or more trinkets in this group be still bein' turned about.",
+        "noAvailableDevices": "No compatible contraptions be online to forge this trinket.\n\nCheck contraptions be connected, or update th' chart to use other connected contraptions."
+      }
+    },
+    "nestingFailed": {
+      "name": "Nestin' sunk",
+      "tooltip": {
+        "default": "Th' nestin' o' trinkets went down.\nThis could be caused by trouble with th' trinket scroll."
+      }
+    },
+    "nestPrintJob": {
+      "name": "Nest forge voyage",
+      "tooltip": {
+        "part": "Th' trinket will be added to a provisional voyage alongside other trinkets usin' th' same chart. They'll then be arranged on th' platform."
+      }
+    },
+    "orientatePart": {
+      "name": "Turnin' trinket about",
+      "tooltip": {
+        "part": "Th' trinket's headin' will be optimised based on th' trinket type, afore bein' nested in a forge voyage."
+      }
+    },
+    "orientatingPart": {
+      "name": "Turnin' trinket about",
+      "tooltip": {
+        "part": "Th' trinket be currently bein' turned about based on its type."
+      }
+    },
+    "orientationFailed": {
+      "name": "Turnin' about sunk",
+      "tooltip": {
+        "part": "Th' trinket could not be turned about proper fer forgin'.\nThis could be caused by trouble with th' trinket scroll."
+      }
+    },
+    "partAccepted": {
+      "name": "Trinket accepted",
+      "tooltip": {
+        "part": "Th' trinket be accepted fer forgin'."
+      }
+    },
+    "partIdentification": {
+      "name": "Trinket Identification"
+    },
+    "partOrientated": {
+      "name": "Trinket turned about",
+      "tooltip": {
+        "part": "Th' trinket were turned about proper fer forgin'."
+      }
+    },
+    "partRejected": {
+      "name": "Trinket rejected",
+      "tooltip": {
+        "part": "Th' trinket were rejected by th' crewmate."
+      }
+    },
+    "partTooLarge": {
+      "name": "Trinket too grand",
+      "tooltip": {
+        "part": "Th' trinket be too grand to fit on a contraption tied to th' trinket's chart.\n\nTry checkin' th' scale o' th' hoisted trinket, and that th' trinket's chart has a contraption grand enough to hold it."
+      }
+    },
+    "print": {
+      "name": "Forge",
+      "tooltip": {
+        "default": "Th' forge voyage will be sent to th' contraption where it'll be forged."
+      }
+    },
+    "printed": {
+      "name": "Forged",
+      "tooltip": {
+        "default": "Th' Voyage finished with smooth sailin'."
+      }
+    },
+    "printing": {
+      "name": "Forgin'",
+      "tooltip": {
+        "default": "Th' Voyage be currently bein' forged."
+      }
+    },
+    "printJobApproved": {
+      "name": "Forge voyage approved",
+      "tooltip": {
+        "default": "Th' forge voyage be approved."
+      }
+    },
+    "printJobPendingApproval": {
+      "name": "Forge voyage awaitin' approval",
+      "tooltip": {
+        "default": "Th' finalised Voyage be ready to review."
+      }
+    },
+    "printJobRejected": {
+      "name": "Forge voyage rejected",
+      "tooltip": {
+        "default": "Th' voyage were rejected and th' trinkets be back in th' line o' waitin'."
+      }
+    },
+    "printJobReworkedOffline": {
+      "name": "Forge voyage reworked ashore",
+      "tooltip": {
+        "default": "Th' forge voyage were hauled ashore by th' crewmate to edit in Composer."
+      }
+    },
+    "printPaused": {
+      "name": "Forge Becalmed",
+      "tooltip": {
+        "default": "Th' forge voyage were becalmed by th' crewmate."
+      }
+    },
+    "printPending": {
+      "name": "Forge awaitin'",
+      "tooltip": {
+        "default": "Th' Voyage be on th' contraption and ready to forge."
+      }
+    },
+    "sendingFailed": {
+      "name": "Sendin' sunk",
+      "tooltip": {
+        "default": "Th' forge voyage went down when sendin' to th' contraption.\n\nThis could be caused by th' contraption goin' offline or th' haul line o' waitin' bein' full with not enough memory left."
+      }
+    },
+    "sendingToPrinter": {
+      "name": "Sendin' to contraption",
+      "tooltip": {
+        "default": "Th' forge layers be bein' sent to th' contraption."
+      }
+    },
+    "sendToPrinter": {
+      "name": "Send to contraption",
+      "tooltip": {
+        "default": "Th' forge voyage will be sliced into separate layers and sent to th' contraption fer forgin'."
+      }
+    },
+    "sentToPrinter": {
+      "name": "Sent to contraption",
+      "tooltip": {
+        "default": "Th' forge voyage be on th' contraption and ready to forge."
+      }
+    },
+    "slicingFailed": {
+      "name": "Slicin' sunk",
+      "tooltip": {
+        "default": "Th' forge voyage went down whilst preparin' th' forge layers.\n\nThis could be caused by trouble with th' trinket scrolls."
+      }
+    },
+    "slicingPrintJob": {
+      "name": "Slicin' forge voyage",
+      "tooltip": {
+        "default": "Th' forge layers be bein' prepared."
+      }
+    },
+    "uploadTooLarge": {
+      "name": "Cargo too grand",
+      "tooltip": {
+        "part": "Th' hoisted scroll be too grand.\n\nTry shrinkin' th' scroll size and hoistin' it aboard again."
+      }
+    },
+    "waitingForPartToBeAccepted": {
+      "name": "Accept trinket fer forgin'",
+      "tooltip": {
+        "part": "Th' trinket be waitin' on th' crewmate to accept."
+      }
+    }
+  },
+  "relativeTime": {
+    "daysAgo_one": "{{count}} day past",
+    "daysAgo_other": "{{count}} days past",
+    "hoursAgo_one": "{{count}} hour past",
+    "hoursAgo_other": "{{count}} hours past",
+    "justNow": "Moments past",
+    "minutesAgo_one": "{{count}} minute past",
+    "minutesAgo_other": "{{count}} minutes past",
+    "weeksAgo_one": "{{count}} week past",
+    "weeksAgo_other": "{{count}} weeks past"
+  },
+  "share": {
+    "notFound": "Th' shared item could not be found"
+  },
+  "table": {
+    "activeFilters": "Active sieves:",
+    "clearFilters": "Clear sieves",
+    "expandRow": "Unfurl Row",
+    "pageAmount": "Tally",
+    "perPage": "To a Page"
+  },
+  "title": {
+    "cookiePolicy": "Cookie articles",
+    "help": "View Aid",
+    "integrations": "Alliances",
+    "language": "Tongue",
+    "manage": "Command",
+    "manageSubscription": "Command Tithe",
+    "name": "Sailin' Name",
+    "photo": "Portrait",
+    "privacy": "Yer Privacy",
+    "privacyPolicy": "Privacy articles",
+    "profile": "Papers",
+    "subscriptionOptions": "Tithe Options",
+    "tableOfContents": "Chart o' contents",
+    "templates": "Charts",
+    "termsAndPolicy": "Articles an' Policy",
+    "termsOfService": "Articles o' service",
+    "warning": "Squall"
+  },
+  "underConstruction": {
+    "subtitle1": "We're buildin' somethin' special",
+    "subtitle2": "Come back later"
+  },
+  "units": {
+    "microns": "{{value}} μm",
+    "suffix": {
+      "degrees": " °",
+      "millimetres": " mm"
+    }
   }
 }

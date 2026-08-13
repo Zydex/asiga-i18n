@@ -1,0 +1,16 @@
+{
+  "label": {
+    "allMachines": "All Contraptions",
+    "noDevices": "Voyages in th' line o' waitin' for yer contraptions be shown in a ship's log on this page",
+    "noDevicesMessage": "Use th' button below to add contraptions to yer crew",
+    "requiresAttention": "Needs Yer Eye"
+  },
+  "title": {
+    "timeline": "Ship's Log"
+  },
+  "tooltips": {
+    "allMachines": "Shows all th' contraptions added to th' Funnel alongside their waitin' voyages."
+  },
+  "viewHours_one": "1 Hour watch",
+  "viewHours_other": "{{count}} Hour watch"
+}

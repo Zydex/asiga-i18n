@@ -1,0 +1,158 @@
+{
+  "button": {
+    "download": "Haul Ashore",
+    "exportReportPdf": "Ship Out PDF",
+    "moveOffline": "Rework Ashore",
+    "promoteJob": "Promote Voyage",
+    "reprint": "Re-forge",
+    "reprintParts": "Re-forge Trinkets",
+    "requeueParts": "Trinkets Back in Line",
+    "resendJob": "Resend Voyage",
+    "reshuffle": "Shuffle Anew"
+  },
+  "details": {
+    "basePlate": "Base Plate riggin'",
+    "currentJob": "Current Voyage",
+    "currentParts": "Current Trinkets",
+    "jobInformation": "Voyage Information",
+    "parts": "Trinkets"
+  },
+  "label": {
+    "accepted": "Aboard",
+    "buildAreaUsage": "Haul Area Usage",
+    "estimatedMaterial": "Reckoned Grog",
+    "estimatedPrintTime": "Reckoned Forgin' Time",
+    "external": "Foreign",
+    "jobContainsPriorityParts": "Voyage carries prioritised trinkets",
+    "jobsTab": "Voyage Tabs",
+    "layerThickness": "Layer Thickness",
+    "material": "Grog",
+    "partName": "Trinket Name",
+    "partType": "Trinket Kind",
+    "provisional": "Rumoured",
+    "rejected": "Cast Off",
+    "reprintParts": "Re-forge trinkets from this voyage?",
+    "reprintPartsNoneAvailable": "All th' trinkets be re-forgin' already",
+    "requeuedPartsSuccess": "Trinkets Sent Back in Line",
+    "requeuedPartsSuccess_one": "Trinket Sent Back in Line",
+    "requeuedPartsSuccess_other": "Trinkets Sent Back in Line",
+    "requeuingParts": "Sendin' Trinkets Back in Line",
+    "search": "Scout for voyages",
+    "source": "Origin",
+    "targetDevice": "Target Contraption",
+    "template": "Chart",
+    "toReview": "To Inspect",
+    "trayType": "Tray Kind"
+  },
+  "message": {
+    "deviceOffline": "This voyage won't be sent 'til th' contraption comes back online.\n\nCheck {{device}} be online an' has an active internet connection.",
+    "deviceOffline_one": "This voyage won't be sent 'til th' contraption comes back online.\n\nCheck {{device}} be online an' has an active internet connection.",
+    "deviceOffline_other": "These voyages won't be sent 'til each contraption comes back online.\n\nCheck th' contraptions be online an' have an active internet connection.",
+    "downloadInfo": "Otherwise, th' forge voyage can be hauled ashore fer editin' in Composer.",
+    "moveOffline": "This'll cast off th' voyage an' haul it ashore fer editin' in composer.",
+    "moveOffline_one": "This'll cast off th' chosen voyage an' haul it ashore fer editin' in composer.",
+    "moveOffline_other": "This'll cast off th' chosen voyages an' haul 'em ashore fer editin' in composer.",
+    "noJobsToReview": "Rumoured voyages that've been promoted will appear here. Hoist trinkets aboard in th' crow's nest to get started.",
+    "noParts": "This voyage carries no trinkets.",
+    "noPartsToReprint": "Trinkets in this voyage be already back in line fer re-forgin'.",
+    "rejectInfo": "Pressin' 'Shuffle Anew' will vary trinket position an' rotation as part o' a new forge voyage. Some trinkets may be scuttled or added durin' th' shuffle.",
+    "reprintParts": "Chosen trinkets will be prioritised fer re-forgin' as part o' th' next suitable forge voyage.",
+    "reprintPartsKey": "Trinkets in grey have already been re-forged.",
+    "requeueParts": "This'll mark th' voyage as cast off an' move all trinkets in th' voyage back to th' line o' waitin'.",
+    "reworkOffline_one": "Forge voyage <bold>#{{id}}</bold> marked as <bold>Reworked ashore</bold>",
+    "reworkOffline_other": "{{count}} forge voyages marked as <bold>Reworked ashore</bold>",
+    "submittingJob": "Sendin' off #{{id}}",
+    "submittingJob_device": "Sendin' off  <bold>#{{id}}</bold> to <bold>{{device}}</bold>"
+  },
+  "status": {
+    "awaitingApproval": {
+      "name": "Awaitin' th' nod",
+      "tooltip": "Th' settled voyage be ready to inspect."
+    },
+    "cancelled": {
+      "name": "Belayed",
+      "tooltip": "Th' forge voyage were belayed afore it finished, or scuttled from th' haul line o' waitin'."
+    },
+    "failed": {
+      "name": "Sunk",
+      "tooltip": "Th' forge voyage went down.\n\nRefer to th' contraption screen fer more information."
+    },
+    "generating": {
+      "name": "Settlin' forge voyage",
+      "tooltip": "Th' rumoured voyage layout be settled an' th' forge layers be bein' prepared."
+    },
+    "nestingFailed": {
+      "name": "Nestin' Sunk",
+      "tooltip": "Th' nestin' o' trinkets went down. This could be caused by trouble with one or more o' th' trinket scrolls."
+    },
+    "offline": {
+      "name": "Reworked ashore",
+      "tooltip": "Th' voyage were hauled ashore to edit an' send in Composer."
+    },
+    "paused": {
+      "name": "Anchored",
+      "tooltip": "Th' forge voyage be anchored on th' contraption."
+    },
+    "printed": {
+      "name": "Forged",
+      "tooltip": "Th' voyage finished with smooth sailin'."
+    },
+    "printing": {
+      "name": "Forgin'",
+      "tooltip": "Th' voyage be forgin' right now."
+    },
+    "printPending": {
+      "name": "Forge pendin'",
+      "tooltip": "Th' voyage be on th' contraption an' ready to forge."
+    },
+    "provisional": {
+      "name": "Rumoured",
+      "tooltip": "Voyage be in a rumoured state an' will be settled when:\n<ul><li>more trinkets be added to fill th' voyage</li><li>a suitable contraption be about to be free to forge it</li></ul>Th' voyage can also be promoted to a settled state by hand."
+    },
+    "rejected": {
+      "name": "Cast Off",
+      "tooltip": "Th' voyage were cast off an' th' trinkets sent back in line."
+    },
+    "sendingFailed": {
+      "name": "Sendin' sunk",
+      "tooltip": "Th' forge voyage went down when sendin' to th' contraption.\n\nThis could be caused by th' contraption goin' offline or th' haul line o' waitin' bein' full with too little memory left."
+    },
+    "sendingToPrinter": {
+      "name": "Sendin' to contraption",
+      "tooltip": "Th' forge layers be bein' sent to th' contraption."
+    },
+    "slicing": {
+      "name": "Slicin' forge voyage",
+      "tooltip": "Th' forge layers be bein' prepared."
+    },
+    "slicingFailed": {
+      "name": "Slicin' sunk",
+      "tooltip": "Th' forge voyage went down whilst preparin' th' forge layers.\n\nThis could be caused by trouble with th' trinket scrolls."
+    }
+  },
+  "title": {
+    "device": "Contraption",
+    "deviceOffline": "{{device}} be offline",
+    "deviceOffline_one": "{{device}} be offline",
+    "deviceOffline_other": "Several contraptions be offline",
+    "jobNumber": "Voyage Number",
+    "material": "Grog",
+    "moveOffline": "Rework voyage ashore?",
+    "moveOffline_one": "Rework voyage ashore?",
+    "moveOffline_other": "Rework voyages ashore?",
+    "noJobsAccepted": "No voyages aboard",
+    "noJobsRejected": "No voyages cast off",
+    "noJobsToReview": "No voyages to inspect",
+    "printJobs": "Forge Voyages",
+    "rejectJob": "Shuffle th' cast off voyage anew?",
+    "requeueParts": "Send Trinkets Back in Line?",
+    "status": "Standin'"
+  },
+  "tooltips": {
+    "accepted": "All th' voyages taken aboard be shown here, alongside their standin'.",
+    "provisional": "This shows th' expected upcomin' voyages based on contraption availability, chart compatibility an' unforged trinkets in th' Funnel.\n\nPromotin' 'em will create a settled forge voyage includin' th' identified trinkets, layout an' target contraption. When supports have been generated fer settled voyages, they'll appear in th' 'To Inspect' tab.",
+    "rejected": "All th' voyages that've been cast off be shown here.",
+    "resendJob": "Resend a voyage to a contraption. Handy if th' voyage were belayed or th' contraption hit a blunder.",
+    "toReview": "Forge voyages ready to inspect be shown here. Take 'em aboard to send to th' contraption."
+  }
+}
