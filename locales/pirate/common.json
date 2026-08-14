@@ -742,6 +742,7 @@
     "manage": "Command",
     "manageSubscription": "Command Tithe",
     "name": "Sailin' Name",
+    "organisation": "Crew",
     "photo": "Portrait",
     "privacy": "Yer Privacy",
     "privacyPolicy": "Privacy articles",

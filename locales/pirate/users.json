@@ -5,6 +5,7 @@
   },
   "button": {
     "add": "Add Crewmate",
+    "changeMfa": "Change Th' Second Oath",
     "changePassword": "Change Watchword",
     "changeRole": "Change Rank",
     "deleteProfile": "Scuttle Profile",
@@ -28,6 +29,7 @@
   "message": {
     "addUsers": "Scrawl emails below to press-gang crewmates into this crew.",
     "addUsers_org": "Scrawl emails below to press-gang crewmates into {{org}}.",
+    "changeMfa": "This'll open a chart with instructions on how to swear yer new second oath.",
     "changePassword": "An email will be sent with a watchword change link.",
     "changePassword_email": "An email will be sent to {{email}} with a watchword change link.",
     "changeRole": "Update rank:",
@@ -36,6 +38,7 @@
     "confirmDelAccounts_other": "These crewmates will no longer have passage to this crew.",
     "confirmDelAccounts_org_one": "This crewmate will no longer have passage to {{org}}.",
     "confirmDelAccounts_org_other": "These crewmates will no longer have passage to {{org}}.",
+    "confirmMfaPolicy": "This'll turn every crewmate out o' th' ship so they can swear their second oath.",
     "confirmOwnershipTransfer": "This'll hand over th' cap'ncy o' th' crew and can't be undone.",
     "confirmOwnershipTransfer_user": "This'll hand over th' cap'ncy o' th' crew to {{user}} and can't be undone.",
     "confirmOwnershipTransferPrompt": "Scrawl {{word}} below to confirm.",
@@ -47,6 +50,7 @@
     "howToAddUsers": "Use th' 'Add Crewmate' button at the top right o' this page or use the button below to sign crewmates onto yer crew",
     "invitationSent": "Summons Sent",
     "linkSent": "Line Sent",
+    "mfaPolicy": "Help fortify yer crew's defences by requirin' a second oath from every crewmate.",
     "profilePicture": "This helps yer shipmates recognise ye and lets ye know that ye be signed in to th' right ledger.",
     "userPageInfo": "Every crewmate in yer crew be shown on this page",
     "warnCreateAccount": "Be ye sure ye wish to open this ledger?"
@@ -60,14 +64,17 @@
     "user": "Crewmate"
   },
   "title": {
+    "changeMfa": "Change Th' Second Oath",
     "changePassword": "Change Watchword",
     "changeRole": "Change Rank",
     "confirmDeleteProfile": "Confirm profile scuttlin'",
+    "confirmMfaPolicy": "Require a second oath?",
     "confirmOwnershipTransfer": "Hand over th' cap'ncy?",
     "deleteProfile": "Scuttle Profile",
     "edit": "Amend",
     "email": "Sea Mail",
     "invite": "Press-gang crew",
+    "mfaPolicy": "Th' Second Oath",
     "name": "Moniker",
     "profile": "",
     "remove_one": "Scuttle crewmate?",
