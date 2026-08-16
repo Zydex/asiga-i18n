@@ -14,6 +14,7 @@
     "remove_one": "Remove User",
     "remove_other": "Remove Users",
     "removePhoto": "Remove Photo",
+    "resetMfa": "Reset MFA",
     "restoreAccess": "Restore Access",
     "uploadPhoto": "Upload Photo"
   },
@@ -43,6 +44,8 @@
     "confirmOwnershipTransfer_user": "This will transfer ownership of the organisation to {{user}} and cannot be undone.",
     "confirmOwnershipTransferPrompt": "Type {{word}} below to confirm.",
     "confirmOwnershipTransferWord": "TRANSFER",
+    "confirmResetMfa_one": "This user will need to set up multi-factor authentication again.",
+    "confirmResetMfa_other": "These users will need to set up multi-factor authentication again.",
     "confirmRestoreAccess": "Access was revoked due to brute force protections.",
     "confirmRestoreAccess_user": "Access for {{user}} was revoked due to brute force protections.",
     "deleteProfile": "Your profile will permanently be removed from your organisation.",
@@ -79,6 +82,8 @@
     "profile": "",
     "remove_one": "Remove user?",
     "remove_other": "Remove users?",
+    "resetMfa_one": "Reset MFA for this user?",
+    "resetMfa_other": "Reset MFA for these users?",
     "restoreAccess": "Restore access for user?",
     "role": "Role"
   },

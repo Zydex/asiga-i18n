@@ -14,6 +14,7 @@
     "remove_one": "Scuttle Crewmate",
     "remove_other": "Scuttle Crewmates",
     "removePhoto": "Scuttle Portrait",
+    "resetMfa": "Recind Second Oath",
     "restoreAccess": "Restore Passage",
     "uploadPhoto": "Hoist Portrait"
   },
@@ -43,6 +44,8 @@
     "confirmOwnershipTransfer_user": "This'll hand over th' cap'ncy o' th' crew to {{user}} and can't be undone.",
     "confirmOwnershipTransferPrompt": "Scrawl {{word}} below to confirm.",
     "confirmOwnershipTransferWord": "WALK THE PLANK",
+    "confirmResetMfa_one": "This crewmate will need to swear their second oath again.",
+    "confirmResetMfa_other": "These crewmates will need to swear their second oaths again.",
     "confirmRestoreAccess": "Passage was revoked due to brute force protections.",
     "confirmRestoreAccess_user": "Passage for {{user}} was revoked due to brute force protections.",
     "deleteProfile": "Yer profile will be scuttled from yer crew for good.",
@@ -79,6 +82,8 @@
     "profile": "",
     "remove_one": "Scuttle crewmate?",
     "remove_other": "Scuttle crewmates?",
+    "resetMfa_one": "Recind th' second oath for this crewmate?",
+    "resetMfa_other": "Recind th' second oath for these crewmates?",
     "restoreAccess": "Restore passage for crewmate?",
     "role": "Rank"
   },
