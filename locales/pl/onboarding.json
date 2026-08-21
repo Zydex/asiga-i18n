@@ -1,0 +1,59 @@
+{
+  "gettingStarted": {
+    "dismissDialog": {
+      "description": "Wybierz, czy chcesz na stałe zamknąć przewodnik wprowadzający, czy ukryć go do następnej sesji.",
+      "dismissPermanently": "Zamknij na stałe",
+      "hide": "Ukryj",
+      "title": "Zamknij „Pierwsze kroki”"
+    },
+    "help": "Potrzebujesz więcej pomocy? Zobacz nasz szczegółowy <guide>przewodnik użytkownika</guide>",
+    "label": {
+      "collapse": "Zwiń",
+      "dismiss": "Zamknij",
+      "expand": "Rozwiń"
+    },
+    "step": {
+      "acceptJobs": {
+        "description": "Na stronie <bold>Zlecenia</bold> wybierz zlecenia i kliknij „Akceptuj”",
+        "title": "Akceptuj zlecenia"
+      },
+      "createTemplate": {
+        "description": "Na stronie <bold>Zarządzaj</bold> / <bold>Szablony</bold> kliknij „Utwórz”",
+        "title": "Utwórz szablon"
+      },
+      "enrolPrinter": {
+        "description": "Na stronie <bold>Urządzenia</bold> kliknij „Dodaj urządzenie”",
+        "title": "Zarejestruj drukarkę"
+      },
+      "inviteColleagues": {
+        "description": "Na stronie <bold>Zarządzaj</bold> / <bold>Użytkownicy</bold> kliknij „Dodaj użytkownika”",
+        "title": "Zaproś współpracowników (Opcjonalnie)"
+      },
+      "uploadAcceptParts": {
+        "description": "Na stronie <bold>Skrzynka odbiorcza</bold> przeciągnij i upuść pliki STL, wybierz przesłane części i kliknij „Akceptuj”",
+        "title": "Prześlij i zaakceptuj części"
+      }
+    },
+    "subtitle": "Wykonaj poniższe kroki, aby wysyłać zlecenia druku do swoich urządzeń",
+    "title": "Pierwsze kroki"
+  },
+  "label": {
+    "country": "Kraj",
+    "industry": "Rodzaj branży",
+    "organisationName": "Nazwa organizacji",
+    "phoneNumber": "Numer telefonu",
+    "subtitle": "Twoja brama do prostej, zautomatyzowanej konfiguracji druku 3D i zarządzania produkcją",
+    "title": "Utwórz swoje konto Asiga Funnel",
+    "website": "Strona internetowa"
+  },
+  "message": {
+    "completePersonalDetails": "Uzupełnij swoje dane osobowe",
+    "emailResendSuccess": "E-mail wysłany. Sprawdź, proszę, swoją skrzynkę odbiorczą.",
+    "emailVerified": "<bold>Adres e-mail został pomyślnie zweryfikowany</bold>\nZa chwilę nastąpi przekierowanie...",
+    "regionError": "Asiga Funnel jest obecnie obsługiwany wyłącznie w Australii.",
+    "resendEmail": "Wyślij ponownie e-mail weryfikacyjny",
+    "resendEmailError": "Nie można ponownie wysłać e-maila weryfikacyjnego. Spróbuj ponownie później.",
+    "sendingEmail": "Wysyłanie e-maila weryfikacyjnego...",
+    "verifyEmail": "Proszę zweryfikować swój adres e-mail, aby uzyskać dostęp do Asiga Funnel."
+  }
+}

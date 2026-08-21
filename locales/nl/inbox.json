@@ -1,0 +1,199 @@
+{
+  "alt": {
+    "all": "Alle",
+    "userUpload": "Gebruikersuploads"
+  },
+  "button": {
+    "accept": "Accepteren",
+    "cancel": "Annuleren",
+    "confirm": "Bevestigen",
+    "createPartGroup": "Onderdelengroep maken",
+    "deprioritise": "Prioriteit wissen",
+    "download": "Downloaden",
+    "duplicate": "Dupliceren",
+    "expand": "Uitvouwen",
+    "moveToReview": "Verplaatsen naar beoordelen",
+    "partType": "Onderdeeltype",
+    "prioritise": "Prioriteren",
+    "regroup": "Hergroeperen",
+    "regroup_one": "Hergroeperen",
+    "regroup_other": "Hergroeperen",
+    "reject": "Afwijzen",
+    "removeFromGroup": "Verwijderen uit groep",
+    "reprint": "Onderdeel opnieuw printen",
+    "retry": "Opnieuw proberen",
+    "template": "Sjabloon",
+    "ungroupPartGroup": "Groepering opheffen",
+    "uploadPart": "Onderdeel uploaden",
+    "viewMoreParts": "Meer onderdelen weergeven"
+  },
+  "description": {
+    "functionality": "Upload onderdelen of haal automatisch onderdelen op uit apps van derden. Onderdeeltypen worden herkend, printsjablonen toegepast en automatisch samen met andere onderdelen toegevoegd aan geschikte printtaken."
+  },
+  "details": {
+    "datePrinted": "Datum geprint",
+    "group": {
+      "groupInformation": "Groepsinformatie",
+      "partName": "Onderdeelnaam",
+      "parts": "Onderdelen",
+      "template": "Sjabloon"
+    },
+    "groupLabel": "Groep",
+    "groupName": "Groep {{id}}",
+    "history": {
+      "date": "Datum",
+      "outcome": "Resultaat",
+      "status": {
+        "accepted": "Print geaccepteerd",
+        "failed": "Print mislukt",
+        "offline": "Offline herwerkt",
+        "printed": "Geprint",
+        "unknown": "Onbekend"
+      },
+      "title": "Printgeschiedenis"
+    },
+    "noPrintJob_one": "De printtaak verschijnt hier zodra het onderdeel is genest.",
+    "noPrintJob_other": "De printtaak verschijnt hier zodra de onderdelen zijn genest.",
+    "partInformation": "Onderdeelinformatie",
+    "partType": "Onderdeeltype",
+    "printJob": "Printtaak",
+    "progress": "Voortgang",
+    "received": "Ontvangen",
+    "source": "Bron",
+    "status": "Status",
+    "targetDevice": "Doelapparaat",
+    "template": "Sjabloon",
+    "title_zero": "Geen items geselecteerd",
+    "title_one": "1 item geselecteerd",
+    "title_other": "{{count}} items geselecteerd"
+  },
+  "emptyInboxMessages": {
+    "accepted": {
+      "message": "Onderdelen uit het tabblad 'Beoordelen' verschijnen hier zodra ze zijn geaccepteerd",
+      "title": "Geen onderdelen geaccepteerd"
+    },
+    "confirm": {
+      "message": "Gebruik de knop 'Onderdelen uploaden' of sleep bestanden hierheen om onderdelen aan uw organisatie toe te voegen",
+      "title": "Geen onderdelen om te bevestigen"
+    },
+    "rejected": {
+      "message": "Onderdelen die zijn afgewezen verschijnen hier ",
+      "title": "Geen onderdelen afgewezen"
+    },
+    "review": {
+      "message": "Gebruik de knop ‘Onderdelen uploaden’ rechtsboven op deze pagina of gebruik de knop hieronder om onderdelen aan uw organisatie toe te voegen",
+      "title": "Geen onderdelen om te beoordelen"
+    }
+  },
+  "errors": {
+    "acceptPartError": "Onderdeel accepteren mislukt",
+    "cancelPartUploadError": "Annuleren van onderdeelupload mislukt",
+    "confirmPartError": "Onderdeel bevestigen mislukt",
+    "downloadPartError": "Onderdeel downloaden mislukt",
+    "fileTooLarge": "Bestandsgrootte overschrijdt de limiet van 500 MB",
+    "invalidFileFormat": "Bestand moet van het type .stl zijn",
+    "noFilesUploaded": "Geen bestanden geüpload",
+    "partCreateError": "Fout bij aanmaken onderdeel",
+    "rejectPartError": "Onderdeel afwijzen mislukt",
+    "setPartTypeError": "Onderdeeltype bijwerken mislukt",
+    "undoAcceptPartError": "Ongedaan maken van acceptatie mislukt"
+  },
+  "label": {
+    "accepted": "Geaccepteerd",
+    "confirm": "Bevestigen",
+    "designSelected_one": "{{count}} ontwerp geselecteerd",
+    "designSelected_other": "{{count}} ontwerpen geselecteerd",
+    "dropFile": "Bestand toevoegen aan de inbox",
+    "groupHasBeenPrioritised": "Groep is geprioriteerd",
+    "invalidUploadFileContent": "Een of meer bestanden konden niet worden gelezen als geldige STL-inhoud",
+    "invalidUploadFileSize": "Een of meer bestanden overschrijden de maximale uploadgrootte",
+    "invalidUploadFileType": "Alleen STL-bestanden worden ondersteund",
+    "partHasBeenPrioritised": "Onderdeel is geprioriteerd",
+    "preparingDownload": "Download voorbereiden",
+    "rejected": "Afgewezen",
+    "renameGroup": "Onderdelengroep hernoemen",
+    "review": "Te beoordelen",
+    "search": "Zoek naar een onderdeel",
+    "uploadCancelled": "{{partName}} (geannuleerd)"
+  },
+  "message": {
+    "noParts": "Geen onderdelen",
+    "renameGroup": "Voer een nieuwe naam in voor de onderdelengroep:",
+    "renamePart": "Voer een nieuwe naam in voor het onderdeel:",
+    "reprocessPart_one": "{{name}} is eerder toegevoegd.\n\nDit onderdeel opnieuw verwerken maakt een extra kopie aan in de Funnel om te printen.",
+    "reprocessPart_other": "{{count}} onderdelen zijn eerder toegevoegd aan de funnel.\n\nDit onderdeel opnieuw verwerken maakt een extra kopie aan in de Funnel om te printen.",
+    "reprocessPart_time_one": "{{name}} is eerder toegevoegd op {{time}}.\n\nDit onderdeel opnieuw verwerken maakt een extra kopie aan in de Funnel om te printen.",
+    "reprocessPart_time_other": "{{count}} onderdelen zijn eerder toegevoegd aan de funnel.\n\nDit onderdeel opnieuw verwerken maakt een extra kopie aan in de Funnel om te printen."
+  },
+  "subscriptionNotice": {
+    "approaching": {
+      "description_one": "Er is nog {{count}} onderdeel over binnen de maandelijkse limiet van de organisatie. De limiet wordt gereset over {{days}}.",
+      "description_other": "Er zijn nog {{count}} onderdelen over binnen de maandelijkse limiet van de organisatie. De limiet wordt gereset over {{days}}.",
+      "title": "Maandelijkse limiet nadert"
+    },
+    "button": "Abonnementsopties",
+    "close": "Wegwuiven",
+    "daysUntilReset_one": "{{count}} dag",
+    "daysUntilReset_other": "{{count}} dagen",
+    "reached": {
+      "descriptionEditor": "Het quotum wordt gereset over {{days}}. Pas het abonnementsniveau aan om meer onderdelen te verwerken.",
+      "descriptionMember": "Het quotum wordt gereset over {{days}}. Neem contact op met de beheerder om het abonnementsniveau aan te passen en meer onderdelen te verwerken.",
+      "title": "Maandelijkse limiet bereikt"
+    }
+  },
+  "table": {
+    "partClassification": {
+      "bridge": "Brug",
+      "crownOrToothOrVeneer": "Kroon/Tand/Facet",
+      "dentureAOX": "Kunstgebit (AoX)",
+      "dentureBase": "Kunstgebit (Basis)",
+      "denturePartial": "Kunstgebit (Partieel)",
+      "die": "Stompmodel",
+      "flatGingiva": "Gingiva",
+      "hollowModel": "Model (Hol)",
+      "occlusalSplint": "Spalk",
+      "other": "Overig",
+      "partialFramework": "Partieel frame",
+      "pillowGingiva": "Gingiva (Kussen)",
+      "screwInTooth": "Implantaatkroon",
+      "solidModel": "Model (Massief)",
+      "surgicalGuide": "Chirurgische mal",
+      "teethRow": "Kunstgebittanden",
+      "tryInDenture": "Kunstgebit (Pasmodel)"
+    },
+    "partStatus": {
+      "addedToJob": "Toegevoegd aan taak",
+      "failed": "Mislukt",
+      "printed": "Geprint",
+      "printReady": "Klaar om te printen",
+      "processing": "Verwerken",
+      "rejected": "Afgewezen",
+      "reworkedOffline": "Offline herwerkt",
+      "toAccept": "Te accepteren",
+      "toConfirm": "Te bevestigen"
+    },
+    "template": {
+      "noTemplate": "Geen sjabloon",
+      "noTemplateTooltip": "<a>Maak een sjabloon</a> met het type van dit onderdeel om het onderdeel te accepteren voor printen."
+    },
+    "userUpload": "Gebruikersupload"
+  },
+  "title": {
+    "inbox": "Inbox",
+    "name": "Naam",
+    "partType": "Onderdeeltype",
+    "received": "Ontvangen",
+    "reprocessPart_one": "{{name}} opnieuw verwerken?",
+    "reprocessPart_other": "{{count}} onderdelen opnieuw verwerken?",
+    "source": "Bron",
+    "status": "Status",
+    "template": "Sjabloon",
+    "uploads": "Uploads"
+  },
+  "tooltips": {
+    "accepted": "Onderdelen die zijn geaccepteerd voor productie worden hier weergegeven.",
+    "createPartGroupDisabled": "Alleen onderdelen die hetzelfde sjabloon gebruiken kunnen worden gegroepeerd.",
+    "rejected": "Onderdelen die zijn afgewezen voor productie worden hier weergegeven.",
+    "review": "Onderdelen die zijn toegevoegd aan de Funnel worden hier weergegeven om te worden beoordeeld. Kies een sjabloon om toe te passen op het onderdeel voordat u het accepteert voor productie."
+  }
+}

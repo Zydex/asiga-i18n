@@ -1,0 +1,238 @@
+{
+  "basePlate": {
+    "addTo": {
+      "enum": {
+        "allParts": "Toate piesele",
+        "supportedParts": "Piese suportate"
+      },
+      "label": "Adaugă placă de bază la",
+      "tooltip": "Adaugă o placă de bază la piesele suportate sau la toate piesele."
+    },
+    "enabled": {
+      "label": "Placă de bază",
+      "tooltip": "Activează generarea plăcii de bază"
+    },
+    "engraved": {
+      "label": "Adaugă numele build-ului pe placa de bază",
+      "tooltip": "Adaugă numele build-ului și rezoluția XYZ în µm pe placa de bază."
+    },
+    "meshShape": {
+      "enum": {
+        "hexagon": "Hexagon",
+        "none": "Niciunul",
+        "square": "Pătrat",
+        "triangle": "Triunghi"
+      },
+      "label": "Forma plasei",
+      "tooltip": "Selectarea unei forme diferite de Niciunul va adăuga un model de găuri în placa de bază, în forma selectată."
+    },
+    "meshSize": {
+      "label": "Dimensiunea plasei",
+      "tooltip": "Diametrul găurilor din placa de bază."
+    },
+    "meshWidth": {
+      "label": "Lățimea plasei",
+      "tooltip": "Grosimea pereților dintre găuri."
+    },
+    "placement": {
+      "enum": {
+        "intersecting": "Intersectare",
+        "underneath": "Dedesubt"
+      },
+      "label": "Poziționare",
+      "tooltip": "Poziționarea plăcii de bază față de fiecare piesă și suporturile acesteia.\n<ul><li>Dedesubt - deplasează piesele și suporturile în sus și plasează placa de bază dedesubt.</li><li>Intersectare - intersectează placa de bază cu partea inferioară a piesei sau a suportului acesteia.</li></lu>"
+    },
+    "thickness": {
+      "label": "Grosime",
+      "tooltip": "Grosimea plăcii de bază în milimetri."
+    },
+    "type": {
+      "enum": {
+        "boundingBox": "Cutie de delimitare",
+        "full": "Complet",
+        "shadow": "Umbră"
+      },
+      "label": "Tip",
+      "tooltip": "Tipul plăcii de bază:\n<ul><li>Complet - acoperă întreaga platformă cu o placă de bază</li><li>Umbră - acoperă regiunile situate direct sub piese.</li><li>Cutie de delimitare - acoperă dreptunghiul de încadrare al fiecărei piese.</li></ul>"
+    }
+  },
+  "button": {
+    "editBasePlateSettings": "Editare..."
+  },
+  "label": {
+    "associatedPartType": "Tip de piesă asociat",
+    "associatedWith": "Asociat cu",
+    "basePlateSettings": "Setări placă de bază",
+    "default": "Implicit",
+    "deleted": "Șablon eliminat",
+    "deleteSuccess_one": "{{count}} șablon șters",
+    "deleteSuccess_other": "{{count}} șabloane șterse",
+    "enabled": "Activat",
+    "fastPrintMode": "Mod de printare rapidă",
+    "manufacturer": "Producător",
+    "material": "Material",
+    "materialName": "Numele materialului",
+    "outdated": "Șablon depășit",
+    "overrideMaterialSettings": "Introducerea de valori în aceste câmpuri va suprascrie valorile implicite setate de material.",
+    "partType": "Tip de piesă",
+    "partTypes_other": "{{count}} tipuri de piese",
+    "partTypes_other_one": "1 tip de piesă",
+    "partTypes_other_other": "{{count}} tipuri de piese",
+    "printerAndTrayType": "Tipuri de imprimantă și tavă",
+    "printerModel": "Model de imprimantă",
+    "search": "Căutare șabloane",
+    "selectThickness": "Selectați grosimea stratului",
+    "separationDetect": "Detectare separare",
+    "supports": "Suporturi",
+    "templateName": "Numele șablonului",
+    "thickness": "Grosimea stratului",
+    "tray": "Tavă",
+    "trayType": "Tip de tavă"
+  },
+  "message": {
+    "changesApplyToNewParts": "Piesele existente vor fi actualizate cu noile setări ale șablonului și reintroduse în coadă pentru printare.",
+    "deleteTemplateWarning": "Orice piese care utilizează acest șablon vor fi returnate în Inbox pentru revizuire. Atribuiți un șablon nou pentru a le printa sau respingeți-le pentru a le elimina din Funnel.",
+    "modifyWillAffectParts": "Tipurile de piese asociate care utilizează acest șablon vor fi reintroduse în coadă pentru printare, iar tipurile de piese eliminate vor fi returnate în Inbox pentru revizuire.",
+    "modifyWillRequeueParts": "Piesele existente vor fi actualizate cu noile setări ale șablonului și reintroduse în coadă pentru printare.",
+    "noTemplates": "Niciun șablon",
+    "noTemplatesInfo": "Șabloanele vor fi listate aici. Utilizați butonul „Creare” pentru a crea primul dvs. șablon."
+  },
+  "supportSettings": {
+    "accuracyZ": {
+      "label": "Precizie Z",
+      "tooltip": "Grosimea feliei utilizată pentru a genera automat structuri și pentru a evita intersecția cu piesa."
+    },
+    "aspectRatio": {
+      "label": "Raport de aspect",
+      "tooltip": "Controlează rata de lărgire a structurilor de suport."
+    },
+    "connectGap": {
+      "label": "Interval de conectare",
+      "tooltip": "Numărul de niveluri ale rețelei pentru care se suprimă conectarea după găsirea unei conexiuni verticale (disponibilă)."
+    },
+    "connection": {
+      "label": "Conexiune",
+      "tooltip": "Numărul de noduri de conectat la nivelul de tip rețea de mai jos. Setarea acestei valori la 0 va crea suporturi flexibile."
+    },
+    "contactWidth": {
+      "label": "Lățime de contact",
+      "tooltip": "Pentru suporturile implicite: Lățimea structurii de suport în momentul contactului cu piesa.\n\nPentru suporturile de tip rețea: Lățimea bilei de contact în momentul contactului cu piesa."
+    },
+    "halfContactWidth": {
+      "label": "Jumătate din lățimea de contact",
+      "tooltip": "Reîncearcă adăugarea punctelor de contact cu jumătate din lățime."
+    },
+    "heightLevel": {
+      "label": "Nivel de înălțime",
+      "toggle": "Nivelare pe înălțime",
+      "tooltip": "Aplică o marjă Z între piese și platformă."
+    },
+    "islandWidth": {
+      "label": "Lățimea insulei",
+      "tooltip": "Pentru suporturile implicite: Lățimea structurii de suport la primul contact cu piesa.\n\nPentru suporturile de tip rețea: Lățimea bilei de contact la primul contact pentru fiecare corp al piesei."
+    },
+    "lattice": {
+      "label": "Rețea",
+      "tooltip": "Activează suporturile de tip rețea. Suporturile de tip rețea generează o rețea interconectată de grinzi de susținere în jurul modelului."
+    },
+    "layout": {
+      "enum": {
+        "circle": "Cerc",
+        "hexagon": "Hexagon",
+        "square": "Pătrat",
+        "triangle": "Triunghi"
+      },
+      "label": "Aspect",
+      "tooltip": "Modul în care nodurile sunt distribuite pe pozițiile XY."
+    },
+    "margin": {
+      "label": "Marjă",
+      "tooltip": "Distanță suplimentară de evitare a coliziunii față de piesă."
+    },
+    "maximumWidth": {
+      "label": "Lățime maximă",
+      "tooltip": "Limitează lățimea structurilor de suport la bază."
+    },
+    "minimumHeight": {
+      "label": "Înălțime minimă",
+      "tooltip": "Evită adăugarea de suporturi care se reintersectează dacă înălțimea lor este mai mică decât înălțimea specificată."
+    },
+    "modelInterSupport": {
+      "label": "Intersuport model",
+      "tooltip": "Permite coloane de suport care se vor reintersecta și se vor sprijini pe piesă."
+    },
+    "selfSupportAngle": {
+      "label": "Unghi de autosusținere",
+      "tooltip": "Unghiul în grade față de orizontală care nu necesită suporturi."
+    },
+    "sideFaces": {
+      "label": "Fețe laterale",
+      "tooltip": "Definește numărul de fețe laterale pentru noile structuri de suport."
+    },
+    "sideFeaturesSize": {
+      "label": "Dimensiunea detaliului lateral",
+      "tooltip": "Distanța cu care un detaliu poate ieși în relief de pe o suprafață fără a fi susținut."
+    },
+    "spacingXY": {
+      "label": "Spațiere XY",
+      "tooltip": "Distanța dintre noduri pe planul XY"
+    },
+    "spacingZ": {
+      "label": "Spațiere Z",
+      "tooltip": "Distanța dintre nivelurile rețelei pe axa Z."
+    },
+    "supportSpacing": {
+      "label": "Spațierea suporturilor",
+      "tooltip": "Distanța dintre punctele de suport ale unei piese."
+    },
+    "tallestSupport": {
+      "label": "Cel mai înalt suport",
+      "tooltip": "Ignoră orice element care poate fi susținut peste înălțimea specificată."
+    },
+    "undershoot": {
+      "label": "Sub/Supra-depășire",
+      "tooltip": "Pentru suporturile implicite: Distanța maximă injectată la care punctul de suport pătrunde în piesă.\n\nPentru suporturile de tip rețea: Distanța față de punctul de contact la care structura începe să se îngusteze până la un punct."
+    }
+  },
+  "title": {
+    "changesApplyToNewParts": "Modificările se aplică pieselor noi",
+    "classificationSupportSettings": "Suporturi {{classification}}",
+    "createTemplate": "Șablon nou",
+    "deleteTemplate": "Ștergeți șablonul?",
+    "deleteTemplate_zero": "Ștergeți șablonul?",
+    "deleteTemplate_one": "{{count}} piesă va fi returnată în inbox",
+    "deleteTemplate_other": "{{count}} piese vor fi returnate în inbox",
+    "editTemplate": "Editare șablon",
+    "modifyWillAffectParts": "Piesele ar putea fi afectate de această modificare",
+    "modifyWillAffectParts_zero": "Piesele ar putea fi afectate de această modificare",
+    "modifyWillAffectParts_one": "{{count}} piesă va fi afectată de această modificare",
+    "modifyWillAffectParts_other": "{{count}} piese vor fi afectate de această modificare",
+    "modifyWillRequeueParts": "Piesele pot fi reintroduse în coadă",
+    "modifyWillRequeueParts_zero": "Piesele pot fi reintroduse în coadă",
+    "modifyWillRequeueParts_one": "{{count}} piesă va fi reintrodusă în coadă",
+    "modifyWillRequeueParts_other": "{{count}} piese vor fi reintroduse în coadă",
+    "templateBasePlate": "Placă de bază {{name}}"
+  },
+  "tooltip": {
+    "defaultPartType": "Faceți acest șablon implicit pentru tipul de piesă selectat",
+    "defaultPartType_disabled": "Acesta este în prezent șablonul implicit pentru {{partType}}. Selectați un alt șablon ca implicit pentru a-l înlocui.",
+    "defaultPartType_only": "Acesta este șablonul implicit deoarece niciun alt șablon nu este asociat cu acest tip de piesă",
+    "fastPrintMode": "<bold>Mod de printare rapidă</bold>\nAccelerează toate mișcările neesențiale ale platformei de printare, repoziționând rapid între straturi pentru a minimiza timpul de inactivitate și a scurta durata totală de printare.",
+    "separationDetect": "<bold>Detectare separare</bold>\nDetectează eliberarea filmului, reducând distanța de ridicare între straturi.\n\nPoate risca defecte de printare dacă separarea nu este detectată corect."
+  },
+  "types": {
+    "printerTypes": {
+      "max": "Max & Max 2",
+      "pro": "Pro 4K",
+      "ultra": "Ultra"
+    },
+    "trays": {
+      "endurance": "Endurance",
+      "LIFT": "LIFT",
+      "lowForce": "Low Force",
+      "ultraGLOSS": "UltraGLOSS",
+      "ultraGLOSSLIFT": "UltraGLOSS LIFT",
+      "universal": "Universal"
+    }
+  }
+}

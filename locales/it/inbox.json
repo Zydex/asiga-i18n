@@ -1,0 +1,199 @@
+{
+  "alt": {
+    "all": "Tutti",
+    "userUpload": "Caricamenti utente"
+  },
+  "button": {
+    "accept": "Accetta",
+    "cancel": "Annulla",
+    "confirm": "Conferma",
+    "createPartGroup": "Crea gruppo di parti",
+    "deprioritise": "Rimuovi priorità",
+    "download": "Scarica",
+    "duplicate": "Duplica",
+    "expand": "Espandi",
+    "moveToReview": "Sposta in revisione",
+    "partType": "Tipo di parte",
+    "prioritise": "Assegna priorità",
+    "regroup": "Raggruppa di nuovo",
+    "regroup_one": "Raggruppa di nuovo",
+    "regroup_other": "Raggruppa di nuovo",
+    "reject": "Rifiuta",
+    "removeFromGroup": "Rimuovi dal gruppo",
+    "reprint": "Ristampa parte",
+    "retry": "Riprova",
+    "template": "Modello",
+    "ungroupPartGroup": "Separa gruppo",
+    "uploadPart": "Carica parte",
+    "viewMoreParts": "Visualizza altre parti"
+  },
+  "description": {
+    "functionality": "Carica le parti oppure importale automaticamente da app di terze parti. I tipi di parte vengono riconosciuti, i modelli di stampa applicati e le parti vengono aggiunte automaticamente ai processi di stampa più adatti insieme ad altre parti."
+  },
+  "details": {
+    "datePrinted": "Data di stampa",
+    "group": {
+      "groupInformation": "Informazioni sul gruppo",
+      "partName": "Nome parte",
+      "parts": "Parti",
+      "template": "Modello"
+    },
+    "groupLabel": "Gruppo",
+    "groupName": "Gruppo {{id}}",
+    "history": {
+      "date": "Data",
+      "outcome": "Esito",
+      "status": {
+        "accepted": "Stampa accettata",
+        "failed": "Stampa non riuscita",
+        "offline": "Rielaborato offline",
+        "printed": "Stampato",
+        "unknown": "Sconosciuto"
+      },
+      "title": "Cronologia di stampa"
+    },
+    "noPrintJob_one": "Il processo di stampa verrà visualizzato qui una volta che la parte è stata annidata.",
+    "noPrintJob_other": "Il processo di stampa verrà visualizzato qui una volta che le parti sono state annidate.",
+    "partInformation": "Informazioni sulla parte",
+    "partType": "Tipo di parte",
+    "printJob": "Processo di stampa",
+    "progress": "Avanzamento",
+    "received": "Ricevuto",
+    "source": "Origine",
+    "status": "Stato",
+    "targetDevice": "Dispositivo di destinazione",
+    "template": "Modello",
+    "title_zero": "Nessun elemento selezionato",
+    "title_one": "1 elemento selezionato",
+    "title_other": "{{count}} elementi selezionati"
+  },
+  "emptyInboxMessages": {
+    "accepted": {
+      "message": "Le parti della scheda 'Revisione' verranno visualizzate qui una volta accettate",
+      "title": "Nessuna parte accettata"
+    },
+    "confirm": {
+      "message": "Usa il pulsante 'Carica parti' oppure trascina e rilascia i file per aggiungere parti alla tua organizzazione",
+      "title": "Nessuna parte da confermare"
+    },
+    "rejected": {
+      "message": "Le parti rifiutate verranno visualizzate qui ",
+      "title": "Nessuna parte rifiutata"
+    },
+    "review": {
+      "message": "Usa il pulsante ‘Carica parti’ in alto a destra in questa pagina oppure usa il pulsante qui sotto per aggiungere parti alla tua organizzazione",
+      "title": "Nessuna parte da revisionare"
+    }
+  },
+  "errors": {
+    "acceptPartError": "Impossibile accettare la parte",
+    "cancelPartUploadError": "Impossibile annullare il caricamento della parte",
+    "confirmPartError": "Impossibile confermare la parte",
+    "downloadPartError": "Impossibile scaricare la parte",
+    "fileTooLarge": "La dimensione del file supera il limite di 500 MB",
+    "invalidFileFormat": "Il file deve essere di tipo .stl",
+    "noFilesUploaded": "Nessun file caricato",
+    "partCreateError": "Errore durante la creazione della parte",
+    "rejectPartError": "Impossibile rifiutare la parte",
+    "setPartTypeError": "Impossibile aggiornare il tipo di parte",
+    "undoAcceptPartError": "Impossibile annullare l'accettazione della parte"
+  },
+  "label": {
+    "accepted": "Accettato",
+    "confirm": "Conferma",
+    "designSelected_one": "{{count}} progetto selezionato",
+    "designSelected_other": "{{count}} progetti selezionati",
+    "dropFile": "Aggiungi file alla Posta in arrivo",
+    "groupHasBeenPrioritised": "Al gruppo è stata assegnata la priorità",
+    "invalidUploadFileContent": "Uno o più file non sono stati letti come contenuto STL valido",
+    "invalidUploadFileSize": "Uno o più file superano la dimensione massima di caricamento",
+    "invalidUploadFileType": "Sono supportati solo i file STL",
+    "partHasBeenPrioritised": "Alla parte è stata assegnata la priorità",
+    "preparingDownload": "Preparazione del download in corso",
+    "rejected": "Rifiutato",
+    "renameGroup": "Rinomina gruppo di parti",
+    "review": "Da revisionare",
+    "search": "Cerca una parte",
+    "uploadCancelled": "{{partName}} (annullato)"
+  },
+  "message": {
+    "noParts": "Nessuna parte",
+    "renameGroup": "Inserisci un nuovo nome per il gruppo di parti:",
+    "renamePart": "Inserisci un nuovo nome per la parte:",
+    "reprocessPart_one": "{{name}} è stato aggiunto in precedenza.\n\nRiprocessare questa parte creerà un'altra copia nel Funnel per la stampa.",
+    "reprocessPart_other": "{{count}} parti sono state aggiunte in precedenza al funnel.\n\nRiprocessare questa parte creerà un'altra copia nel Funnel per la stampa.",
+    "reprocessPart_time_one": "{{name}} è stato aggiunto in precedenza il {{time}}.\n\nRiprocessare questa parte creerà un'altra copia nel Funnel per la stampa.",
+    "reprocessPart_time_other": "{{count}} parti sono state aggiunte in precedenza al funnel.\n\nRiprocessare questa parte creerà un'altra copia nel Funnel per la stampa."
+  },
+  "subscriptionNotice": {
+    "approaching": {
+      "description_one": "È rimasta {{count}} parte nel limite mensile dell'organizzazione. Il limite si azzera tra {{days}}.",
+      "description_other": "Sono rimaste {{count}} parti nel limite mensile dell'organizzazione. Il limite si azzera tra {{days}}.",
+      "title": "In prossimità del limite mensile"
+    },
+    "button": "Opzioni abbonamento",
+    "close": "Ignora",
+    "daysUntilReset_one": "{{count}} giorno",
+    "daysUntilReset_other": "{{count}} giorni",
+    "reached": {
+      "descriptionEditor": "L'assegnazione si azzererà tra {{days}}. Modifica il livello di abbonamento per elaborare più parti.",
+      "descriptionMember": "L'assegnazione si azzererà tra {{days}}. Contatta l'amministratore per modificare il livello di abbonamento ed elaborare più parti.",
+      "title": "Limite mensile raggiunto"
+    }
+  },
+  "table": {
+    "partClassification": {
+      "bridge": "Ponte",
+      "crownOrToothOrVeneer": "Corona/Dente/Faccetta",
+      "dentureAOX": "Protesi (AoX)",
+      "dentureBase": "Protesi (Base)",
+      "denturePartial": "Protesi (Parziale)",
+      "die": "Die",
+      "flatGingiva": "Gengiva",
+      "hollowModel": "Modello (Cavo)",
+      "occlusalSplint": "Splint",
+      "other": "Altro",
+      "partialFramework": "Struttura parziale",
+      "pillowGingiva": "Gengiva (Cuscino)",
+      "screwInTooth": "Corona su impianto",
+      "solidModel": "Modello (Solido)",
+      "surgicalGuide": "Guida chirurgica",
+      "teethRow": "Denti per protesi",
+      "tryInDenture": "Protesi (Prova)"
+    },
+    "partStatus": {
+      "addedToJob": "Aggiunto al processo",
+      "failed": "Non riuscito",
+      "printed": "Stampato",
+      "printReady": "Pronto per la stampa",
+      "processing": "In elaborazione",
+      "rejected": "Rifiutato",
+      "reworkedOffline": "Rielaborato offline",
+      "toAccept": "Da accettare",
+      "toConfirm": "Da confermare"
+    },
+    "template": {
+      "noTemplate": "Nessun modello",
+      "noTemplateTooltip": "<a>Crea un modello</a> con il tipo di questa parte per accettarla per la stampa."
+    },
+    "userUpload": "Caricamento utente"
+  },
+  "title": {
+    "inbox": "Posta in arrivo",
+    "name": "Nome",
+    "partType": "Tipo di parte",
+    "received": "Ricevuto",
+    "reprocessPart_one": "Riprocessare {{name}}?",
+    "reprocessPart_other": "Riprocessare {{count}} parti?",
+    "source": "Origine",
+    "status": "Stato",
+    "template": "Modello",
+    "uploads": "Caricamenti"
+  },
+  "tooltips": {
+    "accepted": "Qui vengono visualizzate le parti accettate per la produzione.",
+    "createPartGroupDisabled": "Solo le parti che utilizzano lo stesso modello possono essere raggruppate insieme.",
+    "rejected": "Qui vengono visualizzate le parti rifiutate per la produzione.",
+    "review": "Qui vengono visualizzate le parti aggiunte al Funnel da revisionare. Scegli un modello da applicare alla parte prima di accettarla per la produzione."
+  }
+}

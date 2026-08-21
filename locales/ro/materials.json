@@ -1,0 +1,58 @@
+{
+  "button": {
+    "add": "Adaugă materiale",
+    "keepBoth": "Păstrează ambele",
+    "replaceMaterial": "Înlocuiește materialul",
+    "uploadLocalMaterial": "Încarcă material local"
+  },
+  "label": {
+    "adding": "Se adaugă un material",
+    "adding_one": "Se adaugă {{count}} material",
+    "adding_other": "Se adaugă {{count}} materiale",
+    "addSuccess_one": "{{count}} material adăugat",
+    "addSuccess_other": "{{count}} materiale adăugate",
+    "deleteSuccess_one": "{{count}} material șters",
+    "deleteSuccess_other": "{{count}} materiale șterse",
+    "deleting": "Se șterge un material",
+    "deleting_one": "Se șterge {{count}} material",
+    "deleting_other": "Se șterg {{count}} materiale",
+    "dropFile": "Adaugă fișierul la <bold>Materiale</bold>",
+    "manufacturer": "Producător",
+    "material": "Material",
+    "name": "NumeMaterial",
+    "search": "Caută un material",
+    "templateName": "Nume șablon",
+    "updateMaterial": "Actualizare disponibilă pentru material"
+  },
+  "message": {
+    "addMaterials": "Adaugă materiale în organizația ta selectându-le din biblioteca Open Material de mai jos. Fișierele de materiale pot fi adăugate și cu ajutorul butonului de încărcare.",
+    "deleteMaterialWarning": "Ești sigur că vrei să ștergi materialele selectate? Doar cea mai recentă versiune a fiecărui material va fi disponibilă pentru descărcare din nou în viitor.",
+    "manufacturerHasNoMaterials": "Producătorul nu are materiale",
+    "materialAlreadyAdded_one": "{{name}} a fost deja adăugat în organizația ta.",
+    "materialAlreadyAdded_other": "Următoarele materiale au fost deja adăugate în organizația ta:",
+    "materialNameConflict": "Un fișier de material numit {{name}} există deja în organizația ta.\n\nPoți înlocui materialul existent sau păstra ambele.",
+    "materialNameConflictDoForAll_one": "Fă acest lucru pentru {{count}} conflict de denumire rămas",
+    "materialNameConflictDoForAll_other": "Fă acest lucru pentru {{count}} conflicte de denumire rămase",
+    "materialNameConflictWithRevision": "Un fișier de material numit {{name}}, Revizia {{revision}} există deja în organizația ta.\n\nVrei să înlocuiești materialul existent cu Revizia {{requestedRevision}}?",
+    "noMaterials": "Folosește butonul „Adaugă materiale” din colțul din dreapta sus al acestei pagini pentru a adăuga materiale în organizația ta",
+    "unableToDelete_one": "Materialul selectat nu poate fi șters deoarece este în prezent folosit în șabloane. Te rugăm să atribui materiale diferite următoarelor șabloane pentru a continua ștergerea:",
+    "unableToDelete_other": "Materialele selectate nu pot fi șterse deoarece sunt în prezent folosite în șabloane. Te rugăm să atribui materiale diferite următoarelor șabloane pentru a continua ștergerea:",
+    "updateMaterial_one": "<bold>{{name}}</bold> va fi actualizat la cea mai recentă versiune.",
+    "updateMaterial_other": "{{count}} fișiere INI de materiale vor fi actualizate la cea mai recentă versiune."
+  },
+  "title": {
+    "addMaterials": "Adaugă materiale",
+    "deleteMaterial": "Ștergi materialul?",
+    "materialAlreadyAdded": "Fișierul de material a fost deja adăugat",
+    "materialNameConflict": "Denumirile materialelor există deja",
+    "materials": "Materiale",
+    "noMaterials": "Niciun material în bibliotecă",
+    "unableToDelete_one": "Materialul nu poate fi șters",
+    "unableToDelete_other": "Materialele nu pot fi șterse",
+    "updateMaterial_one": "Actualizezi materialul?",
+    "updateMaterial_other": "Actualizezi materialele?"
+  },
+  "tooltips": {
+    "materials": "Listează toate materialele care au fost adăugate în Funnel.\n\nMaterialele pot fi adăugate din biblioteca Open Material sau încărcate manual."
+  }
+}

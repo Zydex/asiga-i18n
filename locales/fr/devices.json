@@ -1,0 +1,79 @@
+{
+  "alt": {
+    "devices": "Appareils",
+    "devicesNeedingAttention": "Appareils nécessitant une attention",
+    "noDevices": "Aucun appareil"
+  },
+  "button": {
+    "add": "Ajouter un appareil",
+    "exclude": "Exclure",
+    "excludeDevice": "Exclure des travaux d'impression automatiques",
+    "includeDevice": "Inclure pour les travaux d'impression automatiques"
+  },
+  "details": {
+    "aboutPrinter": "À propos de l'imprimante",
+    "currentBuild": "Impression actuelle",
+    "printStatus": "État de l'impression",
+    "queuedBuild": "Impressions en file d'attente"
+  },
+  "label": {
+    "devices": "Appareils",
+    "devicesTab": "Onglet Appareils",
+    "excludedDevice": "L'appareil a été exclu de la réception des travaux d'impression du Funnel",
+    "requiresAttention": "Nécessite une attention",
+    "search": "Rechercher un appareil",
+    "status": {
+      "availableInFunnel": "Accepter les travaux du Funnel",
+      "currentBuildName": "Nom de l'impression en cours",
+      "currentLayer": "Couche actuelle",
+      "currentLayerHeight": "Hauteur de la couche actuelle",
+      "elapsed": "Écoulé",
+      "firmwareVersion": "Version du micrologiciel",
+      "layers": "Couches",
+      "manufacturer": "Fabricant",
+      "model": "Modèle",
+      "paused": "En pause",
+      "remaining": "Restant",
+      "serialNumber": "Numéro de série",
+      "status": "État"
+    }
+  },
+  "message": {
+    "addDevices": "Utilisez le bouton « Ajouter des appareils » en haut à droite de cette page ou utilisez le bouton ci-dessous pour ajouter des appareils à votre organisation",
+    "allGood": "Tout va bien !",
+    "devicesPageInfo": "L'état de tous les appareils de votre organisation est affiché sur cette page",
+    "excludeDevice": "{{device}} exclu de la réception des travaux d'impression du funnel",
+    "includeDevice": "{{device}} inclus pour les travaux d'impression du funnel",
+    "noCurrentBuild": "Aucune impression en cours.",
+    "noDevices": "Aucun appareil",
+    "noDevicesNeedAttention": "Aucun appareil ne nécessite actuellement d'attention",
+    "warnRemoveDevice": "Vous ne pourrez plus surveiller ni envoyer de travaux d'impression à cet appareil depuis le Funnel.",
+    "warnRemoveDevice_name": "Vous ne pourrez plus surveiller ni envoyer de travaux d'impression à {{device}} depuis le Funnel.",
+    "willExcludeDevice": "Les travaux d'impression ne seront plus créés pour cette machine lorsqu'elle sera exclue"
+  },
+  "state": {
+    "canceled": "Annulé",
+    "canceled_error": "Erreur : Annulé",
+    "cancelling": "Annulation",
+    "cancelling_error": "Erreur : Annulation",
+    "finished": "Impression terminée",
+    "idle": "Imprimante inactive",
+    "offline": "Hors ligne",
+    "paused": "En pause",
+    "paused_error": "Erreur : En pause",
+    "pausing": "Mise en pause",
+    "pausing_error": "Erreur : Mise en pause",
+    "printing": "{{duration}} restant",
+    "staring": "Démarrage",
+    "userbusy": "Utilisateur occupé"
+  },
+  "title": {
+    "devices": "Appareils",
+    "excludeDevice": "Exclure {{device}} ?",
+    "removeDevice": "Supprimer l'appareil ?"
+  },
+  "tooltips": {
+    "devices": "Tous les appareils qui ont été ajoutés à votre Funnel sont affichés dans cet onglet.",
+    "requiresAttention": "Ceci affiche les appareils qui ont une erreur ou qui ont perdu la connexion."
+  }
+}

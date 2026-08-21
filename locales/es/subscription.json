@@ -1,0 +1,32 @@
+{
+  "button": {
+    "manageBilling": "Gestionar Facturación",
+    "manageSubscription": "Gestionar Suscripción",
+    "subscribeLater": "Suscribirse Más Tarde",
+    "subscriptionOptions": "Opciones de Suscripción"
+  },
+  "description": {
+    "manageBilling": "Ver facturas, revisar y actualizar los datos de facturación.",
+    "paymentIssue": "Hubo un problema con los datos de tu pago.",
+    "subscriptionStatus": "{{subscriptionTier}} que se renueva el {{subscriptionEnd, datetime}}",
+    "subscriptionStatusEnding": "{{subscriptionTier}} que finaliza el {{subscriptionEnd, datetime}}",
+    "subscriptionTiers": "Puedes actualizar tu nivel de suscripción cuando cambien las necesidades de tu organización.",
+    "subscriptionUnknownActiveStatus": "Tu suscripción está activa",
+    "trialEnded": "Suscríbete para continuar creando y enviando trabajos de impresión.",
+    "trialEnding": "Deberás suscribirte cuando finalice la prueba gratuita para crear y enviar trabajos de impresión."
+  },
+  "title": {
+    "availableWithSubscription": "Disponible con una Suscripción",
+    "manageBilling": "Gestionar Facturación",
+    "newSubscription": "Nueva Suscripción",
+    "organisation": "Organización",
+    "subscription": "Suscripción",
+    "subscriptionStatus": "Estado de la Suscripción",
+    "subscriptionTiers": "Niveles de Suscripción",
+    "trialEnded": "La prueba ha finalizado",
+    "trialEnding_zero": "La prueba finaliza hoy",
+    "trialEnding_one": "La prueba finaliza en {{count}} día",
+    "trialEnding_other": "La prueba finaliza en {{count}} días",
+    "trialEndingUnknown": "La prueba finaliza pronto"
+  }
+}

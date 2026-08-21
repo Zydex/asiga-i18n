@@ -1,0 +1,58 @@
+{
+  "button": {
+    "add": "Ajouter des matériaux",
+    "keepBoth": "Conserver les deux",
+    "replaceMaterial": "Remplacer le matériau",
+    "uploadLocalMaterial": "Téléverser un matériau local"
+  },
+  "label": {
+    "adding": "Ajout d'un matériau",
+    "adding_one": "Ajout de {{count}} matériau",
+    "adding_other": "Ajout de {{count}} matériaux",
+    "addSuccess_one": "{{count}} matériau ajouté",
+    "addSuccess_other": "{{count}} matériaux ajoutés",
+    "deleteSuccess_one": "{{count}} matériau supprimé",
+    "deleteSuccess_other": "{{count}} matériaux supprimés",
+    "deleting": "Suppression d'un matériau",
+    "deleting_one": "Suppression de {{count}} matériau",
+    "deleting_other": "Suppression de {{count}} matériaux",
+    "dropFile": "Ajouter un fichier à <bold>Matériaux</bold>",
+    "manufacturer": "Fabricant",
+    "material": "Matériau",
+    "name": "Nom du matériau",
+    "search": "Rechercher un matériau",
+    "templateName": "Nom du modèle",
+    "updateMaterial": "Mise à jour du matériau disponible"
+  },
+  "message": {
+    "addMaterials": "Ajoutez des matériaux à votre organisation en les sélectionnant dans l'Open Material Library ci-dessous. Les fichiers de matériaux peuvent également être ajoutés à l'aide du bouton de téléversement.",
+    "deleteMaterialWarning": "Êtes-vous sûr de vouloir supprimer les matériaux sélectionnés ? Seule la dernière version de chaque matériau pourra être téléchargée à nouveau à l'avenir.",
+    "manufacturerHasNoMaterials": "Le fabricant n'a pas de matériaux",
+    "materialAlreadyAdded_one": "{{name}} a déjà été ajouté à votre organisation.",
+    "materialAlreadyAdded_other": "Les matériaux suivants ont déjà été ajoutés à votre organisation :",
+    "materialNameConflict": "Un fichier de matériau nommé {{name}} existe déjà dans votre organisation.\n\nVous pouvez remplacer le matériau existant ou conserver les deux.",
+    "materialNameConflictDoForAll_one": "Faire cela pour le {{count}} conflit de nom restant",
+    "materialNameConflictDoForAll_other": "Faire cela pour les {{count}} conflits de noms restants",
+    "materialNameConflictWithRevision": "Un fichier de matériau nommé {{name}}, révision {{revision}}, existe déjà dans votre organisation.\n\nVoulez-vous remplacer le matériau existant par la révision {{requestedRevision}} ?",
+    "noMaterials": "Utilisez le bouton « Ajouter des matériaux » en haut à droite de cette page pour ajouter des matériaux à votre organisation",
+    "unableToDelete_one": "Le matériau sélectionné ne peut pas être supprimé car il est actuellement utilisé dans des modèles. Veuillez attribuer des matériaux différents aux modèles suivants pour poursuivre la suppression :",
+    "unableToDelete_other": "Les matériaux sélectionnés ne peuvent pas être supprimés car ils sont actuellement utilisés dans des modèles. Veuillez attribuer des matériaux différents aux modèles suivants pour poursuivre la suppression :",
+    "updateMaterial_one": "<bold>{{name}}</bold> sera mis à jour vers la dernière version.",
+    "updateMaterial_other": "{{count}} fichiers INI de matériaux seront mis à jour vers la dernière version."
+  },
+  "title": {
+    "addMaterials": "Ajouter des matériaux",
+    "deleteMaterial": "Supprimer le matériau ?",
+    "materialAlreadyAdded": "Fichier de matériau déjà ajouté",
+    "materialNameConflict": "Des noms de matériaux existent déjà",
+    "materials": "Matériaux",
+    "noMaterials": "Pas de matériaux dans la bibliothèque",
+    "unableToDelete_one": "Impossible de supprimer le matériau",
+    "unableToDelete_other": "Impossible de supprimer les matériaux",
+    "updateMaterial_one": "Mettre à jour le matériau ?",
+    "updateMaterial_other": "Mettre à jour les matériaux ?"
+  },
+  "tooltips": {
+    "materials": "Répertorie tous les matériaux qui ont été ajoutés à l'entonnoir.\n\nLes matériaux peuvent être ajoutés depuis l'Open Material Library ou téléversés manuellement."
+  }
+}

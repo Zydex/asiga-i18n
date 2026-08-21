@@ -1,0 +1,199 @@
+{
+  "alt": {
+    "all": "Alla",
+    "userUpload": "Användaruppladdningar"
+  },
+  "button": {
+    "accept": "Acceptera",
+    "cancel": "Avbryt",
+    "confirm": "Bekräfta",
+    "createPartGroup": "Skapa delgrupp",
+    "deprioritise": "Rensa prioritet",
+    "download": "Ladda ner",
+    "duplicate": "Duplicera",
+    "expand": "Expandera",
+    "moveToReview": "Flytta till granskning",
+    "partType": "Deltyp",
+    "prioritise": "Prioritera",
+    "regroup": "Gruppera om",
+    "regroup_one": "Gruppera om",
+    "regroup_other": "Gruppera om",
+    "reject": "Avvisa",
+    "removeFromGroup": "Ta bort från grupp",
+    "reprint": "Skriv ut del igen",
+    "retry": "Försök igen",
+    "template": "Mall",
+    "ungroupPartGroup": "Avgruppera",
+    "uploadPart": "Ladda upp del",
+    "viewMoreParts": "Visa fler delar"
+  },
+  "description": {
+    "functionality": "Ladda upp delar eller hämta automatiskt in delar från tredjepartsappar. Deltyper identifieras, utskriftsmallar tillämpas och delarna läggs automatiskt till lämpliga utskriftsjobb tillsammans med andra delar."
+  },
+  "details": {
+    "datePrinted": "Utskriftsdatum",
+    "group": {
+      "groupInformation": "Gruppinformation",
+      "partName": "Delnamn",
+      "parts": "Delar",
+      "template": "Mall"
+    },
+    "groupLabel": "Grupp",
+    "groupName": "Grupp {{id}}",
+    "history": {
+      "date": "Datum",
+      "outcome": "Resultat",
+      "status": {
+        "accepted": "Utskrift accepterad",
+        "failed": "Utskrift misslyckades",
+        "offline": "Omarbetad offline",
+        "printed": "Utskriven",
+        "unknown": "Okänd"
+      },
+      "title": "Utskriftshistorik"
+    },
+    "noPrintJob_one": "Utskriftsjobbet visas här när delen har nästlats.",
+    "noPrintJob_other": "Utskriftsjobbet visas här när delarna har nästlats.",
+    "partInformation": "Delinformation",
+    "partType": "Deltyp",
+    "printJob": "Utskriftsjobb",
+    "progress": "Förlopp",
+    "received": "Mottagen",
+    "source": "Källa",
+    "status": "Status",
+    "targetDevice": "Målenhet",
+    "template": "Mall",
+    "title_zero": "Inga objekt valda",
+    "title_one": "1 objekt valt",
+    "title_other": "{{count}} objekt valda"
+  },
+  "emptyInboxMessages": {
+    "accepted": {
+      "message": "Delar från fliken 'Granska' visas här när de har accepterats",
+      "title": "Inga delar accepterade"
+    },
+    "confirm": {
+      "message": "Använd knappen 'Ladda upp delar' eller dra och släpp filer för att lägga till delar i din organisation",
+      "title": "Inga delar att bekräfta"
+    },
+    "rejected": {
+      "message": "Delar som har avvisats visas här ",
+      "title": "Inga delar avvisade"
+    },
+    "review": {
+      "message": "Använd knappen ‘Ladda upp delar’ högst upp till höger på denna sida eller använd knappen nedan för att lägga till delar i din organisation",
+      "title": "Inga delar att granska"
+    }
+  },
+  "errors": {
+    "acceptPartError": "Det gick inte att acceptera delen",
+    "cancelPartUploadError": "Det gick inte att avbryta uppladdningen av delen",
+    "confirmPartError": "Det gick inte att bekräfta delen",
+    "downloadPartError": "Det gick inte att ladda ner delen",
+    "fileTooLarge": "Filstorleken överskrider gränsen på 500 MB",
+    "invalidFileFormat": "Filen måste vara av typen .stl",
+    "noFilesUploaded": "Inga filer uppladdade",
+    "partCreateError": "Fel vid skapande av del",
+    "rejectPartError": "Det gick inte att avvisa delen",
+    "setPartTypeError": "Det gick inte att uppdatera deltypen",
+    "undoAcceptPartError": "Det gick inte att ångra accepterandet av delen"
+  },
+  "label": {
+    "accepted": "Accepterad",
+    "confirm": "Bekräfta",
+    "designSelected_one": "{{count}} design vald",
+    "designSelected_other": "{{count}} designer valda",
+    "dropFile": "Lägg till fil i inkorgen",
+    "groupHasBeenPrioritised": "Gruppen har prioriterats",
+    "invalidUploadFileContent": "En eller flera filer kunde inte läsas som giltigt STL-innehåll",
+    "invalidUploadFileSize": "En eller flera filer överskrider den maximala uppladdningsstorleken",
+    "invalidUploadFileType": "Endast STL-filer stöds",
+    "partHasBeenPrioritised": "Delen har prioriterats",
+    "preparingDownload": "Förbereder nedladdning",
+    "rejected": "Avvisad",
+    "renameGroup": "Byt namn på delgrupp",
+    "review": "Att granska",
+    "search": "Sök efter en del",
+    "uploadCancelled": "{{partName}} (avbruten)"
+  },
+  "message": {
+    "noParts": "Inga delar",
+    "renameGroup": "Ange ett nytt namn för delgruppen:",
+    "renamePart": "Ange ett nytt namn för delen:",
+    "reprocessPart_one": "{{name}} har lagts till tidigare.\n\nOm du bearbetar denna del igen skapas ytterligare en kopia i tratten för utskrift.",
+    "reprocessPart_other": "{{count}} delar har lagts till i tratten tidigare.\n\nOm du bearbetar denna del igen skapas ytterligare en kopia i tratten för utskrift.",
+    "reprocessPart_time_one": "{{name}} lades till tidigare den {{time}}.\n\nOm du bearbetar denna del igen skapas ytterligare en kopia i tratten för utskrift.",
+    "reprocessPart_time_other": "{{count}} delar har lagts till i tratten tidigare.\n\nOm du bearbetar denna del igen skapas ytterligare en kopia i tratten för utskrift."
+  },
+  "subscriptionNotice": {
+    "approaching": {
+      "description_one": "Det finns {{count}} del kvar i organisationens månatliga gräns. Gränsen återställs om {{days}}.",
+      "description_other": "Det finns {{count}} delar kvar i organisationens månatliga gräns. Gränsen återställs om {{days}}.",
+      "title": "Närmar sig månadsgränsen"
+    },
+    "button": "Prenumerationsalternativ",
+    "close": "Avfärda",
+    "daysUntilReset_one": "{{count}} dag",
+    "daysUntilReset_other": "{{count}} dagar",
+    "reached": {
+      "descriptionEditor": "Tilldelningen återställs om {{days}}. Justera prenumerationsnivån för att bearbeta fler delar.",
+      "descriptionMember": "Tilldelningen återställs om {{days}}. Kontakta administratören för att justera prenumerationsnivån och bearbeta fler delar.",
+      "title": "Månadsgränsen har nåtts"
+    }
+  },
+  "table": {
+    "partClassification": {
+      "bridge": "Bro",
+      "crownOrToothOrVeneer": "Krona/Tand/Fasad",
+      "dentureAOX": "Protes (AoX)",
+      "dentureBase": "Protes (Bas)",
+      "denturePartial": "Protes (Partiell)",
+      "die": "Stumpmodell",
+      "flatGingiva": "Gingiva",
+      "hollowModel": "Modell (Ihålig)",
+      "occlusalSplint": "Skena",
+      "other": "Övrigt",
+      "partialFramework": "Partiell stomme",
+      "pillowGingiva": "Gingiva (Kudde)",
+      "screwInTooth": "Implantatkrona",
+      "solidModel": "Modell (Solid)",
+      "surgicalGuide": "Kirurgisk guide",
+      "teethRow": "Proteständer",
+      "tryInDenture": "Protes (Provning)"
+    },
+    "partStatus": {
+      "addedToJob": "Tillagd i jobb",
+      "failed": "Misslyckades",
+      "printed": "Utskriven",
+      "printReady": "Klar för utskrift",
+      "processing": "Bearbetar",
+      "rejected": "Avvisad",
+      "reworkedOffline": "Omarbetad offline",
+      "toAccept": "Att acceptera",
+      "toConfirm": "Att bekräfta"
+    },
+    "template": {
+      "noTemplate": "Ingen mall",
+      "noTemplateTooltip": "<a>Skapa en mall</a> med denna dels typ för att acceptera delen för utskrift."
+    },
+    "userUpload": "Användaruppladdning"
+  },
+  "title": {
+    "inbox": "Inkorg",
+    "name": "Namn",
+    "partType": "Deltyp",
+    "received": "Mottagen",
+    "reprocessPart_one": "Bearbeta {{name}} igen?",
+    "reprocessPart_other": "Bearbeta {{count}} delar igen?",
+    "source": "Källa",
+    "status": "Status",
+    "template": "Mall",
+    "uploads": "Uppladdningar"
+  },
+  "tooltips": {
+    "accepted": "Delar som har accepterats för tillverkning visas här.",
+    "createPartGroupDisabled": "Endast delar som använder samma mall kan grupperas tillsammans.",
+    "rejected": "Delar som har avvisats för tillverkning visas här.",
+    "review": "Delar som har lagts till i tratten visas här för granskning. Välj en mall att tillämpa på delen innan du accepterar den för tillverkning."
+  }
+}

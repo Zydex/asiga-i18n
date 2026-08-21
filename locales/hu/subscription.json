@@ -1,0 +1,32 @@
+{
+  "button": {
+    "manageBilling": "Számlázás kezelése",
+    "manageSubscription": "Előfizetés kezelése",
+    "subscribeLater": "Feliratkozás később",
+    "subscriptionOptions": "Előfizetési lehetőségek"
+  },
+  "description": {
+    "manageBilling": "Számlák megtekintése, számlázási adatok ellenőrzése és frissítése.",
+    "paymentIssue": "Probléma történt a fizetési adataival.",
+    "subscriptionStatus": "{{subscriptionTier}}, amely {{subscriptionEnd, datetime}} időpontban újul meg",
+    "subscriptionStatusEnding": "{{subscriptionTier}}, amely {{subscriptionEnd, datetime}} időpontban véget ér",
+    "subscriptionTiers": "Az előfizetési szintet bármikor frissítheti, amikor szervezetének igényei megváltoznak.",
+    "subscriptionUnknownActiveStatus": "Az előfizetése aktív",
+    "trialEnded": "Iratkozzon fel, hogy továbbra is létrehozhasson és küldhessen nyomtatási feladatokat.",
+    "trialEnding": "A próbaidőszak lejártakor fel kell iratkoznia ahhoz, hogy nyomtatási feladatokat hozhasson létre és küldhessen."
+  },
+  "title": {
+    "availableWithSubscription": "Előfizetéssel elérhető",
+    "manageBilling": "Számlázás kezelése",
+    "newSubscription": "Új előfizetés",
+    "organisation": "Szervezet",
+    "subscription": "Előfizetés",
+    "subscriptionStatus": "Előfizetés állapota",
+    "subscriptionTiers": "Előfizetési szintek",
+    "trialEnded": "A próbaidőszak véget ért",
+    "trialEnding_zero": "A próbaidőszak ma jár le",
+    "trialEnding_one": "A próbaidőszak {{count}} nap múlva jár le",
+    "trialEnding_other": "A próbaidőszak {{count}} nap múlva jár le",
+    "trialEndingUnknown": "A próbaidőszak hamarosan lejár"
+  }
+}

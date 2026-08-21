@@ -1,0 +1,79 @@
+{
+  "alt": {
+    "devices": "Geräte",
+    "devicesNeedingAttention": "Geräte, die Aufmerksamkeit benötigen",
+    "noDevices": "Keine Geräte"
+  },
+  "button": {
+    "add": "Gerät hinzufügen",
+    "exclude": "Ausschließen",
+    "excludeDevice": "Von automatischen Druckaufträgen ausschließen",
+    "includeDevice": "Für automatische Druckaufträge einschließen"
+  },
+  "details": {
+    "aboutPrinter": "Über den Drucker",
+    "currentBuild": "Aktueller Build",
+    "printStatus": "Druckstatus",
+    "queuedBuild": "Builds in der Warteschlange"
+  },
+  "label": {
+    "devices": "Geräte",
+    "devicesTab": "Geräte-Tab",
+    "excludedDevice": "Das Gerät wurde von den Druckaufträgen des Funnels ausgeschlossen",
+    "requiresAttention": "Erfordert Aufmerksamkeit",
+    "search": "Nach einem Gerät suchen",
+    "status": {
+      "availableInFunnel": "Funnel-Aufträge akzeptieren",
+      "currentBuildName": "Name des aktuellen Builds",
+      "currentLayer": "Aktuelle Schicht",
+      "currentLayerHeight": "Aktuelle Schichthöhe",
+      "elapsed": "Verstrichen",
+      "firmwareVersion": "Firmware-Version",
+      "layers": "Schichten",
+      "manufacturer": "Hersteller",
+      "model": "Modell",
+      "paused": "Pausiert",
+      "remaining": "Verbleibend",
+      "serialNumber": "Seriennummer",
+      "status": "Status"
+    }
+  },
+  "message": {
+    "addDevices": "Verwenden Sie die Schaltfläche „Geräte hinzufügen“ oben rechts auf dieser Seite oder die Schaltfläche unten, um Geräte zu Ihrer Organisation hinzuzufügen",
+    "allGood": "Alles in Ordnung!",
+    "devicesPageInfo": "Der Status aller Geräte in Ihrer Organisation wird auf dieser Seite angezeigt",
+    "excludeDevice": "{{device}} wurde von den Funnel-Druckaufträgen ausgeschlossen",
+    "includeDevice": "{{device}} wurde für Funnel-Druckaufträge eingeschlossen",
+    "noCurrentBuild": "Derzeit wird kein Build gedruckt.",
+    "noDevices": "Keine Geräte",
+    "noDevicesNeedAttention": "Derzeit benötigt kein Gerät Aufmerksamkeit",
+    "warnRemoveDevice": "Sie können dieses Gerät vom Funnel aus nicht mehr überwachen oder Druckaufträge daran senden.",
+    "warnRemoveDevice_name": "Sie können {{device}} vom Funnel aus nicht mehr überwachen oder Druckaufträge daran senden.",
+    "willExcludeDevice": "Für diese Maschine werden keine Druckaufträge mehr erstellt, wenn sie ausgeschlossen ist"
+  },
+  "state": {
+    "canceled": "Abgebrochen",
+    "canceled_error": "Fehler: Abgebrochen",
+    "cancelling": "Wird abgebrochen",
+    "cancelling_error": "Fehler: Wird abgebrochen",
+    "finished": "Druck abgeschlossen",
+    "idle": "Drucker im Leerlauf",
+    "offline": "Offline",
+    "paused": "Pausiert",
+    "paused_error": "Fehler: Pausiert",
+    "pausing": "Wird pausiert",
+    "pausing_error": "Fehler: Wird pausiert",
+    "printing": "{{duration}} verbleibend",
+    "staring": "Wird gestartet",
+    "userbusy": "Benutzer beschäftigt"
+  },
+  "title": {
+    "devices": "Geräte",
+    "excludeDevice": "{{device}} ausschließen?",
+    "removeDevice": "Gerät entfernen?"
+  },
+  "tooltips": {
+    "devices": "Alle Geräte, die zu Ihrem Funnel hinzugefügt wurden, werden in diesem Tab angezeigt.",
+    "requiresAttention": "Dies zeigt Geräte an, die einen Fehler aufweisen oder die Verbindung verloren haben."
+  }
+}

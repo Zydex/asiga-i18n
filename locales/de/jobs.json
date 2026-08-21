@@ -1,0 +1,158 @@
+{
+  "button": {
+    "download": "Herunterladen",
+    "exportReportPdf": "PDF exportieren",
+    "moveOffline": "Offline überarbeiten",
+    "promoteJob": "Auftrag hochstufen",
+    "reprint": "Erneut drucken",
+    "reprintParts": "Teile erneut drucken",
+    "requeueParts": "Teile erneut einreihen",
+    "resendJob": "Auftrag erneut senden",
+    "reshuffle": "Neu anordnen"
+  },
+  "details": {
+    "basePlate": "Grundplatteneinstellungen",
+    "currentJob": "Aktueller Auftrag",
+    "currentParts": "Aktuelle Teile",
+    "jobInformation": "Auftragsinformationen",
+    "parts": "Teile"
+  },
+  "label": {
+    "accepted": "Akzeptiert",
+    "buildAreaUsage": "Nutzung des Bauraums",
+    "estimatedMaterial": "Geschätztes Material",
+    "estimatedPrintTime": "Geschätzte Druckzeit",
+    "external": "Extern",
+    "jobContainsPriorityParts": "Auftrag enthält priorisierte Teile",
+    "jobsTab": "Auftrags-Tabs",
+    "layerThickness": "Schichtdicke",
+    "material": "Material",
+    "partName": "Teilename",
+    "partType": "Teiletyp",
+    "provisional": "Vorläufig",
+    "rejected": "Abgelehnt",
+    "reprintParts": "Teile aus diesem Auftrag erneut drucken?",
+    "reprintPartsNoneAvailable": "Alle Teile werden gerade erneut gedruckt.",
+    "requeuedPartsSuccess": "Teile erfolgreich erneut eingereiht",
+    "requeuedPartsSuccess_one": "Teil erfolgreich erneut eingereiht",
+    "requeuedPartsSuccess_other": "Teile erfolgreich erneut eingereiht",
+    "requeuingParts": "Teile werden erneut eingereiht",
+    "search": "Nach Aufträgen suchen",
+    "source": "Quelle",
+    "targetDevice": "Zielgerät",
+    "template": "Vorlage",
+    "toReview": "Zu überprüfen",
+    "trayType": "Trägertyp"
+  },
+  "message": {
+    "deviceOffline": "Dieser Auftrag wird erst gesendet, wenn der Drucker wieder online ist.\n\nStellen Sie sicher, dass {{device}} online ist und über eine aktive Internetverbindung verfügt.",
+    "deviceOffline_one": "Dieser Auftrag wird erst gesendet, wenn der Drucker wieder online ist.\n\nStellen Sie sicher, dass {{device}} online ist und über eine aktive Internetverbindung verfügt.",
+    "deviceOffline_other": "Diese Aufträge werden erst gesendet, wenn jeder Drucker wieder online ist.\n\nStellen Sie sicher, dass die Drucker online sind und über eine aktive Internetverbindung verfügen.",
+    "downloadInfo": "Alternativ kann der Druckauftrag zur Bearbeitung in Composer heruntergeladen werden.",
+    "moveOffline": "Dadurch wird der Auftrag abgelehnt und zur Bearbeitung in Composer heruntergeladen.",
+    "moveOffline_one": "Dadurch wird der ausgewählte Auftrag abgelehnt und zur Bearbeitung in Composer heruntergeladen.",
+    "moveOffline_other": "Dadurch werden die ausgewählten Aufträge abgelehnt und zur Bearbeitung in Composer heruntergeladen.",
+    "noJobsToReview": "Vorläufige Aufträge, die hochgestuft wurden, werden hier angezeigt. Laden Sie Teile in den Posteingang hoch, um zu beginnen.",
+    "noParts": "Dieser Auftrag enthält keine Teile.",
+    "noPartsToReprint": "Teile in diesem Auftrag wurden bereits wieder in die Warteschlange zum erneuten Drucken aufgenommen.",
+    "rejectInfo": "Durch Klicken auf 'Neu anordnen' werden Position und Rotation der Teile im Rahmen eines neuen Druckauftrags verändert. Beim Neuanordnen können einige Teile entfernt oder hinzugefügt werden.",
+    "reprintParts": "Ausgewählte Teile werden für das erneute Drucken im Rahmen des nächsten geeigneten Druckauftrags priorisiert.",
+    "reprintPartsKey": "Grau dargestellte Teile wurden bereits erneut gedruckt.",
+    "requeueParts": "Dadurch wird der Auftrag als abgelehnt markiert und alle Teile des Auftrags werden zurück in die Warteschlange verschoben.",
+    "reworkOffline_one": "Druckauftrag <bold>#{{id}}</bold> als <bold>Offline überarbeitet</bold> markiert",
+    "reworkOffline_other": "{{count}} Druckaufträge als <bold>Offline überarbeitet</bold> markiert",
+    "submittingJob": "#{{id}} wird gesendet",
+    "submittingJob_device": "<bold>#{{id}}</bold> wird an <bold>{{device}}</bold> gesendet"
+  },
+  "status": {
+    "awaitingApproval": {
+      "name": "Warten auf Genehmigung",
+      "tooltip": "Der finalisierte Auftrag ist bereit zur Überprüfung."
+    },
+    "cancelled": {
+      "name": "Abgebrochen",
+      "tooltip": "Der Druckauftrag wurde abgebrochen, bevor er fertiggestellt wurde, oder aus der Bauwarteschlange gelöscht."
+    },
+    "failed": {
+      "name": "Fehlgeschlagen",
+      "tooltip": "Der Druckauftrag ist fehlgeschlagen.\n\nWeitere Informationen finden Sie auf dem Bildschirm des Druckers."
+    },
+    "generating": {
+      "name": "Druckauftrag wird finalisiert",
+      "tooltip": "Das vorläufige Auftragslayout wurde finalisiert und die Druckschichten werden vorbereitet."
+    },
+    "nestingFailed": {
+      "name": "Verschachtelung fehlgeschlagen",
+      "tooltip": "Die Verschachtelung der Teile ist fehlgeschlagen. Dies könnte durch Probleme mit einer oder mehreren Teiledateien verursacht worden sein."
+    },
+    "offline": {
+      "name": "Offline überarbeitet",
+      "tooltip": "Der Auftrag wurde heruntergeladen, um in Composer bearbeitet und gesendet zu werden."
+    },
+    "paused": {
+      "name": "Pausiert",
+      "tooltip": "Der Druckauftrag wurde auf dem Drucker pausiert."
+    },
+    "printed": {
+      "name": "Gedruckt",
+      "tooltip": "Der Auftrag wurde erfolgreich abgeschlossen."
+    },
+    "printing": {
+      "name": "Wird gedruckt",
+      "tooltip": "Der Auftrag wird derzeit gedruckt."
+    },
+    "printPending": {
+      "name": "Druck ausstehend",
+      "tooltip": "Der Auftrag befindet sich auf dem Drucker und ist druckbereit."
+    },
+    "provisional": {
+      "name": "Vorläufig",
+      "tooltip": "Der Auftrag befindet sich in einem vorläufigen Zustand und wird finalisiert, wenn:\n<ul><li>weitere Teile hinzugefügt werden, um den Auftrag zu füllen</li><li>ein geeigneter Drucker bald zum Drucken verfügbar ist</li></ul>Der Auftrag kann auch manuell in einen finalisierten Zustand hochgestuft werden."
+    },
+    "rejected": {
+      "name": "Abgelehnt",
+      "tooltip": "Der Auftrag wurde abgelehnt und die Teile wurden erneut eingereiht."
+    },
+    "sendingFailed": {
+      "name": "Senden fehlgeschlagen",
+      "tooltip": "Der Druckauftrag ist beim Senden an den Drucker fehlgeschlagen.\n\nDies könnte dadurch verursacht worden sein, dass der Drucker offline gegangen ist oder die Bauwarteschlange voll ist und nicht genügend Speicher übrig ist."
+    },
+    "sendingToPrinter": {
+      "name": "Wird an den Drucker gesendet",
+      "tooltip": "Die Druckschichten werden an den Drucker gesendet."
+    },
+    "slicing": {
+      "name": "Druckauftrag wird geslict",
+      "tooltip": "Die Druckschichten werden vorbereitet."
+    },
+    "slicingFailed": {
+      "name": "Slicing fehlgeschlagen",
+      "tooltip": "Der Druckauftrag ist beim Vorbereiten der Druckschichten fehlgeschlagen.\n\nDies könnte durch Probleme mit den Teiledateien verursacht worden sein."
+    }
+  },
+  "title": {
+    "device": "Gerät",
+    "deviceOffline": "{{device}} ist offline",
+    "deviceOffline_one": "{{device}} ist offline",
+    "deviceOffline_other": "Mehrere Drucker sind offline",
+    "jobNumber": "Auftragsnummer",
+    "material": "Material",
+    "moveOffline": "Auftrag offline überarbeiten?",
+    "moveOffline_one": "Auftrag offline überarbeiten?",
+    "moveOffline_other": "Aufträge offline überarbeiten?",
+    "noJobsAccepted": "Keine Aufträge akzeptiert",
+    "noJobsRejected": "Keine Aufträge abgelehnt",
+    "noJobsToReview": "Keine Aufträge zu überprüfen",
+    "printJobs": "Druckaufträge",
+    "rejectJob": "Abgelehnten Auftrag neu anordnen?",
+    "requeueParts": "Teile erneut einreihen?",
+    "status": "Status"
+  },
+  "tooltips": {
+    "accepted": "Alle akzeptierten Aufträge werden hier zusammen mit ihrem Status angezeigt.",
+    "provisional": "Dies zeigt die erwarteten anstehenden Aufträge basierend auf der Druckerverfügbarkeit, der Vorlagenkompatibilität und ungedruckten Teilen im Funnel.\n\nDurch das Hochstufen wird ein finalisierter Druckauftrag erstellt, der die identifizierten Teile, das Layout und den Zieldrucker enthält. Sobald Stützstrukturen für finalisierte Aufträge erzeugt wurden, erscheinen sie im Tab 'Zu überprüfen'.",
+    "rejected": "Alle abgelehnten Aufträge werden hier angezeigt.",
+    "resendJob": "Sendet einen Auftrag erneut an einen Drucker. Dies kann nützlich sein, wenn der Auftrag abgebrochen wurde oder das Gerät einen Fehler festgestellt hat.",
+    "toReview": "Druckaufträge, die zur Überprüfung bereit sind, werden hier angezeigt. Akzeptieren Sie diese, um sie an den Drucker zu senden."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "alt": {
+    "noApps": "Inga appar länkade"
+  },
+  "button": {
+    "apps": "Appar"
+  },
+  "label": {
+    "search": "Sök efter appar"
+  },
+  "message": {
+    "noApps": "Inga appar länkade",
+    "noAppsInfo": "Länkade appar kommer att listas här. Använd knappen \"Appar\" nedan för att se tillgängliga appar som kan länkas.",
+    "unlink": "Din organisation kommer inte längre att ta emot delar från appen.",
+    "unlink_one": "Din organisation kommer inte längre att ta emot delar från appen.",
+    "unlink_other": "Din organisation kommer inte längre att ta emot delar från apparna.",
+    "unlink_name_one": "Din organisation kommer inte längre att ta emot delar från {{name}}.",
+    "unlink_nameOrg_one": "{{org}} kommer inte längre att ta emot delar från {{name}}.",
+    "unlink_org_other": "{{org}} kommer inte längre att ta emot delar från apparna.",
+    "unlinkParts": "Delar som redan har mottagits kommer att finnas kvar i din organisation.",
+    "unlinkParts_org": "Delar som redan har mottagits kommer att finnas kvar i {{org}}."
+  },
+  "title": {
+    "apps": "Appar",
+    "connectedApps": "Anslutna appar",
+    "lastUsed": "Senast använd",
+    "linked": "Länkad",
+    "name": "Namn",
+    "never": "Aldrig",
+    "unlink": "Avlänka app?",
+    "unlink_name": "Avlänka {{name}}?",
+    "unlink_one": "Avlänka app?",
+    "unlink_other": "Avlänka appar?"
+  },
+  "tooltips": {
+    "apps": "Listar alla appar som Funnel har stöd för. Använd dem för att automatiskt ta emot delar från tredjepartstjänster.",
+    "connectedApps": "Listar alla appar som har behörighet att skicka delar till Funnel."
+  }
+}

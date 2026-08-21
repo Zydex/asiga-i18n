@@ -1,0 +1,131 @@
+{
+  "emptyPartsMessages": {
+    "allParts": {
+      "message": "Gdy części zostaną zaakceptowane w skrzynce odbiorczej, pojawią się tutaj, aby można je było rozważyć do druku",
+      "title": "Brak części gotowych do druku"
+    },
+    "printReady": {
+      "message": "Części gotowe do dodania do zadania druku pojawią się tutaj",
+      "title": "Brak części w kolejce"
+    },
+    "sent": {
+      "message": "Części pojawią się tutaj, gdy zostaną złożone w zadanie druku i wysłane do drukarki",
+      "title": "Brak wysłanych części"
+    }
+  },
+  "group": {
+    "tooLarge": "Grupa jest zbyt duża",
+    "tooLargeTooltip": "Grupa jest zbyt duża, aby zmieścić się na platformie którejkolwiek drukarki określonej w tym szablonie.\n\nRozgrupuj części lub zaktualizuj szablon, aby użyć większej drukarki."
+  },
+  "label": {
+    "allParts": "Wszystkie części",
+    "partsQueue": "Części w kolejce",
+    "printReady": "Gotowe do druku",
+    "sent": "Wysłano"
+  },
+  "status": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "Zaakceptuj część do druku",
+      "partAccepted": "Część zaakceptowana"
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Zatwierdź zadanie druku",
+      "printJobApproved": "Zadanie druku zatwierdzone",
+      "printJobPendingApproval": "Zadanie druku oczekuje na zatwierdzenie"
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "Dodano do zadania druku",
+      "generatingSupports": "Generowanie podpór",
+      "nestedInProvisionalJob": "Zagnieżdżono w zadaniu tymczasowym",
+      "nestingFailed": "Zagnieżdżanie nie powiodło się",
+      "nestingPrintJob": "Dodawanie do zadania tymczasowego",
+      "nestPrintJob": "Zagnieźdź zadanie druku",
+      "partQueued": "Część w kolejce",
+      "partTooLarge": "Część jest zbyt duża"
+    },
+    "orientatePart": {
+      "orientatePart": "Zorientuj część",
+      "orientatingPart": "Orientowanie części",
+      "orientationFailed": "Orientacja nie powiodła się",
+      "partOrientated": "Część zorientowana"
+    },
+    "partIdentification": {
+      "confirmPartType": "Potwierdź typ części",
+      "identifyingPartType": "Identyfikowanie typu części",
+      "partIdentification": "Identyfikacja części",
+      "partTypeConfirmed": "Typ części potwierdzony"
+    },
+    "print": {
+      "print": "Drukuj",
+      "printed": "Wydrukowano",
+      "printFailed": "Drukowanie nie powiodło się",
+      "printing": "Drukowanie"
+    },
+    "rejected": "Odrzucono",
+    "sendToPrinter": {
+      "printJobDownloaded": "Zadanie druku pobrane",
+      "sendingFailed": "Wysyłanie nie powiodło się",
+      "sendingToPrinter": "Wysyłanie do drukarki",
+      "sendToPrinter": "Wyślij do drukarki",
+      "sentToPrinter": "Wysłano do drukarki",
+      "slicingFailed": "Cięcie na warstwy nie powiodło się",
+      "slicingPrintJob": "Przygotowywanie warstw druku"
+    }
+  },
+  "statusTooltips": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "Część czeka na zaakceptowanie przez użytkownika.",
+      "partAccepted": "Część została zaakceptowana do druku."
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Zatwierdź tymczasowe zadania do wysłania do drukarek.",
+      "printJobApproved": "Zadanie zostało zaakceptowane do druku.",
+      "printJobPendingApproval": "Zadanie tymczasowe czeka na zaakceptowanie przez użytkownika."
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "Część została dodana do zadania druku.",
+      "generatingSupports": "Podpory są dodawane do zadania tymczasowego, zanim zostanie ono sfinalizowane w celu zatwierdzenia druku przez użytkownika.",
+      "nestedInProvisionalJob": "Część została zagnieżdżona w zadaniu tymczasowym. Zostanie ono sfinalizowane, gdy:<ul><li>Do zadania zostaną dodane kolejne części, aby je wypełnić</li><li>Odpowiednia drukarka będzie wkrótce dostępna do jej wydrukowania</li></ul>",
+      "nestingFailed": "Zagnieżdżanie części nie powiodło się.\nMoże to być spowodowane problemami z plikiem części.",
+      "nestingPrintJob": "Część jest zagnieżdżana w zadaniu tymczasowym.",
+      "nestPrintJob": "Część zostanie zagnieżdżona, gdy odpowiednia drukarka stanie się dostępna, na zasadzie „pierwsze weszło, pierwsze wyszło”.",
+      "partQueued": "Część zostanie zagnieżdżona, gdy odpowiednia drukarka stanie się dostępna, na zasadzie „pierwsze weszło, pierwsze wyszło”.",
+      "partTooLarge": "Część jest zbyt duża dla drukarek określonych w szablonie druku.\n\nSprawdź rozmiar części lub rozważ dodanie większej drukarki do szablonu."
+    },
+    "orientatePart": {
+      "orientatePart": "Zorientuj część na podstawie jej typu.",
+      "orientatingPart": "Część jest obecnie orientowana na podstawie jej typu.",
+      "orientationFailed": "Nie udało się poprawnie zorientować części do druku.\nMoże to być spowodowane problemami z plikiem części.",
+      "partOrientated": "Część została pomyślnie zorientowana do druku."
+    },
+    "partIdentification": {
+      "confirmPartType": "Oczekiwanie na potwierdzenie typu części.\nOkreśla to sposób orientacji części oraz sugerowane szablony.",
+      "identifyingPartType": "Analizowanie geometrii części w celu identyfikacji jej typu.",
+      "partIdentification": "Analizuj geometrię części, aby zidentyfikować jej typ.",
+      "partTypeConfirmed": "Typ części został potwierdzony przez użytkownika."
+    },
+    "print": {
+      "print": "Zadanie rozpocznie druk na urządzeniu.",
+      "printed": "Zadanie druku zostało pomyślnie ukończone.",
+      "printFailed": "Zadanie druku nie powiodło się.\nSprawdź ekran drukarki, aby uzyskać więcej informacji.",
+      "printing": "Zadanie druku jest obecnie drukowane."
+    },
+    "rejected": "Część została odrzucona przez użytkownika.",
+    "sendToPrinter": {
+      "printJobDownloaded": "Zadanie druku zostało pobrane do ręcznej edycji w Composerze.",
+      "sendingFailed": "Zadanie druku nie powiodło się podczas wysyłania do drukarki.\nMoże to być spowodowane problemami z połączeniem drukarki.",
+      "sendingToPrinter": "Przesyłanie zadania do drukarki.",
+      "sendToPrinter": "Przygotowuje i wysyła zadanie do drukarki.",
+      "sentToPrinter": "Zadanie druku zostało przesłane.",
+      "slicingFailed": "Zadanie druku nie powiodło się podczas przygotowywania warstw druku.\nMoże to być spowodowane problemami z plikami części.",
+      "slicingPrintJob": "Warstwy druku są przygotowywane."
+    }
+  },
+  "title": {
+    "parts": "Części"
+  },
+  "tooltips": {
+    "allParts": "Wszystkie zaakceptowane części są tutaj wyświetlane wraz z ich statusem.",
+    "partsQueue": "Części oczekujące w kolejce do druku są tutaj wyświetlane, pogrupowane według szablonu."
+  }
+}

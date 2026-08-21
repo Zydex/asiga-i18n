@@ -1,0 +1,43 @@
+{
+  "approvals": {
+    "jobs": {
+      "message": "Ha engedélyezve van, a nyomtatási feladatok automatikusan elfogadásra kerülnek, és el lesznek küldve egy nyomtatóra.",
+      "title": "Feladatok automatikus elfogadása"
+    },
+    "parts": {
+      "message": "Ha engedélyezve van, a sablonnal rendelkező alkatrészek automatikusan elfogadásra kerülnek gyártásra.",
+      "title": "Alkatrészek automatikus elfogadása"
+    },
+    "title": "Jóváhagyások",
+    "tooltips": {
+      "editPermission": "Nincs jogosultsága a jóváhagyási beállítások módosításához. Kérje meg szervezete egyik rendszergazdáját vagy tulajdonosát, hogy végezze el a módosításokat"
+    }
+  },
+  "autoPartGrouping": {
+    "label": {
+      "characterPosition": "Karakter pozíciója",
+      "characterRange": "Karaktertartomány",
+      "example": "Példa",
+      "fromEnd": "A végétől",
+      "fromStart": "Az elejétől",
+      "grouping": "Automatikus csoportosítás",
+      "grouping_off": "Automatikus csoportosítás kikapcsolva",
+      "grouping_on": "Automatikus csoportosítás bekapcsolva",
+      "startingCharacterPosition": "Kezdő karakter pozíciója"
+    },
+    "message": "Az alkatrészek automatikus csoportosítása, hogy azok egy közös feladatban kerüljenek kinyomtatásra. Állítsa be az egyező karakterek tartományát az Ön által használt elnevezési konvenciónak megfelelően.",
+    "title": "Automatikus alkatrész-csoportosítás",
+    "tooltips": {
+      "characterPosition": "Adja meg, hogy a feltöltött alkatrész nevének elejéhez vagy végéhez viszonyítva melyik karaktert kell egyeztetni. Hasznos, ha a rendelési számok a feltöltött alkatrész nevének elején vagy végén jelennek meg.",
+      "characterRange": "Adja meg, hogy hány karaktert szeretne egyeztetni.",
+      "editPermission": "Nincs jogosultsága az automatikus csoportosítási beállítások módosításához. Kérje meg szervezete egyik rendszergazdáját vagy tulajdonosát, hogy végezze el a módosításokat",
+      "startingCharacterPosition": "Hány karakterrel az elejétől vagy a végétől kezdődjön a tartomány. Hasznos, ha a rendelési számok a név közepén jelennek meg."
+    }
+  },
+  "label": {
+    "rules": "Szabályok"
+  },
+  "tooltips": {
+    "rules": "Olyan beállítások, amelyek befolyásolják, hogy az alkatrészek és nyomtatási feladatok hogyan kerülnek feldolgozásra a szervezete Funneljében."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "button": {
+    "add": "Aggiungi materiali",
+    "keepBoth": "Mantieni entrambi",
+    "replaceMaterial": "Sostituisci materiale",
+    "uploadLocalMaterial": "Carica materiale locale"
+  },
+  "label": {
+    "adding": "Aggiunta di un materiale",
+    "adding_one": "Aggiunta di {{count}} materiale",
+    "adding_other": "Aggiunta di {{count}} materiali",
+    "addSuccess_one": "{{count}} materiale aggiunto",
+    "addSuccess_other": "{{count}} materiali aggiunti",
+    "deleteSuccess_one": "{{count}} materiale eliminato",
+    "deleteSuccess_other": "{{count}} materiali eliminati",
+    "deleting": "Eliminazione di un materiale",
+    "deleting_one": "Eliminazione di {{count}} materiale",
+    "deleting_other": "Eliminazione di {{count}} materiali",
+    "dropFile": "Aggiungi file a <bold>Materiali</bold>",
+    "manufacturer": "Produttore",
+    "material": "Materiale",
+    "name": "MaterialName",
+    "search": "Cerca un materiale",
+    "templateName": "Nome del modello",
+    "updateMaterial": "Aggiornamento del materiale disponibile"
+  },
+  "message": {
+    "addMaterials": "Aggiungi materiali alla tua organizzazione selezionandoli dalla Open Material Library qui sotto. I file dei materiali possono essere aggiunti anche utilizzando il pulsante di caricamento.",
+    "deleteMaterialWarning": "Sei sicuro di voler eliminare i materiali selezionati? Solo l'ultima versione di ciascun materiale sarà nuovamente disponibile per il download in futuro.",
+    "manufacturerHasNoMaterials": "Il produttore non ha materiali",
+    "materialAlreadyAdded_one": "{{name}} è già stato aggiunto alla tua organizzazione.",
+    "materialAlreadyAdded_other": "I seguenti materiali sono già stati aggiunti alla tua organizzazione:",
+    "materialNameConflict": "Esiste già nella tua organizzazione un file di materiale denominato {{name}}.\n\nPuoi sostituire il materiale esistente oppure mantenere entrambi.",
+    "materialNameConflictDoForAll_one": "Applica questa scelta per il rimanente conflitto di denominazione ({{count}})",
+    "materialNameConflictDoForAll_other": "Applica questa scelta per i rimanenti {{count}} conflitti di denominazione",
+    "materialNameConflictWithRevision": "Esiste già nella tua organizzazione un file di materiale denominato {{name}}, Revisione {{revision}}.\n\nVuoi sostituire il materiale esistente con la Revisione {{requestedRevision}}?",
+    "noMaterials": "Utilizza il pulsante \"Aggiungi materiali\" in alto a destra in questa pagina per aggiungere materiali alla tua organizzazione",
+    "unableToDelete_one": "Il materiale selezionato non può essere eliminato poiché è attualmente utilizzato nei modelli. Per favore, assegna materiali diversi ai seguenti modelli per continuare con l'eliminazione:",
+    "unableToDelete_other": "I materiali selezionati non possono essere eliminati poiché sono attualmente utilizzati nei modelli. Per favore, assegna materiali diversi ai seguenti modelli per continuare con l'eliminazione:",
+    "updateMaterial_one": "<bold>{{name}}</bold> verrà aggiornato all'ultima versione.",
+    "updateMaterial_other": "{{count}} file INI di materiali verranno aggiornati all'ultima versione."
+  },
+  "title": {
+    "addMaterials": "Aggiungi materiali",
+    "deleteMaterial": "Eliminare il materiale?",
+    "materialAlreadyAdded": "File di materiale già aggiunto",
+    "materialNameConflict": "Nomi di materiali già esistenti",
+    "materials": "Materiali",
+    "noMaterials": "Nessun materiale nella libreria",
+    "unableToDelete_one": "Impossibile eliminare il materiale",
+    "unableToDelete_other": "Impossibile eliminare i materiali",
+    "updateMaterial_one": "Aggiornare il materiale?",
+    "updateMaterial_other": "Aggiornare i materiali?"
+  },
+  "tooltips": {
+    "materials": "Elenca tutti i materiali che sono stati aggiunti al Funnel.\n\nI materiali possono essere aggiunti dalla Open Material Library oppure caricati manualmente."
+  }
+}

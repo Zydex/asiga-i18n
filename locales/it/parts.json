@@ -1,0 +1,131 @@
+{
+  "emptyPartsMessages": {
+    "allParts": {
+      "message": "Quando le parti vengono accettate nella posta in arrivo, appariranno qui per essere prese in considerazione per la stampa",
+      "title": "Nessuna parte pronta per la stampa"
+    },
+    "printReady": {
+      "message": "Le parti pronte per essere aggiunte a un lavoro di stampa appariranno qui",
+      "title": "Nessuna parte in coda"
+    },
+    "sent": {
+      "message": "Le parti appariranno qui quando saranno state assemblate in un lavoro di stampa e inviate alla stampante",
+      "title": "Nessuna parte inviata"
+    }
+  },
+  "group": {
+    "tooLarge": "Gruppo troppo grande",
+    "tooLargeTooltip": "Il gruppo è troppo grande per stare su qualsiasi piattaforma di stampa specificata da questo modello.\n\nRimuovi il raggruppamento delle parti oppure aggiorna il modello per utilizzare una stampante più grande."
+  },
+  "label": {
+    "allParts": "Tutte le parti",
+    "partsQueue": "Parti in coda",
+    "printReady": "Pronto per la stampa",
+    "sent": "Inviato"
+  },
+  "status": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "Accetta parte per la stampa",
+      "partAccepted": "Parte accettata"
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Approva lavoro di stampa",
+      "printJobApproved": "Lavoro di stampa approvato",
+      "printJobPendingApproval": "Lavoro di stampa in attesa di approvazione"
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "Aggiunto al lavoro di stampa",
+      "generatingSupports": "Generazione supporti",
+      "nestedInProvisionalJob": "Annidato in un lavoro provvisorio",
+      "nestingFailed": "Annidamento non riuscito",
+      "nestingPrintJob": "Aggiunta al lavoro provvisorio",
+      "nestPrintJob": "Annidare il lavoro di stampa",
+      "partQueued": "Parte in coda",
+      "partTooLarge": "Parte troppo grande"
+    },
+    "orientatePart": {
+      "orientatePart": "Orienta parte",
+      "orientatingPart": "Orientamento della parte in corso",
+      "orientationFailed": "Orientamento non riuscito",
+      "partOrientated": "Parte orientata"
+    },
+    "partIdentification": {
+      "confirmPartType": "Conferma tipo di parte",
+      "identifyingPartType": "Identificazione del tipo di parte",
+      "partIdentification": "Identificazione della parte",
+      "partTypeConfirmed": "Tipo di parte confermato"
+    },
+    "print": {
+      "print": "Stampa",
+      "printed": "Stampato",
+      "printFailed": "Stampa non riuscita",
+      "printing": "Stampa in corso"
+    },
+    "rejected": "Rifiutato",
+    "sendToPrinter": {
+      "printJobDownloaded": "Lavoro di stampa scaricato",
+      "sendingFailed": "Invio non riuscito",
+      "sendingToPrinter": "Invio alla stampante in corso",
+      "sendToPrinter": "Invia alla stampante",
+      "sentToPrinter": "Inviato alla stampante",
+      "slicingFailed": "Sezionamento non riuscito",
+      "slicingPrintJob": "Sezionamento del lavoro di stampa in corso"
+    }
+  },
+  "statusTooltips": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "La parte è in attesa che l'utente la accetti.",
+      "partAccepted": "La parte è stata accettata per la stampa."
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Approva i lavori provvisori per l'invio alle stampanti.",
+      "printJobApproved": "Il lavoro è stato accettato per la stampa.",
+      "printJobPendingApproval": "Il lavoro provvisorio è in attesa che l'utente lo accetti."
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "La parte è stata aggiunta a un lavoro di stampa.",
+      "generatingSupports": "I supporti vengono aggiunti al lavoro provvisorio prima che venga finalizzato per l'approvazione della stampa da parte dell'utente.",
+      "nestedInProvisionalJob": "La parte è stata annidata in un lavoro provvisorio. Verrà finalizzata quando:<ul><li>Vengono aggiunte altre parti per completare il lavoro</li><li>Una stampante adatta sta per diventare disponibile per stamparla</li></ul>",
+      "nestingFailed": "L'annidamento delle parti non è riuscito.\nQuesto potrebbe essere causato da problemi con il file della parte.",
+      "nestingPrintJob": "La parte è in fase di annidamento in un lavoro provvisorio.",
+      "nestPrintJob": "La parte verrà annidata quando una stampante adatta diventerà disponibile, secondo un criterio “primo arrivato, primo servito”.",
+      "partQueued": "La parte verrà annidata quando una stampante adatta diventerà disponibile, secondo un criterio “primo arrivato, primo servito”.",
+      "partTooLarge": "La parte è troppo grande per le stampanti specificate nel modello di stampa.\n\nControlla le dimensioni della parte o valuta di aggiungere una stampante più grande al modello."
+    },
+    "orientatePart": {
+      "orientatePart": "Orienta la parte in base al suo tipo.",
+      "orientatingPart": "La parte è attualmente in fase di orientamento in base al suo tipo.",
+      "orientationFailed": "Non è stato possibile orientare correttamente la parte per la stampa.\nQuesto potrebbe essere causato da problemi con il file della parte.",
+      "partOrientated": "La parte è stata orientata correttamente per la stampa."
+    },
+    "partIdentification": {
+      "confirmPartType": "In attesa di conferma sul tipo di parte.\nQuesto determina come viene orientata una parte e i modelli suggeriti.",
+      "identifyingPartType": "Analisi della geometria della parte per identificarne il tipo.",
+      "partIdentification": "Analizza la geometria della parte per identificare il tipo di parte.",
+      "partTypeConfirmed": "Il tipo di parte è stato confermato dall'utente."
+    },
+    "print": {
+      "print": "Il lavoro inizierà a stampare su un dispositivo.",
+      "printed": "Il lavoro di stampa è stato completato con successo.",
+      "printFailed": "Il lavoro di stampa non è riuscito.\nConsulta lo schermo della stampante per maggiori informazioni.",
+      "printing": "Il lavoro di stampa è attualmente in corso di stampa."
+    },
+    "rejected": "La parte è stata rifiutata da un utente.",
+    "sendToPrinter": {
+      "printJobDownloaded": "Il lavoro di stampa è stato scaricato per la modifica manuale in Composer.",
+      "sendingFailed": "L'invio del lavoro di stampa alla stampante non è riuscito.\nQuesto potrebbe essere causato da problemi di connettività della stampante.",
+      "sendingToPrinter": "Invio del lavoro alla stampante in corso.",
+      "sendToPrinter": "Il lavoro viene preparato e inviato alla stampante.",
+      "sentToPrinter": "Lavoro di stampa inviato.",
+      "slicingFailed": "Il lavoro di stampa non è riuscito durante la preparazione degli strati di stampa.\nQuesto potrebbe essere causato da problemi con i file delle parti.",
+      "slicingPrintJob": "Gli strati di stampa sono in fase di preparazione."
+    }
+  },
+  "title": {
+    "parts": "Parti"
+  },
+  "tooltips": {
+    "allParts": "Tutte le parti che sono state accettate vengono mostrate qui, insieme al loro stato.",
+    "partsQueue": "Le parti in coda per la stampa vengono mostrate qui, raggruppate per modello."
+  }
+}

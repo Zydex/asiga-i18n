@@ -1,0 +1,238 @@
+{
+  "basePlate": {
+    "addTo": {
+      "enum": {
+        "allParts": "Alla delar",
+        "supportedParts": "Delar med stöd"
+      },
+      "label": "Lägg till basplatta på",
+      "tooltip": "Lägg till en basplatta på delar som stöds, eller alla delar."
+    },
+    "enabled": {
+      "label": "Basplatta",
+      "tooltip": "Aktivera generering av basplatta"
+    },
+    "engraved": {
+      "label": "Lägg till byggnamn på basplattan",
+      "tooltip": "Lägg till byggnamnet och XYZ-upplösningen i µm på basplattan."
+    },
+    "meshShape": {
+      "enum": {
+        "hexagon": "Hexagon",
+        "none": "Ingen",
+        "square": "Fyrkant",
+        "triangle": "Triangel"
+      },
+      "label": "Nätform",
+      "tooltip": "Om du väljer en annan form än Ingen läggs ett mönster av hål till i basplattan med den valda formen."
+    },
+    "meshSize": {
+      "label": "Nätstorlek",
+      "tooltip": "Diametern på hålen i basplattan."
+    },
+    "meshWidth": {
+      "label": "Nätbredd",
+      "tooltip": "Tjockleken på väggarna mellan hålen."
+    },
+    "placement": {
+      "enum": {
+        "intersecting": "Skärande",
+        "underneath": "Under"
+      },
+      "label": "Placering",
+      "tooltip": "Placeringen av basplattan i förhållande till varje del och dess stöd.\n<ul><li>Under - flytta delar och stöd uppåt och placera byggplattan under.</li><li>Skärande - låt byggplattan skära delens eller dess stöds undersida.</li></lu>"
+    },
+    "thickness": {
+      "label": "Tjocklek",
+      "tooltip": "Basplattans tjocklek i millimeter."
+    },
+    "type": {
+      "enum": {
+        "boundingBox": "Avgränsande låda",
+        "full": "Full",
+        "shadow": "Skugga"
+      },
+      "label": "Typ",
+      "tooltip": "Basplattetyp:\n<ul><li>Full - täck hela plattformen med en basplatta</li><li>Skugga - täck regioner direkt under delarna.</li><li>Avgränsande låda - täck det avgränsande området för varje del.</li></ul>"
+    }
+  },
+  "button": {
+    "editBasePlateSettings": "Redigera..."
+  },
+  "label": {
+    "associatedPartType": "Associerad deltyp",
+    "associatedWith": "Associerad med",
+    "basePlateSettings": "Basplattinställningar",
+    "default": "Standard",
+    "deleted": "Borttagen mall",
+    "deleteSuccess_one": "{{count}} mall borttagen",
+    "deleteSuccess_other": "{{count}} mallar borttagna",
+    "enabled": "Aktiverad",
+    "fastPrintMode": "Snabbt utskriftsläge",
+    "manufacturer": "Tillverkare",
+    "material": "Material",
+    "materialName": "Materialnamn",
+    "outdated": "Föråldrad mall",
+    "overrideMaterialSettings": "Om du anger värden i dessa fält åsidosätts standardvärdena som anges av materialet.",
+    "partType": "Deltyp",
+    "partTypes_other": "{{count}} deltyper",
+    "partTypes_other_one": "1 deltyp",
+    "partTypes_other_other": "{{count}} deltyper",
+    "printerAndTrayType": "Skrivar- och brickstyper",
+    "printerModel": "Skrivarmodell",
+    "search": "Sök efter mallar",
+    "selectThickness": "Välj lagertjocklek",
+    "separationDetect": "Separationsdetektering",
+    "supports": "Stöd",
+    "templateName": "Mallnamn",
+    "thickness": "Lagertjocklek",
+    "tray": "Bricka",
+    "trayType": "Brickstyp"
+  },
+  "message": {
+    "changesApplyToNewParts": "Befintliga delar uppdateras med de nya mallinställningarna och köas på nytt för utskrift.",
+    "deleteTemplateWarning": "Delar som använder denna mall returneras till inkorgen för granskning. Tilldela en ny mall för att skriva ut dem, eller avvisa dem för att ta bort dem från tratten.",
+    "modifyWillAffectParts": "Associerade deltyper som använder denna mall kommer att köas på nytt för utskrift, och eventuella borttagna deltyper returneras till inkorgen för granskning.",
+    "modifyWillRequeueParts": "Befintliga delar uppdateras med de nya mallinställningarna och köas på nytt för utskrift.",
+    "noTemplates": "Inga mallar",
+    "noTemplatesInfo": "Mallar visas här. Använd knappen \"Skapa\" för att skapa din första mall."
+  },
+  "supportSettings": {
+    "accuracyZ": {
+      "label": "Noggrannhet Z",
+      "tooltip": "Skivtjockleken som används för att automatiskt generera strukturer och undvika skärning med delen."
+    },
+    "aspectRatio": {
+      "label": "Bildförhållande",
+      "tooltip": "Styr hur snabbt stödstrukturerna vidgas."
+    },
+    "connectGap": {
+      "label": "Anslutningsgap",
+      "tooltip": "Antal gitternivåer att undertrycka anslutning efter att en vertikal anslutning hittades (tillgänglig)."
+    },
+    "connection": {
+      "label": "Anslutning",
+      "tooltip": "Antal noder att ansluta på gitternivån nedanför. Om detta värde sätts till 0 skapas flexibla stöd."
+    },
+    "contactWidth": {
+      "label": "Kontaktbredd",
+      "tooltip": "För standardstöd: Bredden på stödstrukturen där den vidrör delen.\n\nFör gitterstöd: Bredden på kontaktkulan där den vidrör delen."
+    },
+    "halfContactWidth": {
+      "label": "Halv kontaktbredd",
+      "tooltip": "Försök igen att lägga till kontaktpunkter med halva bredden."
+    },
+    "heightLevel": {
+      "label": "Höjdnivå",
+      "toggle": "Höjdutjämning",
+      "tooltip": "Applicera en Z-marginal mellan delarna och plattformen."
+    },
+    "islandWidth": {
+      "label": "Ö-bredd",
+      "tooltip": "För standardstöd: Bredden på stödstrukturen vid första kontakten med delen.\n\nFör gitterstöd: Bredden på kontaktkulan vid första kontakten för varje delkropp."
+    },
+    "lattice": {
+      "label": "Gitter",
+      "tooltip": "Aktivera gitterstöd. Gitterstöd skapar ett sammankopplat nätverk av stödbalkar runt modellen."
+    },
+    "layout": {
+      "enum": {
+        "circle": "Cirkel",
+        "hexagon": "Hexagon",
+        "square": "Fyrkant",
+        "triangle": "Triangel"
+      },
+      "label": "Layout",
+      "tooltip": "Hur noder sprids över XY-positioner."
+    },
+    "margin": {
+      "label": "Marginal",
+      "tooltip": "Ytterligare kollisionsundvikande avstånd från delen."
+    },
+    "maximumWidth": {
+      "label": "Maximal bredd",
+      "tooltip": "Begränsar bredden på stödstrukturer vid basen."
+    },
+    "minimumHeight": {
+      "label": "Minsta höjd",
+      "tooltip": "Undvik att lägga till stöd som skär igen om deras höjd är mindre än den angivna höjden."
+    },
+    "modelInterSupport": {
+      "label": "Modellinterstöd",
+      "tooltip": "Tillåt stödpelare som skär igen och vilar på delen."
+    },
+    "selfSupportAngle": {
+      "label": "Självbärande vinkel",
+      "tooltip": "Vinkeln i grader från horisontalplanet som inte kräver stöd."
+    },
+    "sideFaces": {
+      "label": "Sidoytor",
+      "tooltip": "Definierar antalet sidoytor för nya stödstrukturer."
+    },
+    "sideFeaturesSize": {
+      "label": "Storlek på sidodetaljer",
+      "tooltip": "Avståndet en detalj kan sticka ut från en yta utan att stödjas."
+    },
+    "spacingXY": {
+      "label": "Avstånd XY",
+      "tooltip": "Avstånd mellan noder över XY-planet"
+    },
+    "spacingZ": {
+      "label": "Avstånd Z",
+      "tooltip": "Avstånd mellan gitternivåer över Z-axeln."
+    },
+    "supportSpacing": {
+      "label": "Stödavstånd",
+      "tooltip": "Avstånd mellan stödpunkter på en del."
+    },
+    "tallestSupport": {
+      "label": "Högsta stöd",
+      "tooltip": "Ignorera alla stödbara funktioner ovanför den angivna höjden."
+    },
+    "undershoot": {
+      "label": "Under-/överskjutning",
+      "tooltip": "För standardstöd: Det maximala injicerade avståndet där stödpunkten går in i delen.\n\nFör gitterstöd: Avstånd från kontaktpunkten där strukturen börjar avsmalna till en punkt."
+    }
+  },
+  "title": {
+    "changesApplyToNewParts": "Ändringar gäller för nya delar",
+    "classificationSupportSettings": "{{classification}} – stödstrukturer",
+    "createTemplate": "Ny mall",
+    "deleteTemplate": "Ta bort mall?",
+    "deleteTemplate_zero": "Ta bort mall?",
+    "deleteTemplate_one": "{{count}} del kommer att returneras till inkorgen",
+    "deleteTemplate_other": "{{count}} delar kommer att returneras till inkorgen",
+    "editTemplate": "Redigera mall",
+    "modifyWillAffectParts": "Delar kan påverkas av denna ändring",
+    "modifyWillAffectParts_zero": "Delar kan påverkas av denna ändring",
+    "modifyWillAffectParts_one": "{{count}} del kommer att påverkas av denna ändring",
+    "modifyWillAffectParts_other": "{{count}} delar kommer att påverkas av denna ändring",
+    "modifyWillRequeueParts": "Delar kan komma att köas på nytt",
+    "modifyWillRequeueParts_zero": "Delar kan komma att köas på nytt",
+    "modifyWillRequeueParts_one": "{{count}} del kommer att köas på nytt",
+    "modifyWillRequeueParts_other": "{{count}} delar kommer att köas på nytt",
+    "templateBasePlate": "{{name}} basplatta"
+  },
+  "tooltip": {
+    "defaultPartType": "Gör detta till standardmallen för den valda deltypen",
+    "defaultPartType_disabled": "Detta är för närvarande standardmallen för {{partType}}. Välj en annan mall som standard för att ersätta den.",
+    "defaultPartType_only": "Detta är standardmallen eftersom ingen annan mall är associerad med denna deltyp",
+    "fastPrintMode": "<bold>Snabbt utskriftsläge</bold>\nAccelererar alla icke-nödvändiga rörelser av byggplattformen, vilket snabbt omplacerar mellan lager för att minimera väntetid och förkorta den totala utskriftstiden.",
+    "separationDetect": "<bold>Separationsdetektering</bold>\nUpptäcker filmlossning och minskar lyftavståndet mellan lager.\n\nKan riskera utskriftsfel om separationen inte registreras korrekt."
+  },
+  "types": {
+    "printerTypes": {
+      "max": "Max & Max 2",
+      "pro": "Pro 4K",
+      "ultra": "Ultra"
+    },
+    "trays": {
+      "endurance": "Endurance",
+      "LIFT": "LIFT",
+      "lowForce": "Low Force",
+      "ultraGLOSS": "UltraGLOSS",
+      "ultraGLOSSLIFT": "UltraGLOSS LIFT",
+      "universal": "Universal"
+    }
+  }
+}

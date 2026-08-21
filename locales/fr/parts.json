@@ -1,0 +1,131 @@
+{
+  "emptyPartsMessages": {
+    "allParts": {
+      "message": "Lorsque des pièces sont acceptées dans la boîte de réception, elles apparaîtront ici pour être prises en compte pour l'impression",
+      "title": "Aucune pièce prête à imprimer"
+    },
+    "printReady": {
+      "message": "Les pièces prêtes à être ajoutées à une tâche d'impression apparaîtront ici",
+      "title": "Aucune pièce mise en file d'attente"
+    },
+    "sent": {
+      "message": "Les pièces apparaîtront ici une fois assemblées dans une tâche d'impression et envoyées à l'imprimante",
+      "title": "Aucune pièce envoyée"
+    }
+  },
+  "group": {
+    "tooLarge": "Groupe trop grand",
+    "tooLargeTooltip": "Le groupe est trop grand pour tenir sur toute plateforme d'imprimante spécifiée par ce modèle.\n\nDégroupez les pièces ou mettez à jour le modèle pour utiliser une imprimante plus grande."
+  },
+  "label": {
+    "allParts": "Toutes les pièces",
+    "partsQueue": "Pièces mises en file d'attente",
+    "printReady": "Prêt à imprimer",
+    "sent": "Envoyé"
+  },
+  "status": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "Accepter la pièce pour impression",
+      "partAccepted": "Pièce acceptée"
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Approuver la tâche d'impression",
+      "printJobApproved": "Tâche d'impression approuvée",
+      "printJobPendingApproval": "Tâche d'impression en attente d'approbation"
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "Ajouté à la tâche d'impression",
+      "generatingSupports": "Génération des supports",
+      "nestedInProvisionalJob": "Imbriqué dans une tâche provisoire",
+      "nestingFailed": "Échec de l'imbrication",
+      "nestingPrintJob": "Ajout à la tâche provisoire",
+      "nestPrintJob": "Imbriquer la tâche d'impression",
+      "partQueued": "Pièce mise en file d'attente",
+      "partTooLarge": "Pièce trop grande"
+    },
+    "orientatePart": {
+      "orientatePart": "Orienter la pièce",
+      "orientatingPart": "Orientation de la pièce",
+      "orientationFailed": "Échec de l'orientation",
+      "partOrientated": "Pièce orientée"
+    },
+    "partIdentification": {
+      "confirmPartType": "Confirmer le type de pièce",
+      "identifyingPartType": "Identification du type de pièce",
+      "partIdentification": "Identification de la pièce",
+      "partTypeConfirmed": "Type de pièce confirmé"
+    },
+    "print": {
+      "print": "Imprimer",
+      "printed": "Imprimé",
+      "printFailed": "Échec de l'impression",
+      "printing": "Impression"
+    },
+    "rejected": "Rejeté",
+    "sendToPrinter": {
+      "printJobDownloaded": "Tâche d'impression téléchargée",
+      "sendingFailed": "Échec de l'envoi",
+      "sendingToPrinter": "Envoi à l'imprimante",
+      "sendToPrinter": "Envoyer à l'imprimante",
+      "sentToPrinter": "Envoyé à l'imprimante",
+      "slicingFailed": "Échec du découpage",
+      "slicingPrintJob": "Découpage de la tâche d'impression"
+    }
+  },
+  "statusTooltips": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "La pièce attend que l'utilisateur l'accepte.",
+      "partAccepted": "La pièce a été acceptée pour l'impression."
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Approuvez les tâches provisoires pour l'envoi aux imprimantes.",
+      "printJobApproved": "La tâche a été acceptée pour l'impression.",
+      "printJobPendingApproval": "La tâche provisoire attend que l'utilisateur l'accepte."
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "La pièce a été ajoutée à une tâche d'impression.",
+      "generatingSupports": "Des supports sont ajoutés à la tâche provisoire avant qu'elle ne soit finalisée pour que l'utilisateur puisse l'approuver pour l'impression.",
+      "nestedInProvisionalJob": "La pièce a été imbriquée dans une tâche provisoire. Elle sera finalisée lorsque :<ul><li>D'autres pièces sont ajoutées pour compléter la tâche</li><li>Une imprimante adaptée est sur le point d'être disponible pour l'imprimer</li></ul>",
+      "nestingFailed": "L'imbrication des pièces a échoué.\nCela peut être dû à des problèmes avec le fichier de la pièce.",
+      "nestingPrintJob": "La pièce est en cours d'imbrication dans une tâche provisoire.",
+      "nestPrintJob": "La pièce sera imbriquée lorsqu'une imprimante adaptée sera disponible, selon le principe « premier arrivé, premier servi ».",
+      "partQueued": "La pièce sera imbriquée lorsqu'une imprimante adaptée sera disponible, selon le principe « premier arrivé, premier servi ».",
+      "partTooLarge": "La pièce est trop grande pour les imprimantes spécifiées dans le modèle d'impression.\n\nVérifiez la taille de la pièce ou envisagez d'ajouter une imprimante plus grande au modèle."
+    },
+    "orientatePart": {
+      "orientatePart": "Orienter la pièce en fonction de son type.",
+      "orientatingPart": "La pièce est actuellement orientée en fonction de son type.",
+      "orientationFailed": "La pièce n'a pas pu être orientée avec succès pour l'impression.\nCela peut être dû à des problèmes avec le fichier de la pièce.",
+      "partOrientated": "La pièce a été orientée avec succès pour l'impression."
+    },
+    "partIdentification": {
+      "confirmPartType": "En attente de confirmation du type de pièce.\nCela détermine la façon dont une pièce est orientée et les modèles qui sont suggérés.",
+      "identifyingPartType": "Analyse de la géométrie de la pièce pour identifier son type.",
+      "partIdentification": "Analyser la géométrie de la pièce pour identifier son type.",
+      "partTypeConfirmed": "Le type de pièce a été confirmé par l'utilisateur."
+    },
+    "print": {
+      "print": "La tâche commencera à imprimer sur un appareil.",
+      "printed": "La tâche d'impression s'est terminée avec succès.",
+      "printFailed": "La tâche d'impression a échoué.\nConsultez l'écran de l'imprimante pour plus d'informations.",
+      "printing": "La tâche d'impression est en cours d'impression."
+    },
+    "rejected": "La pièce a été rejetée par un utilisateur.",
+    "sendToPrinter": {
+      "printJobDownloaded": "La tâche d'impression a été téléchargée pour une modification manuelle dans Composer.",
+      "sendingFailed": "La tâche d'impression a échoué lors de l'envoi à l'imprimante.\nCela peut être dû à des problèmes de connectivité de l'imprimante.",
+      "sendingToPrinter": "Envoi de la tâche à l'imprimante.",
+      "sendToPrinter": "Prépare et envoie la tâche à une imprimante.",
+      "sentToPrinter": "Tâche d'impression envoyée.",
+      "slicingFailed": "La tâche d'impression a échoué lors de la préparation des couches d'impression.\nCela peut être dû à des problèmes avec les fichiers de pièces.",
+      "slicingPrintJob": "Les couches d'impression sont en cours de préparation."
+    }
+  },
+  "title": {
+    "parts": "Pièces"
+  },
+  "tooltips": {
+    "allParts": "Toutes les pièces qui ont été acceptées sont affichées ici, avec leur statut.",
+    "partsQueue": "Les pièces en attente d'impression sont affichées ici, regroupées par modèle."
+  }
+}

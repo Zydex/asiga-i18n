@@ -1,0 +1,43 @@
+{
+  "approvals": {
+    "jobs": {
+      "message": "Cuando está habilitado, los trabajos de impresión se aceptan automáticamente y se envían a una impresora.",
+      "title": "Aceptar trabajos automáticamente"
+    },
+    "parts": {
+      "message": "Cuando está habilitado, las piezas con una plantilla se aceptan automáticamente para su fabricación.",
+      "title": "Aceptar piezas automáticamente"
+    },
+    "title": "Aprobaciones",
+    "tooltips": {
+      "editPermission": "No tienes permiso para actualizar la configuración de aprobaciones. Pide a un administrador o propietario de tu organización que realice los cambios"
+    }
+  },
+  "autoPartGrouping": {
+    "label": {
+      "characterPosition": "Posición del carácter",
+      "characterRange": "Rango de caracteres",
+      "example": "Ejemplo",
+      "fromEnd": "Desde el final",
+      "fromStart": "Desde el inicio",
+      "grouping": "Agrupación automática",
+      "grouping_off": "Agrupación automática desactivada",
+      "grouping_on": "Agrupación automática activada",
+      "startingCharacterPosition": "Posición inicial del carácter"
+    },
+    "message": "Agrupa automáticamente las piezas para que se impriman juntas en el mismo trabajo. Configura el rango de caracteres coincidentes para que se ajuste a una convención que utilices.",
+    "title": "Agrupación automática de piezas",
+    "tooltips": {
+      "characterPosition": "Especifica el carácter que se debe hacer coincidir en relación con el inicio del nombre de la pieza cargada, o con el final del nombre de la pieza cargada. Útil si los números de pedido aparecen al inicio o al final del nombre de la pieza cargada.",
+      "characterRange": "Especifica la cantidad de caracteres que deseas hacer coincidir.",
+      "editPermission": "No tienes permiso para actualizar la configuración de agrupación automática. Pide a un administrador o propietario de tu organización que realice los cambios",
+      "startingCharacterPosition": "¿A cuántos espacios de caracteres desde el inicio o el final deseas que comience el rango? Útil si los números de pedido aparecen en medio de un nombre."
+    }
+  },
+  "label": {
+    "rules": "Reglas"
+  },
+  "tooltips": {
+    "rules": "Configuraciones que afectan cómo se procesan las piezas y los trabajos de impresión en el Funnel de tu organización."
+  }
+}

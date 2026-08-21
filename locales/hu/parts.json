@@ -1,0 +1,131 @@
+{
+  "emptyPartsMessages": {
+    "allParts": {
+      "message": "A Beérkezőben elfogadott alkatrészek itt jelennek meg, hogy mérlegeljék nyomtatásukat.",
+      "title": "Nincsenek nyomtatásra kész alkatrészek"
+    },
+    "printReady": {
+      "message": "Az alkatrészek, amelyek készen állnak arra, hogy hozzáadják őket egy nyomtatási feladathoz, itt fognak megjelenni",
+      "title": "Nincsenek sorba állított alkatrészek"
+    },
+    "sent": {
+      "message": "Az alkatrészek itt fognak megjelenni, amikor összeállították őket egy nyomtatási feladatba, és elküldték a nyomtatóra",
+      "title": "Nincsenek elküldött alkatrészek"
+    }
+  },
+  "group": {
+    "tooLarge": "A csoport túl nagy",
+    "tooLargeTooltip": "A csoport túl nagy ahhoz, hogy elférjen bármelyik, a sablonban megadott nyomtatóplatformon.\n\nBontsa fel a csoportot, vagy módosítsa a sablont egy nagyobb nyomtató használatához."
+  },
+  "label": {
+    "allParts": "Összes alkatrész",
+    "partsQueue": "Sorba állított alkatrészek",
+    "printReady": "Nyomtatásra kész",
+    "sent": "Elküldve"
+  },
+  "status": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "Alkatrész elfogadása nyomtatásra",
+      "partAccepted": "Alkatrész elfogadva"
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Nyomtatási feladat jóváhagyása",
+      "printJobApproved": "Nyomtatási feladat jóváhagyva",
+      "printJobPendingApproval": "Nyomtatási feladat jóváhagyásra vár"
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "Hozzáadva a nyomtatási feladathoz",
+      "generatingSupports": "Támaszok generálása",
+      "nestedInProvisionalJob": "Beillesztve egy ideiglenes feladatba",
+      "nestingFailed": "Az elrendezés sikertelen",
+      "nestingPrintJob": "Hozzáadás az ideiglenes feladathoz",
+      "nestPrintJob": "Nyomtatási feladat elrendezése",
+      "partQueued": "Alkatrész sorba állítva",
+      "partTooLarge": "Az alkatrész túl nagy"
+    },
+    "orientatePart": {
+      "orientatePart": "Alkatrész tájolása",
+      "orientatingPart": "Alkatrész tájolása folyamatban",
+      "orientationFailed": "A tájolás sikertelen",
+      "partOrientated": "Alkatrész betájolva"
+    },
+    "partIdentification": {
+      "confirmPartType": "Alkatrésztípus megerősítése",
+      "identifyingPartType": "Alkatrésztípus azonosítása",
+      "partIdentification": "Alkatrész azonosítása",
+      "partTypeConfirmed": "Alkatrésztípus megerősítve"
+    },
+    "print": {
+      "print": "Nyomtatás",
+      "printed": "Kinyomtatva",
+      "printFailed": "A nyomtatás sikertelen",
+      "printing": "Nyomtatás folyamatban"
+    },
+    "rejected": "Elutasítva",
+    "sendToPrinter": {
+      "printJobDownloaded": "Nyomtatási feladat letöltve",
+      "sendingFailed": "A küldés sikertelen",
+      "sendingToPrinter": "Küldés a nyomtatóra",
+      "sendToPrinter": "Elküldés a nyomtatóra",
+      "sentToPrinter": "Elküldve a nyomtatóra",
+      "slicingFailed": "A szeletelés sikertelen",
+      "slicingPrintJob": "Nyomtatási feladat szeletelése"
+    }
+  },
+  "statusTooltips": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "Az alkatrész arra vár, hogy a felhasználó elfogadja.",
+      "partAccepted": "Az alkatrészt elfogadták nyomtatásra."
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Ideiglenes feladatok jóváhagyása a nyomtatókra való küldéshez.",
+      "printJobApproved": "A feladatot elfogadták nyomtatásra.",
+      "printJobPendingApproval": "Az ideiglenes feladat arra vár, hogy a felhasználó elfogadja."
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "Az alkatrészt hozzáadták egy nyomtatási feladathoz.",
+      "generatingSupports": "Támaszokat adnak hozzá az ideiglenes feladathoz, mielőtt véglegesítik, hogy a felhasználó jóváhagyhassa a nyomtatásra.",
+      "nestedInProvisionalJob": "Az alkatrészt beillesztették egy ideiglenes feladatba. A feladat akkor válik véglegessé, ha:<ul><li>További alkatrészeket adnak hozzá a feladat feltöltéséhez</li><li>Hamarosan elérhetővé válik egy megfelelő nyomtató a kinyomtatásához</li></ul>",
+      "nestingFailed": "Az alkatrészek elrendezése sikertelen volt.\nEnnek oka az alkatrészfájllal kapcsolatos probléma lehet.",
+      "nestingPrintJob": "Az alkatrész elrendezése egy ideiglenes feladatban folyamatban van.",
+      "nestPrintJob": "Az alkatrész akkor kerül elrendezésre, amikor egy megfelelő nyomtató elérhetővé válik, „elsőként be, elsőként ki” alapon.",
+      "partQueued": "Az alkatrész akkor kerül elrendezésre, amikor egy megfelelő nyomtató elérhetővé válik, „elsőként be, elsőként ki” alapon.",
+      "partTooLarge": "Az alkatrész túl nagy a nyomtatási sablonban megadott nyomtatókhoz.\n\nEllenőrizze az alkatrész méretét, vagy fontolja meg egy nagyobb nyomtató hozzáadását a sablonhoz."
+    },
+    "orientatePart": {
+      "orientatePart": "Alkatrész tájolása típusa alapján.",
+      "orientatingPart": "Az alkatrész tájolása jelenleg a típusa alapján folyamatban van.",
+      "orientationFailed": "Az alkatrészt nem sikerült megfelelően betájolni nyomtatáshoz.\nEnnek oka az alkatrészfájllal kapcsolatos probléma lehet.",
+      "partOrientated": "Az alkatrész sikeresen be lett tájolva a nyomtatáshoz."
+    },
+    "partIdentification": {
+      "confirmPartType": "Az alkatrésztípus megerősítésére vár.\nEz határozza meg, hogyan tájolják be az alkatrészt, és milyen sablonokat javasolnak.",
+      "identifyingPartType": "Az alkatrész geometriájának elemzése az alkatrésztípus azonosításához.",
+      "partIdentification": "Az alkatrész geometriájának elemzése az alkatrésztípus azonosítása érdekében.",
+      "partTypeConfirmed": "Az alkatrésztípust a felhasználó megerősítette."
+    },
+    "print": {
+      "print": "A feladat nyomtatása elkezdődik egy eszközön.",
+      "printed": "A nyomtatási feladat sikeresen befejeződött.",
+      "printFailed": "A nyomtatási feladat sikertelen volt.\nTovábbi információért tekintse meg a nyomtató kijelzőjét.",
+      "printing": "A nyomtatási feladat jelenleg nyomtatás alatt áll."
+    },
+    "rejected": "Az alkatrészt egy felhasználó elutasította.",
+    "sendToPrinter": {
+      "printJobDownloaded": "A nyomtatási feladatot letöltötték a Composerben történő manuális szerkesztéshez.",
+      "sendingFailed": "A nyomtatási feladat sikertelen volt a nyomtatóra küldés során.\nEnnek oka a nyomtató csatlakozási problémái lehetnek.",
+      "sendingToPrinter": "A feladat elküldése a nyomtatóra.",
+      "sendToPrinter": "Előkészíti és elküldi a feladatot egy nyomtatóra.",
+      "sentToPrinter": "A nyomtatási feladat elküldve.",
+      "slicingFailed": "A nyomtatási feladat sikertelen volt a nyomtatási rétegek előkészítése közben.\nEnnek oka az alkatrészfájlokkal kapcsolatos problémák lehetnek.",
+      "slicingPrintJob": "A nyomtatási rétegek előkészítése folyamatban van."
+    }
+  },
+  "title": {
+    "parts": "Alkatrészek"
+  },
+  "tooltips": {
+    "allParts": "Itt jelenik meg az összes elfogadott alkatrész, az állapotukkal együtt.",
+    "partsQueue": "Itt jelennek meg a nyomtatásra sorba állított alkatrészek, sablonjuk szerint csoportosítva."
+  }
+}

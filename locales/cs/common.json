@@ -1,0 +1,772 @@
+{
+  "alt": {
+    "logo": "Asiga Web Portal",
+    "noSearchResults": "Žádné výsledky hledání",
+    "sort": "Řadit podle"
+  },
+  "boolean": {
+    "false": "nepravda",
+    "true": "pravda"
+  },
+  "button": {
+    "accept": "Přijmout",
+    "acceptAll": "Přijmout vše",
+    "add": "Přidat",
+    "addMore_zero": "Přidat...",
+    "addMore_one": "Přidat další...",
+    "addMore_other": "Přidat další...",
+    "apply": "Použít",
+    "back": "Zpět",
+    "cancel": "Zrušit",
+    "close": "Zavřít",
+    "confirm": "Potvrdit",
+    "connect": "Připojit",
+    "continue": "Pokračovat",
+    "create": "Vytvořit",
+    "delete": "Smazat",
+    "deny": "Odmítnout",
+    "dismiss": "Odebrat",
+    "download": "Stáhnout",
+    "edit": "Upravit",
+    "essentialOnly": "Pouze nezbytné",
+    "invite": "Pozvat",
+    "logout": "Odhlásit se",
+    "off": "Vypnuto",
+    "ok": "OK",
+    "on": "Zapnuto",
+    "pause": "Pozastavit",
+    "promote": "Postoupit",
+    "refresh": "Obnovit",
+    "reject": "Odmítnout",
+    "rejectAll": "Odmítnout vše",
+    "rejectAndRequeue": "Odmítnout a zařadit znovu do fronty",
+    "rejectOnly": "Pouze odmítnout",
+    "remove": "Odebrat",
+    "rename": "Přejmenovat",
+    "reprocess": "Zpracovat znovu",
+    "reset": "Resetovat",
+    "resetToDefault": "Obnovit výchozí nastavení",
+    "retry": "Zkusit znovu",
+    "save": "Uložit",
+    "tooltips": {
+      "changeRoleDisabled": "Nemáte oprávnění měnit roli vybraných uživatelů.",
+      "changeRoleDisabled_admin": "Nemáte oprávnění měnit roli uživatelů s rolí Administrátor nebo Vlastník.",
+      "changeRoleDisabled_owner": "Nemáte oprávnění měnit roli uživatelů s rolí Vlastník.",
+      "changeRoleDisabled_user": "Nemáte oprávnění měnit role ostatních uživatelů.",
+      "deleteUserDisabled": "Nemáte oprávnění odebrat vybrané uživatele.",
+      "deleteUserDisabled_admin": "Nemáte oprávnění odebrat uživatele s rolí Administrátor nebo Vlastník.",
+      "deleteUserDisabled_owner": "Nemáte oprávnění odebrat jiné uživatele s rolí Vlastník.",
+      "deleteUserDisabled_user": "Nemáte oprávnění odebrat ostatní uživatele."
+    },
+    "transfer": "Převést",
+    "unlink": "Zrušit propojení",
+    "update": "Aktualizovat"
+  },
+  "date": {
+    "all": "Vše",
+    "custom": "Vlastní",
+    "daysInterval": "Datové rozmezí",
+    "daysInterval_0": "Dnes",
+    "daysInterval_1": "Včera",
+    "daysInterval_7": "Posledních 7 dní",
+    "homeRange": "Datové rozmezí",
+    "homeRange_currentPeriod": "Fakturační období",
+    "homeRange_last12Months": "Posledních 12 měsíců",
+    "homeRange_lastWeek": "Minulý týden",
+    "homeRange_thisWeek": "Tento týden",
+    "homeRange_today": "Dnes",
+    "homeRange_yesterday": "Včera"
+  },
+  "dateRange": {
+    "error": {
+      "outOfRange": "Vybraná data musí být v rámci posledního roku.",
+      "toBeforeFrom": "Vybrané datum „Do“ nemůže být dřívější než datum „Od“."
+    },
+    "from": "Od",
+    "title": "{{field}} datové rozmezí",
+    "to": "Do"
+  },
+  "details": {
+    "copyLink": "Kopírovat odkaz",
+    "linkCopied": "Odkaz zkopírován do schránky",
+    "linkCopyFailed": "Kopírování odkazu se nezdařilo",
+    "progress": "Průběh"
+  },
+  "dialog": {
+    "no": "Ne",
+    "yes": "Ano"
+  },
+  "displayError": {
+    "button": "Kontaktovat podporu",
+    "message": "Zkontrolujte připojení a zkuste stránku obnovit.\nPokud problém přetrvává, kontaktujte podporu."
+  },
+  "error": {
+    "400": "Požadavek byl neplatný.",
+    "401": "Nejste přihlášeni. Přihlaste se prosím.",
+    "403": "Nemáte oprávnění k provedení tohoto požadavku.",
+    "404": "Tento zdroj nebyl nalezen.",
+    "409": "Váš požadavek nebylo možné zpracovat kvůli konfliktu.",
+    "422": "Tento požadavek nelze ověřit.",
+    "500": "Došlo k neočekávané chybě.",
+    "activeWorkflowNotFound": "Nebyl nalezen žádný aktivní pracovní postup.",
+    "activeWorkflowNotFound_details": "Pro organizaci s ID {{details}} nebyl nalezen žádný aktivní pracovní postup.",
+    "addressCreateForbidden": "Nemáte oprávnění vytvářet adresy pro tuto organizaci.",
+    "addressDeleteForbidden": "Nemáte oprávnění mazat adresy této organizace.",
+    "addressNotFound": "Adresa nebyla nalezena.",
+    "addressNotFound_details": "Adresa s ID {{details}} nebyla nalezena.",
+    "addressUpdateForbidden": "Nemáte oprávnění aktualizovat adresy této organizace.",
+    "auth0BadRequest": "Nelze ověřit vašeho uživatele.",
+    "auth0Forbidden": "Vaše role nemá oprávnění potřebná k provedení tohoto požadavku.",
+    "auth0Unauthorized": "Nejste přihlášeni. Přihlaste se prosím.",
+    "badRequest": "Požadavek byl neplatný.",
+    "conflict": "Váš požadavek nebylo možné zpracovat kvůli konfliktu.",
+    "deviceForbidden": "Nemáte oprávnění zobrazit zařízení této organizace.",
+    "deviceNotFound": "Zařízení nebylo nalezeno.",
+    "deviceNotFound_details": "Zařízení se sériovým číslem „{{details}}“ nebylo nalezeno.",
+    "deviceStateConflict": "Zařízení má požadovaný stav, který ještě nebyl potvrzen.",
+    "fileChecksumMismatch": "Nahraný soubor „{{fileName}}“ se nenahrál správně. Zkuste jej nahrát znovu.",
+    "filesRemoved": "Soubory potřebné pro tuto akci již překročily dobu uchovávání a nejsou dostupné.",
+    "forbidden": "Nemáte oprávnění k provedení tohoto požadavku.",
+    "integrationNotFound": "Integraci se nepodařilo najít.",
+    "jobDownloadIncorrectState": "Zakázku lze stáhnout pouze tehdy, když čeká na kontrolu.",
+    "jobDownloadReportIncorrectState": "Zakázka nemá k dispozici soubor s reportem.",
+    "jobForbidden": "Nemáte oprávnění získat zakázku pro tuto organizaci.",
+    "jobNoPreviewFile": "Zakázka nemá k dispozici náhledový soubor.",
+    "jobNoReportFile": "Zakázka nemá k dispozici soubor s reportem.",
+    "jobNoSlicedBuildFile": "Zakázka nemá připravený rozřezaný soubor sestavy pro tisk.",
+    "jobNotFound": "Zakázka nebyla nalezena.",
+    "jobNotFound_details": "Zakázka s ID {{details}} nebyla nalezena.",
+    "jobReviewIncorrectState": "Zakázka nečeká na kontrolu.",
+    "linkCreateConflict": "Propojení integrace pro tuto organizaci již existuje.",
+    "linkCreateForbidden": "Nemáte oprávnění vytvořit propojení integrace pro tuto organizaci.",
+    "linkDeleteForbidden": "Nemáte oprávnění smazat propojení integrace pro tuto organizaci.",
+    "linkGetForbidden": "Nemáte oprávnění získat propojení integrace pro tuto organizaci.",
+    "linkNotFound": "Propojení integrace nebylo nalezeno.",
+    "linkUpdateForbidden": "Nemáte oprávnění aktualizovat propojení integrace pro tuto organizaci.",
+    "linkUserCreateForbidden": "Nemáte oprávnění vytvořit propojení integrace jménem jiného uživatele.",
+    "luceneIllegalCharacterError": "Nepovolený znak v dotazu Lucene.",
+    "luceneIllegalCharacterError_details": "Nepovolený znak v dotazu Lucene. ({{details}})",
+    "luceneParseError": "Dotaz Lucene se nepodařilo zpracovat.",
+    "luceneSyntaxError": "Syntaktická chyba v dotazu Lucene.",
+    "luceneSyntaxError_details": "Syntaktická chyba v dotazu Lucene. ({{details}})",
+    "materialCancelIncorrectState": "Nemáte oprávnění zrušit materiál, který nečeká na nahrání.",
+    "materialCreateForbidden": "Nemáte oprávnění vytvořit materiál pro tuto organizaci.",
+    "materialDeleteForbidden": "Nemáte oprávnění smazat materiál pro tuto organizaci.",
+    "materialFileEmpty": "Soubor materiálu je prázdný.",
+    "materialFileName": "Nepodporovaný typ souboru.",
+    "materialFileParse": "Soubor materiálu se nepodařilo přečíst.",
+    "materialFileRead": "Soubor materiálu se nepodařilo přečíst.",
+    "materialFileType": "Nepodporovaný typ souboru.",
+    "materialGetForbidden": "Nemáte oprávnění získat materiál pro tuto organizaci.",
+    "materialMarkAsUploadedIncorrectState": "Nemáte oprávnění označit materiál jako nahraný, pokud nečeká na nahrání.",
+    "materialNotFound": "Materiál se nepodařilo najít.",
+    "materialNotUploadedIncorrectState": "Pro tento materiál nebyl nahrán soubor ini.",
+    "materialRetryUploadIncorrectState": "Nemáte oprávnění opakovat nahrávání materiálu, který nečeká na nahrání.",
+    "materialUpdateForbidden": "Nemáte oprávnění aktualizovat materiál pro tuto organizaci.",
+    "materialVisibilityConflict": "Nemáte oprávnění změnit viditelnost materiálu, který se právě nahrává.",
+    "noAuthorized": "Nejste přihlášeni. Přihlaste se prosím.",
+    "notAllowedFieldFilter": "Zadané pole nelze filtrovat.",
+    "notAllowedFieldFilter_details": "Pole „{{details}}“ nelze filtrovat.",
+    "notAllowedFieldSort": "Zadané pole nelze řadit.",
+    "notAllowedFieldSort_details": "Pole „{{details}}“ nelze řadit.",
+    "notFound": "Tento zdroj nebyl nalezen.",
+    "organisationNotFound": "Organizace nebyla nalezena.",
+    "organisationNotFound_details": "Organizace s ID {{details}} nebyla nalezena.",
+    "organisationUpdateForbidden": "Nemáte oprávnění aktualizovat tuto organizaci.",
+    "organisationViewForbidden": "Nemáte oprávnění zobrazit tuto organizaci.",
+    "organisationViewUsersForbidden": "Nemáte oprávnění zobrazit uživatele této organizace.",
+    "partCancelIncorrectState": "Nemáte oprávnění zrušit díl, který nečeká na nahrání.",
+    "partCreateForbidden": "Nemáte oprávnění vytvořit díl pro tuto organizaci.",
+    "partDeleteForbidden": "Nemáte oprávnění smazat díl pro tuto organizaci.",
+    "partDequeForbidden": "Nemáte oprávnění vyřadit z fronty díl, který nečeká na umístění.",
+    "partDownloadIncorrectState": "Nemáte oprávnění stáhnout díl, který nebyl nahrán.",
+    "partFileNameEmpty": "Název souboru dílu je prázdný",
+    "partFileNameExcessive": "Název souboru dílu je příliš dlouhý",
+    "partGetForbidden": "Nemáte oprávnění získat díl pro tuto organizaci.",
+    "partMarkAsAcceptedIncorrectState": "Nemáte oprávnění přijmout díl, který není připraven k přijetí.",
+    "partMarkAsConfirmedIncorrectState": "Nemáte oprávnění potvrdit díl, který nečeká na potvrzení.",
+    "partMarkAsRejectedIncorrectState": "Nemáte oprávnění odmítnout díl, který nečeká na kontrolu nebo přijetí.",
+    "partMarkAsReviewedIncorrectState": "Nemáte oprávnění zkontrolovat díl, který není připraven ke kontrole.",
+    "partMarkAsUploadedIncorrectState": "Nemáte oprávnění označit díl jako nahraný, pokud není ve správném stavu.",
+    "partMarkQueuedAsRejectedIncorrectState": "Nemáte oprávnění odmítnout díl, který je součástí fronty zakázek.",
+    "partMarkToConfirmAsRejectedIncorrectState": "Nemáte oprávnění odmítnout díl, který nečeká na potvrzení.",
+    "partNeedsTemplateConflict": "Tento díl vyžaduje šablonu, ale nelze mu žádnou přiřadit.",
+    "partNotFound": "Díl nebyl nalezen.",
+    "partNotFound_details": "Díl s ID {{details}} nebyl nalezen.",
+    "partRetryUploadIncorrectState": "Nemáte oprávnění opakovat nahrávání dílu, který nečeká na nahrání.",
+    "partUndoAcceptIncorrectState": "Nelze vrátit přijetí, pokud díl nebyl přijat.",
+    "partUndoRejectIncorrectState": "Odmítnutí nelze vrátit, pokud díl nebyl odmítnut.",
+    "partUpdateAcceptedIncorrectState": "Nemáte oprávnění aktualizovat díl, který byl přijat.",
+    "partUpdateForbidden": "Nemáte oprávnění aktualizovat díl pro tuto organizaci.",
+    "roleNotFound": "ID role neexistuje.",
+    "sortField": "Neplatný název pole.",
+    "sortField_details": "Neplatný název pole: {{details}}.",
+    "sortOrder": "Neplatná hodnota řazení. Musí být buď „-1“, nebo „1“",
+    "sortOrder_details": "Neplatná hodnota řazení: {{details}}. Musí být buď „-1“, nebo „1“",
+    "templateCreateForbidden": "Nemáte oprávnění vytvořit šablonu pro tuto organizaci.",
+    "templateDeleteForbidden": "Nemáte oprávnění smazat šablonu pro tuto organizaci.",
+    "templateDeleteHardForbidden": "Šablonu nelze smazat přímo.",
+    "templateGetForbidden": "Nemáte oprávnění získat šablonu pro tuto organizaci.",
+    "templateMaterialForbidden": "Nemáte přístup k přiřazení tohoto materiálu k šabloně.",
+    "templateMaterialPendingConflict": "Materiál čekající na nahrání nelze přiřadit k šabloně.",
+    "templateNoEligibleDefault": "Pro každý zadaný typ dílu je vyžadována výchozí šablona. Před odebráním této šablony nastavte jinou jako výchozí.",
+    "templateNotFound": "Šablonu se nepodařilo najít.",
+    "templateUpdateForbidden": "Nemáte oprávnění aktualizovat šablonu pro tuto organizaci.",
+    "unauthorized": "Nejste přihlášeni. Přihlaste se prosím.",
+    "unexpected": "Došlo k neočekávané chybě.",
+    "unprocessableContent": "Nezpracovatelný obsah",
+    "unspecified": "Došlo k nespecifikované chybě.",
+    "unsupportedMediaType": "Nepodporovaný typ média",
+    "userBFPForbidden": "Uživatele se nepodařilo odblokovat.",
+    "userBlockForbidden": "Stav blokování uživatele se nepodařilo změnit.",
+    "userConflict": "Uživatel již existuje.",
+    "userConflict_details": "Uživatel s e-mailem {{details}} již existuje ve vaší organizaci nebo v jiné organizaci. Použijte jiný e-mail.",
+    "userConflictAnotherOrg_details": "E-mail {{details}} je již přiřazen k jiné organizaci. Použijte jiný e-mail, nebo požádejte uživatele o ukončení členství v předchozí organizaci.",
+    "userConflictWithinOrg_details": "Uživatel s e-mailem {{details}} ve vaší organizaci již existuje.",
+    "userCreateForbidden": "Uživatele se nepodařilo vytvořit.",
+    "userDeleteForbidden": "Uživatele se nepodařilo smazat.",
+    "userGetBFPForbidden": "Stav blokování uživatele se nepodařilo získat",
+    "userGetBlockForbidden": "Stav blokování uživatele se nepodařilo získat.",
+    "userGetForbidden": "Uživatele se nepodařilo najít.",
+    "userNotFound": "Uživatel nebyl nalezen.",
+    "userNotFound_details": "Uživatele s e-mailem {{details}} se nepodařilo najít.",
+    "userNotInOrg": "Uživatel není přiřazen k žádné organizaci.",
+    "userResetForbidden": "Heslo uživatele se nepodařilo obnovit.",
+    "userRoleAddForbidden": "Roli se nepodařilo přiřadit uživateli.",
+    "userRoleRemoveForbidden": "Roli se nepodařilo odebrat uživateli.",
+    "userSearchField": "Neplatné nastavení pole pro vyhledávání uživatelů.",
+    "userSearchForbidden": "Uživatele se nepodařilo vyhledat.",
+    "userSearchPagination": "Neplatné nastavení stránkování pro vyhledávání uživatelů.",
+    "userSearchSort": "Neplatné nastavení řazení pro vyhledávání uživatelů.",
+    "userUpdateForbidden": "Uživatele se nepodařilo aktualizovat.",
+    "validation": "Tento požadavek nelze ověřit.",
+    "value": "Tomuto požadavku byla poskytnuta neplatná hodnota.",
+    "workflowNotFound": "Pracovní postup nebyl nalezen.",
+    "workflowNotFound_details": "Pracovní postup s ID {{details}} nebyl nalezen."
+  },
+  "label": {
+    "acceptedGroupsSuccess_one": "{{count}} skupina přesunuta do <a>Přijaté</a>",
+    "acceptedGroupsSuccess_other": "{{count}} skupin přesunuto do <a>Přijaté</a>",
+    "acceptedJobsSuccess_one": "{{count}} zakázka přesunuta do <a>Přijaté</a>",
+    "acceptedJobsSuccess_other": "{{count}} zakázek přesunuto do <a>Přijaté</a>",
+    "acceptedPartsSuccess_one": "{{count}} díl přesunut do <a>Přijaté</a>",
+    "acceptedPartsSuccess_other": "{{count}} dílů přesunuto do <a>Přijaté</a>",
+    "acceptingGroups": "Přijímání skupin dílů",
+    "acceptingJobs": "Přijímání zakázek",
+    "acceptingParts": "Přijímání dílů",
+    "assigningTemplates": "Přiřazování šablony k dílům",
+    "assigningTemplatesSuccess_one": "Šablona přiřazena k {{count}} dílu",
+    "assigningTemplatesSuccess_other": "Šablona přiřazena k {{count}} dílům",
+    "cancelUploadModalButtonSecondary": "Pokračovat v nahrávání",
+    "cancelUploadsModalBody": "Nahrávání dílů není dokončeno. Chcete zbývající nahrávání zrušit?",
+    "cancelUploadsModalButtonPrimary": "Zrušit nahrávání",
+    "cancelUploadsModalTitle": "Zrušit zbývající nahrávání?",
+    "confirmedSuccess_one": "{{count}} díl potvrzen",
+    "confirmedSuccess_other": "{{count}} dílů potvrzeno",
+    "confirmingParts": "Potvrzování dílů",
+    "creatingGroup": "Vytváření skupiny dílů",
+    "default": "Výchozí",
+    "deprioritiseSuccess_one": "Priorita dílu byla vymazána.",
+    "deprioritiseSuccess_other": "Priority dílů byly vymazány.",
+    "deprioritisingParts": "Mazání priorit dílů.",
+    "dismissingParts": "Zamítání dílů",
+    "dismissSuccess_one": "{{count}} díl byl zamítnut",
+    "dismissSuccess_other": "{{count}} dílů bylo zamítnuto",
+    "downloading": "Stahování",
+    "downloadJobsSuccess_one": "{{count}} zakázka stažena",
+    "downloadJobsSuccess_other": "{{count}} zakázek staženo",
+    "downloadPartsSuccess_one": "{{count}} díl stažen",
+    "downloadPartsSuccess_other": "{{count}} dílů staženo",
+    "duplicatePartsSuccess_one": "{{count}} díl duplikován do <a>Ke kontrole</a>",
+    "duplicatePartsSuccess_other": "{{count}} dílů duplikováno do <a>Ke kontrole</a>",
+    "duplicatingParts": "Duplikování dílů",
+    "filesRemovedJob": "Soubory tiskové zakázky již překročily dobu uchovávání a nejsou dostupné.",
+    "filesRemovedPart": "Soubory dílu již překročily dobu uchovávání a nejsou dostupné.",
+    "fullname": "Celé jméno",
+    "groupCreateSuccess": "Skupina dílů byla úspěšně vytvořena",
+    "groupRegroupSuccess": "Díly byly úspěšně přeskupeny",
+    "groupRenameSuccess": "Skupina dílů byla úspěšně přejmenována",
+    "groupUpdateSuccess_one": "Úspěšně aktualizována {{count}} skupina",
+    "groupUpdateSuccess_other": "Úspěšně aktualizováno {{count}} skupin",
+    "itemSelected": "Vybraná položka",
+    "itemSelected_zero": "Nejsou vybrány žádné položky",
+    "itemSelected_one": "{{count}} položka vybrána",
+    "itemSelected_other": "{{count}} položek vybráno",
+    "language": "Jazyk",
+    "openDrawer": "Otevřít výsuvný panel",
+    "partRenameSuccess": "Díl byl úspěšně přejmenován",
+    "preparingDownload": "Příprava stahování",
+    "prioritiseSuccess_one": "{{count}} díl byl upřednostněn.",
+    "prioritiseSuccess_other": "{{count}} dílů bylo upřednostněno.",
+    "prioritisingParts": "Upřednostňování dílů",
+    "promotedJobsSuccess_one": "{{count}} zakázka postoupena do <a>Ke kontrole</a>",
+    "promotedJobsSuccess_other": "{{count}} zakázek postoupeno do <a>Ke kontrole</a>",
+    "promotingJobs": "Postupování zakázek",
+    "regroupingParts": "Přeskupování dílů",
+    "rejectedSuccess_one": "{{count}} díl přesunut do <a>Odmítnuté</a>",
+    "rejectedSuccess_other": "{{count}} dílů přesunuto do <a>Odmítnuté</a>",
+    "rejectingParts": "Odmítání dílů",
+    "rejectJobPartModalIntro_one": "Tento díl je součástí zakázky, která je připravena ke kontrole.",
+    "rejectJobPartModalIntro_other": "Tyto díly jsou součástí zakázky, která je připravena ke kontrole.",
+    "rejectJobPartModalRejectAndRequeue_one": "Odeberte tento díl a zbývající díly zařaďte znovu do fronty pro opětovné rozvržení.",
+    "rejectJobPartModalRejectAndRequeue_other": "Odeberte tyto díly a zbývající díly zařaďte znovu do fronty pro opětovné rozvržení.",
+    "rejectJobPartModalRejectOnly_one": "Odeberte tento díl a zbytek zakázky ponechte beze změny.",
+    "rejectJobPartModalRejectOnly_other": "Odeberte tyto díly a zbytek zakázky ponechte beze změny.",
+    "rejectJobPartModalTitle": "Znovu rozmístit díly zakázky?",
+    "rejectModal": "Vybrané díly již nebudou zohledněny v žádných tiskových zakázkách.",
+    "rejectModalTitle_one": "Odmítnout {{partName}}?",
+    "rejectModalTitle_other": "Odmítnout {{count}} vybraných dílů?",
+    "removingFromGroups": "Odebírání dílů ze skupin",
+    "renamePart": "Přejmenovat díl",
+    "renamingGroup": "Přejmenování skupiny dílů",
+    "renamingPart": "Přejmenování dílu",
+    "reprintingParts": "Zařazování dílů do fronty pro opětovný tisk",
+    "reprintPartsSuccess_one": "{{count}} díl zařazen do fronty a přesunut do <a>Přijaté</a>",
+    "reprintPartsSuccess_other": "{{count}} dílů zařazeno do fronty a přesunuto do <a>Přijaté</a>",
+    "resendingJobs": "Opětovné odesílání zakázek",
+    "resentJobs_one": "Znovu odeslána {{count}} zakázka",
+    "resentJobs_other": "Znovu odesláno {{count}} zakázek",
+    "setTimezone": "Nastavit časové pásmo",
+    "settings": "Nastavení",
+    "tabs": "Karty",
+    "timezone": "Časové pásmo",
+    "undoAcceptedPartsSuccess_one": "{{count}} díl odebrán z Přijaté",
+    "undoAcceptedPartsSuccess_other": "{{count}} dílů odebráno z Přijaté",
+    "undoingAcceptParts": "Vracení přijetí dílů",
+    "undoingRejectParts": "Vracení odmítnutí dílů",
+    "undoRejectPartsSuccess_one": "{{count}} díl odebrán z Odmítnuté",
+    "undoRejectPartsSuccess_other": "{{count}} dílů odebráno z Odmítnuté",
+    "ungroupingGroups": "Rušení seskupení dílů",
+    "ungroupSuccess_one": "Seskupení {{count}} skupiny bylo úspěšně zrušeno",
+    "ungroupSuccess_other": "Seskupení {{count}} skupin bylo úspěšně zrušeno",
+    "updatingPartTypes": "Aktualizace typů dílů",
+    "updatingPartTypesSuccess_one": "{{count}} typ dílu aktualizován",
+    "updatingPartTypesSuccess_other": "{{count}} typů dílů aktualizováno"
+  },
+  "links": {
+    "devices": "Zařízení",
+    "home": "Domů",
+    "inbox": "Doručené",
+    "manage": "Správa",
+    "parts": "Díly",
+    "printJobs": "Tiskové zakázky",
+    "timeline": "Časová osa",
+    "tooltips": {
+      "devices": "Živý přehled všech zařízení, který vám pomůže sledovat vaši laboratoř.",
+      "home": "Přehled aktivity vaší laboratoře, díky kterému budete mít vše pod kontrolou.",
+      "inbox": "Nahrávejte a kontrolujte díly od uživatelů nebo aplikací.\n\nOvěřte, že díly mají použitou správnou tiskovou šablonu, a přijměte je k výrobě.",
+      "manage": "Přidávejte nebo upravujte uživatele, propojujte externí aplikace, obecná nastavení.",
+      "parts": "Zobrazte díly, které byly přijaty k výrobě.\n\nZkontrolujte stav a zjistěte, kde se nacházejí ve výrobním procesu.",
+      "printJobs": "Zkontrolujte vytvořené tiskové zakázky.\n\nZkontrolujte stav a zjistěte, v jaké fázi výrobního procesu se nacházejí.",
+      "templates": "Seznam všech šablon ve Funnelu. Ty určují, jaké materiály, nastavení tisku a tiskárny se použijí pro jednotlivé typy dílů.",
+      "timeline": "Zobrazte tiskové zakázky zařazené do fronty na jednotlivých zařízeních a sledujte průběh a využití."
+    }
+  },
+  "loading": {
+    "unavailable": "Nedostupné"
+  },
+  "maintenancePage": {
+    "message": "Pracujeme na tom, abychom Funnel vylepšili.\nBrzy budeme zpět.",
+    "title": "Plánovaná údržba"
+  },
+  "message": {
+    "acceptPrivacyPolicy": "Souhlasím se <a>Zásadami ochrany osobních údajů</a>",
+    "acceptTermsOfService": "Souhlasím s <a>Podmínkami služby</a>",
+    "betaTest": "Používáte beta verzi, dejte nám vědět, jak se můžeme zlepšit. <a>Poskytnout zpětnou vazbu</a>",
+    "betaTest_narrow": "Používáte beta verzi. <a>Poskytnout zpětnou vazbu</a>",
+    "checkConnectionForBuildInfo": "Zkontrolujte internetové připojení tiskárny, abyste viděli aktuální a naplánované sestavy.",
+    "cookiePolicy": "Používáme soubory cookie ke zlepšení vašeho zážitku z prohlížení. Chcete-li se dozvědět více, navštivte naše <cookie>Zásady používání souborů cookie</cookie> a <privacy>Prohlášení o ochraně osobních údajů</privacy>.",
+    "cookiePreferencesAllowed": "Povolili jste všechny soubory cookie včetně analytických a podpůrných.",
+    "cookiePreferencesDenied": "Používáte pouze nezbytně nutné soubory cookie.",
+    "filesRemovedAction": "Nedostupné: soubory potřebné pro tuto akci již překročily dobu uchovávání a nejsou dostupné.",
+    "maintenanceMode": "Funnel bude nedostupný dne {{startDate}} od {{startTime}} do {{endTime}} kvůli nezbytné údržbě.",
+    "maintenanceMode_multiDay": "Funnel bude nedostupný od {{startDate}} {{startTime}} do {{endDate}} {{endTime}} kvůli nezbytné údržbě.",
+    "maintenanceModeActive": "Funnel prochází plánovanou údržbou do {{endDate}} {{endTime}}.",
+    "noConnection": "Nelze se připojit, opakování za {{time}}",
+    "noMatches": "Omlouváme se, nebyly nalezeny žádné shody",
+    "noMatchesHelp": "Zkontrolujte překlepy nebo zkuste obecnější výrazy\nPřípadně zkuste použít filtry tabulky",
+    "noMatchesHelp_both": "Zkontrolujte překlepy nebo zkuste obecnější výrazy\nPřípadně zkuste upravit nebo vymazat filtry tabulky",
+    "noMatchesHelp_filtering": "Zkuste upravit nebo vymazat filtry tabulky",
+    "noMatchesHelp_searching": "Zkontrolujte překlepy nebo zkuste obecnější výrazy\nPřípadně zkuste použít filtry tabulky",
+    "reconnecting": "Pokus o opětovné připojení",
+    "reviewAndAgreeToPolicies": "Než budete pokračovat, musíte si přečíst a souhlasit s <terms>Podmínkami služby</terms> a <privacy>Zásadami ochrany osobních údajů</privacy>."
+  },
+  "notFoundPage": {
+    "message": "Zkontrolujte adresu stránky, zda neobsahuje překlepy, nebo použijte navigační nabídku vlevo nahoře",
+    "message_narrow": "Zkontrolujte adresu stránky, zda neobsahuje překlepy, nebo použijte navigační nabídku vlevo nahoře",
+    "message_wide": "Zkontrolujte adresu stránky, zda neobsahuje překlepy, nebo použijte navigační tlačítka vlevo",
+    "title": "Tuto stránku nemůžeme najít"
+  },
+  "notifications": {
+    "actions": {
+      "dismiss": "Odebrat",
+      "inbox": "Doručené",
+      "reprintParts": "Vytisknout díly znovu",
+      "requeueParts": "Zařadit díly znovu do fronty",
+      "resend": "Odeslat znovu",
+      "reviewGroup": "Zkontrolovat skupinu",
+      "reviewPart": "Zkontrolovat díl",
+      "reworkOffline": "Upravit offline",
+      "ungroup": "Zrušit seskupení"
+    },
+    "clearAll": "Vymazat vše",
+    "empty": "Žádná oznámení",
+    "requeuePartsConfirmation": "Opravdu chcete zařadit díly z této zakázky znovu do fronty? Tím se odstraní aktuální zakázka a v doručené poště se vytvoří nové díly.",
+    "settings": {
+      "label": "Zobrazovat oznámení v reálném čase pro díly, skupiny, zakázky a zařízení, které vyžadují pozornost.",
+      "title": "Oznámení"
+    },
+    "title": "Oznámení",
+    "types": {
+      "deviceOffline": {
+        "body_one": "{{name}} přešel do režimu offline",
+        "body_other": "Více tiskáren přešlo do režimu offline",
+        "title": "Tiskárna offline"
+      },
+      "groupTooLarge": {
+        "body_one": "{{name}} je příliš velká na to, aby se tiskla společně",
+        "body_other": "Více skupin je příliš velkých na to, aby se tiskly společně",
+        "title": "Skupina je příliš velká"
+      },
+      "nestingFailed": {
+        "body_one": "Nepodařilo se rozvrhnout {{name}}",
+        "body_other": "Nepodařilo se rozvrhnout více zakázek",
+        "title": "Rozvržení zakázky se nezdařilo"
+      },
+      "orientationFailed": {
+        "body_one": "Nepodařilo se orientovat {{name}}",
+        "body_other": "Nepodařilo se orientovat více dílů",
+        "title": "Orientace dílu se nezdařila"
+      },
+      "partTooLarge": {
+        "body_one": "{{name}} je příliš velký na tisk",
+        "body_other": "Více dílů je příliš velkých na tisk",
+        "title": "Díl je příliš velký"
+      },
+      "printerError": {
+        "body_one": "{{buildName}} selhal během tisku.\n\nDalší informace najdete na displeji tiskárny.",
+        "body_other": "Více tisků selhalo.\n\nDalší informace najdete na displeji tiskárny.",
+        "title": "Tisk se nezdařil"
+      },
+      "sendingFailed": {
+        "body_one": "Nepodařilo se odeslat zakázku #{{name}}",
+        "body_other": "Nepodařilo se odeslat více zakázek",
+        "title": "Odeslání zakázky se nezdařilo"
+      },
+      "slicingFailed": {
+        "body_one": "Nepodařilo se rozřezat zakázku #{{name}}",
+        "body_other": "Nepodařilo se rozřezat více zakázek",
+        "title": "Rozřezání zakázky se nezdařilo"
+      },
+      "supportsFailed": {
+        "body_one": "Nepodařilo se vygenerovat podpory pro zakázku #{{name}}",
+        "body_other": "Nepodařilo se vygenerovat podpory pro více zakázek",
+        "title": "Podpory zakázky se nezdařily"
+      }
+    }
+  },
+  "progressStatus": {
+    "acceptPartForPrinting": {
+      "name": "Přijmout díl k tisku",
+      "tooltip": {
+        "part": "Díl bude předložen ke kontrole za účelem potvrzení typu a nastavení šablony, které budou použity."
+      }
+    },
+    "addingToProvisionalJob": {
+      "name": "Přidávání do předběžné zakázky",
+      "tooltip": {
+        "default": "Díl je rozvrhován do předběžné zakázky."
+      }
+    },
+    "approvePrintJob": {
+      "name": "Schválit tiskovou zakázku",
+      "tooltip": {
+        "default": "Tisková zakázka bude předložena ke kontrole, aby bylo možné zkontrolovat rozvržení dílů a podpor před schválením tiskové zakázky k tisku."
+      }
+    },
+    "cancelled": {
+      "name": "Tisk zrušen",
+      "tooltip": {
+        "default": "Tisková zakázka byla zrušena před dokončením nebo odstraněna z fronty sestav."
+      }
+    },
+    "failedToPrint": {
+      "name": "Tisk se nezdařil",
+      "tooltip": {
+        "default": "Tisková zakázka selhala.\n\nDalší informace najdete na displeji tiskárny."
+      }
+    },
+    "generatingSupports": {
+      "name": "Generování podpor",
+      "tooltip": {
+        "job": "Rozvržení předběžné zakázky bylo dokončeno a připravují se tiskové vrstvy.",
+        "part": "Do předběžné zakázky se přidávají podpory, než bude dokončena a předložena uživateli ke schválení k tisku."
+      }
+    },
+    "groupTooLarge": {
+      "name": "Skupina je příliš velká",
+      "tooltip": {
+        "part": "Skupina, do které díl patří, je příliš velká na tisk. Zkuste zrušit seskupení dílů."
+      }
+    },
+    "identifiedPartType": {
+      "name": "Typ dílu identifikován",
+      "tooltip": {
+        "part": "Typ dílu byl identifikován, což ovlivňuje, jaké šablony lze zvolit a jak bude díl později orientován."
+      }
+    },
+    "identifyingPartType": {
+      "name": "Identifikace typu dílu",
+      "tooltip": {
+        "part": "Analýza geometrie dílu za účelem identifikace typu dílu."
+      }
+    },
+    "invalidGeometry": {
+      "name": "Neplatná geometrie",
+      "tooltip": {
+        "part": "Díl nebylo možné zpracovat, protože jeho geometrie je neplatná.\n\nZkuste model opravit a nahrát jej znovu."
+      }
+    },
+    "invalidModel": {
+      "name": "Neplatný model",
+      "tooltip": {
+        "part": "Díl nebylo možné zpracovat, protože nahraný soubor není model.\n\nZkontrolujte, že soubor není poškozený, a nahrajte jej znovu."
+      }
+    },
+    "nestedInJob": {
+      "name": "Tisková zakázka vytvořena",
+      "tooltip": {
+        "job": "Tisková zakázka byla vytvořena.",
+        "part": "Díl byl přidán do tiskové zakázky."
+      }
+    },
+    "nestedInProvisionalJob": {
+      "name": "Zařazeno do předběžné zakázky",
+      "tooltip": {
+        "job": "Zakázka je v předběžném stavu a bude dokončena, když:<ul><li>budou přidány další díly k naplnění zakázky</li><li>bude brzy k dispozici vhodná tiskárna pro její tisk</li></ul>Zakázku lze také ručně povýšit do dokončeného stavu.",
+        "part": "Díl byl zařazen do předběžné zakázky. Bude dokončena, když:<ul><li>budou přidány další díly k naplnění zakázky a</li><li>bude brzy k dispozici vhodná tiskárna pro její tisk</li></ul>"
+      }
+    },
+    "nestingBlocked": {
+      "name": "Nelze přidat do předběžné zakázky",
+      "tooltip": {
+        "allDevicesExcludedFromFunnel": "Kompatibilní tiskárny byly vyloučeny z přijímání zakázek z Funnelu.\n\nZahrňte tyto tiskárny pro automatické tiskové zakázky, nebo upravte šablonu tak, aby používala jiné tiskárny.",
+        "allDevicesOfflineOrExcluded": "Žádné kompatibilní tiskárny nejsou online nebo nepřijímají tiskové zakázky z Funnelu.\n\nZkontrolujte, že jsou tiskárny připojeny a zahrnuty pro automatické tiskové zakázky, nebo upravte šablonu tak, aby používala jiné připojené tiskárny.",
+        "groupMemberFailed": "U jednoho nebo více dílů ve skupině selhala orientace.\n\nOdeberte neúspěšné díly, aby bylo možné tuto skupinu vytisknout.",
+        "groupMembersProcessing": "Jeden nebo více dílů v této skupině se stále orientuje.",
+        "noAvailableDevices": "Žádné kompatibilní tiskárny nejsou online pro tisk tohoto dílu.\n\nZkontrolujte, že jsou tiskárny připojeny, nebo upravte šablonu tak, aby používala jiné připojené tiskárny."
+      }
+    },
+    "nestingFailed": {
+      "name": "Rozvržení se nezdařilo",
+      "tooltip": {
+        "default": "Rozvržení dílů se nezdařilo.\nMohlo to být způsobeno problémy se souborem dílu."
+      }
+    },
+    "nestPrintJob": {
+      "name": "Rozvrhnout tiskovou zakázku",
+      "tooltip": {
+        "part": "Díl bude přidán do předběžné zakázky spolu s dalšími díly používajícími stejnou šablonu. Poté budou uspořádány na platformě."
+      }
+    },
+    "orientatePart": {
+      "name": "Orientování dílu",
+      "tooltip": {
+        "part": "Orientace dílu bude optimalizována na základě typu dílu, než bude zařazen do tiskové zakázky."
+      }
+    },
+    "orientatingPart": {
+      "name": "Orientace dílu",
+      "tooltip": {
+        "part": "Díl je nyní orientován na základě svého typu."
+      }
+    },
+    "orientationFailed": {
+      "name": "Orientace se nezdařila",
+      "tooltip": {
+        "part": "Díl se nepodařilo úspěšně orientovat pro tisk.\nMohlo to být způsobeno problémy se souborem dílu."
+      }
+    },
+    "partAccepted": {
+      "name": "Díl přijat",
+      "tooltip": {
+        "part": "Díl byl přijat k tisku."
+      }
+    },
+    "partIdentification": {
+      "name": "Identifikace dílu"
+    },
+    "partOrientated": {
+      "name": "Díl orientován",
+      "tooltip": {
+        "part": "Díl byl úspěšně orientován pro tisk."
+      }
+    },
+    "partRejected": {
+      "name": "Díl odmítnut",
+      "tooltip": {
+        "part": "Díl byl odmítnut uživatelem."
+      }
+    },
+    "partTooLarge": {
+      "name": "Díl je příliš velký",
+      "tooltip": {
+        "part": "Díl je příliš velký na to, aby se vešel na tiskárnu přiřazenou k šabloně dílu.\n\nZkontrolujte měřítko nahraného dílu a to, zda šablona dílu obsahuje tiskárnu dostatečně velkou pro jeho pojmutí."
+      }
+    },
+    "print": {
+      "name": "Tisk",
+      "tooltip": {
+        "default": "Tisková zakázka bude odeslána na zařízení, kde bude vytištěna."
+      }
+    },
+    "printed": {
+      "name": "Vytištěno",
+      "tooltip": {
+        "default": "Zakázka byla úspěšně dokončena."
+      }
+    },
+    "printing": {
+      "name": "Tiskne se",
+      "tooltip": {
+        "default": "Zakázka se právě tiskne."
+      }
+    },
+    "printJobApproved": {
+      "name": "Tisková zakázka schválena",
+      "tooltip": {
+        "default": "Tisková zakázka byla schválena."
+      }
+    },
+    "printJobPendingApproval": {
+      "name": "Tisková zakázka čeká na schválení",
+      "tooltip": {
+        "default": "Dokončená zakázka je připravena ke kontrole."
+      }
+    },
+    "printJobRejected": {
+      "name": "Tisková zakázka odmítnuta",
+      "tooltip": {
+        "default": "Zakázka byla odmítnuta a díly byly znovu zařazeny do fronty."
+      }
+    },
+    "printJobReworkedOffline": {
+      "name": "Tisková zakázka upravena offline",
+      "tooltip": {
+        "default": "Tisková zakázka byla stažena uživatelem k úpravě v aplikaci Composer."
+      }
+    },
+    "printPaused": {
+      "name": "Tisk pozastaven",
+      "tooltip": {
+        "default": "Tisková zakázka byla pozastavena uživatelem."
+      }
+    },
+    "printPending": {
+      "name": "Tisk čeká",
+      "tooltip": {
+        "default": "Zakázka je na tiskárně a připravena k tisku."
+      }
+    },
+    "sendingFailed": {
+      "name": "Odeslání se nezdařilo",
+      "tooltip": {
+        "default": "Tisková zakázka selhala při odesílání do tiskárny.\n\nMohlo to být způsobeno tím, že tiskárna přešla do režimu offline, nebo že je fronta sestav plná s nedostatkem volné paměti."
+      }
+    },
+    "sendingToPrinter": {
+      "name": "Odesílání do tiskárny",
+      "tooltip": {
+        "default": "Tiskové vrstvy se odesílají do tiskárny."
+      }
+    },
+    "sendToPrinter": {
+      "name": "Odeslat do tiskárny",
+      "tooltip": {
+        "default": "Tisková zakázka bude rozřezána na jednotlivé vrstvy a odeslána do tiskárny k tisku."
+      }
+    },
+    "sentToPrinter": {
+      "name": "Odesláno do tiskárny",
+      "tooltip": {
+        "default": "Tisková zakázka je na tiskárně a připravena k tisku."
+      }
+    },
+    "slicingFailed": {
+      "name": "Rozřezání se nezdařilo",
+      "tooltip": {
+        "default": "Tisková zakázka selhala při přípravě tiskových vrstev.\n\nMohlo to být způsobeno problémy se soubory dílů."
+      }
+    },
+    "slicingPrintJob": {
+      "name": "Řezání tiskové zakázky",
+      "tooltip": {
+        "default": "Připravují se tiskové vrstvy."
+      }
+    },
+    "uploadTooLarge": {
+      "name": "Nahrávaný soubor je příliš velký",
+      "tooltip": {
+        "part": "Nahraný soubor je příliš velký.\n\nZkuste zmenšit velikost souboru a nahrát jej znovu."
+      }
+    },
+    "waitingForPartToBeAccepted": {
+      "name": "Přijmout díl k tisku",
+      "tooltip": {
+        "part": "Díl čeká na přijetí uživatelem."
+      }
+    }
+  },
+  "relativeTime": {
+    "daysAgo_one": "před {{count}} dnem",
+    "daysAgo_other": "před {{count}} dny",
+    "hoursAgo_one": "před {{count}} hodinou",
+    "hoursAgo_other": "před {{count}} hodinami",
+    "justNow": "Právě teď",
+    "minutesAgo_one": "před {{count}} minutou",
+    "minutesAgo_other": "před {{count}} minutami",
+    "weeksAgo_one": "před {{count}} týdnem",
+    "weeksAgo_other": "před {{count}} týdny"
+  },
+  "share": {
+    "notFound": "Sdílenou položku se nepodařilo najít"
+  },
+  "table": {
+    "activeFilters": "Aktivní filtry:",
+    "clearFilters": "Vymazat filtry",
+    "expandRow": "Rozbalit řádek",
+    "pageAmount": "Počet",
+    "perPage": "Na stránku"
+  },
+  "title": {
+    "cookiePolicy": "Zásady používání souborů cookie",
+    "help": "Zobrazit nápovědu",
+    "integrations": "Integrace",
+    "language": "Jazyk",
+    "manage": "Správa",
+    "manageSubscription": "Spravovat předplatné",
+    "name": "Zobrazované jméno",
+    "organisation": "Organizace",
+    "photo": "Fotografie",
+    "privacy": "Ochrana osobních údajů",
+    "privacyPolicy": "Zásady ochrany osobních údajů",
+    "profile": "Profil",
+    "subscriptionOptions": "Možnosti předplatného",
+    "tableOfContents": "Obsah",
+    "templates": "Šablony",
+    "termsAndPolicy": "Podmínky a zásady",
+    "termsOfService": "Podmínky služby",
+    "warning": "Upozornění"
+  },
+  "underConstruction": {
+    "subtitle1": "Připravujeme něco výjimečného",
+    "subtitle2": "Zkuste to znovu později"
+  },
+  "units": {
+    "microns": "{{value}} μm",
+    "suffix": {
+      "degrees": " °",
+      "millimetres": " mm"
+    }
+  }
+}

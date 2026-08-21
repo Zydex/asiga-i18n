@@ -1,0 +1,79 @@
+{
+  "alt": {
+    "devices": "Enheter",
+    "devicesNeedingAttention": "Enheter som kräver uppmärksamhet",
+    "noDevices": "Inga enheter"
+  },
+  "button": {
+    "add": "Lägg till enhet",
+    "exclude": "Exkludera",
+    "excludeDevice": "Exkludera från automatiska utskriftsjobb",
+    "includeDevice": "Inkludera för automatiska utskriftsjobb"
+  },
+  "details": {
+    "aboutPrinter": "Om skrivaren",
+    "currentBuild": "Aktuell utskrift",
+    "printStatus": "Utskriftsstatus",
+    "queuedBuild": "Köade utskrifter"
+  },
+  "label": {
+    "devices": "Enheter",
+    "devicesTab": "Enhetsflik",
+    "excludedDevice": "Enheten har exkluderats från att ta emot utskriftsjobb från Funnel",
+    "requiresAttention": "Kräver uppmärksamhet",
+    "search": "Sök efter en enhet",
+    "status": {
+      "availableInFunnel": "Acceptera Funnel-jobb",
+      "currentBuildName": "Namn på aktuell utskrift",
+      "currentLayer": "Aktuellt lager",
+      "currentLayerHeight": "Aktuell lagerhöjd",
+      "elapsed": "Förfluten tid",
+      "firmwareVersion": "Firmwareversion",
+      "layers": "Lager",
+      "manufacturer": "Tillverkare",
+      "model": "Modell",
+      "paused": "Pausad",
+      "remaining": "Återstår",
+      "serialNumber": "Serienummer",
+      "status": "Status"
+    }
+  },
+  "message": {
+    "addDevices": "Använd knappen \"Lägg till enheter\" högst upp till höger på sidan eller använd knappen nedan för att lägga till enheter till din organisation",
+    "allGood": "Allt är bra!",
+    "devicesPageInfo": "Statusen för alla enheter i din organisation visas på denna sida",
+    "excludeDevice": "{{device}} exkluderad från att ta emot utskriftsjobb från Funnel",
+    "includeDevice": "{{device}} inkluderad för utskriftsjobb från Funnel",
+    "noCurrentBuild": "Ingen utskrift pågår för närvarande.",
+    "noDevices": "Inga enheter",
+    "noDevicesNeedAttention": "Inga enheter kräver för närvarande uppmärksamhet",
+    "warnRemoveDevice": "Du kommer inte längre att kunna övervaka eller skicka utskriftsjobb till denna enhet från Funnel.",
+    "warnRemoveDevice_name": "Du kommer inte längre att kunna övervaka eller skicka utskriftsjobb till {{device}} från Funnel.",
+    "willExcludeDevice": "Utskriftsjobb kommer inte längre att skapas för denna maskin när den exkluderas"
+  },
+  "state": {
+    "canceled": "Avbruten",
+    "canceled_error": "Fel: Avbruten",
+    "cancelling": "Avbryter",
+    "cancelling_error": "Fel: Avbryter",
+    "finished": "Utskrift klar",
+    "idle": "Skrivare inaktiv",
+    "offline": "Offline",
+    "paused": "Pausad",
+    "paused_error": "Fel: Pausad",
+    "pausing": "Pausar",
+    "pausing_error": "Fel: Pausar",
+    "printing": "{{duration}} återstår",
+    "staring": "Startar",
+    "userbusy": "Användare upptagen"
+  },
+  "title": {
+    "devices": "Enheter",
+    "excludeDevice": "Exkludera {{device}}?",
+    "removeDevice": "Ta bort enhet?"
+  },
+  "tooltips": {
+    "devices": "Alla enheter som har lagts till i din Funnel visas i denna flik.",
+    "requiresAttention": "Detta visar enheter som har ett fel eller har tappat anslutningen."
+  }
+}

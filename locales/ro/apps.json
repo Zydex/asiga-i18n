@@ -1,0 +1,39 @@
+{
+  "alt": {
+    "noApps": "Nicio aplicație conectată"
+  },
+  "button": {
+    "apps": "Aplicații"
+  },
+  "label": {
+    "search": "Caută aplicații"
+  },
+  "message": {
+    "noApps": "Nicio aplicație conectată",
+    "noAppsInfo": "Aplicațiile conectate vor fi afișate aici. Folosiți butonul „Aplicații” de mai jos pentru a vedea aplicațiile disponibile care pot fi conectate.",
+    "unlink": "Organizația dvs. nu va mai primi piese de la aplicație.",
+    "unlink_one": "Organizația dvs. nu va mai primi piese de la aplicație.",
+    "unlink_other": "Organizația dvs. nu va mai primi piese de la aplicații.",
+    "unlink_name_one": "Organizația dvs. nu va mai primi piese de la {{name}}.",
+    "unlink_nameOrg_one": "{{org}} nu va mai primi piese de la {{name}}.",
+    "unlink_org_other": "{{org}} nu va mai primi piese de la aplicații.",
+    "unlinkParts": "Piesele deja primite vor rămâne în organizația dvs.",
+    "unlinkParts_org": "Piesele deja primite vor rămâne în {{org}}."
+  },
+  "title": {
+    "apps": "Aplicații",
+    "connectedApps": "Aplicații conectate",
+    "lastUsed": "Ultima utilizare",
+    "linked": "Conectat",
+    "name": "Nume",
+    "never": "Niciodată",
+    "unlink": "Deconectați aplicația?",
+    "unlink_name": "Deconectați {{name}}?",
+    "unlink_one": "Deconectați aplicația?",
+    "unlink_other": "Deconectați aplicațiile?"
+  },
+  "tooltips": {
+    "apps": "Listează toate aplicațiile pe care Funnel le acceptă. Folosiți-le pentru a primi automat piese de la servicii terțe.",
+    "connectedApps": "Listează toate aplicațiile care au permisiunea de a trimite piese către Funnel."
+  }
+}

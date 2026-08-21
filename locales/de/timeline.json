@@ -1,0 +1,16 @@
+{
+  "label": {
+    "allMachines": "Alle Maschinen",
+    "noDevices": "Für Ihre Geräte eingereihte Aufträge werden auf dieser Seite in einer Zeitleiste angezeigt",
+    "noDevicesMessage": "Verwenden Sie die Schaltfläche unten, um Geräte zu Ihrer Organisation hinzuzufügen",
+    "requiresAttention": "Erfordert Aufmerksamkeit"
+  },
+  "title": {
+    "timeline": "Zeitleiste"
+  },
+  "tooltips": {
+    "allMachines": "Zeigt alle dem Funnel hinzugefügten Geräte zusammen mit ihren eingereihten Aufträgen an."
+  },
+  "viewHours_one": "1-Stunden-Ansicht",
+  "viewHours_other": "{{count}}-Stunden-Ansicht"
+}

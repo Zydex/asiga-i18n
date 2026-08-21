@@ -1,0 +1,59 @@
+{
+  "gettingStarted": {
+    "dismissDialog": {
+      "description": "Escolha se pretende dispensar permanentemente o guia de introdução ou ocultá-lo até à próxima sessão.",
+      "dismissPermanently": "Dispensar Permanentemente",
+      "hide": "Ocultar",
+      "title": "Dispensar \"Introdução\""
+    },
+    "help": "Precisa de mais ajuda? Consulte o nosso <guide>guia do utilizador</guide> detalhado",
+    "label": {
+      "collapse": "Recolher",
+      "dismiss": "Dispensar",
+      "expand": "Expandir"
+    },
+    "step": {
+      "acceptJobs": {
+        "description": "Na página <bold>Trabalhos</bold>, selecione os trabalhos e clique em “Aceitar”",
+        "title": "Aceitar trabalhos"
+      },
+      "createTemplate": {
+        "description": "Na página <bold>Gerir</bold> / <bold>Modelos</bold>, clique em “Criar”",
+        "title": "Criar um modelo"
+      },
+      "enrolPrinter": {
+        "description": "Na página <bold>Dispositivos</bold>, clique em “Adicionar Dispositivo”",
+        "title": "Registar uma impressora"
+      },
+      "inviteColleagues": {
+        "description": "Na página <bold>Gerir</bold> / <bold>Utilizadores</bold>, clique em “Adicionar Utilizador”",
+        "title": "Convidar colegas (Opcional)"
+      },
+      "uploadAcceptParts": {
+        "description": "Na página <bold>Caixa de Entrada</bold>, arraste e largue os seus ficheiros STL, selecione as peças carregadas e clique em “Aceitar”",
+        "title": "Carregar e aceitar peças"
+      }
+    },
+    "subtitle": "Conclua os passos para enviar trabalhos de impressão para os seus dispositivos",
+    "title": "Introdução"
+  },
+  "label": {
+    "country": "País",
+    "industry": "Tipo de Indústria",
+    "organisationName": "Nome da Organização",
+    "phoneNumber": "Número de Telefone",
+    "subtitle": "O seu acesso a uma configuração e gestão de produção de impressão 3D simples e automatizada",
+    "title": "Crie a sua conta Asiga Funnel",
+    "website": "Website"
+  },
+  "message": {
+    "completePersonalDetails": "Complete os seus dados pessoais",
+    "emailResendSuccess": "Email enviado. Por favor, verifique a sua caixa de entrada.",
+    "emailVerified": "<bold>Email verificado com sucesso</bold>\nVai ser redirecionado em breve...",
+    "regionError": "O Asiga Funnel só está atualmente disponível na Austrália.",
+    "resendEmail": "Reenviar email de verificação",
+    "resendEmailError": "Não foi possível reenviar o email de verificação. Por favor, tente novamente mais tarde.",
+    "sendingEmail": "A enviar email de verificação...",
+    "verifyEmail": "Por favor, verifique o seu endereço de email para aceder ao Asiga Funnel."
+  }
+}

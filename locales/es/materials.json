@@ -1,0 +1,58 @@
+{
+  "button": {
+    "add": "Añadir Materiales",
+    "keepBoth": "Conservar Ambos",
+    "replaceMaterial": "Reemplazar Material",
+    "uploadLocalMaterial": "Subir Material Local"
+  },
+  "label": {
+    "adding": "Añadiendo un material",
+    "adding_one": "Añadiendo {{count}} material",
+    "adding_other": "Añadiendo {{count}} materiales",
+    "addSuccess_one": "{{count}} material añadido",
+    "addSuccess_other": "{{count}} materiales añadidos",
+    "deleteSuccess_one": "{{count}} material eliminado",
+    "deleteSuccess_other": "{{count}} materiales eliminados",
+    "deleting": "Eliminando un material",
+    "deleting_one": "Eliminando {{count}} material",
+    "deleting_other": "Eliminando {{count}} materiales",
+    "dropFile": "Añadir archivo a <bold>Materiales</bold>",
+    "manufacturer": "Fabricante",
+    "material": "Material",
+    "name": "NombreDeMaterial",
+    "search": "Buscar un material",
+    "templateName": "Nombre de la plantilla",
+    "updateMaterial": "Actualización de material disponible"
+  },
+  "message": {
+    "addMaterials": "Añada materiales a su organización seleccionándolos desde la Biblioteca de Material Abierta que aparece a continuación. Los archivos de materiales también se pueden añadir mediante el botón de carga.",
+    "deleteMaterialWarning": "¿Está seguro de que desea eliminar los materiales seleccionados? Solo la última versión de cada material estará disponible para descargar de nuevo en el futuro.",
+    "manufacturerHasNoMaterials": "El fabricante no tiene materiales",
+    "materialAlreadyAdded_one": "{{name}} ya se ha añadido a su organización.",
+    "materialAlreadyAdded_other": "Los siguientes materiales ya se han añadido a su organización:",
+    "materialNameConflict": "Ya existe un archivo de material llamado {{name}} en su organización.\n\nPuede reemplazar el material existente o conservar ambos.",
+    "materialNameConflictDoForAll_one": "Hacer esto para {{count}} conflicto de nombre restante",
+    "materialNameConflictDoForAll_other": "Hacer esto para {{count}} conflictos de nombre restantes",
+    "materialNameConflictWithRevision": "Ya existe un archivo de material llamado {{name}}, Revisión {{revision}} en su organización.\n\n¿Desea reemplazar el material existente con la Revisión {{requestedRevision}}?",
+    "noMaterials": "Use el botón 'Añadir Materiales' en la parte superior derecha de esta página para añadir materiales a su organización",
+    "unableToDelete_one": "El material seleccionado no se puede eliminar, ya que actualmente se está utilizando en plantillas. Por favor, asigne materiales diferentes a las siguientes plantillas para continuar con la eliminación:",
+    "unableToDelete_other": "Los materiales seleccionados no se pueden eliminar, ya que actualmente se están utilizando en plantillas. Por favor, asigne materiales diferentes a las siguientes plantillas para continuar con la eliminación:",
+    "updateMaterial_one": "<bold>{{name}}</bold> se actualizará a la última versión.",
+    "updateMaterial_other": "{{count}} archivos INI de material se actualizarán a la última versión."
+  },
+  "title": {
+    "addMaterials": "Añadir Materiales",
+    "deleteMaterial": "¿Eliminar Material?",
+    "materialAlreadyAdded": "El archivo de material ya se ha añadido",
+    "materialNameConflict": "Los nombres de material ya existen",
+    "materials": "Materiales",
+    "noMaterials": "No hay materiales en la biblioteca",
+    "unableToDelete_one": "No Se Puede Eliminar El Material",
+    "unableToDelete_other": "No Se Pueden Eliminar Los Materiales",
+    "updateMaterial_one": "¿Actualizar Material?",
+    "updateMaterial_other": "¿Actualizar Materiales?"
+  },
+  "tooltips": {
+    "materials": "Enumera todos los materiales que se han añadido al Funnel.\n\nLos materiales se pueden añadir desde la biblioteca de Material Abierta o cargarlos manualmente."
+  }
+}

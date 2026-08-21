@@ -1,0 +1,238 @@
+{
+  "basePlate": {
+    "addTo": {
+      "enum": {
+        "allParts": "Alle onderdelen",
+        "supportedParts": "Ondersteunde onderdelen"
+      },
+      "label": "Bodemplaat toevoegen aan",
+      "tooltip": "Voeg een bodemplaat toe aan ondersteunde, of alle, onderdelen."
+    },
+    "enabled": {
+      "label": "Bodemplaat",
+      "tooltip": "Genereren van bodemplaat inschakelen"
+    },
+    "engraved": {
+      "label": "Buildnaam toevoegen aan bodemplaat",
+      "tooltip": "Voeg de buildnaam en XYZ-resolutie in µm toe aan de bodemplaat."
+    },
+    "meshShape": {
+      "enum": {
+        "hexagon": "Zeshoek",
+        "none": "Geen",
+        "square": "Vierkant",
+        "triangle": "Driehoek"
+      },
+      "label": "Meshvorm",
+      "tooltip": "Als u een andere vorm dan Geen selecteert, wordt een patroon van gaten in de geselecteerde vorm aan de bodemplaat toegevoegd."
+    },
+    "meshSize": {
+      "label": "Meshgrootte",
+      "tooltip": "De diameter van de gaten in de bodemplaat."
+    },
+    "meshWidth": {
+      "label": "Meshbreedte",
+      "tooltip": "Dikte van de wanden tussen de gaten."
+    },
+    "placement": {
+      "enum": {
+        "intersecting": "Doorsnijdend",
+        "underneath": "Eronder"
+      },
+      "label": "Plaatsing",
+      "tooltip": "De plaatsing van de bodemplaat ten opzichte van elk onderdeel en de bijbehorende supports.\n<ul><li>Eronder - verschuif onderdelen en supports omhoog en plaats de bouwplaat eronder.</li><li>Doorsnijdend - laat de bouwplaat de onderkant van het onderdeel of de bijbehorende support doorsnijden.</li></lu>"
+    },
+    "thickness": {
+      "label": "Dikte",
+      "tooltip": "Dikte van de bodemplaat in millimeter."
+    },
+    "type": {
+      "enum": {
+        "boundingBox": "Begrenzingsvak",
+        "full": "Volledig",
+        "shadow": "Schaduw"
+      },
+      "label": "Type",
+      "tooltip": "Type bodemplaat:\n<ul><li>Volledig - bedek het volledige platform met een bodemplaat</li><li>Schaduw - bedek de gebieden direct onder de onderdelen.</li><li>Begrenzingsvak - bedek de begrenzing van elk onderdeel.</li></ul>"
+    }
+  },
+  "button": {
+    "editBasePlateSettings": "Bewerken..."
+  },
+  "label": {
+    "associatedPartType": "Gekoppeld onderdeeltype",
+    "associatedWith": "Gekoppeld met",
+    "basePlateSettings": "Bodemplaatinstellingen",
+    "default": "Standaard",
+    "deleted": "Verwijderde sjabloon",
+    "deleteSuccess_one": "{{count}} sjabloon verwijderd",
+    "deleteSuccess_other": "{{count}} sjablonen verwijderd",
+    "enabled": "Ingeschakeld",
+    "fastPrintMode": "Snelle afdrukmodus",
+    "manufacturer": "Fabrikant",
+    "material": "Materiaal",
+    "materialName": "Materiaalnaam",
+    "outdated": "Verouderde sjabloon",
+    "overrideMaterialSettings": "Als u waarden in deze velden invoert, worden de standaardinstellingen van het materiaal overschreven.",
+    "partType": "Onderdeeltype",
+    "partTypes_other": "{{count}} onderdeeltypen",
+    "partTypes_other_one": "1 onderdeeltype",
+    "partTypes_other_other": "{{count}} onderdeeltypen",
+    "printerAndTrayType": "Printer- en traytypen",
+    "printerModel": "Printermodel",
+    "search": "Zoek naar sjablonen",
+    "selectThickness": "Selecteer laagdikte",
+    "separationDetect": "Scheidingsdetectie",
+    "supports": "Supports",
+    "templateName": "Sjabloonnaam",
+    "thickness": "Laagdikte",
+    "tray": "Tray",
+    "trayType": "Traytype"
+  },
+  "message": {
+    "changesApplyToNewParts": "Bestaande onderdelen worden bijgewerkt met de nieuwe sjabloninstellingen en opnieuw in de wachtrij geplaatst voor het printen.",
+    "deleteTemplateWarning": "Alle onderdelen die deze sjabloon gebruiken, worden teruggezet naar de Inbox voor beoordeling. Wijs een nieuwe sjabloon toe om ze te printen, of wijs ze af om ze uit de Funnel te verwijderen.",
+    "modifyWillAffectParts": "Gekoppelde onderdeeltypen die deze sjabloon gebruiken, worden opnieuw in de wachtrij geplaatst voor het printen, en eventuele losgekoppelde onderdeeltypen worden teruggezet naar de Inbox voor beoordeling.",
+    "modifyWillRequeueParts": "Bestaande onderdelen worden bijgewerkt met de nieuwe sjabloninstellingen en opnieuw in de wachtrij geplaatst voor het printen.",
+    "noTemplates": "Geen sjablonen",
+    "noTemplatesInfo": "Sjablonen worden hier weergegeven. Gebruik de knop 'Aanmaken' om uw eerste sjabloon te maken."
+  },
+  "supportSettings": {
+    "accuracyZ": {
+      "label": "Nauwkeurigheid Z",
+      "tooltip": "De laagdikte die wordt gebruikt om structuren automatisch te genereren en doorsnijding met het onderdeel te voorkomen."
+    },
+    "aspectRatio": {
+      "label": "Beeldverhouding",
+      "tooltip": "Bepaalt de mate waarin supportstructuren breder worden."
+    },
+    "connectGap": {
+      "label": "Verbindingstussenruimte",
+      "tooltip": "Aantal lattice-niveaus waarvoor verbinding wordt onderdrukt nadat een verticale verbinding is gevonden (beschikbaar)."
+    },
+    "connection": {
+      "label": "Verbinding",
+      "tooltip": "Aantal knooppunten dat wordt verbonden op het lattice-niveau eronder. Als u deze waarde instelt op 0, worden flexibele supports gemaakt."
+    },
+    "contactWidth": {
+      "label": "Contactbreedte",
+      "tooltip": "Voor standaardsupports: breedte van de supportstructuur waar deze het onderdeel raakt.\n\nVoor lattice-supports: breedte van de contactbal waar deze het onderdeel raakt."
+    },
+    "halfContactWidth": {
+      "label": "Halve contactbreedte",
+      "tooltip": "Probeer opnieuw contactpunten toe te voegen met de halve breedte."
+    },
+    "heightLevel": {
+      "label": "Hoogteniveau",
+      "toggle": "Hoogte-egalisatie",
+      "tooltip": "Pas een Z-marge toe tussen de onderdelen en het platform."
+    },
+    "islandWidth": {
+      "label": "Eilandbreedte",
+      "tooltip": "Voor standaardsupports: breedte van de supportstructuur bij het eerste contact met het onderdeel.\n\nVoor lattice-supports: breedte van de contactbal bij het eerste contact voor elk onderdeellichaam."
+    },
+    "lattice": {
+      "label": "Lattice",
+      "tooltip": "Lattice-supports inschakelen. Lattice-supports genereren een onderling verbonden netwerk van dragende balken rondom het model."
+    },
+    "layout": {
+      "enum": {
+        "circle": "Cirkel",
+        "hexagon": "Zeshoek",
+        "square": "Vierkant",
+        "triangle": "Driehoek"
+      },
+      "label": "Lay-out",
+      "tooltip": "Hoe knooppunten worden verspreid over XY-posities."
+    },
+    "margin": {
+      "label": "Marge",
+      "tooltip": "Extra afstand ter voorkoming van botsingen met het onderdeel."
+    },
+    "maximumWidth": {
+      "label": "Maximale breedte",
+      "tooltip": "Beperkt de breedte van supportstructuren bij de basis."
+    },
+    "minimumHeight": {
+      "label": "Minimale hoogte",
+      "tooltip": "Voorkom het toevoegen van opnieuw doorsnijdende supports als hun hoogte kleiner is dan de opgegeven hoogte."
+    },
+    "modelInterSupport": {
+      "label": "Modelintersupport",
+      "tooltip": "Sta supportkolommen toe die opnieuw doorsnijden en op het onderdeel rusten."
+    },
+    "selfSupportAngle": {
+      "label": "Zelfdragende hoek",
+      "tooltip": "De hoek in graden vanaf horizontaal waarvoor geen supports nodig zijn."
+    },
+    "sideFaces": {
+      "label": "Zijvlakken",
+      "tooltip": "Bepaalt het aantal zijvlakken voor nieuwe supportstructuren."
+    },
+    "sideFeaturesSize": {
+      "label": "Grootte zijkenmerk",
+      "tooltip": "De afstand die een detail van een oppervlak kan uitsteken zonder te worden ondersteund."
+    },
+    "spacingXY": {
+      "label": "Tussenruimte XY",
+      "tooltip": "Afstand tussen knooppunten over het XY-vlak"
+    },
+    "spacingZ": {
+      "label": "Tussenruimte Z",
+      "tooltip": "Afstand tussen lattice-niveaus over de Z-as."
+    },
+    "supportSpacing": {
+      "label": "Supporttussenruimte",
+      "tooltip": "Afstand tussen supportpunten op een onderdeel."
+    },
+    "tallestSupport": {
+      "label": "Hoogste support",
+      "tooltip": "Negeer elk ondersteunbaar kenmerk boven de opgegeven hoogte."
+    },
+    "undershoot": {
+      "label": "Onder-/overschot",
+      "tooltip": "Voor standaardsupports: de maximale ingebrachte afstand waarop het supportpunt het onderdeel binnendringt.\n\nVoor lattice-supports: afstand vanaf het contactpunt waar de structuur begint te versmallen tot een punt."
+    }
+  },
+  "title": {
+    "changesApplyToNewParts": "Wijzigingen zijn van toepassing op nieuwe onderdelen",
+    "classificationSupportSettings": "{{classification}} supports",
+    "createTemplate": "Nieuwe sjabloon",
+    "deleteTemplate": "Sjabloon verwijderen?",
+    "deleteTemplate_zero": "Sjabloon verwijderen?",
+    "deleteTemplate_one": "{{count}} onderdeel wordt teruggezet naar de inbox",
+    "deleteTemplate_other": "{{count}} onderdelen worden teruggezet naar de inbox",
+    "editTemplate": "Sjabloon bewerken",
+    "modifyWillAffectParts": "Onderdelen kunnen worden beïnvloed door deze wijziging",
+    "modifyWillAffectParts_zero": "Onderdelen kunnen worden beïnvloed door deze wijziging",
+    "modifyWillAffectParts_one": "{{count}} onderdeel wordt beïnvloed door deze wijziging",
+    "modifyWillAffectParts_other": "{{count}} onderdelen worden beïnvloed door deze wijziging",
+    "modifyWillRequeueParts": "Onderdelen kunnen opnieuw in de wachtrij worden geplaatst",
+    "modifyWillRequeueParts_zero": "Onderdelen kunnen opnieuw in de wachtrij worden geplaatst",
+    "modifyWillRequeueParts_one": "{{count}} onderdeel wordt opnieuw in de wachtrij geplaatst",
+    "modifyWillRequeueParts_other": "{{count}} onderdelen worden opnieuw in de wachtrij geplaatst",
+    "templateBasePlate": "{{name}} bodemplaat"
+  },
+  "tooltip": {
+    "defaultPartType": "Maak dit de standaardsjabloon voor het geselecteerde onderdeeltype",
+    "defaultPartType_disabled": "Dit is momenteel de standaardsjabloon voor {{partType}}. Selecteer een andere sjabloon als standaard om deze te vervangen.",
+    "defaultPartType_only": "Dit is de standaardsjabloon omdat er geen andere sjabloon is gekoppeld aan dit onderdeeltype",
+    "fastPrintMode": "<bold>Snelle afdrukmodus</bold>\nVersnelt alle niet-essentiële bewegingen van het bouwplatform en herpositioneert snel tussen lagen om de inactieve tijd te minimaliseren en de totale printtijd te verkorten.",
+    "separationDetect": "<bold>Scheidingsdetectie</bold>\nDetecteert het loslaten van de folie, waardoor de hefafstand tussen lagen wordt verminderd.\n\nDit kan het risico op printfouten vergroten als de scheiding niet goed wordt gedetecteerd."
+  },
+  "types": {
+    "printerTypes": {
+      "max": "Max & Max 2",
+      "pro": "Pro 4K",
+      "ultra": "Ultra"
+    },
+    "trays": {
+      "endurance": "Endurance",
+      "LIFT": "LIFT",
+      "lowForce": "Low Force",
+      "ultraGLOSS": "UltraGLOSS",
+      "ultraGLOSSLIFT": "UltraGLOSS LIFT",
+      "universal": "Universal"
+    }
+  }
+}

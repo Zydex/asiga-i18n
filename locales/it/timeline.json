@@ -1,0 +1,16 @@
+{
+  "label": {
+    "allMachines": "Tutte le macchine",
+    "noDevices": "I lavori in coda per i tuoi dispositivi vengono mostrati in una sequenza temporale in questa pagina",
+    "noDevicesMessage": "Usa il pulsante qui sotto per aggiungere dispositivi alla tua organizzazione",
+    "requiresAttention": "Richiede attenzione"
+  },
+  "title": {
+    "timeline": "Sequenza temporale"
+  },
+  "tooltips": {
+    "allMachines": "Mostra tutti i dispositivi aggiunti al Funnel insieme ai relativi lavori in coda."
+  },
+  "viewHours_one": "Vista 1 ora",
+  "viewHours_other": "Vista {{count}} ore"
+}

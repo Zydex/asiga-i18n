@@ -1,0 +1,238 @@
+{
+  "basePlate": {
+    "addTo": {
+      "enum": {
+        "allParts": "Wszystkie części",
+        "supportedParts": "Obsługiwane części"
+      },
+      "label": "Dodaj płytę podstawy do",
+      "tooltip": "Dodaj płytę podstawy do obsługiwanych lub wszystkich części."
+    },
+    "enabled": {
+      "label": "Płyta podstawy",
+      "tooltip": "Włącz generowanie płyty podstawy"
+    },
+    "engraved": {
+      "label": "Dodaj nazwę budowy do płyty podstawy",
+      "tooltip": "Dodaj nazwę budowy oraz rozdzielczość XYZ w µm na płycie podstawy."
+    },
+    "meshShape": {
+      "enum": {
+        "hexagon": "Sześciokąt",
+        "none": "Brak",
+        "square": "Kwadrat",
+        "triangle": "Trójkąt"
+      },
+      "label": "Kształt siatki",
+      "tooltip": "Wybranie kształtu innego niż Brak doda wzór otworów w płycie podstawy o wybranym kształcie."
+    },
+    "meshSize": {
+      "label": "Rozmiar siatki",
+      "tooltip": "Średnica otworów w płycie podstawy."
+    },
+    "meshWidth": {
+      "label": "Szerokość siatki",
+      "tooltip": "Grubość ścianek między otworami."
+    },
+    "placement": {
+      "enum": {
+        "intersecting": "Przecinająca",
+        "underneath": "Pod spodem"
+      },
+      "label": "Umieszczenie",
+      "tooltip": "Umieszczenie płyty podstawy względem każdej części i jej podpór.\n<ul><li>Pod spodem - przesuń części i podpory w górę i umieść płytę budowy pod spodem.</li><li>Przecinająca - przetnij płytę budowy z dołem części lub jej podpory.</li></lu>"
+    },
+    "thickness": {
+      "label": "Grubość",
+      "tooltip": "Grubość płyty podstawy w milimetrach."
+    },
+    "type": {
+      "enum": {
+        "boundingBox": "Obwiednia",
+        "full": "Pełna",
+        "shadow": "Cień"
+      },
+      "label": "Typ",
+      "tooltip": "Typ płyty podstawy:\n<ul><li>Pełna - pokryj całą platformę płytą podstawy</li><li>Cień - pokryj obszary bezpośrednio pod częściami.</li><li>Obwiednia - pokryj obwiednię każdej części.</li></ul>"
+    }
+  },
+  "button": {
+    "editBasePlateSettings": "Edytuj..."
+  },
+  "label": {
+    "associatedPartType": "Powiązany typ części",
+    "associatedWith": "Powiązane z",
+    "basePlateSettings": "Ustawienia płyty podstawy",
+    "default": "Domyślny",
+    "deleted": "Usunięty szablon",
+    "deleteSuccess_one": "Usunięto {{count}} szablon",
+    "deleteSuccess_other": "Usunięto {{count}} szablonów",
+    "enabled": "Włączone",
+    "fastPrintMode": "Szybki tryb druku",
+    "manufacturer": "Producent",
+    "material": "Materiał",
+    "materialName": "Nazwa materiału",
+    "outdated": "Nieaktualny szablon",
+    "overrideMaterialSettings": "Wprowadzenie wartości w tych polach zastąpi wartości domyślne ustawione przez materiał.",
+    "partType": "Typ części",
+    "partTypes_other": "{{count}} typów części",
+    "partTypes_other_one": "1 typ części",
+    "partTypes_other_other": "{{count}} typów części",
+    "printerAndTrayType": "Typy drukarek i tac",
+    "printerModel": "Model drukarki",
+    "search": "Szukaj szablonów",
+    "selectThickness": "Wybierz grubość warstwy",
+    "separationDetect": "Wykrywanie separacji",
+    "supports": "Podpory",
+    "templateName": "Nazwa szablonu",
+    "thickness": "Grubość warstwy",
+    "tray": "Taca",
+    "trayType": "Typ tacy"
+  },
+  "message": {
+    "changesApplyToNewParts": "Istniejące części zostaną zaktualizowane nowymi ustawieniami szablonu i ponownie umieszczone w kolejce do druku.",
+    "deleteTemplateWarning": "Wszystkie części korzystające z tego szablonu zostaną zwrócone do Skrzynki odbiorczej w celu przeglądu. Przypisz nowy szablon, aby je wydrukować, lub odrzuć je, aby usunąć z Lejka.",
+    "modifyWillAffectParts": "Powiązane typy części korzystające z tego szablonu zostaną ponownie umieszczone w kolejce do druku, a usunięte typy części zostaną zwrócone do Skrzynki odbiorczej w celu przeglądu.",
+    "modifyWillRequeueParts": "Istniejące części zostaną zaktualizowane nowymi ustawieniami szablonu i ponownie umieszczone w kolejce do druku.",
+    "noTemplates": "Brak szablonów",
+    "noTemplatesInfo": "Szablony będą wyświetlane tutaj. Użyj przycisku „Utwórz”, aby utworzyć swój pierwszy szablon."
+  },
+  "supportSettings": {
+    "accuracyZ": {
+      "label": "Dokładność Z",
+      "tooltip": "Grubość warstwy używana do automatycznego generowania struktur i unikania przecinania się z częścią."
+    },
+    "aspectRatio": {
+      "label": "Proporcje",
+      "tooltip": "Kontroluje tempo rozszerzania się struktur podpór."
+    },
+    "connectGap": {
+      "label": "Odstęp połączenia",
+      "tooltip": "Liczba poziomów kraty, dla których połączenie jest pomijane po znalezieniu połączenia pionowego (dostępne)."
+    },
+    "connection": {
+      "label": "Połączenie",
+      "tooltip": "Liczba węzłów do połączenia na poziomie kraty poniżej. Ustawienie tej wartości na 0 utworzy elastyczne podpory."
+    },
+    "contactWidth": {
+      "label": "Szerokość styku",
+      "tooltip": "Dla podpór domyślnych: Szerokość struktury podpory w miejscu styku z częścią.\n\nDla podpór kratowych: Szerokość kulki styku w miejscu styku z częścią."
+    },
+    "halfContactWidth": {
+      "label": "Połowa szerokości styku",
+      "tooltip": "Ponów próbę dodania punktów styku z połową szerokości."
+    },
+    "heightLevel": {
+      "label": "Poziom wysokości",
+      "toggle": "Wyrównanie wysokości",
+      "tooltip": "Zastosuj margines Z między częściami a platformą."
+    },
+    "islandWidth": {
+      "label": "Szerokość wyspy",
+      "tooltip": "Dla podpór domyślnych: Szerokość struktury podpory przy pierwszym kontakcie z częścią.\n\nDla podpór kratowych: Szerokość kulki styku przy pierwszym kontakcie dla każdej bryły części."
+    },
+    "lattice": {
+      "label": "Krata",
+      "tooltip": "Włącz podpory kratowe. Podpory kratowe generują wzajemnie połączoną sieć belek podporowych wokół modelu."
+    },
+    "layout": {
+      "enum": {
+        "circle": "Okrąg",
+        "hexagon": "Sześciokąt",
+        "square": "Kwadrat",
+        "triangle": "Trójkąt"
+      },
+      "label": "Układ",
+      "tooltip": "Sposób rozmieszczenia węzłów w pozycjach XY."
+    },
+    "margin": {
+      "label": "Margines",
+      "tooltip": "Dodatkowy dystans unikania kolizji od części."
+    },
+    "maximumWidth": {
+      "label": "Maksymalna szerokość",
+      "tooltip": "Ogranicza szerokość struktur podpór przy podstawie."
+    },
+    "minimumHeight": {
+      "label": "Minimalna wysokość",
+      "tooltip": "Unikaj dodawania ponownie przecinających się podpór, jeśli ich wysokość jest mniejsza niż określona wysokość."
+    },
+    "modelInterSupport": {
+      "label": "Wzajemne podpieranie modelu",
+      "tooltip": "Zezwól na kolumny podpór, które będą ponownie się przecinać i opierać na części."
+    },
+    "selfSupportAngle": {
+      "label": "Kąt samopodparcia",
+      "tooltip": "Kąt w stopniach od poziomu, który nie wymaga podpór."
+    },
+    "sideFaces": {
+      "label": "Ściany boczne",
+      "tooltip": "Określa liczbę ścian bocznych dla nowych struktur podpór."
+    },
+    "sideFeaturesSize": {
+      "label": "Rozmiar cechy bocznej",
+      "tooltip": "Odległość, na jaką detal może wystawać z powierzchni bez konieczności podparcia."
+    },
+    "spacingXY": {
+      "label": "Odstęp XY",
+      "tooltip": "Odległość między węzłami na płaszczyźnie XY"
+    },
+    "spacingZ": {
+      "label": "Odstęp Z",
+      "tooltip": "Odległość między poziomami kraty na osi Z."
+    },
+    "supportSpacing": {
+      "label": "Odstęp podpór",
+      "tooltip": "Odległość między punktami podparcia na części."
+    },
+    "tallestSupport": {
+      "label": "Najwyższa podpora",
+      "tooltip": "Ignoruj wszelkie cechy wymagające podparcia powyżej określonej wysokości."
+    },
+    "undershoot": {
+      "label": "Niedomiar/Nadmiar",
+      "tooltip": "Dla podpór domyślnych: Maksymalna wprowadzona odległość, na jaką punkt podparcia wchodzi w część.\n\nDla podpór kratowych: Odległość od punktu styku, w której struktura zaczyna zwężać się do punktu."
+    }
+  },
+  "title": {
+    "changesApplyToNewParts": "Zmiany dotyczą nowych części",
+    "classificationSupportSettings": "Podpory {{classification}}",
+    "createTemplate": "Nowy szablon",
+    "deleteTemplate": "Usunąć szablon?",
+    "deleteTemplate_zero": "Usunąć szablon?",
+    "deleteTemplate_one": "{{count}} część zostanie zwrócona do skrzynki odbiorczej",
+    "deleteTemplate_other": "{{count}} części zostanie zwróconych do skrzynki odbiorczej",
+    "editTemplate": "Edytuj szablon",
+    "modifyWillAffectParts": "Ta zmiana może wpłynąć na części",
+    "modifyWillAffectParts_zero": "Ta zmiana może wpłynąć na części",
+    "modifyWillAffectParts_one": "{{count}} część zostanie dotknięta tą zmianą",
+    "modifyWillAffectParts_other": "{{count}} części zostanie dotkniętych tą zmianą",
+    "modifyWillRequeueParts": "Części mogą zostać ponownie umieszczone w kolejce",
+    "modifyWillRequeueParts_zero": "Części mogą zostać ponownie umieszczone w kolejce",
+    "modifyWillRequeueParts_one": "{{count}} część zostanie ponownie umieszczona w kolejce",
+    "modifyWillRequeueParts_other": "{{count}} części zostanie ponownie umieszczonych w kolejce",
+    "templateBasePlate": "Płyta podstawy {{name}}"
+  },
+  "tooltip": {
+    "defaultPartType": "Ustaw jako domyślny szablon dla wybranego typu części",
+    "defaultPartType_disabled": "To jest obecnie domyślny szablon dla {{partType}}. Wybierz inny szablon jako domyślny, aby go zastąpić.",
+    "defaultPartType_only": "To jest domyślny szablon, ponieważ żaden inny szablon nie jest powiązany z tym typem części",
+    "fastPrintMode": "<bold>Szybki tryb druku</bold>\nPrzyspiesza wszystkie niekrytyczne ruchy platformy budowy, szybko zmieniając pozycję między warstwami, aby zminimalizować czas bezczynności i skrócić całkowity czas druku.",
+    "separationDetect": "<bold>Wykrywanie separacji</bold>\nWykrywa uwolnienie folii, zmniejszając odległość podnoszenia między warstwami.\n\nMoże powodować ryzyko wad druku, jeśli separacja nie zostanie prawidłowo wykryta."
+  },
+  "types": {
+    "printerTypes": {
+      "max": "Max & Max 2",
+      "pro": "Pro 4K",
+      "ultra": "Ultra"
+    },
+    "trays": {
+      "endurance": "Endurance",
+      "LIFT": "LIFT",
+      "lowForce": "Low Force",
+      "ultraGLOSS": "UltraGLOSS",
+      "ultraGLOSSLIFT": "UltraGLOSS LIFT",
+      "universal": "Universal"
+    }
+  }
+}

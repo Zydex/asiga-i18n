@@ -1,0 +1,772 @@
+{
+  "alt": {
+    "logo": "Portal Web Asiga",
+    "noSearchResults": "Sem Resultados de Pesquisa",
+    "sort": "Ordenar Por"
+  },
+  "boolean": {
+    "false": "falso",
+    "true": "verdadeiro"
+  },
+  "button": {
+    "accept": "Aceitar",
+    "acceptAll": "Aceitar Tudo",
+    "add": "Adicionar",
+    "addMore_zero": "Adicionar...",
+    "addMore_one": "Adicionar mais...",
+    "addMore_other": "Adicionar mais...",
+    "apply": "Aplicar",
+    "back": "Voltar",
+    "cancel": "Cancelar",
+    "close": "Fechar",
+    "confirm": "Confirmar",
+    "connect": "Ligar",
+    "continue": "Continuar",
+    "create": "Criar",
+    "delete": "Eliminar",
+    "deny": "Negar",
+    "dismiss": "Dispensar",
+    "download": "Transferir",
+    "edit": "Editar",
+    "essentialOnly": "Apenas Essenciais",
+    "invite": "Convidar",
+    "logout": "Terminar Sessão",
+    "off": "Desligado",
+    "ok": "OK",
+    "on": "Ligado",
+    "pause": "Pausar",
+    "promote": "Promover",
+    "refresh": "Recarregar",
+    "reject": "Rejeitar",
+    "rejectAll": "Rejeitar Tudo",
+    "rejectAndRequeue": "Rejeitar e Recolocar na Fila",
+    "rejectOnly": "Apenas Rejeitar",
+    "remove": "Remover",
+    "rename": "Renomear",
+    "reprocess": "Reprocessar",
+    "reset": "Repor",
+    "resetToDefault": "Repor predefinição",
+    "retry": "Tentar novamente",
+    "save": "Guardar",
+    "tooltips": {
+      "changeRoleDisabled": "Não tem permissão para alterar a função dos utilizadores selecionados.",
+      "changeRoleDisabled_admin": "Não tem permissão para alterar a função de utilizadores Administradores ou Proprietários.",
+      "changeRoleDisabled_owner": "Não tem permissão para alterar a função de utilizadores Proprietários.",
+      "changeRoleDisabled_user": "Não tem permissão para alterar as funções de outros utilizadores.",
+      "deleteUserDisabled": "Não tem permissão para remover os utilizadores selecionados.",
+      "deleteUserDisabled_admin": "Não tem permissão para remover utilizadores Administradores ou Proprietários.",
+      "deleteUserDisabled_owner": "Não tem permissão para remover outros utilizadores Proprietários.",
+      "deleteUserDisabled_user": "Não tem permissão para remover outros utilizadores."
+    },
+    "transfer": "Transferir",
+    "unlink": "Desassociar",
+    "update": "Atualizar"
+  },
+  "date": {
+    "all": "Todos",
+    "custom": "Personalizado",
+    "daysInterval": "Intervalo de datas",
+    "daysInterval_0": "Hoje",
+    "daysInterval_1": "Ontem",
+    "daysInterval_7": "Últimos 7 Dias",
+    "homeRange": "Intervalo de datas",
+    "homeRange_currentPeriod": "Período de Faturação",
+    "homeRange_last12Months": "Últimos 12 Meses",
+    "homeRange_lastWeek": "Semana Passada",
+    "homeRange_thisWeek": "Esta Semana",
+    "homeRange_today": "Hoje",
+    "homeRange_yesterday": "Ontem"
+  },
+  "dateRange": {
+    "error": {
+      "outOfRange": "As datas selecionadas devem estar dentro do último ano.",
+      "toBeforeFrom": "A data 'Até' selecionada não pode ser anterior à data 'De'."
+    },
+    "from": "De",
+    "title": "Intervalo de datas de {{field}}",
+    "to": "Até"
+  },
+  "details": {
+    "copyLink": "Copiar link",
+    "linkCopied": "Link copiado para a área de transferência",
+    "linkCopyFailed": "Falha ao copiar o link",
+    "progress": "Progresso"
+  },
+  "dialog": {
+    "no": "Não",
+    "yes": "Sim"
+  },
+  "displayError": {
+    "button": "Contactar Suporte",
+    "message": "Verifique a ligação e tente atualizar a página web.\nContacte o suporte se o problema persistir."
+  },
+  "error": {
+    "400": "O pedido era inválido.",
+    "401": "Não está autenticado. Inicie sessão.",
+    "403": "Não tem permissão para efetuar este pedido.",
+    "404": "Este recurso não foi encontrado.",
+    "409": "O seu pedido não pôde ser processado devido a um conflito.",
+    "422": "Não foi possível validar este pedido.",
+    "500": "Ocorreu um erro inesperado.",
+    "activeWorkflowNotFound": "Nenhum fluxo de trabalho ativo encontrado.",
+    "activeWorkflowNotFound_details": "Nenhum fluxo de trabalho ativo encontrado para a organização com ID {{details}}.",
+    "addressCreateForbidden": "Não tem permissão para criar moradas para esta organização.",
+    "addressDeleteForbidden": "Não tem permissão para eliminar as moradas desta organização.",
+    "addressNotFound": "Morada não encontrada.",
+    "addressNotFound_details": "Morada com id {{details}} não encontrada.",
+    "addressUpdateForbidden": "Não tem permissão para atualizar as moradas desta organização.",
+    "auth0BadRequest": "Não foi possível verificar o seu utilizador.",
+    "auth0Forbidden": "A sua função não tem as permissões necessárias para efetuar este pedido.",
+    "auth0Unauthorized": "Não está autenticado. Inicie sessão.",
+    "badRequest": "O pedido era inválido.",
+    "conflict": "O seu pedido não pôde ser processado devido a um conflito.",
+    "deviceForbidden": "Não tem permissão para ver os dispositivos desta organização.",
+    "deviceNotFound": "Dispositivo não encontrado.",
+    "deviceNotFound_details": "Dispositivo com número de série '{{details}}' não encontrado.",
+    "deviceStateConflict": "O dispositivo tem um estado desejado que ainda não foi confirmado.",
+    "fileChecksumMismatch": "O ficheiro carregado '{{fileName}}' não foi carregado corretamente. Tente carregá-lo novamente.",
+    "filesRemoved": "Os ficheiros necessários para esta ação ultrapassaram o seu período de retenção e já não estão disponíveis.",
+    "forbidden": "Não tem permissão para efetuar este pedido.",
+    "integrationNotFound": "Não foi possível encontrar a integração.",
+    "jobDownloadIncorrectState": "Um trabalho só pode ser transferido quando está à espera de revisão.",
+    "jobDownloadReportIncorrectState": "O trabalho não tem um ficheiro de relatório disponível.",
+    "jobForbidden": "Não tem permissão para obter o trabalho desta organização.",
+    "jobNoPreviewFile": "O trabalho não tem um ficheiro de pré-visualização disponível.",
+    "jobNoReportFile": "O trabalho não tem um ficheiro de relatório disponível.",
+    "jobNoSlicedBuildFile": "O trabalho não tem um ficheiro de construção fatiado pronto para impressão.",
+    "jobNotFound": "Trabalho não encontrado.",
+    "jobNotFound_details": "Trabalho com id {{details}} não encontrado.",
+    "jobReviewIncorrectState": "O trabalho não está à espera de revisão.",
+    "linkCreateConflict": "Já existe uma ligação de integração para esta organização.",
+    "linkCreateForbidden": "Não tem permissão para criar uma ligação de integração para esta organização.",
+    "linkDeleteForbidden": "Não tem permissão para eliminar uma ligação de integração desta organização.",
+    "linkGetForbidden": "Não tem permissão para obter uma ligação de integração desta organização.",
+    "linkNotFound": "Ligação de integração não encontrada.",
+    "linkUpdateForbidden": "Não tem permissão para atualizar uma ligação de integração desta organização.",
+    "linkUserCreateForbidden": "Não tem permissão para criar uma ligação de integração em nome de outro utilizador.",
+    "luceneIllegalCharacterError": "Carácter ilegal na consulta lucene.",
+    "luceneIllegalCharacterError_details": "Carácter ilegal na consulta lucene. ({{details}})",
+    "luceneParseError": "Não foi possível processar a Consulta Lucene.",
+    "luceneSyntaxError": "Erro de sintaxe na consulta lucene.",
+    "luceneSyntaxError_details": "Erro de sintaxe na consulta lucene. ({{details}})",
+    "materialCancelIncorrectState": "Não tem permissão para cancelar material que não esteja pendente de carregamento.",
+    "materialCreateForbidden": "Não tem permissão para criar um material para esta organização.",
+    "materialDeleteForbidden": "Não tem permissão para eliminar um material desta organização.",
+    "materialFileEmpty": "O ficheiro do material está vazio.",
+    "materialFileName": "Tipo de ficheiro não suportado.",
+    "materialFileParse": "Não foi possível ler o ficheiro do material.",
+    "materialFileRead": "Não foi possível ler o ficheiro do material.",
+    "materialFileType": "Tipo de ficheiro não suportado.",
+    "materialGetForbidden": "Não tem permissão para obter um material desta organização.",
+    "materialMarkAsUploadedIncorrectState": "Não tem permissão para marcar como carregado um material que não esteja pendente de carregamento.",
+    "materialNotFound": "O material não foi encontrado.",
+    "materialNotUploadedIncorrectState": "Não foi carregado um ficheiro ini para este material.",
+    "materialRetryUploadIncorrectState": "Não tem permissão para repetir o carregamento de um material que não esteja pendente de carregamento.",
+    "materialUpdateForbidden": "Não tem permissão para atualizar um material desta organização.",
+    "materialVisibilityConflict": "Não tem permissão para alterar a visibilidade de um material que está a ser carregado.",
+    "noAuthorized": "Não está autenticado. Inicie sessão.",
+    "notAllowedFieldFilter": "Um campo fornecido não é filtrável.",
+    "notAllowedFieldFilter_details": "O campo '{{details}}' não é filtrável.",
+    "notAllowedFieldSort": "Um campo fornecido não é ordenável.",
+    "notAllowedFieldSort_details": "O campo '{{details}}' não é ordenável.",
+    "notFound": "Este recurso não foi encontrado.",
+    "organisationNotFound": "Organização não encontrada.",
+    "organisationNotFound_details": "Organização com id {{details}} não encontrada.",
+    "organisationUpdateForbidden": "Não tem permissão para atualizar esta organização.",
+    "organisationViewForbidden": "Não tem permissão para ver esta organização.",
+    "organisationViewUsersForbidden": "Não tem permissão para ver os utilizadores desta organização.",
+    "partCancelIncorrectState": "Não tem permissão para cancelar uma peça que não esteja pendente de carregamento.",
+    "partCreateForbidden": "Não tem permissão para criar uma peça para esta organização.",
+    "partDeleteForbidden": "Não tem permissão para eliminar uma peça desta organização.",
+    "partDequeForbidden": "Não tem permissão para retirar da fila uma peça que não esteja à espera de colocação.",
+    "partDownloadIncorrectState": "Não tem permissão para transferir uma peça que não tenha sido carregada.",
+    "partFileNameEmpty": "O nome do ficheiro da peça está vazio",
+    "partFileNameExcessive": "O nome do ficheiro da peça é demasiado longo",
+    "partGetForbidden": "Não tem permissão para obter uma peça desta organização.",
+    "partMarkAsAcceptedIncorrectState": "Não tem permissão para aceitar uma peça que não esteja pronta para ser aceite.",
+    "partMarkAsConfirmedIncorrectState": "Não tem permissão para confirmar uma peça que não esteja à espera de confirmação.",
+    "partMarkAsRejectedIncorrectState": "Não tem permissão para rejeitar uma peça que não esteja à espera de revisão ou aceitação.",
+    "partMarkAsReviewedIncorrectState": "Não tem permissão para rever uma peça que não esteja pronta para revisão.",
+    "partMarkAsUploadedIncorrectState": "Não tem permissão para marcar como carregada uma peça que não esteja no estado correto.",
+    "partMarkQueuedAsRejectedIncorrectState": "Não tem permissão para rejeitar uma peça que faz parte da fila de trabalhos.",
+    "partMarkToConfirmAsRejectedIncorrectState": "Não tem permissão para rejeitar uma peça que não esteja à espera de confirmação.",
+    "partNeedsTemplateConflict": "Esta peça requer um modelo, mas não é possível atribuir-lhe nenhum modelo.",
+    "partNotFound": "Peça não encontrada.",
+    "partNotFound_details": "Peça com id {{details}} não encontrada.",
+    "partRetryUploadIncorrectState": "Não tem permissão para repetir o carregamento de uma peça que não esteja pendente de carregamento.",
+    "partUndoAcceptIncorrectState": "Não é possível anular a aceitação quando uma peça não foi aceite.",
+    "partUndoRejectIncorrectState": "A rejeição não pode ser anulada quando uma peça não foi rejeitada.",
+    "partUpdateAcceptedIncorrectState": "Não tem permissão para atualizar uma peça que já foi aceite.",
+    "partUpdateForbidden": "Não tem permissão para atualizar uma peça desta organização.",
+    "roleNotFound": "O id da função não existe.",
+    "sortField": "Nome de campo inválido.",
+    "sortField_details": "Nome de campo inválido: {{details}}.",
+    "sortOrder": "Valor de ordem inválido. Deve ser '-1' ou '1'",
+    "sortOrder_details": "Valor de ordem inválido: {{details}}. Deve ser '-1' ou '1'",
+    "templateCreateForbidden": "Não tem permissão para criar um modelo para esta organização.",
+    "templateDeleteForbidden": "Não tem permissão para eliminar um modelo desta organização.",
+    "templateDeleteHardForbidden": "Não é possível eliminar diretamente um modelo.",
+    "templateGetForbidden": "Não tem permissão para obter um modelo desta organização.",
+    "templateMaterialForbidden": "Não tem acesso para atribuir este material a um modelo.",
+    "templateMaterialPendingConflict": "Um material pendente de carregamento não pode ser atribuído a um modelo.",
+    "templateNoEligibleDefault": "É necessário um modelo predefinido para cada tipo de peça especificado. Defina outro modelo como predefinido antes de remover este.",
+    "templateNotFound": "O modelo não foi encontrado.",
+    "templateUpdateForbidden": "Não tem permissão para atualizar um modelo desta organização.",
+    "unauthorized": "Não está autenticado. Inicie sessão.",
+    "unexpected": "Ocorreu um erro inesperado.",
+    "unprocessableContent": "Conteúdo não processável",
+    "unspecified": "Ocorreu um erro não especificado.",
+    "unsupportedMediaType": "Tipo de conteúdo não suportado",
+    "userBFPForbidden": "Não foi possível desbloquear o utilizador.",
+    "userBlockForbidden": "Não foi possível modificar o estado de bloqueio do utilizador.",
+    "userConflict": "O utilizador já existe.",
+    "userConflict_details": "Já existe um utilizador com o email {{details}} na sua organização ou noutra organização. Utilize um email alternativo.",
+    "userConflictAnotherOrg_details": "O email {{details}} já está associado a outra organização. Utilize um email alternativo ou peça ao utilizador para cancelar a inscrição na organização anterior.",
+    "userConflictWithinOrg_details": "Já existe um utilizador com o email {{details}} na sua organização.",
+    "userCreateForbidden": "Não foi possível criar o utilizador.",
+    "userDeleteForbidden": "Não foi possível eliminar o utilizador.",
+    "userGetBFPForbidden": "Não foi possível obter o estado de bloqueio do utilizador",
+    "userGetBlockForbidden": "Não foi possível obter o estado de bloqueio do utilizador.",
+    "userGetForbidden": "Não foi possível encontrar o utilizador.",
+    "userNotFound": "Utilizador não encontrado.",
+    "userNotFound_details": "Não foi possível encontrar o utilizador com o email {{details}}.",
+    "userNotInOrg": "O utilizador não está associado a uma organização.",
+    "userResetForbidden": "Não foi possível repor a palavra-passe do utilizador.",
+    "userRoleAddForbidden": "Não foi possível adicionar a função ao utilizador.",
+    "userRoleRemoveForbidden": "Não foi possível remover a função do utilizador.",
+    "userSearchField": "Definições de campo inválidas para a pesquisa de utilizadores.",
+    "userSearchForbidden": "Não foi possível pesquisar utilizadores.",
+    "userSearchPagination": "Definições de paginação inválidas para a pesquisa de utilizadores.",
+    "userSearchSort": "Definições de ordenação inválidas para a pesquisa de utilizadores.",
+    "userUpdateForbidden": "Não foi possível atualizar o utilizador.",
+    "validation": "Não foi possível validar este pedido.",
+    "value": "Foi fornecido um valor inválido para este pedido.",
+    "workflowNotFound": "Fluxo de trabalho não encontrado.",
+    "workflowNotFound_details": "Fluxo de trabalho com id {{details}} não encontrado."
+  },
+  "label": {
+    "acceptedGroupsSuccess_one": "{{count}} grupo movido para <a>Aceites</a>",
+    "acceptedGroupsSuccess_other": "{{count}} grupos movidos para <a>Aceites</a>",
+    "acceptedJobsSuccess_one": "{{count}} trabalho movido para <a>Aceites</a>",
+    "acceptedJobsSuccess_other": "{{count}} trabalhos movidos para <a>Aceites</a>",
+    "acceptedPartsSuccess_one": "{{count}} peça movida para <a>Aceites</a>",
+    "acceptedPartsSuccess_other": "{{count}} peças movidas para <a>Aceites</a>",
+    "acceptingGroups": "A aceitar grupos de peças",
+    "acceptingJobs": "A aceitar trabalhos",
+    "acceptingParts": "A aceitar peças",
+    "assigningTemplates": "A atribuir modelo às peças",
+    "assigningTemplatesSuccess_one": "Modelo atribuído a {{count}} peça",
+    "assigningTemplatesSuccess_other": "Modelo atribuído a {{count}} peças",
+    "cancelUploadModalButtonSecondary": "Continuar Carregamentos",
+    "cancelUploadsModalBody": "Os carregamentos de peças não estão concluídos. Pretende cancelar os carregamentos restantes?",
+    "cancelUploadsModalButtonPrimary": "Cancelar Carregamentos",
+    "cancelUploadsModalTitle": "Cancelar carregamentos restantes?",
+    "confirmedSuccess_one": "{{count}} peça confirmada",
+    "confirmedSuccess_other": "{{count}} peças confirmadas",
+    "confirmingParts": "A confirmar peças",
+    "creatingGroup": "A criar grupo de peças",
+    "default": "Predefinição",
+    "deprioritiseSuccess_one": "Prioridade da peça removida.",
+    "deprioritiseSuccess_other": "Prioridades das peças removidas.",
+    "deprioritisingParts": "A remover prioridades das peças.",
+    "dismissingParts": "A dispensar peças",
+    "dismissSuccess_one": "{{count}} peça foi dispensada",
+    "dismissSuccess_other": "{{count}} peças foram dispensadas",
+    "downloading": "A transferir",
+    "downloadJobsSuccess_one": "{{count}} trabalho transferido",
+    "downloadJobsSuccess_other": "{{count}} trabalhos transferidos",
+    "downloadPartsSuccess_one": "{{count}} peça transferida",
+    "downloadPartsSuccess_other": "{{count}} peças transferidas",
+    "duplicatePartsSuccess_one": "{{count}} peça duplicada <a>Para Revisão</a>",
+    "duplicatePartsSuccess_other": "{{count}} peças duplicadas <a>Para Revisão</a>",
+    "duplicatingParts": "A duplicar peças",
+    "filesRemovedJob": "Os ficheiros do trabalho de impressão ultrapassaram o seu período de retenção e já não estão disponíveis.",
+    "filesRemovedPart": "Os ficheiros da peça ultrapassaram o seu período de retenção e já não estão disponíveis.",
+    "fullname": "Nome Completo",
+    "groupCreateSuccess": "Grupo de peças criado com sucesso",
+    "groupRegroupSuccess": "Peças reagrupadas com sucesso",
+    "groupRenameSuccess": "Grupo de peças renomeado com sucesso",
+    "groupUpdateSuccess_one": "{{count}} grupo atualizado com sucesso",
+    "groupUpdateSuccess_other": "{{count}} grupos atualizados com sucesso",
+    "itemSelected": "Item selecionado",
+    "itemSelected_zero": "Nenhum item selecionado",
+    "itemSelected_one": "{{count}} item selecionado",
+    "itemSelected_other": "{{count}} itens selecionados",
+    "language": "Idioma",
+    "openDrawer": "Abrir Menu Lateral",
+    "partRenameSuccess": "Peça renomeada com sucesso",
+    "preparingDownload": "A preparar transferência",
+    "prioritiseSuccess_one": "{{count}} peça priorizada.",
+    "prioritiseSuccess_other": "{{count}} peças priorizadas.",
+    "prioritisingParts": "A priorizar peças",
+    "promotedJobsSuccess_one": "{{count}} trabalho promovido <a>Para Revisão</a>",
+    "promotedJobsSuccess_other": "{{count}} trabalhos promovidos <a>Para Revisão</a>",
+    "promotingJobs": "A promover trabalhos",
+    "regroupingParts": "A reagrupar peças",
+    "rejectedSuccess_one": "{{count}} peça movida para <a>Rejeitados</a>",
+    "rejectedSuccess_other": "{{count}} peças movidas para <a>Rejeitados</a>",
+    "rejectingParts": "A rejeitar peças",
+    "rejectJobPartModalIntro_one": "Esta peça está aninhada num trabalho que está pronto para revisão.",
+    "rejectJobPartModalIntro_other": "Estas peças estão aninhadas num trabalho que está pronto para revisão.",
+    "rejectJobPartModalRejectAndRequeue_one": "Remover esta peça e recolocar na fila as restantes peças para reaninhamento.",
+    "rejectJobPartModalRejectAndRequeue_other": "Remover estas peças e recolocar na fila as restantes peças para reaninhamento.",
+    "rejectJobPartModalRejectOnly_one": "Remover esta peça e manter o restante trabalho intacto.",
+    "rejectJobPartModalRejectOnly_other": "Remover estas peças e manter o restante trabalho intacto.",
+    "rejectJobPartModalTitle": "Reaninhar trabalho?",
+    "rejectModal": "As peças selecionadas deixarão de ser consideradas para qualquer trabalho de impressão.",
+    "rejectModalTitle_one": "Rejeitar {{partName}}?",
+    "rejectModalTitle_other": "Rejeitar {{count}} peças selecionadas?",
+    "removingFromGroups": "A remover peças dos grupos",
+    "renamePart": "Renomear peça",
+    "renamingGroup": "A renomear grupo de peças",
+    "renamingPart": "A renomear peça",
+    "reprintingParts": "A recolocar peças na fila para reimpressão",
+    "reprintPartsSuccess_one": "{{count}} peça recolocada na fila e movida para <a>Aceites</a>",
+    "reprintPartsSuccess_other": "{{count}} peças recolocadas na fila e movidas para <a>Aceites</a>",
+    "resendingJobs": "A reenviar trabalhos",
+    "resentJobs_one": "{{count}} trabalho reenviado",
+    "resentJobs_other": "{{count}} trabalhos reenviados",
+    "setTimezone": "Definir Fuso Horário",
+    "settings": "Definições",
+    "tabs": "Separadores",
+    "timezone": "Fuso Horário",
+    "undoAcceptedPartsSuccess_one": "{{count}} peça removida de Aceites",
+    "undoAcceptedPartsSuccess_other": "{{count}} peças removidas de Aceites",
+    "undoingAcceptParts": "A anular aceitação de peças",
+    "undoingRejectParts": "A anular rejeição de peças",
+    "undoRejectPartsSuccess_one": "{{count}} peça removida de Rejeitados",
+    "undoRejectPartsSuccess_other": "{{count}} peças removidas de Rejeitados",
+    "ungroupingGroups": "A desagrupar peças",
+    "ungroupSuccess_one": "{{count}} grupo desagrupado com sucesso",
+    "ungroupSuccess_other": "{{count}} grupos desagrupados com sucesso",
+    "updatingPartTypes": "A atualizar tipos de peças",
+    "updatingPartTypesSuccess_one": "{{count}} tipo de peça atualizado",
+    "updatingPartTypesSuccess_other": "{{count}} tipos de peças atualizados"
+  },
+  "links": {
+    "devices": "Dispositivos",
+    "home": "Início",
+    "inbox": "Caixa de Entrada",
+    "manage": "Gerir",
+    "parts": "Peças",
+    "printJobs": "Trabalhos de Impressão",
+    "timeline": "Linha do Tempo",
+    "tooltips": {
+      "devices": "Uma visão geral em tempo real de todos os dispositivos para o ajudar a monitorizar o seu laboratório.",
+      "home": "Um resumo da atividade do seu laboratório para o manter atualizado.",
+      "inbox": "Carregue e reveja peças de utilizadores ou aplicações.\n\nConfirme que as peças têm o modelo de impressão correto aplicado e aceite para fabrico.",
+      "manage": "Adicione ou edite utilizadores, associe aplicações externas, definições gerais.",
+      "parts": "Veja as peças que foram aceites para fabrico.\n\nVerifique o estado para ver em que ponto do processo de fabrico se encontram.",
+      "printJobs": "Reveja os trabalhos de impressão que foram criados.\n\nVerifique o estado para ver em que fase do processo de fabrico se encontram.",
+      "templates": "Lista todos os modelos no Funnel. Estes controlam quais os materiais, definições de impressão e impressoras utilizados para cada tipo de peça.",
+      "timeline": "Veja os trabalhos de impressão que colocou na fila em cada um dos seus dispositivos para monitorizar o progresso e a utilização."
+    }
+  },
+  "loading": {
+    "unavailable": "Indisponível"
+  },
+  "maintenancePage": {
+    "message": "Estamos a trabalhar para melhorar o Funnel.\nVoltaremos em breve.",
+    "title": "Manutenção agendada"
+  },
+  "message": {
+    "acceptPrivacyPolicy": "Aceito a <a>Política de Privacidade</a>",
+    "acceptTermsOfService": "Aceito os <a>Termos de Serviço</a>",
+    "betaTest": "Está a utilizar a versão beta, diga-nos como podemos melhorar. <a>Enviar Feedback</a>",
+    "betaTest_narrow": "Está a utilizar a versão beta. <a>Enviar Feedback</a>",
+    "checkConnectionForBuildInfo": "Verifique a ligação à internet da impressora para ver as construções atuais e em fila.",
+    "cookiePolicy": "Utilizamos cookies para melhorar a sua experiência de navegação. Para saber mais, visite a nossa <cookie>Política de Cookies</cookie> e <privacy>Declaração de Privacidade</privacy>.",
+    "cookiePreferencesAllowed": "Permitiu todos os cookies, incluindo os de análise e suporte.",
+    "cookiePreferencesDenied": "Está a utilizar apenas cookies estritamente necessários.",
+    "filesRemovedAction": "Indisponível: os ficheiros necessários para esta ação ultrapassaram o seu período de retenção e já não estão disponíveis.",
+    "maintenanceMode": "O Funnel estará indisponível em {{startDate}}, entre as {{startTime}} e as {{endTime}}, para manutenção essencial.",
+    "maintenanceMode_multiDay": "O Funnel estará indisponível de {{startDate}} {{startTime}} a {{endDate}} {{endTime}} para manutenção essencial.",
+    "maintenanceModeActive": "O Funnel está em manutenção agendada até {{endDate}} {{endTime}}.",
+    "noConnection": "Não foi possível ligar, a tentar novamente em {{time}}",
+    "noMatches": "Desculpe, não foram encontradas correspondências",
+    "noMatchesHelp": "Verifique se há erros de digitação ou tente palavras mais genéricas\nEm alternativa, tente utilizar os filtros da tabela",
+    "noMatchesHelp_both": "Verifique se há erros de digitação ou tente palavras mais genéricas\nEm alternativa, tente atualizar ou limpar os filtros da tabela",
+    "noMatchesHelp_filtering": "Tente atualizar ou limpar os filtros da tabela",
+    "noMatchesHelp_searching": "Verifique se há erros de digitação ou tente palavras mais genéricas\nEm alternativa, tente utilizar os filtros da tabela",
+    "reconnecting": "A tentar reconectar",
+    "reviewAndAgreeToPolicies": "Antes de continuar, precisa de rever e concordar com os <terms>Termos de Serviço</terms> e a <privacy>Política de Privacidade</privacy>."
+  },
+  "notFoundPage": {
+    "message": "Verifique se há erros de digitação no endereço da página ou utilize o menu de navegação no canto superior esquerdo",
+    "message_narrow": "Verifique se há erros de digitação no endereço da página ou utilize o menu de navegação no canto superior esquerdo",
+    "message_wide": "Verifique se há erros de digitação no endereço da página ou utilize os botões de navegação à esquerda",
+    "title": "Não conseguimos encontrar essa página"
+  },
+  "notifications": {
+    "actions": {
+      "dismiss": "Dispensar",
+      "inbox": "Caixa de Entrada",
+      "reprintParts": "Reimprimir Peças",
+      "requeueParts": "Recolocar Peças na Fila",
+      "resend": "Reenviar",
+      "reviewGroup": "Rever Grupo",
+      "reviewPart": "Rever Peça",
+      "reworkOffline": "Retrabalhar Offline",
+      "ungroup": "Desagrupar"
+    },
+    "clearAll": "Limpar Tudo",
+    "empty": "Sem notificações",
+    "requeuePartsConfirmation": "Tem a certeza de que pretende recolocar na fila as peças deste trabalho? Isto irá remover o trabalho atual e criar novas peças na caixa de entrada.",
+    "settings": {
+      "label": "Mostrar notificações em tempo real para peças, grupos, trabalhos e dispositivos que requerem atenção.",
+      "title": "Notificações"
+    },
+    "title": "Notificações",
+    "types": {
+      "deviceOffline": {
+        "body_one": "{{name}} ficou offline",
+        "body_other": "Várias impressoras ficaram offline",
+        "title": "Impressora offline"
+      },
+      "groupTooLarge": {
+        "body_one": "{{name}} é demasiado grande para imprimir em conjunto",
+        "body_other": "Vários grupos são demasiado grandes para imprimir em conjunto",
+        "title": "Grupo demasiado grande"
+      },
+      "nestingFailed": {
+        "body_one": "Não foi possível aninhar {{name}}",
+        "body_other": "Não foi possível aninhar vários trabalhos",
+        "title": "Falha no aninhamento do trabalho"
+      },
+      "orientationFailed": {
+        "body_one": "Não foi possível orientar {{name}}",
+        "body_other": "Não foi possível orientar várias peças",
+        "title": "Falha na orientação da peça"
+      },
+      "partTooLarge": {
+        "body_one": "{{name}} é demasiado grande para imprimir",
+        "body_other": "Várias peças são demasiado grandes para imprimir",
+        "title": "Peça demasiado grande"
+      },
+      "printerError": {
+        "body_one": "{{buildName}} falhou durante a impressão.\n\nConsulte o ecrã da impressora para mais informações.",
+        "body_other": "Várias impressões falharam.\n\nConsulte o ecrã da impressora para mais informações.",
+        "title": "Falha na impressão"
+      },
+      "sendingFailed": {
+        "body_one": "Falha ao enviar o trabalho #{{name}}",
+        "body_other": "Falha ao enviar vários trabalhos",
+        "title": "Falha no envio do trabalho"
+      },
+      "slicingFailed": {
+        "body_one": "Falha ao fatiar o trabalho #{{name}}",
+        "body_other": "Falha ao fatiar vários trabalhos",
+        "title": "Falha no fatiamento do trabalho"
+      },
+      "supportsFailed": {
+        "body_one": "Falha ao gerar suportes para o trabalho #{{name}}",
+        "body_other": "Falha ao gerar suportes para vários trabalhos",
+        "title": "Falha nos suportes do trabalho"
+      }
+    }
+  },
+  "progressStatus": {
+    "acceptPartForPrinting": {
+      "name": "Aceitar peça para impressão",
+      "tooltip": {
+        "part": "A peça será apresentada para revisão para confirmar o tipo e as definições do modelo que serão utilizados."
+      }
+    },
+    "addingToProvisionalJob": {
+      "name": "A adicionar a trabalho provisório",
+      "tooltip": {
+        "default": "A peça está a ser aninhada num trabalho provisório."
+      }
+    },
+    "approvePrintJob": {
+      "name": "Aprovar trabalho de impressão",
+      "tooltip": {
+        "default": "O trabalho de impressão será apresentado para revisão para que o layout das peças e os suportes possam ser verificados antes de aprovar o trabalho de impressão."
+      }
+    },
+    "cancelled": {
+      "name": "Impressão cancelada",
+      "tooltip": {
+        "default": "O trabalho de impressão foi cancelado antes de terminar ou eliminado da fila de construção."
+      }
+    },
+    "failedToPrint": {
+      "name": "Falha na impressão",
+      "tooltip": {
+        "default": "O trabalho de impressão falhou.\n\nConsulte o ecrã da impressora para mais informações."
+      }
+    },
+    "generatingSupports": {
+      "name": "A gerar suportes",
+      "tooltip": {
+        "job": "O layout do Trabalho provisório foi finalizado e as camadas de impressão estão a ser preparadas.",
+        "part": "Estão a ser adicionados suportes ao trabalho provisório antes de ser finalizado para o utilizador aprovar a impressão."
+      }
+    },
+    "groupTooLarge": {
+      "name": "Grupo demasiado grande",
+      "tooltip": {
+        "part": "O grupo a que a peça pertence é demasiado grande para imprimir. Tente desagrupar as peças."
+      }
+    },
+    "identifiedPartType": {
+      "name": "Tipo de peça identificado",
+      "tooltip": {
+        "part": "O tipo de peça foi identificado, o que influencia quais os modelos que podem ser escolhidos e como a peça será orientada posteriormente."
+      }
+    },
+    "identifyingPartType": {
+      "name": "A identificar tipo de peça",
+      "tooltip": {
+        "part": "A analisar a geometria da peça para identificar o tipo de peça."
+      }
+    },
+    "invalidGeometry": {
+      "name": "Geometria inválida",
+      "tooltip": {
+        "part": "A peça não pôde ser processada porque a sua geometria é inválida.\n\nTente reparar o modelo e carregá-lo novamente."
+      }
+    },
+    "invalidModel": {
+      "name": "Modelo inválido",
+      "tooltip": {
+        "part": "A peça não pôde ser processada porque o ficheiro carregado não é um modelo.\n\nVerifique se o ficheiro não está corrompido e carregue-o novamente."
+      }
+    },
+    "nestedInJob": {
+      "name": "Trabalho de impressão criado",
+      "tooltip": {
+        "job": "O trabalho de impressão foi criado.",
+        "part": "A peça foi adicionada a um trabalho de impressão."
+      }
+    },
+    "nestedInProvisionalJob": {
+      "name": "Aninhado em trabalho provisório",
+      "tooltip": {
+        "job": "O trabalho está num estado provisório e será finalizado quando:<ul><li>mais peças forem adicionadas para preencher o trabalho</li><li>uma impressora adequada estiver prestes a ficar disponível para o imprimir</li></ul>O trabalho também pode ser promovido manualmente a um estado finalizado.",
+        "part": "A peça foi aninhada num trabalho provisório. Será finalizada quando:<ul><li>mais peças forem adicionadas para preencher o trabalho, e</li><li>Uma impressora adequada estiver prestes a ficar disponível para a imprimir</li></ul>"
+      }
+    },
+    "nestingBlocked": {
+      "name": "Não foi possível adicionar a trabalho provisório",
+      "tooltip": {
+        "allDevicesExcludedFromFunnel": "As impressoras compatíveis foram excluídas de aceitar trabalhos do Funnel.\n\nInclua estas impressoras para trabalhos de impressão automáticos, ou atualize o modelo para utilizar outras impressoras.",
+        "allDevicesOfflineOrExcluded": "Nenhuma impressora compatível está online, ou a aceitar trabalhos de impressão do Funnel.\n\nVerifique se as impressoras estão ligadas e incluídas para trabalhos de impressão automáticos, ou atualize o modelo para utilizar outras impressoras ligadas.",
+        "groupMemberFailed": "Uma ou mais peças no grupo falharam na orientação.\n\nRemova a(s) peça(s) com falha para imprimir este grupo.",
+        "groupMembersProcessing": "Uma ou mais peças neste grupo ainda estão a ser orientadas.",
+        "noAvailableDevices": "Nenhuma impressora compatível está online para imprimir esta peça.\n\nVerifique se as impressoras estão ligadas, ou atualize o modelo para utilizar outras impressoras ligadas."
+      }
+    },
+    "nestingFailed": {
+      "name": "Falha no aninhamento",
+      "tooltip": {
+        "default": "O aninhamento das peças falhou.\nIsto pode ser causado por problemas com o ficheiro da peça."
+      }
+    },
+    "nestPrintJob": {
+      "name": "Aninhar trabalho de impressão",
+      "tooltip": {
+        "part": "A peça será adicionada a um trabalho provisório juntamente com outras peças que utilizam o mesmo modelo. Serão depois organizadas na plataforma."
+      }
+    },
+    "orientatePart": {
+      "name": "A orientar peça",
+      "tooltip": {
+        "part": "A orientação da peça será otimizada com base no tipo de peça, antes de ser aninhada num trabalho de impressão."
+      }
+    },
+    "orientatingPart": {
+      "name": "A orientar peça",
+      "tooltip": {
+        "part": "A peça está atualmente a ser orientada com base no seu tipo."
+      }
+    },
+    "orientationFailed": {
+      "name": "Falha na orientação",
+      "tooltip": {
+        "part": "Não foi possível orientar a peça com sucesso para impressão.\nIsto pode ser causado por problemas com o ficheiro da peça."
+      }
+    },
+    "partAccepted": {
+      "name": "Peça aceite",
+      "tooltip": {
+        "part": "A peça foi aceite para impressão."
+      }
+    },
+    "partIdentification": {
+      "name": "Identificação da Peça"
+    },
+    "partOrientated": {
+      "name": "Peça orientada",
+      "tooltip": {
+        "part": "A peça foi orientada com sucesso para impressão."
+      }
+    },
+    "partRejected": {
+      "name": "Peça rejeitada",
+      "tooltip": {
+        "part": "A peça foi rejeitada pelo utilizador."
+      }
+    },
+    "partTooLarge": {
+      "name": "Peça demasiado grande",
+      "tooltip": {
+        "part": "A peça é demasiado grande para caber numa impressora associada ao modelo da peça.\n\nTente verificar a escala da peça carregada, e se o modelo da peça tem uma impressora suficientemente grande para a acomodar."
+      }
+    },
+    "print": {
+      "name": "Imprimir",
+      "tooltip": {
+        "default": "O trabalho de impressão será enviado para a máquina onde será impresso."
+      }
+    },
+    "printed": {
+      "name": "Impresso",
+      "tooltip": {
+        "default": "O Trabalho foi concluído com sucesso."
+      }
+    },
+    "printing": {
+      "name": "A imprimir",
+      "tooltip": {
+        "default": "O Trabalho está atualmente a ser impresso."
+      }
+    },
+    "printJobApproved": {
+      "name": "Trabalho de impressão aprovado",
+      "tooltip": {
+        "default": "O trabalho de impressão foi aprovado."
+      }
+    },
+    "printJobPendingApproval": {
+      "name": "Trabalho de impressão a aguardar aprovação",
+      "tooltip": {
+        "default": "O Trabalho finalizado está pronto para revisão."
+      }
+    },
+    "printJobRejected": {
+      "name": "Trabalho de impressão rejeitado",
+      "tooltip": {
+        "default": "O trabalho foi rejeitado e as peças foram recolocadas na fila."
+      }
+    },
+    "printJobReworkedOffline": {
+      "name": "Trabalho de impressão retrabalhado offline",
+      "tooltip": {
+        "default": "O trabalho de impressão foi transferido pelo utilizador para editar no Composer."
+      }
+    },
+    "printPaused": {
+      "name": "Impressão Pausada",
+      "tooltip": {
+        "default": "O trabalho de impressão foi pausado pelo utilizador."
+      }
+    },
+    "printPending": {
+      "name": "Impressão pendente",
+      "tooltip": {
+        "default": "O Trabalho está na impressora e pronto a imprimir."
+      }
+    },
+    "sendingFailed": {
+      "name": "Falha no envio",
+      "tooltip": {
+        "default": "O trabalho de impressão falhou ao enviar para a impressora.\n\nIsto pode ser causado pela impressora ter ficado offline ou pela fila de construção estar cheia com memória insuficiente."
+      }
+    },
+    "sendingToPrinter": {
+      "name": "A enviar para a impressora",
+      "tooltip": {
+        "default": "As camadas de impressão estão a ser enviadas para a impressora."
+      }
+    },
+    "sendToPrinter": {
+      "name": "Enviar para a impressora",
+      "tooltip": {
+        "default": "O trabalho de impressão será fatiado em camadas separadas e enviado para a impressora para impressão."
+      }
+    },
+    "sentToPrinter": {
+      "name": "Enviado para a impressora",
+      "tooltip": {
+        "default": "O trabalho de impressão está na impressora e pronto a imprimir."
+      }
+    },
+    "slicingFailed": {
+      "name": "Falha no fatiamento",
+      "tooltip": {
+        "default": "O trabalho de impressão falhou ao preparar as camadas de impressão.\n\nIsto pode ser causado por problemas com os ficheiros das peças."
+      }
+    },
+    "slicingPrintJob": {
+      "name": "A fatiar trabalho de impressão",
+      "tooltip": {
+        "default": "As camadas de impressão estão a ser preparadas."
+      }
+    },
+    "uploadTooLarge": {
+      "name": "Carregamento demasiado grande",
+      "tooltip": {
+        "part": "O ficheiro carregado é demasiado grande.\n\nTente reduzir o tamanho do ficheiro e carregá-lo novamente."
+      }
+    },
+    "waitingForPartToBeAccepted": {
+      "name": "Aceitar peça para impressão",
+      "tooltip": {
+        "part": "A peça está à espera que o utilizador aceite."
+      }
+    }
+  },
+  "relativeTime": {
+    "daysAgo_one": "há {{count}} dia",
+    "daysAgo_other": "há {{count}} dias",
+    "hoursAgo_one": "há {{count}} hora",
+    "hoursAgo_other": "há {{count}} horas",
+    "justNow": "Há instantes",
+    "minutesAgo_one": "há {{count}} minuto",
+    "minutesAgo_other": "há {{count}} minutos",
+    "weeksAgo_one": "há {{count}} semana",
+    "weeksAgo_other": "há {{count}} semanas"
+  },
+  "share": {
+    "notFound": "O item partilhado não foi encontrado"
+  },
+  "table": {
+    "activeFilters": "Filtros ativos:",
+    "clearFilters": "Limpar filtros",
+    "expandRow": "Expandir Linha",
+    "pageAmount": "Quantidade",
+    "perPage": "Por Página"
+  },
+  "title": {
+    "cookiePolicy": "Política de cookies",
+    "help": "Ver Ajuda",
+    "integrations": "Integrações",
+    "language": "Idioma",
+    "manage": "Gerir",
+    "manageSubscription": "Gerir Subscrição",
+    "name": "Nome de Exibição",
+    "organisation": "Organização",
+    "photo": "Fotografia",
+    "privacy": "Privacidade",
+    "privacyPolicy": "Política de privacidade",
+    "profile": "Perfil",
+    "subscriptionOptions": "Opções de Subscrição",
+    "tableOfContents": "Índice",
+    "templates": "Modelos",
+    "termsAndPolicy": "Termos e Política",
+    "termsOfService": "Termos de serviço",
+    "warning": "Aviso"
+  },
+  "underConstruction": {
+    "subtitle1": "Estamos a construir algo especial",
+    "subtitle2": "Volte mais tarde"
+  },
+  "units": {
+    "microns": "{{value}} μm",
+    "suffix": {
+      "degrees": " °",
+      "millimetres": " mm"
+    }
+  }
+}

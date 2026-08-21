@@ -1,0 +1,158 @@
+{
+  "button": {
+    "download": "Télécharger",
+    "exportReportPdf": "Exporter en PDF",
+    "moveOffline": "Retravailler hors ligne",
+    "promoteJob": "Promouvoir la tâche",
+    "reprint": "Réimprimer",
+    "reprintParts": "Réimprimer les pièces",
+    "requeueParts": "Remettre les pièces en file d'attente",
+    "resendJob": "Renvoyer la tâche",
+    "reshuffle": "Réorganiser"
+  },
+  "details": {
+    "basePlate": "Paramètres du plateau de base",
+    "currentJob": "Tâche actuelle",
+    "currentParts": "Pièces actuelles",
+    "jobInformation": "Informations sur la tâche",
+    "parts": "Pièces"
+  },
+  "label": {
+    "accepted": "Accepté",
+    "buildAreaUsage": "Utilisation de la zone de fabrication",
+    "estimatedMaterial": "Matériau estimé",
+    "estimatedPrintTime": "Temps d'impression estimé",
+    "external": "Externe",
+    "jobContainsPriorityParts": "La tâche contient des pièces prioritaires",
+    "jobsTab": "Onglets des tâches",
+    "layerThickness": "Épaisseur de couche",
+    "material": "Matériau",
+    "partName": "Nom de la pièce",
+    "partType": "Type de pièce",
+    "provisional": "Provisoire",
+    "rejected": "Rejeté",
+    "reprintParts": "Réimprimer les pièces de cette tâche ?",
+    "reprintPartsNoneAvailable": "Toutes les pièces sont en cours de réimpression",
+    "requeuedPartsSuccess": "Pièces remises en file d'attente avec succès",
+    "requeuedPartsSuccess_one": "Pièce remise en file d'attente avec succès",
+    "requeuedPartsSuccess_other": "Pièces remises en file d'attente avec succès",
+    "requeuingParts": "Remise des pièces en file d'attente",
+    "search": "Rechercher des tâches",
+    "source": "Source",
+    "targetDevice": "Appareil cible",
+    "template": "Modèle",
+    "toReview": "À examiner",
+    "trayType": "Type de plateau"
+  },
+  "message": {
+    "deviceOffline": "Cette tâche ne sera pas envoyée tant que l'imprimante ne sera pas de nouveau en ligne.\n\nVérifiez que {{device}} est en ligne et dispose d'une connexion Internet active.",
+    "deviceOffline_one": "Cette tâche ne sera pas envoyée tant que l'imprimante ne sera pas de nouveau en ligne.\n\nVérifiez que {{device}} est en ligne et dispose d'une connexion Internet active.",
+    "deviceOffline_other": "Ces tâches ne seront pas envoyées tant que chaque imprimante ne sera pas de nouveau en ligne.\n\nVérifiez que les imprimantes sont en ligne et disposent d'une connexion Internet active.",
+    "downloadInfo": "Autrement, la tâche d'impression peut être téléchargée pour être modifiée dans Composer.",
+    "moveOffline": "Cela rejettera la tâche et la téléchargera pour modification dans Composer.",
+    "moveOffline_one": "Cela rejettera la tâche sélectionnée et la téléchargera pour modification dans Composer.",
+    "moveOffline_other": "Cela rejettera les tâches sélectionnées et les téléchargera pour modification dans Composer.",
+    "noJobsToReview": "Les tâches provisoires qui ont été promues apparaîtront ici. Chargez des pièces dans la boîte de réception pour commencer.",
+    "noParts": "Cette tâche ne contient aucune pièce.",
+    "noPartsToReprint": "Les pièces de cette tâche ont déjà été remises en file d'attente pour réimpression.",
+    "rejectInfo": "Appuyer sur « Réorganiser » entraînera une variation de la position et de la rotation des pièces dans le cadre d'une nouvelle tâche d'impression. Certaines pièces peuvent être supprimées ou ajoutées lors de la réorganisation.",
+    "reprintParts": "Les pièces sélectionnées seront prioritaires pour la réimpression dans le cadre de la prochaine tâche d'impression appropriée.",
+    "reprintPartsKey": "Les pièces en gris ont déjà été réimprimées.",
+    "requeueParts": "Cela marquera la tâche comme rejetée et remettra toutes les pièces de la tâche dans la file d'attente.",
+    "reworkOffline_one": "La tâche d'impression <bold>#{{id}}</bold> a été marquée comme <bold>Retravaillée hors ligne</bold>",
+    "reworkOffline_other": "{{count}} tâches d'impression ont été marquées comme <bold>Retravaillées hors ligne</bold>",
+    "submittingJob": "Envoi de #{{id}}",
+    "submittingJob_device": "Envoi de  <bold>#{{id}}</bold> à <bold>{{device}}</bold>"
+  },
+  "status": {
+    "awaitingApproval": {
+      "name": "En attente d'approbation",
+      "tooltip": "La tâche finalisée est prête à être examinée."
+    },
+    "cancelled": {
+      "name": "Annulée",
+      "tooltip": "La tâche d'impression a été annulée avant sa fin ou supprimée de la file d'attente de fabrication."
+    },
+    "failed": {
+      "name": "Échouée",
+      "tooltip": "La tâche d'impression a échoué.\n\nConsultez l'écran de l'imprimante pour plus d'informations."
+    },
+    "generating": {
+      "name": "Finalisation de la tâche d'impression",
+      "tooltip": "La mise en page provisoire de la tâche a été finalisée et les couches d'impression sont en cours de préparation."
+    },
+    "nestingFailed": {
+      "name": "Échec de l'imbrication",
+      "tooltip": "L'imbrication des pièces a échoué. Cela peut être dû à des problèmes avec un ou plusieurs fichiers de pièces."
+    },
+    "offline": {
+      "name": "Retravaillée hors ligne",
+      "tooltip": "La tâche a été téléchargée pour être modifiée et envoyée dans Composer."
+    },
+    "paused": {
+      "name": "En pause",
+      "tooltip": "La tâche d'impression a été mise en pause sur l'imprimante."
+    },
+    "printed": {
+      "name": "Imprimée",
+      "tooltip": "La tâche s'est terminée avec succès."
+    },
+    "printing": {
+      "name": "Impression en cours",
+      "tooltip": "La tâche est en cours d'impression."
+    },
+    "printPending": {
+      "name": "Impression en attente",
+      "tooltip": "La tâche est sur l'imprimante et prête à être imprimée."
+    },
+    "provisional": {
+      "name": "Provisoire",
+      "tooltip": "La tâche est dans un état provisoire et sera finalisée lorsque :\n<ul><li>d'autres pièces seront ajoutées pour compléter la tâche</li><li>une imprimante appropriée sera sur le point d'être disponible pour l'imprimer</li></ul>La tâche peut également être promue manuellement à un état finalisé."
+    },
+    "rejected": {
+      "name": "Rejetée",
+      "tooltip": "La tâche a été rejetée et les pièces ont été remises en file d'attente."
+    },
+    "sendingFailed": {
+      "name": "Échec de l'envoi",
+      "tooltip": "La tâche d'impression a échoué lors de l'envoi à l'imprimante.\n\nCela peut être dû à l'imprimante passant hors ligne ou à la file d'attente de fabrication pleine avec une mémoire insuffisante restante."
+    },
+    "sendingToPrinter": {
+      "name": "Envoi à l'imprimante",
+      "tooltip": "Les couches d'impression sont en cours d'envoi à l'imprimante."
+    },
+    "slicing": {
+      "name": "Découpage de la tâche d'impression",
+      "tooltip": "Les couches d'impression sont en cours de préparation."
+    },
+    "slicingFailed": {
+      "name": "Échec du découpage",
+      "tooltip": "La tâche d'impression a échoué lors de la préparation des couches d'impression.\n\nCela peut être dû à des problèmes avec les fichiers de pièces."
+    }
+  },
+  "title": {
+    "device": "Appareil",
+    "deviceOffline": "{{device}} est hors ligne",
+    "deviceOffline_one": "{{device}} est hors ligne",
+    "deviceOffline_other": "Plusieurs imprimantes sont hors ligne",
+    "jobNumber": "Numéro de tâche",
+    "material": "Matériau",
+    "moveOffline": "Retravailler la tâche hors ligne ?",
+    "moveOffline_one": "Retravailler la tâche hors ligne ?",
+    "moveOffline_other": "Retravailler les tâches hors ligne ?",
+    "noJobsAccepted": "Aucune tâche acceptée",
+    "noJobsRejected": "Aucune tâche rejetée",
+    "noJobsToReview": "Aucune tâche à examiner",
+    "printJobs": "Tâches d'impression",
+    "rejectJob": "Réorganiser la tâche rejetée ?",
+    "requeueParts": "Remettre les pièces en file d'attente ?",
+    "status": "Statut"
+  },
+  "tooltips": {
+    "accepted": "Toutes les tâches qui ont été acceptées sont affichées ici, avec leur statut.",
+    "provisional": "Ceci affiche les tâches à venir prévues en fonction de la disponibilité des imprimantes, de la compatibilité des modèles de tâche et des pièces non imprimées dans le Funnel.\n\nLes promouvoir créera une tâche d'impression finalisée qui inclura les pièces identifiées, la mise en page et l'imprimante cible. Lorsque les supports auront été générés pour les tâches finalisées, ils apparaîtront dans l'onglet « À examiner ».",
+    "rejected": "Toutes les tâches qui ont été rejetées sont affichées ici.",
+    "resendJob": "Renvoyer une tâche à une imprimante. Cela peut être utile si la tâche a été annulée ou si l'appareil a rencontré une erreur.",
+    "toReview": "Les tâches d'impression prêtes à être examinées sont affichées ici. Acceptez-les pour les envoyer à l'imprimante."
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "basePlate": {
+    "addTo": {
+      "enum": {
+        "allParts": "Alle Teile",
+        "supportedParts": "Unterstützte Teile"
+      },
+      "label": "Grundplatte hinzufügen zu",
+      "tooltip": "Fügt eine Grundplatte zu unterstützten oder allen Teilen hinzu."
+    },
+    "enabled": {
+      "label": "Grundplatte",
+      "tooltip": "Grundplattenerstellung aktivieren"
+    },
+    "engraved": {
+      "label": "Baunamen zur Grundplatte hinzufügen",
+      "tooltip": "Fügt den Baunamen und die XYZ-Auflösung in µm auf der Grundplatte hinzu."
+    },
+    "meshShape": {
+      "enum": {
+        "hexagon": "Sechseck",
+        "none": "Keine",
+        "square": "Quadrat",
+        "triangle": "Dreieck"
+      },
+      "label": "Gitterform",
+      "tooltip": "Wenn Sie eine andere Form als „Keine“ wählen, wird ein Lochmuster in der ausgewählten Form zur Grundplatte hinzugefügt."
+    },
+    "meshSize": {
+      "label": "Gittergröße",
+      "tooltip": "Der Durchmesser der Löcher in der Grundplatte."
+    },
+    "meshWidth": {
+      "label": "Gitterbreite",
+      "tooltip": "Dicke der Wände zwischen den Löchern."
+    },
+    "placement": {
+      "enum": {
+        "intersecting": "Überschneidend",
+        "underneath": "Darunter"
+      },
+      "label": "Platzierung",
+      "tooltip": "Die Platzierung der Grundplatte relativ zu jedem Teil und seinen Stützen.\n<ul><li>Darunter - Teile und Stützen nach oben verschieben und die Bauplatte darunter platzieren.</li><li>Überschneidend - die Bauplatte mit der Unterseite des Teils oder seiner Stütze überschneiden.</li></lu>"
+    },
+    "thickness": {
+      "label": "Dicke",
+      "tooltip": "Dicke der Grundplatte in Millimetern."
+    },
+    "type": {
+      "enum": {
+        "boundingBox": "Begrenzungsrahmen",
+        "full": "Vollständig",
+        "shadow": "Schatten"
+      },
+      "label": "Typ",
+      "tooltip": "Grundplattentyp:\n<ul><li>Vollständig - die gesamte Plattform mit einer Grundplatte abdecken</li><li>Schatten - Bereiche direkt unter den Teilen abdecken.</li><li>Begrenzungsrahmen - den Begrenzungsquader jedes Teils abdecken.</li></ul>"
+    }
+  },
+  "button": {
+    "editBasePlateSettings": "Bearbeiten..."
+  },
+  "label": {
+    "associatedPartType": "Zugehöriger Teiletyp",
+    "associatedWith": "Zugehörig zu",
+    "basePlateSettings": "Grundplatteneinstellungen",
+    "default": "Standard",
+    "deleted": "Gelöschte Vorlage",
+    "deleteSuccess_one": "{{count}} Vorlage gelöscht",
+    "deleteSuccess_other": "{{count}} Vorlagen gelöscht",
+    "enabled": "Aktiviert",
+    "fastPrintMode": "Schnelldruckmodus",
+    "manufacturer": "Hersteller",
+    "material": "Material",
+    "materialName": "Materialname",
+    "outdated": "Veraltete Vorlage",
+    "overrideMaterialSettings": "Werte, die Sie in diese Felder eingeben, überschreiben die vom Material festgelegten Standardwerte.",
+    "partType": "Teiletyp",
+    "partTypes_other": "{{count}} Teiletypen",
+    "partTypes_other_one": "1 Teiletyp",
+    "partTypes_other_other": "{{count}} Teiletypen",
+    "printerAndTrayType": "Drucker- und Wannentypen",
+    "printerModel": "Druckermodell",
+    "search": "Vorlagen suchen",
+    "selectThickness": "Schichtdicke auswählen",
+    "separationDetect": "Trennungserkennung",
+    "supports": "Stützen",
+    "templateName": "Vorlagenname",
+    "thickness": "Schichtdicke",
+    "tray": "Wanne",
+    "trayType": "Wannentyp"
+  },
+  "message": {
+    "changesApplyToNewParts": "Vorhandene Teile werden mit den neuen Vorlageneinstellungen aktualisiert und erneut zum Druck eingereiht.",
+    "deleteTemplateWarning": "Alle Teile, die diese Vorlage verwenden, werden zur Überprüfung an den Posteingang zurückgegeben. Weisen Sie ihnen eine neue Vorlage zu, um sie zu drucken, oder lehnen Sie sie ab, um sie aus dem Funnel zu entfernen.",
+    "modifyWillAffectParts": "Zugehörige Teiletypen, die diese Vorlage verwenden, werden erneut zum Druck eingereiht, und alle entfernten Teiletypen werden zur Überprüfung an den Posteingang zurückgegeben.",
+    "modifyWillRequeueParts": "Vorhandene Teile werden mit den neuen Vorlageneinstellungen aktualisiert und erneut zum Druck eingereiht.",
+    "noTemplates": "Keine Vorlagen",
+    "noTemplatesInfo": "Vorlagen werden hier aufgelistet. Verwenden Sie die Schaltfläche „Erstellen“, um Ihre erste Vorlage zu erstellen."
+  },
+  "supportSettings": {
+    "accuracyZ": {
+      "label": "Genauigkeit Z",
+      "tooltip": "Die Schichtdicke, die verwendet wird, um Strukturen automatisch zu generieren und eine Überschneidung mit dem Teil zu vermeiden."
+    },
+    "aspectRatio": {
+      "label": "Seitenverhältnis",
+      "tooltip": "Steuert die Verbreiterungsrate der Stützstrukturen."
+    },
+    "connectGap": {
+      "label": "Verbindungsabstand",
+      "tooltip": "Anzahl der Gitterebenen, für die die Verbindung unterdrückt wird, nachdem eine vertikale Verbindung gefunden wurde (verfügbar)."
+    },
+    "connection": {
+      "label": "Verbindung",
+      "tooltip": "Anzahl der Knoten, die auf der darunterliegenden Gitterebene verbunden werden sollen. Wenn Sie diesen Wert auf 0 setzen, werden flexible Stützen erzeugt."
+    },
+    "contactWidth": {
+      "label": "Kontaktbreite",
+      "tooltip": "Für Standardstützen: Breite der Stützstruktur beim Kontakt mit dem Teil.\n\nFür Gitterstützen: Breite der Kontaktkugel beim Kontakt mit dem Teil."
+    },
+    "halfContactWidth": {
+      "label": "Halbe Kontaktbreite",
+      "tooltip": "Erneuter Versuch, Kontaktpunkte mit halber Breite hinzuzufügen."
+    },
+    "heightLevel": {
+      "label": "Höhenniveau",
+      "toggle": "Höhennivellierung",
+      "tooltip": "Wendet einen Z-Abstand zwischen den Teilen und der Plattform an."
+    },
+    "islandWidth": {
+      "label": "Inselbreite",
+      "tooltip": "Für Standardstützen: Breite der Stützstruktur beim ersten Kontakt mit dem Teil.\n\nFür Gitterstützen: Breite der Kontaktkugel beim ersten Kontakt für jeden Teilkörper."
+    },
+    "lattice": {
+      "label": "Gitter",
+      "tooltip": "Gitterstützen aktivieren. Gitterstützen erzeugen ein miteinander verbundenes Netzwerk aus Stützbalken um das Modell."
+    },
+    "layout": {
+      "enum": {
+        "circle": "Kreis",
+        "hexagon": "Sechseck",
+        "square": "Quadrat",
+        "triangle": "Dreieck"
+      },
+      "label": "Layout",
+      "tooltip": "Wie die Knoten über die XY-Positionen verteilt werden."
+    },
+    "margin": {
+      "label": "Abstand",
+      "tooltip": "Zusätzlicher Abstand zur Kollisionsvermeidung vom Teil."
+    },
+    "maximumWidth": {
+      "label": "Maximale Breite",
+      "tooltip": "Begrenzt die Breite der Stützstrukturen an der Basis."
+    },
+    "minimumHeight": {
+      "label": "Mindesthöhe",
+      "tooltip": "Vermeidet das Hinzufügen erneut überschneidender Stützen, wenn deren Höhe geringer ist als die angegebene Höhe."
+    },
+    "modelInterSupport": {
+      "label": "Modell-Zwischenstütze",
+      "tooltip": "Erlaubt Stützsäulen, die sich erneut überschneiden und auf dem Teil stehen."
+    },
+    "selfSupportAngle": {
+      "label": "Eigenstützwinkel",
+      "tooltip": "Der Winkel in Grad zur Horizontalen, ab dem keine Stützen erforderlich sind."
+    },
+    "sideFaces": {
+      "label": "Seitenflächen",
+      "tooltip": "Legt die Anzahl der Seitenflächen für neue Stützstrukturen fest."
+    },
+    "sideFeaturesSize": {
+      "label": "Größe des Seitendetails",
+      "tooltip": "Der Abstand, den ein Detail von einer Oberfläche abstehen kann, ohne gestützt zu werden."
+    },
+    "spacingXY": {
+      "label": "Abstand XY",
+      "tooltip": "Abstand zwischen Knoten in der XY-Ebene"
+    },
+    "spacingZ": {
+      "label": "Abstand Z",
+      "tooltip": "Abstand zwischen Gitterebenen entlang der Z-Achse."
+    },
+    "supportSpacing": {
+      "label": "Stützabstand",
+      "tooltip": "Abstand zwischen den Stützpunkten eines Teils."
+    },
+    "tallestSupport": {
+      "label": "Höchste Stütze",
+      "tooltip": "Ignoriert alle stützbaren Merkmale oberhalb der angegebenen Höhe."
+    },
+    "undershoot": {
+      "label": "Unter-/Überschreitung",
+      "tooltip": "Für Standardstützen: Die maximale Eindringtiefe, in der der Stützpunkt in das Teil eintritt.\n\nFür Gitterstützen: Abstand vom Kontaktpunkt, ab dem sich die Struktur zu einem Punkt verjüngt."
+    }
+  },
+  "title": {
+    "changesApplyToNewParts": "Änderungen gelten für neue Teile",
+    "classificationSupportSettings": "{{classification}}-Stützen",
+    "createTemplate": "Neue Vorlage",
+    "deleteTemplate": "Vorlage löschen?",
+    "deleteTemplate_zero": "Vorlage löschen?",
+    "deleteTemplate_one": "{{count}} Teil wird an den Posteingang zurückgegeben",
+    "deleteTemplate_other": "{{count}} Teile werden an den Posteingang zurückgegeben",
+    "editTemplate": "Vorlage bearbeiten",
+    "modifyWillAffectParts": "Teile könnten von dieser Änderung betroffen sein",
+    "modifyWillAffectParts_zero": "Teile könnten von dieser Änderung betroffen sein",
+    "modifyWillAffectParts_one": "{{count}} Teil wird von dieser Änderung betroffen sein",
+    "modifyWillAffectParts_other": "{{count}} Teile werden von dieser Änderung betroffen sein",
+    "modifyWillRequeueParts": "Teile werden möglicherweise erneut eingereiht",
+    "modifyWillRequeueParts_zero": "Teile werden möglicherweise erneut eingereiht",
+    "modifyWillRequeueParts_one": "{{count}} Teil wird erneut eingereiht",
+    "modifyWillRequeueParts_other": "{{count}} Teile werden erneut eingereiht",
+    "templateBasePlate": "{{name}}-Grundplatte"
+  },
+  "tooltip": {
+    "defaultPartType": "Diese Vorlage als Standard für den ausgewählten Teiletyp festlegen",
+    "defaultPartType_disabled": "Dies ist derzeit die Standardvorlage für {{partType}}. Wählen Sie eine andere Vorlage als Standard aus, um sie zu ersetzen.",
+    "defaultPartType_only": "Dies ist die Standardvorlage, da diesem Teiletyp keine andere Vorlage zugeordnet ist",
+    "fastPrintMode": "<bold>Schnelldruckmodus</bold>\nBeschleunigt alle nicht wesentlichen Bewegungen der Bauplattform und positioniert diese zwischen den Schichten schnell neu, um Leerlaufzeiten zu minimieren und die Gesamtdruckdauer zu verkürzen.",
+    "separationDetect": "<bold>Trennungserkennung</bold>\nErkennt die Filmablösung und reduziert dadurch den Hubabstand zwischen den Schichten.\n\nKann zu Druckfehlern führen, wenn die Trennung nicht richtig erkannt wird."
+  },
+  "types": {
+    "printerTypes": {
+      "max": "Max & Max 2",
+      "pro": "Pro 4K",
+      "ultra": "Ultra"
+    },
+    "trays": {
+      "endurance": "Endurance",
+      "LIFT": "LIFT",
+      "lowForce": "Low Force",
+      "ultraGLOSS": "UltraGLOSS",
+      "ultraGLOSSLIFT": "UltraGLOSS LIFT",
+      "universal": "Universal"
+    }
+  }
+}

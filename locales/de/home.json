@@ -1,0 +1,31 @@
+{
+  "emptyState": {
+    "message": "Diese Seite zeigt Statistiken zu Teilen, Druckern und Materialverbrauch\n\nVerbinden Sie einen Drucker, fügen Sie Teile hinzu und senden Sie Druckaufträge, um hier Daten zu sehen",
+    "title": "Willkommen zuhause"
+  },
+  "label": {
+    "jobs": "Aufträge",
+    "overview": "Übersicht",
+    "parts": "Teile"
+  },
+  "metrics": {
+    "jobsPrinted": "Gedruckte Aufträge",
+    "jobsToAccept": "Aufträge zur Annahme",
+    "partsAccepted": "Angenommene Teile",
+    "partsPerTemplate": "Teile pro Vorlage",
+    "partsPrinted": "Gedruckte Teile",
+    "partsToApprove": "Teile zur Annahme",
+    "partTypes": "Teiletypen",
+    "tooltips": {
+      "jobsPrinted": "Gesamtzahl der gedruckten Aufträge im angegebenen Zeitraum",
+      "jobsPrintedPerDay": "Gesamtzahl der pro Tag gedruckten Aufträge im angegebenen Zeitraum",
+      "jobsToAccept": "Gesamtzahl der Aufträge, die vor dem Drucken angenommen werden müssen",
+      "partsAccepted": "Angenommene Teile zählen zu Ihrem Abonnement-Kontingent",
+      "partsPerTemplate": "Gesamtzahl der pro Vorlage erstellten Teile im angegebenen Zeitraum",
+      "partsPrinted": "Gesamtzahl der gedruckten Teile im angegebenen Zeitraum",
+      "partsPrintedPerDay": "Gesamtzahl der pro Tag gedruckten Teile im angegebenen Zeitraum",
+      "partsToApprove": "Gesamtzahl der Teile, die vor dem Drucken angenommen werden müssen",
+      "partTypes": "Gesamtzahl der pro Teiletyp erstellten Teile im angegebenen Zeitraum"
+    }
+  }
+}

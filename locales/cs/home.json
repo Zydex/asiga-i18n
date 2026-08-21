@@ -1,0 +1,31 @@
+{
+  "emptyState": {
+    "message": "Tato stránka zobrazuje statistiky o dílech, tiskárnách a spotřebě materiálu\n\nPřipojte tiskárnu, přidejte díly a odešlete tiskové úlohy, aby se zde zobrazila data",
+    "title": "Vítejte doma"
+  },
+  "label": {
+    "jobs": "Úlohy",
+    "overview": "Přehled",
+    "parts": "Díly"
+  },
+  "metrics": {
+    "jobsPrinted": "Vytištěné úlohy",
+    "jobsToAccept": "Úlohy k přijetí",
+    "partsAccepted": "Přijaté díly",
+    "partsPerTemplate": "Díly na šablonu",
+    "partsPrinted": "Vytištěné díly",
+    "partsToApprove": "Díly k přijetí",
+    "partTypes": "Typy dílů",
+    "tooltips": {
+      "jobsPrinted": "Celkový počet úloh vytištěných ve zvoleném časovém rozmezí",
+      "jobsPrintedPerDay": "Celkový počet úloh vytištěných za den ve zvoleném časovém rozmezí",
+      "jobsToAccept": "Celkový počet úloh, které je třeba před tiskem přijmout",
+      "partsAccepted": "Přijaté díly se započítávají do limitu vašeho předplatného",
+      "partsPerTemplate": "Celkový počet dílů vytvořených na šablonu ve zvoleném časovém rozmezí",
+      "partsPrinted": "Celkový počet dílů vytištěných ve zvoleném časovém rozmezí",
+      "partsPrintedPerDay": "Celkový počet dílů vytištěných za den ve zvoleném časovém rozmezí",
+      "partsToApprove": "Celkový počet dílů, které je třeba před tiskem přijmout",
+      "partTypes": "Celkový počet dílů vytvořených na typ dílu ve zvoleném časovém rozmezí"
+    }
+  }
+}
