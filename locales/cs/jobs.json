@@ -1,0 +1,158 @@
+{
+  "button": {
+    "download": "Stáhnout",
+    "exportReportPdf": "Exportovat PDF",
+    "moveOffline": "Přepracovat offline",
+    "promoteJob": "Povýšit úlohu",
+    "reprint": "Vytisknout znovu",
+    "reprintParts": "Vytisknout díly znovu",
+    "requeueParts": "Zařadit díly znovu do fronty",
+    "resendJob": "Odeslat úlohu znovu",
+    "reshuffle": "Přeuspořádat"
+  },
+  "details": {
+    "basePlate": "Nastavení základní desky",
+    "currentJob": "Aktuální úloha",
+    "currentParts": "Aktuální díly",
+    "jobInformation": "Informace o úloze",
+    "parts": "Díly"
+  },
+  "label": {
+    "accepted": "Přijato",
+    "buildAreaUsage": "Využití stavební plochy",
+    "estimatedMaterial": "Odhadovaný materiál",
+    "estimatedPrintTime": "Odhadovaná doba tisku",
+    "external": "Externí",
+    "jobContainsPriorityParts": "Úloha obsahuje prioritní díly",
+    "jobsTab": "Karty úloh",
+    "layerThickness": "Tloušťka vrstvy",
+    "material": "Materiál",
+    "partName": "Název dílu",
+    "partType": "Typ dílu",
+    "provisional": "Předběžné",
+    "rejected": "Zamítnuto",
+    "reprintParts": "Vytisknout díly z této úlohy znovu?",
+    "reprintPartsNoneAvailable": "Všechny díly se tisknou znovu",
+    "requeuedPartsSuccess": "Díly byly úspěšně zařazeny znovu do fronty",
+    "requeuedPartsSuccess_one": "Díl byl úspěšně zařazen znovu do fronty",
+    "requeuedPartsSuccess_other": "Díly byly úspěšně zařazeny znovu do fronty",
+    "requeuingParts": "Zařazování dílů znovu do fronty",
+    "search": "Hledat úlohy",
+    "source": "Zdroj",
+    "targetDevice": "Cílové zařízení",
+    "template": "Šablona",
+    "toReview": "Ke kontrole",
+    "trayType": "Typ zásobníku"
+  },
+  "message": {
+    "deviceOffline": "Tato úloha nebude odeslána, dokud se tiskárna nepřipojí zpět online.\n\nZkontrolujte, zda je zařízení {{device}} online a má aktivní internetové připojení.",
+    "deviceOffline_one": "Tato úloha nebude odeslána, dokud se tiskárna nepřipojí zpět online.\n\nZkontrolujte, zda je zařízení {{device}} online a má aktivní internetové připojení.",
+    "deviceOffline_other": "Tyto úlohy nebudou odeslány, dokud se každá tiskárna nepřipojí zpět online.\n\nZkontrolujte, zda jsou tiskárny online a mají aktivní internetové připojení.",
+    "downloadInfo": "Tiskovou úlohu lze také stáhnout pro úpravu v aplikaci Composer.",
+    "moveOffline": "Tímto úlohu zamítnete a stáhnete ji k úpravě v aplikaci Composer.",
+    "moveOffline_one": "Tímto zamítnete vybranou úlohu a stáhnete ji k úpravě v aplikaci Composer.",
+    "moveOffline_other": "Tímto zamítnete vybrané úlohy a stáhnete je k úpravě v aplikaci Composer.",
+    "noJobsToReview": "Předběžné úlohy, které byly povýšeny, se zobrazí zde. Chcete-li začít, nahrajte díly do doručené pošty.",
+    "noParts": "Tato úloha neobsahuje žádné díly.",
+    "noPartsToReprint": "Díly v této úloze již byly zařazeny znovu do fronty pro opětovný tisk.",
+    "rejectInfo": "Stisknutím tlačítka „Přeuspořádat“ dojde ke změně pozice a otočení dílů v rámci nové tiskové úlohy. Některé díly mohou být během přeuspořádání odebrány nebo přidány.",
+    "reprintParts": "Vybrané díly budou upřednostněny pro opětovný tisk v rámci další vhodné tiskové úlohy.",
+    "reprintPartsKey": "Šedě zobrazené díly již byly vytištěny znovu.",
+    "requeueParts": "Tímto se úloha označí jako zamítnutá a všechny díly v úloze se přesunou zpět do fronty.",
+    "reworkOffline_one": "Tisková úloha <bold>#{{id}}</bold> byla označena jako <bold>Přepracováno offline</bold>",
+    "reworkOffline_other": "{{count}} tiskových úloh bylo označeno jako <bold>Přepracováno offline</bold>",
+    "submittingJob": "Podávání #{{id}}",
+    "submittingJob_device": "Podávání  <bold>#{{id}}</bold> do <bold>{{device}}</bold>"
+  },
+  "status": {
+    "awaitingApproval": {
+      "name": "Čeká na schválení",
+      "tooltip": "Finalizovaná úloha je připravena ke kontrole."
+    },
+    "cancelled": {
+      "name": "Zrušeno",
+      "tooltip": "Tisková úloha byla zrušena před dokončením, nebo byla odstraněna ze sestavovací fronty."
+    },
+    "failed": {
+      "name": "Selhalo",
+      "tooltip": "Tisková úloha selhala.\n\nDalší informace naleznete na obrazovce tiskárny."
+    },
+    "generating": {
+      "name": "Finalizace tiskové úlohy",
+      "tooltip": "Rozvržení předběžné úlohy bylo finalizováno a připravují se tiskové vrstvy."
+    },
+    "nestingFailed": {
+      "name": "Vyhnízdění selhalo",
+      "tooltip": "Vyhnízdění dílů selhalo. Může to být způsobeno problémy s jedním nebo více soubory dílů."
+    },
+    "offline": {
+      "name": "Přepracováno offline",
+      "tooltip": "Úloha byla stažena k úpravě a odeslání v aplikaci Composer."
+    },
+    "paused": {
+      "name": "Pozastaveno",
+      "tooltip": "Tisková úloha byla na tiskárně pozastavena."
+    },
+    "printed": {
+      "name": "Vytištěno",
+      "tooltip": "Úloha byla úspěšně dokončena."
+    },
+    "printing": {
+      "name": "Tisk probíhá",
+      "tooltip": "Úloha se právě tiskne."
+    },
+    "printPending": {
+      "name": "Čeká na tisk",
+      "tooltip": "Úloha je na tiskárně a připravena k tisku."
+    },
+    "provisional": {
+      "name": "Předběžné",
+      "tooltip": "Úloha je v předběžném stavu a bude finalizována, když:\n<ul><li>do úlohy budou přidány další díly k jejímu naplnění</li><li>bude brzy k dispozici vhodná tiskárna pro její tisk</li></ul>Úlohu lze také ručně povýšit do finalizovaného stavu."
+    },
+    "rejected": {
+      "name": "Zamítnuto",
+      "tooltip": "Úloha byla zamítnuta a díly byly zařazeny znovu do fronty."
+    },
+    "sendingFailed": {
+      "name": "Odesílání selhalo",
+      "tooltip": "Tisková úloha selhala při odesílání do tiskárny.\n\nPříčinou může být to, že tiskárna přešla do režimu offline, nebo že je sestavovací fronta plná a chybí dostatek paměti."
+    },
+    "sendingToPrinter": {
+      "name": "Odesílání do tiskárny",
+      "tooltip": "Tiskové vrstvy se odesílají do tiskárny."
+    },
+    "slicing": {
+      "name": "Plátkování tiskové úlohy",
+      "tooltip": "Připravují se tiskové vrstvy."
+    },
+    "slicingFailed": {
+      "name": "Plátkování selhalo",
+      "tooltip": "Tisková úloha selhala během přípravy tiskových vrstev.\n\nMůže to být způsobeno problémy se soubory dílů."
+    }
+  },
+  "title": {
+    "device": "Zařízení",
+    "deviceOffline": "{{device}} je offline",
+    "deviceOffline_one": "{{device}} je offline",
+    "deviceOffline_other": "Více tiskáren je offline",
+    "jobNumber": "Číslo úlohy",
+    "material": "Materiál",
+    "moveOffline": "Přepracovat úlohu offline?",
+    "moveOffline_one": "Přepracovat úlohu offline?",
+    "moveOffline_other": "Přepracovat úlohy offline?",
+    "noJobsAccepted": "Žádné přijaté úlohy",
+    "noJobsRejected": "Žádné zamítnuté úlohy",
+    "noJobsToReview": "Žádné úlohy ke kontrole",
+    "printJobs": "Tiskové úlohy",
+    "rejectJob": "Přeuspořádat zamítnutou úlohu?",
+    "requeueParts": "Zařadit díly znovu do fronty?",
+    "status": "Stav"
+  },
+  "tooltips": {
+    "accepted": "Zde jsou zobrazeny všechny přijaté úlohy spolu s jejich stavem.",
+    "provisional": "Zde je zobrazen přehled očekávaných nadcházejících úloh na základě dostupnosti tiskáren, kompatibility šablon a nevytištěných dílů v Trychtýři.\n\nJejich povýšením vznikne finalizovaná tisková úloha, která bude zahrnovat identifikované díly, rozvržení a cílovou tiskárnu. Jakmile budou pro finalizované úlohy vygenerovány podpory, zobrazí se na kartě „Ke kontrole“.",
+    "rejected": "Zde jsou zobrazeny všechny zamítnuté úlohy.",
+    "resendJob": "Odešle úlohu znovu do tiskárny. To může být užitečné, pokud byla úloha zrušena nebo pokud zařízení narazilo na chybu.",
+    "toReview": "Zde jsou zobrazeny tiskové úlohy připravené ke kontrole. Přijměte je pro odeslání do tiskárny."
+  }
+}

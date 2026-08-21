@@ -1,0 +1,199 @@
+{
+  "alt": {
+    "all": "Tout",
+    "userUpload": "Téléversements utilisateur"
+  },
+  "button": {
+    "accept": "Accepter",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "createPartGroup": "Créer un groupe de pièces",
+    "deprioritise": "Effacer la priorité",
+    "download": "Télécharger",
+    "duplicate": "Dupliquer",
+    "expand": "Développer",
+    "moveToReview": "Déplacer vers Révision",
+    "partType": "Type de pièce",
+    "prioritise": "Prioriser",
+    "regroup": "Regrouper",
+    "regroup_one": "Regrouper",
+    "regroup_other": "Regrouper",
+    "reject": "Rejeter",
+    "removeFromGroup": "Retirer du groupe",
+    "reprint": "Réimprimer la pièce",
+    "retry": "Réessayer",
+    "template": "Modèle",
+    "ungroupPartGroup": "Dégrouper",
+    "uploadPart": "Téléverser une pièce",
+    "viewMoreParts": "Voir plus de pièces"
+  },
+  "description": {
+    "functionality": "Téléversez des pièces ou importez-les automatiquement depuis des applications tierces. Les types de pièces sont reconnus, les modèles d'impression appliqués, et elles sont ajoutées automatiquement aux Travaux d'impression appropriés avec d'autres pièces."
+  },
+  "details": {
+    "datePrinted": "Date d'impression",
+    "group": {
+      "groupInformation": "Informations du groupe",
+      "partName": "Nom de la pièce",
+      "parts": "Pièces",
+      "template": "Modèle"
+    },
+    "groupLabel": "Groupe",
+    "groupName": "Groupe {{id}}",
+    "history": {
+      "date": "Date",
+      "outcome": "Résultat",
+      "status": {
+        "accepted": "Impression acceptée",
+        "failed": "Échec de l'impression",
+        "offline": "Retravaillé hors ligne",
+        "printed": "Imprimé",
+        "unknown": "Inconnu"
+      },
+      "title": "Historique d'impression"
+    },
+    "noPrintJob_one": "Le travail d'impression apparaîtra ici une fois la pièce imbriquée.",
+    "noPrintJob_other": "Les travaux d'impression apparaîtront ici une fois les pièces imbriquées.",
+    "partInformation": "Informations sur la pièce",
+    "partType": "Type de pièce",
+    "printJob": "Travail d'impression",
+    "progress": "Progression",
+    "received": "Reçu",
+    "source": "Source",
+    "status": "Statut",
+    "targetDevice": "Appareil cible",
+    "template": "Modèle",
+    "title_zero": "Aucun élément sélectionné",
+    "title_one": "1 élément sélectionné",
+    "title_other": "{{count}} éléments sélectionnés"
+  },
+  "emptyInboxMessages": {
+    "accepted": {
+      "message": "Les pièces de l'onglet 'Révision' apparaîtront ici une fois qu'elles auront été acceptées",
+      "title": "Aucune pièce acceptée"
+    },
+    "confirm": {
+      "message": "Utilisez le bouton 'Téléverser des pièces' ou glissez-déposez des fichiers pour ajouter des pièces à votre organisation",
+      "title": "Aucune pièce à confirmer"
+    },
+    "rejected": {
+      "message": "Les pièces qui ont été rejetées apparaîtront ici ",
+      "title": "Aucune pièce rejetée"
+    },
+    "review": {
+      "message": "Utilisez le bouton ‘Téléverser des pièces’ en haut à droite de cette page ou utilisez le bouton ci-dessous pour ajouter des pièces à votre organisation",
+      "title": "Aucune pièce à réviser"
+    }
+  },
+  "errors": {
+    "acceptPartError": "Échec de l'acceptation de la pièce",
+    "cancelPartUploadError": "Échec de l'annulation du téléversement de la pièce",
+    "confirmPartError": "Échec de la confirmation de la pièce",
+    "downloadPartError": "Échec du téléchargement de la pièce",
+    "fileTooLarge": "La taille du fichier dépasse la limite de 500 Mo",
+    "invalidFileFormat": "Le fichier doit être de type .stl",
+    "noFilesUploaded": "Aucun fichier téléversé",
+    "partCreateError": "Erreur lors de la création de la pièce",
+    "rejectPartError": "Échec du rejet de la pièce",
+    "setPartTypeError": "Échec de la mise à jour du type de pièce",
+    "undoAcceptPartError": "Échec de l'annulation de l'acceptation de la pièce"
+  },
+  "label": {
+    "accepted": "Accepté",
+    "confirm": "Confirmer",
+    "designSelected_one": "{{count}} Design sélectionné",
+    "designSelected_other": "{{count}} Designs sélectionnés",
+    "dropFile": "Ajouter un fichier à la Boîte de réception",
+    "groupHasBeenPrioritised": "Le groupe a été priorisé",
+    "invalidUploadFileContent": "Un ou plusieurs fichiers n'ont pas pu être lus comme contenu STL valide",
+    "invalidUploadFileSize": "Un ou plusieurs fichiers dépassent la taille maximale de téléversement",
+    "invalidUploadFileType": "Seuls les fichiers STL sont pris en charge",
+    "partHasBeenPrioritised": "La pièce a été priorisée",
+    "preparingDownload": "Préparation du téléchargement",
+    "rejected": "Rejeté",
+    "renameGroup": "Renommer le groupe de pièces",
+    "review": "À réviser",
+    "search": "Rechercher une pièce",
+    "uploadCancelled": "{{partName}} (annulé)"
+  },
+  "message": {
+    "noParts": "Aucune pièce",
+    "renameGroup": "Entrez un nouveau nom pour le groupe de pièces :",
+    "renamePart": "Entrez un nouveau nom pour la pièce :",
+    "reprocessPart_one": "{{name}} a déjà été ajouté.\n\nRetraiter cette pièce créera une autre copie dans l'Entonnoir pour impression.",
+    "reprocessPart_other": "{{count}} pièces ont déjà été ajoutées à l'entonnoir.\n\nRetraiter cette pièce créera une autre copie dans l'Entonnoir pour impression.",
+    "reprocessPart_time_one": "{{name}} a déjà été ajouté le {{time}}.\n\nRetraiter cette pièce créera une autre copie dans l'Entonnoir pour impression.",
+    "reprocessPart_time_other": "{{count}} pièces ont déjà été ajoutées à l'entonnoir.\n\nRetraiter cette pièce créera une autre copie dans l'Entonnoir pour impression."
+  },
+  "subscriptionNotice": {
+    "approaching": {
+      "description_one": "Il reste {{count}} pièce dans la limite mensuelle de l'organisation. La limite se réinitialise dans {{days}}.",
+      "description_other": "Il reste {{count}} pièces dans la limite mensuelle de l'organisation. La limite se réinitialise dans {{days}}.",
+      "title": "Limite mensuelle bientôt atteinte"
+    },
+    "button": "Options d'abonnement",
+    "close": "Ignorer",
+    "daysUntilReset_one": "{{count}} jour",
+    "daysUntilReset_other": "{{count}} jours",
+    "reached": {
+      "descriptionEditor": "L'allocation se réinitialisera dans {{days}}. Ajustez le niveau d'abonnement pour traiter plus de pièces.",
+      "descriptionMember": "L'allocation se réinitialisera dans {{days}}. Contactez l'administrateur pour ajuster le niveau d'abonnement et traiter plus de pièces.",
+      "title": "Limite mensuelle atteinte"
+    }
+  },
+  "table": {
+    "partClassification": {
+      "bridge": "Bridge",
+      "crownOrToothOrVeneer": "Couronne/Dent/Facette",
+      "dentureAOX": "Prothèse (AoX)",
+      "dentureBase": "Prothèse (Base)",
+      "denturePartial": "Prothèse (Partielle)",
+      "die": "Die",
+      "flatGingiva": "Gencive",
+      "hollowModel": "Modèle (Creux)",
+      "occlusalSplint": "Gouttière",
+      "other": "Autre",
+      "partialFramework": "Armature partielle",
+      "pillowGingiva": "Gencive (Oreiller)",
+      "screwInTooth": "Couronne implantaire",
+      "solidModel": "Modèle (Plein)",
+      "surgicalGuide": "Guide chirurgical",
+      "teethRow": "Dents de prothèse",
+      "tryInDenture": "Prothèse (Essayage)"
+    },
+    "partStatus": {
+      "addedToJob": "Ajouté au travail",
+      "failed": "Échoué",
+      "printed": "Imprimé",
+      "printReady": "Prêt à imprimer",
+      "processing": "Traitement en cours",
+      "rejected": "Rejeté",
+      "reworkedOffline": "Retravaillé hors ligne",
+      "toAccept": "À accepter",
+      "toConfirm": "À confirmer"
+    },
+    "template": {
+      "noTemplate": "Aucun modèle",
+      "noTemplateTooltip": "<a>Créer un modèle</a> avec le type de cette pièce pour accepter la pièce pour l'impression."
+    },
+    "userUpload": "Téléversement utilisateur"
+  },
+  "title": {
+    "inbox": "Boîte de réception",
+    "name": "Nom",
+    "partType": "Type de pièce",
+    "received": "Reçu",
+    "reprocessPart_one": "Retraiter {{name}} ?",
+    "reprocessPart_other": "Retraiter {{count}} pièces ?",
+    "source": "Source",
+    "status": "Statut",
+    "template": "Modèle",
+    "uploads": "Téléversements"
+  },
+  "tooltips": {
+    "accepted": "Les pièces qui ont été acceptées pour fabrication sont affichées ici.",
+    "createPartGroupDisabled": "Seules les pièces utilisant le même modèle peuvent être groupées ensemble.",
+    "rejected": "Les pièces qui ont été rejetées pour fabrication sont affichées ici.",
+    "review": "Les pièces qui ont été ajoutées à l'Entonnoir sont affichées ici pour être révisées. Choisissez un modèle à appliquer à la pièce avant de l'accepter pour fabrication."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "alt": {
+    "devices": "Urządzenia",
+    "devicesNeedingAttention": "Urządzenia wymagające uwagi",
+    "noDevices": "Brak urządzeń"
+  },
+  "button": {
+    "add": "Dodaj urządzenie",
+    "exclude": "Wyklucz",
+    "excludeDevice": "Wyklucz z automatycznych zadań druku",
+    "includeDevice": "Uwzględnij w automatycznych zadaniach druku"
+  },
+  "details": {
+    "aboutPrinter": "O drukarce",
+    "currentBuild": "Bieżący build",
+    "printStatus": "Status druku",
+    "queuedBuild": "Buildy w kolejce"
+  },
+  "label": {
+    "devices": "Urządzenia",
+    "devicesTab": "Karta urządzeń",
+    "excludedDevice": "Urządzenie zostało wykluczone z otrzymywania zadań druku z Funnela",
+    "requiresAttention": "Wymaga uwagi",
+    "search": "Wyszukaj urządzenie",
+    "status": {
+      "availableInFunnel": "Akceptuj zadania z Funnela",
+      "currentBuildName": "Nazwa bieżącego builda",
+      "currentLayer": "Bieżąca warstwa",
+      "currentLayerHeight": "Wysokość bieżącej warstwy",
+      "elapsed": "Upłynęło",
+      "firmwareVersion": "Wersja oprogramowania sprzętowego",
+      "layers": "Warstwy",
+      "manufacturer": "Producent",
+      "model": "Model",
+      "paused": "Wstrzymano",
+      "remaining": "Pozostało",
+      "serialNumber": "Numer seryjny",
+      "status": "Status"
+    }
+  },
+  "message": {
+    "addDevices": "Użyj przycisku „Dodaj urządzenia” w prawym górnym rogu tej strony lub użyj poniższego przycisku, aby dodać urządzenia do swojej organizacji",
+    "allGood": "Wszystko w porządku!",
+    "devicesPageInfo": "Na tej stronie wyświetlany jest status wszystkich urządzeń w Twojej organizacji",
+    "excludeDevice": "{{device}} wykluczone z otrzymywania zadań druku z Funnela",
+    "includeDevice": "{{device}} uwzględnione w zadaniach druku z Funnela",
+    "noCurrentBuild": "Obecnie żaden build nie jest drukowany.",
+    "noDevices": "Brak urządzeń",
+    "noDevicesNeedAttention": "Żadne urządzenia obecnie nie wymagają uwagi",
+    "warnRemoveDevice": "Nie będziesz już mógł monitorować ani wysyłać zadań druku do tego urządzenia z Funnela.",
+    "warnRemoveDevice_name": "Nie będziesz już mógł monitorować ani wysyłać zadań druku do {{device}} z Funnela.",
+    "willExcludeDevice": "Po wykluczeniu tego urządzenia zadania druku nie będą już dla niego tworzone"
+  },
+  "state": {
+    "canceled": "Anulowano",
+    "canceled_error": "Błąd: Anulowano",
+    "cancelling": "Anulowanie",
+    "cancelling_error": "Błąd: Anulowanie",
+    "finished": "Druk zakończony",
+    "idle": "Drukarka bezczynna",
+    "offline": "Offline",
+    "paused": "Wstrzymano",
+    "paused_error": "Błąd: Wstrzymano",
+    "pausing": "Wstrzymywanie",
+    "pausing_error": "Błąd: Wstrzymywanie",
+    "printing": "Pozostało: {{duration}}",
+    "staring": "Uruchamianie",
+    "userbusy": "Użytkownik zajęty"
+  },
+  "title": {
+    "devices": "Urządzenia",
+    "excludeDevice": "Wykluczyć {{device}}?",
+    "removeDevice": "Usunąć urządzenie?"
+  },
+  "tooltips": {
+    "devices": "Wszystkie urządzenia dodane do Twojego Funnela są wyświetlane na tej karcie.",
+    "requiresAttention": "Tutaj wyświetlane są urządzenia, które mają błąd lub utraciły połączenie."
+  }
+}

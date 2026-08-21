@@ -1,0 +1,39 @@
+{
+  "alt": {
+    "noApps": "Nincs csatlakoztatott alkalmazás"
+  },
+  "button": {
+    "apps": "Alkalmazások"
+  },
+  "label": {
+    "search": "Alkalmazások keresése"
+  },
+  "message": {
+    "noApps": "Nincs csatlakoztatott alkalmazás",
+    "noAppsInfo": "A csatlakoztatott alkalmazások itt jelennek meg. Használja az alábbi „Alkalmazások” gombot a csatlakoztatható alkalmazások megtekintéséhez.",
+    "unlink": "Szervezete a továbbiakban nem fog alkatrészeket kapni az alkalmazástól.",
+    "unlink_one": "Szervezete a továbbiakban nem fog alkatrészeket kapni az alkalmazástól.",
+    "unlink_other": "Szervezete a továbbiakban nem fog alkatrészeket kapni az alkalmazásoktól.",
+    "unlink_name_one": "Szervezete a továbbiakban nem fog alkatrészeket kapni a(z) {{name}} alkalmazástól.",
+    "unlink_nameOrg_one": "{{org}} a továbbiakban nem fog alkatrészeket kapni a(z) {{name}} alkalmazástól.",
+    "unlink_org_other": "{{org}} a továbbiakban nem fog alkatrészeket kapni az alkalmazásoktól.",
+    "unlinkParts": "A már megkapott alkatrészek megmaradnak az Ön szervezeténél.",
+    "unlinkParts_org": "A már megkapott alkatrészek megmaradnak a(z) {{org}} szervezetnél."
+  },
+  "title": {
+    "apps": "Alkalmazások",
+    "connectedApps": "Csatlakoztatott alkalmazások",
+    "lastUsed": "Utoljára használva",
+    "linked": "Csatlakoztatva",
+    "name": "Név",
+    "never": "Soha",
+    "unlink": "Leválasztja az alkalmazást?",
+    "unlink_name": "Leválasztja a(z) {{name}} alkalmazást?",
+    "unlink_one": "Leválasztja az alkalmazást?",
+    "unlink_other": "Leválasztja az alkalmazásokat?"
+  },
+  "tooltips": {
+    "apps": "Felsorolja azokat az alkalmazásokat, amelyeket a Funnel támogat. Ezek segítségével automatikusan alkatrészeket kaphat harmadik féltől származó szolgáltatásoktól.",
+    "connectedApps": "Felsorolja azokat az alkalmazásokat, amelyek jogosultsággal rendelkeznek arra, hogy alkatrészeket küldjenek a Funnelnek."
+  }
+}

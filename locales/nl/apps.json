@@ -1,0 +1,39 @@
+{
+  "alt": {
+    "noApps": "Geen apps gekoppeld"
+  },
+  "button": {
+    "apps": "Apps"
+  },
+  "label": {
+    "search": "Zoeken naar apps"
+  },
+  "message": {
+    "noApps": "Geen apps gekoppeld",
+    "noAppsInfo": "Gekoppelde apps worden hier weergegeven. Gebruik de knop 'Apps' hieronder om beschikbare apps te bekijken die gekoppeld kunnen worden.",
+    "unlink": "Uw organisatie zal niet langer onderdelen ontvangen vanuit de app.",
+    "unlink_one": "Uw organisatie zal niet langer onderdelen ontvangen vanuit de app.",
+    "unlink_other": "Uw organisatie zal niet langer onderdelen ontvangen vanuit de apps.",
+    "unlink_name_one": "Uw organisatie zal niet langer onderdelen ontvangen vanuit {{name}}.",
+    "unlink_nameOrg_one": "{{org}} zal niet langer onderdelen ontvangen vanuit {{name}}.",
+    "unlink_org_other": "{{org}} zal niet langer onderdelen ontvangen vanuit de apps.",
+    "unlinkParts": "Onderdelen die al ontvangen zijn, zullen in uw organisatie blijven.",
+    "unlinkParts_org": "Onderdelen die al ontvangen zijn, zullen in {{org}} blijven."
+  },
+  "title": {
+    "apps": "Apps",
+    "connectedApps": "Verbonden apps",
+    "lastUsed": "Laatst gebruikt",
+    "linked": "Gekoppeld",
+    "name": "Naam",
+    "never": "Nooit",
+    "unlink": "App ontkoppelen?",
+    "unlink_name": "{{name}} ontkoppelen?",
+    "unlink_one": "App ontkoppelen?",
+    "unlink_other": "Apps ontkoppelen?"
+  },
+  "tooltips": {
+    "apps": "Toont alle apps die de Funnel ondersteunt. Gebruik deze om automatisch onderdelen van externe services te ontvangen.",
+    "connectedApps": "Toont alle apps die toestemming hebben om onderdelen naar de Funnel te sturen."
+  }
+}

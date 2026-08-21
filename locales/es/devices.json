@@ -1,0 +1,79 @@
+{
+  "alt": {
+    "devices": "Dispositivos",
+    "devicesNeedingAttention": "Dispositivos que requieren atención",
+    "noDevices": "Sin dispositivos"
+  },
+  "button": {
+    "add": "Añadir dispositivo",
+    "exclude": "Excluir",
+    "excludeDevice": "Excluir de los trabajos de impresión automáticos",
+    "includeDevice": "Incluir para trabajos de impresión automáticos"
+  },
+  "details": {
+    "aboutPrinter": "Acerca de la impresora",
+    "currentBuild": "Impresión actual",
+    "printStatus": "Estado de impresión",
+    "queuedBuild": "Impresiones en cola"
+  },
+  "label": {
+    "devices": "Dispositivos",
+    "devicesTab": "Pestaña de dispositivos",
+    "excludedDevice": "El dispositivo ha sido excluido de recibir trabajos de impresión del Funnel",
+    "requiresAttention": "Requiere atención",
+    "search": "Buscar un dispositivo",
+    "status": {
+      "availableInFunnel": "Aceptar trabajos del Funnel",
+      "currentBuildName": "Nombre de la impresión actual",
+      "currentLayer": "Capa actual",
+      "currentLayerHeight": "Altura de la capa actual",
+      "elapsed": "Transcurrido",
+      "firmwareVersion": "Versión del firmware",
+      "layers": "Capas",
+      "manufacturer": "Fabricante",
+      "model": "Modelo",
+      "paused": "En pausa",
+      "remaining": "Restante",
+      "serialNumber": "Número de serie",
+      "status": "Estado"
+    }
+  },
+  "message": {
+    "addDevices": "Utilice el botón «Añadir dispositivos» en la parte superior derecha de esta página o utilice el botón de abajo para añadir dispositivos a su organización",
+    "allGood": "¡Todo en orden!",
+    "devicesPageInfo": "El estado de todos los dispositivos de su organización se muestra en esta página",
+    "excludeDevice": "{{device}} excluido de recibir trabajos de impresión del funnel",
+    "includeDevice": "{{device}} incluido para trabajos de impresión del funnel",
+    "noCurrentBuild": "No hay ninguna impresión en curso.",
+    "noDevices": "Sin dispositivos",
+    "noDevicesNeedAttention": "Actualmente ningún dispositivo requiere atención",
+    "warnRemoveDevice": "Ya no podrá supervisar ni enviar trabajos de impresión a este dispositivo desde el Funnel.",
+    "warnRemoveDevice_name": "Ya no podrá supervisar ni enviar trabajos de impresión a {{device}} desde el Funnel.",
+    "willExcludeDevice": "Ya no se crearán trabajos de impresión para esta máquina cuando esté excluida"
+  },
+  "state": {
+    "canceled": "Cancelado",
+    "canceled_error": "Error: Cancelado",
+    "cancelling": "Cancelando",
+    "cancelling_error": "Error: Cancelando",
+    "finished": "Impresión completa",
+    "idle": "Impresora inactiva",
+    "offline": "Fuera de línea",
+    "paused": "En pausa",
+    "paused_error": "Error: En pausa",
+    "pausing": "Pausando",
+    "pausing_error": "Error: Pausando",
+    "printing": "{{duration}} restante",
+    "staring": "Iniciando",
+    "userbusy": "Usuario ocupado"
+  },
+  "title": {
+    "devices": "Dispositivos",
+    "excludeDevice": "¿Excluir {{device}}?",
+    "removeDevice": "¿Eliminar dispositivo?"
+  },
+  "tooltips": {
+    "devices": "Todos los dispositivos que se han añadido a su Funnel se muestran en esta pestaña.",
+    "requiresAttention": "Esto muestra los dispositivos que tienen un error o han perdido la conexión."
+  }
+}

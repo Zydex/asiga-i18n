@@ -1,0 +1,158 @@
+{
+  "button": {
+    "download": "Descarcă",
+    "exportReportPdf": "Exportă PDF",
+    "moveOffline": "Reprelucrează offline",
+    "promoteJob": "Promovează job",
+    "reprint": "Reimprimă",
+    "reprintParts": "Reimprimă piese",
+    "requeueParts": "Repune piese în coadă",
+    "resendJob": "Retrimite job",
+    "reshuffle": "Amestecă"
+  },
+  "details": {
+    "basePlate": "Setări platou de bază",
+    "currentJob": "Job curent",
+    "currentParts": "Piese curente",
+    "jobInformation": "Informații job",
+    "parts": "Piese"
+  },
+  "label": {
+    "accepted": "Acceptat",
+    "buildAreaUsage": "Utilizare zonă de printare",
+    "estimatedMaterial": "Material estimat",
+    "estimatedPrintTime": "Timp de printare estimat",
+    "external": "Extern",
+    "jobContainsPriorityParts": "Jobul conține piese prioritizate",
+    "jobsTab": "Taburi job",
+    "layerThickness": "Grosime strat",
+    "material": "Material",
+    "partName": "Nume piesă",
+    "partType": "Tip piesă",
+    "provisional": "Provizoriu",
+    "rejected": "Respins",
+    "reprintParts": "Reimprimi piesele din acest job?",
+    "reprintPartsNoneAvailable": "Toate piesele sunt în curs de reimprimare",
+    "requeuedPartsSuccess": "Piese repuse în coadă cu succes",
+    "requeuedPartsSuccess_one": "Piesă repusă în coadă cu succes",
+    "requeuedPartsSuccess_other": "Piese repuse în coadă cu succes",
+    "requeuingParts": "Se repun piesele în coadă",
+    "search": "Caută joburi",
+    "source": "Sursă",
+    "targetDevice": "Dispozitiv țintă",
+    "template": "Șablon",
+    "toReview": "De verificat",
+    "trayType": "Tip tavă"
+  },
+  "message": {
+    "deviceOffline": "Acest job nu va fi trimis până când imprimanta nu revine online.\n\nVerifică dacă {{device}} este online și are o conexiune activă la internet.",
+    "deviceOffline_one": "Acest job nu va fi trimis până când imprimanta nu revine online.\n\nVerifică dacă {{device}} este online și are o conexiune activă la internet.",
+    "deviceOffline_other": "Aceste joburi nu vor fi trimise până când fiecare imprimantă nu revine online.\n\nVerifică dacă imprimantele sunt online și au o conexiune activă la internet.",
+    "downloadInfo": "Alternativ, jobul de printare poate fi descărcat pentru editare în Composer.",
+    "moveOffline": "Aceasta va respinge jobul și îl va descărca pentru editare în composer.",
+    "moveOffline_one": "Aceasta va respinge jobul selectat și îl va descărca pentru editare în composer.",
+    "moveOffline_other": "Aceasta va respinge joburile selectate și le va descărca pentru editare în composer.",
+    "noJobsToReview": "Joburile provizorii care au fost promovate vor apărea aici. Încarcă piese în inbox pentru a începe.",
+    "noParts": "Acest job nu are piese.",
+    "noPartsToReprint": "Piesele din acest job au fost deja repuse în coadă pentru reimprimare.",
+    "rejectInfo": "Apăsarea butonului „Amestecă” va duce la variația poziției și rotației pieselor ca parte a unui nou job de printare. Este posibil ca unele piese să fie eliminate sau adăugate în timpul amestecării.",
+    "reprintParts": "Piesele selectate vor fi prioritizate pentru reimprimare ca parte a următorului job de printare potrivit.",
+    "reprintPartsKey": "Piesele afișate cu gri au fost deja reimprimate.",
+    "requeueParts": "Aceasta va marca jobul ca respins și va muta toate piesele din job înapoi în coadă.",
+    "reworkOffline_one": "Jobul de printare <bold>#{{id}}</bold> a fost marcat ca <bold>Reprelucrat offline</bold>",
+    "reworkOffline_other": "{{count}} joburi de printare marcate ca <bold>Reprelucrat offline</bold>",
+    "submittingJob": "Se transmite #{{id}}",
+    "submittingJob_device": "Se transmite  <bold>#{{id}}</bold> la <bold>{{device}}</bold>"
+  },
+  "status": {
+    "awaitingApproval": {
+      "name": "În așteptarea aprobării",
+      "tooltip": "Jobul finalizat este gata de verificare."
+    },
+    "cancelled": {
+      "name": "Anulat",
+      "tooltip": "Jobul de printare a fost anulat înainte de finalizare sau eliminat din coada de construire."
+    },
+    "failed": {
+      "name": "Eșuat",
+      "tooltip": "Jobul de printare a eșuat.\n\nConsultă ecranul imprimantei pentru mai multe informații."
+    },
+    "generating": {
+      "name": "Se finalizează jobul de printare",
+      "tooltip": "Aspectul provizoriu al jobului a fost finalizat, iar straturile de printare sunt în curs de pregătire."
+    },
+    "nestingFailed": {
+      "name": "Nesting eșuat",
+      "tooltip": "Nestingul pieselor a eșuat. Aceasta ar putea fi cauzată de probleme cu unul sau mai multe fișiere de piese."
+    },
+    "offline": {
+      "name": "Reprelucrat offline",
+      "tooltip": "Jobul a fost descărcat pentru a fi editat și trimis în Composer."
+    },
+    "paused": {
+      "name": "În pauză",
+      "tooltip": "Jobul de printare a fost pus în pauză pe imprimantă."
+    },
+    "printed": {
+      "name": "Printat",
+      "tooltip": "Jobul s-a finalizat cu succes."
+    },
+    "printing": {
+      "name": "Se printează",
+      "tooltip": "Jobul este în curs de printare."
+    },
+    "printPending": {
+      "name": "Printare în așteptare",
+      "tooltip": "Jobul se află pe imprimantă și este gata de printare."
+    },
+    "provisional": {
+      "name": "Provizoriu",
+      "tooltip": "Jobul se află într-o stare provizorie și va deveni finalizat atunci când:\n<ul><li>se adaugă mai multe piese pentru a completa jobul</li><li>o imprimantă potrivită urmează să devină disponibilă pentru a-l printa</li></ul>Jobul poate fi, de asemenea, promovat manual la o stare finalizată."
+    },
+    "rejected": {
+      "name": "Respins",
+      "tooltip": "Jobul a fost respins, iar piesele au fost repuse în coadă."
+    },
+    "sendingFailed": {
+      "name": "Trimitere eșuată",
+      "tooltip": "Jobul de printare a eșuat în timpul trimiterii către imprimantă.\n\nAceasta ar putea fi cauzată de trecerea imprimantei offline sau de o coadă de construire plină, cu memorie insuficientă rămasă."
+    },
+    "sendingToPrinter": {
+      "name": "Se trimite către imprimantă",
+      "tooltip": "Straturile de printare sunt trimise către imprimantă."
+    },
+    "slicing": {
+      "name": "Se secționează jobul de printare",
+      "tooltip": "Straturile de printare sunt în curs de pregătire."
+    },
+    "slicingFailed": {
+      "name": "Secționare eșuată",
+      "tooltip": "Jobul de printare a eșuat în timpul pregătirii straturilor de printare.\n\nAceasta ar putea fi cauzată de probleme cu fișierele de piese."
+    }
+  },
+  "title": {
+    "device": "Dispozitiv",
+    "deviceOffline": "{{device}} este offline",
+    "deviceOffline_one": "{{device}} este offline",
+    "deviceOffline_other": "Mai multe imprimante sunt offline",
+    "jobNumber": "Număr job",
+    "material": "Material",
+    "moveOffline": "Reprelucrezi jobul offline?",
+    "moveOffline_one": "Reprelucrezi jobul offline?",
+    "moveOffline_other": "Reprelucrezi joburile offline?",
+    "noJobsAccepted": "Niciun job acceptat",
+    "noJobsRejected": "Niciun job respins",
+    "noJobsToReview": "Niciun job de verificat",
+    "printJobs": "Joburi de printare",
+    "rejectJob": "Amesteci jobul respins?",
+    "requeueParts": "Repui piesele în coadă?",
+    "status": "Stare"
+  },
+  "tooltips": {
+    "accepted": "Toate joburile care au fost acceptate sunt afișate aici, împreună cu starea lor.",
+    "provisional": "Aceasta arată joburile viitoare așteptate pe baza disponibilității imprimantei, a compatibilității șablonului și a pieselor neprintate din Funnel.\n\nPromovarea acestora va crea un job de printare finalizat, care va include piesele identificate, aspectul și imprimanta țintă. Când au fost generate suporturi pentru joburile finalizate, acestea vor apărea în fila „De verificat”.",
+    "rejected": "Toate joburile care au fost respinse sunt afișate aici.",
+    "resendJob": "Retrimite un job către o imprimantă. Acest lucru poate fi util dacă jobul a fost anulat sau dacă dispozitivul a întâmpinat o eroare.",
+    "toReview": "Joburile de printare care sunt gata de verificare sunt afișate aici. Acceptă-le pentru a le trimite către imprimantă."
+  }
+}

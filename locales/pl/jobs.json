@@ -1,0 +1,158 @@
+{
+  "button": {
+    "download": "Pobierz",
+    "exportReportPdf": "Eksportuj PDF",
+    "moveOffline": "Przerób offline",
+    "promoteJob": "Podwyższ zadanie",
+    "reprint": "Wydrukuj ponownie",
+    "reprintParts": "Wydrukuj ponownie części",
+    "requeueParts": "Ustaw części w kolejce ponownie",
+    "resendJob": "Wyślij zadanie ponownie",
+    "reshuffle": "Przetasuj"
+  },
+  "details": {
+    "basePlate": "Ustawienia płyty podstawowej",
+    "currentJob": "Bieżące zadanie",
+    "currentParts": "Bieżące części",
+    "jobInformation": "Informacje o zadaniu",
+    "parts": "Części"
+  },
+  "label": {
+    "accepted": "Zaakceptowane",
+    "buildAreaUsage": "Wykorzystanie obszaru budowy",
+    "estimatedMaterial": "Szacowany materiał",
+    "estimatedPrintTime": "Szacowany czas druku",
+    "external": "Zewnętrzne",
+    "jobContainsPriorityParts": "Zadanie zawiera części priorytetowe",
+    "jobsTab": "Zakładki zadań",
+    "layerThickness": "Grubość warstwy",
+    "material": "Materiał",
+    "partName": "Nazwa części",
+    "partType": "Typ części",
+    "provisional": "Wstępne",
+    "rejected": "Odrzucone",
+    "reprintParts": "Wydrukować ponownie części z tego zadania?",
+    "reprintPartsNoneAvailable": "Wszystkie części są drukowane ponownie",
+    "requeuedPartsSuccess": "Pomyślnie ustawiono części w kolejce ponownie",
+    "requeuedPartsSuccess_one": "Pomyślnie ustawiono część w kolejce ponownie",
+    "requeuedPartsSuccess_other": "Pomyślnie ustawiono części w kolejce ponownie",
+    "requeuingParts": "Ustawianie części w kolejce ponownie",
+    "search": "Szukaj zadań",
+    "source": "Źródło",
+    "targetDevice": "Urządzenie docelowe",
+    "template": "Szablon",
+    "toReview": "Do sprawdzenia",
+    "trayType": "Typ tacy"
+  },
+  "message": {
+    "deviceOffline": "To zadanie nie zostanie wysłane, dopóki drukarka nie będzie ponownie online.\n\nSprawdź, czy {{device}} jest online i ma aktywne połączenie internetowe.",
+    "deviceOffline_one": "To zadanie nie zostanie wysłane, dopóki drukarka nie będzie ponownie online.\n\nSprawdź, czy {{device}} jest online i ma aktywne połączenie internetowe.",
+    "deviceOffline_other": "Te zadania nie zostaną wysłane, dopóki każda drukarka nie będzie ponownie online.\n\nSprawdź, czy drukarki są online i mają aktywne połączenie internetowe.",
+    "downloadInfo": "Ewentualnie zadanie druku można pobrać w celu edycji w Composerze.",
+    "moveOffline": "To spowoduje odrzucenie zadania i pobranie go w celu edycji w composerze.",
+    "moveOffline_one": "To spowoduje odrzucenie wybranego zadania i pobranie go w celu edycji w composerze.",
+    "moveOffline_other": "To spowoduje odrzucenie wybranych zadań i pobranie ich w celu edycji w composerze.",
+    "noJobsToReview": "Wstępne zadania, które zostały podwyższone, pojawią się tutaj. Prześlij części do skrzynki odbiorczej, aby rozpocząć.",
+    "noParts": "To zadanie nie ma części.",
+    "noPartsToReprint": "Części w tym zadaniu zostały już ponownie ustawione w kolejce do ponownego druku.",
+    "rejectInfo": "Naciśnięcie przycisku „Przetasuj” spowoduje zmianę pozycji i obrotu części w ramach nowego zadania druku. Niektóre części mogą zostać usunięte lub dodane podczas przetasowania.",
+    "reprintParts": "Wybrane części będą traktowane priorytetowo do ponownego druku w ramach kolejnego odpowiedniego zadania druku.",
+    "reprintPartsKey": "Części w kolorze szarym zostały już wydrukowane ponownie.",
+    "requeueParts": "To spowoduje oznaczenie zadania jako odrzucone i przeniesienie wszystkich części zadania z powrotem do kolejki.",
+    "reworkOffline_one": "Zadanie druku <bold>#{{id}}</bold> oznaczone jako <bold>Przerobione offline</bold>",
+    "reworkOffline_other": "{{count}} zadań druku oznaczonych jako <bold>Przerobione offline</bold>",
+    "submittingJob": "Przesyłanie #{{id}}",
+    "submittingJob_device": "Przesyłanie  <bold>#{{id}}</bold> do <bold>{{device}}</bold>"
+  },
+  "status": {
+    "awaitingApproval": {
+      "name": "Oczekuje na zatwierdzenie",
+      "tooltip": "Sfinalizowane zadanie jest gotowe do sprawdzenia."
+    },
+    "cancelled": {
+      "name": "Anulowane",
+      "tooltip": "Zadanie druku zostało anulowane przed zakończeniem lub usunięte z kolejki budowy."
+    },
+    "failed": {
+      "name": "Niepowodzenie",
+      "tooltip": "Zadanie druku nie powiodło się.\n\nSprawdź ekran drukarki, aby uzyskać więcej informacji."
+    },
+    "generating": {
+      "name": "Finalizowanie zadania druku",
+      "tooltip": "Wstępny układ zadania został sfinalizowany, a warstwy druku są przygotowywane."
+    },
+    "nestingFailed": {
+      "name": "Zagnieżdżanie nie powiodło się",
+      "tooltip": "Zagnieżdżanie części nie powiodło się. Może to być spowodowane problemami z jednym lub większą liczbą plików części."
+    },
+    "offline": {
+      "name": "Przerobione offline",
+      "tooltip": "Zadanie zostało pobrane w celu edycji i wysłania w Composerze."
+    },
+    "paused": {
+      "name": "Wstrzymane",
+      "tooltip": "Zadanie druku zostało wstrzymane na drukarce."
+    },
+    "printed": {
+      "name": "Wydrukowane",
+      "tooltip": "Zadanie zostało pomyślnie ukończone."
+    },
+    "printing": {
+      "name": "Drukowanie",
+      "tooltip": "Zadanie jest obecnie drukowane."
+    },
+    "printPending": {
+      "name": "Oczekiwanie na druk",
+      "tooltip": "Zadanie znajduje się na drukarce i jest gotowe do druku."
+    },
+    "provisional": {
+      "name": "Wstępne",
+      "tooltip": "Zadanie znajduje się w stanie wstępnym i zostanie sfinalizowane, gdy:\n<ul><li>do zadania zostaną dodane kolejne części, aby je wypełnić</li><li>odpowiednia drukarka będzie wkrótce dostępna do druku</li></ul>Zadanie można również ręcznie podwyższyć do stanu sfinalizowanego."
+    },
+    "rejected": {
+      "name": "Odrzucone",
+      "tooltip": "Zadanie zostało odrzucone, a części zostały ponownie ustawione w kolejce."
+    },
+    "sendingFailed": {
+      "name": "Wysyłanie nie powiodło się",
+      "tooltip": "Zadanie druku nie powiodło się podczas wysyłania do drukarki.\n\nMoże to być spowodowane przejściem drukarki w tryb offline lub zapełnieniem kolejki budowy przy niewystarczającej ilości pamięci."
+    },
+    "sendingToPrinter": {
+      "name": "Wysyłanie do drukarki",
+      "tooltip": "Warstwy druku są wysyłane do drukarki."
+    },
+    "slicing": {
+      "name": "Cięcie zadania druku",
+      "tooltip": "Warstwy druku są przygotowywane."
+    },
+    "slicingFailed": {
+      "name": "Cięcie nie powiodło się",
+      "tooltip": "Zadanie druku nie powiodło się podczas przygotowywania warstw druku.\n\nMoże to być spowodowane problemami z plikami części."
+    }
+  },
+  "title": {
+    "device": "Urządzenie",
+    "deviceOffline": "{{device}} jest offline",
+    "deviceOffline_one": "{{device}} jest offline",
+    "deviceOffline_other": "Kilka drukarek jest offline",
+    "jobNumber": "Numer zadania",
+    "material": "Materiał",
+    "moveOffline": "Przerobić zadanie offline?",
+    "moveOffline_one": "Przerobić zadanie offline?",
+    "moveOffline_other": "Przerobić zadania offline?",
+    "noJobsAccepted": "Brak zaakceptowanych zadań",
+    "noJobsRejected": "Brak odrzuconych zadań",
+    "noJobsToReview": "Brak zadań do sprawdzenia",
+    "printJobs": "Zadania druku",
+    "rejectJob": "Przetasować odrzucone zadanie?",
+    "requeueParts": "Ustawić części w kolejce ponownie?",
+    "status": "Status"
+  },
+  "tooltips": {
+    "accepted": "Wszystkie zaakceptowane zadania są tutaj wyświetlane wraz z ich statusem.",
+    "provisional": "Pokazuje to oczekiwane nadchodzące zadania na podstawie dostępności drukarki, zgodności szablonu i niewydrukowanych części w Funnelu.\n\nPodwyższenie ich spowoduje utworzenie sfinalizowanego zadania druku, które będzie zawierać zidentyfikowane części, układ i drukarkę docelową. Gdy wsporniki zostaną wygenerowane dla sfinalizowanych zadań, pojawią się one na karcie „Do sprawdzenia”.",
+    "rejected": "Wszystkie odrzucone zadania są tutaj wyświetlane.",
+    "resendJob": "Wyślij ponownie zadanie do drukarki. Może to być przydatne, jeśli zadanie zostało anulowane lub jeśli urządzenie napotkało błąd.",
+    "toReview": "Tutaj wyświetlane są zadania druku gotowe do sprawdzenia. Zaakceptuj je, aby wysłać do drukarki."
+  }
+}

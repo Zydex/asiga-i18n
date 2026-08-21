@@ -1,0 +1,772 @@
+{
+  "alt": {
+    "logo": "Asiga webes portál",
+    "noSearchResults": "Nincs találat",
+    "sort": "Rendezés szerint"
+  },
+  "boolean": {
+    "false": "hamis",
+    "true": "igaz"
+  },
+  "button": {
+    "accept": "Elfogadás",
+    "acceptAll": "Összes elfogadása",
+    "add": "Hozzáadás",
+    "addMore_zero": "Hozzáadás...",
+    "addMore_one": "Továbbiak hozzáadása...",
+    "addMore_other": "Továbbiak hozzáadása...",
+    "apply": "Alkalmaz",
+    "back": "Vissza",
+    "cancel": "Mégse",
+    "close": "Bezárás",
+    "confirm": "Megerősítem",
+    "connect": "Csatlakozás",
+    "continue": "Folytatás",
+    "create": "Létrehozás",
+    "delete": "Törlés",
+    "deny": "Megtagadom",
+    "dismiss": "Elvetem",
+    "download": "Letöltés",
+    "edit": "Szerkesztés",
+    "essentialOnly": "Csak alapvető",
+    "invite": "Meghívom",
+    "logout": "Kijelentkezés",
+    "off": "Ki",
+    "ok": "OK",
+    "on": "Be",
+    "pause": "Szüneteltetés",
+    "promote": "Előléptetem",
+    "refresh": "Frissítés",
+    "reject": "Elutasítom",
+    "rejectAll": "Összes elutasítása",
+    "rejectAndRequeue": "Elutasítás és újrasorolás",
+    "rejectOnly": "Csak elutasítás",
+    "remove": "Eltávolítás",
+    "rename": "Átnevezés",
+    "reprocess": "Újrafeldolgozás",
+    "reset": "Visszaállítás",
+    "resetToDefault": "Visszaállítás alapértelmezettre",
+    "retry": "Újrapróbálkozás",
+    "save": "Mentés",
+    "tooltips": {
+      "changeRoleDisabled": "Nincs jogosultsága a kiválasztott felhasználók szerepkörének módosításához.",
+      "changeRoleDisabled_admin": "Nincs jogosultsága az Adminisztrátor vagy Tulajdonos felhasználók szerepkörének módosításához.",
+      "changeRoleDisabled_owner": "Nincs jogosultsága a Tulajdonos felhasználók szerepkörének módosításához.",
+      "changeRoleDisabled_user": "Nincs jogosultsága más felhasználók szerepkörének módosításához.",
+      "deleteUserDisabled": "Nincs jogosultsága a kiválasztott felhasználók eltávolításához.",
+      "deleteUserDisabled_admin": "Nincs jogosultsága az Adminisztrátor vagy Tulajdonos felhasználók eltávolításához.",
+      "deleteUserDisabled_owner": "Nincs jogosultsága más Tulajdonos felhasználók eltávolításához.",
+      "deleteUserDisabled_user": "Nincs jogosultsága más felhasználók eltávolításához."
+    },
+    "transfer": "Átruházás",
+    "unlink": "Leválasztás",
+    "update": "Frissítés"
+  },
+  "date": {
+    "all": "Összes",
+    "custom": "Egyéni",
+    "daysInterval": "Dátumtartomány",
+    "daysInterval_0": "Ma",
+    "daysInterval_1": "Tegnap",
+    "daysInterval_7": "Elmúlt 7 nap",
+    "homeRange": "Dátumtartomány",
+    "homeRange_currentPeriod": "Számlázási időszak",
+    "homeRange_last12Months": "Elmúlt 12 hónap",
+    "homeRange_lastWeek": "Előző hét",
+    "homeRange_thisWeek": "Ezen a héten",
+    "homeRange_today": "Ma",
+    "homeRange_yesterday": "Tegnap"
+  },
+  "dateRange": {
+    "error": {
+      "outOfRange": "A kiválasztott dátumoknak az elmúlt éven belül kell lenniük.",
+      "toBeforeFrom": "A kiválasztott „Eddig” dátum nem lehet korábbi, mint a „Kezdete” dátum."
+    },
+    "from": "Kezdete",
+    "title": "{{field}} dátumtartomány",
+    "to": "Eddig"
+  },
+  "details": {
+    "copyLink": "Hivatkozás másolása",
+    "linkCopied": "Hivatkozás a vágólapra másolva",
+    "linkCopyFailed": "A hivatkozás másolása sikertelen",
+    "progress": "Folyamat"
+  },
+  "dialog": {
+    "no": "Nem",
+    "yes": "Igen"
+  },
+  "displayError": {
+    "button": "Kapcsolatfelvétel az ügyfélszolgálattal",
+    "message": "Ellenőrizze a kapcsolatot, és próbálja frissíteni a weboldalt.\nHa a probléma továbbra is fennáll, vegye fel a kapcsolatot az ügyfélszolgálattal."
+  },
+  "error": {
+    "400": "A kérés érvénytelen volt.",
+    "401": "Nincs hitelesítve. Kérjük, jelentkezzen be.",
+    "403": "Nincs jogosultsága ennek a kérésnek a végrehajtásához.",
+    "404": "Az erőforrás nem található.",
+    "409": "A kérése egy ütközés miatt nem volt feldolgozható.",
+    "422": "Nem sikerült érvényesíteni ezt a kérést.",
+    "500": "Váratlan hiba történt.",
+    "activeWorkflowNotFound": "Nem található aktív munkafolyamat.",
+    "activeWorkflowNotFound_details": "Nem található aktív munkafolyamat a(z) {{details}} azonosítójú szervezethez.",
+    "addressCreateForbidden": "Nincs jogosultsága címeket létrehozni ehhez a szervezethez.",
+    "addressDeleteForbidden": "Nincs jogosultsága törölni ennek a szervezetnek a címeit.",
+    "addressNotFound": "A cím nem található.",
+    "addressNotFound_details": "A(z) {{details}} azonosítójú cím nem található.",
+    "addressUpdateForbidden": "Nincs jogosultsága frissíteni ennek a szervezetnek a címeit.",
+    "auth0BadRequest": "Nem sikerült ellenőrizni a felhasználóját.",
+    "auth0Forbidden": "Az Ön szerepköre nem rendelkezik a kérés végrehajtásához szükséges jogosultságokkal.",
+    "auth0Unauthorized": "Nincs hitelesítve. Kérjük, jelentkezzen be.",
+    "badRequest": "A kérés érvénytelen volt.",
+    "conflict": "A kérése egy ütközés miatt nem volt feldolgozható.",
+    "deviceForbidden": "Nincs jogosultsága megtekinteni ennek a szervezetnek az eszközeit.",
+    "deviceNotFound": "Az eszköz nem található.",
+    "deviceNotFound_details": "A(z) „{{details}}” sorozatszámú eszköz nem található.",
+    "deviceStateConflict": "Az eszköznek van egy még nem nyugtázott kívánt állapota.",
+    "fileChecksumMismatch": "A(z) „{{fileName}}” fájl feltöltése nem sikerült megfelelően. Próbálja meg újra feltölteni.",
+    "filesRemoved": "A művelethez szükséges fájlok megőrzési ideje lejárt, és már nem érhetők el.",
+    "forbidden": "Nincs jogosultsága ennek a kérésnek a végrehajtásához.",
+    "integrationNotFound": "Nem található az integráció.",
+    "jobDownloadIncorrectState": "Egy feladat csak akkor tölthető le, ha az felülvizsgálatra vár.",
+    "jobDownloadReportIncorrectState": "A feladathoz nem érhető el jelentésfájl.",
+    "jobForbidden": "Nincs jogosultsága lekérni ennek a szervezetnek a feladatát.",
+    "jobNoPreviewFile": "A feladathoz nem érhető el előnézeti fájl.",
+    "jobNoReportFile": "A feladathoz nem érhető el jelentésfájl.",
+    "jobNoSlicedBuildFile": "A feladathoz nem áll rendelkezésre nyomtatásra kész szeletelt build fájl.",
+    "jobNotFound": "A feladat nem található.",
+    "jobNotFound_details": "A(z) {{details}} azonosítójú feladat nem található.",
+    "jobReviewIncorrectState": "A feladat nem vár felülvizsgálatra.",
+    "linkCreateConflict": "Ehhez a szervezethez már létezik integrációs hivatkozás.",
+    "linkCreateForbidden": "Nincs jogosultsága integrációs hivatkozást létrehozni ehhez a szervezethez.",
+    "linkDeleteForbidden": "Nincs jogosultsága törölni ennek a szervezetnek az integrációs hivatkozását.",
+    "linkGetForbidden": "Nincs jogosultsága lekérni ennek a szervezetnek az integrációs hivatkozását.",
+    "linkNotFound": "Az integrációs hivatkozás nem található.",
+    "linkUpdateForbidden": "Nincs jogosultsága frissíteni ennek a szervezetnek az integrációs hivatkozását.",
+    "linkUserCreateForbidden": "Nincs jogosultsága integrációs hivatkozást létrehozni másik felhasználó nevében.",
+    "luceneIllegalCharacterError": "Érvénytelen karakter a Lucene lekérdezésben.",
+    "luceneIllegalCharacterError_details": "Érvénytelen karakter a Lucene lekérdezésben. ({{details}})",
+    "luceneParseError": "Nem sikerült elemezni a Lucene lekérdezést.",
+    "luceneSyntaxError": "Szintaktikai hiba a Lucene lekérdezésben.",
+    "luceneSyntaxError_details": "Szintaktikai hiba a Lucene lekérdezésben. ({{details}})",
+    "materialCancelIncorrectState": "Nincs jogosultsága olyan anyag megszakítására, amely nincs feltöltésre várva.",
+    "materialCreateForbidden": "Nincs jogosultsága anyagot létrehozni ehhez a szervezethez.",
+    "materialDeleteForbidden": "Nincs jogosultsága törölni ennek a szervezetnek egy anyagát.",
+    "materialFileEmpty": "Az anyagfájl üres.",
+    "materialFileName": "Nem támogatott fájltípus.",
+    "materialFileParse": "Nem sikerült beolvasni az anyagfájlt.",
+    "materialFileRead": "Nem sikerült beolvasni az anyagfájlt.",
+    "materialFileType": "Nem támogatott fájltípus.",
+    "materialGetForbidden": "Nincs jogosultsága lekérni ennek a szervezetnek egy anyagát.",
+    "materialMarkAsUploadedIncorrectState": "Nincs jogosultsága feltöltöttként megjelölni egy olyan anyagot, amely nincs feltöltésre várva.",
+    "materialNotFound": "Az anyag nem található.",
+    "materialNotUploadedIncorrectState": "Ehhez az anyaghoz nem lett feltöltve ini fájl.",
+    "materialRetryUploadIncorrectState": "Nincs jogosultsága újra feltölteni egy olyan anyagot, amely nincs feltöltésre várva.",
+    "materialUpdateForbidden": "Nincs jogosultsága frissíteni ennek a szervezetnek egy anyagát.",
+    "materialVisibilityConflict": "Nincs jogosultsága módosítani egy éppen feltöltés alatt álló anyag láthatóságát.",
+    "noAuthorized": "Nincs hitelesítve. Kérjük, jelentkezzen be.",
+    "notAllowedFieldFilter": "A megadott mező nem szűrhető.",
+    "notAllowedFieldFilter_details": "A(z) „{{details}}” mező nem szűrhető.",
+    "notAllowedFieldSort": "A megadott mező nem rendezhető.",
+    "notAllowedFieldSort_details": "A(z) „{{details}}” mező nem rendezhető.",
+    "notFound": "Az erőforrás nem található.",
+    "organisationNotFound": "A szervezet nem található.",
+    "organisationNotFound_details": "A(z) {{details}} azonosítójú szervezet nem található.",
+    "organisationUpdateForbidden": "Nincs jogosultsága frissíteni ezt a szervezetet.",
+    "organisationViewForbidden": "Nincs jogosultsága megtekinteni ezt a szervezetet.",
+    "organisationViewUsersForbidden": "Nincs jogosultsága megtekinteni ennek a szervezetnek a felhasználóit.",
+    "partCancelIncorrectState": "Nincs jogosultsága megszakítani egy olyan alkatrészt, amely nincs feltöltésre várva.",
+    "partCreateForbidden": "Nincs jogosultsága alkatrészt létrehozni ehhez a szervezethez.",
+    "partDeleteForbidden": "Nincs jogosultsága törölni ennek a szervezetnek egy alkatrészét.",
+    "partDequeForbidden": "Nincs jogosultsága eltávolítani a sorból egy olyan alkatrészt, amely nem vár elhelyezésre.",
+    "partDownloadIncorrectState": "Nincs jogosultsága letölteni egy olyan alkatrészt, amely nincs feltöltve.",
+    "partFileNameEmpty": "Az alkatrész fájlneve üres",
+    "partFileNameExcessive": "Az alkatrész fájlneve túl hosszú",
+    "partGetForbidden": "Nincs jogosultsága lekérni ennek a szervezetnek egy alkatrészét.",
+    "partMarkAsAcceptedIncorrectState": "Nincs jogosultsága elfogadni egy olyan alkatrészt, amely nem áll készen az elfogadásra.",
+    "partMarkAsConfirmedIncorrectState": "Nincs jogosultsága megerősíteni egy olyan alkatrészt, amely nem vár megerősítésre.",
+    "partMarkAsRejectedIncorrectState": "Nincs jogosultsága elutasítani egy olyan alkatrészt, amely nem vár felülvizsgálatra vagy elfogadásra.",
+    "partMarkAsReviewedIncorrectState": "Nincs jogosultsága felülvizsgálni egy olyan alkatrészt, amely nem áll készen a felülvizsgálatra.",
+    "partMarkAsUploadedIncorrectState": "Nincs jogosultsága feltöltöttként megjelölni egy olyan alkatrészt, amely nincs a megfelelő állapotban.",
+    "partMarkQueuedAsRejectedIncorrectState": "Nincs jogosultsága elutasítani egy olyan alkatrészt, amely a feladatsor része.",
+    "partMarkToConfirmAsRejectedIncorrectState": "Nincs jogosultsága elutasítani egy olyan alkatrészt, amely nem vár megerősítésre.",
+    "partNeedsTemplateConflict": "Ehhez az alkatrészhez sablon szükséges, de nem rendelhető hozzá sablon.",
+    "partNotFound": "Az alkatrész nem található.",
+    "partNotFound_details": "A(z) {{details}} azonosítójú alkatrész nem található.",
+    "partRetryUploadIncorrectState": "Nincs jogosultsága újra feltölteni egy olyan alkatrészt, amely nincs feltöltésre várva.",
+    "partUndoAcceptIncorrectState": "Nem vonhatja vissza az elfogadást olyan alkatrésznél, amelyet nem fogadtak el.",
+    "partUndoRejectIncorrectState": "Az elutasítás nem vonható vissza olyan alkatrésznél, amelyet nem utasítottak el.",
+    "partUpdateAcceptedIncorrectState": "Nincs jogosultsága frissíteni egy már elfogadott alkatrészt.",
+    "partUpdateForbidden": "Nincs jogosultsága frissíteni ennek a szervezetnek egy alkatrészét.",
+    "roleNotFound": "A szerepkör-azonosító nem létezik.",
+    "sortField": "Érvénytelen mezőnév.",
+    "sortField_details": "Érvénytelen mezőnév: {{details}}.",
+    "sortOrder": "Érvénytelen sorrend érték. Csak „-1” vagy „1” lehet",
+    "sortOrder_details": "Érvénytelen sorrend érték: {{details}}. Csak „-1” vagy „1” lehet",
+    "templateCreateForbidden": "Nincs jogosultsága sablont létrehozni ehhez a szervezethez.",
+    "templateDeleteForbidden": "Nincs jogosultsága törölni ennek a szervezetnek egy sablonját.",
+    "templateDeleteHardForbidden": "Sablont nem törölhet közvetlenül.",
+    "templateGetForbidden": "Nincs jogosultsága lekérni ennek a szervezetnek egy sablonját.",
+    "templateMaterialForbidden": "Nincs hozzáférése ennek az anyagnak egy sablonhoz rendeléséhez.",
+    "templateMaterialPendingConflict": "Feltöltésre váró anyag nem rendelhető sablonhoz.",
+    "templateNoEligibleDefault": "Minden megadott alkatrésztípushoz szükséges egy alapértelmezett sablon. Állítson be egy másik sablont alapértelmezettként, mielőtt ezt eltávolítaná.",
+    "templateNotFound": "A sablon nem található.",
+    "templateUpdateForbidden": "Nincs jogosultsága frissíteni ennek a szervezetnek egy sablonját.",
+    "unauthorized": "Nincs hitelesítve. Kérjük, jelentkezzen be.",
+    "unexpected": "Váratlan hiba történt.",
+    "unprocessableContent": "Feldolgozhatatlan tartalom",
+    "unspecified": "Meghatározatlan hiba történt.",
+    "unsupportedMediaType": "Nem támogatott médiatípus",
+    "userBFPForbidden": "Nem sikerült feloldani a felhasználó tiltását.",
+    "userBlockForbidden": "Nem sikerült módosítani a felhasználó tiltási állapotát.",
+    "userConflict": "A felhasználó már létezik.",
+    "userConflict_details": "A(z) {{details}} e-mail-címmel rendelkező felhasználó már létezik az Ön szervezetében vagy egy másik szervezetben. Használjon másik e-mail-címet.",
+    "userConflictAnotherOrg_details": "A(z) {{details}} e-mail-cím már egy másik szervezethez van társítva. Használjon másik e-mail-címet, vagy kérje meg a felhasználót, hogy iratkozzon ki az előző szervezetéből.",
+    "userConflictWithinOrg_details": "A(z) {{details}} e-mail-címmel rendelkező felhasználó már létezik az Ön szervezetében.",
+    "userCreateForbidden": "Nem sikerült létrehozni a felhasználót.",
+    "userDeleteForbidden": "Nem sikerült törölni a felhasználót.",
+    "userGetBFPForbidden": "Nem sikerült lekérni a felhasználó tiltási állapotát",
+    "userGetBlockForbidden": "Nem sikerült lekérni a felhasználó tiltási állapotát.",
+    "userGetForbidden": "Nem található a felhasználó.",
+    "userNotFound": "A felhasználó nem található.",
+    "userNotFound_details": "A(z) {{details}} e-mail-címmel rendelkező felhasználó nem található.",
+    "userNotInOrg": "A felhasználó nincs szervezethez társítva.",
+    "userResetForbidden": "Nem sikerült visszaállítani a felhasználó jelszavát.",
+    "userRoleAddForbidden": "Nem sikerült szerepkört hozzáadni a felhasználóhoz.",
+    "userRoleRemoveForbidden": "Nem sikerült eltávolítani a szerepkört a felhasználótól.",
+    "userSearchField": "Érvénytelen mezőbeállítások a felhasználókeresésnél.",
+    "userSearchForbidden": "Nem sikerült keresni a felhasználók között.",
+    "userSearchPagination": "Érvénytelen lapozási beállítások a felhasználókeresésnél.",
+    "userSearchSort": "Érvénytelen rendezési beállítások a felhasználókeresésnél.",
+    "userUpdateForbidden": "Nem sikerült frissíteni a felhasználót.",
+    "validation": "Nem sikerült érvényesíteni ezt a kérést.",
+    "value": "Érvénytelen érték lett megadva ehhez a kéréshez.",
+    "workflowNotFound": "A munkafolyamat nem található.",
+    "workflowNotFound_details": "A(z) {{details}} azonosítójú munkafolyamat nem található."
+  },
+  "label": {
+    "acceptedGroupsSuccess_one": "{{count}} csoport áthelyezve ide: <a>Elfogadva</a>",
+    "acceptedGroupsSuccess_other": "{{count}} csoport áthelyezve ide: <a>Elfogadva</a>",
+    "acceptedJobsSuccess_one": "{{count}} feladat áthelyezve ide: <a>Elfogadva</a>",
+    "acceptedJobsSuccess_other": "{{count}} feladat áthelyezve ide: <a>Elfogadva</a>",
+    "acceptedPartsSuccess_one": "{{count}} alkatrész áthelyezve ide: <a>Elfogadva</a>",
+    "acceptedPartsSuccess_other": "{{count}} alkatrész áthelyezve ide: <a>Elfogadva</a>",
+    "acceptingGroups": "Alkatrészcsoportok elfogadása",
+    "acceptingJobs": "Feladatok elfogadása",
+    "acceptingParts": "Alkatrészek elfogadása",
+    "assigningTemplates": "Sablon hozzárendelése alkatrészekhez",
+    "assigningTemplatesSuccess_one": "Sablon hozzárendelve {{count}} alkatrészhez",
+    "assigningTemplatesSuccess_other": "Sablon hozzárendelve {{count}} alkatrészhez",
+    "cancelUploadModalButtonSecondary": "Feltöltések folytatása",
+    "cancelUploadsModalBody": "Az alkatrészek feltöltése még nem fejeződött be. Szeretné megszakítani a hátralévő feltöltéseket?",
+    "cancelUploadsModalButtonPrimary": "Feltöltések megszakítása",
+    "cancelUploadsModalTitle": "Megszakítja a hátralévő feltöltéseket?",
+    "confirmedSuccess_one": "{{count}} alkatrész megerősítve",
+    "confirmedSuccess_other": "{{count}} alkatrész megerősítve",
+    "confirmingParts": "Alkatrészek megerősítése",
+    "creatingGroup": "Alkatrészcsoport létrehozása",
+    "default": "Alapértelmezett",
+    "deprioritiseSuccess_one": "Alkatrész prioritása törölve.",
+    "deprioritiseSuccess_other": "Alkatrészek prioritásai törölve.",
+    "deprioritisingParts": "Alkatrészek prioritásainak törlése.",
+    "dismissingParts": "Alkatrészek elvetése",
+    "dismissSuccess_one": "{{count}} alkatrész elvetve",
+    "dismissSuccess_other": "{{count}} alkatrész elvetve",
+    "downloading": "Letöltés",
+    "downloadJobsSuccess_one": "{{count}} feladat letöltve",
+    "downloadJobsSuccess_other": "{{count}} feladat letöltve",
+    "downloadPartsSuccess_one": "{{count}} alkatrész letöltve",
+    "downloadPartsSuccess_other": "{{count}} alkatrész letöltve",
+    "duplicatePartsSuccess_one": "{{count}} alkatrész megkettőzve ide: <a>Felülvizsgálandó</a>",
+    "duplicatePartsSuccess_other": "{{count}} alkatrész megkettőzve ide: <a>Felülvizsgálandó</a>",
+    "duplicatingParts": "Alkatrészek megkettőzése",
+    "filesRemovedJob": "A nyomtatási feladat fájljainak megőrzési ideje lejárt, és már nem érhetők el.",
+    "filesRemovedPart": "Az alkatrész fájljainak megőrzési ideje lejárt, és már nem érhetők el.",
+    "fullname": "Teljes név",
+    "groupCreateSuccess": "Az alkatrészcsoport sikeresen létrehozva",
+    "groupRegroupSuccess": "Az alkatrészek sikeresen újracsoportosítva",
+    "groupRenameSuccess": "Az alkatrészcsoport sikeresen átnevezve",
+    "groupUpdateSuccess_one": "{{count}} csoport sikeresen frissítve",
+    "groupUpdateSuccess_other": "{{count}} csoport sikeresen frissítve",
+    "itemSelected": "Elem kiválasztva",
+    "itemSelected_zero": "Nincs kiválasztott elem",
+    "itemSelected_one": "{{count}} elem kiválasztva",
+    "itemSelected_other": "{{count}} elem kiválasztva",
+    "language": "Nyelv",
+    "openDrawer": "Panel megnyitása",
+    "partRenameSuccess": "Az alkatrész sikeresen átnevezve",
+    "preparingDownload": "Letöltés előkészítése",
+    "prioritiseSuccess_one": "{{count}} alkatrész priorizálva.",
+    "prioritiseSuccess_other": "{{count}} alkatrész priorizálva.",
+    "prioritisingParts": "Alkatrészek priorizálása",
+    "promotedJobsSuccess_one": "{{count}} feladat előreléptetve ide: <a>Felülvizsgálandó</a>",
+    "promotedJobsSuccess_other": "{{count}} feladat előreléptetve ide: <a>Felülvizsgálandó</a>",
+    "promotingJobs": "Feladatok előreléptetése",
+    "regroupingParts": "Alkatrészek újracsoportosítása",
+    "rejectedSuccess_one": "{{count}} alkatrész áthelyezve ide: <a>Elutasítva</a>",
+    "rejectedSuccess_other": "{{count}} alkatrész áthelyezve ide: <a>Elutasítva</a>",
+    "rejectingParts": "Alkatrészek elutasítása",
+    "rejectJobPartModalIntro_one": "Ez az alkatrész egy felülvizsgálatra kész feladatba van beágyazva.",
+    "rejectJobPartModalIntro_other": "Ezek az alkatrészek egy felülvizsgálatra kész feladatba vannak beágyazva.",
+    "rejectJobPartModalRejectAndRequeue_one": "Távolítsa el ezt az alkatrészt, és sorolja be újra a fennmaradó alkatrészeket az újraelrendezéshez.",
+    "rejectJobPartModalRejectAndRequeue_other": "Távolítsa el ezeket az alkatrészeket, és sorolja be újra a fennmaradó alkatrészeket az újraelrendezéshez.",
+    "rejectJobPartModalRejectOnly_one": "Távolítsa el ezt az alkatrészt, és hagyja érintetlenül a feladat többi részét.",
+    "rejectJobPartModalRejectOnly_other": "Távolítsa el ezeket az alkatrészeket, és hagyja érintetlenül a feladat többi részét.",
+    "rejectJobPartModalTitle": "Újrarendezi a feladatot?",
+    "rejectModal": "A kiválasztott alkatrészeket a továbbiakban nem veszik figyelembe egyetlen nyomtatási feladatnál sem.",
+    "rejectModalTitle_one": "Elutasítja ezt: {{partName}}?",
+    "rejectModalTitle_other": "Elutasítja a kiválasztott {{count}} alkatrészt?",
+    "removingFromGroups": "Alkatrészek eltávolítása a csoportokból",
+    "renamePart": "Alkatrész átnevezése",
+    "renamingGroup": "Alkatrészcsoport átnevezése",
+    "renamingPart": "Alkatrész átnevezése",
+    "reprintingParts": "Alkatrészek besorolása újranyomtatáshoz",
+    "reprintPartsSuccess_one": "{{count}} alkatrész újrasorolva és áthelyezve ide: <a>Elfogadva</a>",
+    "reprintPartsSuccess_other": "{{count}} alkatrész újrasorolva és áthelyezve ide: <a>Elfogadva</a>",
+    "resendingJobs": "Feladatok újraküldése",
+    "resentJobs_one": "{{count}} feladat újraküldve",
+    "resentJobs_other": "{{count}} feladat újraküldve",
+    "setTimezone": "Időzóna beállítása",
+    "settings": "Beállítások",
+    "tabs": "Lapok",
+    "timezone": "Időzóna",
+    "undoAcceptedPartsSuccess_one": "{{count}} alkatrész eltávolítva az Elfogadva közül",
+    "undoAcceptedPartsSuccess_other": "{{count}} alkatrész eltávolítva az Elfogadva közül",
+    "undoingAcceptParts": "Alkatrészek elfogadásának visszavonása",
+    "undoingRejectParts": "Alkatrészek elutasításának visszavonása",
+    "undoRejectPartsSuccess_one": "{{count}} alkatrész eltávolítva az Elutasítva közül",
+    "undoRejectPartsSuccess_other": "{{count}} alkatrész eltávolítva az Elutasítva közül",
+    "ungroupingGroups": "Alkatrészek csoportbontása",
+    "ungroupSuccess_one": "{{count}} csoport sikeresen szétbontva",
+    "ungroupSuccess_other": "{{count}} csoport sikeresen szétbontva",
+    "updatingPartTypes": "Alkatrésztípusok frissítése",
+    "updatingPartTypesSuccess_one": "{{count}} alkatrésztípus frissítve",
+    "updatingPartTypesSuccess_other": "{{count}} alkatrésztípus frissítve"
+  },
+  "links": {
+    "devices": "Eszközök",
+    "home": "Kezdőlap",
+    "inbox": "Postafiók",
+    "manage": "Kezelés",
+    "parts": "Alkatrészek",
+    "printJobs": "Nyomtatási feladatok",
+    "timeline": "Idővonal",
+    "tooltips": {
+      "devices": "Az összes eszköz élő áttekintése, amely segít nyomon követni a laborját.",
+      "home": "A labor tevékenységének pillanatképe, hogy naprakész legyen.",
+      "inbox": "Alkatrészek feltöltése és felülvizsgálata felhasználóktól vagy alkalmazásoktól.\n\nErősítse meg, hogy az alkatrészekhez a megfelelő nyomtatási sablon van alkalmazva, majd fogadja el gyártásra.",
+      "manage": "Felhasználók hozzáadása vagy szerkesztése, külső alkalmazások összekapcsolása, általános beállítások.",
+      "parts": "A gyártásra elfogadott alkatrészek megtekintése.\n\nEllenőrizze az állapotukat, hogy lássa, hol tartanak a gyártási folyamatban.",
+      "printJobs": "A létrehozott nyomtatási feladatok felülvizsgálata.\n\nEllenőrizze az állapotukat, hogy lássa, melyik szakaszban tartanak a gyártási folyamatban.",
+      "templates": "Felsorolja a Funnelben található összes sablont. Ezek határozzák meg, hogy az egyes alkatrésztípusokhoz milyen anyagok, nyomtatási beállítások és nyomtatók legyenek használva.",
+      "timeline": "Tekintse meg az egyes eszközein sorba állított nyomtatási feladatokat a folyamat és a kihasználtság nyomon követéséhez."
+    }
+  },
+  "loading": {
+    "unavailable": "Nem elérhető"
+  },
+  "maintenancePage": {
+    "message": "Azon dolgozunk, hogy a Funnel még jobb legyen.\nHamarosan visszatérünk.",
+    "title": "Tervezett karbantartás"
+  },
+  "message": {
+    "acceptPrivacyPolicy": "Elfogadom az <a>Adatvédelmi szabályzatot</a>",
+    "acceptTermsOfService": "Elfogadom a <a>Szolgáltatási feltételeket</a>",
+    "betaTest": "Ön a béta verziót használja, ossza meg velünk, hogyan javíthatnánk. <a>Visszajelzés küldése</a>",
+    "betaTest_narrow": "Ön a béta verziót használja. <a>Visszajelzés küldése</a>",
+    "checkConnectionForBuildInfo": "Ellenőrizze a nyomtató internetkapcsolatát, hogy megtekinthesse az aktuális és a sorba állított buildeket.",
+    "cookiePolicy": "Sütiket használunk a böngészési élmény javítása érdekében. További információért látogasson el a <cookie>Süti szabályzatunkhoz</cookie> és az <privacy>Adatvédelmi nyilatkozatunkhoz</privacy>.",
+    "cookiePreferencesAllowed": "Engedélyezte az összes sütit, beleértve az elemzési és támogatási sütiket is.",
+    "cookiePreferencesDenied": "Ön csak a feltétlenül szükséges sütiket használja.",
+    "filesRemovedAction": "Nem elérhető: a művelethez szükséges fájlok megőrzési ideje lejárt, és már nem érhetők el.",
+    "maintenanceMode": "A Funnel nem lesz elérhető {{startDate}} napon, {{startTime}} és {{endTime}} között alapvető karbantartás miatt.",
+    "maintenanceMode_multiDay": "A Funnel nem lesz elérhető {{startDate}} {{startTime}} és {{endDate}} {{endTime}} között alapvető karbantartás miatt.",
+    "maintenanceModeActive": "A Funnel tervezett karbantartás alatt áll {{endDate}} {{endTime}} időpontig.",
+    "noConnection": "Nem sikerült csatlakozni, újrapróbálkozás {{time}} múlva",
+    "noMatches": "Sajnáljuk, nem található egyezés",
+    "noMatchesHelp": "Ellenőrizze az elgépeléseket, vagy próbáljon általánosabb szavakat használni\nEsetleg próbálja meg használni a táblázat szűrőit",
+    "noMatchesHelp_both": "Ellenőrizze az elgépeléseket, vagy próbáljon általánosabb szavakat használni\nEsetleg próbálja meg frissíteni vagy törölni a táblázat szűrőit",
+    "noMatchesHelp_filtering": "Próbálja meg frissíteni vagy törölni a táblázat szűrőit",
+    "noMatchesHelp_searching": "Ellenőrizze az elgépeléseket, vagy próbáljon általánosabb szavakat használni\nEsetleg próbálja meg használni a táblázat szűrőit",
+    "reconnecting": "Újracsatlakozási kísérlet",
+    "reviewAndAgreeToPolicies": "A folytatás előtt át kell tekintenie és el kell fogadnia a <terms>Szolgáltatási feltételeket</terms> és az <privacy>Adatvédelmi szabályzatot</privacy>."
+  },
+  "notFoundPage": {
+    "message": "Ellenőrizze az oldal címét elgépelés szempontjából, vagy használja a bal felső sarokban lévő navigációs menüt",
+    "message_narrow": "Ellenőrizze az oldal címét elgépelés szempontjából, vagy használja a bal felső sarokban lévő navigációs menüt",
+    "message_wide": "Ellenőrizze az oldal címét elgépelés szempontjából, vagy használja a bal oldali navigációs gombokat",
+    "title": "Nem találjuk ezt az oldalt"
+  },
+  "notifications": {
+    "actions": {
+      "dismiss": "Elvetés",
+      "inbox": "Postafiók",
+      "reprintParts": "Alkatrészek újranyomtatása",
+      "requeueParts": "Alkatrészek újrasorolása",
+      "resend": "Újraküldés",
+      "reviewGroup": "Csoport felülvizsgálata",
+      "reviewPart": "Alkatrész felülvizsgálata",
+      "reworkOffline": "Offline átdolgozás",
+      "ungroup": "Csoport szétbontása"
+    },
+    "clearAll": "Összes törlése",
+    "empty": "Nincsenek értesítések",
+    "requeuePartsConfirmation": "Biztosan újrasorolja az ebből a feladatból származó alkatrészeket? Ez eltávolítja az aktuális feladatot, és új alkatrészeket hoz létre a postafiókban.",
+    "settings": {
+      "label": "Valós idejű értesítések megjelenítése a figyelmet igénylő alkatrészekről, csoportokról, feladatokról és eszközökről.",
+      "title": "Értesítések"
+    },
+    "title": "Értesítések",
+    "types": {
+      "deviceOffline": {
+        "body_one": "{{name}} lekapcsolódott",
+        "body_other": "Több nyomtató is lekapcsolódott",
+        "title": "Nyomtató offline"
+      },
+      "groupTooLarge": {
+        "body_one": "{{name}} túl nagy az együttes nyomtatáshoz",
+        "body_other": "Több csoport is túl nagy az együttes nyomtatáshoz",
+        "title": "A csoport túl nagy"
+      },
+      "nestingFailed": {
+        "body_one": "Nem sikerült elrendezni ezt: {{name}}",
+        "body_other": "Nem sikerült elrendezni több feladatot",
+        "title": "A feladat elrendezése sikertelen"
+      },
+      "orientationFailed": {
+        "body_one": "Nem sikerült tájolni ezt: {{name}}",
+        "body_other": "Nem sikerült tájolni több alkatrészt",
+        "title": "Az alkatrész tájolása sikertelen"
+      },
+      "partTooLarge": {
+        "body_one": "{{name}} túl nagy a nyomtatáshoz",
+        "body_other": "Több alkatrész is túl nagy a nyomtatáshoz",
+        "title": "Az alkatrész túl nagy"
+      },
+      "printerError": {
+        "body_one": "{{buildName}} nyomtatás közben meghiúsult.\n\nTovábbi információért nézze meg a nyomtató kijelzőjét.",
+        "body_other": "Több nyomtatás is meghiúsult.\n\nTovábbi információért nézze meg a nyomtató kijelzőjét.",
+        "title": "A nyomtatás sikertelen"
+      },
+      "sendingFailed": {
+        "body_one": "Nem sikerült elküldeni a(z) #{{name}} feladatot",
+        "body_other": "Nem sikerült elküldeni több feladatot",
+        "title": "A feladat küldése sikertelen"
+      },
+      "slicingFailed": {
+        "body_one": "Nem sikerült szeletelni a(z) #{{name}} feladatot",
+        "body_other": "Nem sikerült szeletelni több feladatot",
+        "title": "A feladat szeletelése sikertelen"
+      },
+      "supportsFailed": {
+        "body_one": "Nem sikerült támaszokat generálni a(z) #{{name}} feladathoz",
+        "body_other": "Nem sikerült támaszokat generálni több feladathoz",
+        "title": "A feladat támaszainak generálása sikertelen"
+      }
+    }
+  },
+  "progressStatus": {
+    "acceptPartForPrinting": {
+      "name": "Alkatrész elfogadása nyomtatásra",
+      "tooltip": {
+        "part": "Az alkatrész felülvizsgálatra kerül a típus és a használandó sablonbeállítások megerősítéséhez."
+      }
+    },
+    "addingToProvisionalJob": {
+      "name": "Hozzáadás ideiglenes feladathoz",
+      "tooltip": {
+        "default": "Az alkatrész elrendezése egy ideiglenes feladatban történik."
+      }
+    },
+    "approvePrintJob": {
+      "name": "Nyomtatási feladat jóváhagyása",
+      "tooltip": {
+        "default": "A nyomtatási feladat felülvizsgálatra kerül, hogy az alkatrészek elrendezése és a támaszok ellenőrizhetők legyenek, mielőtt a nyomtatási feladatot jóváhagyják nyomtatásra."
+      }
+    },
+    "cancelled": {
+      "name": "Nyomtatás megszakítva",
+      "tooltip": {
+        "default": "A nyomtatási feladat megszakadt a befejezés előtt, vagy törölve lett a build sorból."
+      }
+    },
+    "failedToPrint": {
+      "name": "A nyomtatás sikertelen",
+      "tooltip": {
+        "default": "A nyomtatási feladat meghiúsult.\n\nTovábbi információért nézze meg a nyomtató kijelzőjét."
+      }
+    },
+    "generatingSupports": {
+      "name": "Támaszok generálása",
+      "tooltip": {
+        "job": "Az ideiglenes feladat elrendezése véglegesítve lett, és a nyomtatási rétegek előkészítése folyamatban van.",
+        "part": "Támaszok kerülnek hozzáadásra az ideiglenes feladathoz, mielőtt az véglegesítésre kerülne a felhasználó általi nyomtatási jóváhagyáshoz."
+      }
+    },
+    "groupTooLarge": {
+      "name": "A csoport túl nagy",
+      "tooltip": {
+        "part": "Az a csoport, amelyhez az alkatrész tartozik, túl nagy a nyomtatáshoz. Próbálja meg szétbontani a csoportot."
+      }
+    },
+    "identifiedPartType": {
+      "name": "Alkatrésztípus azonosítva",
+      "tooltip": {
+        "part": "Az alkatrésztípus azonosítva lett, ez befolyásolja, hogy mely sablonok választhatók, és hogyan lesz később tájolva az alkatrész."
+      }
+    },
+    "identifyingPartType": {
+      "name": "Alkatrésztípus azonosítása",
+      "tooltip": {
+        "part": "Az alkatrész geometriájának elemzése az alkatrésztípus azonosításához."
+      }
+    },
+    "invalidGeometry": {
+      "name": "Érvénytelen geometria",
+      "tooltip": {
+        "part": "Az alkatrészt nem sikerült feldolgozni, mert a geometriája érvénytelen.\n\nPróbálja meg kijavítani a modellt, és töltse fel újra."
+      }
+    },
+    "invalidModel": {
+      "name": "Érvénytelen modell",
+      "tooltip": {
+        "part": "Az alkatrészt nem sikerült feldolgozni, mert a feltöltött fájl nem modell.\n\nEllenőrizze, hogy a fájl nem sérült-e, majd töltse fel újra."
+      }
+    },
+    "nestedInJob": {
+      "name": "Nyomtatási feladat létrehozva",
+      "tooltip": {
+        "job": "A nyomtatási feladat létrejött.",
+        "part": "Az alkatrész hozzáadva egy nyomtatási feladathoz."
+      }
+    },
+    "nestedInProvisionalJob": {
+      "name": "Ideiglenes feladatban elrendezve",
+      "tooltip": {
+        "job": "A feladat ideiglenes állapotban van, és akkor válik véglegessé, ha:<ul><li>további alkatrészeket adnak hozzá a feladat feltöltéséhez</li><li>egy megfelelő nyomtató hamarosan elérhetővé válik a nyomtatásához</li></ul>A feladat manuálisan is előreléptethető végleges állapotba.",
+        "part": "Az alkatrész egy ideiglenes feladatban lett elrendezve. Ez akkor válik véglegessé, ha:<ul><li>további alkatrészeket adnak hozzá a feladat feltöltéséhez, és</li><li>Egy megfelelő nyomtató hamarosan elérhetővé válik a nyomtatásához</li></ul>"
+      }
+    },
+    "nestingBlocked": {
+      "name": "Nem sikerült hozzáadni az ideiglenes feladathoz",
+      "tooltip": {
+        "allDevicesExcludedFromFunnel": "A kompatibilis nyomtatók ki lettek zárva a Funnelből érkező feladatok elfogadásából.\n\nVegye fel ezeket a nyomtatókat az automatikus nyomtatási feladatokhoz, vagy frissítse a sablont más nyomtatók használatára.",
+        "allDevicesOfflineOrExcluded": "Egyetlen kompatibilis nyomtató sincs online, vagy egyik sem fogad el Funnel nyomtatási feladatokat.\n\nEllenőrizze, hogy a nyomtatók csatlakoztatva vannak-e, és fel vannak-e véve az automatikus nyomtatási feladatokhoz, vagy frissítse a sablont más csatlakoztatott nyomtatók használatára.",
+        "groupMemberFailed": "A csoport egy vagy több alkatrészének tájolása meghiúsult.\n\nTávolítsa el a meghiúsult alkatrész(eke)t a csoport nyomtatásához.",
+        "groupMembersProcessing": "A csoport egy vagy több alkatrésze még tájolás alatt áll.",
+        "noAvailableDevices": "Egyetlen kompatibilis nyomtató sincs online az alkatrész nyomtatásához.\n\nEllenőrizze, hogy a nyomtatók csatlakoztatva vannak-e, vagy frissítse a sablont más csatlakoztatott nyomtatók használatára."
+      }
+    },
+    "nestingFailed": {
+      "name": "Az elrendezés sikertelen",
+      "tooltip": {
+        "default": "Az alkatrészek elrendezése sikertelen volt.\nEnnek oka az alkatrészfájllal kapcsolatos probléma lehet."
+      }
+    },
+    "nestPrintJob": {
+      "name": "Nyomtatási feladat elrendezése",
+      "tooltip": {
+        "part": "Az alkatrész más, ugyanazt a sablont használó alkatrészekkel együtt egy ideiglenes feladathoz kerül hozzáadásra. Ezután el lesznek rendezve a platformon."
+      }
+    },
+    "orientatePart": {
+      "name": "Alkatrész tájolása",
+      "tooltip": {
+        "part": "Az alkatrész tájolása optimalizálásra kerül az alkatrésztípus alapján, mielőtt egy nyomtatási feladatban elrendezésre kerülne."
+      }
+    },
+    "orientatingPart": {
+      "name": "Alkatrész tájolása",
+      "tooltip": {
+        "part": "Az alkatrész jelenleg a típusa alapján kerül tájolásra."
+      }
+    },
+    "orientationFailed": {
+      "name": "A tájolás sikertelen",
+      "tooltip": {
+        "part": "Az alkatrészt nem sikerült megfelelően tájolni a nyomtatáshoz.\nEnnek oka az alkatrészfájllal kapcsolatos probléma lehet."
+      }
+    },
+    "partAccepted": {
+      "name": "Alkatrész elfogadva",
+      "tooltip": {
+        "part": "Az alkatrész elfogadásra került nyomtatásra."
+      }
+    },
+    "partIdentification": {
+      "name": "Alkatrész azonosítása"
+    },
+    "partOrientated": {
+      "name": "Alkatrész tájolva",
+      "tooltip": {
+        "part": "Az alkatrész sikeresen tájolva lett a nyomtatáshoz."
+      }
+    },
+    "partRejected": {
+      "name": "Alkatrész elutasítva",
+      "tooltip": {
+        "part": "Az alkatrészt a felhasználó elutasította."
+      }
+    },
+    "partTooLarge": {
+      "name": "Az alkatrész túl nagy",
+      "tooltip": {
+        "part": "Az alkatrész túl nagy ahhoz, hogy elférjen az alkatrész sablonjához társított nyomtatón.\n\nEllenőrizze a feltöltött alkatrész méretarányát, és hogy az alkatrész sablonjához tartozik-e elég nagy nyomtató a befogadásához."
+      }
+    },
+    "print": {
+      "name": "Nyomtatás",
+      "tooltip": {
+        "default": "A nyomtatási feladat elküldésre kerül a géphez, ahol kinyomtatásra kerül."
+      }
+    },
+    "printed": {
+      "name": "Kinyomtatva",
+      "tooltip": {
+        "default": "A feladat sikeresen befejeződött."
+      }
+    },
+    "printing": {
+      "name": "Nyomtatás folyamatban",
+      "tooltip": {
+        "default": "A feladat jelenleg nyomtatás alatt áll."
+      }
+    },
+    "printJobApproved": {
+      "name": "Nyomtatási feladat jóváhagyva",
+      "tooltip": {
+        "default": "A nyomtatási feladat jóváhagyásra került."
+      }
+    },
+    "printJobPendingApproval": {
+      "name": "Nyomtatási feladat jóváhagyásra vár",
+      "tooltip": {
+        "default": "A véglegesített feladat felülvizsgálatra kész."
+      }
+    },
+    "printJobRejected": {
+      "name": "Nyomtatási feladat elutasítva",
+      "tooltip": {
+        "default": "A feladat elutasításra került, és az alkatrészek újrasorolásra kerültek."
+      }
+    },
+    "printJobReworkedOffline": {
+      "name": "Nyomtatási feladat offline átdolgozva",
+      "tooltip": {
+        "default": "A nyomtatási feladatot a felhasználó letöltötte, hogy a Composerben szerkessze."
+      }
+    },
+    "printPaused": {
+      "name": "Nyomtatás szüneteltetve",
+      "tooltip": {
+        "default": "A nyomtatási feladatot a felhasználó szüneteltette."
+      }
+    },
+    "printPending": {
+      "name": "Nyomtatás függőben",
+      "tooltip": {
+        "default": "A feladat a nyomtatón van, és készen áll a nyomtatásra."
+      }
+    },
+    "sendingFailed": {
+      "name": "A küldés sikertelen",
+      "tooltip": {
+        "default": "A nyomtatási feladat küldése sikertelen volt a nyomtatóhoz.\n\nEnnek oka lehet, hogy a nyomtató lekapcsolódott, vagy a build sor megtelt, és nem maradt elég memória."
+      }
+    },
+    "sendingToPrinter": {
+      "name": "Küldés a nyomtatóhoz",
+      "tooltip": {
+        "default": "A nyomtatási rétegek küldése folyamatban van a nyomtatóhoz."
+      }
+    },
+    "sendToPrinter": {
+      "name": "Küldés a nyomtatóhoz",
+      "tooltip": {
+        "default": "A nyomtatási feladat különálló rétegekre kerül szeletelésre, majd elküldésre a nyomtatóhoz nyomtatásra."
+      }
+    },
+    "sentToPrinter": {
+      "name": "Elküldve a nyomtatóhoz",
+      "tooltip": {
+        "default": "A nyomtatási feladat a nyomtatón van, és készen áll a nyomtatásra."
+      }
+    },
+    "slicingFailed": {
+      "name": "A szeletelés sikertelen",
+      "tooltip": {
+        "default": "A nyomtatási feladat meghiúsult a nyomtatási rétegek előkészítése közben.\n\nEnnek oka az alkatrészfájlokkal kapcsolatos probléma lehet."
+      }
+    },
+    "slicingPrintJob": {
+      "name": "Nyomtatási feladat szeletelése",
+      "tooltip": {
+        "default": "A nyomtatási rétegek előkészítése folyamatban van."
+      }
+    },
+    "uploadTooLarge": {
+      "name": "A feltöltés túl nagy",
+      "tooltip": {
+        "part": "A feltöltött fájl túl nagy.\n\nPróbálja meg csökkenteni a fájl méretét, és töltse fel újra."
+      }
+    },
+    "waitingForPartToBeAccepted": {
+      "name": "Alkatrész elfogadása nyomtatásra",
+      "tooltip": {
+        "part": "Az alkatrész a felhasználó elfogadására vár."
+      }
+    }
+  },
+  "relativeTime": {
+    "daysAgo_one": "{{count}} napja",
+    "daysAgo_other": "{{count}} napja",
+    "hoursAgo_one": "{{count}} órája",
+    "hoursAgo_other": "{{count}} órája",
+    "justNow": "Épp most",
+    "minutesAgo_one": "{{count}} perce",
+    "minutesAgo_other": "{{count}} perce",
+    "weeksAgo_one": "{{count}} hete",
+    "weeksAgo_other": "{{count}} hete"
+  },
+  "share": {
+    "notFound": "A megosztott elem nem található"
+  },
+  "table": {
+    "activeFilters": "Aktív szűrők:",
+    "clearFilters": "Szűrők törlése",
+    "expandRow": "Sor kibontása",
+    "pageAmount": "Mennyiség",
+    "perPage": "Oldalanként"
+  },
+  "title": {
+    "cookiePolicy": "Süti szabályzat",
+    "help": "Súgó megtekintése",
+    "integrations": "Integrációk",
+    "language": "Nyelv",
+    "manage": "Kezelés",
+    "manageSubscription": "Előfizetés kezelése",
+    "name": "Megjelenítendő név",
+    "organisation": "Szervezet",
+    "photo": "Fénykép",
+    "privacy": "Adatvédelem",
+    "privacyPolicy": "Adatvédelmi szabályzat",
+    "profile": "Profil",
+    "subscriptionOptions": "Előfizetési lehetőségek",
+    "tableOfContents": "Tartalomjegyzék",
+    "templates": "Sablonok",
+    "termsAndPolicy": "Feltételek és szabályzat",
+    "termsOfService": "Szolgáltatási feltételek",
+    "warning": "Figyelmeztetés"
+  },
+  "underConstruction": {
+    "subtitle1": "Valami különlegeset építünk",
+    "subtitle2": "Nézzen vissza később"
+  },
+  "units": {
+    "microns": "{{value}} μm",
+    "suffix": {
+      "degrees": " °",
+      "millimetres": " mm"
+    }
+  }
+}

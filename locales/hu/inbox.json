@@ -1,0 +1,199 @@
+{
+  "alt": {
+    "all": "Összes",
+    "userUpload": "Felhasználói feltöltések"
+  },
+  "button": {
+    "accept": "Elfogad",
+    "cancel": "Mégsem",
+    "confirm": "Megerősít",
+    "createPartGroup": "Alkatrészcsoport létrehozása",
+    "deprioritise": "Prioritás törlése",
+    "download": "Letöltés",
+    "duplicate": "Duplikál",
+    "expand": "Kibontás",
+    "moveToReview": "Áthelyezés ellenőrzésre",
+    "partType": "Alkatrész típusa",
+    "prioritise": "Priorizál",
+    "regroup": "Újracsoportosít",
+    "regroup_one": "Újracsoportosít",
+    "regroup_other": "Újracsoportosít",
+    "reject": "Elutasít",
+    "removeFromGroup": "Távolítsa el a csoportból",
+    "reprint": "Alkatrész újranyomtatása",
+    "retry": "Újrapróbálkozás",
+    "template": "Sablon",
+    "ungroupPartGroup": "Csoport bontása",
+    "uploadPart": "Alkatrész feltöltése",
+    "viewMoreParts": "További alkatrészek megtekintése"
+  },
+  "description": {
+    "functionality": "Töltsön fel alkatrészeket, vagy húzza be azokat automatikusan harmadik féltől származó alkalmazásokból. Az alkatrésztípusok felismerésre kerülnek, a nyomtatási sablonok alkalmazásra kerülnek, és a rendszer automatikusan hozzáadja őket a megfelelő nyomtatási feladatokhoz más alkatrészekkel együtt."
+  },
+  "details": {
+    "datePrinted": "Nyomtatás dátuma",
+    "group": {
+      "groupInformation": "Csoport információi",
+      "partName": "Alkatrész neve",
+      "parts": "Alkatrészek",
+      "template": "Sablon"
+    },
+    "groupLabel": "Csoport",
+    "groupName": "Csoport {{id}}",
+    "history": {
+      "date": "Dátum",
+      "outcome": "Eredmény",
+      "status": {
+        "accepted": "Nyomtatás elfogadva",
+        "failed": "Nyomtatás sikertelen",
+        "offline": "Offline újramunkálva",
+        "printed": "Kinyomtatva",
+        "unknown": "Ismeretlen"
+      },
+      "title": "Nyomtatási előzmények"
+    },
+    "noPrintJob_one": "A nyomtatási feladat itt fog megjelenni, amint az alkatrész nesztelésre került.",
+    "noPrintJob_other": "A nyomtatási feladat itt fog megjelenni, amint az alkatrészek nesztelésre kerültek.",
+    "partInformation": "Alkatrész információi",
+    "partType": "Alkatrész típusa",
+    "printJob": "Nyomtatási feladat",
+    "progress": "Folyamat",
+    "received": "Beérkezett",
+    "source": "Forrás",
+    "status": "Állapot",
+    "targetDevice": "Céleszköz",
+    "template": "Sablon",
+    "title_zero": "Nincs kiválasztott elem",
+    "title_one": "1 elem kiválasztva",
+    "title_other": "{{count}} elem kiválasztva"
+  },
+  "emptyInboxMessages": {
+    "accepted": {
+      "message": "A 'Ellenőrzés' fülön található alkatrészek itt jelennek meg, miután elfogadásra kerültek",
+      "title": "Nincs elfogadott alkatrész"
+    },
+    "confirm": {
+      "message": "Használja az 'Alkatrészek feltöltése' gombot, vagy húzzon és ejtsen fájlokat, hogy alkatrészeket adjon a szervezetéhez",
+      "title": "Nincs megerősítendő alkatrész"
+    },
+    "rejected": {
+      "message": "Az elutasított alkatrészek itt jelennek meg ",
+      "title": "Nincs elutasított alkatrész"
+    },
+    "review": {
+      "message": "Használja a lap jobb felső sarkában található „Alkatrészek feltöltése” gombot, vagy az alábbi gombot, hogy alkatrészeket adjon a szervezetéhez",
+      "title": "Nincs ellenőrizendő alkatrész"
+    }
+  },
+  "errors": {
+    "acceptPartError": "Nem sikerült elfogadni az alkatrészt",
+    "cancelPartUploadError": "Nem sikerült megszakítani az alkatrész feltöltését",
+    "confirmPartError": "Nem sikerült megerősíteni az alkatrészt",
+    "downloadPartError": "Nem sikerült letölteni az alkatrészt",
+    "fileTooLarge": "A fájlméret meghaladja az 500 MB-os korlátot",
+    "invalidFileFormat": "A fájlnak .stl típusúnak kell lennie",
+    "noFilesUploaded": "Nincsenek feltöltött fájlok",
+    "partCreateError": "Hiba történt az alkatrész létrehozásakor",
+    "rejectPartError": "Nem sikerült elutasítani az alkatrészt",
+    "setPartTypeError": "Nem sikerült frissíteni az alkatrész típusát",
+    "undoAcceptPartError": "Nem sikerült visszavonni az alkatrész elfogadását"
+  },
+  "label": {
+    "accepted": "Elfogadva",
+    "confirm": "Megerősít",
+    "designSelected_one": "{{count}} terv kiválasztva",
+    "designSelected_other": "{{count}} terv kiválasztva",
+    "dropFile": "Fájl hozzáadása a Beérkezőhöz",
+    "groupHasBeenPrioritised": "A csoport prioritást kapott",
+    "invalidUploadFileContent": "Egy vagy több fájl nem olvasható be érvényes STL-tartalomként",
+    "invalidUploadFileSize": "Egy vagy több fájl meghaladja a megengedett maximális feltöltési méretet",
+    "invalidUploadFileType": "Csak STL fájlok támogatottak",
+    "partHasBeenPrioritised": "Az alkatrész prioritást kapott",
+    "preparingDownload": "Letöltés előkészítése",
+    "rejected": "Elutasítva",
+    "renameGroup": "Alkatrészcsoport átnevezése",
+    "review": "Ellenőrzésre vár",
+    "search": "Alkatrész keresése",
+    "uploadCancelled": "{{partName}} (megszakítva)"
+  },
+  "message": {
+    "noParts": "Nincsenek alkatrészek",
+    "renameGroup": "Adja meg az alkatrészcsoport új nevét:",
+    "renamePart": "Adja meg az alkatrész új nevét:",
+    "reprocessPart_one": "{{name}} korábban már hozzáadásra került.\n\nAz alkatrész újrafeldolgozása egy újabb másolatot hoz létre a Funnelben nyomtatáshoz.",
+    "reprocessPart_other": "{{count}} alkatrész korábban már hozzáadásra került a Funnelhez.\n\nAz alkatrész újrafeldolgozása egy újabb másolatot hoz létre a Funnelben nyomtatáshoz.",
+    "reprocessPart_time_one": "{{name}} korábban, {{time}} időpontban került hozzáadásra.\n\nAz alkatrész újrafeldolgozása egy újabb másolatot hoz létre a Funnelben nyomtatáshoz.",
+    "reprocessPart_time_other": "{{count}} alkatrész korábban már hozzáadásra került a Funnelhez.\n\nAz alkatrész újrafeldolgozása egy újabb másolatot hoz létre a Funnelben nyomtatáshoz."
+  },
+  "subscriptionNotice": {
+    "approaching": {
+      "description_one": "{{count}} alkatrész maradt a szervezet havi limitjéből. A limit {{days}} múlva áll vissza.",
+      "description_other": "{{count}} alkatrész maradt a szervezet havi limitjéből. A limit {{days}} múlva áll vissza.",
+      "title": "Közeledik a havi limithez"
+    },
+    "button": "Előfizetési lehetőségek",
+    "close": "Elvetés",
+    "daysUntilReset_one": "{{count}} nap",
+    "daysUntilReset_other": "{{count}} nap",
+    "reached": {
+      "descriptionEditor": "A keret {{days}} múlva áll vissza. Módosítsa az előfizetési szintet további alkatrészek feldolgozásához.",
+      "descriptionMember": "A keret {{days}} múlva áll vissza. Lépjen kapcsolatba a rendszergazdával az előfizetési szint módosításához és további alkatrészek feldolgozásához.",
+      "title": "Havi limit elérve"
+    }
+  },
+  "table": {
+    "partClassification": {
+      "bridge": "Híd",
+      "crownOrToothOrVeneer": "Korona/Fog/Fazetta",
+      "dentureAOX": "Protézis (AoX)",
+      "dentureBase": "Protézis (Alaplemez)",
+      "denturePartial": "Protézis (Részleges)",
+      "die": "Fogcsonk",
+      "flatGingiva": "Gingiva",
+      "hollowModel": "Modell (Üreges)",
+      "occlusalSplint": "Sín",
+      "other": "Egyéb",
+      "partialFramework": "Részleges váz",
+      "pillowGingiva": "Gingiva (Párna)",
+      "screwInTooth": "Implantátum korona",
+      "solidModel": "Modell (Tömör)",
+      "surgicalGuide": "Sebészeti vezetősín",
+      "teethRow": "Protézis fogsor",
+      "tryInDenture": "Protézis (Próba)"
+    },
+    "partStatus": {
+      "addedToJob": "Hozzáadva a feladathoz",
+      "failed": "Sikertelen",
+      "printed": "Kinyomtatva",
+      "printReady": "Nyomtatásra kész",
+      "processing": "Feldolgozás alatt",
+      "rejected": "Elutasítva",
+      "reworkedOffline": "Offline újramunkálva",
+      "toAccept": "Elfogadásra vár",
+      "toConfirm": "Megerősítésre vár"
+    },
+    "template": {
+      "noTemplate": "Nincs sablon",
+      "noTemplateTooltip": "<a>Hozzon létre egy sablont</a> ehhez az alkatrésztípushoz, hogy elfogadhassa azt nyomtatásra."
+    },
+    "userUpload": "Felhasználói feltöltés"
+  },
+  "title": {
+    "inbox": "Beérkező",
+    "name": "Név",
+    "partType": "Alkatrész típusa",
+    "received": "Beérkezett",
+    "reprocessPart_one": "Újrafeldolgozza a(z) {{name}} elemet?",
+    "reprocessPart_other": "Újrafeldolgozza a(z) {{count}} alkatrészt?",
+    "source": "Forrás",
+    "status": "Állapot",
+    "template": "Sablon",
+    "uploads": "Feltöltések"
+  },
+  "tooltips": {
+    "accepted": "Az itt látható alkatrészek gyártásra elfogadásra kerültek.",
+    "createPartGroupDisabled": "Csak azonos sablont használó alkatrészek csoportosíthatók együtt.",
+    "rejected": "Az itt látható alkatrészek gyártásra elutasításra kerültek.",
+    "review": "A Funnelhez hozzáadott alkatrészek itt jelennek meg ellenőrzésre. Az alkatrész gyártásra való elfogadása előtt válasszon rá sablont."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "label": {
+    "allMachines": "Alla maskiner",
+    "noDevices": "Köade jobb för dina enheter visas i en tidslinje på den här sidan",
+    "noDevicesMessage": "Använd knappen nedan för att lägga till enheter i din organisation",
+    "requiresAttention": "Kräver uppmärksamhet"
+  },
+  "title": {
+    "timeline": "Tidslinje"
+  },
+  "tooltips": {
+    "allMachines": "Visar alla enheter som har lagts till i Funnel tillsammans med deras köade jobb."
+  },
+  "viewHours_one": "1 timmes vy",
+  "viewHours_other": "{{count}} timmars vy"
+}

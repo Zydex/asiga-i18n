@@ -1,0 +1,58 @@
+{
+  "button": {
+    "add": "Dodaj materiały",
+    "keepBoth": "Zachowaj oba",
+    "replaceMaterial": "Zamień materiał",
+    "uploadLocalMaterial": "Prześlij lokalny materiał"
+  },
+  "label": {
+    "adding": "Dodawanie materiału",
+    "adding_one": "Dodawanie {{count}} materiału",
+    "adding_other": "Dodawanie {{count}} materiałów",
+    "addSuccess_one": "Dodano {{count}} materiał",
+    "addSuccess_other": "Dodano {{count}} materiałów",
+    "deleteSuccess_one": "Usunięto {{count}} materiał",
+    "deleteSuccess_other": "Usunięto {{count}} materiałów",
+    "deleting": "Usuwanie materiału",
+    "deleting_one": "Usuwanie {{count}} materiału",
+    "deleting_other": "Usuwanie {{count}} materiałów",
+    "dropFile": "Dodaj plik do <bold>Materiałów</bold>",
+    "manufacturer": "Producent",
+    "material": "Materiał",
+    "name": "NazwaMateriału",
+    "search": "Szukaj materiału",
+    "templateName": "Nazwa szablonu",
+    "updateMaterial": "Dostępna aktualizacja materiału"
+  },
+  "message": {
+    "addMaterials": "Dodaj materiały do swojej organizacji, wybierając je z poniższej Otwartej Biblioteki Materiałowej. Pliki materiałów można również dodać, korzystając z przycisku przesyłania.",
+    "deleteMaterialWarning": "Czy na pewno chcesz usunąć wybrane materiały? Tylko najnowsza wersja każdego materiału będzie ponownie dostępna do pobrania w przyszłości.",
+    "manufacturerHasNoMaterials": "Producent nie ma materiałów",
+    "materialAlreadyAdded_one": "{{name}} został już dodany do Twojej organizacji.",
+    "materialAlreadyAdded_other": "Następujące materiały zostały już dodane do Twojej organizacji:",
+    "materialNameConflict": "Plik materiału o nazwie {{name}} już istnieje w Twojej organizacji.\n\nMożesz zastąpić istniejący materiał lub zachować oba.",
+    "materialNameConflictDoForAll_one": "Zrób to dla {{count}} pozostałego konfliktu nazw",
+    "materialNameConflictDoForAll_other": "Zrób to dla {{count}} pozostałych konfliktów nazw",
+    "materialNameConflictWithRevision": "Plik materiału o nazwie {{name}}, Rewizja {{revision}}, już istnieje w Twojej organizacji.\n\nCzy chcesz zastąpić istniejący materiał Rewizją {{requestedRevision}}?",
+    "noMaterials": "Użyj przycisku 'Dodaj materiały' w prawym górnym rogu tej strony, aby dodać materiały do swojej organizacji",
+    "unableToDelete_one": "Wybranego materiału nie można usunąć, ponieważ jest on obecnie używany w szablonach. Przypisz inne materiały do poniższych szablonów, aby kontynuować usuwanie:",
+    "unableToDelete_other": "Wybranych materiałów nie można usunąć, ponieważ są one obecnie używane w szablonach. Przypisz inne materiały do poniższych szablonów, aby kontynuować usuwanie:",
+    "updateMaterial_one": "<bold>{{name}}</bold> zostanie zaktualizowany do najnowszej wersji.",
+    "updateMaterial_other": "{{count}} pliki INI materiałów zostaną zaktualizowane do najnowszej wersji."
+  },
+  "title": {
+    "addMaterials": "Dodaj materiały",
+    "deleteMaterial": "Usunąć materiał?",
+    "materialAlreadyAdded": "Plik materiału już dodany",
+    "materialNameConflict": "Nazwy materiałów już istnieją",
+    "materials": "Materiały",
+    "noMaterials": "Brak materiałów w bibliotece",
+    "unableToDelete_one": "Nie można usunąć materiału",
+    "unableToDelete_other": "Nie można usunąć materiałów",
+    "updateMaterial_one": "Zaktualizować materiał?",
+    "updateMaterial_other": "Zaktualizować materiały?"
+  },
+  "tooltips": {
+    "materials": "Wyświetla listę wszystkich materiałów, które zostały dodane do Lejka.\n\nMateriały można dodać z Otwartej Biblioteki Materiałowej lub przesłać ręcznie."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "button": {
+    "manageBilling": "Gérer la facturation",
+    "manageSubscription": "Gérer l'abonnement",
+    "subscribeLater": "S'abonner plus tard",
+    "subscriptionOptions": "Options d'abonnement"
+  },
+  "description": {
+    "manageBilling": "Consulter les factures, vérifier et mettre à jour les informations de facturation.",
+    "paymentIssue": "Un problème est survenu avec vos informations de paiement.",
+    "subscriptionStatus": "{{subscriptionTier}} qui se renouvelle le {{subscriptionEnd, datetime}}",
+    "subscriptionStatusEnding": "{{subscriptionTier}} qui se termine le {{subscriptionEnd, datetime}}",
+    "subscriptionTiers": "Vous pouvez mettre à jour votre niveau d'abonnement dès que les besoins de votre organisation évoluent.",
+    "subscriptionUnknownActiveStatus": "Votre abonnement est actif",
+    "trialEnded": "Abonnez-vous pour continuer à créer et envoyer des travaux d'impression.",
+    "trialEnding": "Vous devrez vous abonner à l'expiration de la période d'essai gratuite pour créer et envoyer des travaux d'impression."
+  },
+  "title": {
+    "availableWithSubscription": "Disponible avec un abonnement",
+    "manageBilling": "Gérer la facturation",
+    "newSubscription": "Nouvel abonnement",
+    "organisation": "Organisation",
+    "subscription": "Abonnement",
+    "subscriptionStatus": "État de l'abonnement",
+    "subscriptionTiers": "Niveaux d'abonnement",
+    "trialEnded": "L'essai a pris fin",
+    "trialEnding_zero": "L'essai se termine aujourd'hui",
+    "trialEnding_one": "L'essai se termine dans {{count}} jour",
+    "trialEnding_other": "L'essai se termine dans {{count}} jours",
+    "trialEndingUnknown": "L'essai se termine bientôt"
+  }
+}

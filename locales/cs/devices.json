@@ -1,0 +1,79 @@
+{
+  "alt": {
+    "devices": "Zařízení",
+    "devicesNeedingAttention": "Zařízení vyžadující pozornost",
+    "noDevices": "Žádná zařízení"
+  },
+  "button": {
+    "add": "Přidat zařízení",
+    "exclude": "Vyloučit",
+    "excludeDevice": "Vyloučit z automatických tiskových úloh",
+    "includeDevice": "Zahrnout do automatických tiskových úloh"
+  },
+  "details": {
+    "aboutPrinter": "O tiskárně",
+    "currentBuild": "Aktuální tisk",
+    "printStatus": "Stav tisku",
+    "queuedBuild": "Tiskové úlohy ve frontě"
+  },
+  "label": {
+    "devices": "Zařízení",
+    "devicesTab": "Karta zařízení",
+    "excludedDevice": "Zařízení bylo vyloučeno z přijímání tiskových úloh z Funnelu",
+    "requiresAttention": "Vyžaduje pozornost",
+    "search": "Hledat zařízení",
+    "status": {
+      "availableInFunnel": "Přijímat úlohy z Funnelu",
+      "currentBuildName": "Název aktuálního tisku",
+      "currentLayer": "Aktuální vrstva",
+      "currentLayerHeight": "Výška aktuální vrstvy",
+      "elapsed": "Uplynulý čas",
+      "firmwareVersion": "Verze firmwaru",
+      "layers": "Vrstvy",
+      "manufacturer": "Výrobce",
+      "model": "Model",
+      "paused": "Pozastaveno",
+      "remaining": "Zbývá",
+      "serialNumber": "Sériové číslo",
+      "status": "Stav"
+    }
+  },
+  "message": {
+    "addDevices": "Pro přidání zařízení do vaší organizace použijte tlačítko „Přidat zařízení“ v pravém horním rohu této stránky nebo tlačítko níže",
+    "allGood": "Vše v pořádku!",
+    "devicesPageInfo": "Na této stránce je zobrazen stav všech zařízení ve vaší organizaci",
+    "excludeDevice": "{{device}} bylo vyloučeno z přijímání tiskových úloh z Funnelu",
+    "includeDevice": "{{device}} bylo zahrnuto do tiskových úloh z Funnelu",
+    "noCurrentBuild": "Momentálně se netiskne žádný model.",
+    "noDevices": "Žádná zařízení",
+    "noDevicesNeedAttention": "Žádná zařízení aktuálně nevyžadují pozornost",
+    "warnRemoveDevice": "Toto zařízení již nebudete moci sledovat ani mu z Funnelu odesílat tiskové úlohy.",
+    "warnRemoveDevice_name": "Zařízení {{device}} již nebudete moci sledovat ani mu z Funnelu odesílat tiskové úlohy.",
+    "willExcludeDevice": "Po vyloučení tohoto zařízení pro něj již nebudou vytvářeny žádné tiskové úlohy"
+  },
+  "state": {
+    "canceled": "Zrušeno",
+    "canceled_error": "Chyba: Zrušeno",
+    "cancelling": "Ruší se",
+    "cancelling_error": "Chyba: Ruší se",
+    "finished": "Tisk dokončen",
+    "idle": "Tiskárna nečinná",
+    "offline": "Offline",
+    "paused": "Pozastaveno",
+    "paused_error": "Chyba: Pozastaveno",
+    "pausing": "Pozastavuje se",
+    "pausing_error": "Chyba: Pozastavuje se",
+    "printing": "Zbývá {{duration}}",
+    "staring": "Spouští se",
+    "userbusy": "Uživatel zaneprázdněn"
+  },
+  "title": {
+    "devices": "Zařízení",
+    "excludeDevice": "Vyloučit {{device}}?",
+    "removeDevice": "Odebrat zařízení?"
+  },
+  "tooltips": {
+    "devices": "V této kartě jsou zobrazena všechna zařízení, která byla přidána do vašeho Funnelu.",
+    "requiresAttention": "Zde jsou zobrazena zařízení, která mají chybu nebo ztratila připojení."
+  }
+}

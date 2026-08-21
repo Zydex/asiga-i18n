@@ -1,0 +1,93 @@
+{
+  "alt": {
+    "addUsers": "Adicionar Utilizadores",
+    "profile": "Perfil do utilizador"
+  },
+  "button": {
+    "add": "Adicionar Utilizador",
+    "changeMfa": "Alterar MFA",
+    "changePassword": "Alterar Palavra-passe",
+    "changeRole": "Alterar Função",
+    "deleteProfile": "Eliminar Perfil",
+    "newPhoto": "Nova Foto",
+    "remove": "Remover Utilizador",
+    "remove_one": "Remover Utilizador",
+    "remove_other": "Remover Utilizadores",
+    "removePhoto": "Remover Foto",
+    "resetMfa": "Repor MFA",
+    "restoreAccess": "Restaurar Acesso",
+    "uploadPhoto": "Carregar Foto"
+  },
+  "label": {
+    "email": "Email",
+    "enterEmails": "Introduza o email, separado por vírgulas",
+    "name": "Nome",
+    "nickname": "Alcunha",
+    "search": "Procurar um utilizador",
+    "updatedAt": "Atualizado em",
+    "users": "Utilizadores"
+  },
+  "message": {
+    "addUsers": "Introduza os emails abaixo para convidar utilizadores para esta organização.",
+    "addUsers_org": "Introduza os emails abaixo para convidar utilizadores para {{org}}.",
+    "changeMfa": "Isto irá abrir uma página com instruções sobre como configurar o seu novo dispositivo MFA.",
+    "changePassword": "Será enviado um email com uma ligação para alteração da palavra-passe.",
+    "changePassword_email": "Será enviado um email para {{email}} com uma ligação para alteração da palavra-passe.",
+    "changeRole": "Atualizar função:",
+    "changeRole_user": "Atualizar a função de {{user}}:",
+    "confirmDelAccounts_one": "Este utilizador deixará de ter acesso a esta organização.",
+    "confirmDelAccounts_other": "Estes utilizadores deixarão de ter acesso a esta organização.",
+    "confirmDelAccounts_org_one": "Este utilizador deixará de ter acesso a {{org}}.",
+    "confirmDelAccounts_org_other": "Estes utilizadores deixarão de ter acesso a {{org}}.",
+    "confirmMfaPolicy": "Isto irá terminar a sessão de todos os utilizadores da sua organização para que possam configurar a autenticação multifator.",
+    "confirmOwnershipTransfer": "Isto irá transferir a propriedade da organização e não pode ser desfeito.",
+    "confirmOwnershipTransfer_user": "Isto irá transferir a propriedade da organização para {{user}} e não pode ser desfeito.",
+    "confirmOwnershipTransferPrompt": "Digite {{word}} abaixo para confirmar.",
+    "confirmOwnershipTransferWord": "TRANSFERIR",
+    "confirmResetMfa_one": "Este utilizador terá de configurar novamente a autenticação multifator.",
+    "confirmResetMfa_other": "Estes utilizadores terão de configurar novamente a autenticação multifator.",
+    "confirmRestoreAccess": "O acesso foi revogado devido a proteções contra ataques de força bruta.",
+    "confirmRestoreAccess_user": "O acesso de {{user}} foi revogado devido a proteções contra ataques de força bruta.",
+    "deleteProfile": "O seu perfil será removido permanentemente da sua organização.",
+    "deleteProfile_org": "O seu perfil será removido permanentemente de {{org}}.",
+    "howToAddUsers": "Utilize o botão 'Adicionar Utilizador' no canto superior direito desta página ou utilize o botão abaixo para adicionar utilizadores à sua organização",
+    "invitationSent": "Convite Enviado",
+    "linkSent": "Ligação Enviada",
+    "mfaPolicy": "Ajude a melhorar a segurança da sua organização exigindo autenticação multifator para todos os utilizadores.",
+    "profilePicture": "Isto ajuda os outros a reconhecê-lo e permite-lhe saber que iniciou sessão na conta correta.",
+    "userPageInfo": "Os utilizadores da sua organização são apresentados nesta página",
+    "warnCreateAccount": "Tem a certeza de que deseja criar esta conta?"
+  },
+  "role": {
+    "accountant": "Contabilista",
+    "admin": "Administrador",
+    "designer": "Designer",
+    "owner": "Proprietário",
+    "technician": "Técnico",
+    "user": "Utilizador"
+  },
+  "title": {
+    "changeMfa": "Alterar Dispositivo de Autenticação Multifator (MFA)",
+    "changePassword": "Alterar Palavra-passe",
+    "changeRole": "Alterar Função",
+    "confirmDeleteProfile": "Confirmar eliminação do perfil",
+    "confirmMfaPolicy": "Exigir autenticação multifator?",
+    "confirmOwnershipTransfer": "Transferir propriedade?",
+    "deleteProfile": "Eliminar Perfil",
+    "edit": "Editar",
+    "email": "Email",
+    "invite": "Convidar utilizadores",
+    "mfaPolicy": "Autenticação Multifator",
+    "name": "Nome",
+    "profile": "",
+    "remove_one": "Remover utilizador?",
+    "remove_other": "Remover utilizadores?",
+    "resetMfa_one": "Repor MFA para este utilizador?",
+    "resetMfa_other": "Repor MFA para estes utilizadores?",
+    "restoreAccess": "Restaurar acesso para o utilizador?",
+    "role": "Função"
+  },
+  "tooltips": {
+    "users": "Lista todos os utilizadores que fazem parte da organização. Os utilizadores podem ser adicionados e as funções alteradas aqui."
+  }
+}

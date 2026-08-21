@@ -1,0 +1,16 @@
+{
+  "label": {
+    "allMachines": "Alle machines",
+    "noDevices": "Taken die in de wachtrij staan voor je apparaten worden op deze pagina in een tijdlijn weergegeven",
+    "noDevicesMessage": "Gebruik de onderstaande knop om apparaten aan je organisatie toe te voegen",
+    "requiresAttention": "Vereist aandacht"
+  },
+  "title": {
+    "timeline": "Tijdlijn"
+  },
+  "tooltips": {
+    "allMachines": "Toont alle apparaten die aan de Funnel zijn toegevoegd, samen met hun taken in de wachtrij."
+  },
+  "viewHours_one": "1 uur weergave",
+  "viewHours_other": "{{count}} uur weergave"
+}

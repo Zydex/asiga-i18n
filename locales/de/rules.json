@@ -1,0 +1,43 @@
+{
+  "approvals": {
+    "jobs": {
+      "message": "Wenn aktiviert, werden Druckaufträge automatisch akzeptiert und an einen Drucker gesendet.",
+      "title": "Aufträge automatisch akzeptieren"
+    },
+    "parts": {
+      "message": "Wenn aktiviert, werden Teile mit einer Vorlage automatisch zur Fertigung akzeptiert.",
+      "title": "Teile automatisch akzeptieren"
+    },
+    "title": "Genehmigungen",
+    "tooltips": {
+      "editPermission": "Sie haben keine Berechtigung, die Genehmigungseinstellungen zu aktualisieren. Bitten Sie einen Administrator oder Eigentümer in Ihrer Organisation, die Änderungen vorzunehmen"
+    }
+  },
+  "autoPartGrouping": {
+    "label": {
+      "characterPosition": "Zeichenposition",
+      "characterRange": "Zeichenbereich",
+      "example": "Beispiel",
+      "fromEnd": "Vom Ende",
+      "fromStart": "Vom Anfang",
+      "grouping": "Automatische Gruppierung",
+      "grouping_off": "Automatische Gruppierung Aus",
+      "grouping_on": "Automatische Gruppierung Ein",
+      "startingCharacterPosition": "Start-Zeichenposition"
+    },
+    "message": "Teile werden automatisch gruppiert, sodass sie zusammen auf demselben Auftrag gedruckt werden. Konfigurieren Sie den Bereich der übereinstimmenden Zeichen, um ihn an eine von Ihnen verwendete Konvention anzupassen.",
+    "title": "Automatische Teilegruppierung",
+    "tooltips": {
+      "characterPosition": "Geben Sie das Zeichen an, das relativ zum Anfang des hochgeladenen Teilenamens oder zum Ende des hochgeladenen Teilenamens übereinstimmen soll. Hilfreich, wenn Bestellnummern am Anfang oder am Ende des hochgeladenen Teilenamens erscheinen.",
+      "characterRange": "Geben Sie die Anzahl der Zeichen an, die übereinstimmen sollen.",
+      "editPermission": "Sie haben keine Berechtigung, die Einstellungen für die automatische Gruppierung zu aktualisieren. Bitten Sie einen Administrator oder Eigentümer in Ihrer Organisation, die Änderungen vorzunehmen",
+      "startingCharacterPosition": "Wie viele Zeichen vom Anfang oder Ende entfernt soll der Bereich beginnen? Hilfreich, wenn Bestellnummern in der Mitte eines Namens erscheinen."
+    }
+  },
+  "label": {
+    "rules": "Regeln"
+  },
+  "tooltips": {
+    "rules": "Einstellungen, die beeinflussen, wie Teile und Druckaufträge im Funnel Ihrer Organisation verarbeitet werden."
+  }
+}

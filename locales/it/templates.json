@@ -1,0 +1,238 @@
+{
+  "basePlate": {
+    "addTo": {
+      "enum": {
+        "allParts": "Tutte le parti",
+        "supportedParts": "Parti supportate"
+      },
+      "label": "Aggiungi piastra di base a",
+      "tooltip": "Aggiungi una piastra di base alle parti supportate o a tutte le parti."
+    },
+    "enabled": {
+      "label": "Piastra di base",
+      "tooltip": "Abilita la generazione della piastra di base"
+    },
+    "engraved": {
+      "label": "Aggiungi il nome della build alla piastra di base",
+      "tooltip": "Aggiungi il nome della build e la risoluzione XYZ in µm sulla piastra di base."
+    },
+    "meshShape": {
+      "enum": {
+        "hexagon": "Esagono",
+        "none": "Nessuno",
+        "square": "Quadrato",
+        "triangle": "Triangolo"
+      },
+      "label": "Forma della maglia",
+      "tooltip": "Selezionando una forma diversa da Nessuno verrà aggiunto un motivo di fori nella piastra di base della forma selezionata."
+    },
+    "meshSize": {
+      "label": "Dimensione della maglia",
+      "tooltip": "Il diametro dei fori nella piastra di base."
+    },
+    "meshWidth": {
+      "label": "Larghezza della maglia",
+      "tooltip": "Spessore delle pareti tra i fori."
+    },
+    "placement": {
+      "enum": {
+        "intersecting": "Intersecante",
+        "underneath": "Sottostante"
+      },
+      "label": "Posizionamento",
+      "tooltip": "Il posizionamento della piastra di base rispetto a ciascuna parte e ai relativi supporti.\n<ul><li>Sottostante - sposta le parti e i supporti verso l'alto e posiziona la piastra di stampa sotto.</li><li>Intersecante - interseca la piastra di stampa con la parte inferiore della parte o del relativo supporto.</li></lu>"
+    },
+    "thickness": {
+      "label": "Spessore",
+      "tooltip": "Spessore della piastra di base in millimetri."
+    },
+    "type": {
+      "enum": {
+        "boundingBox": "Riquadro di delimitazione",
+        "full": "Completa",
+        "shadow": "Ombra"
+      },
+      "label": "Tipo",
+      "tooltip": "Tipo di piastra di base:\n<ul><li>Completa - copre l'intera piattaforma con una piastra di base</li><li>Ombra - copre le regioni direttamente sotto le parti.</li><li>Riquadro di delimitazione - copre il riquadro di delimitazione di ciascuna parte.</li></ul>"
+    }
+  },
+  "button": {
+    "editBasePlateSettings": "Modifica..."
+  },
+  "label": {
+    "associatedPartType": "Tipo di parte associato",
+    "associatedWith": "Associato a",
+    "basePlateSettings": "Impostazioni piastra di base",
+    "default": "Predefinito",
+    "deleted": "Template eliminato",
+    "deleteSuccess_one": "{{count}} template eliminato",
+    "deleteSuccess_other": "{{count}} template eliminati",
+    "enabled": "Abilitato",
+    "fastPrintMode": "Modalità di stampa rapida",
+    "manufacturer": "Produttore",
+    "material": "Materiale",
+    "materialName": "Nome materiale",
+    "outdated": "Template obsoleto",
+    "overrideMaterialSettings": "L'inserimento di valori in questi campi sovrascriverà le impostazioni predefinite del materiale.",
+    "partType": "Tipo di parte",
+    "partTypes_other": "{{count}} Tipi di parte",
+    "partTypes_other_one": "1 Tipo di parte",
+    "partTypes_other_other": "{{count}} Tipi di parte",
+    "printerAndTrayType": "Tipi di stampante e vassoio",
+    "printerModel": "Modello stampante",
+    "search": "Cerca template",
+    "selectThickness": "Seleziona spessore strato",
+    "separationDetect": "Rilevamento separazione",
+    "supports": "Supporti",
+    "templateName": "Nome del template",
+    "thickness": "Spessore strato",
+    "tray": "Vassoio",
+    "trayType": "Tipo di vassoio"
+  },
+  "message": {
+    "changesApplyToNewParts": "Le parti esistenti verranno aggiornate con le nuove impostazioni del template e rimesse in coda per la stampa.",
+    "deleteTemplateWarning": "Tutte le parti che utilizzano questo template verranno restituite alla Posta in arrivo per la revisione. Assegna un nuovo template per stamparle, oppure rifiutale per rimuoverle dal Funnel.",
+    "modifyWillAffectParts": "I tipi di parte associati che utilizzano questo template verranno rimessi in coda per la stampa e tutti i tipi di parte rimossi verranno restituiti alla Posta in arrivo per la revisione.",
+    "modifyWillRequeueParts": "Le parti esistenti verranno aggiornate con le nuove impostazioni del template e rimesse in coda per la stampa.",
+    "noTemplates": "Nessun template",
+    "noTemplatesInfo": "I template verranno elencati qui. Usa il pulsante 'Crea' per creare il tuo primo template."
+  },
+  "supportSettings": {
+    "accuracyZ": {
+      "label": "Precisione Z",
+      "tooltip": "Lo spessore dello strato di slicing utilizzato per generare automaticamente le strutture ed evitare l'intersezione con la parte."
+    },
+    "aspectRatio": {
+      "label": "Rapporto d'aspetto",
+      "tooltip": "Controlla la velocità di allargamento delle strutture di supporto."
+    },
+    "connectGap": {
+      "label": "Intervallo di connessione",
+      "tooltip": "Numero di livelli del reticolo in cui sopprimere la connessione dopo che è stata trovata una connessione verticale (disponibile)."
+    },
+    "connection": {
+      "label": "Connessione",
+      "tooltip": "Numero di nodi da collegare al livello del reticolo sottostante. Impostando questo valore a 0 verranno creati supporti flessibili."
+    },
+    "contactWidth": {
+      "label": "Larghezza di contatto",
+      "tooltip": "Per i supporti predefiniti: larghezza della struttura di supporto nel punto di contatto con la parte.\n\nPer i supporti a reticolo: larghezza della sfera di contatto nel punto di contatto con la parte."
+    },
+    "halfContactWidth": {
+      "label": "Metà larghezza di contatto",
+      "tooltip": "Riprova ad aggiungere punti di contatto con metà larghezza."
+    },
+    "heightLevel": {
+      "label": "Livello di altezza",
+      "toggle": "Livellamento dell'altezza",
+      "tooltip": "Applica un margine Z tra le parti e la piattaforma."
+    },
+    "islandWidth": {
+      "label": "Larghezza isola",
+      "tooltip": "Per i supporti predefiniti: larghezza della struttura di supporto al primo contatto con la parte.\n\nPer i supporti a reticolo: larghezza della sfera di contatto al primo contatto per ciascun corpo della parte."
+    },
+    "lattice": {
+      "label": "Reticolo",
+      "tooltip": "Abilita i supporti a reticolo. I supporti a reticolo generano una rete interconnessa di travi di supporto attorno al modello."
+    },
+    "layout": {
+      "enum": {
+        "circle": "Cerchio",
+        "hexagon": "Esagono",
+        "square": "Quadrato",
+        "triangle": "Triangolo"
+      },
+      "label": "Disposizione",
+      "tooltip": "Come i nodi vengono distribuiti sulle posizioni XY."
+    },
+    "margin": {
+      "label": "Margine",
+      "tooltip": "Distanza aggiuntiva di prevenzione delle collisioni dalla parte."
+    },
+    "maximumWidth": {
+      "label": "Larghezza massima",
+      "tooltip": "Limita la larghezza delle strutture di supporto alla base."
+    },
+    "minimumHeight": {
+      "label": "Altezza minima",
+      "tooltip": "Evita di aggiungere supporti che si intersecano nuovamente se la loro altezza è inferiore all'altezza specificata."
+    },
+    "modelInterSupport": {
+      "label": "Intersupporto del modello",
+      "tooltip": "Consenti colonne di supporto che si intersecheranno nuovamente e poggeranno sulla parte."
+    },
+    "selfSupportAngle": {
+      "label": "Angolo di autosupporto",
+      "tooltip": "L'angolo in gradi rispetto all'orizzontale che non richiede supporti."
+    },
+    "sideFaces": {
+      "label": "Facce laterali",
+      "tooltip": "Definisce il numero di facce laterali per le nuove strutture di supporto."
+    },
+    "sideFeaturesSize": {
+      "label": "Dimensione delle caratteristiche laterali",
+      "tooltip": "La distanza a cui un dettaglio può sporgere da una superficie senza essere supportato."
+    },
+    "spacingXY": {
+      "label": "Spaziatura XY",
+      "tooltip": "Distanza tra i nodi sul piano XY"
+    },
+    "spacingZ": {
+      "label": "Spaziatura Z",
+      "tooltip": "Distanza tra i livelli del reticolo sull'asse Z."
+    },
+    "supportSpacing": {
+      "label": "Spaziatura dei supporti",
+      "tooltip": "Distanza tra i punti di supporto su una parte."
+    },
+    "tallestSupport": {
+      "label": "Supporto più alto",
+      "tooltip": "Ignora qualsiasi caratteristica supportabile al di sopra dell'altezza specificata."
+    },
+    "undershoot": {
+      "label": "Sotto/Sovra-penetrazione",
+      "tooltip": "Per i supporti predefiniti: la distanza massima di iniezione in cui il punto di supporto entra nella parte.\n\nPer i supporti a reticolo: distanza dal punto di contatto in cui la struttura inizia a rastremarsi fino a un punto."
+    }
+  },
+  "title": {
+    "changesApplyToNewParts": "Le modifiche si applicano alle nuove parti",
+    "classificationSupportSettings": "Supporti {{classification}}",
+    "createTemplate": "Nuovo template",
+    "deleteTemplate": "Eliminare il template?",
+    "deleteTemplate_zero": "Eliminare il template?",
+    "deleteTemplate_one": "{{count}} parte verrà restituita alla posta in arrivo",
+    "deleteTemplate_other": "{{count}} parti verranno restituite alla posta in arrivo",
+    "editTemplate": "Modifica template",
+    "modifyWillAffectParts": "Le parti potrebbero essere interessate da questa modifica",
+    "modifyWillAffectParts_zero": "Le parti potrebbero essere interessate da questa modifica",
+    "modifyWillAffectParts_one": "{{count}} parte sarà interessata da questa modifica",
+    "modifyWillAffectParts_other": "{{count}} parti saranno interessate da questa modifica",
+    "modifyWillRequeueParts": "Le parti potrebbero essere rimesse in coda",
+    "modifyWillRequeueParts_zero": "Le parti potrebbero essere rimesse in coda",
+    "modifyWillRequeueParts_one": "{{count}} parte verrà rimessa in coda",
+    "modifyWillRequeueParts_other": "{{count}} parti verranno rimesse in coda",
+    "templateBasePlate": "Piastra di base {{name}}"
+  },
+  "tooltip": {
+    "defaultPartType": "Rendi questo il template predefinito per il tipo di parte selezionato",
+    "defaultPartType_disabled": "Questo è attualmente il template predefinito per {{partType}}. Seleziona un altro template come predefinito per sostituirlo.",
+    "defaultPartType_only": "Questo è il template predefinito poiché nessun altro template è associato a questo tipo di parte",
+    "fastPrintMode": "<bold>Modalità di stampa rapida</bold>\nAccelera tutti i movimenti non essenziali della piattaforma di stampa, riposizionandosi rapidamente tra gli strati per ridurre al minimo il tempo di inattività e abbreviare la durata totale della stampa.",
+    "separationDetect": "<bold>Rilevamento separazione</bold>\nRileva il rilascio della pellicola, riducendo la distanza di sollevamento tra gli strati.\n\nPuò comportare il rischio di difetti di stampa se la separazione non viene rilevata correttamente."
+  },
+  "types": {
+    "printerTypes": {
+      "max": "Max & Max 2",
+      "pro": "Pro 4K",
+      "ultra": "Ultra"
+    },
+    "trays": {
+      "endurance": "Endurance",
+      "LIFT": "LIFT",
+      "lowForce": "Low Force",
+      "ultraGLOSS": "UltraGLOSS",
+      "ultraGLOSSLIFT": "UltraGLOSS LIFT",
+      "universal": "Universal"
+    }
+  }
+}

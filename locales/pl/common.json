@@ -1,0 +1,772 @@
+{
+  "alt": {
+    "logo": "Asiga Web Portal",
+    "noSearchResults": "Brak wyników wyszukiwania",
+    "sort": "Sortuj według"
+  },
+  "boolean": {
+    "false": "fałsz",
+    "true": "prawda"
+  },
+  "button": {
+    "accept": "Akceptuj",
+    "acceptAll": "Akceptuj wszystko",
+    "add": "Dodaj",
+    "addMore_zero": "Dodaj...",
+    "addMore_one": "Dodaj więcej...",
+    "addMore_other": "Dodaj więcej...",
+    "apply": "Zastosuj",
+    "back": "Wstecz",
+    "cancel": "Anuluj",
+    "close": "Zamknij",
+    "confirm": "Potwierdź",
+    "connect": "Połącz",
+    "continue": "Kontynuuj",
+    "create": "Utwórz",
+    "delete": "Usuń",
+    "deny": "Odmów",
+    "dismiss": "Odrzuć",
+    "download": "Pobierz",
+    "edit": "Edytuj",
+    "essentialOnly": "Tylko niezbędne",
+    "invite": "Zaproś",
+    "logout": "Wyloguj",
+    "off": "Wył.",
+    "ok": "OK",
+    "on": "Wł.",
+    "pause": "Wstrzymaj",
+    "promote": "Promuj",
+    "refresh": "Odśwież",
+    "reject": "Odrzuć",
+    "rejectAll": "Odrzuć wszystko",
+    "rejectAndRequeue": "Odrzuć i ponów kolejkowanie",
+    "rejectOnly": "Tylko odrzuć",
+    "remove": "Usuń",
+    "rename": "Zmień nazwę",
+    "reprocess": "Przetwórz ponownie",
+    "reset": "Resetuj",
+    "resetToDefault": "Przywróć domyślne",
+    "retry": "Ponów",
+    "save": "Zapisz",
+    "tooltips": {
+      "changeRoleDisabled": "Nie masz uprawnień do zmiany roli wybranych użytkowników.",
+      "changeRoleDisabled_admin": "Nie masz uprawnień do zmiany roli użytkowników z rolą Administratora lub Właściciela.",
+      "changeRoleDisabled_owner": "Nie masz uprawnień do zmiany roli użytkowników z rolą Właściciela.",
+      "changeRoleDisabled_user": "Nie masz uprawnień do zmiany ról innych użytkowników.",
+      "deleteUserDisabled": "Nie masz uprawnień do usuwania wybranych użytkowników.",
+      "deleteUserDisabled_admin": "Nie masz uprawnień do usuwania użytkowników z rolą Administratora lub Właściciela.",
+      "deleteUserDisabled_owner": "Nie masz uprawnień do usuwania innych użytkowników z rolą Właściciela.",
+      "deleteUserDisabled_user": "Nie masz uprawnień do usuwania innych użytkowników."
+    },
+    "transfer": "Przenieś",
+    "unlink": "Odłącz",
+    "update": "Aktualizuj"
+  },
+  "date": {
+    "all": "Wszystko",
+    "custom": "Niestandardowy",
+    "daysInterval": "Zakres dat",
+    "daysInterval_0": "Dziś",
+    "daysInterval_1": "Wczoraj",
+    "daysInterval_7": "Ostatnie 7 dni",
+    "homeRange": "Zakres dat",
+    "homeRange_currentPeriod": "Okres rozliczeniowy",
+    "homeRange_last12Months": "Ostatnie 12 miesięcy",
+    "homeRange_lastWeek": "Ostatni tydzień",
+    "homeRange_thisWeek": "Ten tydzień",
+    "homeRange_today": "Dziś",
+    "homeRange_yesterday": "Wczoraj"
+  },
+  "dateRange": {
+    "error": {
+      "outOfRange": "Wybrane daty muszą mieścić się w ostatnim roku.",
+      "toBeforeFrom": "Wybrana data „Do” nie może być wcześniejsza niż data „Od”."
+    },
+    "from": "Od",
+    "title": "Zakres dat: {{field}}",
+    "to": "Do"
+  },
+  "details": {
+    "copyLink": "Kopiuj link",
+    "linkCopied": "Link skopiowany do schowka",
+    "linkCopyFailed": "Nie udało się skopiować linku",
+    "progress": "Postęp"
+  },
+  "dialog": {
+    "no": "Nie",
+    "yes": "Tak"
+  },
+  "displayError": {
+    "button": "Skontaktuj się z pomocą techniczną",
+    "message": "Sprawdź połączenie i spróbuj odświeżyć stronę.\nSkontaktuj się z pomocą techniczną, jeśli problem będzie się powtarzał."
+  },
+  "error": {
+    "400": "Żądanie było nieprawidłowe.",
+    "401": "Nie jesteś uwierzytelniony/a. Zaloguj się.",
+    "403": "Nie masz uprawnień do wykonania tego żądania.",
+    "404": "Nie znaleziono tego zasobu.",
+    "409": "Nie można przetworzyć żądania z powodu konfliktu.",
+    "422": "Nie można zweryfikować tego żądania.",
+    "500": "Wystąpił nieoczekiwany błąd.",
+    "activeWorkflowNotFound": "Nie znaleziono aktywnego przepływu pracy.",
+    "activeWorkflowNotFound_details": "Nie znaleziono aktywnego przepływu pracy dla organizacji o ID {{details}}.",
+    "addressCreateForbidden": "Nie masz uprawnień do tworzenia adresów dla tej organizacji.",
+    "addressDeleteForbidden": "Nie masz uprawnień do usuwania adresów tej organizacji.",
+    "addressNotFound": "Nie znaleziono adresu.",
+    "addressNotFound_details": "Nie znaleziono adresu o id {{details}}.",
+    "addressUpdateForbidden": "Nie masz uprawnień do aktualizowania adresów tej organizacji.",
+    "auth0BadRequest": "Nie można zweryfikować Twojego użytkownika.",
+    "auth0Forbidden": "Twoja rola nie ma uprawnień wymaganych do wykonania tego żądania.",
+    "auth0Unauthorized": "Nie jesteś uwierzytelniony/a. Zaloguj się.",
+    "badRequest": "Żądanie było nieprawidłowe.",
+    "conflict": "Nie można przetworzyć żądania z powodu konfliktu.",
+    "deviceForbidden": "Nie masz uprawnień do przeglądania urządzeń tej organizacji.",
+    "deviceNotFound": "Nie znaleziono urządzenia.",
+    "deviceNotFound_details": "Nie znaleziono urządzenia o numerze seryjnym „{{details}}”.",
+    "deviceStateConflict": "Urządzenie ma stan docelowy, który nie został potwierdzony.",
+    "fileChecksumMismatch": "Przesłany plik „{{fileName}}” nie został poprawnie przesłany. Spróbuj przesłać go ponownie.",
+    "filesRemoved": "Pliki potrzebne do wykonania tej czynności przekroczyły okres przechowywania i nie są już dostępne.",
+    "forbidden": "Nie masz uprawnień do wykonania tego żądania.",
+    "integrationNotFound": "Nie można znaleźć integracji.",
+    "jobDownloadIncorrectState": "Zadanie można pobrać tylko wtedy, gdy oczekuje na przegląd.",
+    "jobDownloadReportIncorrectState": "Zadanie nie ma dostępnego pliku raportu.",
+    "jobForbidden": "Nie masz uprawnień do pobierania zadania dla tej organizacji.",
+    "jobNoPreviewFile": "Zadanie nie ma dostępnego pliku podglądu.",
+    "jobNoReportFile": "Zadanie nie ma dostępnego pliku raportu.",
+    "jobNoSlicedBuildFile": "Zadanie nie ma pociętego na warstwy pliku budowy gotowego do druku.",
+    "jobNotFound": "Nie znaleziono zadania.",
+    "jobNotFound_details": "Nie znaleziono zadania o id {{details}}.",
+    "jobReviewIncorrectState": "Zadanie nie oczekuje na przegląd.",
+    "linkCreateConflict": "Link integracji już istnieje dla tej organizacji.",
+    "linkCreateForbidden": "Nie masz uprawnień do tworzenia linku integracji dla tej organizacji.",
+    "linkDeleteForbidden": "Nie masz uprawnień do usuwania linku integracji dla tej organizacji.",
+    "linkGetForbidden": "Nie masz uprawnień do pobierania linku integracji dla tej organizacji.",
+    "linkNotFound": "Nie znaleziono linku integracji.",
+    "linkUpdateForbidden": "Nie masz uprawnień do aktualizowania linku integracji dla tej organizacji.",
+    "linkUserCreateForbidden": "Nie masz uprawnień do tworzenia linku integracji w imieniu innego użytkownika.",
+    "luceneIllegalCharacterError": "Niedozwolony znak w zapytaniu lucene.",
+    "luceneIllegalCharacterError_details": "Niedozwolony znak w zapytaniu lucene. ({{details}})",
+    "luceneParseError": "Nie można przetworzyć zapytania Lucene.",
+    "luceneSyntaxError": "Błąd składni w zapytaniu lucene.",
+    "luceneSyntaxError_details": "Błąd składni w zapytaniu lucene. ({{details}})",
+    "materialCancelIncorrectState": "Nie masz uprawnień do anulowania materiału, który nie oczekuje na przesłanie.",
+    "materialCreateForbidden": "Nie masz uprawnień do tworzenia materiału dla tej organizacji.",
+    "materialDeleteForbidden": "Nie masz uprawnień do usuwania materiału dla tej organizacji.",
+    "materialFileEmpty": "Plik materiału jest pusty.",
+    "materialFileName": "Nieobsługiwany typ pliku.",
+    "materialFileParse": "Nie można odczytać pliku materiału.",
+    "materialFileRead": "Nie można odczytać pliku materiału.",
+    "materialFileType": "Nieobsługiwany typ pliku.",
+    "materialGetForbidden": "Nie masz uprawnień do pobierania materiału dla tej organizacji.",
+    "materialMarkAsUploadedIncorrectState": "Nie masz uprawnień do oznaczania materiału jako przesłanego, jeśli nie oczekuje on na przesłanie.",
+    "materialNotFound": "Nie można znaleźć materiału.",
+    "materialNotUploadedIncorrectState": "Plik ini nie został przesłany dla tego materiału.",
+    "materialRetryUploadIncorrectState": "Nie masz uprawnień do ponawiania przesyłania materiału, który nie oczekuje na przesłanie.",
+    "materialUpdateForbidden": "Nie masz uprawnień do aktualizowania materiału dla tej organizacji.",
+    "materialVisibilityConflict": "Nie masz uprawnień do zmiany widoczności materiału, który jest właśnie przesyłany.",
+    "noAuthorized": "Nie jesteś uwierzytelniony/a. Zaloguj się.",
+    "notAllowedFieldFilter": "Podanego pola nie można filtrować.",
+    "notAllowedFieldFilter_details": "Pola „{{details}}” nie można filtrować.",
+    "notAllowedFieldSort": "Podanego pola nie można sortować.",
+    "notAllowedFieldSort_details": "Pola „{{details}}” nie można sortować.",
+    "notFound": "Nie znaleziono tego zasobu.",
+    "organisationNotFound": "Nie znaleziono organizacji.",
+    "organisationNotFound_details": "Nie znaleziono organizacji o id {{details}}.",
+    "organisationUpdateForbidden": "Nie masz uprawnień do aktualizowania tej organizacji.",
+    "organisationViewForbidden": "Nie masz uprawnień do przeglądania tej organizacji.",
+    "organisationViewUsersForbidden": "Nie masz uprawnień do przeglądania użytkowników tej organizacji.",
+    "partCancelIncorrectState": "Nie masz uprawnień do anulowania części, która nie oczekuje na przesłanie.",
+    "partCreateForbidden": "Nie masz uprawnień do tworzenia części dla tej organizacji.",
+    "partDeleteForbidden": "Nie masz uprawnień do usuwania części dla tej organizacji.",
+    "partDequeForbidden": "Nie masz uprawnień do usuwania z kolejki części, która nie oczekuje na rozmieszczenie.",
+    "partDownloadIncorrectState": "Nie masz uprawnień do pobierania części, która nie została przesłana.",
+    "partFileNameEmpty": "Nazwa pliku części jest pusta",
+    "partFileNameExcessive": "Nazwa pliku części jest zbyt długa",
+    "partGetForbidden": "Nie masz uprawnień do pobierania części dla tej organizacji.",
+    "partMarkAsAcceptedIncorrectState": "Nie masz uprawnień do akceptowania części, która nie jest gotowa do akceptacji.",
+    "partMarkAsConfirmedIncorrectState": "Nie masz uprawnień do potwierdzania części, która nie oczekuje na potwierdzenie.",
+    "partMarkAsRejectedIncorrectState": "Nie masz uprawnień do odrzucania części, która nie oczekuje na przegląd lub akceptację.",
+    "partMarkAsReviewedIncorrectState": "Nie masz uprawnień do przeglądania części, która nie jest gotowa do przeglądu.",
+    "partMarkAsUploadedIncorrectState": "Nie masz uprawnień do oznaczania części jako przesłanej, jeśli nie ma ona odpowiedniego statusu.",
+    "partMarkQueuedAsRejectedIncorrectState": "Nie masz uprawnień do odrzucania części, która jest częścią kolejki zadań.",
+    "partMarkToConfirmAsRejectedIncorrectState": "Nie masz uprawnień do odrzucania części, która nie oczekuje na potwierdzenie.",
+    "partNeedsTemplateConflict": "Ta część wymaga szablonu, ale nie można jej przypisać żadnego szablonu.",
+    "partNotFound": "Nie znaleziono części.",
+    "partNotFound_details": "Nie znaleziono części o id {{details}}.",
+    "partRetryUploadIncorrectState": "Nie masz uprawnień do ponawiania przesyłania części, która nie oczekuje na przesłanie.",
+    "partUndoAcceptIncorrectState": "Nie można cofnąć akceptacji, jeśli część nie została zaakceptowana.",
+    "partUndoRejectIncorrectState": "Nie można cofnąć odrzucenia, jeśli część nie została odrzucona.",
+    "partUpdateAcceptedIncorrectState": "Nie masz uprawnień do aktualizowania części, która została zaakceptowana.",
+    "partUpdateForbidden": "Nie masz uprawnień do aktualizowania części dla tej organizacji.",
+    "roleNotFound": "Id roli nie istnieje.",
+    "sortField": "Nieprawidłowa nazwa pola.",
+    "sortField_details": "Nieprawidłowa nazwa pola: {{details}}.",
+    "sortOrder": "Nieprawidłowa wartość porządku. Musi to być „-1” lub „1”",
+    "sortOrder_details": "Nieprawidłowa wartość porządku: {{details}}. Musi to być „-1” lub „1”",
+    "templateCreateForbidden": "Nie masz uprawnień do tworzenia szablonu dla tej organizacji.",
+    "templateDeleteForbidden": "Nie masz uprawnień do usuwania szablonu dla tej organizacji.",
+    "templateDeleteHardForbidden": "Nie możesz bezpośrednio usunąć szablonu.",
+    "templateGetForbidden": "Nie masz uprawnień do pobierania szablonu dla tej organizacji.",
+    "templateMaterialForbidden": "Nie masz dostępu do przypisania tego materiału do szablonu.",
+    "templateMaterialPendingConflict": "Materiał oczekujący na przesłanie nie może zostać przypisany do szablonu.",
+    "templateNoEligibleDefault": "Dla każdego określonego typu części wymagany jest szablon domyślny. Przed usunięciem tego szablonu ustaw inny jako domyślny.",
+    "templateNotFound": "Nie można znaleźć szablonu.",
+    "templateUpdateForbidden": "Nie masz uprawnień do aktualizowania szablonu dla tej organizacji.",
+    "unauthorized": "Nie jesteś uwierzytelniony/a. Zaloguj się.",
+    "unexpected": "Wystąpił nieoczekiwany błąd.",
+    "unprocessableContent": "Nieprzetwarzalna zawartość",
+    "unspecified": "Wystąpił nieokreślony błąd.",
+    "unsupportedMediaType": "Nieobsługiwany typ nośnika",
+    "userBFPForbidden": "Nie można odblokować użytkownika.",
+    "userBlockForbidden": "Nie można zmienić statusu blokady użytkownika.",
+    "userConflict": "Użytkownik już istnieje.",
+    "userConflict_details": "Użytkownik z adresem e-mail {{details}} już istnieje w Twojej organizacji lub innej organizacji. Użyj innego adresu e-mail.",
+    "userConflictAnotherOrg_details": "Adres e-mail {{details}} jest już powiązany z inną organizacją. Użyj innego adresu e-mail lub poproś użytkownika o wypisanie się z poprzedniej organizacji.",
+    "userConflictWithinOrg_details": "Użytkownik z adresem e-mail {{details}} już istnieje w Twojej organizacji.",
+    "userCreateForbidden": "Nie można utworzyć użytkownika.",
+    "userDeleteForbidden": "Nie można usunąć użytkownika.",
+    "userGetBFPForbidden": "Nie można pobrać statusu blokady użytkownika",
+    "userGetBlockForbidden": "Nie można pobrać statusu blokady użytkownika.",
+    "userGetForbidden": "Nie można znaleźć użytkownika.",
+    "userNotFound": "Nie znaleziono użytkownika.",
+    "userNotFound_details": "Nie można znaleźć użytkownika z adresem e-mail {{details}}.",
+    "userNotInOrg": "Użytkownik nie jest powiązany z żadną organizacją.",
+    "userResetForbidden": "Nie można zresetować hasła użytkownika.",
+    "userRoleAddForbidden": "Nie można dodać roli użytkownikowi.",
+    "userRoleRemoveForbidden": "Nie można usunąć roli użytkownika.",
+    "userSearchField": "Nieprawidłowe ustawienia pola dla wyszukiwania użytkowników.",
+    "userSearchForbidden": "Nie można wyszukać użytkowników.",
+    "userSearchPagination": "Nieprawidłowe ustawienia paginacji dla wyszukiwania użytkowników.",
+    "userSearchSort": "Nieprawidłowe ustawienia sortowania dla wyszukiwania użytkowników.",
+    "userUpdateForbidden": "Nie można zaktualizować użytkownika.",
+    "validation": "Nie można zweryfikować tego żądania.",
+    "value": "Do tego żądania podano nieprawidłową wartość.",
+    "workflowNotFound": "Nie znaleziono przepływu pracy.",
+    "workflowNotFound_details": "Nie znaleziono przepływu pracy o id {{details}}."
+  },
+  "label": {
+    "acceptedGroupsSuccess_one": "{{count}} grupa przeniesiona do <a>Zaakceptowane</a>",
+    "acceptedGroupsSuccess_other": "{{count}} grup przeniesionych do <a>Zaakceptowane</a>",
+    "acceptedJobsSuccess_one": "{{count}} zadanie przeniesione do <a>Zaakceptowane</a>",
+    "acceptedJobsSuccess_other": "{{count}} zadań przeniesionych do <a>Zaakceptowane</a>",
+    "acceptedPartsSuccess_one": "{{count}} część przeniesiona do <a>Zaakceptowane</a>",
+    "acceptedPartsSuccess_other": "{{count}} części przeniesionych do <a>Zaakceptowane</a>",
+    "acceptingGroups": "Akceptowanie grup części",
+    "acceptingJobs": "Akceptowanie zadań",
+    "acceptingParts": "Akceptowanie części",
+    "assigningTemplates": "Przypisywanie szablonu do części",
+    "assigningTemplatesSuccess_one": "Przypisano szablon do {{count}} części",
+    "assigningTemplatesSuccess_other": "Przypisano szablon do {{count}} części",
+    "cancelUploadModalButtonSecondary": "Kontynuuj przesyłanie",
+    "cancelUploadsModalBody": "Przesyłanie części nie zostało zakończone. Czy chcesz anulować pozostałe przesyłania?",
+    "cancelUploadsModalButtonPrimary": "Anuluj przesyłanie",
+    "cancelUploadsModalTitle": "Anulować pozostałe przesyłania?",
+    "confirmedSuccess_one": "{{count}} część potwierdzona",
+    "confirmedSuccess_other": "{{count}} części potwierdzonych",
+    "confirmingParts": "Potwierdzanie części",
+    "creatingGroup": "Tworzenie grupy części",
+    "default": "Domyślne",
+    "deprioritiseSuccess_one": "Wyczyszczono priorytet części.",
+    "deprioritiseSuccess_other": "Wyczyszczono priorytety części.",
+    "deprioritisingParts": "Czyszczenie priorytetów części.",
+    "dismissingParts": "Odrzucanie części",
+    "dismissSuccess_one": "{{count}} część została odrzucona",
+    "dismissSuccess_other": "{{count}} części zostało odrzuconych",
+    "downloading": "Pobieranie",
+    "downloadJobsSuccess_one": "{{count}} zadanie pobrane",
+    "downloadJobsSuccess_other": "{{count}} zadań pobranych",
+    "downloadPartsSuccess_one": "{{count}} część pobrana",
+    "downloadPartsSuccess_other": "{{count}} części pobranych",
+    "duplicatePartsSuccess_one": "{{count}} część zduplikowana <a>Do przeglądu</a>",
+    "duplicatePartsSuccess_other": "{{count}} części zduplikowanych <a>Do przeglądu</a>",
+    "duplicatingParts": "Duplikowanie części",
+    "filesRemovedJob": "Pliki zadania druku przekroczyły okres przechowywania i nie są już dostępne.",
+    "filesRemovedPart": "Pliki części przekroczyły okres przechowywania i nie są już dostępne.",
+    "fullname": "Pełne imię i nazwisko",
+    "groupCreateSuccess": "Pomyślnie utworzono grupę części",
+    "groupRegroupSuccess": "Pomyślnie przegrupowano części",
+    "groupRenameSuccess": "Pomyślnie zmieniono nazwę grupy części",
+    "groupUpdateSuccess_one": "Pomyślnie zaktualizowano {{count}} grupę",
+    "groupUpdateSuccess_other": "Pomyślnie zaktualizowano {{count}} grup",
+    "itemSelected": "Wybrano element",
+    "itemSelected_zero": "Nie wybrano żadnych elementów",
+    "itemSelected_one": "Wybrano {{count}} element",
+    "itemSelected_other": "Wybrano {{count}} elementów",
+    "language": "Język",
+    "openDrawer": "Otwórz panel",
+    "partRenameSuccess": "Pomyślnie zmieniono nazwę części",
+    "preparingDownload": "Przygotowywanie pobierania",
+    "prioritiseSuccess_one": "{{count}} część oznaczona priorytetem.",
+    "prioritiseSuccess_other": "{{count}} części oznaczonych priorytetem.",
+    "prioritisingParts": "Ustawianie priorytetu części",
+    "promotedJobsSuccess_one": "{{count}} zadanie przeniesione <a>Do przeglądu</a>",
+    "promotedJobsSuccess_other": "{{count}} zadań przeniesionych <a>Do przeglądu</a>",
+    "promotingJobs": "Promowanie zadań",
+    "regroupingParts": "Przegrupowywanie części",
+    "rejectedSuccess_one": "{{count}} część przeniesiona do <a>Odrzucone</a>",
+    "rejectedSuccess_other": "{{count}} części przeniesionych do <a>Odrzucone</a>",
+    "rejectingParts": "Odrzucanie części",
+    "rejectJobPartModalIntro_one": "Ta część jest zagnieżdżona w zadaniu gotowym do przeglądu.",
+    "rejectJobPartModalIntro_other": "Te części są zagnieżdżone w zadaniu gotowym do przeglądu.",
+    "rejectJobPartModalRejectAndRequeue_one": "Usuń tę część i ponownie zakolejkuj pozostałe części do ponownego zagnieżdżenia.",
+    "rejectJobPartModalRejectAndRequeue_other": "Usuń te części i ponownie zakolejkuj pozostałe części do ponownego zagnieżdżenia.",
+    "rejectJobPartModalRejectOnly_one": "Usuń tę część i zachowaj pozostałą część zadania bez zmian.",
+    "rejectJobPartModalRejectOnly_other": "Usuń te części i zachowaj pozostałą część zadania bez zmian.",
+    "rejectJobPartModalTitle": "Ponownie zagnieździć zadanie?",
+    "rejectModal": "Wybrane części nie będą już uwzględniane w żadnych zadaniach druku.",
+    "rejectModalTitle_one": "Odrzucić {{partName}}?",
+    "rejectModalTitle_other": "Odrzucić {{count}} wybranych części?",
+    "removingFromGroups": "Usuwanie części z grup",
+    "renamePart": "Zmień nazwę części",
+    "renamingGroup": "Zmienianie nazwy grupy części",
+    "renamingPart": "Zmienianie nazwy części",
+    "reprintingParts": "Ponowne kolejkowanie części do ponownego druku",
+    "reprintPartsSuccess_one": "{{count}} część ponownie zakolejkowana i przeniesiona do <a>Zaakceptowane</a>",
+    "reprintPartsSuccess_other": "{{count}} części ponownie zakolejkowanych i przeniesionych do <a>Zaakceptowane</a>",
+    "resendingJobs": "Ponowne wysyłanie zadań",
+    "resentJobs_one": "Ponownie wysłano {{count}} zadanie",
+    "resentJobs_other": "Ponownie wysłano {{count}} zadań",
+    "setTimezone": "Ustaw strefę czasową",
+    "settings": "Ustawienia",
+    "tabs": "Karty",
+    "timezone": "Strefa czasowa",
+    "undoAcceptedPartsSuccess_one": "{{count}} część usunięta z Zaakceptowane",
+    "undoAcceptedPartsSuccess_other": "{{count}} części usuniętych z Zaakceptowane",
+    "undoingAcceptParts": "Cofanie akceptacji części",
+    "undoingRejectParts": "Cofanie odrzucenia części",
+    "undoRejectPartsSuccess_one": "{{count}} część usunięta z Odrzucone",
+    "undoRejectPartsSuccess_other": "{{count}} części usuniętych z Odrzucone",
+    "ungroupingGroups": "Rozgrupowywanie części",
+    "ungroupSuccess_one": "Pomyślnie rozgrupowano {{count}} grupę",
+    "ungroupSuccess_other": "Pomyślnie rozgrupowano {{count}} grup",
+    "updatingPartTypes": "Aktualizowanie typów części",
+    "updatingPartTypesSuccess_one": "Zaktualizowano {{count}} typ części",
+    "updatingPartTypesSuccess_other": "Zaktualizowano {{count}} typów części"
+  },
+  "links": {
+    "devices": "Urządzenia",
+    "home": "Strona główna",
+    "inbox": "Skrzynka odbiorcza",
+    "manage": "Zarządzaj",
+    "parts": "Części",
+    "printJobs": "Zadania druku",
+    "timeline": "Oś czasu",
+    "tooltips": {
+      "devices": "Podgląd na żywo wszystkich urządzeń, który pomaga monitorować laboratorium.",
+      "home": "Migawka aktywności laboratorium, dzięki której jesteś na bieżąco.",
+      "inbox": "Przesyłaj i przeglądaj części od użytkowników lub aplikacji.\n\nPotwierdź, że częściom przypisano prawidłowy szablon druku, i zaakceptuj je do produkcji.",
+      "manage": "Dodawaj lub edytuj użytkowników, łącz aplikacje zewnętrzne, ustawienia ogólne.",
+      "parts": "Wyświetl części zaakceptowane do produkcji.\n\nSprawdź status, aby zobaczyć, na jakim etapie procesu produkcji się znajdują.",
+      "printJobs": "Przeglądaj utworzone zadania druku.\n\nSprawdź status, aby zobaczyć, na jakim etapie procesu produkcji się znajdują.",
+      "templates": "Wyświetla listę wszystkich szablonów w Funnel. Określają one, jakie materiały, ustawienia druku i drukarki są używane dla każdego typu części.",
+      "timeline": "Zobacz zadania druku zakolejkowane na każdym z Twoich urządzeń, aby monitorować postęp i wykorzystanie."
+    }
+  },
+  "loading": {
+    "unavailable": "Niedostępne"
+  },
+  "maintenancePage": {
+    "message": "Pracujemy nad ulepszeniem Funnel.\nWrócimy wkrótce.",
+    "title": "Zaplanowana konserwacja"
+  },
+  "message": {
+    "acceptPrivacyPolicy": "Akceptuję <a>Politykę prywatności</a>",
+    "acceptTermsOfService": "Akceptuję <a>Warunki korzystania z usługi</a>",
+    "betaTest": "Korzystasz z wersji beta, daj nam znać, co możemy poprawić. <a>Prześlij opinię</a>",
+    "betaTest_narrow": "Korzystasz z wersji beta. <a>Prześlij opinię</a>",
+    "checkConnectionForBuildInfo": "Sprawdź połączenie internetowe drukarki, aby zobaczyć bieżące i zakolejkowane budowy.",
+    "cookiePolicy": "Używamy plików cookie, aby poprawić jakość korzystania z witryny. Aby dowiedzieć się więcej, odwiedź naszą <cookie>Politykę plików cookie</cookie> i <privacy>Oświadczenie o prywatności</privacy>.",
+    "cookiePreferencesAllowed": "Zezwoliłeś/aś na wszystkie pliki cookie, w tym analityczne i pomocnicze.",
+    "cookiePreferencesDenied": "Korzystasz wyłącznie z niezbędnych plików cookie.",
+    "filesRemovedAction": "Niedostępne: pliki potrzebne do wykonania tej czynności przekroczyły okres przechowywania i nie są już dostępne.",
+    "maintenanceMode": "Funnel będzie niedostępny {{startDate}}, w godzinach od {{startTime}} do {{endTime}}, w celu przeprowadzenia niezbędnej konserwacji.",
+    "maintenanceMode_multiDay": "Funnel będzie niedostępny od {{startDate}} {{startTime}} do {{endDate}} {{endTime}} w celu przeprowadzenia niezbędnej konserwacji.",
+    "maintenanceModeActive": "Funnel przechodzi zaplanowaną konserwację do {{endDate}} {{endTime}}.",
+    "noConnection": "Nie można połączyć, ponowna próba za {{time}}",
+    "noMatches": "Niestety, nie znaleziono żadnych wyników",
+    "noMatchesHelp": "Sprawdź, czy nie ma literówek, lub spróbuj użyć bardziej ogólnych słów\nEwentualnie skorzystaj z filtrów tabeli",
+    "noMatchesHelp_both": "Sprawdź, czy nie ma literówek, lub spróbuj użyć bardziej ogólnych słów\nEwentualnie zaktualizuj lub wyczyść filtry tabeli",
+    "noMatchesHelp_filtering": "Spróbuj zaktualizować lub wyczyścić filtry tabeli",
+    "noMatchesHelp_searching": "Sprawdź, czy nie ma literówek, lub spróbuj użyć bardziej ogólnych słów\nEwentualnie skorzystaj z filtrów tabeli",
+    "reconnecting": "Próba ponownego połączenia",
+    "reviewAndAgreeToPolicies": "Zanim będziesz kontynuować, musisz zapoznać się i zaakceptować <terms>Warunki korzystania z usługi</terms> oraz <privacy>Politykę prywatności</privacy>."
+  },
+  "notFoundPage": {
+    "message": "Sprawdź, czy w adresie strony nie ma literówek, lub skorzystaj z menu nawigacji w lewym górnym rogu",
+    "message_narrow": "Sprawdź, czy w adresie strony nie ma literówek, lub skorzystaj z menu nawigacji w lewym górnym rogu",
+    "message_wide": "Sprawdź, czy w adresie strony nie ma literówek, lub skorzystaj z przycisków nawigacji po lewej stronie",
+    "title": "Nie możemy znaleźć tej strony"
+  },
+  "notifications": {
+    "actions": {
+      "dismiss": "Odrzuć",
+      "inbox": "Skrzynka odbiorcza",
+      "reprintParts": "Wydrukuj części ponownie",
+      "requeueParts": "Ponownie zakolejkuj części",
+      "resend": "Wyślij ponownie",
+      "reviewGroup": "Przejrzyj grupę",
+      "reviewPart": "Przejrzyj część",
+      "reworkOffline": "Popraw offline",
+      "ungroup": "Rozgrupuj"
+    },
+    "clearAll": "Wyczyść wszystko",
+    "empty": "Brak powiadomień",
+    "requeuePartsConfirmation": "Czy na pewno chcesz ponownie zakolejkować części z tego zadania? Spowoduje to usunięcie bieżącego zadania i utworzenie nowych części w skrzynce odbiorczej.",
+    "settings": {
+      "label": "Pokazuj powiadomienia w czasie rzeczywistym o częściach, grupach, zadaniach i urządzeniach wymagających uwagi.",
+      "title": "Powiadomienia"
+    },
+    "title": "Powiadomienia",
+    "types": {
+      "deviceOffline": {
+        "body_one": "{{name}} jest offline",
+        "body_other": "Wiele drukarek jest offline",
+        "title": "Drukarka offline"
+      },
+      "groupTooLarge": {
+        "body_one": "{{name}} jest zbyt duża, aby wydrukować razem",
+        "body_other": "Wiele grup jest zbyt dużych, aby wydrukować razem",
+        "title": "Grupa zbyt duża"
+      },
+      "nestingFailed": {
+        "body_one": "Nie można zagnieździć {{name}}",
+        "body_other": "Nie można zagnieździć wielu zadań",
+        "title": "Zagnieżdżanie zadania nie powiodło się"
+      },
+      "orientationFailed": {
+        "body_one": "Nie można zorientować {{name}}",
+        "body_other": "Nie można zorientować wielu części",
+        "title": "Orientacja części nie powiodła się"
+      },
+      "partTooLarge": {
+        "body_one": "{{name}} jest zbyt duża, aby wydrukować",
+        "body_other": "Wiele części jest zbyt dużych, aby wydrukować",
+        "title": "Część zbyt duża"
+      },
+      "printerError": {
+        "body_one": "{{buildName}} nie powiodło się podczas drukowania.\n\nSprawdź ekran drukarki, aby uzyskać więcej informacji.",
+        "body_other": "Wiele wydruków nie powiodło się.\n\nSprawdź ekran drukarki, aby uzyskać więcej informacji.",
+        "title": "Drukowanie nie powiodło się"
+      },
+      "sendingFailed": {
+        "body_one": "Nie udało się wysłać zadania #{{name}}",
+        "body_other": "Nie udało się wysłać wielu zadań",
+        "title": "Wysyłanie zadania nie powiodło się"
+      },
+      "slicingFailed": {
+        "body_one": "Nie udało się pociąć zadania #{{name}} na warstwy",
+        "body_other": "Nie udało się pociąć wielu zadań na warstwy",
+        "title": "Cięcie zadania na warstwy nie powiodło się"
+      },
+      "supportsFailed": {
+        "body_one": "Nie udało się wygenerować podpór dla zadania #{{name}}",
+        "body_other": "Nie udało się wygenerować podpór dla wielu zadań",
+        "title": "Generowanie podpór zadania nie powiodło się"
+      }
+    }
+  },
+  "progressStatus": {
+    "acceptPartForPrinting": {
+      "name": "Zaakceptuj część do druku",
+      "tooltip": {
+        "part": "Część zostanie przedstawiona do przeglądu w celu potwierdzenia typu i ustawień szablonu, które zostaną użyte."
+      }
+    },
+    "addingToProvisionalJob": {
+      "name": "Dodawanie do zadania tymczasowego",
+      "tooltip": {
+        "default": "Część jest zagnieżdżana w zadaniu tymczasowym."
+      }
+    },
+    "approvePrintJob": {
+      "name": "Zatwierdź zadanie druku",
+      "tooltip": {
+        "default": "Zadanie druku zostanie przedstawione do przeglądu, aby można było sprawdzić układ części i podpory przed zatwierdzeniem zadania druku do drukowania."
+      }
+    },
+    "cancelled": {
+      "name": "Druk anulowany",
+      "tooltip": {
+        "default": "Zadanie druku zostało anulowane przed zakończeniem lub usunięte z kolejki budowy."
+      }
+    },
+    "failedToPrint": {
+      "name": "Drukowanie nie powiodło się",
+      "tooltip": {
+        "default": "Zadanie druku nie powiodło się.\n\nSprawdź ekran drukarki, aby uzyskać więcej informacji."
+      }
+    },
+    "generatingSupports": {
+      "name": "Generowanie podpór",
+      "tooltip": {
+        "job": "Układ tymczasowego zadania został sfinalizowany, a warstwy druku są przygotowywane.",
+        "part": "Podpory są dodawane do tymczasowego zadania, zanim zostanie ono sfinalizowane, aby użytkownik mógł je zatwierdzić do druku."
+      }
+    },
+    "groupTooLarge": {
+      "name": "Grupa zbyt duża",
+      "tooltip": {
+        "part": "Grupa, do której należy część, jest zbyt duża, aby ją wydrukować. Spróbuj rozgrupować części."
+      }
+    },
+    "identifiedPartType": {
+      "name": "Typ części zidentyfikowany",
+      "tooltip": {
+        "part": "Typ części został zidentyfikowany, co wpływa na to, które szablony można wybrać i jak część zostanie później zorientowana."
+      }
+    },
+    "identifyingPartType": {
+      "name": "Identyfikowanie typu części",
+      "tooltip": {
+        "part": "Analizowanie geometrii części w celu identyfikacji jej typu."
+      }
+    },
+    "invalidGeometry": {
+      "name": "Nieprawidłowa geometria",
+      "tooltip": {
+        "part": "Nie można przetworzyć części, ponieważ jej geometria jest nieprawidłowa.\n\nSpróbuj naprawić model i przesłać go ponownie."
+      }
+    },
+    "invalidModel": {
+      "name": "Nieprawidłowy model",
+      "tooltip": {
+        "part": "Nie można przetworzyć części, ponieważ przesłany plik nie jest modelem.\n\nSprawdź, czy plik nie jest uszkodzony, i prześlij go ponownie."
+      }
+    },
+    "nestedInJob": {
+      "name": "Zadanie druku utworzone",
+      "tooltip": {
+        "job": "Zadanie druku zostało utworzone.",
+        "part": "Część została dodana do zadania druku."
+      }
+    },
+    "nestedInProvisionalJob": {
+      "name": "Zagnieżdżone w zadaniu tymczasowym",
+      "tooltip": {
+        "job": "Zadanie jest w stanie tymczasowym i zostanie sfinalizowane, gdy:<ul><li>dodane zostaną kolejne części wypełniające zadanie</li><li>odpowiednia drukarka będzie wkrótce dostępna do jego wydrukowania</li></ul>Zadanie można również ręcznie awansować do stanu sfinalizowanego.",
+        "part": "Część została zagnieżdżona w zadaniu tymczasowym. Zostanie ono sfinalizowane, gdy:<ul><li>dodane zostaną kolejne części wypełniające zadanie, oraz</li><li>Odpowiednia drukarka będzie wkrótce dostępna do jego wydrukowania</li></ul>"
+      }
+    },
+    "nestingBlocked": {
+      "name": "Nie można dodać do zadania tymczasowego",
+      "tooltip": {
+        "allDevicesExcludedFromFunnel": "Kompatybilne drukarki zostały wykluczone z przyjmowania zadań z Funnel.\n\nWłącz te drukarki do automatycznych zadań druku lub zaktualizuj szablon, aby korzystał z innych drukarek.",
+        "allDevicesOfflineOrExcluded": "Żadna kompatybilna drukarka nie jest online ani nie przyjmuje zadań druku z Funnel.\n\nSprawdź, czy drukarki są podłączone i włączone do automatycznych zadań druku, lub zaktualizuj szablon, aby korzystał z innych podłączonych drukarek.",
+        "groupMemberFailed": "Jedna lub więcej części w grupie nie przeszło orientacji.\n\nUsuń część(-ci), której(-ych) to dotyczy, aby wydrukować tę grupę.",
+        "groupMembersProcessing": "Jedna lub więcej części w tej grupie jest wciąż orientowanych.",
+        "noAvailableDevices": "Żadna kompatybilna drukarka nie jest online, aby wydrukować tę część.\n\nSprawdź, czy drukarki są podłączone, lub zaktualizuj szablon, aby korzystał z innych podłączonych drukarek."
+      }
+    },
+    "nestingFailed": {
+      "name": "Zagnieżdżanie nie powiodło się",
+      "tooltip": {
+        "default": "Zagnieżdżanie części nie powiodło się.\nMoże to być spowodowane problemami z plikiem części."
+      }
+    },
+    "nestPrintJob": {
+      "name": "Zagnieźdź zadanie druku",
+      "tooltip": {
+        "part": "Część zostanie dodana do zadania tymczasowego razem z innymi częściami korzystającymi z tego samego szablonu. Następnie zostaną one rozmieszczone na platformie."
+      }
+    },
+    "orientatePart": {
+      "name": "Orientowanie części",
+      "tooltip": {
+        "part": "Orientacja części zostanie zoptymalizowana na podstawie jej typu, przed zagnieżdżeniem w zadaniu druku."
+      }
+    },
+    "orientatingPart": {
+      "name": "Orientowanie części",
+      "tooltip": {
+        "part": "Część jest obecnie orientowana na podstawie jej typu."
+      }
+    },
+    "orientationFailed": {
+      "name": "Orientacja nie powiodła się",
+      "tooltip": {
+        "part": "Nie udało się poprawnie zorientować części do druku.\nMoże to być spowodowane problemami z plikiem części."
+      }
+    },
+    "partAccepted": {
+      "name": "Część zaakceptowana",
+      "tooltip": {
+        "part": "Część została zaakceptowana do druku."
+      }
+    },
+    "partIdentification": {
+      "name": "Identyfikacja części"
+    },
+    "partOrientated": {
+      "name": "Część zorientowana",
+      "tooltip": {
+        "part": "Część została pomyślnie zorientowana do druku."
+      }
+    },
+    "partRejected": {
+      "name": "Część odrzucona",
+      "tooltip": {
+        "part": "Część została odrzucona przez użytkownika."
+      }
+    },
+    "partTooLarge": {
+      "name": "Część zbyt duża",
+      "tooltip": {
+        "part": "Część jest zbyt duża, aby zmieściła się na drukarce powiązanej z szablonem części.\n\nSprawdź skalę przesłanej części oraz czy szablon części ma przypisaną drukarkę wystarczająco dużą, aby ją pomieścić."
+      }
+    },
+    "print": {
+      "name": "Drukuj",
+      "tooltip": {
+        "default": "Zadanie druku zostanie wysłane do urządzenia, na którym zostanie wydrukowane."
+      }
+    },
+    "printed": {
+      "name": "Wydrukowano",
+      "tooltip": {
+        "default": "Zadanie zostało pomyślnie zakończone."
+      }
+    },
+    "printing": {
+      "name": "Drukowanie",
+      "tooltip": {
+        "default": "Zadanie jest obecnie drukowane."
+      }
+    },
+    "printJobApproved": {
+      "name": "Zadanie druku zatwierdzone",
+      "tooltip": {
+        "default": "Zadanie druku zostało zatwierdzone."
+      }
+    },
+    "printJobPendingApproval": {
+      "name": "Zadanie druku oczekuje na zatwierdzenie",
+      "tooltip": {
+        "default": "Sfinalizowane zadanie jest gotowe do przeglądu."
+      }
+    },
+    "printJobRejected": {
+      "name": "Zadanie druku odrzucone",
+      "tooltip": {
+        "default": "Zadanie zostało odrzucone, a części zostały ponownie zakolejkowane."
+      }
+    },
+    "printJobReworkedOffline": {
+      "name": "Zadanie druku poprawione offline",
+      "tooltip": {
+        "default": "Zadanie druku zostało pobrane przez użytkownika w celu edycji w programie Composer."
+      }
+    },
+    "printPaused": {
+      "name": "Druk wstrzymany",
+      "tooltip": {
+        "default": "Zadanie druku zostało wstrzymane przez użytkownika."
+      }
+    },
+    "printPending": {
+      "name": "Druk oczekujący",
+      "tooltip": {
+        "default": "Zadanie znajduje się na drukarce i jest gotowe do druku."
+      }
+    },
+    "sendingFailed": {
+      "name": "Wysyłanie nie powiodło się",
+      "tooltip": {
+        "default": "Zadanie druku nie powiodło się podczas wysyłania do drukarki.\n\nPrzyczyną może być przejście drukarki w tryb offline lub pełna kolejka budowy przy niewystarczającej ilości pamięci."
+      }
+    },
+    "sendingToPrinter": {
+      "name": "Wysyłanie do drukarki",
+      "tooltip": {
+        "default": "Warstwy druku są wysyłane do drukarki."
+      }
+    },
+    "sendToPrinter": {
+      "name": "Wyślij do drukarki",
+      "tooltip": {
+        "default": "Zadanie druku zostanie pocięte na osobne warstwy i wysłane do drukarki w celu wydrukowania."
+      }
+    },
+    "sentToPrinter": {
+      "name": "Wysłano do drukarki",
+      "tooltip": {
+        "default": "Zadanie druku znajduje się na drukarce i jest gotowe do druku."
+      }
+    },
+    "slicingFailed": {
+      "name": "Cięcie na warstwy nie powiodło się",
+      "tooltip": {
+        "default": "Zadanie druku nie powiodło się podczas przygotowywania warstw druku.\n\nMoże to być spowodowane problemami z plikami części."
+      }
+    },
+    "slicingPrintJob": {
+      "name": "Cięcie zadania druku na warstwy",
+      "tooltip": {
+        "default": "Warstwy druku są przygotowywane."
+      }
+    },
+    "uploadTooLarge": {
+      "name": "Przesyłany plik zbyt duży",
+      "tooltip": {
+        "part": "Przesłany plik jest zbyt duży.\n\nSpróbuj zmniejszyć rozmiar pliku i przesłać go ponownie."
+      }
+    },
+    "waitingForPartToBeAccepted": {
+      "name": "Zaakceptuj część do druku",
+      "tooltip": {
+        "part": "Część oczekuje na akceptację użytkownika."
+      }
+    }
+  },
+  "relativeTime": {
+    "daysAgo_one": "{{count}} dzień temu",
+    "daysAgo_other": "{{count}} dni temu",
+    "hoursAgo_one": "{{count}} godzinę temu",
+    "hoursAgo_other": "{{count}} godzin temu",
+    "justNow": "Przed chwilą",
+    "minutesAgo_one": "{{count}} minutę temu",
+    "minutesAgo_other": "{{count}} minut temu",
+    "weeksAgo_one": "{{count}} tydzień temu",
+    "weeksAgo_other": "{{count}} tygodni temu"
+  },
+  "share": {
+    "notFound": "Nie można znaleźć udostępnionego elementu"
+  },
+  "table": {
+    "activeFilters": "Aktywne filtry:",
+    "clearFilters": "Wyczyść filtry",
+    "expandRow": "Rozwiń wiersz",
+    "pageAmount": "Ilość",
+    "perPage": "Na stronę"
+  },
+  "title": {
+    "cookiePolicy": "Polityka plików cookie",
+    "help": "Wyświetl pomoc",
+    "integrations": "Integracje",
+    "language": "Język",
+    "manage": "Zarządzaj",
+    "manageSubscription": "Zarządzaj subskrypcją",
+    "name": "Wyświetlana nazwa",
+    "organisation": "Organizacja",
+    "photo": "Zdjęcie",
+    "privacy": "Prywatność",
+    "privacyPolicy": "Polityka prywatności",
+    "profile": "Profil",
+    "subscriptionOptions": "Opcje subskrypcji",
+    "tableOfContents": "Spis treści",
+    "templates": "Szablony",
+    "termsAndPolicy": "Warunki i zasady",
+    "termsOfService": "Warunki korzystania z usługi",
+    "warning": "Ostrzeżenie"
+  },
+  "underConstruction": {
+    "subtitle1": "Tworzymy coś wyjątkowego",
+    "subtitle2": "Zajrzyj tu później"
+  },
+  "units": {
+    "microns": "{{value}} μm",
+    "suffix": {
+      "degrees": " °",
+      "millimetres": " mm"
+    }
+  }
+}

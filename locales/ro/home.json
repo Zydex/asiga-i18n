@@ -1,0 +1,31 @@
+{
+  "emptyState": {
+    "message": "Această pagină afișează statistici despre piese, imprimante și consumul de materiale\n\nConectați o imprimantă, adăugați piese și trimiteți sarcini de printare pentru a vedea date aici",
+    "title": "Bine ați venit acasă"
+  },
+  "label": {
+    "jobs": "Sarcini",
+    "overview": "Vedere de ansamblu",
+    "parts": "Piese"
+  },
+  "metrics": {
+    "jobsPrinted": "Sarcini printate",
+    "jobsToAccept": "Sarcini de acceptat",
+    "partsAccepted": "Piese acceptate",
+    "partsPerTemplate": "Piese per șablon",
+    "partsPrinted": "Piese printate",
+    "partsToApprove": "Piese de acceptat",
+    "partTypes": "Tipuri de piese",
+    "tooltips": {
+      "jobsPrinted": "Numărul total de sarcini printate în intervalul de date specificat",
+      "jobsPrintedPerDay": "Numărul total de sarcini printate pe zi în intervalul de date specificat",
+      "jobsToAccept": "Numărul total de sarcini care necesită acceptare înainte de printare",
+      "partsAccepted": "Piesele care au fost acceptate contează pentru limita de cotă a abonamentului dumneavoastră",
+      "partsPerTemplate": "Numărul total de piese create per șablon în intervalul de date specificat",
+      "partsPrinted": "Numărul total de piese printate în intervalul de date specificat",
+      "partsPrintedPerDay": "Numărul total de piese printate pe zi în intervalul de date specificat",
+      "partsToApprove": "Numărul total de piese care necesită acceptare înainte de printare",
+      "partTypes": "Numărul total de piese create per tip de piesă în intervalul de date specificat"
+    }
+  }
+}

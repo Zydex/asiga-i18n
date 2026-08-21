@@ -1,0 +1,31 @@
+{
+  "emptyState": {
+    "message": "Cette page affiche des statistiques sur les pièces, les imprimantes et l'utilisation des matériaux\n\nConnectez une imprimante, ajoutez des pièces et envoyez des travaux d'impression pour afficher des données ici",
+    "title": "Bienvenue chez vous"
+  },
+  "label": {
+    "jobs": "Travaux",
+    "overview": "Aperçu",
+    "parts": "Pièces"
+  },
+  "metrics": {
+    "jobsPrinted": "Travaux imprimés",
+    "jobsToAccept": "Travaux à accepter",
+    "partsAccepted": "Pièces acceptées",
+    "partsPerTemplate": "Pièces par modèle",
+    "partsPrinted": "Pièces imprimées",
+    "partsToApprove": "Pièces à accepter",
+    "partTypes": "Types de pièces",
+    "tooltips": {
+      "jobsPrinted": "Nombre total de travaux imprimés au cours de la période spécifiée",
+      "jobsPrintedPerDay": "Nombre total de travaux imprimés par jour au cours de la période spécifiée",
+      "jobsToAccept": "Nombre total de travaux nécessitant une acceptation avant l'impression",
+      "partsAccepted": "Les pièces qui ont été acceptées comptent dans votre quota d'abonnement",
+      "partsPerTemplate": "Nombre total de pièces créées par modèle au cours de la période spécifiée",
+      "partsPrinted": "Nombre total de pièces imprimées au cours de la période spécifiée",
+      "partsPrintedPerDay": "Nombre total de pièces imprimées par jour au cours de la période spécifiée",
+      "partsToApprove": "Nombre total de pièces nécessitant une acceptation avant l'impression",
+      "partTypes": "Nombre total de pièces créées par type de pièce au cours de la période spécifiée"
+    }
+  }
+}

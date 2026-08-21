@@ -1,0 +1,43 @@
+{
+  "approvals": {
+    "jobs": {
+      "message": "Quando ativado, as tarefas de impressão são aceites automaticamente e enviadas para uma impressora.",
+      "title": "Aceitar tarefas automaticamente"
+    },
+    "parts": {
+      "message": "Quando ativado, as peças com um template são aceites automaticamente para fabrico.",
+      "title": "Aceitar peças automaticamente"
+    },
+    "title": "Aprovações",
+    "tooltips": {
+      "editPermission": "Não tem permissão para atualizar as definições de aprovação. Peça a um Administrador ou Proprietário da sua organização para fazer alterações"
+    }
+  },
+  "autoPartGrouping": {
+    "label": {
+      "characterPosition": "Posição do carácter",
+      "characterRange": "Intervalo de carateres",
+      "example": "Exemplo",
+      "fromEnd": "Do fim",
+      "fromStart": "Do início",
+      "grouping": "Agrupamento automático",
+      "grouping_off": "Agrupamento automático desativado",
+      "grouping_on": "Agrupamento automático ativado",
+      "startingCharacterPosition": "Posição inicial do carácter"
+    },
+    "message": "Faça com que as peças sejam agrupadas automaticamente para serem impressas em conjunto na mesma tarefa. Configure o intervalo de carateres correspondentes para se alinhar com uma convenção que utiliza.",
+    "title": "Agrupamento automático de peças",
+    "tooltips": {
+      "characterPosition": "Especifique o carácter a corresponder em relação ao início do nome da peça carregada, ou ao fim do nome da peça carregada. Útil se os números de encomenda aparecerem no início ou no fim do nome da peça carregada.",
+      "characterRange": "Especifique o número de carateres que pretende corresponder.",
+      "editPermission": "Não tem permissão para atualizar as definições de agrupamento automático. Peça a um Administrador ou Proprietário da sua organização para fazer alterações",
+      "startingCharacterPosition": "Quantos espaços de carateres a partir do início ou do fim pretende que o intervalo comece. Útil se os números de encomenda aparecerem no meio de um nome."
+    }
+  },
+  "label": {
+    "rules": "Regras"
+  },
+  "tooltips": {
+    "rules": "Definições que afetam a forma como as peças e as tarefas de impressão são processadas no Funnel da sua organização."
+  }
+}

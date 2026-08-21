@@ -1,0 +1,16 @@
+{
+  "label": {
+    "allMachines": "Toutes les machines",
+    "noDevices": "Les tâches en file d'attente pour vos appareils sont affichées dans une chronologie sur cette page",
+    "noDevicesMessage": "Utilisez le bouton ci-dessous pour ajouter des appareils à votre organisation",
+    "requiresAttention": "Nécessite une attention"
+  },
+  "title": {
+    "timeline": "Chronologie"
+  },
+  "tooltips": {
+    "allMachines": "Affiche tous les appareils ajoutés au Funnel ainsi que leurs tâches en file d'attente."
+  },
+  "viewHours_one": "Vue d'1 heure",
+  "viewHours_other": "Vue de {{count}} heures"
+}

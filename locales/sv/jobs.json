@@ -1,0 +1,158 @@
+{
+  "button": {
+    "download": "Ladda ner",
+    "exportReportPdf": "Exportera PDF",
+    "moveOffline": "Omarbeta offline",
+    "promoteJob": "Befordra jobb",
+    "reprint": "Skriv ut igen",
+    "reprintParts": "Skriv ut delar igen",
+    "requeueParts": "Köa delar igen",
+    "resendJob": "Skicka jobb igen",
+    "reshuffle": "Blanda om"
+  },
+  "details": {
+    "basePlate": "Inställningar för basplatta",
+    "currentJob": "Aktuellt jobb",
+    "currentParts": "Aktuella delar",
+    "jobInformation": "Jobbinformation",
+    "parts": "Delar"
+  },
+  "label": {
+    "accepted": "Accepterad",
+    "buildAreaUsage": "Användning av byggyta",
+    "estimatedMaterial": "Uppskattat material",
+    "estimatedPrintTime": "Uppskattad utskriftstid",
+    "external": "Extern",
+    "jobContainsPriorityParts": "Jobbet innehåller prioriterade delar",
+    "jobsTab": "Jobbflikar",
+    "layerThickness": "Lagertjocklek",
+    "material": "Material",
+    "partName": "Delnamn",
+    "partType": "Deltyp",
+    "provisional": "Preliminär",
+    "rejected": "Avvisad",
+    "reprintParts": "Skriva ut delar från detta jobb igen?",
+    "reprintPartsNoneAvailable": "Alla delar skrivs ut igen",
+    "requeuedPartsSuccess": "Delarna har framgångsrikt köats igen",
+    "requeuedPartsSuccess_one": "Delen har framgångsrikt köats igen",
+    "requeuedPartsSuccess_other": "Delarna har framgångsrikt köats igen",
+    "requeuingParts": "Köar delar igen",
+    "search": "Sök efter jobb",
+    "source": "Källa",
+    "targetDevice": "Målenhet",
+    "template": "Mall",
+    "toReview": "Att granska",
+    "trayType": "Bricktyp"
+  },
+  "message": {
+    "deviceOffline": "Det här jobbet skickas inte förrän skrivaren är online igen.\n\nKontrollera att {{device}} är online och har en aktiv internetanslutning.",
+    "deviceOffline_one": "Det här jobbet skickas inte förrän skrivaren är online igen.\n\nKontrollera att {{device}} är online och har en aktiv internetanslutning.",
+    "deviceOffline_other": "De här jobben skickas inte förrän varje skrivare är online igen.\n\nKontrollera att skrivarna är online och har en aktiv internetanslutning.",
+    "downloadInfo": "Alternativt kan utskriftsjobbet laddas ner för redigering i Composer.",
+    "moveOffline": "Detta kommer att avvisa jobbet och ladda ner det för redigering i composer.",
+    "moveOffline_one": "Detta kommer att avvisa det valda jobbet och ladda ner det för redigering i composer.",
+    "moveOffline_other": "Detta kommer att avvisa de valda jobben och ladda ner dem för redigering i composer.",
+    "noJobsToReview": "Preliminära jobb som har befordrats visas här. Ladda upp delar i inkorgen för att komma igång.",
+    "noParts": "Detta jobb har inga delar.",
+    "noPartsToReprint": "Delar i detta jobb har redan köats igen för att skrivas ut på nytt.",
+    "rejectInfo": "Att trycka på 'Blanda om' innebär att delarnas position och rotation varieras som en del av ett nytt utskriftsjobb. Vissa delar kan tas bort eller läggas till under omblandningen.",
+    "reprintParts": "Valda delar kommer att prioriteras för utskrift på nytt som en del av nästa lämpliga utskriftsjobb.",
+    "reprintPartsKey": "Delar i grått har redan skrivits ut på nytt.",
+    "requeueParts": "Detta kommer att markera jobbet som avvisat och flytta tillbaka alla delar i jobbet till kön.",
+    "reworkOffline_one": "Utskriftsjobb <bold>#{{id}}</bold> markerat som <bold>Omarbetat offline</bold>",
+    "reworkOffline_other": "{{count}} utskriftsjobb markerade som <bold>Omarbetade offline</bold>",
+    "submittingJob": "Skickar in #{{id}}",
+    "submittingJob_device": "Skickar in  <bold>#{{id}}</bold> till <bold>{{device}}</bold>"
+  },
+  "status": {
+    "awaitingApproval": {
+      "name": "Väntar på godkännande",
+      "tooltip": "Det slutförda jobbet är redo att granskas."
+    },
+    "cancelled": {
+      "name": "Avbruten",
+      "tooltip": "Utskriftsjobbet har avbrutits innan det slutfördes eller tagits bort från byggkön."
+    },
+    "failed": {
+      "name": "Misslyckades",
+      "tooltip": "Utskriftsjobbet har misslyckats.\n\nSe skrivarens skärm för mer information."
+    },
+    "generating": {
+      "name": "Färdigställer utskriftsjobb",
+      "tooltip": "Den preliminära jobblayouten har slutförts och utskriftslagren förbereds."
+    },
+    "nestingFailed": {
+      "name": "Nästning misslyckades",
+      "tooltip": "Nästningen av delar har misslyckats. Detta kan orsakas av problem med en eller flera av delfilerna."
+    },
+    "offline": {
+      "name": "Omarbetad offline",
+      "tooltip": "Jobbet laddades ner för att redigeras och skickas i Composer."
+    },
+    "paused": {
+      "name": "Pausad",
+      "tooltip": "Utskriftsjobbet har pausats på skrivaren."
+    },
+    "printed": {
+      "name": "Utskriven",
+      "tooltip": "Jobbet har slutförts framgångsrikt."
+    },
+    "printing": {
+      "name": "Skriver ut",
+      "tooltip": "Jobbet skrivs ut för närvarande."
+    },
+    "printPending": {
+      "name": "Utskrift väntar",
+      "tooltip": "Jobbet finns på skrivaren och är redo att skrivas ut."
+    },
+    "provisional": {
+      "name": "Preliminär",
+      "tooltip": "Jobbet är i ett preliminärt tillstånd och kommer att slutföras när:\n<ul><li>fler delar läggs till för att fylla jobbet</li><li>en lämplig skrivare snart blir tillgänglig för att skriva ut det</li></ul>Jobbet kan också manuellt befordras till ett slutfört tillstånd."
+    },
+    "rejected": {
+      "name": "Avvisad",
+      "tooltip": "Jobbet avvisades och delarna har köats igen."
+    },
+    "sendingFailed": {
+      "name": "Sändning misslyckades",
+      "tooltip": "Utskriftsjobbet misslyckades vid sändning till skrivaren.\n\nDetta kan orsakas av att skrivaren gick offline eller att byggkön är full med otillräckligt minne kvar."
+    },
+    "sendingToPrinter": {
+      "name": "Skickar till skrivare",
+      "tooltip": "Utskriftslagren skickas till skrivaren."
+    },
+    "slicing": {
+      "name": "Skiktar utskriftsjobb",
+      "tooltip": "Utskriftslagren förbereds."
+    },
+    "slicingFailed": {
+      "name": "Skiktning misslyckades",
+      "tooltip": "Utskriftsjobbet har misslyckats under förberedelsen av utskriftslagren.\n\nDetta kan orsakas av problem med delfilerna."
+    }
+  },
+  "title": {
+    "device": "Enhet",
+    "deviceOffline": "{{device}} är offline",
+    "deviceOffline_one": "{{device}} är offline",
+    "deviceOffline_other": "Flera skrivare är offline",
+    "jobNumber": "Jobbnummer",
+    "material": "Material",
+    "moveOffline": "Omarbeta jobbet offline?",
+    "moveOffline_one": "Omarbeta jobbet offline?",
+    "moveOffline_other": "Omarbeta jobben offline?",
+    "noJobsAccepted": "Inga jobb accepterade",
+    "noJobsRejected": "Inga jobb avvisade",
+    "noJobsToReview": "Inga jobb att granska",
+    "printJobs": "Utskriftsjobb",
+    "rejectJob": "Blanda om avvisat jobb?",
+    "requeueParts": "Köa delar igen?",
+    "status": "Status"
+  },
+  "tooltips": {
+    "accepted": "Alla jobb som har accepterats visas här, tillsammans med deras status.",
+    "provisional": "Detta visar de förväntade kommande jobben baserat på skrivartillgänglighet, mallkompatibilitet och outskrivna delar i Funnel.\n\nAtt befordra dem skapar ett slutfört utskriftsjobb som inkluderar de identifierade delarna, layouten och målskrivaren. När utskriftsstöd har genererats för slutförda jobb visas de på fliken 'Att granska'.",
+    "rejected": "Alla jobb som har avvisats visas här.",
+    "resendJob": "Skicka ett jobb till en skrivare igen. Detta kan vara användbart om jobbet avbröts eller om enheten stötte på ett fel.",
+    "toReview": "Utskriftsjobb som är redo att granskas visas här. Acceptera dem för att skicka till skrivaren."
+  }
+}

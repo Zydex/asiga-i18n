@@ -1,0 +1,39 @@
+{
+  "alt": {
+    "noApps": "Sem Aplicações Associadas"
+  },
+  "button": {
+    "apps": "Aplicações"
+  },
+  "label": {
+    "search": "Pesquisar aplicações"
+  },
+  "message": {
+    "noApps": "Sem Aplicações Associadas",
+    "noAppsInfo": "As aplicações associadas serão listadas aqui. Utilize o botão 'Aplicações' abaixo para ver as aplicações disponíveis que podem ser associadas.",
+    "unlink": "A sua organização deixará de receber peças da aplicação.",
+    "unlink_one": "A sua organização deixará de receber peças da aplicação.",
+    "unlink_other": "A sua organização deixará de receber peças das aplicações.",
+    "unlink_name_one": "A sua organização deixará de receber peças de {{name}}.",
+    "unlink_nameOrg_one": "{{org}} deixará de receber peças de {{name}}.",
+    "unlink_org_other": "{{org}} deixará de receber peças das aplicações.",
+    "unlinkParts": "As peças já recebidas permanecerão na sua organização.",
+    "unlinkParts_org": "As peças já recebidas permanecerão em {{org}}."
+  },
+  "title": {
+    "apps": "Aplicações",
+    "connectedApps": "Aplicações Ligadas",
+    "lastUsed": "Última Utilização",
+    "linked": "Associada",
+    "name": "Nome",
+    "never": "Nunca",
+    "unlink": "Desassociar Aplicação?",
+    "unlink_name": "Desassociar {{name}}?",
+    "unlink_one": "Desassociar Aplicação?",
+    "unlink_other": "Desassociar Aplicações?"
+  },
+  "tooltips": {
+    "apps": "Lista todas as aplicações que o Funnel suporta. Utilize-as para receber automaticamente peças de serviços de terceiros.",
+    "connectedApps": "Lista todas as aplicações que têm permissão para enviar peças para o Funnel."
+  }
+}

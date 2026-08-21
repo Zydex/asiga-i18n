@@ -1,0 +1,238 @@
+{
+  "basePlate": {
+    "addTo": {
+      "enum": {
+        "allParts": "Toutes les pièces",
+        "supportedParts": "Pièces prises en charge"
+      },
+      "label": "Ajouter le plateau de base à",
+      "tooltip": "Ajoutez un plateau de base aux pièces prises en charge, ou à toutes les pièces."
+    },
+    "enabled": {
+      "label": "Plateau de base",
+      "tooltip": "Activer la génération du plateau de base"
+    },
+    "engraved": {
+      "label": "Ajouter le nom du build au plateau de base",
+      "tooltip": "Ajoutez le nom du build et la résolution XYZ en µm sur le plateau de base."
+    },
+    "meshShape": {
+      "enum": {
+        "hexagon": "Hexagone",
+        "none": "Aucun",
+        "square": "Carré",
+        "triangle": "Triangle"
+      },
+      "label": "Forme du maillage",
+      "tooltip": "Sélectionner une forme autre que Aucun ajoutera un motif de trous dans le plateau de base selon la forme sélectionnée."
+    },
+    "meshSize": {
+      "label": "Taille du maillage",
+      "tooltip": "Le diamètre des trous dans le plateau de base."
+    },
+    "meshWidth": {
+      "label": "Largeur du maillage",
+      "tooltip": "Épaisseur des parois entre les trous."
+    },
+    "placement": {
+      "enum": {
+        "intersecting": "Intersection",
+        "underneath": "En dessous"
+      },
+      "label": "Placement",
+      "tooltip": "Le placement du plateau de base par rapport à chaque pièce et ses supports.\n<ul><li>En dessous - déplace les pièces et supports vers le haut, et place le plateau de base en dessous.</li><li>Intersection - fait intersecter le plateau de base avec le bas de la pièce ou de son support.</li></lu>"
+    },
+    "thickness": {
+      "label": "Épaisseur",
+      "tooltip": "Épaisseur du plateau de base en millimètres."
+    },
+    "type": {
+      "enum": {
+        "boundingBox": "Boîte englobante",
+        "full": "Complet",
+        "shadow": "Ombre"
+      },
+      "label": "Type",
+      "tooltip": "Type de plateau de base :\n<ul><li>Complet - recouvre toute la plateforme avec un plateau de base</li><li>Ombre - recouvre les zones directement sous les pièces.</li><li>Boîte englobante - recouvre les limites de chaque pièce.</li></ul>"
+    }
+  },
+  "button": {
+    "editBasePlateSettings": "Modifier..."
+  },
+  "label": {
+    "associatedPartType": "Type de pièce associé",
+    "associatedWith": "Associé à",
+    "basePlateSettings": "Paramètres du plateau de base",
+    "default": "Par défaut",
+    "deleted": "Modèle supprimé",
+    "deleteSuccess_one": "{{count}} modèle supprimé",
+    "deleteSuccess_other": "{{count}} modèles supprimés",
+    "enabled": "Activé",
+    "fastPrintMode": "Mode d'impression rapide",
+    "manufacturer": "Fabricant",
+    "material": "Matériau",
+    "materialName": "Nom du matériau",
+    "outdated": "Modèle obsolète",
+    "overrideMaterialSettings": "La saisie de valeurs dans ces champs remplacera les valeurs par défaut définies par le matériau.",
+    "partType": "Type de pièce",
+    "partTypes_other": "{{count}} types de pièces",
+    "partTypes_other_one": "1 type de pièce",
+    "partTypes_other_other": "{{count}} types de pièces",
+    "printerAndTrayType": "Types d'imprimante et de bac",
+    "printerModel": "Modèle d'imprimante",
+    "search": "Rechercher des modèles",
+    "selectThickness": "Sélectionner l'épaisseur de couche",
+    "separationDetect": "Détection de séparation",
+    "supports": "Supports",
+    "templateName": "Nom du modèle",
+    "thickness": "Épaisseur de couche",
+    "tray": "Bac",
+    "trayType": "Type de bac"
+  },
+  "message": {
+    "changesApplyToNewParts": "Les pièces existantes seront mises à jour avec les nouveaux paramètres du modèle et remises en file d'attente pour l'impression.",
+    "deleteTemplateWarning": "Toutes les pièces utilisant ce modèle seront renvoyées dans la boîte de réception pour examen. Attribuez un nouveau modèle pour les imprimer, ou rejetez-les pour les retirer de l'entonnoir.",
+    "modifyWillAffectParts": "Les types de pièces associés utilisant ce modèle seront remis en file d'attente pour l'impression, et tout type de pièce retiré sera renvoyé dans la boîte de réception pour examen.",
+    "modifyWillRequeueParts": "Les pièces existantes seront mises à jour avec les nouveaux paramètres du modèle et remises en file d'attente pour l'impression.",
+    "noTemplates": "Aucun modèle",
+    "noTemplatesInfo": "Les modèles seront répertoriés ici. Utilisez le bouton « Créer » pour créer votre premier modèle."
+  },
+  "supportSettings": {
+    "accuracyZ": {
+      "label": "Précision Z",
+      "tooltip": "L'épaisseur de tranche utilisée pour générer automatiquement les structures et éviter toute intersection avec la pièce."
+    },
+    "aspectRatio": {
+      "label": "Rapport d'aspect",
+      "tooltip": "Contrôle le taux d'élargissement des structures de support."
+    },
+    "connectGap": {
+      "label": "Écart de connexion",
+      "tooltip": "Nombre de niveaux de treillis pour supprimer la connexion après qu'une connexion verticale a été trouvée (disponible)."
+    },
+    "connection": {
+      "label": "Connexion",
+      "tooltip": "Nombre de nœuds à connecter au niveau de treillis inférieur. Définir cette valeur à 0 créera des supports flexibles."
+    },
+    "contactWidth": {
+      "label": "Largeur de contact",
+      "tooltip": "Pour les supports par défaut : largeur de la structure de support au contact de la pièce.\n\nPour les supports en treillis : largeur de la bille de contact au contact de la pièce."
+    },
+    "halfContactWidth": {
+      "label": "Demi-largeur de contact",
+      "tooltip": "Réessayer d'ajouter des points de contact avec la moitié de la largeur."
+    },
+    "heightLevel": {
+      "label": "Niveau de hauteur",
+      "toggle": "Mise à niveau de la hauteur",
+      "tooltip": "Appliquer une marge Z entre les pièces et la plateforme."
+    },
+    "islandWidth": {
+      "label": "Largeur d'îlot",
+      "tooltip": "Pour les supports par défaut : largeur de la structure de support lors du premier contact avec la pièce.\n\nPour les supports en treillis : largeur de la bille de contact lors du premier contact pour chaque corps de pièce."
+    },
+    "lattice": {
+      "label": "Treillis",
+      "tooltip": "Activer les supports en treillis. Les supports en treillis génèrent un réseau interconnecté de poutres de soutien autour du modèle."
+    },
+    "layout": {
+      "enum": {
+        "circle": "Cercle",
+        "hexagon": "Hexagone",
+        "square": "Carré",
+        "triangle": "Triangle"
+      },
+      "label": "Disposition",
+      "tooltip": "Comment les nœuds sont répartis sur les positions XY."
+    },
+    "margin": {
+      "label": "Marge",
+      "tooltip": "Distance supplémentaire d'évitement de collision par rapport à la pièce."
+    },
+    "maximumWidth": {
+      "label": "Largeur maximale",
+      "tooltip": "Limite la largeur des structures de support à la base."
+    },
+    "minimumHeight": {
+      "label": "Hauteur minimale",
+      "tooltip": "Éviter d'ajouter des supports se recroisant si leur hauteur est inférieure à la hauteur spécifiée."
+    },
+    "modelInterSupport": {
+      "label": "Inter-support du modèle",
+      "tooltip": "Autoriser les colonnes de support qui se recroiseront et reposeront sur la pièce."
+    },
+    "selfSupportAngle": {
+      "label": "Angle d'auto-support",
+      "tooltip": "L'angle en degrés par rapport à l'horizontale qui ne nécessite pas de supports."
+    },
+    "sideFaces": {
+      "label": "Faces latérales",
+      "tooltip": "Définit le nombre de faces latérales pour les nouvelles structures de support."
+    },
+    "sideFeaturesSize": {
+      "label": "Taille des éléments latéraux",
+      "tooltip": "La distance qu'un détail peut dépasser d'une surface sans être supporté."
+    },
+    "spacingXY": {
+      "label": "Espacement XY",
+      "tooltip": "Distance entre les nœuds sur le plan XY"
+    },
+    "spacingZ": {
+      "label": "Espacement Z",
+      "tooltip": "Distance entre les niveaux de treillis sur l'axe Z."
+    },
+    "supportSpacing": {
+      "label": "Espacement des supports",
+      "tooltip": "Distance entre les points de support sur une pièce."
+    },
+    "tallestSupport": {
+      "label": "Support le plus haut",
+      "tooltip": "Ignorer toute caractéristique supportable au-dessus de la hauteur spécifiée."
+    },
+    "undershoot": {
+      "label": "Sous/Sur-dépassement",
+      "tooltip": "Pour les supports par défaut : la distance maximale injectée où le point de support pénètre dans la pièce.\n\nPour les supports en treillis : distance depuis le point de contact où la structure commence à s'effiler jusqu'à un point."
+    }
+  },
+  "title": {
+    "changesApplyToNewParts": "Les modifications s'appliquent aux nouvelles pièces",
+    "classificationSupportSettings": "Supports de type {{classification}}",
+    "createTemplate": "Nouveau modèle",
+    "deleteTemplate": "Supprimer le modèle ?",
+    "deleteTemplate_zero": "Supprimer le modèle ?",
+    "deleteTemplate_one": "{{count}} pièce sera renvoyée dans la boîte de réception",
+    "deleteTemplate_other": "{{count}} pièces seront renvoyées dans la boîte de réception",
+    "editTemplate": "Modifier le modèle",
+    "modifyWillAffectParts": "Des pièces pourraient être affectées par ce changement",
+    "modifyWillAffectParts_zero": "Des pièces pourraient être affectées par ce changement",
+    "modifyWillAffectParts_one": "{{count}} pièce sera affectée par ce changement",
+    "modifyWillAffectParts_other": "{{count}} pièces seront affectées par ce changement",
+    "modifyWillRequeueParts": "Des pièces pourraient être remises en file d'attente",
+    "modifyWillRequeueParts_zero": "Des pièces pourraient être remises en file d'attente",
+    "modifyWillRequeueParts_one": "{{count}} pièce sera remise en file d'attente",
+    "modifyWillRequeueParts_other": "{{count}} pièces seront remises en file d'attente",
+    "templateBasePlate": "Plateau de base de {{name}}"
+  },
+  "tooltip": {
+    "defaultPartType": "Définir ceci comme modèle par défaut pour le type de pièce sélectionné",
+    "defaultPartType_disabled": "Il s'agit actuellement du modèle par défaut pour {{partType}}. Sélectionnez un autre modèle par défaut pour le remplacer.",
+    "defaultPartType_only": "Il s'agit du modèle par défaut car aucun autre modèle n'est associé à ce type de pièce",
+    "fastPrintMode": "<bold>Mode d'impression rapide</bold>\nAccélère tous les mouvements non essentiels de la plateforme d'impression, en repositionnant rapidement entre les couches pour minimiser le temps d'inactivité et raccourcir la durée totale d'impression.",
+    "separationDetect": "<bold>Détection de séparation</bold>\nDétecte le décollement du film, réduisant la distance de levage entre les couches.\n\nPeut entraîner des défauts d'impression si la séparation n'est pas correctement détectée."
+  },
+  "types": {
+    "printerTypes": {
+      "max": "Max & Max 2",
+      "pro": "Pro 4K",
+      "ultra": "Ultra"
+    },
+    "trays": {
+      "endurance": "Endurance",
+      "LIFT": "LIFT",
+      "lowForce": "Low Force",
+      "ultraGLOSS": "UltraGLOSS",
+      "ultraGLOSSLIFT": "UltraGLOSS LIFT",
+      "universal": "Universal"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "approvals": {
+    "jobs": {
+      "message": "Quando abilitato, i lavori di stampa vengono accettati automaticamente e inviati a una stampante.",
+      "title": "Accetta automaticamente i lavori"
+    },
+    "parts": {
+      "message": "Quando abilitato, le parti con un template configurato vengono accettate automaticamente per la produzione.",
+      "title": "Accetta automaticamente le parti"
+    },
+    "title": "Approvazioni",
+    "tooltips": {
+      "editPermission": "Non disponi dell'autorizzazione per aggiornare le impostazioni di approvazione. Chiedi a un Amministratore o Proprietario della tua organizzazione di apportare modifiche"
+    }
+  },
+  "autoPartGrouping": {
+    "label": {
+      "characterPosition": "Posizione carattere",
+      "characterRange": "Intervallo di caratteri",
+      "example": "Esempio",
+      "fromEnd": "Dalla fine",
+      "fromStart": "Dall'inizio",
+      "grouping": "Raggruppamento automatico",
+      "grouping_off": "Raggruppamento automatico disattivato",
+      "grouping_on": "Raggruppamento automatico attivato",
+      "startingCharacterPosition": "Posizione iniziale del carattere"
+    },
+    "message": "Raggruppa automaticamente le parti in modo che vengano stampate insieme nello stesso lavoro. Configura l'intervallo di caratteri corrispondenti in base a una convenzione che utilizzi.",
+    "title": "Raggruppamento automatico delle parti",
+    "tooltips": {
+      "characterPosition": "Specifica il carattere da confrontare rispetto all'inizio del nome della parte caricata o alla fine del nome della parte caricata. Utile se i numeri d'ordine compaiono all'inizio o alla fine del nome della parte caricata.",
+      "characterRange": "Specifica il numero di caratteri che desideri far corrispondere.",
+      "editPermission": "Non disponi dell'autorizzazione per aggiornare le impostazioni di raggruppamento automatico. Chiedi a un Amministratore o Proprietario della tua organizzazione di apportare modifiche",
+      "startingCharacterPosition": "Da quanti spazi di caratteri dall'inizio o dalla fine vuoi che inizi l'intervallo. Utile se i numeri d'ordine compaiono nel mezzo di un nome."
+    }
+  },
+  "label": {
+    "rules": "Regole"
+  },
+  "tooltips": {
+    "rules": "Impostazioni che influiscono su come le parti e i lavori di stampa vengono elaborati nel Funnel della tua organizzazione."
+  }
+}

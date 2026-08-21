@@ -1,0 +1,58 @@
+{
+  "button": {
+    "add": "Adicionar Materiais",
+    "keepBoth": "Manter Ambos",
+    "replaceMaterial": "Substituir Material",
+    "uploadLocalMaterial": "Carregar Material Local"
+  },
+  "label": {
+    "adding": "A adicionar um material",
+    "adding_one": "A adicionar {{count}} material",
+    "adding_other": "A adicionar {{count}} materiais",
+    "addSuccess_one": "{{count}} material adicionado",
+    "addSuccess_other": "{{count}} materiais adicionados",
+    "deleteSuccess_one": "{{count}} material eliminado",
+    "deleteSuccess_other": "{{count}} materiais eliminados",
+    "deleting": "A eliminar um material",
+    "deleting_one": "A eliminar {{count}} material",
+    "deleting_other": "A eliminar {{count}} materiais",
+    "dropFile": "Adicionar ficheiro a <bold>Materiais</bold>",
+    "manufacturer": "Fabricante",
+    "material": "Material",
+    "name": "NomeDoMaterial",
+    "search": "Procurar um material",
+    "templateName": "Nome do modelo",
+    "updateMaterial": "Atualização de material disponível"
+  },
+  "message": {
+    "addMaterials": "Adicione materiais à sua organização selecionando-os na Biblioteca de Materiais Aberta abaixo. Os ficheiros de materiais também podem ser adicionados através do botão de carregamento.",
+    "deleteMaterialWarning": "Tem a certeza de que pretende eliminar os materiais selecionados? Apenas a versão mais recente de cada material estará disponível para download novamente no futuro.",
+    "manufacturerHasNoMaterials": "O fabricante não tem materiais",
+    "materialAlreadyAdded_one": "{{name}} já foi adicionado à sua organização.",
+    "materialAlreadyAdded_other": "Os seguintes materiais já foram adicionados à sua organização:",
+    "materialNameConflict": "Já existe um ficheiro de material com o nome {{name}} na sua organização.\n\nPode substituir o material existente ou manter ambos.",
+    "materialNameConflictDoForAll_one": "Fazer isto para {{count}} conflito de nome restante",
+    "materialNameConflictDoForAll_other": "Fazer isto para {{count}} conflitos de nome restantes",
+    "materialNameConflictWithRevision": "Já existe um ficheiro de material com o nome {{name}}, Revisão {{revision}}, na sua organização.\n\nPretende substituir o material existente pela Revisão {{requestedRevision}}?",
+    "noMaterials": "Utilize o botão 'Adicionar Materiais' no canto superior direito desta página para adicionar materiais à sua organização",
+    "unableToDelete_one": "O material selecionado não pode ser eliminado, pois está atualmente a ser utilizado em modelos. Atribua materiais diferentes aos seguintes modelos para continuar com a eliminação:",
+    "unableToDelete_other": "Os materiais selecionados não podem ser eliminados, pois estão atualmente a ser utilizados em modelos. Atribua materiais diferentes aos seguintes modelos para continuar com a eliminação:",
+    "updateMaterial_one": "<bold>{{name}}</bold> será atualizado para a versão mais recente.",
+    "updateMaterial_other": "{{count}} ficheiros INI de materiais serão atualizados para a versão mais recente."
+  },
+  "title": {
+    "addMaterials": "Adicionar Materiais",
+    "deleteMaterial": "Eliminar Material?",
+    "materialAlreadyAdded": "Ficheiro de material já adicionado",
+    "materialNameConflict": "Os nomes de materiais já existem",
+    "materials": "Materiais",
+    "noMaterials": "Sem materiais na biblioteca",
+    "unableToDelete_one": "Não É Possível Eliminar o Material",
+    "unableToDelete_other": "Não É Possível Eliminar os Materiais",
+    "updateMaterial_one": "Atualizar Material?",
+    "updateMaterial_other": "Atualizar Materiais?"
+  },
+  "tooltips": {
+    "materials": "Lista todos os materiais que foram adicionados ao Funil.\n\nOs materiais podem ser adicionados a partir da biblioteca de Materiais Abertos ou carregados manualmente."
+  }
+}

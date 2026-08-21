@@ -1,0 +1,772 @@
+{
+  "alt": {
+    "logo": "Asiga Web Portal",
+    "noSearchResults": "Sin resultados de búsqueda",
+    "sort": "Ordenar por"
+  },
+  "boolean": {
+    "false": "falso",
+    "true": "verdadero"
+  },
+  "button": {
+    "accept": "Aceptar",
+    "acceptAll": "Aceptar todo",
+    "add": "Añadir",
+    "addMore_zero": "Añadir...",
+    "addMore_one": "Añadir más...",
+    "addMore_other": "Añadir más...",
+    "apply": "Aplicar",
+    "back": "Atrás",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "connect": "Conectar",
+    "continue": "Continuar",
+    "create": "Crear",
+    "delete": "Eliminar",
+    "deny": "Denegar",
+    "dismiss": "Descartar",
+    "download": "Descargar",
+    "edit": "Editar",
+    "essentialOnly": "Solo esenciales",
+    "invite": "Invitar",
+    "logout": "Cerrar sesión",
+    "off": "Apagado",
+    "ok": "OK",
+    "on": "Encendido",
+    "pause": "Pausar",
+    "promote": "Promover",
+    "refresh": "Refrescar",
+    "reject": "Rechazar",
+    "rejectAll": "Rechazar todo",
+    "rejectAndRequeue": "Rechazar y volver a poner en cola",
+    "rejectOnly": "Solo rechazar",
+    "remove": "Quitar",
+    "rename": "Cambiar nombre",
+    "reprocess": "Reprocesar",
+    "reset": "Restablecer",
+    "resetToDefault": "Restablecer valores predeterminados",
+    "retry": "Reintentar",
+    "save": "Guardar",
+    "tooltips": {
+      "changeRoleDisabled": "No tienes permiso para cambiar el rol de los usuarios seleccionados.",
+      "changeRoleDisabled_admin": "No tienes permiso para cambiar el rol de usuarios Administrador o Propietario.",
+      "changeRoleDisabled_owner": "No tienes permiso para cambiar el rol de usuarios Propietario.",
+      "changeRoleDisabled_user": "No tienes permiso para cambiar los roles de otros usuarios.",
+      "deleteUserDisabled": "No tienes permiso para eliminar a los usuarios seleccionados.",
+      "deleteUserDisabled_admin": "No tienes permiso para eliminar a usuarios Administrador o Propietario.",
+      "deleteUserDisabled_owner": "No tienes permiso para eliminar a otros usuarios Propietario.",
+      "deleteUserDisabled_user": "No tienes permiso para eliminar a otros usuarios."
+    },
+    "transfer": "Transferir",
+    "unlink": "Desvincular",
+    "update": "Actualizar"
+  },
+  "date": {
+    "all": "Todo",
+    "custom": "Personalizado",
+    "daysInterval": "Rango de fechas",
+    "daysInterval_0": "Hoy",
+    "daysInterval_1": "Ayer",
+    "daysInterval_7": "Últimos 7 días",
+    "homeRange": "Rango de fechas",
+    "homeRange_currentPeriod": "Periodo de facturación",
+    "homeRange_last12Months": "Últimos 12 meses",
+    "homeRange_lastWeek": "Semana pasada",
+    "homeRange_thisWeek": "Esta semana",
+    "homeRange_today": "Hoy",
+    "homeRange_yesterday": "Ayer"
+  },
+  "dateRange": {
+    "error": {
+      "outOfRange": "Las fechas seleccionadas deben estar dentro del último año.",
+      "toBeforeFrom": "La fecha 'Hasta' seleccionada no puede ser anterior a la fecha 'Desde'."
+    },
+    "from": "Desde",
+    "title": "Rango de fechas de {{field}}",
+    "to": "Hasta"
+  },
+  "details": {
+    "copyLink": "Copiar enlace",
+    "linkCopied": "Enlace copiado al portapapeles",
+    "linkCopyFailed": "Error al copiar el enlace",
+    "progress": "Progreso"
+  },
+  "dialog": {
+    "no": "No",
+    "yes": "Sí"
+  },
+  "displayError": {
+    "button": "Contactar con soporte",
+    "message": "Comprueba la conexión e intenta actualizar la página web.\nContacta con soporte si el problema continúa."
+  },
+  "error": {
+    "400": "La solicitud no era válida.",
+    "401": "No estás autenticado. Por favor, inicia sesión.",
+    "403": "No tienes permiso para realizar esta solicitud.",
+    "404": "No se encontró este recurso.",
+    "409": "Tu solicitud no pudo procesarse debido a un conflicto.",
+    "422": "No se pudo validar esta solicitud.",
+    "500": "Se produjo un error inesperado.",
+    "activeWorkflowNotFound": "No se encontró ningún flujo de trabajo activo.",
+    "activeWorkflowNotFound_details": "No se encontró ningún flujo de trabajo activo para la organización con ID {{details}}.",
+    "addressCreateForbidden": "No tienes permitido crear direcciones para esta organización.",
+    "addressDeleteForbidden": "No tienes permitido eliminar las direcciones de esta organización.",
+    "addressNotFound": "Dirección no encontrada.",
+    "addressNotFound_details": "No se encontró la dirección con id {{details}}.",
+    "addressUpdateForbidden": "No tienes permitido actualizar las direcciones de esta organización.",
+    "auth0BadRequest": "No se pudo verificar tu usuario.",
+    "auth0Forbidden": "Tu rol no tiene los permisos necesarios para realizar esta solicitud.",
+    "auth0Unauthorized": "No estás autenticado. Por favor, inicia sesión.",
+    "badRequest": "La solicitud no era válida.",
+    "conflict": "Tu solicitud no pudo procesarse debido a un conflicto.",
+    "deviceForbidden": "No tienes permitido ver los dispositivos de esta organización.",
+    "deviceNotFound": "Dispositivo no encontrado.",
+    "deviceNotFound_details": "No se encontró el dispositivo con número de serie '{{details}}'.",
+    "deviceStateConflict": "El dispositivo tiene un estado deseado que no ha sido confirmado.",
+    "fileChecksumMismatch": "El archivo subido '{{fileName}}' no se cargó correctamente. Intenta subirlo de nuevo.",
+    "filesRemoved": "Los archivos necesarios para esta acción han superado su período de retención y ya no están disponibles.",
+    "forbidden": "No tienes permiso para realizar esta solicitud.",
+    "integrationNotFound": "No se pudo encontrar la integración.",
+    "jobDownloadIncorrectState": "Un trabajo solo puede descargarse cuando está esperando revisión.",
+    "jobDownloadReportIncorrectState": "El trabajo no tiene un archivo de informe disponible.",
+    "jobForbidden": "No tienes permitido obtener el trabajo de esta organización.",
+    "jobNoPreviewFile": "El trabajo no tiene un archivo de vista previa disponible.",
+    "jobNoReportFile": "El trabajo no tiene un archivo de informe disponible.",
+    "jobNoSlicedBuildFile": "El trabajo no tiene un archivo de compilación laminado listo para imprimir.",
+    "jobNotFound": "Trabajo no encontrado.",
+    "jobNotFound_details": "No se encontró el trabajo con id {{details}}.",
+    "jobReviewIncorrectState": "El trabajo no está esperando revisión.",
+    "linkCreateConflict": "Ya existe un enlace de integración para esta organización.",
+    "linkCreateForbidden": "No tienes permitido crear un enlace de integración para esta organización.",
+    "linkDeleteForbidden": "No tienes permitido eliminar un enlace de integración para esta organización.",
+    "linkGetForbidden": "No tienes permitido obtener un enlace de integración para esta organización.",
+    "linkNotFound": "Enlace de integración no encontrado.",
+    "linkUpdateForbidden": "No tienes permitido actualizar un enlace de integración para esta organización.",
+    "linkUserCreateForbidden": "No tienes permitido crear un enlace de integración en nombre de otro usuario.",
+    "luceneIllegalCharacterError": "Carácter no permitido en la consulta lucene.",
+    "luceneIllegalCharacterError_details": "Carácter no permitido en la consulta lucene. ({{details}})",
+    "luceneParseError": "No se pudo analizar la consulta Lucene.",
+    "luceneSyntaxError": "Error de sintaxis en la consulta lucene.",
+    "luceneSyntaxError_details": "Error de sintaxis en la consulta lucene. ({{details}})",
+    "materialCancelIncorrectState": "No tienes permitido cancelar un material que no está pendiente de carga.",
+    "materialCreateForbidden": "No tienes permitido crear un material para esta organización.",
+    "materialDeleteForbidden": "No tienes permitido eliminar un material para esta organización.",
+    "materialFileEmpty": "El archivo del material está vacío.",
+    "materialFileName": "Tipo de archivo no compatible.",
+    "materialFileParse": "No se pudo leer el archivo del material.",
+    "materialFileRead": "No se pudo leer el archivo del material.",
+    "materialFileType": "Tipo de archivo no compatible.",
+    "materialGetForbidden": "No tienes permitido obtener un material para esta organización.",
+    "materialMarkAsUploadedIncorrectState": "No tienes permitido marcar como cargado un material que no está pendiente de carga.",
+    "materialNotFound": "No se pudo encontrar el material.",
+    "materialNotUploadedIncorrectState": "No se ha cargado un archivo ini para este material.",
+    "materialRetryUploadIncorrectState": "No tienes permitido reintentar la carga de un material que no está pendiente de carga.",
+    "materialUpdateForbidden": "No tienes permitido actualizar un material para esta organización.",
+    "materialVisibilityConflict": "No tienes permitido cambiar la visibilidad de un material que se está cargando.",
+    "noAuthorized": "No estás autenticado. Por favor, inicia sesión.",
+    "notAllowedFieldFilter": "Un campo proporcionado no se puede filtrar.",
+    "notAllowedFieldFilter_details": "El campo '{{details}}' no se puede filtrar.",
+    "notAllowedFieldSort": "Un campo proporcionado no se puede ordenar.",
+    "notAllowedFieldSort_details": "El campo '{{details}}' no se puede ordenar.",
+    "notFound": "No se encontró este recurso.",
+    "organisationNotFound": "Organización no encontrada.",
+    "organisationNotFound_details": "No se encontró la organización con id {{details}}.",
+    "organisationUpdateForbidden": "No tienes permitido actualizar esta organización.",
+    "organisationViewForbidden": "No tienes permitido ver esta organización.",
+    "organisationViewUsersForbidden": "No tienes permitido ver los usuarios de esta organización.",
+    "partCancelIncorrectState": "No tienes permitido cancelar una pieza que no está pendiente de carga.",
+    "partCreateForbidden": "No tienes permitido crear una pieza para esta organización.",
+    "partDeleteForbidden": "No tienes permitido eliminar una pieza para esta organización.",
+    "partDequeForbidden": "No tienes permitido sacar de la cola una pieza que no está esperando colocación.",
+    "partDownloadIncorrectState": "No tienes permitido descargar una pieza que no ha sido cargada.",
+    "partFileNameEmpty": "El nombre del archivo de la pieza está vacío",
+    "partFileNameExcessive": "El nombre del archivo de la pieza es demasiado largo",
+    "partGetForbidden": "No tienes permitido obtener una pieza para esta organización.",
+    "partMarkAsAcceptedIncorrectState": "No tienes permitido aceptar una pieza que no está lista para ser aceptada.",
+    "partMarkAsConfirmedIncorrectState": "No tienes permitido confirmar una pieza que no está esperando ser confirmada.",
+    "partMarkAsRejectedIncorrectState": "No tienes permitido rechazar una pieza que no está esperando ser revisada o aceptada.",
+    "partMarkAsReviewedIncorrectState": "No tienes permitido revisar una pieza que no está lista para ser revisada.",
+    "partMarkAsUploadedIncorrectState": "No tienes permitido marcar como cargada una pieza que no está en el estado correcto.",
+    "partMarkQueuedAsRejectedIncorrectState": "No tienes permitido rechazar una pieza que forma parte de la cola de trabajos.",
+    "partMarkToConfirmAsRejectedIncorrectState": "No tienes permitido rechazar una pieza que no está esperando ser confirmada.",
+    "partNeedsTemplateConflict": "Esta pieza requiere una plantilla, pero no se le puede asignar ninguna.",
+    "partNotFound": "Pieza no encontrada.",
+    "partNotFound_details": "No se encontró la pieza con id {{details}}.",
+    "partRetryUploadIncorrectState": "No tienes permitido reintentar la carga de una pieza que no está pendiente de carga.",
+    "partUndoAcceptIncorrectState": "No puedes deshacer la aceptación cuando una pieza no ha sido aceptada.",
+    "partUndoRejectIncorrectState": "El rechazo no se puede deshacer cuando una pieza no ha sido rechazada.",
+    "partUpdateAcceptedIncorrectState": "No tienes permitido actualizar una pieza que ha sido aceptada.",
+    "partUpdateForbidden": "No tienes permitido actualizar una pieza para esta organización.",
+    "roleNotFound": "El id del rol no existe.",
+    "sortField": "Nombre de campo no válido.",
+    "sortField_details": "Nombre de campo no válido: {{details}}.",
+    "sortOrder": "Valor de orden no válido. Debe ser '-1' o '1'",
+    "sortOrder_details": "Valor de orden no válido: {{details}}. Debe ser '-1' o '1'",
+    "templateCreateForbidden": "No tienes permitido crear una plantilla para esta organización.",
+    "templateDeleteForbidden": "No tienes permitido eliminar una plantilla para esta organización.",
+    "templateDeleteHardForbidden": "No puedes eliminar directamente una plantilla.",
+    "templateGetForbidden": "No tienes permitido obtener una plantilla para esta organización.",
+    "templateMaterialForbidden": "No tienes acceso para asignar este material a una plantilla.",
+    "templateMaterialPendingConflict": "Un material pendiente de carga no se puede asignar a una plantilla.",
+    "templateNoEligibleDefault": "Se requiere una plantilla predeterminada para cada tipo de pieza especificado. Establece otra plantilla como predeterminada antes de eliminar esta.",
+    "templateNotFound": "No se pudo encontrar la plantilla.",
+    "templateUpdateForbidden": "No tienes permitido actualizar una plantilla para esta organización.",
+    "unauthorized": "No estás autenticado. Por favor, inicia sesión.",
+    "unexpected": "Se produjo un error inesperado.",
+    "unprocessableContent": "Contenido no procesable",
+    "unspecified": "Se produjo un error no especificado.",
+    "unsupportedMediaType": "Tipo de medio no compatible",
+    "userBFPForbidden": "No se pudo desbloquear al usuario.",
+    "userBlockForbidden": "No se pudo modificar el estado de bloqueo del usuario.",
+    "userConflict": "El usuario ya existe.",
+    "userConflict_details": "Ya existe un usuario con el correo electrónico {{details}} en tu organización o en otra organización. Usa un correo electrónico alternativo.",
+    "userConflictAnotherOrg_details": "El correo electrónico {{details}} ya está asociado con otra organización. Usa un correo electrónico alternativo o solicita al usuario que se dé de baja de su organización anterior.",
+    "userConflictWithinOrg_details": "Ya existe un usuario con el correo electrónico {{details}} en tu organización.",
+    "userCreateForbidden": "No se pudo crear el usuario.",
+    "userDeleteForbidden": "No se pudo eliminar el usuario.",
+    "userGetBFPForbidden": "No se pudo obtener el estado de bloqueo del usuario",
+    "userGetBlockForbidden": "No se pudo obtener el estado de bloqueo del usuario.",
+    "userGetForbidden": "No se pudo encontrar al usuario.",
+    "userNotFound": "Usuario no encontrado.",
+    "userNotFound_details": "No se pudo encontrar al usuario con el correo electrónico {{details}}.",
+    "userNotInOrg": "El usuario no está asociado con ninguna organización.",
+    "userResetForbidden": "No se pudo restablecer la contraseña del usuario.",
+    "userRoleAddForbidden": "No se pudo añadir el rol al usuario.",
+    "userRoleRemoveForbidden": "No se pudo quitar el rol del usuario.",
+    "userSearchField": "Configuración de campo no válida para la búsqueda de usuarios.",
+    "userSearchForbidden": "No se pudo buscar usuarios.",
+    "userSearchPagination": "Configuración de paginación no válida para la búsqueda de usuarios.",
+    "userSearchSort": "Configuración de orden no válida para la búsqueda de usuarios.",
+    "userUpdateForbidden": "No se pudo actualizar el usuario.",
+    "validation": "No se pudo validar esta solicitud.",
+    "value": "Se proporcionó un valor no válido para esta solicitud.",
+    "workflowNotFound": "Flujo de trabajo no encontrado.",
+    "workflowNotFound_details": "No se encontró el flujo de trabajo con id {{details}}."
+  },
+  "label": {
+    "acceptedGroupsSuccess_one": "{{count}} grupo movido a <a>Aceptados</a>",
+    "acceptedGroupsSuccess_other": "{{count}} grupos movidos a <a>Aceptados</a>",
+    "acceptedJobsSuccess_one": "{{count}} trabajo movido a <a>Aceptados</a>",
+    "acceptedJobsSuccess_other": "{{count}} trabajos movidos a <a>Aceptados</a>",
+    "acceptedPartsSuccess_one": "{{count}} pieza movida a <a>Aceptados</a>",
+    "acceptedPartsSuccess_other": "{{count}} piezas movidas a <a>Aceptados</a>",
+    "acceptingGroups": "Aceptando grupos de piezas",
+    "acceptingJobs": "Aceptando trabajos",
+    "acceptingParts": "Aceptando piezas",
+    "assigningTemplates": "Asignando plantilla a las piezas",
+    "assigningTemplatesSuccess_one": "Plantilla asignada a {{count}} pieza",
+    "assigningTemplatesSuccess_other": "Plantilla asignada a {{count}} piezas",
+    "cancelUploadModalButtonSecondary": "Continuar cargas",
+    "cancelUploadsModalBody": "Las cargas de piezas no están completas. ¿Deseas cancelar las cargas restantes?",
+    "cancelUploadsModalButtonPrimary": "Cancelar cargas",
+    "cancelUploadsModalTitle": "¿Cancelar las cargas restantes?",
+    "confirmedSuccess_one": "{{count}} pieza confirmada",
+    "confirmedSuccess_other": "{{count}} piezas confirmadas",
+    "confirmingParts": "Confirmando piezas",
+    "creatingGroup": "Creando grupo de piezas",
+    "default": "Predeterminado",
+    "deprioritiseSuccess_one": "Prioridad de la pieza eliminada.",
+    "deprioritiseSuccess_other": "Prioridades de las piezas eliminadas.",
+    "deprioritisingParts": "Eliminando prioridades de las piezas.",
+    "dismissingParts": "Descartando piezas",
+    "dismissSuccess_one": "{{count}} pieza ha sido descartada",
+    "dismissSuccess_other": "{{count}} piezas han sido descartadas",
+    "downloading": "Descargando",
+    "downloadJobsSuccess_one": "{{count}} trabajo descargado",
+    "downloadJobsSuccess_other": "{{count}} trabajos descargados",
+    "downloadPartsSuccess_one": "{{count}} pieza descargada",
+    "downloadPartsSuccess_other": "{{count}} piezas descargadas",
+    "duplicatePartsSuccess_one": "{{count}} pieza duplicada <a>Para revisar</a>",
+    "duplicatePartsSuccess_other": "{{count}} piezas duplicadas <a>Para revisar</a>",
+    "duplicatingParts": "Duplicando piezas",
+    "filesRemovedJob": "Los archivos del trabajo de impresión han superado su período de retención y ya no están disponibles.",
+    "filesRemovedPart": "Los archivos de la pieza han superado su período de retención y ya no están disponibles.",
+    "fullname": "Nombre completo",
+    "groupCreateSuccess": "Grupo de piezas creado correctamente",
+    "groupRegroupSuccess": "Piezas reagrupadas correctamente",
+    "groupRenameSuccess": "Grupo de piezas renombrado correctamente",
+    "groupUpdateSuccess_one": "Se actualizó correctamente {{count}} grupo",
+    "groupUpdateSuccess_other": "Se actualizaron correctamente {{count}} grupos",
+    "itemSelected": "Elemento seleccionado",
+    "itemSelected_zero": "Ningún elemento seleccionado",
+    "itemSelected_one": "{{count}} elemento seleccionado",
+    "itemSelected_other": "{{count}} elementos seleccionados",
+    "language": "Idioma",
+    "openDrawer": "Abrir panel",
+    "partRenameSuccess": "Pieza renombrada correctamente",
+    "preparingDownload": "Preparando descarga",
+    "prioritiseSuccess_one": "{{count}} pieza priorizada.",
+    "prioritiseSuccess_other": "{{count}} piezas priorizadas.",
+    "prioritisingParts": "Priorizando piezas",
+    "promotedJobsSuccess_one": "{{count}} trabajo promovido <a>Para revisar</a>",
+    "promotedJobsSuccess_other": "{{count}} trabajos promovidos <a>Para revisar</a>",
+    "promotingJobs": "Promoviendo trabajos",
+    "regroupingParts": "Reagrupando piezas",
+    "rejectedSuccess_one": "{{count}} pieza movida a <a>Rechazados</a>",
+    "rejectedSuccess_other": "{{count}} piezas movidas a <a>Rechazados</a>",
+    "rejectingParts": "Rechazando piezas",
+    "rejectJobPartModalIntro_one": "Esta pieza está anidada en un trabajo listo para revisión.",
+    "rejectJobPartModalIntro_other": "Estas piezas están anidadas en un trabajo listo para revisión.",
+    "rejectJobPartModalRejectAndRequeue_one": "Quita esta pieza y vuelve a poner en cola las piezas restantes para reanidarlas.",
+    "rejectJobPartModalRejectAndRequeue_other": "Quita estas piezas y vuelve a poner en cola las piezas restantes para reanidarlas.",
+    "rejectJobPartModalRejectOnly_one": "Quita esta pieza y mantén intacto el resto del trabajo.",
+    "rejectJobPartModalRejectOnly_other": "Quita estas piezas y mantén intacto el resto del trabajo.",
+    "rejectJobPartModalTitle": "¿Reanidar trabajo?",
+    "rejectModal": "Las piezas seleccionadas dejarán de considerarse para cualquier trabajo de impresión.",
+    "rejectModalTitle_one": "¿Rechazar {{partName}}?",
+    "rejectModalTitle_other": "¿Rechazar {{count}} piezas seleccionadas?",
+    "removingFromGroups": "Quitando piezas de los grupos",
+    "renamePart": "Renombrar pieza",
+    "renamingGroup": "Renombrando grupo de piezas",
+    "renamingPart": "Renombrando pieza",
+    "reprintingParts": "Volviendo a poner en cola piezas para reimprimir",
+    "reprintPartsSuccess_one": "{{count}} pieza vuelta a poner en cola y movida a <a>Aceptados</a>",
+    "reprintPartsSuccess_other": "{{count}} piezas vueltas a poner en cola y movidas a <a>Aceptados</a>",
+    "resendingJobs": "Reenviando trabajos",
+    "resentJobs_one": "{{count}} trabajo reenviado",
+    "resentJobs_other": "{{count}} trabajos reenviados",
+    "setTimezone": "Establecer zona horaria",
+    "settings": "Configuración",
+    "tabs": "Pestañas",
+    "timezone": "Zona horaria",
+    "undoAcceptedPartsSuccess_one": "{{count}} pieza eliminada de Aceptados",
+    "undoAcceptedPartsSuccess_other": "{{count}} piezas eliminadas de Aceptados",
+    "undoingAcceptParts": "Deshaciendo aceptación de piezas",
+    "undoingRejectParts": "Deshaciendo rechazo de piezas",
+    "undoRejectPartsSuccess_one": "{{count}} pieza eliminada de Rechazados",
+    "undoRejectPartsSuccess_other": "{{count}} piezas eliminadas de Rechazados",
+    "ungroupingGroups": "Desagrupando piezas",
+    "ungroupSuccess_one": "{{count}} grupo desagrupado correctamente",
+    "ungroupSuccess_other": "{{count}} grupos desagrupados correctamente",
+    "updatingPartTypes": "Actualizando tipos de pieza",
+    "updatingPartTypesSuccess_one": "{{count}} tipo de pieza actualizado",
+    "updatingPartTypesSuccess_other": "{{count}} tipos de pieza actualizados"
+  },
+  "links": {
+    "devices": "Dispositivos",
+    "home": "Inicio",
+    "inbox": "Bandeja de entrada",
+    "manage": "Administrar",
+    "parts": "Piezas",
+    "printJobs": "Trabajos de impresión",
+    "timeline": "Cronología",
+    "tooltips": {
+      "devices": "Una vista en vivo de todos los dispositivos para ayudarte a monitorear tu laboratorio.",
+      "home": "Una instantánea de la actividad de tu laboratorio para mantenerte al día.",
+      "inbox": "Sube y revisa piezas de usuarios o aplicaciones.\n\nConfirma que las piezas tengan aplicada la plantilla de impresión correcta y acéptalas para su fabricación.",
+      "manage": "Añade o edita usuarios, vincula aplicaciones externas, configuración general.",
+      "parts": "Consulta las piezas que han sido aceptadas para fabricación.\n\nRevisa el estado para ver en qué punto del proceso de fabricación se encuentran.",
+      "printJobs": "Revisa los trabajos de impresión que se han creado.\n\nRevisa el estado para ver en qué etapa del proceso de fabricación se encuentran.",
+      "templates": "Muestra todas las plantillas del Funnel. Estas controlan qué materiales, ajustes de impresión e impresoras se utilizan para cada tipo de pieza.",
+      "timeline": "Consulta los trabajos de impresión en cola en cada uno de tus dispositivos para monitorear el progreso y la utilización."
+    }
+  },
+  "loading": {
+    "unavailable": "No disponible"
+  },
+  "maintenancePage": {
+    "message": "Estamos trabajando para mejorar el Funnel.\nVolveremos pronto.",
+    "title": "Mantenimiento programado"
+  },
+  "message": {
+    "acceptPrivacyPolicy": "Acepto la <a>Política de privacidad</a>",
+    "acceptTermsOfService": "Acepto los <a>Términos de servicio</a>",
+    "betaTest": "Estás usando la versión beta, cuéntanos cómo podemos mejorar. <a>Enviar comentarios</a>",
+    "betaTest_narrow": "Estás usando la versión beta. <a>Enviar comentarios</a>",
+    "checkConnectionForBuildInfo": "Comprueba la conexión a internet de la impresora para ver las construcciones actuales y en cola.",
+    "cookiePolicy": "Utilizamos cookies para mejorar tu experiencia de navegación. Para saber más, visita nuestra <cookie>Política de cookies</cookie> y <privacy>Declaración de privacidad</privacy>.",
+    "cookiePreferencesAllowed": "Has permitido todas las cookies, incluidas las de análisis y soporte.",
+    "cookiePreferencesDenied": "Solo estás usando cookies estrictamente necesarias.",
+    "filesRemovedAction": "No disponible: los archivos necesarios para esta acción han superado su período de retención y ya no están disponibles.",
+    "maintenanceMode": "El Funnel no estará disponible el {{startDate}}, entre las {{startTime}} y las {{endTime}} por mantenimiento esencial.",
+    "maintenanceMode_multiDay": "El Funnel no estará disponible desde el {{startDate}} {{startTime}} hasta el {{endDate}} {{endTime}} por mantenimiento esencial.",
+    "maintenanceModeActive": "El Funnel está en mantenimiento programado hasta el {{endDate}} {{endTime}}.",
+    "noConnection": "No se puede conectar, reintentando en {{time}}",
+    "noMatches": "Lo sentimos, no se encontraron coincidencias",
+    "noMatchesHelp": "Comprueba si hay errores tipográficos o intenta con palabras más generales\nTambién puedes probar a usar los filtros de la tabla",
+    "noMatchesHelp_both": "Comprueba si hay errores tipográficos o intenta con palabras más generales\nTambién puedes probar a actualizar o borrar los filtros de la tabla",
+    "noMatchesHelp_filtering": "Intenta actualizar o borrar los filtros de la tabla",
+    "noMatchesHelp_searching": "Comprueba si hay errores tipográficos o intenta con palabras más generales\nTambién puedes probar a usar los filtros de la tabla",
+    "reconnecting": "Intentando reconectar",
+    "reviewAndAgreeToPolicies": "Antes de continuar, debes revisar y aceptar los <terms>Términos de servicio</terms> y la <privacy>Política de privacidad</privacy>."
+  },
+  "notFoundPage": {
+    "message": "Comprueba si hay errores tipográficos en la dirección de la página o utiliza el menú de navegación en la parte superior izquierda",
+    "message_narrow": "Comprueba si hay errores tipográficos en la dirección de la página o utiliza el menú de navegación en la parte superior izquierda",
+    "message_wide": "Comprueba si hay errores tipográficos en la dirección de la página o utiliza los botones de navegación a la izquierda",
+    "title": "No podemos encontrar esa página"
+  },
+  "notifications": {
+    "actions": {
+      "dismiss": "Descartar",
+      "inbox": "Bandeja de entrada",
+      "reprintParts": "Reimprimir piezas",
+      "requeueParts": "Volver a poner piezas en cola",
+      "resend": "Reenviar",
+      "reviewGroup": "Revisar grupo",
+      "reviewPart": "Revisar pieza",
+      "reworkOffline": "Retrabajar sin conexión",
+      "ungroup": "Desagrupar"
+    },
+    "clearAll": "Borrar todo",
+    "empty": "Sin notificaciones",
+    "requeuePartsConfirmation": "¿Seguro que deseas volver a poner en cola las piezas de este trabajo? Esto eliminará el trabajo actual y creará nuevas piezas en la bandeja de entrada.",
+    "settings": {
+      "label": "Mostrar notificaciones en tiempo real para piezas, grupos, trabajos y dispositivos que requieran atención.",
+      "title": "Notificaciones"
+    },
+    "title": "Notificaciones",
+    "types": {
+      "deviceOffline": {
+        "body_one": "{{name}} se ha desconectado",
+        "body_other": "Varias impresoras se han desconectado",
+        "title": "Impresora sin conexión"
+      },
+      "groupTooLarge": {
+        "body_one": "{{name}} es demasiado grande para imprimir junto",
+        "body_other": "Varios grupos son demasiado grandes para imprimir juntos",
+        "title": "Grupo demasiado grande"
+      },
+      "nestingFailed": {
+        "body_one": "No se pudo anidar {{name}}",
+        "body_other": "No se pudieron anidar varios trabajos",
+        "title": "Error al anidar el trabajo"
+      },
+      "orientationFailed": {
+        "body_one": "No se pudo orientar {{name}}",
+        "body_other": "No se pudieron orientar varias piezas",
+        "title": "Error al orientar la pieza"
+      },
+      "partTooLarge": {
+        "body_one": "{{name}} es demasiado grande para imprimir",
+        "body_other": "Varias piezas son demasiado grandes para imprimir",
+        "title": "Pieza demasiado grande"
+      },
+      "printerError": {
+        "body_one": "{{buildName}} falló durante la impresión.\n\nConsulta la pantalla de la impresora para más información.",
+        "body_other": "Varias impresiones fallaron.\n\nConsulta la pantalla de la impresora para más información.",
+        "title": "Error de impresión"
+      },
+      "sendingFailed": {
+        "body_one": "Error al enviar el trabajo #{{name}}",
+        "body_other": "Error al enviar varios trabajos",
+        "title": "Error al enviar el trabajo"
+      },
+      "slicingFailed": {
+        "body_one": "Error al laminar el trabajo #{{name}}",
+        "body_other": "Error al laminar varios trabajos",
+        "title": "Error al laminar el trabajo"
+      },
+      "supportsFailed": {
+        "body_one": "Error al generar soportes para el trabajo #{{name}}",
+        "body_other": "Error al generar soportes para varios trabajos",
+        "title": "Error en los soportes del trabajo"
+      }
+    }
+  },
+  "progressStatus": {
+    "acceptPartForPrinting": {
+      "name": "Aceptar pieza para impresión",
+      "tooltip": {
+        "part": "La pieza se presentará para revisión con el fin de confirmar el tipo y los ajustes de plantilla que se utilizarán."
+      }
+    },
+    "addingToProvisionalJob": {
+      "name": "Añadiendo a trabajo provisional",
+      "tooltip": {
+        "default": "La pieza se está anidando en un trabajo provisional."
+      }
+    },
+    "approvePrintJob": {
+      "name": "Aprobar trabajo de impresión",
+      "tooltip": {
+        "default": "El trabajo de impresión se presentará para revisión para que la disposición de las piezas y los soportes puedan comprobarse antes de aprobar el trabajo de impresión para su impresión."
+      }
+    },
+    "cancelled": {
+      "name": "Impresión cancelada",
+      "tooltip": {
+        "default": "El trabajo de impresión se canceló antes de finalizar o se eliminó de la cola de construcción."
+      }
+    },
+    "failedToPrint": {
+      "name": "Error de impresión",
+      "tooltip": {
+        "default": "El trabajo de impresión ha fallado.\n\nConsulta la pantalla de la impresora para más información."
+      }
+    },
+    "generatingSupports": {
+      "name": "Generando soportes",
+      "tooltip": {
+        "job": "La disposición del trabajo provisional se ha finalizado y se están preparando las capas de impresión.",
+        "part": "Se están añadiendo soportes al trabajo provisional antes de que se finalice para que el usuario lo apruebe para impresión."
+      }
+    },
+    "groupTooLarge": {
+      "name": "Grupo demasiado grande",
+      "tooltip": {
+        "part": "El grupo al que pertenece la pieza es demasiado grande para imprimir. Intenta desagrupar las piezas."
+      }
+    },
+    "identifiedPartType": {
+      "name": "Tipo de pieza identificado",
+      "tooltip": {
+        "part": "Se ha identificado el tipo de pieza, esto afecta qué plantillas se pueden elegir y cómo se orientará la pieza más adelante."
+      }
+    },
+    "identifyingPartType": {
+      "name": "Identificando tipo de pieza",
+      "tooltip": {
+        "part": "Analizando la geometría de la pieza para identificar el tipo de pieza."
+      }
+    },
+    "invalidGeometry": {
+      "name": "Geometría no válida",
+      "tooltip": {
+        "part": "La pieza no pudo procesarse porque su geometría no es válida.\n\nIntenta reparar el modelo y subirlo de nuevo."
+      }
+    },
+    "invalidModel": {
+      "name": "Modelo no válido",
+      "tooltip": {
+        "part": "La pieza no pudo procesarse porque el archivo subido no es un modelo.\n\nComprueba que el archivo no esté dañado y súbelo de nuevo."
+      }
+    },
+    "nestedInJob": {
+      "name": "Trabajo de impresión creado",
+      "tooltip": {
+        "job": "El trabajo de impresión ha sido creado.",
+        "part": "La pieza se ha añadido a un trabajo de impresión."
+      }
+    },
+    "nestedInProvisionalJob": {
+      "name": "Anidado en trabajo provisional",
+      "tooltip": {
+        "job": "El trabajo está en un estado provisional y se finalizará cuando:<ul><li>se añadan más piezas para completar el trabajo</li><li>una impresora adecuada esté a punto de estar disponible para imprimirlo</li></ul>El trabajo también se puede promover manualmente a un estado finalizado.",
+        "part": "La pieza se ha anidado en un trabajo provisional. Se finalizará cuando:<ul><li>se añadan más piezas para completar el trabajo, y</li><li>una impresora adecuada esté a punto de estar disponible para imprimirlo</li></ul>"
+      }
+    },
+    "nestingBlocked": {
+      "name": "No se puede añadir a trabajo provisional",
+      "tooltip": {
+        "allDevicesExcludedFromFunnel": "Las impresoras compatibles han sido excluidas de aceptar trabajos del Funnel.\n\nInclúyelas para trabajos de impresión automáticos, o actualiza la plantilla para usar otras impresoras.",
+        "allDevicesOfflineOrExcluded": "No hay impresoras compatibles en línea, o que acepten trabajos de impresión del Funnel.\n\nComprueba que las impresoras estén conectadas e incluidas para trabajos de impresión automáticos, o actualiza la plantilla para usar otras impresoras conectadas.",
+        "groupMemberFailed": "Una o más piezas del grupo han fallado en la orientación.\n\nElimina la(s) pieza(s) fallida(s) para imprimir este grupo.",
+        "groupMembersProcessing": "Una o más piezas de este grupo aún se están orientando.",
+        "noAvailableDevices": "No hay impresoras compatibles en línea para imprimir esta pieza.\n\nComprueba que las impresoras estén conectadas, o actualiza la plantilla para usar otras impresoras conectadas."
+      }
+    },
+    "nestingFailed": {
+      "name": "Error al anidar",
+      "tooltip": {
+        "default": "El anidado de piezas ha fallado.\nEsto podría deberse a problemas con el archivo de la pieza."
+      }
+    },
+    "nestPrintJob": {
+      "name": "Anidar trabajo de impresión",
+      "tooltip": {
+        "part": "La pieza se añadirá a un trabajo provisional junto con otras piezas que usen la misma plantilla. Luego se dispondrán en la plataforma."
+      }
+    },
+    "orientatePart": {
+      "name": "Orientando pieza",
+      "tooltip": {
+        "part": "La orientación de la pieza se optimizará según el tipo de pieza, antes de anidarla en un trabajo de impresión."
+      }
+    },
+    "orientatingPart": {
+      "name": "Orientando pieza",
+      "tooltip": {
+        "part": "La pieza se está orientando actualmente según su tipo."
+      }
+    },
+    "orientationFailed": {
+      "name": "Error de orientación",
+      "tooltip": {
+        "part": "La pieza no pudo orientarse correctamente para su impresión.\nEsto podría deberse a problemas con el archivo de la pieza."
+      }
+    },
+    "partAccepted": {
+      "name": "Pieza aceptada",
+      "tooltip": {
+        "part": "La pieza ha sido aceptada para impresión."
+      }
+    },
+    "partIdentification": {
+      "name": "Identificación de la pieza"
+    },
+    "partOrientated": {
+      "name": "Pieza orientada",
+      "tooltip": {
+        "part": "La pieza se orientó correctamente para su impresión."
+      }
+    },
+    "partRejected": {
+      "name": "Pieza rechazada",
+      "tooltip": {
+        "part": "La pieza fue rechazada por el usuario."
+      }
+    },
+    "partTooLarge": {
+      "name": "Pieza demasiado grande",
+      "tooltip": {
+        "part": "La pieza es demasiado grande para caber en una impresora asociada a la plantilla de la pieza.\n\nComprueba la escala de la pieza subida y que la plantilla de la pieza tenga una impresora lo suficientemente grande para contenerla."
+      }
+    },
+    "print": {
+      "name": "Imprimir",
+      "tooltip": {
+        "default": "El trabajo de impresión se enviará a la máquina donde se imprimirá."
+      }
+    },
+    "printed": {
+      "name": "Impreso",
+      "tooltip": {
+        "default": "El trabajo se ha completado correctamente."
+      }
+    },
+    "printing": {
+      "name": "Imprimiendo",
+      "tooltip": {
+        "default": "El trabajo se está imprimiendo actualmente."
+      }
+    },
+    "printJobApproved": {
+      "name": "Trabajo de impresión aprobado",
+      "tooltip": {
+        "default": "El trabajo de impresión ha sido aprobado."
+      }
+    },
+    "printJobPendingApproval": {
+      "name": "Trabajo de impresión pendiente de aprobación",
+      "tooltip": {
+        "default": "El trabajo finalizado está listo para revisión."
+      }
+    },
+    "printJobRejected": {
+      "name": "Trabajo de impresión rechazado",
+      "tooltip": {
+        "default": "El trabajo fue rechazado y las piezas se han vuelto a poner en cola."
+      }
+    },
+    "printJobReworkedOffline": {
+      "name": "Trabajo de impresión retrabajado sin conexión",
+      "tooltip": {
+        "default": "El trabajo de impresión fue descargado por el usuario para editarlo en Composer."
+      }
+    },
+    "printPaused": {
+      "name": "Impresión pausada",
+      "tooltip": {
+        "default": "El trabajo de impresión ha sido pausado por el usuario."
+      }
+    },
+    "printPending": {
+      "name": "Impresión pendiente",
+      "tooltip": {
+        "default": "El trabajo está en la impresora y listo para imprimir."
+      }
+    },
+    "sendingFailed": {
+      "name": "Error al enviar",
+      "tooltip": {
+        "default": "El trabajo de impresión falló al enviarse a la impresora.\n\nEsto podría deberse a que la impresora se desconectó o a que la cola de construcción está llena con memoria insuficiente."
+      }
+    },
+    "sendingToPrinter": {
+      "name": "Enviando a la impresora",
+      "tooltip": {
+        "default": "Las capas de impresión se están enviando a la impresora."
+      }
+    },
+    "sendToPrinter": {
+      "name": "Enviar a la impresora",
+      "tooltip": {
+        "default": "El trabajo de impresión se dividirá en capas separadas y se enviará a la impresora para su impresión."
+      }
+    },
+    "sentToPrinter": {
+      "name": "Enviado a la impresora",
+      "tooltip": {
+        "default": "El trabajo de impresión está en la impresora y listo para imprimir."
+      }
+    },
+    "slicingFailed": {
+      "name": "Error al laminar",
+      "tooltip": {
+        "default": "El trabajo de impresión ha fallado al preparar las capas de impresión.\n\nEsto podría deberse a problemas con los archivos de las piezas."
+      }
+    },
+    "slicingPrintJob": {
+      "name": "Laminando trabajo de impresión",
+      "tooltip": {
+        "default": "Las capas de impresión se están preparando."
+      }
+    },
+    "uploadTooLarge": {
+      "name": "Carga demasiado grande",
+      "tooltip": {
+        "part": "El archivo subido es demasiado grande.\n\nIntenta reducir el tamaño del archivo y subirlo de nuevo."
+      }
+    },
+    "waitingForPartToBeAccepted": {
+      "name": "Aceptar pieza para impresión",
+      "tooltip": {
+        "part": "La pieza está esperando a que el usuario la acepte."
+      }
+    }
+  },
+  "relativeTime": {
+    "daysAgo_one": "hace {{count}} día",
+    "daysAgo_other": "hace {{count}} días",
+    "hoursAgo_one": "hace {{count}} hora",
+    "hoursAgo_other": "hace {{count}} horas",
+    "justNow": "Ahora mismo",
+    "minutesAgo_one": "hace {{count}} minuto",
+    "minutesAgo_other": "hace {{count}} minutos",
+    "weeksAgo_one": "hace {{count}} semana",
+    "weeksAgo_other": "hace {{count}} semanas"
+  },
+  "share": {
+    "notFound": "No se pudo encontrar el elemento compartido"
+  },
+  "table": {
+    "activeFilters": "Filtros activos:",
+    "clearFilters": "Borrar filtros",
+    "expandRow": "Expandir fila",
+    "pageAmount": "Cantidad",
+    "perPage": "Por página"
+  },
+  "title": {
+    "cookiePolicy": "Política de cookies",
+    "help": "Ver ayuda",
+    "integrations": "Integraciones",
+    "language": "Idioma",
+    "manage": "Administrar",
+    "manageSubscription": "Administrar suscripción",
+    "name": "Nombre para mostrar",
+    "organisation": "Organización",
+    "photo": "Foto",
+    "privacy": "Privacidad",
+    "privacyPolicy": "Política de privacidad",
+    "profile": "Perfil",
+    "subscriptionOptions": "Opciones de suscripción",
+    "tableOfContents": "Tabla de contenidos",
+    "templates": "Plantillas",
+    "termsAndPolicy": "Términos y política",
+    "termsOfService": "Términos de servicio",
+    "warning": "Advertencia"
+  },
+  "underConstruction": {
+    "subtitle1": "Estamos construyendo algo especial",
+    "subtitle2": "Vuelve más tarde"
+  },
+  "units": {
+    "microns": "{{value}} μm",
+    "suffix": {
+      "degrees": " °",
+      "millimetres": " mm"
+    }
+  }
+}

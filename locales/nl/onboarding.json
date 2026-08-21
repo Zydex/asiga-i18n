@@ -1,0 +1,59 @@
+{
+  "gettingStarted": {
+    "dismissDialog": {
+      "description": "Kies of u de introductiegids permanent wilt sluiten, of verbergen tot uw volgende sessie.",
+      "dismissPermanently": "Permanent sluiten",
+      "hide": "Verbergen",
+      "title": "\"Aan de slag\" sluiten"
+    },
+    "help": "Meer hulp nodig? Bekijk onze uitgebreide <guide>gebruikershandleiding</guide>",
+    "label": {
+      "collapse": "Inklappen",
+      "dismiss": "Sluiten",
+      "expand": "Uitklappen"
+    },
+    "step": {
+      "acceptJobs": {
+        "description": "Selecteer op de pagina <bold>Taken</bold> de taken en klik op “Accepteren”",
+        "title": "Taken accepteren"
+      },
+      "createTemplate": {
+        "description": "Klik op de pagina <bold>Beheren</bold> / <bold>Sjablonen</bold> op “Maken”",
+        "title": "Een sjabloon maken"
+      },
+      "enrolPrinter": {
+        "description": "Klik op de pagina <bold>Apparaten</bold> op “Apparaat toevoegen”",
+        "title": "Een printer registreren"
+      },
+      "inviteColleagues": {
+        "description": "Klik op de pagina <bold>Beheren</bold> / <bold>Gebruikers</bold> op “Gebruiker toevoegen”",
+        "title": "Collega's uitnodigen (Optioneel)"
+      },
+      "uploadAcceptParts": {
+        "description": "Sleep op de pagina <bold>Postvak IN</bold> uw STL-bestanden, selecteer de geüploade onderdelen en klik op “Accepteren”",
+        "title": "Onderdelen uploaden en accepteren"
+      }
+    },
+    "subtitle": "Doorloop de stappen om printtaken naar uw apparaten te sturen",
+    "title": "Aan de slag"
+  },
+  "label": {
+    "country": "Land",
+    "industry": "Branchetype",
+    "organisationName": "Naam organisatie",
+    "phoneNumber": "Telefoonnummer",
+    "subtitle": "Uw toegangspoort tot eenvoudige, geautomatiseerde 3D-printinstellingen en productiebeheer",
+    "title": "Maak uw Asiga Funnel-account aan",
+    "website": "Website"
+  },
+  "message": {
+    "completePersonalDetails": "Vul uw persoonlijke gegevens in",
+    "emailResendSuccess": "E-mail verzonden. Controleer alstublieft uw postvak IN.",
+    "emailVerified": "<bold>E-mailadres succesvol geverifieerd</bold>\nU wordt zo doorgestuurd...",
+    "regionError": "De Asiga Funnel wordt momenteel alleen ondersteund in Australië.",
+    "resendEmail": "Verificatie-e-mail opnieuw verzenden",
+    "resendEmailError": "Kan de verificatie-e-mail niet opnieuw verzenden. Probeer het later opnieuw.",
+    "sendingEmail": "Verificatie-e-mail wordt verzonden...",
+    "verifyEmail": "Verifieer alstublieft uw e-mailadres om toegang te krijgen tot de Asiga Funnel."
+  }
+}

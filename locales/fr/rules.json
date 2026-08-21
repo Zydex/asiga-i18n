@@ -1,0 +1,43 @@
+{
+  "approvals": {
+    "jobs": {
+      "message": "Lorsque cette option est activée, les travaux d'impression sont acceptés automatiquement et envoyés à une imprimante.",
+      "title": "Accepter automatiquement les travaux"
+    },
+    "parts": {
+      "message": "Lorsque cette option est activée, les pièces disposant d'un gabarit sont acceptées automatiquement pour la fabrication.",
+      "title": "Accepter automatiquement les pièces"
+    },
+    "title": "Approbations",
+    "tooltips": {
+      "editPermission": "Vous n'avez pas l'autorisation de modifier les paramètres d'approbation. Demandez à un administrateur ou à un propriétaire de votre organisation d'apporter les modifications"
+    }
+  },
+  "autoPartGrouping": {
+    "label": {
+      "characterPosition": "Position du caractère",
+      "characterRange": "Plage de caractères",
+      "example": "Exemple",
+      "fromEnd": "Depuis la fin",
+      "fromStart": "Depuis le début",
+      "grouping": "Regroupement automatique",
+      "grouping_off": "Regroupement automatique désactivé",
+      "grouping_on": "Regroupement automatique activé",
+      "startingCharacterPosition": "Position de départ du caractère"
+    },
+    "message": "Regroupez automatiquement les pièces afin qu'elles soient imprimées ensemble dans le même travail. Configurez la plage de caractères correspondants pour l'aligner sur une convention que vous utilisez.",
+    "title": "Regroupement automatique des pièces",
+    "tooltips": {
+      "characterPosition": "Indiquez le caractère à faire correspondre par rapport au début du nom de la pièce téléchargée, ou à la fin du nom de la pièce téléchargée. Utile si les numéros de commande apparaissent au début ou à la fin du nom de la pièce téléchargée.",
+      "characterRange": "Indiquez le nombre de caractères que vous souhaitez faire correspondre.",
+      "editPermission": "Vous n'avez pas l'autorisation de modifier les paramètres de regroupement automatique. Demandez à un administrateur ou à un propriétaire de votre organisation d'apporter les modifications",
+      "startingCharacterPosition": "Combien d'espaces de caractères à partir du début ou de la fin souhaitez-vous que la plage commence ? Utile si les numéros de commande apparaissent au milieu d'un nom."
+    }
+  },
+  "label": {
+    "rules": "Règles"
+  },
+  "tooltips": {
+    "rules": "Paramètres qui affectent la façon dont les pièces et les travaux d'impression sont traités dans le Funnel de votre organisation."
+  }
+}

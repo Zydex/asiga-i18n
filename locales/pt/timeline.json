@@ -1,0 +1,16 @@
+{
+  "label": {
+    "allMachines": "Todas as Máquinas",
+    "noDevices": "Os trabalhos na fila para os seus dispositivos são apresentados numa linha do tempo nesta página",
+    "noDevicesMessage": "Utilize o botão abaixo para adicionar dispositivos à sua organização",
+    "requiresAttention": "Requer Atenção"
+  },
+  "title": {
+    "timeline": "Linha do Tempo"
+  },
+  "tooltips": {
+    "allMachines": "Mostra todos os dispositivos adicionados ao Funnel juntamente com os respetivos trabalhos na fila."
+  },
+  "viewHours_one": "Vista de 1 hora",
+  "viewHours_other": "Vista de {{count}} horas"
+}

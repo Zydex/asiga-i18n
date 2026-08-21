@@ -1,0 +1,772 @@
+{
+  "alt": {
+    "logo": "Asiga Web Portal",
+    "noSearchResults": "Geen zoekresultaten",
+    "sort": "Sorteren op"
+  },
+  "boolean": {
+    "false": "onwaar",
+    "true": "waar"
+  },
+  "button": {
+    "accept": "Accepteren",
+    "acceptAll": "Alles accepteren",
+    "add": "Toevoegen",
+    "addMore_zero": "Toevoegen...",
+    "addMore_one": "Meer toevoegen...",
+    "addMore_other": "Meer toevoegen...",
+    "apply": "Toepassen",
+    "back": "Terug",
+    "cancel": "Annuleren",
+    "close": "Sluiten",
+    "confirm": "Bevestigen",
+    "connect": "Verbinden",
+    "continue": "Doorgaan",
+    "create": "Aanmaken",
+    "delete": "Verwijderen",
+    "deny": "Weigeren",
+    "dismiss": "Sluiten",
+    "download": "Downloaden",
+    "edit": "Bewerken",
+    "essentialOnly": "Alleen essentieel",
+    "invite": "Uitnodigen",
+    "logout": "Uitloggen",
+    "off": "Uit",
+    "ok": "OK",
+    "on": "Aan",
+    "pause": "Pauzeren",
+    "promote": "Promoten",
+    "refresh": "Vernieuwen",
+    "reject": "Afwijzen",
+    "rejectAll": "Alles afwijzen",
+    "rejectAndRequeue": "Afwijzen en opnieuw in wachtrij plaatsen",
+    "rejectOnly": "Alleen afwijzen",
+    "remove": "Verwijderen (uit overzicht)",
+    "rename": "Naam wijzigen",
+    "reprocess": "Opnieuw verwerken",
+    "reset": "Resetten",
+    "resetToDefault": "Terugzetten naar standaard",
+    "retry": "Opnieuw proberen",
+    "save": "Opslaan",
+    "tooltips": {
+      "changeRoleDisabled": "U heeft geen toestemming om de rol van de geselecteerde gebruikers te wijzigen.",
+      "changeRoleDisabled_admin": "U heeft geen toestemming om de rol van Beheerder- of Eigenaargebruikers te wijzigen.",
+      "changeRoleDisabled_owner": "U heeft geen toestemming om de rol van Eigenaargebruikers te wijzigen.",
+      "changeRoleDisabled_user": "U heeft geen toestemming om de rollen van andere gebruikers te wijzigen.",
+      "deleteUserDisabled": "U heeft geen toestemming om de geselecteerde gebruikers te verwijderen.",
+      "deleteUserDisabled_admin": "U heeft geen toestemming om Beheerder- of Eigenaargebruikers te verwijderen.",
+      "deleteUserDisabled_owner": "U heeft geen toestemming om andere Eigenaargebruikers te verwijderen.",
+      "deleteUserDisabled_user": "U heeft geen toestemming om andere gebruikers te verwijderen."
+    },
+    "transfer": "Overdragen",
+    "unlink": "Ontkoppelen",
+    "update": "Bijwerken"
+  },
+  "date": {
+    "all": "Alle",
+    "custom": "Aangepast",
+    "daysInterval": "Datumbereik",
+    "daysInterval_0": "Vandaag",
+    "daysInterval_1": "Gisteren",
+    "daysInterval_7": "Laatste 7 dagen",
+    "homeRange": "Datumbereik",
+    "homeRange_currentPeriod": "Factureringsperiode",
+    "homeRange_last12Months": "Laatste 12 maanden",
+    "homeRange_lastWeek": "Vorige week",
+    "homeRange_thisWeek": "Deze week",
+    "homeRange_today": "Vandaag",
+    "homeRange_yesterday": "Gisteren"
+  },
+  "dateRange": {
+    "error": {
+      "outOfRange": "Geselecteerde datums moeten binnen het afgelopen jaar vallen.",
+      "toBeforeFrom": "De geselecteerde 'Tot'-datum mag niet vóór de 'Van'-datum liggen."
+    },
+    "from": "Van",
+    "title": "{{field}} datumbereik",
+    "to": "Tot"
+  },
+  "details": {
+    "copyLink": "Link kopiëren",
+    "linkCopied": "Link gekopieerd naar klembord",
+    "linkCopyFailed": "Kopiëren van link mislukt",
+    "progress": "Voortgang"
+  },
+  "dialog": {
+    "no": "Nee",
+    "yes": "Ja"
+  },
+  "displayError": {
+    "button": "Contact opnemen met ondersteuning",
+    "message": "Controleer de verbinding en probeer de webpagina te vernieuwen.\nNeem contact op met ondersteuning als het probleem aanhoudt."
+  },
+  "error": {
+    "400": "Het verzoek was ongeldig.",
+    "401": "U bent niet geauthenticeerd. Log a.u.b. in.",
+    "403": "U heeft geen toestemming om dit verzoek uit te voeren.",
+    "404": "Deze bron is niet gevonden.",
+    "409": "Uw verzoek kon niet worden verwerkt vanwege een conflict.",
+    "422": "Kan dit verzoek niet valideren.",
+    "500": "Er is een onverwachte fout opgetreden.",
+    "activeWorkflowNotFound": "Geen actieve workflow gevonden.",
+    "activeWorkflowNotFound_details": "Geen actieve workflow gevonden voor organisatie met ID {{details}}.",
+    "addressCreateForbidden": "U mag geen adressen aanmaken voor deze organisatie.",
+    "addressDeleteForbidden": "U mag de adressen voor deze organisatie niet verwijderen.",
+    "addressNotFound": "Adres niet gevonden.",
+    "addressNotFound_details": "Adres met id {{details}} niet gevonden.",
+    "addressUpdateForbidden": "U mag de adressen voor deze organisatie niet bijwerken.",
+    "auth0BadRequest": "Kan uw gebruiker niet verifiëren.",
+    "auth0Forbidden": "Uw rol heeft niet de rechten die nodig zijn om dit verzoek uit te voeren.",
+    "auth0Unauthorized": "U bent niet geauthenticeerd. Log a.u.b. in.",
+    "badRequest": "Het verzoek was ongeldig.",
+    "conflict": "Uw verzoek kon niet worden verwerkt vanwege een conflict.",
+    "deviceForbidden": "U mag de apparaten van deze organisatie niet bekijken.",
+    "deviceNotFound": "Apparaat niet gevonden.",
+    "deviceNotFound_details": "Apparaat met serienummer '{{details}}' niet gevonden.",
+    "deviceStateConflict": "Het apparaat heeft een gewenste status waarvoor nog geen ontvangstbevestiging is ontvangen.",
+    "fileChecksumMismatch": "Het geüploade bestand '{{fileName}}' is niet correct geüpload. Probeer het opnieuw te uploaden.",
+    "filesRemoved": "De bestanden die nodig zijn voor deze actie hebben hun bewaartermijn overschreden en zijn niet meer beschikbaar.",
+    "forbidden": "U heeft geen toestemming om dit verzoek uit te voeren.",
+    "integrationNotFound": "Kan integratie niet vinden.",
+    "jobDownloadIncorrectState": "Een taak kan alleen worden gedownload wanneer deze wacht op beoordeling.",
+    "jobDownloadReportIncorrectState": "De taak heeft geen rapportbestand beschikbaar.",
+    "jobForbidden": "U mag de taak voor deze organisatie niet ophalen.",
+    "jobNoPreviewFile": "De taak heeft geen voorvertoningsbestand beschikbaar.",
+    "jobNoReportFile": "De taak heeft geen rapportbestand beschikbaar.",
+    "jobNoSlicedBuildFile": "De taak heeft geen gesliced buildbestand gereed voor printen.",
+    "jobNotFound": "Taak niet gevonden.",
+    "jobNotFound_details": "Taak met id {{details}} niet gevonden.",
+    "jobReviewIncorrectState": "Taak wacht niet op beoordeling.",
+    "linkCreateConflict": "Integratielink bestaat al voor deze organisatie.",
+    "linkCreateForbidden": "U mag geen integratielink aanmaken voor deze organisatie.",
+    "linkDeleteForbidden": "U mag een integratielink voor deze organisatie niet verwijderen.",
+    "linkGetForbidden": "U mag een integratielink voor deze organisatie niet ophalen.",
+    "linkNotFound": "Integratielink niet gevonden.",
+    "linkUpdateForbidden": "U mag een integratielink voor deze organisatie niet bijwerken.",
+    "linkUserCreateForbidden": "U mag geen integratielink namens een andere gebruiker aanmaken.",
+    "luceneIllegalCharacterError": "Ongeldig teken in lucene-query.",
+    "luceneIllegalCharacterError_details": "Ongeldig teken in lucene-query. ({{details}})",
+    "luceneParseError": "Kan Lucene-query niet verwerken.",
+    "luceneSyntaxError": "Syntaxisfout in lucene-query.",
+    "luceneSyntaxError_details": "Syntaxisfout in lucene-query. ({{details}})",
+    "materialCancelIncorrectState": "U mag geen materiaal annuleren dat niet in afwachting is van een upload.",
+    "materialCreateForbidden": "U mag geen materiaal aanmaken voor deze organisatie.",
+    "materialDeleteForbidden": "U mag geen materiaal verwijderen voor deze organisatie.",
+    "materialFileEmpty": "Materiaalbestand is leeg.",
+    "materialFileName": "Niet-ondersteund bestandstype.",
+    "materialFileParse": "Kan materiaalbestand niet lezen.",
+    "materialFileRead": "Kan materiaalbestand niet lezen.",
+    "materialFileType": "Niet-ondersteund bestandstype.",
+    "materialGetForbidden": "U mag geen materiaal ophalen voor deze organisatie.",
+    "materialMarkAsUploadedIncorrectState": "U mag een materiaal niet als geüpload markeren dat niet in afwachting is van een upload.",
+    "materialNotFound": "Materiaal kon niet worden gevonden.",
+    "materialNotUploadedIncorrectState": "Er is geen ini-bestand geüpload voor dit materiaal.",
+    "materialRetryUploadIncorrectState": "U mag het uploaden van een materiaal dat niet in afwachting is van een upload niet opnieuw proberen.",
+    "materialUpdateForbidden": "U mag geen materiaal bijwerken voor deze organisatie.",
+    "materialVisibilityConflict": "U mag de zichtbaarheid van een materiaal dat wordt geüpload niet wijzigen.",
+    "noAuthorized": "U bent niet geauthenticeerd. Log a.u.b. in.",
+    "notAllowedFieldFilter": "Een opgegeven veld is niet filterbaar.",
+    "notAllowedFieldFilter_details": "Het veld '{{details}}' is niet filterbaar.",
+    "notAllowedFieldSort": "Een opgegeven veld is niet sorteerbaar.",
+    "notAllowedFieldSort_details": "Het veld '{{details}}' is niet sorteerbaar.",
+    "notFound": "Deze bron is niet gevonden.",
+    "organisationNotFound": "Organisatie niet gevonden.",
+    "organisationNotFound_details": "Organisatie met id {{details}} niet gevonden.",
+    "organisationUpdateForbidden": "U mag deze organisatie niet bijwerken.",
+    "organisationViewForbidden": "U mag deze organisatie niet bekijken.",
+    "organisationViewUsersForbidden": "U mag de gebruikers van deze organisatie niet bekijken.",
+    "partCancelIncorrectState": "U mag een onderdeel dat niet in afwachting is van een upload niet annuleren.",
+    "partCreateForbidden": "U mag geen onderdeel aanmaken voor deze organisatie.",
+    "partDeleteForbidden": "U mag geen onderdeel verwijderen voor deze organisatie.",
+    "partDequeForbidden": "U mag een onderdeel dat niet wacht op plaatsing niet uit de wachtrij verwijderen.",
+    "partDownloadIncorrectState": "U mag geen onderdeel downloaden dat niet is geüpload.",
+    "partFileNameEmpty": "De bestandsnaam van het onderdeel is leeg",
+    "partFileNameExcessive": "De bestandsnaam van het onderdeel is te lang",
+    "partGetForbidden": "U mag geen onderdeel ophalen voor deze organisatie.",
+    "partMarkAsAcceptedIncorrectState": "U mag een onderdeel dat niet klaar is om te worden geaccepteerd niet accepteren.",
+    "partMarkAsConfirmedIncorrectState": "U mag een onderdeel dat niet wacht op bevestiging niet bevestigen.",
+    "partMarkAsRejectedIncorrectState": "U mag een onderdeel dat niet wacht op beoordeling of acceptatie niet afwijzen.",
+    "partMarkAsReviewedIncorrectState": "U mag een onderdeel dat niet klaar is om te worden beoordeeld niet beoordelen.",
+    "partMarkAsUploadedIncorrectState": "U mag een onderdeel niet als geüpload markeren dat niet de juiste status heeft.",
+    "partMarkQueuedAsRejectedIncorrectState": "U mag een onderdeel dat deel uitmaakt van de taakwachtrij niet afwijzen.",
+    "partMarkToConfirmAsRejectedIncorrectState": "U mag een onderdeel dat niet wacht op bevestiging niet afwijzen.",
+    "partNeedsTemplateConflict": "Dit onderdeel vereist een sjabloon, maar er kunnen geen sjablonen aan worden toegewezen.",
+    "partNotFound": "Onderdeel niet gevonden.",
+    "partNotFound_details": "Onderdeel met id {{details}} niet gevonden.",
+    "partRetryUploadIncorrectState": "U mag het uploaden van een onderdeel dat niet in afwachting is van een upload niet opnieuw proberen.",
+    "partUndoAcceptIncorrectState": "U kunt de acceptatie niet ongedaan maken wanneer een onderdeel niet is geaccepteerd.",
+    "partUndoRejectIncorrectState": "Afwijzing kan niet ongedaan worden gemaakt wanneer een onderdeel niet is afgewezen.",
+    "partUpdateAcceptedIncorrectState": "U mag een onderdeel dat is geaccepteerd niet bijwerken.",
+    "partUpdateForbidden": "U mag geen onderdeel bijwerken voor deze organisatie.",
+    "roleNotFound": "Rol-id bestaat niet.",
+    "sortField": "Ongeldige veldnaam.",
+    "sortField_details": "Ongeldige veldnaam: {{details}}.",
+    "sortOrder": "Ongeldige sorteerwaarde. Moet '-1' of '1' zijn",
+    "sortOrder_details": "Ongeldige sorteerwaarde: {{details}}. Moet '-1' of '1' zijn",
+    "templateCreateForbidden": "U mag geen sjabloon aanmaken voor deze organisatie.",
+    "templateDeleteForbidden": "U mag geen sjabloon verwijderen voor deze organisatie.",
+    "templateDeleteHardForbidden": "U kunt een sjabloon niet direct verwijderen.",
+    "templateGetForbidden": "U mag geen sjabloon ophalen voor deze organisatie.",
+    "templateMaterialForbidden": "U heeft geen toegang om dit materiaal aan een sjabloon toe te wijzen.",
+    "templateMaterialPendingConflict": "Een materiaal dat in afwachting is van een upload kan niet aan een sjabloon worden toegewezen.",
+    "templateNoEligibleDefault": "Voor elk opgegeven onderdeeltype is een standaardsjabloon vereist. Stel een andere sjabloon in als standaard voordat u deze verwijdert.",
+    "templateNotFound": "Sjabloon kon niet worden gevonden.",
+    "templateUpdateForbidden": "U mag geen sjabloon bijwerken voor deze organisatie.",
+    "unauthorized": "U bent niet geauthenticeerd. Log a.u.b. in.",
+    "unexpected": "Er is een onverwachte fout opgetreden.",
+    "unprocessableContent": "Niet-verwerkbare inhoud",
+    "unspecified": "Er is een niet-gespecificeerde fout opgetreden.",
+    "unsupportedMediaType": "Niet-ondersteund mediatype",
+    "userBFPForbidden": "Kan gebruiker niet deblokkeren.",
+    "userBlockForbidden": "Kan de blokkeerstatus van de gebruiker niet wijzigen.",
+    "userConflict": "Gebruiker bestaat al.",
+    "userConflict_details": "Een gebruiker met e-mailadres {{details}} bestaat al in uw organisatie of een andere organisatie. Gebruik een ander e-mailadres.",
+    "userConflictAnotherOrg_details": "Het e-mailadres {{details}} is al gekoppeld aan een andere organisatie. Gebruik een ander e-mailadres of vraag de gebruiker om zich uit te schrijven bij hun vorige organisatie.",
+    "userConflictWithinOrg_details": "Er bestaat al een gebruiker met het e-mailadres {{details}} in uw organisatie.",
+    "userCreateForbidden": "Kan gebruiker niet aanmaken.",
+    "userDeleteForbidden": "Kan gebruiker niet verwijderen.",
+    "userGetBFPForbidden": "Kan blokkeerstatus van gebruiker niet ophalen",
+    "userGetBlockForbidden": "Kan blokkeerstatus van gebruiker niet ophalen.",
+    "userGetForbidden": "Kan gebruiker niet vinden.",
+    "userNotFound": "Gebruiker niet gevonden.",
+    "userNotFound_details": "Gebruiker met e-mailadres {{details}} kon niet worden gevonden.",
+    "userNotInOrg": "Gebruiker is niet gekoppeld aan een organisatie.",
+    "userResetForbidden": "Kan wachtwoord van gebruiker niet resetten.",
+    "userRoleAddForbidden": "Kan rol niet toevoegen aan gebruiker.",
+    "userRoleRemoveForbidden": "Kan rol niet verwijderen van gebruiker.",
+    "userSearchField": "Ongeldige veldinstellingen voor gebruikerszoekopdracht.",
+    "userSearchForbidden": "Kan niet zoeken naar gebruikers.",
+    "userSearchPagination": "Ongeldige pagina-instellingen voor gebruikerszoekopdracht.",
+    "userSearchSort": "Ongeldige sorteerinstellingen voor gebruikerszoekopdracht.",
+    "userUpdateForbidden": "Kan gebruiker niet bijwerken.",
+    "validation": "Kan dit verzoek niet valideren.",
+    "value": "Er is een ongeldige waarde opgegeven voor dit verzoek.",
+    "workflowNotFound": "Workflow niet gevonden.",
+    "workflowNotFound_details": "Workflow met id {{details}} niet gevonden."
+  },
+  "label": {
+    "acceptedGroupsSuccess_one": "{{count}} groep verplaatst naar <a>Geaccepteerd</a>",
+    "acceptedGroupsSuccess_other": "{{count}} groepen verplaatst naar <a>Geaccepteerd</a>",
+    "acceptedJobsSuccess_one": "{{count}} taak verplaatst naar <a>Geaccepteerd</a>",
+    "acceptedJobsSuccess_other": "{{count}} taken verplaatst naar <a>Geaccepteerd</a>",
+    "acceptedPartsSuccess_one": "{{count}} onderdeel verplaatst naar <a>Geaccepteerd</a>",
+    "acceptedPartsSuccess_other": "{{count}} onderdelen verplaatst naar <a>Geaccepteerd</a>",
+    "acceptingGroups": "Onderdeelgroepen worden geaccepteerd",
+    "acceptingJobs": "Taken worden geaccepteerd",
+    "acceptingParts": "Onderdelen worden geaccepteerd",
+    "assigningTemplates": "Sjabloon toewijzen aan onderdelen",
+    "assigningTemplatesSuccess_one": "Sjabloon toegewezen aan {{count}} onderdeel",
+    "assigningTemplatesSuccess_other": "Sjabloon toegewezen aan {{count}} onderdelen",
+    "cancelUploadModalButtonSecondary": "Uploads voortzetten",
+    "cancelUploadsModalBody": "De uploads van onderdelen zijn niet voltooid. Wilt u de resterende uploads annuleren?",
+    "cancelUploadsModalButtonPrimary": "Uploads annuleren",
+    "cancelUploadsModalTitle": "Resterende uploads annuleren?",
+    "confirmedSuccess_one": "{{count}} onderdeel bevestigd",
+    "confirmedSuccess_other": "{{count}} onderdelen bevestigd",
+    "confirmingParts": "Onderdelen worden bevestigd",
+    "creatingGroup": "Onderdeelgroep wordt aangemaakt",
+    "default": "Standaard",
+    "deprioritiseSuccess_one": "Prioriteit van onderdeel gewist.",
+    "deprioritiseSuccess_other": "Prioriteiten van onderdelen gewist.",
+    "deprioritisingParts": "Prioriteiten van onderdelen worden gewist.",
+    "dismissingParts": "Onderdelen worden gesloten",
+    "dismissSuccess_one": "{{count}} onderdeel is gesloten",
+    "dismissSuccess_other": "{{count}} onderdelen zijn gesloten",
+    "downloading": "Downloaden",
+    "downloadJobsSuccess_one": "{{count}} taak gedownload",
+    "downloadJobsSuccess_other": "{{count}} taken gedownload",
+    "downloadPartsSuccess_one": "{{count}} onderdeel gedownload",
+    "downloadPartsSuccess_other": "{{count}} onderdelen gedownload",
+    "duplicatePartsSuccess_one": "{{count}} onderdeel gedupliceerd <a>Te beoordelen</a>",
+    "duplicatePartsSuccess_other": "{{count}} onderdelen gedupliceerd <a>Te beoordelen</a>",
+    "duplicatingParts": "Onderdelen worden gedupliceerd",
+    "filesRemovedJob": "Printtaakbestanden hebben hun bewaartermijn overschreden en zijn niet meer beschikbaar.",
+    "filesRemovedPart": "Onderdeelbestanden hebben hun bewaartermijn overschreden en zijn niet meer beschikbaar.",
+    "fullname": "Volledige naam",
+    "groupCreateSuccess": "Onderdeelgroep succesvol aangemaakt",
+    "groupRegroupSuccess": "Onderdelen succesvol opnieuw gegroepeerd",
+    "groupRenameSuccess": "Naam van onderdeelgroep succesvol gewijzigd",
+    "groupUpdateSuccess_one": "{{count}} groep succesvol bijgewerkt",
+    "groupUpdateSuccess_other": "{{count}} groepen succesvol bijgewerkt",
+    "itemSelected": "Item geselecteerd",
+    "itemSelected_zero": "Geen items geselecteerd",
+    "itemSelected_one": "{{count}} item geselecteerd",
+    "itemSelected_other": "{{count}} items geselecteerd",
+    "language": "Taal",
+    "openDrawer": "Lade openen",
+    "partRenameSuccess": "Naam van onderdeel succesvol gewijzigd",
+    "preparingDownload": "Download wordt voorbereid",
+    "prioritiseSuccess_one": "{{count}} onderdeel geprioriteerd.",
+    "prioritiseSuccess_other": "{{count}} onderdelen geprioriteerd.",
+    "prioritisingParts": "Onderdelen worden geprioriteerd",
+    "promotedJobsSuccess_one": "{{count}} taak gepromoot <a>Te beoordelen</a>",
+    "promotedJobsSuccess_other": "{{count}} taken gepromoot <a>Te beoordelen</a>",
+    "promotingJobs": "Taken worden gepromoot",
+    "regroupingParts": "Onderdelen worden opnieuw gegroepeerd",
+    "rejectedSuccess_one": "{{count}} onderdeel verplaatst naar <a>Afgewezen</a>",
+    "rejectedSuccess_other": "{{count}} onderdelen verplaatst naar <a>Afgewezen</a>",
+    "rejectingParts": "Onderdelen worden afgewezen",
+    "rejectJobPartModalIntro_one": "Dit onderdeel is genest in een taak die klaar is om te worden beoordeeld.",
+    "rejectJobPartModalIntro_other": "Deze onderdelen zijn genest in een taak die klaar is om te worden beoordeeld.",
+    "rejectJobPartModalRejectAndRequeue_one": "Verwijder dit onderdeel en plaats de resterende onderdelen opnieuw in de wachtrij voor hernesten.",
+    "rejectJobPartModalRejectAndRequeue_other": "Verwijder deze onderdelen en plaats de resterende onderdelen opnieuw in de wachtrij voor hernesten.",
+    "rejectJobPartModalRejectOnly_one": "Verwijder dit onderdeel en houd de rest van de taak intact.",
+    "rejectJobPartModalRejectOnly_other": "Verwijder deze onderdelen en houd de rest van de taak intact.",
+    "rejectJobPartModalTitle": "Taak opnieuw nesten?",
+    "rejectModal": "Geselecteerde onderdelen worden niet langer meegenomen voor printtaken.",
+    "rejectModalTitle_one": "{{partName}} afwijzen?",
+    "rejectModalTitle_other": "{{count}} geselecteerde onderdelen afwijzen?",
+    "removingFromGroups": "Onderdelen worden verwijderd uit groepen",
+    "renamePart": "Naam onderdeel wijzigen",
+    "renamingGroup": "Naam van onderdeelgroep wordt gewijzigd",
+    "renamingPart": "Naam van onderdeel wordt gewijzigd",
+    "reprintingParts": "Onderdelen worden opnieuw in de wachtrij geplaatst voor herdruk",
+    "reprintPartsSuccess_one": "{{count}} onderdeel opnieuw in de wachtrij geplaatst en verplaatst naar <a>Geaccepteerd</a>",
+    "reprintPartsSuccess_other": "{{count}} onderdelen opnieuw in de wachtrij geplaatst en verplaatst naar <a>Geaccepteerd</a>",
+    "resendingJobs": "Taken worden opnieuw verzonden",
+    "resentJobs_one": "{{count}} taak opnieuw verzonden",
+    "resentJobs_other": "{{count}} taken opnieuw verzonden",
+    "setTimezone": "Tijdzone instellen",
+    "settings": "Instellingen",
+    "tabs": "Tabbladen",
+    "timezone": "Tijdzone",
+    "undoAcceptedPartsSuccess_one": "{{count}} onderdeel verwijderd uit Geaccepteerd",
+    "undoAcceptedPartsSuccess_other": "{{count}} onderdelen verwijderd uit Geaccepteerd",
+    "undoingAcceptParts": "Acceptatie van onderdelen wordt ongedaan gemaakt",
+    "undoingRejectParts": "Afwijzing van onderdelen wordt ongedaan gemaakt",
+    "undoRejectPartsSuccess_one": "{{count}} onderdeel verwijderd uit Afgewezen",
+    "undoRejectPartsSuccess_other": "{{count}} onderdelen verwijderd uit Afgewezen",
+    "ungroupingGroups": "Onderdelen worden ontgroepeerd",
+    "ungroupSuccess_one": "{{count}} groep succesvol ontgroepeerd",
+    "ungroupSuccess_other": "{{count}} groepen succesvol ontgroepeerd",
+    "updatingPartTypes": "Onderdeeltypen worden bijgewerkt",
+    "updatingPartTypesSuccess_one": "{{count}} onderdeeltype bijgewerkt",
+    "updatingPartTypesSuccess_other": "{{count}} onderdeeltypen bijgewerkt"
+  },
+  "links": {
+    "devices": "Apparaten",
+    "home": "Home",
+    "inbox": "Inbox",
+    "manage": "Beheren",
+    "parts": "Onderdelen",
+    "printJobs": "Printtaken",
+    "timeline": "Tijdlijn",
+    "tooltips": {
+      "devices": "Een live overzicht van alle apparaten om u te helpen uw lab te monitoren.",
+      "home": "Een momentopname van de activiteit van uw lab om u op de hoogte te houden.",
+      "inbox": "Upload en beoordeel onderdelen van gebruikers of applicaties.\n\nBevestig dat onderdelen het juiste printsjabloon hebben toegepast en accepteer ze voor productie.",
+      "manage": "Voeg gebruikers toe of bewerk ze, koppel externe apps, algemene instellingen.",
+      "parts": "Bekijk onderdelen die zijn geaccepteerd voor productie.\n\nControleer de status om te zien waar ze zich bevinden in het productieproces.",
+      "printJobs": "Beoordeel printtaken die zijn aangemaakt.\n\nControleer de status om te zien in welke fase van het productieproces ze zich bevinden.",
+      "templates": "Toont alle sjablonen in de Funnel. Deze bepalen welke materialen, printinstellingen en printers voor elk onderdeeltype worden gebruikt.",
+      "timeline": "Bekijk de printtaken die in de wachtrij staan op elk van uw apparaten om de voortgang en benutting te monitoren."
+    }
+  },
+  "loading": {
+    "unavailable": "Niet beschikbaar"
+  },
+  "maintenancePage": {
+    "message": "We werken eraan om de Funnel beter te maken.\nWe zijn spoedig weer terug.",
+    "title": "Gepland onderhoud"
+  },
+  "message": {
+    "acceptPrivacyPolicy": "Ik ga akkoord met het <a>Privacybeleid</a>",
+    "acceptTermsOfService": "Ik ga akkoord met de <a>Servicevoorwaarden</a>",
+    "betaTest": "U gebruikt de bèta, laat ons weten hoe we kunnen verbeteren. <a>Feedback geven</a>",
+    "betaTest_narrow": "U gebruikt de bèta. <a>Feedback geven</a>",
+    "checkConnectionForBuildInfo": "Controleer de internetverbinding van de printer om de huidige en in de wachtrij staande builds te zien.",
+    "cookiePolicy": "We gebruiken cookies om uw surfervaring te verbeteren. Bezoek voor meer informatie ons <cookie>Cookiebeleid</cookie> & <privacy>Privacyverklaring</privacy>.",
+    "cookiePreferencesAllowed": "U heeft alle cookies toegestaan, inclusief analytische en ondersteuningscookies.",
+    "cookiePreferencesDenied": "U gebruikt alleen strikt noodzakelijke cookies.",
+    "filesRemovedAction": "Niet beschikbaar: de bestanden die nodig zijn voor deze actie hebben hun bewaartermijn overschreden en zijn niet meer beschikbaar.",
+    "maintenanceMode": "De Funnel zal niet beschikbaar zijn op {{startDate}}, tussen {{startTime}} en {{endTime}}, vanwege essentieel onderhoud.",
+    "maintenanceMode_multiDay": "De Funnel zal van {{startDate}} {{startTime}} tot {{endDate}} {{endTime}} niet beschikbaar zijn vanwege essentieel onderhoud.",
+    "maintenanceModeActive": "De Funnel ondergaat gepland onderhoud tot {{endDate}} {{endTime}}.",
+    "noConnection": "Kan geen verbinding maken, nieuwe poging over {{time}}",
+    "noMatches": "Sorry, er zijn geen overeenkomsten gevonden",
+    "noMatchesHelp": "Controleer op typefouten of probeer algemenere woorden\nProbeer anders de tabelfilters te gebruiken",
+    "noMatchesHelp_both": "Controleer op typefouten of probeer algemenere woorden\nProbeer anders de tabelfilters bij te werken of te wissen",
+    "noMatchesHelp_filtering": "Probeer de tabelfilters bij te werken of te wissen",
+    "noMatchesHelp_searching": "Controleer op typefouten of probeer algemenere woorden\nProbeer anders de tabelfilters te gebruiken",
+    "reconnecting": "Opnieuw verbinding maken",
+    "reviewAndAgreeToPolicies": "Voordat u verdergaat, moet u de <terms>Servicevoorwaarden</terms> en het <privacy>Privacybeleid</privacy> beoordelen en ermee akkoord gaan."
+  },
+  "notFoundPage": {
+    "message": "Controleer het paginaadres op typefouten of gebruik het navigatiemenu linksboven",
+    "message_narrow": "Controleer het paginaadres op typefouten of gebruik het navigatiemenu linksboven",
+    "message_wide": "Controleer het paginaadres op typefouten of gebruik de navigatieknoppen aan de linkerkant",
+    "title": "We kunnen die pagina niet vinden"
+  },
+  "notifications": {
+    "actions": {
+      "dismiss": "Sluiten",
+      "inbox": "Inbox",
+      "reprintParts": "Onderdelen opnieuw printen",
+      "requeueParts": "Onderdelen opnieuw in wachtrij plaatsen",
+      "resend": "Opnieuw verzenden",
+      "reviewGroup": "Groep beoordelen",
+      "reviewPart": "Onderdeel beoordelen",
+      "reworkOffline": "Offline herbewerken",
+      "ungroup": "Ontgroeperen"
+    },
+    "clearAll": "Alles wissen",
+    "empty": "Geen meldingen",
+    "requeuePartsConfirmation": "Weet u zeker dat u de onderdelen van deze taak opnieuw in de wachtrij wilt plaatsen? Hierdoor wordt de huidige taak verwijderd en worden nieuwe onderdelen in de inbox aangemaakt.",
+    "settings": {
+      "label": "Toon realtime meldingen voor onderdelen, groepen, taken en apparaten die aandacht vereisen.",
+      "title": "Meldingen"
+    },
+    "title": "Meldingen",
+    "types": {
+      "deviceOffline": {
+        "body_one": "{{name}} is offline gegaan",
+        "body_other": "Meerdere printers zijn offline gegaan",
+        "title": "Printer offline"
+      },
+      "groupTooLarge": {
+        "body_one": "{{name}} is te groot om samen te printen",
+        "body_other": "Meerdere groepen zijn te groot om samen te printen",
+        "title": "Groep te groot"
+      },
+      "nestingFailed": {
+        "body_one": "Kan {{name}} niet nesten",
+        "body_other": "Kan meerdere taken niet nesten",
+        "title": "Nesten van taak mislukt"
+      },
+      "orientationFailed": {
+        "body_one": "Kan {{name}} niet oriënteren",
+        "body_other": "Kan meerdere onderdelen niet oriënteren",
+        "title": "Oriëntatie van onderdeel mislukt"
+      },
+      "partTooLarge": {
+        "body_one": "{{name}} is te groot om te printen",
+        "body_other": "Meerdere onderdelen zijn te groot om te printen",
+        "title": "Onderdeel te groot"
+      },
+      "printerError": {
+        "body_one": "{{buildName}} is mislukt tijdens het printen.\n\nRaadpleeg het printerscherm voor meer informatie.",
+        "body_other": "Meerdere prints zijn mislukt.\n\nRaadpleeg het printerscherm voor meer informatie.",
+        "title": "Printen mislukt"
+      },
+      "sendingFailed": {
+        "body_one": "Verzenden van taak #{{name}} is mislukt",
+        "body_other": "Verzenden van meerdere taken is mislukt",
+        "title": "Verzenden van taak mislukt"
+      },
+      "slicingFailed": {
+        "body_one": "Slicen van taak #{{name}} is mislukt",
+        "body_other": "Slicen van meerdere taken is mislukt",
+        "title": "Slicen van taak mislukt"
+      },
+      "supportsFailed": {
+        "body_one": "Genereren van supports voor taak #{{name}} is mislukt",
+        "body_other": "Genereren van supports voor meerdere taken is mislukt",
+        "title": "Supports van taak mislukt"
+      }
+    }
+  },
+  "progressStatus": {
+    "acceptPartForPrinting": {
+      "name": "Onderdeel accepteren voor printen",
+      "tooltip": {
+        "part": "Het onderdeel wordt ter beoordeling aangeboden om het type en de sjabloninstellingen die worden gebruikt te bevestigen."
+      }
+    },
+    "addingToProvisionalJob": {
+      "name": "Toevoegen aan voorlopige taak",
+      "tooltip": {
+        "default": "Het onderdeel wordt genest in een voorlopige taak."
+      }
+    },
+    "approvePrintJob": {
+      "name": "Printtaak goedkeuren",
+      "tooltip": {
+        "default": "De printtaak wordt ter beoordeling aangeboden zodat de indeling van onderdelen en de supports kunnen worden gecontroleerd voordat de printtaak wordt goedgekeurd voor printen."
+      }
+    },
+    "cancelled": {
+      "name": "Print geannuleerd",
+      "tooltip": {
+        "default": "De printtaak is geannuleerd voordat deze was voltooid of is verwijderd uit de buildwachtrij."
+      }
+    },
+    "failedToPrint": {
+      "name": "Printen mislukt",
+      "tooltip": {
+        "default": "De printtaak is mislukt.\n\nRaadpleeg het printerscherm voor meer informatie."
+      }
+    },
+    "generatingSupports": {
+      "name": "Supports genereren",
+      "tooltip": {
+        "job": "De indeling van de voorlopige taak is definitief gemaakt en de printlagen worden voorbereid.",
+        "part": "Er worden supports toegevoegd aan de voorlopige taak voordat deze definitief wordt gemaakt zodat de gebruiker deze kan goedkeuren voor printen."
+      }
+    },
+    "groupTooLarge": {
+      "name": "Groep te groot",
+      "tooltip": {
+        "part": "De groep waartoe het onderdeel behoort is te groot om te printen. Probeer de onderdelen te ontgroeperen."
+      }
+    },
+    "identifiedPartType": {
+      "name": "Onderdeeltype geïdentificeerd",
+      "tooltip": {
+        "part": "Het onderdeeltype is geïdentificeerd, dit beïnvloedt welke sjablonen kunnen worden gekozen en hoe het onderdeel later wordt georiënteerd."
+      }
+    },
+    "identifyingPartType": {
+      "name": "Onderdeeltype identificeren",
+      "tooltip": {
+        "part": "Onderdeelgeometrie wordt geanalyseerd om het onderdeeltype te identificeren."
+      }
+    },
+    "invalidGeometry": {
+      "name": "Ongeldige geometrie",
+      "tooltip": {
+        "part": "Het onderdeel kon niet worden verwerkt omdat de geometrie ongeldig is.\n\nProbeer het model te herstellen en opnieuw te uploaden."
+      }
+    },
+    "invalidModel": {
+      "name": "Ongeldig model",
+      "tooltip": {
+        "part": "Het onderdeel kon niet worden verwerkt omdat het geüploade bestand geen model is.\n\nControleer of het bestand niet beschadigd is en upload het opnieuw."
+      }
+    },
+    "nestedInJob": {
+      "name": "Printtaak aangemaakt",
+      "tooltip": {
+        "job": "De printtaak is aangemaakt.",
+        "part": "Het onderdeel is toegevoegd aan een printtaak."
+      }
+    },
+    "nestedInProvisionalJob": {
+      "name": "Genest in voorlopige taak",
+      "tooltip": {
+        "job": "De taak bevindt zich in een voorlopige status en wordt definitief wanneer:<ul><li>er meer onderdelen worden toegevoegd om de taak te vullen</li><li>er binnenkort een geschikte printer beschikbaar is om deze te printen</li></ul>De taak kan ook handmatig worden gepromoot naar een definitieve status.",
+        "part": "Het onderdeel is genest in een voorlopige taak. Deze wordt definitief wanneer:<ul><li>er meer onderdelen worden toegevoegd om de taak te vullen, en</li><li>Er binnenkort een geschikte printer beschikbaar is om deze te printen</li></ul>"
+      }
+    },
+    "nestingBlocked": {
+      "name": "Kan niet worden toegevoegd aan voorlopige taak",
+      "tooltip": {
+        "allDevicesExcludedFromFunnel": "Compatibele printers zijn uitgesloten van het accepteren van taken van de Funnel.\n\nNeem deze printers op voor automatische printtaken, of werk het sjabloon bij om andere printers te gebruiken.",
+        "allDevicesOfflineOrExcluded": "Er zijn geen compatibele printers online of die Funnel-printtaken accepteren.\n\nControleer of printers zijn verbonden en opgenomen voor automatische printtaken, of werk het sjabloon bij om andere verbonden printers te gebruiken.",
+        "groupMemberFailed": "Een of meer onderdelen in de groep zijn niet correct georiënteerd.\n\nVerwijder de mislukte onderdelen om deze groep te printen.",
+        "groupMembersProcessing": "Een of meer onderdelen in deze groep worden nog georiënteerd.",
+        "noAvailableDevices": "Er zijn geen compatibele printers online om dit onderdeel te printen.\n\nControleer of printers zijn verbonden, of werk het sjabloon bij om andere verbonden printers te gebruiken."
+      }
+    },
+    "nestingFailed": {
+      "name": "Nesten mislukt",
+      "tooltip": {
+        "default": "Het nesten van onderdelen is mislukt.\nDit kan worden veroorzaakt door problemen met het onderdeelbestand."
+      }
+    },
+    "nestPrintJob": {
+      "name": "Printtaak nesten",
+      "tooltip": {
+        "part": "Het onderdeel wordt toegevoegd aan een voorlopige taak samen met andere onderdelen die hetzelfde sjabloon gebruiken. Ze worden vervolgens op het platform gerangschikt."
+      }
+    },
+    "orientatePart": {
+      "name": "Onderdeel oriënteren",
+      "tooltip": {
+        "part": "De oriëntatie van het onderdeel wordt geoptimaliseerd op basis van het onderdeeltype, voordat het wordt genest in een printtaak."
+      }
+    },
+    "orientatingPart": {
+      "name": "Onderdeel oriënteren",
+      "tooltip": {
+        "part": "Het onderdeel wordt momenteel georiënteerd op basis van het type."
+      }
+    },
+    "orientationFailed": {
+      "name": "Oriëntatie mislukt",
+      "tooltip": {
+        "part": "Het onderdeel kon niet succesvol worden georiënteerd voor printen.\nDit kan worden veroorzaakt door problemen met het onderdeelbestand."
+      }
+    },
+    "partAccepted": {
+      "name": "Onderdeel geaccepteerd",
+      "tooltip": {
+        "part": "Het onderdeel is geaccepteerd voor printen."
+      }
+    },
+    "partIdentification": {
+      "name": "Onderdeelidentificatie"
+    },
+    "partOrientated": {
+      "name": "Onderdeel georiënteerd",
+      "tooltip": {
+        "part": "Het onderdeel is succesvol georiënteerd voor printen."
+      }
+    },
+    "partRejected": {
+      "name": "Onderdeel afgewezen",
+      "tooltip": {
+        "part": "Het onderdeel is afgewezen door de gebruiker."
+      }
+    },
+    "partTooLarge": {
+      "name": "Onderdeel te groot",
+      "tooltip": {
+        "part": "Het onderdeel is te groot om te passen op een printer die aan het sjabloon van het onderdeel is gekoppeld.\n\nControleer de schaal van het geüploade onderdeel, en of het sjabloon van het onderdeel een printer heeft die groot genoeg is om het te accommoderen."
+      }
+    },
+    "print": {
+      "name": "Printen",
+      "tooltip": {
+        "default": "De printtaak wordt naar de machine verzonden waar deze wordt geprint."
+      }
+    },
+    "printed": {
+      "name": "Geprint",
+      "tooltip": {
+        "default": "De taak is succesvol voltooid."
+      }
+    },
+    "printing": {
+      "name": "Bezig met printen",
+      "tooltip": {
+        "default": "De taak wordt momenteel geprint."
+      }
+    },
+    "printJobApproved": {
+      "name": "Printtaak goedgekeurd",
+      "tooltip": {
+        "default": "De printtaak is goedgekeurd."
+      }
+    },
+    "printJobPendingApproval": {
+      "name": "Printtaak in afwachting van goedkeuring",
+      "tooltip": {
+        "default": "De definitieve taak is klaar om te worden beoordeeld."
+      }
+    },
+    "printJobRejected": {
+      "name": "Printtaak afgewezen",
+      "tooltip": {
+        "default": "De taak is afgewezen en de onderdelen zijn opnieuw in de wachtrij geplaatst."
+      }
+    },
+    "printJobReworkedOffline": {
+      "name": "Printtaak offline herbewerkt",
+      "tooltip": {
+        "default": "De printtaak is door de gebruiker gedownload om te bewerken in Composer."
+      }
+    },
+    "printPaused": {
+      "name": "Printen gepauzeerd",
+      "tooltip": {
+        "default": "De printtaak is gepauzeerd door de gebruiker."
+      }
+    },
+    "printPending": {
+      "name": "Printen in afwachting",
+      "tooltip": {
+        "default": "De taak staat op de printer en is klaar om te printen."
+      }
+    },
+    "sendingFailed": {
+      "name": "Verzenden mislukt",
+      "tooltip": {
+        "default": "De printtaak is mislukt bij het verzenden naar de printer.\n\nDit kan worden veroorzaakt doordat de printer offline is gegaan of doordat de buildwachtrij vol is met onvoldoende resterend geheugen."
+      }
+    },
+    "sendingToPrinter": {
+      "name": "Verzenden naar printer",
+      "tooltip": {
+        "default": "De printlagen worden naar de printer verzonden."
+      }
+    },
+    "sendToPrinter": {
+      "name": "Naar printer verzenden",
+      "tooltip": {
+        "default": "De printtaak wordt in aparte lagen gesliced en naar de printer verzonden om te printen."
+      }
+    },
+    "sentToPrinter": {
+      "name": "Naar printer verzonden",
+      "tooltip": {
+        "default": "De printtaak staat op de printer en is klaar om te printen."
+      }
+    },
+    "slicingFailed": {
+      "name": "Slicen mislukt",
+      "tooltip": {
+        "default": "De printtaak is mislukt tijdens het voorbereiden van de printlagen.\n\nDit kan worden veroorzaakt door problemen met de onderdeelbestanden."
+      }
+    },
+    "slicingPrintJob": {
+      "name": "Printtaak wordt gesliced",
+      "tooltip": {
+        "default": "De printlagen worden voorbereid."
+      }
+    },
+    "uploadTooLarge": {
+      "name": "Upload te groot",
+      "tooltip": {
+        "part": "Het geüploade bestand is te groot.\n\nProbeer de bestandsgrootte te verkleinen en upload het opnieuw."
+      }
+    },
+    "waitingForPartToBeAccepted": {
+      "name": "Onderdeel accepteren voor printen",
+      "tooltip": {
+        "part": "Het onderdeel wacht erop dat de gebruiker het accepteert."
+      }
+    }
+  },
+  "relativeTime": {
+    "daysAgo_one": "{{count}} dag geleden",
+    "daysAgo_other": "{{count}} dagen geleden",
+    "hoursAgo_one": "{{count}} uur geleden",
+    "hoursAgo_other": "{{count}} uur geleden",
+    "justNow": "Zojuist",
+    "minutesAgo_one": "{{count}} minuut geleden",
+    "minutesAgo_other": "{{count}} minuten geleden",
+    "weeksAgo_one": "{{count}} week geleden",
+    "weeksAgo_other": "{{count}} weken geleden"
+  },
+  "share": {
+    "notFound": "Het gedeelde item kon niet worden gevonden"
+  },
+  "table": {
+    "activeFilters": "Actieve filters:",
+    "clearFilters": "Filters wissen",
+    "expandRow": "Rij uitvouwen",
+    "pageAmount": "Aantal",
+    "perPage": "Per pagina"
+  },
+  "title": {
+    "cookiePolicy": "Cookiebeleid",
+    "help": "Help weergeven",
+    "integrations": "Integraties",
+    "language": "Taal",
+    "manage": "Beheren",
+    "manageSubscription": "Abonnement beheren",
+    "name": "Weergavenaam",
+    "organisation": "Organisatie",
+    "photo": "Foto",
+    "privacy": "Privacy",
+    "privacyPolicy": "Privacybeleid",
+    "profile": "Profiel",
+    "subscriptionOptions": "Abonnementsopties",
+    "tableOfContents": "Inhoudsopgave",
+    "templates": "Sjablonen",
+    "termsAndPolicy": "Voorwaarden en beleid",
+    "termsOfService": "Servicevoorwaarden",
+    "warning": "Waarschuwing"
+  },
+  "underConstruction": {
+    "subtitle1": "We bouwen aan iets speciaals",
+    "subtitle2": "Kom later terug"
+  },
+  "units": {
+    "microns": "{{value}} μm",
+    "suffix": {
+      "degrees": " °",
+      "millimetres": " mm"
+    }
+  }
+}
