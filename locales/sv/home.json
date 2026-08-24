@@ -1,0 +1,31 @@
+{
+  "emptyState": {
+    "message": "Den här sidan visar statistik om delar, skrivare och materialförbrukning\n\nAnslut en skrivare, lägg till delar och skicka utskriftsjobb för att se data här",
+    "title": "Välkommen hem"
+  },
+  "label": {
+    "jobs": "Jobb",
+    "overview": "Översikt",
+    "parts": "Delar"
+  },
+  "metrics": {
+    "jobsPrinted": "Utskrivna jobb",
+    "jobsToAccept": "Jobb att acceptera",
+    "partsAccepted": "Accepterade delar",
+    "partsPerTemplate": "Delar per mall",
+    "partsPrinted": "Utskrivna delar",
+    "partsToApprove": "Delar att acceptera",
+    "partTypes": "Deltyper",
+    "tooltips": {
+      "jobsPrinted": "Totalt antal jobb som skrivits ut inom det angivna datumintervallet",
+      "jobsPrintedPerDay": "Totalt antal jobb som skrivits ut per dag inom det angivna datumintervallet",
+      "jobsToAccept": "Totalt antal jobb som kräver acceptans innan utskrift",
+      "partsAccepted": "Delar som har accepterats räknas mot din prenumerationskvotgräns",
+      "partsPerTemplate": "Totalt antal delar skapade per mall inom det angivna datumintervallet",
+      "partsPrinted": "Totalt antal delar som skrivits ut inom det angivna datumintervallet",
+      "partsPrintedPerDay": "Totalt antal delar som skrivits ut per dag inom det angivna datumintervallet",
+      "partsToApprove": "Totalt antal delar som kräver acceptans innan utskrift",
+      "partTypes": "Totalt antal delar skapade per deltyp inom det angivna datumintervallet"
+    }
+  }
+}

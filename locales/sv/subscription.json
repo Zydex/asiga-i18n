@@ -1,0 +1,32 @@
+{
+  "button": {
+    "manageBilling": "Hantera fakturering",
+    "manageSubscription": "Hantera prenumeration",
+    "subscribeLater": "Prenumerera senare",
+    "subscriptionOptions": "Prenumerationsalternativ"
+  },
+  "description": {
+    "manageBilling": "Visa fakturor, granska och uppdatera faktureringsuppgifter.",
+    "paymentIssue": "Det uppstod ett problem med dina betalningsuppgifter.",
+    "subscriptionStatus": "{{subscriptionTier}} som förnyas den {{subscriptionEnd, datetime}}",
+    "subscriptionStatusEnding": "{{subscriptionTier}} som upphör den {{subscriptionEnd, datetime}}",
+    "subscriptionTiers": "Du kan uppdatera din prenumerationsnivå när din organisations behov förändras.",
+    "subscriptionUnknownActiveStatus": "Din prenumeration är aktiv",
+    "trialEnded": "Prenumerera för att fortsätta skapa och skicka utskriftsjobb.",
+    "trialEnding": "Du behöver prenumerera när den kostnadsfria provperioden löper ut för att kunna skapa och skicka utskriftsjobb."
+  },
+  "title": {
+    "availableWithSubscription": "Tillgängligt med en prenumeration",
+    "manageBilling": "Hantera fakturering",
+    "newSubscription": "Ny prenumeration",
+    "organisation": "Organisation",
+    "subscription": "Prenumeration",
+    "subscriptionStatus": "Prenumerationsstatus",
+    "subscriptionTiers": "Prenumerationsnivåer",
+    "trialEnded": "Provperioden har upphört",
+    "trialEnding_zero": "Provperioden upphör idag",
+    "trialEnding_one": "Provperioden upphör om {{count}} dag",
+    "trialEnding_other": "Provperioden upphör om {{count}} dagar",
+    "trialEndingUnknown": "Provperioden upphör snart"
+  }
+}

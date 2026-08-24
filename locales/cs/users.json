@@ -1,0 +1,93 @@
+{
+  "alt": {
+    "addUsers": "Přidat nové uživatele",
+    "profile": "Profil uživatele"
+  },
+  "button": {
+    "add": "Přidat uživatele",
+    "changeMfa": "Změnit MFA",
+    "changePassword": "Změnit heslo",
+    "changeRole": "Změnit roli",
+    "deleteProfile": "Smazat profil",
+    "newPhoto": "Nová fotka",
+    "remove": "Odebrat uživatele",
+    "remove_one": "Odebrat uživatele",
+    "remove_other": "Odebrat vybrané uživatele",
+    "removePhoto": "Odebrat fotku",
+    "resetMfa": "Resetovat MFA",
+    "restoreAccess": "Obnovit přístup",
+    "uploadPhoto": "Nahrát fotku"
+  },
+  "label": {
+    "email": "E-mail",
+    "enterEmails": "Zadejte e-maily oddělené čárkou",
+    "name": "Jméno",
+    "nickname": "Přezdívka",
+    "search": "Hledat uživatele",
+    "updatedAt": "Aktualizováno",
+    "users": "Uživatelé"
+  },
+  "message": {
+    "addUsers": "Níže zadejte e-maily a pozvěte uživatele do této organizace.",
+    "addUsers_org": "Níže zadejte e-maily a pozvěte uživatele do organizace {{org}}.",
+    "changeMfa": "Otevře se stránka s pokyny, jak nastavit nové zařízení MFA.",
+    "changePassword": "Bude odeslán e-mail s odkazem pro změnu hesla.",
+    "changePassword_email": "Na adresu {{email}} bude odeslán e-mail s odkazem pro změnu hesla.",
+    "changeRole": "Aktualizovat roli:",
+    "changeRole_user": "Aktualizovat roli uživatele {{user}}:",
+    "confirmDelAccounts_one": "Tento uživatel již nebude mít přístup do této organizace.",
+    "confirmDelAccounts_other": "Tito uživatelé již nebudou mít přístup do této organizace.",
+    "confirmDelAccounts_org_one": "Tento uživatel již nebude mít přístup do {{org}}.",
+    "confirmDelAccounts_org_other": "Tito uživatelé již nebudou mít přístup do {{org}}.",
+    "confirmMfaPolicy": "Tímto budou odhlášeni všichni uživatelé ve vaší organizaci, aby si mohli nastavit vícefaktorové ověřování.",
+    "confirmOwnershipTransfer": "Tímto se převede vlastnictví organizace a tuto akci nelze vrátit zpět.",
+    "confirmOwnershipTransfer_user": "Tímto se převede vlastnictví organizace na uživatele {{user}} a tuto akci nelze vrátit zpět.",
+    "confirmOwnershipTransferPrompt": "Pro potvrzení níže napište {{word}}.",
+    "confirmOwnershipTransferWord": "PŘEVOD",
+    "confirmResetMfa_one": "Tento uživatel si bude muset znovu nastavit vícefaktorové ověřování.",
+    "confirmResetMfa_other": "Tito uživatelé si budou muset znovu nastavit vícefaktorové ověřování.",
+    "confirmRestoreAccess": "Přístup byl odebrán z důvodu ochrany proti útokům hrubou silou.",
+    "confirmRestoreAccess_user": "Přístup pro uživatele {{user}} byl odebrán z důvodu ochrany proti útokům hrubou silou.",
+    "deleteProfile": "Váš profil bude trvale odebrán z vaší organizace.",
+    "deleteProfile_org": "Váš profil bude trvale odebrán z organizace {{org}}.",
+    "howToAddUsers": "Pro přidání uživatelů do vaší organizace použijte tlačítko „Přidat uživatele“ vpravo nahoře na této stránce nebo tlačítko níže",
+    "invitationSent": "Pozvánka odeslána",
+    "linkSent": "Odkaz odeslán",
+    "mfaPolicy": "Zvyšte zabezpečení vaší organizace vyžadováním vícefaktorového ověřování pro všechny uživatele.",
+    "profilePicture": "Pomáhá to ostatním vás poznat a vám ověřit, že jste přihlášeni ke správnému účtu.",
+    "userPageInfo": "Na této stránce jsou zobrazeni uživatelé ve vaší organizaci",
+    "warnCreateAccount": "Opravdu chcete vytvořit tento účet?"
+  },
+  "role": {
+    "accountant": "Účetní",
+    "admin": "Správce",
+    "designer": "Designér",
+    "owner": "Vlastník",
+    "technician": "Technik",
+    "user": "Uživatel"
+  },
+  "title": {
+    "changeMfa": "Změnit zařízení vícefaktorového ověřování (MFA)",
+    "changePassword": "Změnit heslo",
+    "changeRole": "Změnit roli",
+    "confirmDeleteProfile": "Potvrdit smazání profilu",
+    "confirmMfaPolicy": "Vyžadovat vícefaktorové ověřování?",
+    "confirmOwnershipTransfer": "Převést vlastnictví?",
+    "deleteProfile": "Smazat profil",
+    "edit": "Upravit",
+    "email": "E-mail",
+    "invite": "Pozvat nové uživatele",
+    "mfaPolicy": "Vícefaktorové ověřování",
+    "name": "Jméno",
+    "profile": "",
+    "remove_one": "Odebrat uživatele?",
+    "remove_other": "Odebrat uživatele?",
+    "resetMfa_one": "Resetovat MFA pro tohoto uživatele?",
+    "resetMfa_other": "Resetovat MFA pro tyto uživatele?",
+    "restoreAccess": "Obnovit přístup pro uživatele?",
+    "role": "Role"
+  },
+  "tooltips": {
+    "users": "Zobrazuje seznam všech uživatelů, kteří jsou součástí organizace. Zde lze přidávat uživatele a měnit role."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "emptyState": {
+    "message": "Ez az oldal statisztikákat jelenít meg az alkatrészek, nyomtatók és anyagfelhasználás kapcsán\n\nCsatlakoztasson egy nyomtatót, adjon hozzá alkatrészeket, és küldjön nyomtatási feladatokat, hogy itt adatokat lásson",
+    "title": "Isten hozott itthon"
+  },
+  "label": {
+    "jobs": "Feladatok",
+    "overview": "Áttekintés",
+    "parts": "Alkatrészek"
+  },
+  "metrics": {
+    "jobsPrinted": "Nyomtatott feladatok",
+    "jobsToAccept": "Elfogadásra váró feladatok",
+    "partsAccepted": "Elfogadott alkatrészek",
+    "partsPerTemplate": "Alkatrészek sablononként",
+    "partsPrinted": "Nyomtatott alkatrészek",
+    "partsToApprove": "Elfogadásra váró alkatrészek",
+    "partTypes": "Alkatrésztípusok",
+    "tooltips": {
+      "jobsPrinted": "A megadott dátumtartományon belül nyomtatott feladatok teljes száma",
+      "jobsPrintedPerDay": "A megadott dátumtartományon belül naponta nyomtatott feladatok teljes száma",
+      "jobsToAccept": "A nyomtatás előtt elfogadást igénylő feladatok teljes száma",
+      "partsAccepted": "Az elfogadott alkatrészek beleszámítanak az előfizetési kvótalimitbe",
+      "partsPerTemplate": "A megadott dátumtartományon belül sablononként létrehozott alkatrészek teljes száma",
+      "partsPrinted": "A megadott dátumtartományon belül nyomtatott alkatrészek teljes száma",
+      "partsPrintedPerDay": "A megadott dátumtartományon belül naponta nyomtatott alkatrészek teljes száma",
+      "partsToApprove": "A nyomtatás előtt elfogadást igénylő alkatrészek teljes száma",
+      "partTypes": "A megadott dátumtartományon belül alkatrésztípusonként létrehozott alkatrészek teljes száma"
+    }
+  }
+}

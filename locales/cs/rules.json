@@ -1,0 +1,43 @@
+{
+  "approvals": {
+    "jobs": {
+      "message": "Když je tato funkce zapnutá, tiskové úlohy jsou automaticky přijímány a odeslány na tiskárnu.",
+      "title": "Automaticky přijímat úlohy"
+    },
+    "parts": {
+      "message": "Když je tato funkce zapnutá, díly se šablonou jsou automaticky přijímány k výrobě.",
+      "title": "Automaticky přijímat díly"
+    },
+    "title": "Schvalování",
+    "tooltips": {
+      "editPermission": "Nemáte oprávnění upravovat nastavení schvalování. Požádejte správce nebo vlastníka ve vaší organizaci o provedení změn"
+    }
+  },
+  "autoPartGrouping": {
+    "label": {
+      "characterPosition": "Pozice znaku",
+      "characterRange": "Rozsah znaků",
+      "example": "Příklad",
+      "fromEnd": "Od konce",
+      "fromStart": "Od začátku",
+      "grouping": "Automatické seskupování",
+      "grouping_off": "Automatické seskupování vypnuto",
+      "grouping_on": "Automatické seskupování zapnuto",
+      "startingCharacterPosition": "Počáteční pozice znaku"
+    },
+    "message": "Díly se automaticky seskupí tak, aby byly vytištěny společně v rámci stejné úlohy. Nastavte rozsah odpovídajících znaků tak, aby odpovídal konvenci, kterou používáte.",
+    "title": "Automatické seskupování dílů",
+    "tooltips": {
+      "characterPosition": "Určete znak, který se má porovnávat vzhledem k začátku názvu nahraného dílu, nebo ke konci názvu nahraného dílu. Užitečné, pokud se čísla objednávek nacházejí na začátku nebo na konci názvu nahraného dílu.",
+      "characterRange": "Zadejte počet znaků, které chcete porovnávat.",
+      "editPermission": "Nemáte oprávnění upravovat nastavení automatického seskupování. Požádejte správce nebo vlastníka ve vaší organizaci o provedení změn",
+      "startingCharacterPosition": "Kolik znakových pozic od začátku nebo konce chcete, aby rozsah začínal. Užitečné, pokud se čísla objednávek nacházejí uprostřed názvu."
+    }
+  },
+  "label": {
+    "rules": "Pravidla"
+  },
+  "tooltips": {
+    "rules": "Nastavení, která ovlivňují způsob zpracování dílů a tiskových úloh ve Funnelu vaší organizace."
+  }
+}

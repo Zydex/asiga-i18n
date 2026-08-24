@@ -1,0 +1,199 @@
+{
+  "alt": {
+    "all": "Todos",
+    "userUpload": "Carregamentos de Utilizador"
+  },
+  "button": {
+    "accept": "Aceitar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "createPartGroup": "Criar Grupo de Peças",
+    "deprioritise": "Limpar Prioridade",
+    "download": "Transferir",
+    "duplicate": "Duplicar",
+    "expand": "Expandir",
+    "moveToReview": "Mover para Revisão",
+    "partType": "Tipo de peça",
+    "prioritise": "Priorizar",
+    "regroup": "Reagrupar",
+    "regroup_one": "Reagrupar",
+    "regroup_other": "Reagrupar",
+    "reject": "Rejeitar",
+    "removeFromGroup": "Remover do Grupo",
+    "reprint": "Reimprimir Peça",
+    "retry": "Tentar novamente",
+    "template": "Modelo",
+    "ungroupPartGroup": "Desagrupar",
+    "uploadPart": "Carregar Peça",
+    "viewMoreParts": "Ver Mais Peças"
+  },
+  "description": {
+    "functionality": "Carregue peças ou importe-as automaticamente a partir de aplicações de terceiros. Os tipos de peça são reconhecidos, os modelos de impressão são aplicados e as peças são adicionadas automaticamente a Trabalhos de Impressão adequados juntamente com outras peças."
+  },
+  "details": {
+    "datePrinted": "Data de Impressão",
+    "group": {
+      "groupInformation": "Informação do Grupo",
+      "partName": "Nome da Peça",
+      "parts": "Peças",
+      "template": "Modelo"
+    },
+    "groupLabel": "Grupo",
+    "groupName": "Grupo {{id}}",
+    "history": {
+      "date": "Data",
+      "outcome": "Resultado",
+      "status": {
+        "accepted": "Impressão aceite",
+        "failed": "Impressão falhada",
+        "offline": "Retrabalhado offline",
+        "printed": "Impresso",
+        "unknown": "Desconhecido"
+      },
+      "title": "Histórico de Impressão"
+    },
+    "noPrintJob_one": "O trabalho de impressão aparecerá aqui assim que a peça tiver sido encaixada.",
+    "noPrintJob_other": "O trabalho de impressão aparecerá aqui assim que as peças tiverem sido encaixadas.",
+    "partInformation": "Informação da Peça",
+    "partType": "Tipo de Peça",
+    "printJob": "Trabalho de Impressão",
+    "progress": "Progresso",
+    "received": "Recebido",
+    "source": "Origem",
+    "status": "Estado",
+    "targetDevice": "Dispositivo de Destino",
+    "template": "Modelo",
+    "title_zero": "Nenhum item selecionado",
+    "title_one": "1 item selecionado",
+    "title_other": "{{count}} itens selecionados"
+  },
+  "emptyInboxMessages": {
+    "accepted": {
+      "message": "As peças do separador 'Revisão' aparecerão aqui quando forem aceites",
+      "title": "Nenhuma peça aceite"
+    },
+    "confirm": {
+      "message": "Utilize o botão 'Carregar Peças' ou arraste e solte ficheiros para adicionar peças à sua organização",
+      "title": "Nenhuma peça para confirmar"
+    },
+    "rejected": {
+      "message": "As peças que tenham sido rejeitadas aparecerão aqui ",
+      "title": "Nenhuma peça rejeitada"
+    },
+    "review": {
+      "message": "Utilize o botão ‘Carregar Peças’ no canto superior direito desta página ou utilize o botão abaixo para adicionar peças à sua organização",
+      "title": "Nenhuma peça para rever"
+    }
+  },
+  "errors": {
+    "acceptPartError": "Falha ao aceitar a peça",
+    "cancelPartUploadError": "Falha ao cancelar o carregamento da peça",
+    "confirmPartError": "Falha ao confirmar a peça",
+    "downloadPartError": "Falha ao transferir a peça",
+    "fileTooLarge": "O tamanho do ficheiro excede o limite de 500 MB",
+    "invalidFileFormat": "O ficheiro deve ser do tipo .stl",
+    "noFilesUploaded": "Nenhum ficheiro carregado",
+    "partCreateError": "Erro ao criar peça",
+    "rejectPartError": "Falha ao rejeitar a peça",
+    "setPartTypeError": "Falha ao atualizar o tipo de peça",
+    "undoAcceptPartError": "Falha ao desfazer a aceitação da peça"
+  },
+  "label": {
+    "accepted": "Aceite",
+    "confirm": "Confirmar",
+    "designSelected_one": "{{count}} Design selecionado",
+    "designSelected_other": "{{count}} Designs selecionados",
+    "dropFile": "Adicionar ficheiro à Caixa de Entrada",
+    "groupHasBeenPrioritised": "O grupo foi priorizado",
+    "invalidUploadFileContent": "Um ou mais ficheiros não puderam ser lidos como conteúdo STL válido",
+    "invalidUploadFileSize": "Um ou mais ficheiros excedem o tamanho máximo de carregamento",
+    "invalidUploadFileType": "Apenas são suportados ficheiros STL",
+    "partHasBeenPrioritised": "A peça foi priorizada",
+    "preparingDownload": "A preparar a transferência",
+    "rejected": "Rejeitado",
+    "renameGroup": "Renomear Grupo de Peças",
+    "review": "Para Rever",
+    "search": "Pesquisar uma peça",
+    "uploadCancelled": "{{partName}} (cancelado)"
+  },
+  "message": {
+    "noParts": "Nenhuma Peça",
+    "renameGroup": "Introduza um novo nome para o grupo de peças:",
+    "renamePart": "Introduza um novo nome para a peça:",
+    "reprocessPart_one": "{{name}} foi adicionado anteriormente.\n\nReprocessar esta peça criará outra cópia no Funil para impressão.",
+    "reprocessPart_other": "{{count}} peças foram adicionadas anteriormente ao funil.\n\nReprocessar esta peça criará outra cópia no Funil para impressão.",
+    "reprocessPart_time_one": "{{name}} foi adicionado anteriormente em {{time}}.\n\nReprocessar esta peça criará outra cópia no Funil para impressão.",
+    "reprocessPart_time_other": "{{count}} peças foram adicionadas anteriormente ao funil.\n\nReprocessar esta peça criará outra cópia no Funil para impressão."
+  },
+  "subscriptionNotice": {
+    "approaching": {
+      "description_one": "Resta {{count}} peça no limite mensal da organização. O limite é reiniciado em {{days}}.",
+      "description_other": "Restam {{count}} peças no limite mensal da organização. O limite é reiniciado em {{days}}.",
+      "title": "A aproximar-se do limite mensal"
+    },
+    "button": "Opções de Subscrição",
+    "close": "Dispensar",
+    "daysUntilReset_one": "{{count}} dia",
+    "daysUntilReset_other": "{{count}} dias",
+    "reached": {
+      "descriptionEditor": "A quota será reiniciada em {{days}}. Ajuste o nível de subscrição para processar mais peças.",
+      "descriptionMember": "A quota será reiniciada em {{days}}. Contacte o administrador para ajustar o nível de subscrição e processar mais peças.",
+      "title": "Limite mensal atingido"
+    }
+  },
+  "table": {
+    "partClassification": {
+      "bridge": "Ponte",
+      "crownOrToothOrVeneer": "Coroa/Dente/Faceta",
+      "dentureAOX": "Dentadura (AoX)",
+      "dentureBase": "Dentadura (Base)",
+      "denturePartial": "Dentadura (Parcial)",
+      "die": "Troquel",
+      "flatGingiva": "Gengiva",
+      "hollowModel": "Modelo (Oco)",
+      "occlusalSplint": "Splint",
+      "other": "Outro",
+      "partialFramework": "Estrutura Parcial",
+      "pillowGingiva": "Gengiva (Almofada)",
+      "screwInTooth": "Coroa sobre Implante",
+      "solidModel": "Modelo (Sólido)",
+      "surgicalGuide": "Guia Cirúrgico",
+      "teethRow": "Dentes de Dentadura",
+      "tryInDenture": "Dentadura (Prova)"
+    },
+    "partStatus": {
+      "addedToJob": "Adicionado ao trabalho",
+      "failed": "Falhado",
+      "printed": "Impresso",
+      "printReady": "Pronto para impressão",
+      "processing": "A processar",
+      "rejected": "Rejeitado",
+      "reworkedOffline": "Retrabalhado offline",
+      "toAccept": "Para aceitar",
+      "toConfirm": "Para confirmar"
+    },
+    "template": {
+      "noTemplate": "Sem modelo",
+      "noTemplateTooltip": "<a>Criar um modelo</a> com o tipo desta peça para aceitar a peça para impressão."
+    },
+    "userUpload": "Carregamento do utilizador"
+  },
+  "title": {
+    "inbox": "Caixa de Entrada",
+    "name": "Nome",
+    "partType": "Tipo de peça",
+    "received": "Recebido",
+    "reprocessPart_one": "Reprocessar {{name}}?",
+    "reprocessPart_other": "Reprocessar {{count}} peças?",
+    "source": "Origem",
+    "status": "Estado",
+    "template": "Modelo",
+    "uploads": "Carregamentos"
+  },
+  "tooltips": {
+    "accepted": "As peças que foram aceites para fabrico são apresentadas aqui.",
+    "createPartGroupDisabled": "Apenas peças que utilizam o mesmo modelo podem ser agrupadas.",
+    "rejected": "As peças que foram rejeitadas para fabrico são apresentadas aqui.",
+    "review": "As peças que foram adicionadas ao Funil são apresentadas aqui para serem revistas. Escolha um modelo para aplicar à peça antes de a aceitar para fabrico."
+  }
+}

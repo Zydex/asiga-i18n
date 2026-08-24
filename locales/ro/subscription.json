@@ -1,0 +1,32 @@
+{
+  "button": {
+    "manageBilling": "Gestionare facturare",
+    "manageSubscription": "Gestionare abonament",
+    "subscribeLater": "Abonează-te mai târziu",
+    "subscriptionOptions": "Opțiuni de abonament"
+  },
+  "description": {
+    "manageBilling": "Vizualizează facturile, revizuiește și actualizează detaliile de facturare.",
+    "paymentIssue": "A apărut o problemă cu detaliile tale de plată.",
+    "subscriptionStatus": "{{subscriptionTier}} care se reînnoiește pe {{subscriptionEnd, datetime}}",
+    "subscriptionStatusEnding": "{{subscriptionTier}} care se încheie pe {{subscriptionEnd, datetime}}",
+    "subscriptionTiers": "Îți poți actualiza nivelul de abonament oricând nevoile organizației tale se schimbă.",
+    "subscriptionUnknownActiveStatus": "Abonamentul tău este activ",
+    "trialEnded": "Abonează-te pentru a continua să creezi și să trimiți sarcini de printare.",
+    "trialEnding": "Va trebui să te abonezi când perioada de probă gratuită expiră pentru a crea și trimite sarcini de printare."
+  },
+  "title": {
+    "availableWithSubscription": "Disponibil cu un abonament",
+    "manageBilling": "Gestionare facturare",
+    "newSubscription": "Abonament nou",
+    "organisation": "Organizație",
+    "subscription": "Abonament",
+    "subscriptionStatus": "Starea abonamentului",
+    "subscriptionTiers": "Niveluri de abonament",
+    "trialEnded": "Perioada de probă s-a încheiat",
+    "trialEnding_zero": "Perioada de probă se încheie astăzi",
+    "trialEnding_one": "Perioada de probă se încheie în {{count}} zi",
+    "trialEnding_other": "Perioada de probă se încheie în {{count}} zile",
+    "trialEndingUnknown": "Perioada de probă se încheie în curând"
+  }
+}

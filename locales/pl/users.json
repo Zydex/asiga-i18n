@@ -1,0 +1,93 @@
+{
+  "alt": {
+    "addUsers": "Dodaj użytkowników",
+    "profile": "Profil użytkownika"
+  },
+  "button": {
+    "add": "Dodaj użytkownika",
+    "changeMfa": "Zmień MFA",
+    "changePassword": "Zmień hasło",
+    "changeRole": "Zmień rolę",
+    "deleteProfile": "Usuń profil",
+    "newPhoto": "Nowe zdjęcie",
+    "remove": "Usuń użytkownika",
+    "remove_one": "Usuń użytkownika",
+    "remove_other": "Usuń użytkowników",
+    "removePhoto": "Usuń zdjęcie",
+    "resetMfa": "Zresetuj MFA",
+    "restoreAccess": "Przywróć dostęp",
+    "uploadPhoto": "Prześlij zdjęcie"
+  },
+  "label": {
+    "email": "E-mail",
+    "enterEmails": "Wprowadź adresy e-mail oddzielone przecinkami",
+    "name": "Nazwa",
+    "nickname": "Pseudonim",
+    "search": "Wyszukaj użytkownika",
+    "updatedAt": "Zaktualizowano",
+    "users": "Użytkownicy"
+  },
+  "message": {
+    "addUsers": "Wprowadź poniżej adresy e-mail, aby zaprosić użytkowników do tej organizacji.",
+    "addUsers_org": "Wprowadź poniżej adresy e-mail, aby zaprosić użytkowników do {{org}}.",
+    "changeMfa": "Spowoduje to otwarcie strony z instrukcjami dotyczącymi konfiguracji nowego urządzenia MFA.",
+    "changePassword": "Zostanie wysłana wiadomość e-mail z linkiem do zmiany hasła.",
+    "changePassword_email": "Wiadomość e-mail z linkiem do zmiany hasła zostanie wysłana na adres {{email}}.",
+    "changeRole": "Zaktualizuj rolę:",
+    "changeRole_user": "Zaktualizuj rolę użytkownika {{user}}:",
+    "confirmDelAccounts_one": "Ten użytkownik nie będzie już miał dostępu do tej organizacji.",
+    "confirmDelAccounts_other": "Ci użytkownicy nie będą już mieli dostępu do tej organizacji.",
+    "confirmDelAccounts_org_one": "Ten użytkownik nie będzie już miał dostępu do {{org}}.",
+    "confirmDelAccounts_org_other": "Ci użytkownicy nie będą już mieli dostępu do {{org}}.",
+    "confirmMfaPolicy": "Spowoduje to wylogowanie wszystkich użytkowników w Twojej organizacji, aby mogli skonfigurować uwierzytelnianie wieloskładnikowe.",
+    "confirmOwnershipTransfer": "Spowoduje to przeniesienie własności organizacji i nie można tego cofnąć.",
+    "confirmOwnershipTransfer_user": "Spowoduje to przeniesienie własności organizacji na {{user}} i nie można tego cofnąć.",
+    "confirmOwnershipTransferPrompt": "Wpisz poniżej {{word}}, aby potwierdzić.",
+    "confirmOwnershipTransferWord": "PRZENIEŚ",
+    "confirmResetMfa_one": "Ten użytkownik będzie musiał ponownie skonfigurować uwierzytelnianie wieloskładnikowe.",
+    "confirmResetMfa_other": "Ci użytkownicy będą musieli ponownie skonfigurować uwierzytelnianie wieloskładnikowe.",
+    "confirmRestoreAccess": "Dostęp został cofnięty z powodu zabezpieczeń przed atakami brute force.",
+    "confirmRestoreAccess_user": "Dostęp dla {{user}} został cofnięty z powodu zabezpieczeń przed atakami brute force.",
+    "deleteProfile": "Twój profil zostanie trwale usunięty z Twojej organizacji.",
+    "deleteProfile_org": "Twój profil zostanie trwale usunięty z {{org}}.",
+    "howToAddUsers": "Użyj przycisku „Dodaj użytkownika” w prawym górnym rogu tej strony lub użyj przycisku poniżej, aby dodać użytkowników do swojej organizacji",
+    "invitationSent": "Zaproszenie wysłane",
+    "linkSent": "Link wysłany",
+    "mfaPolicy": "Popraw bezpieczeństwo swojej organizacji, wymagając uwierzytelniania wieloskładnikowego dla wszystkich użytkowników.",
+    "profilePicture": "Pomaga to innym Cię rozpoznać i daje pewność, że jesteś zalogowany na właściwe konto.",
+    "userPageInfo": "Użytkownicy Twojej organizacji są wyświetlani na tej stronie",
+    "warnCreateAccount": "Czy na pewno chcesz utworzyć to konto?"
+  },
+  "role": {
+    "accountant": "Księgowy",
+    "admin": "Administrator",
+    "designer": "Projektant",
+    "owner": "Właściciel",
+    "technician": "Technik",
+    "user": "Użytkownik"
+  },
+  "title": {
+    "changeMfa": "Zmień urządzenie uwierzytelniania wieloskładnikowego (MFA)",
+    "changePassword": "Zmień hasło",
+    "changeRole": "Zmień rolę",
+    "confirmDeleteProfile": "Potwierdź usunięcie profilu",
+    "confirmMfaPolicy": "Wymagać uwierzytelniania wieloskładnikowego?",
+    "confirmOwnershipTransfer": "Przenieść własność?",
+    "deleteProfile": "Usuń profil",
+    "edit": "Edytuj",
+    "email": "E-mail",
+    "invite": "Zaproś użytkowników",
+    "mfaPolicy": "Uwierzytelnianie wieloskładnikowe",
+    "name": "Nazwa",
+    "profile": "",
+    "remove_one": "Usunąć użytkownika?",
+    "remove_other": "Usunąć użytkowników?",
+    "resetMfa_one": "Zresetować MFA dla tego użytkownika?",
+    "resetMfa_other": "Zresetować MFA dla tych użytkowników?",
+    "restoreAccess": "Przywrócić dostęp dla użytkownika?",
+    "role": "Rola"
+  },
+  "tooltips": {
+    "users": "Wyświetla listę wszystkich użytkowników należących do organizacji. Tutaj można dodawać użytkowników i zmieniać role."
+  }
+}

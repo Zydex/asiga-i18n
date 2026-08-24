@@ -1,0 +1,31 @@
+{
+  "emptyState": {
+    "message": "Questa pagina mostra le statistiche su parti, stampanti e utilizzo del materiale\n\nCollega una stampante, aggiungi parti e invia lavori di stampa per visualizzare qui i dati",
+    "title": "Benvenuto a casa"
+  },
+  "label": {
+    "jobs": "Lavori",
+    "overview": "Panoramica",
+    "parts": "Parti"
+  },
+  "metrics": {
+    "jobsPrinted": "Lavori stampati",
+    "jobsToAccept": "Lavori da accettare",
+    "partsAccepted": "Parti accettate",
+    "partsPerTemplate": "Parti per modello",
+    "partsPrinted": "Parti stampate",
+    "partsToApprove": "Parti da accettare",
+    "partTypes": "Tipi di parti",
+    "tooltips": {
+      "jobsPrinted": "Numero totale di lavori stampati nell'intervallo di date specificato",
+      "jobsPrintedPerDay": "Numero totale di lavori stampati al giorno nell'intervallo di date specificato",
+      "jobsToAccept": "Numero totale di lavori che richiedono l'accettazione prima della stampa",
+      "partsAccepted": "Le parti accettate concorrono al limite della tua quota di abbonamento",
+      "partsPerTemplate": "Numero totale di parti create per modello nell'intervallo di date specificato",
+      "partsPrinted": "Numero totale di parti stampate nell'intervallo di date specificato",
+      "partsPrintedPerDay": "Numero totale di parti stampate al giorno nell'intervallo di date specificato",
+      "partsToApprove": "Numero totale di parti che richiedono l'accettazione prima della stampa",
+      "partTypes": "Numero totale di parti create per tipo di parte nell'intervallo di date specificato"
+    }
+  }
+}

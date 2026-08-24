@@ -1,0 +1,199 @@
+{
+  "alt": {
+    "all": "Wszystkie",
+    "userUpload": "Przesłane pliki użytkownika"
+  },
+  "button": {
+    "accept": "Akceptuj",
+    "cancel": "Anuluj",
+    "confirm": "Potwierdź",
+    "createPartGroup": "Utwórz grupę części",
+    "deprioritise": "Usuń priorytet",
+    "download": "Pobierz",
+    "duplicate": "Duplikuj",
+    "expand": "Rozwiń",
+    "moveToReview": "Przenieś do weryfikacji",
+    "partType": "Typ części",
+    "prioritise": "Nadaj priorytet",
+    "regroup": "Przegrupuj",
+    "regroup_one": "Przegrupuj",
+    "regroup_other": "Przegrupuj",
+    "reject": "Odrzuć",
+    "removeFromGroup": "Usuń z grupy",
+    "reprint": "Wydrukuj ponownie część",
+    "retry": "Ponów",
+    "template": "Szablon",
+    "ungroupPartGroup": "Rozgrupuj",
+    "uploadPart": "Prześlij część",
+    "viewMoreParts": "Zobacz więcej części"
+  },
+  "description": {
+    "functionality": "Prześlij części lub automatycznie pobieraj je z aplikacji zewnętrznych. Typy części są rozpoznawane, szablony wydruku są stosowane, a części są automatycznie dodawane do odpowiednich zadań druku wraz z innymi częściami."
+  },
+  "details": {
+    "datePrinted": "Data wydruku",
+    "group": {
+      "groupInformation": "Informacje o grupie",
+      "partName": "Nazwa części",
+      "parts": "Części",
+      "template": "Szablon"
+    },
+    "groupLabel": "Grupa",
+    "groupName": "Grupa {{id}}",
+    "history": {
+      "date": "Data",
+      "outcome": "Wynik",
+      "status": {
+        "accepted": "Wydruk zaakceptowany",
+        "failed": "Wydruk nieudany",
+        "offline": "Przerobione offline",
+        "printed": "Wydrukowano",
+        "unknown": "Nieznany"
+      },
+      "title": "Historia wydruku"
+    },
+    "noPrintJob_one": "Zadanie druku pojawi się tutaj, gdy część zostanie zagnieżdżona.",
+    "noPrintJob_other": "Zadanie druku pojawi się tutaj, gdy części zostaną zagnieżdżone.",
+    "partInformation": "Informacje o części",
+    "partType": "Typ części",
+    "printJob": "Zadanie druku",
+    "progress": "Postęp",
+    "received": "Otrzymano",
+    "source": "Źródło",
+    "status": "Status",
+    "targetDevice": "Docelowe urządzenie",
+    "template": "Szablon",
+    "title_zero": "Nie wybrano żadnych elementów",
+    "title_one": "Wybrano 1 element",
+    "title_other": "Wybrano {{count}} elementów"
+  },
+  "emptyInboxMessages": {
+    "accepted": {
+      "message": "Części z zakładki „Weryfikacja” pojawią się tutaj po ich zaakceptowaniu",
+      "title": "Brak zaakceptowanych części"
+    },
+    "confirm": {
+      "message": "Użyj przycisku „Prześlij części” lub przeciągnij i upuść pliki, aby dodać części do swojej organizacji",
+      "title": "Brak części do potwierdzenia"
+    },
+    "rejected": {
+      "message": "Części, które zostały odrzucone, pojawią się tutaj ",
+      "title": "Brak odrzuconych części"
+    },
+    "review": {
+      "message": "Użyj przycisku „Prześlij części” w prawym górnym rogu tej strony lub użyj przycisku poniżej, aby dodać części do swojej organizacji",
+      "title": "Brak części do weryfikacji"
+    }
+  },
+  "errors": {
+    "acceptPartError": "Nie udało się zaakceptować części",
+    "cancelPartUploadError": "Nie udało się anulować przesyłania części",
+    "confirmPartError": "Nie udało się potwierdzić części",
+    "downloadPartError": "Nie udało się pobrać części",
+    "fileTooLarge": "Rozmiar pliku przekracza limit 500 MB",
+    "invalidFileFormat": "Plik musi być typu .stl",
+    "noFilesUploaded": "Nie przesłano żadnych plików",
+    "partCreateError": "Błąd podczas tworzenia części",
+    "rejectPartError": "Nie udało się odrzucić części",
+    "setPartTypeError": "Nie udało się zaktualizować typu części",
+    "undoAcceptPartError": "Nie udało się cofnąć akceptacji części"
+  },
+  "label": {
+    "accepted": "Zaakceptowano",
+    "confirm": "Potwierdź",
+    "designSelected_one": "Wybrano {{count}} projekt",
+    "designSelected_other": "Wybrano {{count}} projektów",
+    "dropFile": "Dodaj plik do skrzynki odbiorczej",
+    "groupHasBeenPrioritised": "Grupie nadano priorytet",
+    "invalidUploadFileContent": "Co najmniej jednego pliku nie udało się odczytać jako prawidłowej zawartości STL",
+    "invalidUploadFileSize": "Co najmniej jeden plik przekracza maksymalny rozmiar przesyłania",
+    "invalidUploadFileType": "Obsługiwane są tylko pliki STL",
+    "partHasBeenPrioritised": "Części nadano priorytet",
+    "preparingDownload": "Przygotowywanie pobierania",
+    "rejected": "Odrzucono",
+    "renameGroup": "Zmień nazwę grupy części",
+    "review": "Do weryfikacji",
+    "search": "Wyszukaj część",
+    "uploadCancelled": "{{partName}} (anulowano)"
+  },
+  "message": {
+    "noParts": "Brak części",
+    "renameGroup": "Wprowadź nową nazwę grupy części:",
+    "renamePart": "Wprowadź nową nazwę części:",
+    "reprocessPart_one": "{{name}} została wcześniej dodana.\n\nPonowne przetworzenie tej części utworzy kolejną kopię w Lejku do druku.",
+    "reprocessPart_other": "{{count}} części zostało wcześniej dodanych do lejka.\n\nPonowne przetworzenie tej części utworzy kolejną kopię w Lejku do druku.",
+    "reprocessPart_time_one": "{{name}} została wcześniej dodana w dniu {{time}}.\n\nPonowne przetworzenie tej części utworzy kolejną kopię w Lejku do druku.",
+    "reprocessPart_time_other": "{{count}} części zostało wcześniej dodanych do lejka.\n\nPonowne przetworzenie tej części utworzy kolejną kopię w Lejku do druku."
+  },
+  "subscriptionNotice": {
+    "approaching": {
+      "description_one": "Pozostała {{count}} część w miesięcznym limicie organizacji. Limit zostanie zresetowany za {{days}}.",
+      "description_other": "Pozostało {{count}} części w miesięcznym limicie organizacji. Limit zostanie zresetowany za {{days}}.",
+      "title": "Zbliżanie się do miesięcznego limitu"
+    },
+    "button": "Opcje subskrypcji",
+    "close": "Zamknij",
+    "daysUntilReset_one": "{{count}} dzień",
+    "daysUntilReset_other": "{{count}} dni",
+    "reached": {
+      "descriptionEditor": "Limit zostanie zresetowany za {{days}}. Dostosuj poziom subskrypcji, aby przetwarzać więcej części.",
+      "descriptionMember": "Limit zostanie zresetowany za {{days}}. Skontaktuj się z administratorem, aby dostosować poziom subskrypcji i przetwarzać więcej części.",
+      "title": "Osiągnięto miesięczny limit"
+    }
+  },
+  "table": {
+    "partClassification": {
+      "bridge": "Most",
+      "crownOrToothOrVeneer": "Korona/Ząb/Licówka",
+      "dentureAOX": "Proteza (AoX)",
+      "dentureBase": "Proteza (Podstawa)",
+      "denturePartial": "Proteza (Częściowa)",
+      "die": "Replika kikuta",
+      "flatGingiva": "Gingiwa",
+      "hollowModel": "Model (Wydrążony)",
+      "occlusalSplint": "Szyna",
+      "other": "Inne",
+      "partialFramework": "Szkielet częściowy",
+      "pillowGingiva": "Gingiwa (Poduszkowa)",
+      "screwInTooth": "Korona na implancie",
+      "solidModel": "Model (Pełny)",
+      "surgicalGuide": "Szablon chirurgiczny",
+      "teethRow": "Zęby protezowe",
+      "tryInDenture": "Proteza (Próbna)"
+    },
+    "partStatus": {
+      "addedToJob": "Dodano do zadania",
+      "failed": "Niepowodzenie",
+      "printed": "Wydrukowano",
+      "printReady": "Gotowe do druku",
+      "processing": "Przetwarzanie",
+      "rejected": "Odrzucono",
+      "reworkedOffline": "Przerobione offline",
+      "toAccept": "Do zaakceptowania",
+      "toConfirm": "Do potwierdzenia"
+    },
+    "template": {
+      "noTemplate": "Brak szablonu",
+      "noTemplateTooltip": "<a>Utwórz szablon</a> dla tego typu części, aby zaakceptować część do druku."
+    },
+    "userUpload": "Przesłane przez użytkownika"
+  },
+  "title": {
+    "inbox": "Skrzynka odbiorcza",
+    "name": "Nazwa",
+    "partType": "Typ części",
+    "received": "Otrzymano",
+    "reprocessPart_one": "Przetworzyć ponownie {{name}}?",
+    "reprocessPart_other": "Przetworzyć ponownie {{count}} części?",
+    "source": "Źródło",
+    "status": "Status",
+    "template": "Szablon",
+    "uploads": "Przesłane pliki"
+  },
+  "tooltips": {
+    "accepted": "Tutaj wyświetlane są części zaakceptowane do produkcji.",
+    "createPartGroupDisabled": "Można grupować tylko części korzystające z tego samego szablonu.",
+    "rejected": "Tutaj wyświetlane są części odrzucone do produkcji.",
+    "review": "Tutaj wyświetlane są części dodane do Lejka w celu weryfikacji. Wybierz szablon do zastosowania dla części przed zaakceptowaniem jej do produkcji."
+  }
+}

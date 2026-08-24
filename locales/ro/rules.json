@@ -1,0 +1,43 @@
+{
+  "approvals": {
+    "jobs": {
+      "message": "Când este activată, lucrările de printare sunt acceptate automat și trimise către o imprimantă.",
+      "title": "Acceptare automată a lucrărilor"
+    },
+    "parts": {
+      "message": "Când este activată, piesele cu un șablon sunt acceptate automat pentru fabricare.",
+      "title": "Acceptare automată a pieselor"
+    },
+    "title": "Aprobări",
+    "tooltips": {
+      "editPermission": "Nu aveți permisiunea de a actualiza setările de aprobare. Cereți unui Administrator sau Proprietar din organizația dvs. să efectueze modificările"
+    }
+  },
+  "autoPartGrouping": {
+    "label": {
+      "characterPosition": "Poziția caracterului",
+      "characterRange": "Intervalul de caractere",
+      "example": "Exemplu",
+      "fromEnd": "De la sfârșit",
+      "fromStart": "De la început",
+      "grouping": "Grupare automată",
+      "grouping_off": "Grupare automată Dezactivată",
+      "grouping_on": "Grupare automată Activată",
+      "startingCharacterPosition": "Poziția de start a caracterului"
+    },
+    "message": "Grupați automat piesele pentru a fi printate împreună în cadrul aceleiași lucrări. Configurați intervalul de caractere corespunzătoare pentru a se alinia cu o convenție pe care o utilizați.",
+    "title": "Grupare automată a pieselor",
+    "tooltips": {
+      "characterPosition": "Specificați caracterul de potrivit în raport cu începutul sau sfârșitul numelui piesei încărcate. Util dacă numerele de comandă apar la începutul sau la sfârșitul numelui piesei încărcate.",
+      "characterRange": "Specificați numărul de caractere pe care doriți să le potriviți.",
+      "editPermission": "Nu aveți permisiunea de a actualiza setările de grupare automată. Cereți unui Administrator sau Proprietar din organizația dvs. să efectueze modificările",
+      "startingCharacterPosition": "Câte spații de caractere de la început sau de la sfârșit doriți ca intervalul să înceapă. Util dacă numerele de comandă apar la mijlocul unui nume."
+    }
+  },
+  "label": {
+    "rules": "Reguli"
+  },
+  "tooltips": {
+    "rules": "Setări care influențează modul în care piesele și lucrările de printare sunt procesate în Funnel-ul organizației dvs."
+  }
+}

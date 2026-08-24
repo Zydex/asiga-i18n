@@ -1,0 +1,31 @@
+{
+  "emptyState": {
+    "message": "Deze pagina toont statistieken over onderdelen, printers en materiaalgebruik\n\nSluit een printer aan, voeg onderdelen toe en verstuur printtaken om hier gegevens te zien",
+    "title": "Welkom thuis"
+  },
+  "label": {
+    "jobs": "Taken",
+    "overview": "Overzicht",
+    "parts": "Onderdelen"
+  },
+  "metrics": {
+    "jobsPrinted": "Geprinte taken",
+    "jobsToAccept": "Te accepteren taken",
+    "partsAccepted": "Geaccepteerde onderdelen",
+    "partsPerTemplate": "Onderdelen per sjabloon",
+    "partsPrinted": "Geprinte onderdelen",
+    "partsToApprove": "Te accepteren onderdelen",
+    "partTypes": "Onderdeeltypes",
+    "tooltips": {
+      "jobsPrinted": "Totaal aantal taken geprint binnen het opgegeven datumbereik",
+      "jobsPrintedPerDay": "Totaal aantal taken geprint per dag binnen het opgegeven datumbereik",
+      "jobsToAccept": "Totaal aantal taken dat geaccepteerd moet worden voordat er wordt geprint",
+      "partsAccepted": "Geaccepteerde onderdelen tellen mee voor de quotumlimiet van uw abonnement",
+      "partsPerTemplate": "Totaal aantal onderdelen gemaakt per sjabloon binnen het opgegeven datumbereik",
+      "partsPrinted": "Totaal aantal onderdelen geprint binnen het opgegeven datumbereik",
+      "partsPrintedPerDay": "Totaal aantal onderdelen geprint per dag binnen het opgegeven datumbereik",
+      "partsToApprove": "Totaal aantal onderdelen dat geaccepteerd moet worden voordat er wordt geprint",
+      "partTypes": "Totaal aantal onderdelen gemaakt per onderdeeltype binnen het opgegeven datumbereik"
+    }
+  }
+}

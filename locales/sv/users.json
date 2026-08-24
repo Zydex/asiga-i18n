@@ -1,0 +1,93 @@
+{
+  "alt": {
+    "addUsers": "Lägg till flera användare",
+    "profile": "Användarprofil"
+  },
+  "button": {
+    "add": "Lägg till användare",
+    "changeMfa": "Ändra MFA",
+    "changePassword": "Ändra lösenord",
+    "changeRole": "Ändra roll",
+    "deleteProfile": "Ta bort profil",
+    "newPhoto": "Nytt foto",
+    "remove": "Ta bort användare",
+    "remove_one": "Ta bort användare",
+    "remove_other": "Ta bort användarna",
+    "removePhoto": "Ta bort foto",
+    "resetMfa": "Återställ MFA",
+    "restoreAccess": "Återställ åtkomst",
+    "uploadPhoto": "Ladda upp foto"
+  },
+  "label": {
+    "email": "E-post",
+    "enterEmails": "Ange e-postadresser, kommaseparerade",
+    "name": "Namn",
+    "nickname": "Smeknamn",
+    "search": "Sök efter en användare",
+    "updatedAt": "Uppdaterad",
+    "users": "Användare"
+  },
+  "message": {
+    "addUsers": "Ange e-postadresser nedan för att bjuda in användare till denna organisation.",
+    "addUsers_org": "Ange e-postadresser nedan för att bjuda in användare till {{org}}.",
+    "changeMfa": "Detta öppnar en sida med instruktioner om hur du konfigurerar din nya MFA-enhet.",
+    "changePassword": "Ett e-postmeddelande skickas med en länk för att ändra lösenord.",
+    "changePassword_email": "Ett e-postmeddelande skickas till {{email}} med en länk för att ändra lösenord.",
+    "changeRole": "Uppdatera roll:",
+    "changeRole_user": "Uppdatera rollen för {{user}}:",
+    "confirmDelAccounts_one": "Den här användaren kommer inte längre ha åtkomst till denna organisation.",
+    "confirmDelAccounts_other": "Dessa användare kommer inte längre ha åtkomst till denna organisation.",
+    "confirmDelAccounts_org_one": "Den här användaren kommer inte längre ha åtkomst till {{org}}.",
+    "confirmDelAccounts_org_other": "Dessa användare kommer inte längre ha åtkomst till {{org}}.",
+    "confirmMfaPolicy": "Detta loggar ut alla användare i din organisation så att de kan konfigurera multifaktorautentisering.",
+    "confirmOwnershipTransfer": "Detta överför ägarskapet av organisationen och kan inte ångras.",
+    "confirmOwnershipTransfer_user": "Detta överför ägarskapet av organisationen till {{user}} och kan inte ångras.",
+    "confirmOwnershipTransferPrompt": "Skriv {{word}} nedan för att bekräfta.",
+    "confirmOwnershipTransferWord": "ÖVERFÖR",
+    "confirmResetMfa_one": "Den här användaren behöver konfigurera multifaktorautentisering igen.",
+    "confirmResetMfa_other": "Dessa användare behöver konfigurera multifaktorautentisering igen.",
+    "confirmRestoreAccess": "Åtkomsten återkallades på grund av brute force-skydd.",
+    "confirmRestoreAccess_user": "Åtkomsten för {{user}} återkallades på grund av brute force-skydd.",
+    "deleteProfile": "Din profil kommer permanent att tas bort från din organisation.",
+    "deleteProfile_org": "Din profil kommer permanent att tas bort från {{org}}.",
+    "howToAddUsers": "Använd knappen 'Lägg till användare' längst upp till höger på denna sida, eller använd knappen nedan för att lägga till användare i din organisation",
+    "invitationSent": "Inbjudan skickad",
+    "linkSent": "Länk skickad",
+    "mfaPolicy": "Hjälp till att förbättra säkerheten i din organisation genom att kräva multifaktorautentisering för alla användare.",
+    "profilePicture": "Detta hjälper andra att känna igen dig och låter dig veta att du är inloggad på rätt konto.",
+    "userPageInfo": "Användarna i din organisation visas på denna sida",
+    "warnCreateAccount": "Är du säker på att du vill skapa detta konto?"
+  },
+  "role": {
+    "accountant": "Redovisningsekonom",
+    "admin": "Administratör",
+    "designer": "Designer",
+    "owner": "Ägare",
+    "technician": "Tekniker",
+    "user": "Användare"
+  },
+  "title": {
+    "changeMfa": "Ändra enhet för multifaktorautentisering (MFA)",
+    "changePassword": "Ändra lösenord",
+    "changeRole": "Ändra roll",
+    "confirmDeleteProfile": "Bekräfta borttagning av profil",
+    "confirmMfaPolicy": "Kräv multifaktorautentisering?",
+    "confirmOwnershipTransfer": "Överföra ägarskap?",
+    "deleteProfile": "Ta bort profil",
+    "edit": "Redigera",
+    "email": "E-post",
+    "invite": "Bjud in användare",
+    "mfaPolicy": "Multifaktorautentisering",
+    "name": "Namn",
+    "profile": "",
+    "remove_one": "Ta bort användare?",
+    "remove_other": "Ta bort användare?",
+    "resetMfa_one": "Återställa MFA för denna användare?",
+    "resetMfa_other": "Återställa MFA för dessa användare?",
+    "restoreAccess": "Återställa åtkomst för användare?",
+    "role": "Roll"
+  },
+  "tooltips": {
+    "users": "Listar alla användare som är en del av organisationen. Användare kan läggas till och roller ändras här."
+  }
+}

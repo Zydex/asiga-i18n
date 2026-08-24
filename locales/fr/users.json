@@ -1,0 +1,93 @@
+{
+  "alt": {
+    "addUsers": "Ajouter des utilisateurs",
+    "profile": "Profil de l'utilisateur"
+  },
+  "button": {
+    "add": "Ajouter un utilisateur",
+    "changeMfa": "Modifier l'authentification multifacteur",
+    "changePassword": "Modifier le mot de passe",
+    "changeRole": "Modifier le rôle",
+    "deleteProfile": "Supprimer le profil",
+    "newPhoto": "Nouvelle photo",
+    "remove": "Retirer l'utilisateur",
+    "remove_one": "Retirer l'utilisateur",
+    "remove_other": "Retirer les utilisateurs",
+    "removePhoto": "Supprimer la photo",
+    "resetMfa": "Réinitialiser l'authentification multifacteur",
+    "restoreAccess": "Restaurer l'accès",
+    "uploadPhoto": "Télécharger une photo"
+  },
+  "label": {
+    "email": "E-mail",
+    "enterEmails": "Saisissez les e-mails, séparés par des virgules",
+    "name": "Nom",
+    "nickname": "Surnom",
+    "search": "Rechercher un utilisateur",
+    "updatedAt": "Mis à jour le",
+    "users": "Utilisateurs"
+  },
+  "message": {
+    "addUsers": "Saisissez les e-mails ci-dessous pour inviter des utilisateurs à rejoindre cette organisation.",
+    "addUsers_org": "Saisissez les e-mails ci-dessous pour inviter des utilisateurs à rejoindre {{org}}.",
+    "changeMfa": "Cela ouvrira une page avec des instructions sur la façon de configurer votre nouveau dispositif d'authentification multifacteur.",
+    "changePassword": "Un e-mail contenant un lien de modification du mot de passe sera envoyé.",
+    "changePassword_email": "Un e-mail contenant un lien de modification du mot de passe sera envoyé à {{email}}.",
+    "changeRole": "Mettre à jour le rôle :",
+    "changeRole_user": "Mettre à jour le rôle de {{user}} :",
+    "confirmDelAccounts_one": "Cet utilisateur n'aura plus accès à cette organisation.",
+    "confirmDelAccounts_other": "Ces utilisateurs n'auront plus accès à cette organisation.",
+    "confirmDelAccounts_org_one": "Cet utilisateur n'aura plus accès à {{org}}.",
+    "confirmDelAccounts_org_other": "Ces utilisateurs n'auront plus accès à {{org}}.",
+    "confirmMfaPolicy": "Cela déconnectera tous les utilisateurs de votre organisation afin qu'ils puissent configurer l'authentification multifacteur.",
+    "confirmOwnershipTransfer": "Cela transférera la propriété de l'organisation et ne pourra pas être annulé.",
+    "confirmOwnershipTransfer_user": "Cela transférera la propriété de l'organisation à {{user}} et ne pourra pas être annulé.",
+    "confirmOwnershipTransferPrompt": "Saisissez {{word}} ci-dessous pour confirmer.",
+    "confirmOwnershipTransferWord": "TRANSFERT",
+    "confirmResetMfa_one": "Cet utilisateur devra configurer à nouveau l'authentification multifacteur.",
+    "confirmResetMfa_other": "Ces utilisateurs devront configurer à nouveau l'authentification multifacteur.",
+    "confirmRestoreAccess": "L'accès a été révoqué en raison des protections contre les attaques par force brute.",
+    "confirmRestoreAccess_user": "L'accès de {{user}} a été révoqué en raison des protections contre les attaques par force brute.",
+    "deleteProfile": "Votre profil sera définitivement supprimé de votre organisation.",
+    "deleteProfile_org": "Votre profil sera définitivement supprimé de {{org}}.",
+    "howToAddUsers": "Utilisez le bouton « Ajouter un utilisateur » en haut à droite de cette page ou utilisez le bouton ci-dessous pour ajouter des utilisateurs à votre organisation",
+    "invitationSent": "Invitation envoyée",
+    "linkSent": "Lien envoyé",
+    "mfaPolicy": "Aidez à améliorer la sécurité de votre organisation en exigeant l'authentification multifacteur pour tous les utilisateurs.",
+    "profilePicture": "Cela aide les autres à vous reconnaître et vous confirme que vous êtes connecté au bon compte.",
+    "userPageInfo": "Les utilisateurs de votre organisation sont affichés sur cette page",
+    "warnCreateAccount": "Êtes-vous sûr de vouloir créer ce compte ?"
+  },
+  "role": {
+    "accountant": "Comptable",
+    "admin": "Administrateur",
+    "designer": "Concepteur",
+    "owner": "Propriétaire",
+    "technician": "Technicien",
+    "user": "Utilisateur"
+  },
+  "title": {
+    "changeMfa": "Modifier le dispositif d'authentification multifacteur (MFA)",
+    "changePassword": "Modifier le mot de passe",
+    "changeRole": "Modifier le rôle",
+    "confirmDeleteProfile": "Confirmer la suppression du profil",
+    "confirmMfaPolicy": "Exiger l'authentification multifacteur ?",
+    "confirmOwnershipTransfer": "Transférer la propriété ?",
+    "deleteProfile": "Supprimer le profil",
+    "edit": "Modifier",
+    "email": "E-mail",
+    "invite": "Inviter des utilisateurs",
+    "mfaPolicy": "Authentification multifacteur",
+    "name": "Nom",
+    "profile": "",
+    "remove_one": "Retirer l'utilisateur ?",
+    "remove_other": "Retirer les utilisateurs ?",
+    "resetMfa_one": "Réinitialiser l'authentification multifacteur pour cet utilisateur ?",
+    "resetMfa_other": "Réinitialiser l'authentification multifacteur pour ces utilisateurs ?",
+    "restoreAccess": "Restaurer l'accès pour l'utilisateur ?",
+    "role": "Rôle"
+  },
+  "tooltips": {
+    "users": "Répertorie tous les utilisateurs faisant partie de l'organisation. Les utilisateurs peuvent être ajoutés et les rôles modifiés ici."
+  }
+}

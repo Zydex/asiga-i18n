@@ -1,0 +1,16 @@
+{
+  "label": {
+    "allMachines": "Všechny stroje",
+    "noDevices": "Úlohy zařazené do fronty pro všechna vaše zařízení jsou zobrazeny na časové ose na této stránce",
+    "noDevicesMessage": "Pomocí tlačítka níže přidávejte zařízení do vaší organizace",
+    "requiresAttention": "Vyžaduje pozornost"
+  },
+  "title": {
+    "timeline": "Časová osa"
+  },
+  "tooltips": {
+    "allMachines": "Zobrazuje všechna zařízení přidaná do Funnelu spolu s jejich úlohami zařazenými do fronty."
+  },
+  "viewHours_one": "{{count}}hodinové zobrazení",
+  "viewHours_other": "{{count}}hodinové zobrazení"
+}

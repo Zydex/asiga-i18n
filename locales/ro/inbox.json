@@ -1,0 +1,199 @@
+{
+  "alt": {
+    "all": "Toate",
+    "userUpload": "Încărcări utilizator"
+  },
+  "button": {
+    "accept": "Acceptă",
+    "cancel": "Anulează",
+    "confirm": "Confirmă",
+    "createPartGroup": "Creează grup de piese",
+    "deprioritise": "Șterge prioritatea",
+    "download": "Descarcă",
+    "duplicate": "Duplică",
+    "expand": "Extinde",
+    "moveToReview": "Mută la Revizuire",
+    "partType": "Tip de piesă",
+    "prioritise": "Prioritizează",
+    "regroup": "Regrupează",
+    "regroup_one": "Regrupează",
+    "regroup_other": "Regrupează",
+    "reject": "Respinge",
+    "removeFromGroup": "Elimină din grup",
+    "reprint": "Retipărește piesa",
+    "retry": "Reîncearcă",
+    "template": "Șablon",
+    "ungroupPartGroup": "Desface gruparea",
+    "uploadPart": "Încarcă piesă",
+    "viewMoreParts": "Vezi mai multe piese"
+  },
+  "description": {
+    "functionality": "Încărcați piese sau preluați automat piese din aplicații terțe. Tipurile de piese sunt recunoscute, șabloanele de printare sunt aplicate, iar piesele sunt adăugate automat la Sarcinile de printare potrivite, împreună cu alte piese."
+  },
+  "details": {
+    "datePrinted": "Data printării",
+    "group": {
+      "groupInformation": "Informații despre grup",
+      "partName": "Numele piesei",
+      "parts": "Piese",
+      "template": "Șablon"
+    },
+    "groupLabel": "Grup",
+    "groupName": "Grup {{id}}",
+    "history": {
+      "date": "Dată",
+      "outcome": "Rezultat",
+      "status": {
+        "accepted": "Printare acceptată",
+        "failed": "Printare eșuată",
+        "offline": "Reprelucrată offline",
+        "printed": "Printat",
+        "unknown": "Necunoscut"
+      },
+      "title": "Istoric de printare"
+    },
+    "noPrintJob_one": "Sarcina de printare va apărea aici imediat ce piesa a fost nestată.",
+    "noPrintJob_other": "Sarcina de printare va apărea aici imediat ce piesele au fost nestate.",
+    "partInformation": "Informații despre piesă",
+    "partType": "Tip de piesă",
+    "printJob": "Sarcină de printare",
+    "progress": "Progres",
+    "received": "Primit",
+    "source": "Sursă",
+    "status": "Stare",
+    "targetDevice": "Dispozitiv țintă",
+    "template": "Șablon",
+    "title_zero": "Niciun element selectat",
+    "title_one": "1 element selectat",
+    "title_other": "{{count}} elemente selectate"
+  },
+  "emptyInboxMessages": {
+    "accepted": {
+      "message": "Piesele din fila „Revizuire” vor apărea aici după ce au fost acceptate",
+      "title": "Nicio piesă acceptată"
+    },
+    "confirm": {
+      "message": "Folosiți butonul „Încarcă piese” sau trageți și plasați fișiere pentru a adăuga piese în organizația dvs.",
+      "title": "Nicio piesă de confirmat"
+    },
+    "rejected": {
+      "message": "Piesele care au fost respinse vor apărea aici ",
+      "title": "Nicio piesă respinsă"
+    },
+    "review": {
+      "message": "Folosiți butonul „Încarcă piese” din partea din dreapta sus a acestei pagini sau folosiți butonul de mai jos pentru a adăuga piese în organizația dvs.",
+      "title": "Nicio piesă de revizuit"
+    }
+  },
+  "errors": {
+    "acceptPartError": "Acceptarea piesei a eșuat",
+    "cancelPartUploadError": "Anularea încărcării piesei a eșuat",
+    "confirmPartError": "Confirmarea piesei a eșuat",
+    "downloadPartError": "Descărcarea piesei a eșuat",
+    "fileTooLarge": "Dimensiunea fișierului depășește limita de 500MB",
+    "invalidFileFormat": "Fișierul trebuie să fie de tip .stl",
+    "noFilesUploaded": "Niciun fișier încărcat",
+    "partCreateError": "Eroare la crearea piesei",
+    "rejectPartError": "Respingerea piesei a eșuat",
+    "setPartTypeError": "Actualizarea tipului de piesă a eșuat",
+    "undoAcceptPartError": "Anularea acceptării piesei a eșuat"
+  },
+  "label": {
+    "accepted": "Acceptat",
+    "confirm": "Confirmă",
+    "designSelected_one": "{{count}} model selectat",
+    "designSelected_other": "{{count}} modele selectate",
+    "dropFile": "Adaugă fișier în Inbox",
+    "groupHasBeenPrioritised": "Grupul a fost prioritizat",
+    "invalidUploadFileContent": "Unul sau mai multe fișiere nu au putut fi citite ca conținut STL valid",
+    "invalidUploadFileSize": "Unul sau mai multe fișiere depășesc dimensiunea maximă de încărcare",
+    "invalidUploadFileType": "Sunt acceptate doar fișiere STL",
+    "partHasBeenPrioritised": "Piesa a fost prioritizată",
+    "preparingDownload": "Se pregătește descărcarea",
+    "rejected": "Respins",
+    "renameGroup": "Redenumește grupul de piese",
+    "review": "De revizuit",
+    "search": "Caută o piesă",
+    "uploadCancelled": "{{partName}} (anulat)"
+  },
+  "message": {
+    "noParts": "Nicio piesă",
+    "renameGroup": "Introduceți un nume nou pentru grupul de piese:",
+    "renamePart": "Introduceți un nume nou pentru piesă:",
+    "reprocessPart_one": "{{name}} a fost adăugată anterior.\n\nReprocesarea acestei piese va crea o altă copie în Funnel pentru printare.",
+    "reprocessPart_other": "{{count}} piese au fost adăugate anterior în funnel.\n\nReprocesarea acestei piese va crea o altă copie în Funnel pentru printare.",
+    "reprocessPart_time_one": "{{name}} a fost adăugată anterior pe {{time}}.\n\nReprocesarea acestei piese va crea o altă copie în Funnel pentru printare.",
+    "reprocessPart_time_other": "{{count}} piese au fost adăugate anterior în funnel.\n\nReprocesarea acestei piese va crea o altă copie în Funnel pentru printare."
+  },
+  "subscriptionNotice": {
+    "approaching": {
+      "description_one": "Mai există {{count}} piesă rămasă în limita lunară a organizației. Limita se resetează în {{days}}.",
+      "description_other": "Mai există {{count}} piese rămase în limita lunară a organizației. Limita se resetează în {{days}}.",
+      "title": "Se apropie de limita lunară"
+    },
+    "button": "Opțiuni abonament",
+    "close": "Închide",
+    "daysUntilReset_one": "{{count}} zi",
+    "daysUntilReset_other": "{{count}} zile",
+    "reached": {
+      "descriptionEditor": "Alocația se va reseta în {{days}}. Ajustați nivelul abonamentului pentru a procesa mai multe piese.",
+      "descriptionMember": "Alocația se va reseta în {{days}}. Contactați administratorul pentru a ajusta nivelul abonamentului și a procesa mai multe piese.",
+      "title": "Limita lunară a fost atinsă"
+    }
+  },
+  "table": {
+    "partClassification": {
+      "bridge": "Punte",
+      "crownOrToothOrVeneer": "Coroană/Dinte/Fațetă",
+      "dentureAOX": "Proteză (AoX)",
+      "dentureBase": "Proteză (Bază)",
+      "denturePartial": "Proteză (Parțială)",
+      "die": "Bonț",
+      "flatGingiva": "Gingie",
+      "hollowModel": "Model (Gol)",
+      "occlusalSplint": "Gutieră",
+      "other": "Altele",
+      "partialFramework": "Schelet parțial",
+      "pillowGingiva": "Gingie (tip pernă)",
+      "screwInTooth": "Coroană pe implant",
+      "solidModel": "Model (Plin)",
+      "surgicalGuide": "Ghid chirurgical",
+      "teethRow": "Dinți de proteză",
+      "tryInDenture": "Proteză (Probă)"
+    },
+    "partStatus": {
+      "addedToJob": "Adăugat la sarcină",
+      "failed": "Eșuat",
+      "printed": "Printat",
+      "printReady": "Gata de printare",
+      "processing": "În procesare",
+      "rejected": "Respins",
+      "reworkedOffline": "Refăcut offline",
+      "toAccept": "De acceptat",
+      "toConfirm": "De confirmat"
+    },
+    "template": {
+      "noTemplate": "Niciun șablon",
+      "noTemplateTooltip": "<a>Creați un șablon</a> cu tipul acestei piese pentru a accepta piesa pentru printare."
+    },
+    "userUpload": "Încărcare utilizator"
+  },
+  "title": {
+    "inbox": "Inbox",
+    "name": "Nume",
+    "partType": "Tip de piesă",
+    "received": "Primit",
+    "reprocessPart_one": "Reprocesați {{name}}?",
+    "reprocessPart_other": "Reprocesați {{count}} piese?",
+    "source": "Sursă",
+    "status": "Stare",
+    "template": "Șablon",
+    "uploads": "Încărcări"
+  },
+  "tooltips": {
+    "accepted": "Aici sunt afișate piesele care au fost acceptate pentru fabricație.",
+    "createPartGroupDisabled": "Doar piesele care folosesc același șablon pot fi grupate împreună.",
+    "rejected": "Aici sunt afișate piesele care au fost respinse pentru fabricație.",
+    "review": "Aici sunt afișate piesele care au fost adăugate în Funnel pentru a fi revizuite. Alegeți un șablon pentru a-l aplica piesei înainte de a o accepta pentru fabricație."
+  }
+}

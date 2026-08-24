@@ -1,0 +1,39 @@
+{
+  "alt": {
+    "noApps": "Brak połączonych aplikacji"
+  },
+  "button": {
+    "apps": "Aplikacje"
+  },
+  "label": {
+    "search": "Szukaj aplikacji"
+  },
+  "message": {
+    "noApps": "Brak połączonych aplikacji",
+    "noAppsInfo": "Połączone aplikacje będą wyświetlane tutaj. Użyj przycisku „Aplikacje” poniżej, aby wyświetlić dostępne aplikacje, które można połączyć.",
+    "unlink": "Twoja organizacja nie będzie już otrzymywać części z tej aplikacji.",
+    "unlink_one": "Twoja organizacja nie będzie już otrzymywać części z tej aplikacji.",
+    "unlink_other": "Twoja organizacja nie będzie już otrzymywać części z tych aplikacji.",
+    "unlink_name_one": "Twoja organizacja nie będzie już otrzymywać części z {{name}}.",
+    "unlink_nameOrg_one": "{{org}} nie będzie już otrzymywać części z {{name}}.",
+    "unlink_org_other": "{{org}} nie będzie już otrzymywać części z tych aplikacji.",
+    "unlinkParts": "Części już otrzymane pozostaną w Twojej organizacji.",
+    "unlinkParts_org": "Części już otrzymane pozostaną w {{org}}."
+  },
+  "title": {
+    "apps": "Aplikacje",
+    "connectedApps": "Połączone aplikacje",
+    "lastUsed": "Ostatnio używane",
+    "linked": "Połączono",
+    "name": "Nazwa",
+    "never": "Nigdy",
+    "unlink": "Odłączyć aplikację?",
+    "unlink_name": "Odłączyć {{name}}?",
+    "unlink_one": "Odłączyć aplikację?",
+    "unlink_other": "Odłączyć aplikacje?"
+  },
+  "tooltips": {
+    "apps": "Wyświetla listę wszystkich aplikacji obsługiwanych przez Funnel. Użyj ich, aby automatycznie otrzymywać części od usług zewnętrznych.",
+    "connectedApps": "Wyświetla listę wszystkich aplikacji, które mają uprawnienia do wysyłania części do Funnel."
+  }
+}

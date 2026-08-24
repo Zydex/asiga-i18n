@@ -1,0 +1,158 @@
+{
+  "button": {
+    "download": "Scarica",
+    "exportReportPdf": "Esporta PDF",
+    "moveOffline": "Rilavora offline",
+    "promoteJob": "Promuovi lavoro",
+    "reprint": "Ristampa",
+    "reprintParts": "Ristampa parti",
+    "requeueParts": "Rimetti in coda le parti",
+    "resendJob": "Reinvia lavoro",
+    "reshuffle": "Rimescola"
+  },
+  "details": {
+    "basePlate": "Impostazioni piastra di base",
+    "currentJob": "Lavoro corrente",
+    "currentParts": "Parti correnti",
+    "jobInformation": "Informazioni sul lavoro",
+    "parts": "Parti"
+  },
+  "label": {
+    "accepted": "Accettato",
+    "buildAreaUsage": "Utilizzo area di stampa",
+    "estimatedMaterial": "Materiale stimato",
+    "estimatedPrintTime": "Tempo di stampa stimato",
+    "external": "Esterno",
+    "jobContainsPriorityParts": "Il lavoro contiene parti prioritarie",
+    "jobsTab": "Schede lavori",
+    "layerThickness": "Spessore dello strato",
+    "material": "Materiale",
+    "partName": "Nome parte",
+    "partType": "Tipo di parte",
+    "provisional": "Provvisorio",
+    "rejected": "Rifiutato",
+    "reprintParts": "Ristampare le parti di questo lavoro?",
+    "reprintPartsNoneAvailable": "Tutte le parti sono in fase di ristampa",
+    "requeuedPartsSuccess": "Parti rimesse in coda con successo",
+    "requeuedPartsSuccess_one": "Parte rimessa in coda con successo",
+    "requeuedPartsSuccess_other": "Parti rimesse in coda con successo",
+    "requeuingParts": "Rimessa in coda delle parti",
+    "search": "Cerca lavori",
+    "source": "Origine",
+    "targetDevice": "Dispositivo di destinazione",
+    "template": "Modello",
+    "toReview": "Da revisionare",
+    "trayType": "Tipo di vassoio"
+  },
+  "message": {
+    "deviceOffline": "Questo lavoro non verrà inviato finché la stampante non torna online.\n\nVerifica che {{device}} sia online e disponga di una connessione Internet attiva.",
+    "deviceOffline_one": "Questo lavoro non verrà inviato finché la stampante non torna online.\n\nVerifica che {{device}} sia online e disponga di una connessione Internet attiva.",
+    "deviceOffline_other": "Questi lavori non verranno inviati finché ogni stampante non torna online.\n\nVerifica che le stampanti siano online e dispongano di una connessione Internet attiva.",
+    "downloadInfo": "In alternativa, il lavoro di stampa può essere scaricato per la modifica in Composer.",
+    "moveOffline": "Questa azione rifiuterà il lavoro e lo scaricherà per la modifica in Composer.",
+    "moveOffline_one": "Questa azione rifiuterà il lavoro selezionato e lo scaricherà per la modifica in Composer.",
+    "moveOffline_other": "Questa azione rifiuterà i lavori selezionati e li scaricherà per la modifica in Composer.",
+    "noJobsToReview": "I lavori provvisori che sono stati promossi verranno visualizzati qui. Carica le parti nella posta in arrivo per iniziare.",
+    "noParts": "Questo lavoro non ha parti.",
+    "noPartsToReprint": "Le parti di questo lavoro sono già state rimesse in coda per la ristampa.",
+    "rejectInfo": "Premendo 'Rimescola' la posizione e la rotazione delle parti verranno modificate come parte di un nuovo lavoro di stampa. Alcune parti potrebbero essere rimosse o aggiunte durante il rimescolamento.",
+    "reprintParts": "Le parti selezionate avranno priorità per la ristampa come parte del prossimo lavoro di stampa idoneo.",
+    "reprintPartsKey": "Le parti in grigio sono già state ristampate.",
+    "requeueParts": "Questa azione contrassegnerà il lavoro come rifiutato e riporterà tutte le parti del lavoro in coda.",
+    "reworkOffline_one": "Il lavoro di stampa <bold>#{{id}}</bold> è stato contrassegnato come <bold>Rilavorato offline</bold>",
+    "reworkOffline_other": "{{count}} lavori di stampa contrassegnati come <bold>Rilavorato offline</bold>",
+    "submittingJob": "Invio di #{{id}} in corso",
+    "submittingJob_device": "Invio di  <bold>#{{id}}</bold> a <bold>{{device}}</bold> in corso"
+  },
+  "status": {
+    "awaitingApproval": {
+      "name": "In attesa di approvazione",
+      "tooltip": "Il lavoro finalizzato è pronto per la revisione."
+    },
+    "cancelled": {
+      "name": "Annullato",
+      "tooltip": "Il lavoro di stampa è stato annullato prima del completamento o eliminato dalla coda di build."
+    },
+    "failed": {
+      "name": "Non riuscito",
+      "tooltip": "Il lavoro di stampa non è riuscito.\n\nConsulta lo schermo della stampante per maggiori informazioni."
+    },
+    "generating": {
+      "name": "Finalizzazione del lavoro di stampa",
+      "tooltip": "Il layout provvisorio del lavoro è stato finalizzato e gli strati di stampa sono in fase di preparazione."
+    },
+    "nestingFailed": {
+      "name": "Nidificazione non riuscita",
+      "tooltip": "La nidificazione delle parti non è riuscita. Ciò potrebbe essere causato da problemi con uno o più file delle parti."
+    },
+    "offline": {
+      "name": "Rilavorato offline",
+      "tooltip": "Il lavoro è stato scaricato per essere modificato e inviato in Composer."
+    },
+    "paused": {
+      "name": "In pausa",
+      "tooltip": "Il lavoro di stampa è stato messo in pausa sulla stampante."
+    },
+    "printed": {
+      "name": "Stampato",
+      "tooltip": "Il lavoro è stato completato con successo."
+    },
+    "printing": {
+      "name": "Stampa in corso",
+      "tooltip": "Il lavoro è attualmente in fase di stampa."
+    },
+    "printPending": {
+      "name": "Stampa in sospeso",
+      "tooltip": "Il lavoro è sulla stampante e pronto per la stampa."
+    },
+    "provisional": {
+      "name": "Provvisorio",
+      "tooltip": "Il lavoro si trova in uno stato provvisorio e diventerà finalizzato quando:\n<ul><li>vengono aggiunte altre parti per completare il lavoro</li><li>una stampante idonea sta per diventare disponibile per stamparlo</li></ul>Il lavoro può anche essere promosso manualmente a uno stato finalizzato."
+    },
+    "rejected": {
+      "name": "Rifiutato",
+      "tooltip": "Il lavoro è stato rifiutato e le parti sono state rimesse in coda."
+    },
+    "sendingFailed": {
+      "name": "Invio non riuscito",
+      "tooltip": "L'invio del lavoro di stampa alla stampante non è riuscito.\n\nCiò potrebbe essere causato dal fatto che la stampante è andata offline o che la coda di build è piena, con memoria insufficiente rimanente."
+    },
+    "sendingToPrinter": {
+      "name": "Invio alla stampante",
+      "tooltip": "Gli strati di stampa vengono inviati alla stampante."
+    },
+    "slicing": {
+      "name": "Sezionamento del lavoro di stampa",
+      "tooltip": "Gli strati di stampa sono in fase di preparazione."
+    },
+    "slicingFailed": {
+      "name": "Sezionamento non riuscito",
+      "tooltip": "Il lavoro di stampa non è riuscito durante la preparazione degli strati di stampa.\n\nCiò potrebbe essere causato da problemi con i file delle parti."
+    }
+  },
+  "title": {
+    "device": "Dispositivo",
+    "deviceOffline": "{{device}} è offline",
+    "deviceOffline_one": "{{device}} è offline",
+    "deviceOffline_other": "Più stampanti sono offline",
+    "jobNumber": "Numero lavoro",
+    "material": "Materiale",
+    "moveOffline": "Rilavorare il lavoro offline?",
+    "moveOffline_one": "Rilavorare il lavoro offline?",
+    "moveOffline_other": "Rilavorare i lavori offline?",
+    "noJobsAccepted": "Nessun lavoro accettato",
+    "noJobsRejected": "Nessun lavoro rifiutato",
+    "noJobsToReview": "Nessun lavoro da revisionare",
+    "printJobs": "Lavori di stampa",
+    "rejectJob": "Rimescolare il lavoro rifiutato?",
+    "requeueParts": "Rimettere in coda le parti?",
+    "status": "Stato"
+  },
+  "tooltips": {
+    "accepted": "Tutti i lavori accettati sono visualizzati qui, insieme al loro stato.",
+    "provisional": "Questo mostra i lavori previsti in arrivo in base alla disponibilità della stampante, alla compatibilità del template e alle parti non stampate nel Funnel.\n\nPromuoverli creerà un lavoro di stampa finalizzato che includerà le parti identificate, il layout e la stampante di destinazione. Quando le strutture di supporto sono state generate per i lavori finalizzati, queste verranno visualizzate nella scheda 'Da revisionare'.",
+    "rejected": "Tutti i lavori rifiutati sono visualizzati qui.",
+    "resendJob": "Reinvia un lavoro a una stampante. Ciò può essere utile se il lavoro è stato annullato o se il dispositivo ha riscontrato un errore.",
+    "toReview": "I lavori di stampa pronti per la revisione sono visualizzati qui. Accettali per inviarli alla stampante."
+  }
+}

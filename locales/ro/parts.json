@@ -1,0 +1,131 @@
+{
+  "emptyPartsMessages": {
+    "allParts": {
+      "message": "Când piesele sunt acceptate în inbox, acestea vor apărea aici pentru a fi luate în considerare pentru imprimare",
+      "title": "Nicio piesă pregătită de imprimare"
+    },
+    "printReady": {
+      "message": "Piesele care sunt gata să fie adăugate la o sarcină de imprimare vor apărea aici",
+      "title": "Nicio piesă în așteptare"
+    },
+    "sent": {
+      "message": "Piesele vor apărea aici după ce au fost asamblate într-o sarcină de imprimare și trimise la imprimantă",
+      "title": "Nicio piesă trimisă"
+    }
+  },
+  "group": {
+    "tooLarge": "Grup prea mare",
+    "tooLargeTooltip": "Grupul este prea mare pentru a încăpea pe orice platformă de imprimantă specificată de acest șablon.\n\nDegrupați piesele sau actualizați șablonul pentru a utiliza o imprimantă mai mare."
+  },
+  "label": {
+    "allParts": "Toate piesele",
+    "partsQueue": "Piese în așteptare",
+    "printReady": "Pregătit de imprimare",
+    "sent": "Trimis"
+  },
+  "status": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "Acceptă piesa pentru imprimare",
+      "partAccepted": "Piesă acceptată"
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Aprobă sarcina de imprimare",
+      "printJobApproved": "Sarcină de imprimare aprobată",
+      "printJobPendingApproval": "Sarcină de imprimare în așteptarea aprobării"
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "Adăugat la sarcina de imprimare",
+      "generatingSupports": "Se generează suporturi",
+      "nestedInProvisionalJob": "Amplasat în sarcină provizorie",
+      "nestingFailed": "Amplasarea a eșuat",
+      "nestingPrintJob": "Se adaugă la sarcina provizorie",
+      "nestPrintJob": "Amplasează sarcina de imprimare",
+      "partQueued": "Piesă în așteptare",
+      "partTooLarge": "Piesă prea mare"
+    },
+    "orientatePart": {
+      "orientatePart": "Orientează piesa",
+      "orientatingPart": "Se orientează piesa",
+      "orientationFailed": "Orientarea a eșuat",
+      "partOrientated": "Piesă orientată"
+    },
+    "partIdentification": {
+      "confirmPartType": "Confirmă tipul piesei",
+      "identifyingPartType": "Se identifică tipul piesei",
+      "partIdentification": "Identificarea piesei",
+      "partTypeConfirmed": "Tip de piesă confirmat"
+    },
+    "print": {
+      "print": "Imprimă",
+      "printed": "Imprimat",
+      "printFailed": "Imprimarea a eșuat",
+      "printing": "Se imprimă"
+    },
+    "rejected": "Respins",
+    "sendToPrinter": {
+      "printJobDownloaded": "Sarcină de imprimare descărcată",
+      "sendingFailed": "Trimiterea a eșuat",
+      "sendingToPrinter": "Se trimite la imprimantă",
+      "sendToPrinter": "Trimite la imprimantă",
+      "sentToPrinter": "Trimis la imprimantă",
+      "slicingFailed": "Felierea a eșuat",
+      "slicingPrintJob": "Se feliază sarcina de imprimare"
+    }
+  },
+  "statusTooltips": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "Piesa așteaptă ca utilizatorul să o accepte.",
+      "partAccepted": "Piesa a fost acceptată pentru imprimare."
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Aprobă sarcinile provizorii pentru trimiterea la imprimante.",
+      "printJobApproved": "Sarcina a fost acceptată pentru imprimare.",
+      "printJobPendingApproval": "Sarcina provizorie așteaptă ca utilizatorul să o accepte."
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "Piesa a fost adăugată la o sarcină de imprimare.",
+      "generatingSupports": "Suporturile sunt adăugate la sarcina provizorie înainte ca aceasta să fie finalizată pentru ca utilizatorul să o aprobe pentru imprimare.",
+      "nestedInProvisionalJob": "Piesa a fost amplasată într-o sarcină provizorie. Aceasta va fi finalizată atunci când:<ul><li>Mai multe piese sunt adăugate pentru a completa sarcina</li><li>O imprimantă potrivită este pe cale să devină disponibilă pentru a o imprima</li></ul>",
+      "nestingFailed": "Amplasarea pieselor a eșuat.\nAceasta ar putea fi cauzată de probleme cu fișierul piesei.",
+      "nestingPrintJob": "Piesa este amplasată într-o sarcină provizorie.",
+      "nestPrintJob": "Piesa va fi amplasată atunci când o imprimantă potrivită devine disponibilă & pe principiul „primul intrat, primul ieșit”.",
+      "partQueued": "Piesa va fi amplasată atunci când o imprimantă potrivită devine disponibilă & pe principiul „primul intrat, primul ieșit”.",
+      "partTooLarge": "Piesa este prea mare pentru imprimantele specificate în șablonul de imprimare.\n\nVerificați dimensiunea piesei sau luați în considerare adăugarea unei imprimante mai mari la șablon."
+    },
+    "orientatePart": {
+      "orientatePart": "Orientează piesa în funcție de tipul acesteia.",
+      "orientatingPart": "Piesa este în prezent orientată în funcție de tipul acesteia.",
+      "orientationFailed": "Piesa nu a putut fi orientată cu succes pentru imprimare.\nAceasta ar putea fi cauzată de probleme cu fișierul piesei.",
+      "partOrientated": "Piesa a fost orientată cu succes pentru imprimare."
+    },
+    "partIdentification": {
+      "confirmPartType": "Se așteaptă confirmarea tipului piesei.\nAceasta determină modul în care este orientată piesa & șabloanele care sunt sugerate.",
+      "identifyingPartType": "Se analizează geometria piesei pentru a identifica tipul piesei.",
+      "partIdentification": "Analizează geometria piesei pentru a identifica tipul piesei.",
+      "partTypeConfirmed": "Tipul piesei a fost confirmat de utilizator."
+    },
+    "print": {
+      "print": "Sarcina va începe să fie imprimată pe un dispozitiv.",
+      "printed": "Sarcina de imprimare s-a finalizat cu succes.",
+      "printFailed": "Sarcina de imprimare a eșuat.\nConsultați ecranul imprimantei pentru mai multe informații.",
+      "printing": "Sarcina de imprimare este în curs de imprimare."
+    },
+    "rejected": "Piesa a fost respinsă de un utilizator.",
+    "sendToPrinter": {
+      "printJobDownloaded": "Sarcina de imprimare a fost descărcată pentru editare manuală în Composer.",
+      "sendingFailed": "Sarcina de imprimare a eșuat la trimiterea către imprimantă.\nAceasta ar putea fi cauzată de probleme de conectivitate a imprimantei.",
+      "sendingToPrinter": "Se trimite sarcina către imprimantă.",
+      "sendToPrinter": "Pregătește și trimite sarcina către o imprimantă.",
+      "sentToPrinter": "Sarcină de imprimare trimisă.",
+      "slicingFailed": "Sarcina de imprimare a eșuat în timpul pregătirii straturilor de imprimare.\nAceasta ar putea fi cauzată de probleme cu fișierele pieselor.",
+      "slicingPrintJob": "Straturile de imprimare sunt pregătite."
+    }
+  },
+  "title": {
+    "parts": "Piese"
+  },
+  "tooltips": {
+    "allParts": "Toate piesele care au fost acceptate sunt afișate aici, împreună cu statusul lor.",
+    "partsQueue": "Piesele care sunt în așteptare pentru imprimare sunt afișate aici, grupate după șablonul lor."
+  }
+}

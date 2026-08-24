@@ -1,0 +1,93 @@
+{
+  "alt": {
+    "addUsers": "Felhasználók hozzáadása",
+    "profile": "Felhasználói profil"
+  },
+  "button": {
+    "add": "Felhasználó hozzáadása",
+    "changeMfa": "MFA módosítása",
+    "changePassword": "Jelszó módosítása",
+    "changeRole": "Szerepkör módosítása",
+    "deleteProfile": "Profil törlése",
+    "newPhoto": "Új fénykép",
+    "remove": "Felhasználó eltávolítása",
+    "remove_one": "Felhasználó eltávolítása",
+    "remove_other": "Felhasználók eltávolítása",
+    "removePhoto": "Fénykép eltávolítása",
+    "resetMfa": "MFA visszaállítása",
+    "restoreAccess": "Hozzáférés visszaállítása",
+    "uploadPhoto": "Fénykép feltöltése"
+  },
+  "label": {
+    "email": "E-mail",
+    "enterEmails": "Adja meg az e-mail címeket, vesszővel elválasztva",
+    "name": "Név",
+    "nickname": "Becenév",
+    "search": "Felhasználó keresése",
+    "updatedAt": "Frissítve",
+    "users": "Felhasználók"
+  },
+  "message": {
+    "addUsers": "Adja meg az e-mail címeket alább, hogy felhasználókat hívjon meg ehhez a szervezethez.",
+    "addUsers_org": "Adja meg az e-mail címeket alább, hogy felhasználókat hívjon meg a(z) {{org}} szervezethez.",
+    "changeMfa": "Ez megnyit egy oldalt az új MFA-eszköz beállítására vonatkozó utasításokkal.",
+    "changePassword": "Egy e-mailt küldünk a jelszó módosítására szolgáló hivatkozással.",
+    "changePassword_email": "Egy e-mailt küldünk a(z) {{email}} címre a jelszó módosítására szolgáló hivatkozással.",
+    "changeRole": "Szerepkör frissítése:",
+    "changeRole_user": "{{user}} szerepkörének frissítése:",
+    "confirmDelAccounts_one": "Ez a felhasználó a továbbiakban nem fog hozzáférni ehhez a szervezethez.",
+    "confirmDelAccounts_other": "Ezek a felhasználók a továbbiakban nem fognak hozzáférni ehhez a szervezethez.",
+    "confirmDelAccounts_org_one": "Ez a felhasználó a továbbiakban nem fog hozzáférni a(z) {{org}} szervezethez.",
+    "confirmDelAccounts_org_other": "Ezek a felhasználók a továbbiakban nem fognak hozzáférni a(z) {{org}} szervezethez.",
+    "confirmMfaPolicy": "Ez kijelentkezteti a szervezet összes felhasználóját, hogy beállíthassák a többfaktoros hitelesítést.",
+    "confirmOwnershipTransfer": "Ez átruházza a szervezet tulajdonjogát, és nem vonható vissza.",
+    "confirmOwnershipTransfer_user": "Ez átruházza a szervezet tulajdonjogát a következőre: {{user}}, és nem vonható vissza.",
+    "confirmOwnershipTransferPrompt": "Írja be a(z) {{word}} szót alább a megerősítéshez.",
+    "confirmOwnershipTransferWord": "ÁTRUHÁZÁS",
+    "confirmResetMfa_one": "Ennek a felhasználónak újra be kell állítania a többfaktoros hitelesítést.",
+    "confirmResetMfa_other": "Ezeknek a felhasználóknak újra be kell állítaniuk a többfaktoros hitelesítést.",
+    "confirmRestoreAccess": "A hozzáférést a brute force elleni védelem miatt vontuk vissza.",
+    "confirmRestoreAccess_user": "A(z) {{user}} hozzáférését a brute force elleni védelem miatt vontuk vissza.",
+    "deleteProfile": "A profilja véglegesen törlődik a szervezetéből.",
+    "deleteProfile_org": "A profilja véglegesen törlődik a(z) {{org}} szervezetből.",
+    "howToAddUsers": "Használja az oldal jobb felső sarkában található „Felhasználó hozzáadása” gombot, vagy az alábbi gombbal adjon felhasználókat a szervezetéhez",
+    "invitationSent": "Meghívó elküldve",
+    "linkSent": "Hivatkozás elküldve",
+    "mfaPolicy": "Segítsen javítani szervezete biztonságát azáltal, hogy minden felhasználó számára kötelezővé teszi a többfaktoros hitelesítést.",
+    "profilePicture": "Ez segít másoknak felismerni Önt, és megerősíti, hogy a megfelelő fiókba jelentkezett be.",
+    "userPageInfo": "Ezen az oldalon jelennek meg a szervezetében lévő felhasználók",
+    "warnCreateAccount": "Biztosan létre kívánja hozni ezt a fiókot?"
+  },
+  "role": {
+    "accountant": "Könyvelő",
+    "admin": "Admin",
+    "designer": "Tervező",
+    "owner": "Tulajdonos",
+    "technician": "Technikus",
+    "user": "Felhasználó"
+  },
+  "title": {
+    "changeMfa": "Többfaktoros hitelesítési (MFA) eszköz módosítása",
+    "changePassword": "Jelszó módosítása",
+    "changeRole": "Szerepkör módosítása",
+    "confirmDeleteProfile": "Profil törlésének megerősítése",
+    "confirmMfaPolicy": "Kötelezővé teszi a többfaktoros hitelesítést?",
+    "confirmOwnershipTransfer": "Átruházza a tulajdonjogot?",
+    "deleteProfile": "Profil törlése",
+    "edit": "Szerkesztés",
+    "email": "E-mail",
+    "invite": "Felhasználók meghívása",
+    "mfaPolicy": "Többfaktoros hitelesítés",
+    "name": "Név",
+    "profile": "",
+    "remove_one": "Eltávolítja a felhasználót?",
+    "remove_other": "Eltávolítja a felhasználókat?",
+    "resetMfa_one": "Visszaállítja az MFA-t ennél a felhasználónál?",
+    "resetMfa_other": "Visszaállítja az MFA-t ezeknél a felhasználóknál?",
+    "restoreAccess": "Visszaállítja a felhasználó hozzáférését?",
+    "role": "Szerepkör"
+  },
+  "tooltips": {
+    "users": "Felsorolja a szervezet összes tagját. Itt adhat hozzá felhasználókat, és módosíthatja a szerepköröket."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "emptyState": {
+    "message": "Ta strona przedstawia statystyki dotyczące części, drukarek i zużycia materiału\n\nPodłącz drukarkę, dodaj części i wyślij zadania druku, aby zobaczyć tutaj dane",
+    "title": "Witamy w domu"
+  },
+  "label": {
+    "jobs": "Zadania",
+    "overview": "Przegląd",
+    "parts": "Części"
+  },
+  "metrics": {
+    "jobsPrinted": "Wydrukowane zadania",
+    "jobsToAccept": "Zadania do zaakceptowania",
+    "partsAccepted": "Zaakceptowane części",
+    "partsPerTemplate": "Części na szablon",
+    "partsPrinted": "Wydrukowane części",
+    "partsToApprove": "Części do zaakceptowania",
+    "partTypes": "Typy części",
+    "tooltips": {
+      "jobsPrinted": "Całkowita liczba zadań wydrukowanych w wybranym zakresie dat",
+      "jobsPrintedPerDay": "Całkowita liczba zadań wydrukowanych dziennie w wybranym zakresie dat",
+      "jobsToAccept": "Całkowita liczba zadań wymagających akceptacji przed drukowaniem",
+      "partsAccepted": "Zaakceptowane części zaliczają się do limitu kwotowego przewidzianego w Twojej subskrypcji",
+      "partsPerTemplate": "Całkowita liczba części utworzonych na szablon w wybranym zakresie dat",
+      "partsPrinted": "Całkowita liczba części wydrukowanych w wybranym zakresie dat",
+      "partsPrintedPerDay": "Całkowita liczba części wydrukowanych dziennie w wybranym zakresie dat",
+      "partsToApprove": "Całkowita liczba części wymagających akceptacji przed drukowaniem",
+      "partTypes": "Całkowita liczba części utworzonych na typ części w wybranym zakresie dat"
+    }
+  }
+}

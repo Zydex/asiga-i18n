@@ -1,0 +1,199 @@
+{
+  "alt": {
+    "all": "Todos",
+    "userUpload": "Cargas de usuario"
+  },
+  "button": {
+    "accept": "Aceptar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "createPartGroup": "Crear grupo de piezas",
+    "deprioritise": "Quitar prioridad",
+    "download": "Descargar",
+    "duplicate": "Duplicar",
+    "expand": "Expandir",
+    "moveToReview": "Mover a revisión",
+    "partType": "Tipo de pieza",
+    "prioritise": "Priorizar",
+    "regroup": "Reagrupar",
+    "regroup_one": "Reagrupar",
+    "regroup_other": "Reagrupar",
+    "reject": "Rechazar",
+    "removeFromGroup": "Quitar del grupo",
+    "reprint": "Reimprimir pieza",
+    "retry": "Reintentar",
+    "template": "Plantilla",
+    "ungroupPartGroup": "Desagrupar",
+    "uploadPart": "Cargar pieza",
+    "viewMoreParts": "Ver más piezas"
+  },
+  "description": {
+    "functionality": "Cargue piezas o impórtelas automáticamente desde aplicaciones de terceros. Los tipos de pieza se reconocen, se aplican plantillas de impresión y se agregan automáticamente a los trabajos de impresión adecuados junto con otras piezas."
+  },
+  "details": {
+    "datePrinted": "Fecha de impresión",
+    "group": {
+      "groupInformation": "Información del grupo",
+      "partName": "Nombre de la pieza",
+      "parts": "Piezas",
+      "template": "Plantilla"
+    },
+    "groupLabel": "Grupo",
+    "groupName": "Grupo {{id}}",
+    "history": {
+      "date": "Fecha",
+      "outcome": "Resultado",
+      "status": {
+        "accepted": "Impresión aceptada",
+        "failed": "Impresión fallida",
+        "offline": "Reelaborado sin conexión",
+        "printed": "Impreso",
+        "unknown": "Desconocido"
+      },
+      "title": "Historial de impresión"
+    },
+    "noPrintJob_one": "El trabajo de impresión aparecerá aquí una vez que la pieza haya sido anidada.",
+    "noPrintJob_other": "El trabajo de impresión aparecerá aquí una vez que las piezas hayan sido anidadas.",
+    "partInformation": "Información de la pieza",
+    "partType": "Tipo de pieza",
+    "printJob": "Trabajo de impresión",
+    "progress": "Progreso",
+    "received": "Recibido",
+    "source": "Origen",
+    "status": "Estado",
+    "targetDevice": "Dispositivo de destino",
+    "template": "Plantilla",
+    "title_zero": "No hay elementos seleccionados",
+    "title_one": "1 elemento seleccionado",
+    "title_other": "{{count}} elementos seleccionados"
+  },
+  "emptyInboxMessages": {
+    "accepted": {
+      "message": "Las piezas de la pestaña 'Revisión' aparecerán aquí cuando hayan sido aceptadas",
+      "title": "No hay piezas aceptadas"
+    },
+    "confirm": {
+      "message": "Use el botón 'Cargar piezas' o arrastre y suelte archivos para agregar piezas a su organización",
+      "title": "No hay piezas para confirmar"
+    },
+    "rejected": {
+      "message": "Las piezas que hayan sido rechazadas aparecerán aquí ",
+      "title": "No hay piezas rechazadas"
+    },
+    "review": {
+      "message": "Use el botón ‘Cargar piezas’ en la parte superior derecha de esta página o use el botón de abajo para agregar piezas a su organización",
+      "title": "No hay piezas para revisar"
+    }
+  },
+  "errors": {
+    "acceptPartError": "Error al aceptar la pieza",
+    "cancelPartUploadError": "Error al cancelar la carga de la pieza",
+    "confirmPartError": "Error al confirmar la pieza",
+    "downloadPartError": "Error al descargar la pieza",
+    "fileTooLarge": "El tamaño del archivo supera el límite de 500 MB",
+    "invalidFileFormat": "El archivo debe ser de tipo .stl",
+    "noFilesUploaded": "No se han cargado archivos",
+    "partCreateError": "Error al crear la pieza",
+    "rejectPartError": "Error al rechazar la pieza",
+    "setPartTypeError": "Error al actualizar el tipo de pieza",
+    "undoAcceptPartError": "Error al deshacer la aceptación de la pieza"
+  },
+  "label": {
+    "accepted": "Aceptado",
+    "confirm": "Confirmar",
+    "designSelected_one": "{{count}} diseño seleccionado",
+    "designSelected_other": "{{count}} diseños seleccionados",
+    "dropFile": "Agregar archivo a la bandeja de entrada",
+    "groupHasBeenPrioritised": "El grupo ha sido priorizado",
+    "invalidUploadFileContent": "Uno o más archivos no se pudieron leer como contenido STL válido",
+    "invalidUploadFileSize": "Uno o más archivos superan el tamaño máximo de carga",
+    "invalidUploadFileType": "Solo se admiten archivos STL",
+    "partHasBeenPrioritised": "La pieza ha sido priorizada",
+    "preparingDownload": "Preparando descarga",
+    "rejected": "Rechazado",
+    "renameGroup": "Cambiar nombre del grupo de piezas",
+    "review": "Para revisar",
+    "search": "Buscar una pieza",
+    "uploadCancelled": "{{partName}} (cancelado)"
+  },
+  "message": {
+    "noParts": "No hay piezas",
+    "renameGroup": "Ingrese un nuevo nombre para el grupo de piezas:",
+    "renamePart": "Ingrese un nuevo nombre para la pieza:",
+    "reprocessPart_one": "{{name}} se agregó anteriormente.\n\nReprocesar esta pieza creará otra copia en el Embudo para impresión.",
+    "reprocessPart_other": "Se agregaron anteriormente {{count}} piezas al embudo.\n\nReprocesar esta pieza creará otra copia en el Embudo para impresión.",
+    "reprocessPart_time_one": "{{name}} se agregó anteriormente el {{time}}.\n\nReprocesar esta pieza creará otra copia en el Embudo para impresión.",
+    "reprocessPart_time_other": "Se agregaron anteriormente {{count}} piezas al embudo.\n\nReprocesar esta pieza creará otra copia en el Embudo para impresión."
+  },
+  "subscriptionNotice": {
+    "approaching": {
+      "description_one": "Queda {{count}} pieza en el límite mensual de la organización. El límite se restablece en {{days}}.",
+      "description_other": "Quedan {{count}} piezas en el límite mensual de la organización. El límite se restablece en {{days}}.",
+      "title": "Acercándose al límite mensual"
+    },
+    "button": "Opciones de suscripción",
+    "close": "Descartar",
+    "daysUntilReset_one": "{{count}} día",
+    "daysUntilReset_other": "{{count}} días",
+    "reached": {
+      "descriptionEditor": "La asignación se restablecerá en {{days}}. Ajuste el nivel de suscripción para procesar más piezas.",
+      "descriptionMember": "La asignación se restablecerá en {{days}}. Contacte al administrador para ajustar el nivel de suscripción y procesar más piezas.",
+      "title": "Límite mensual alcanzado"
+    }
+  },
+  "table": {
+    "partClassification": {
+      "bridge": "Puente",
+      "crownOrToothOrVeneer": "Corona/Diente/Carilla",
+      "dentureAOX": "Dentadura (AoX)",
+      "dentureBase": "Dentadura (Base)",
+      "denturePartial": "Dentadura (Parcial)",
+      "die": "Troquel",
+      "flatGingiva": "Encía",
+      "hollowModel": "Modelo (Hueco)",
+      "occlusalSplint": "Férula",
+      "other": "Otro",
+      "partialFramework": "Estructura parcial",
+      "pillowGingiva": "Encía (Almohadillada)",
+      "screwInTooth": "Corona sobre implante",
+      "solidModel": "Modelo (Sólido)",
+      "surgicalGuide": "Guía quirúrgica",
+      "teethRow": "Dientes de dentadura",
+      "tryInDenture": "Dentadura (Prueba)"
+    },
+    "partStatus": {
+      "addedToJob": "Agregado al trabajo",
+      "failed": "Fallido",
+      "printed": "Impreso",
+      "printReady": "Listo para imprimir",
+      "processing": "Procesando",
+      "rejected": "Rechazado",
+      "reworkedOffline": "Reelaborado sin conexión",
+      "toAccept": "Para aceptar",
+      "toConfirm": "Para confirmar"
+    },
+    "template": {
+      "noTemplate": "Sin plantilla",
+      "noTemplateTooltip": "<a>Cree una plantilla</a> con el tipo de esta pieza para aceptarla para impresión."
+    },
+    "userUpload": "Carga de usuario"
+  },
+  "title": {
+    "inbox": "Bandeja de entrada",
+    "name": "Nombre",
+    "partType": "Tipo de pieza",
+    "received": "Recibido",
+    "reprocessPart_one": "¿Reprocesar {{name}}?",
+    "reprocessPart_other": "¿Reprocesar {{count}} piezas?",
+    "source": "Origen",
+    "status": "Estado",
+    "template": "Plantilla",
+    "uploads": "Cargas"
+  },
+  "tooltips": {
+    "accepted": "Aquí se muestran las piezas que han sido aceptadas para fabricación.",
+    "createPartGroupDisabled": "Solo se pueden agrupar piezas que utilicen la misma plantilla.",
+    "rejected": "Aquí se muestran las piezas que han sido rechazadas para fabricación.",
+    "review": "Aquí se muestran las piezas que se han agregado al Embudo para ser revisadas. Elija una plantilla para aplicar a la pieza antes de aceptarla para fabricación."
+  }
+}

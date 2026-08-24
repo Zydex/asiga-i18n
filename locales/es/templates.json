@@ -1,0 +1,238 @@
+{
+  "basePlate": {
+    "addTo": {
+      "enum": {
+        "allParts": "Todas las piezas",
+        "supportedParts": "Piezas compatibles"
+      },
+      "label": "Añadir placa base a",
+      "tooltip": "Añade una placa base a las piezas compatibles, o a todas las piezas."
+    },
+    "enabled": {
+      "label": "Placa base",
+      "tooltip": "Habilitar la generación de la placa base"
+    },
+    "engraved": {
+      "label": "Añadir nombre de la construcción a la placa base",
+      "tooltip": "Añade el nombre de la construcción y la resolución XYZ en µm a la placa base."
+    },
+    "meshShape": {
+      "enum": {
+        "hexagon": "Hexágono",
+        "none": "Ninguno",
+        "square": "Cuadrado",
+        "triangle": "Triángulo"
+      },
+      "label": "Forma de malla",
+      "tooltip": "Seleccionar una forma distinta de Ninguno añadirá un patrón de orificios en la placa base con la forma seleccionada."
+    },
+    "meshSize": {
+      "label": "Tamaño de malla",
+      "tooltip": "El diámetro de los orificios en la placa base."
+    },
+    "meshWidth": {
+      "label": "Ancho de malla",
+      "tooltip": "Grosor de las paredes entre los orificios."
+    },
+    "placement": {
+      "enum": {
+        "intersecting": "Intersectando",
+        "underneath": "Debajo"
+      },
+      "label": "Colocación",
+      "tooltip": "La colocación de la placa base en relación con cada pieza y sus soportes.\n<ul><li>Debajo - desplaza las piezas y los soportes hacia arriba, y coloca la placa de construcción debajo.</li><li>Intersectando - intersecta la placa de construcción con la parte inferior de la pieza o su soporte.</li></lu>"
+    },
+    "thickness": {
+      "label": "Grosor",
+      "tooltip": "Grosor de la placa base en milímetros."
+    },
+    "type": {
+      "enum": {
+        "boundingBox": "Caja delimitadora",
+        "full": "Completo",
+        "shadow": "Sombra"
+      },
+      "label": "Tipo",
+      "tooltip": "Tipo de placa base:\n<ul><li>Completo - cubre toda la plataforma con una placa base</li><li>Sombra - cubre las regiones directamente debajo de las piezas.</li><li>Caja delimitadora - cubre el contorno delimitador de cada pieza.</li></ul>"
+    }
+  },
+  "button": {
+    "editBasePlateSettings": "Editar..."
+  },
+  "label": {
+    "associatedPartType": "Tipo de pieza asociado",
+    "associatedWith": "Asociado con",
+    "basePlateSettings": "Configuración de la placa base",
+    "default": "Predeterminado",
+    "deleted": "Plantilla eliminada",
+    "deleteSuccess_one": "{{count}} plantilla eliminada",
+    "deleteSuccess_other": "{{count}} plantillas eliminadas",
+    "enabled": "Habilitado",
+    "fastPrintMode": "Modo de impresión rápida",
+    "manufacturer": "Fabricante",
+    "material": "Material",
+    "materialName": "Nombre del material",
+    "outdated": "Plantilla obsoleta",
+    "overrideMaterialSettings": "Introducir valores en estos campos anulará los valores predeterminados establecidos por el material.",
+    "partType": "Tipo de pieza",
+    "partTypes_other": "{{count}} tipos de pieza",
+    "partTypes_other_one": "1 tipo de pieza",
+    "partTypes_other_other": "{{count}} tipos de pieza",
+    "printerAndTrayType": "Tipos de impresora y bandeja",
+    "printerModel": "Modelo de impresora",
+    "search": "Buscar plantillas",
+    "selectThickness": "Seleccionar el grosor de capa",
+    "separationDetect": "Detección de separación",
+    "supports": "Soportes",
+    "templateName": "Nombre de la plantilla",
+    "thickness": "Grosor de capa",
+    "tray": "Bandeja",
+    "trayType": "Tipo de bandeja"
+  },
+  "message": {
+    "changesApplyToNewParts": "Las piezas existentes se actualizarán con la nueva configuración de la plantilla y se volverán a poner en cola para su impresión.",
+    "deleteTemplateWarning": "Cualquier pieza que utilice esta plantilla se devolverá a la Bandeja de entrada para su revisión. Asigna una nueva plantilla para imprimirlas, o recházalas para eliminarlas del Embudo.",
+    "modifyWillAffectParts": "Los tipos de pieza asociados que utilicen esta plantilla se volverán a poner en cola para su impresión, y cualquier tipo de pieza eliminado se devolverá a la Bandeja de entrada para su revisión.",
+    "modifyWillRequeueParts": "Las piezas existentes se actualizarán con la nueva configuración de la plantilla y se volverán a poner en cola para su impresión.",
+    "noTemplates": "Sin plantillas",
+    "noTemplatesInfo": "Las plantillas se mostrarán aquí. Utiliza el botón 'Crear' para crear tu primera plantilla."
+  },
+  "supportSettings": {
+    "accuracyZ": {
+      "label": "Precisión Z",
+      "tooltip": "El grosor de corte utilizado para autogenerar estructuras y evitar la intersección con la pieza."
+    },
+    "aspectRatio": {
+      "label": "Relación de aspecto",
+      "tooltip": "Controla la tasa de ensanchamiento de las estructuras de soporte."
+    },
+    "connectGap": {
+      "label": "Separación de conexión",
+      "tooltip": "Número de niveles de retícula para suprimir la conexión después de encontrar una conexión vertical (disponible)."
+    },
+    "connection": {
+      "label": "Conexión",
+      "tooltip": "Número de nodos que se conectarán en el nivel de retícula inmediatamente inferior. Establecer este valor en 0 creará soportes flexibles."
+    },
+    "contactWidth": {
+      "label": "Ancho de contacto",
+      "tooltip": "Para soportes predeterminados: Ancho de la estructura de soporte en su contacto con la pieza.\n\nPara soportes de retícula: Ancho de la bola de contacto en su contacto con la pieza."
+    },
+    "halfContactWidth": {
+      "label": "Medio ancho de contacto",
+      "tooltip": "Reintentar añadir puntos de contacto con la mitad del ancho."
+    },
+    "heightLevel": {
+      "label": "Nivel de altura",
+      "toggle": "Nivelación de altura",
+      "tooltip": "Aplica un margen Z entre las piezas y la plataforma."
+    },
+    "islandWidth": {
+      "label": "Ancho de isla",
+      "tooltip": "Para soportes predeterminados: Ancho de la estructura de soporte en el primer contacto con la pieza.\n\nPara soportes de retícula: Ancho de la bola de contacto en el primer contacto para cada cuerpo de la pieza."
+    },
+    "lattice": {
+      "label": "Retícula",
+      "tooltip": "Habilita los soportes de retícula. Los soportes de retícula generan una red interconectada de vigas de soporte alrededor del modelo."
+    },
+    "layout": {
+      "enum": {
+        "circle": "Círculo",
+        "hexagon": "Hexágono",
+        "square": "Cuadrado",
+        "triangle": "Triángulo"
+      },
+      "label": "Disposición",
+      "tooltip": "Cómo se distribuyen los nodos sobre las posiciones XY."
+    },
+    "margin": {
+      "label": "Margen",
+      "tooltip": "Distancia adicional de prevención de colisiones respecto a la pieza."
+    },
+    "maximumWidth": {
+      "label": "Ancho máximo",
+      "tooltip": "Limita el ancho de las estructuras de soporte en la base."
+    },
+    "minimumHeight": {
+      "label": "Altura mínima",
+      "tooltip": "Evita añadir soportes que se reintersecten si su altura es menor que la altura especificada."
+    },
+    "modelInterSupport": {
+      "label": "Intersoporte del modelo",
+      "tooltip": "Permite columnas de soporte que se reintersectarán y se apoyarán en la pieza."
+    },
+    "selfSupportAngle": {
+      "label": "Ángulo autoportante",
+      "tooltip": "El ángulo en grados desde la horizontal que no requiere soportes."
+    },
+    "sideFaces": {
+      "label": "Caras laterales",
+      "tooltip": "Define el número de caras laterales para las nuevas estructuras de soporte."
+    },
+    "sideFeaturesSize": {
+      "label": "Tamaño de característica lateral",
+      "tooltip": "La distancia que un detalle puede sobresalir de una superficie sin necesitar soporte."
+    },
+    "spacingXY": {
+      "label": "Espaciado XY",
+      "tooltip": "Distancia entre nodos sobre el plano XY"
+    },
+    "spacingZ": {
+      "label": "Espaciado Z",
+      "tooltip": "Distancia entre los niveles de retícula sobre el eje Z."
+    },
+    "supportSpacing": {
+      "label": "Espaciado de soportes",
+      "tooltip": "Distancia entre los puntos de soporte de una pieza."
+    },
+    "tallestSupport": {
+      "label": "Soporte más alto",
+      "tooltip": "Ignora cualquier característica que requiera soporte por encima de la altura especificada."
+    },
+    "undershoot": {
+      "label": "Sub/Sobre-recorrido",
+      "tooltip": "Para soportes predeterminados: La distancia máxima de inyección en la que el punto de soporte entra en la pieza.\n\nPara soportes de retícula: Distancia desde el punto de contacto donde la estructura comienza a estrecharse hasta un punto."
+    }
+  },
+  "title": {
+    "changesApplyToNewParts": "Los cambios se aplican a las piezas nuevas",
+    "classificationSupportSettings": "Soportes de {{classification}}",
+    "createTemplate": "Nueva plantilla",
+    "deleteTemplate": "¿Eliminar plantilla?",
+    "deleteTemplate_zero": "¿Eliminar plantilla?",
+    "deleteTemplate_one": "{{count}} pieza se devolverá a la bandeja de entrada",
+    "deleteTemplate_other": "{{count}} piezas se devolverán a la bandeja de entrada",
+    "editTemplate": "Editar plantilla",
+    "modifyWillAffectParts": "Las piezas podrían verse afectadas por este cambio",
+    "modifyWillAffectParts_zero": "Las piezas podrían verse afectadas por este cambio",
+    "modifyWillAffectParts_one": "{{count}} pieza se verá afectada por este cambio",
+    "modifyWillAffectParts_other": "{{count}} piezas se verán afectadas por este cambio",
+    "modifyWillRequeueParts": "Las piezas pueden volver a ponerse en cola",
+    "modifyWillRequeueParts_zero": "Las piezas pueden volver a ponerse en cola",
+    "modifyWillRequeueParts_one": "{{count}} pieza se volverá a poner en cola",
+    "modifyWillRequeueParts_other": "{{count}} piezas se volverán a poner en cola",
+    "templateBasePlate": "Placa base de {{name}}"
+  },
+  "tooltip": {
+    "defaultPartType": "Hacer que esta sea la plantilla predeterminada para el tipo de pieza seleccionado",
+    "defaultPartType_disabled": "Esta es actualmente la plantilla predeterminada para {{partType}}. Selecciona otra plantilla como predeterminada para reemplazarla.",
+    "defaultPartType_only": "Esta es la plantilla predeterminada ya que no hay ninguna otra plantilla asociada a este tipo de pieza",
+    "fastPrintMode": "<bold>Modo de impresión rápida</bold>\nAcelera todos los movimientos no esenciales de la plataforma de construcción, reposicionándola rápidamente entre capas para minimizar el tiempo inactivo y acortar la duración total de la impresión.",
+    "separationDetect": "<bold>Detección de separación</bold>\nDetecta la liberación de la película, reduciendo la distancia de elevación entre capas.\n\nPuede suponer un riesgo de defectos de impresión si la separación no se detecta correctamente."
+  },
+  "types": {
+    "printerTypes": {
+      "max": "Max & Max 2",
+      "pro": "Pro 4K",
+      "ultra": "Ultra"
+    },
+    "trays": {
+      "endurance": "Endurance",
+      "LIFT": "LIFT",
+      "lowForce": "Low Force",
+      "ultraGLOSS": "UltraGLOSS",
+      "ultraGLOSSLIFT": "UltraGLOSS LIFT",
+      "universal": "Universal"
+    }
+  }
+}

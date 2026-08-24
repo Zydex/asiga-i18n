@@ -1,0 +1,158 @@
+{
+  "button": {
+    "download": "Descarregar",
+    "exportReportPdf": "Exportar PDF",
+    "moveOffline": "Retrabalhar Offline",
+    "promoteJob": "Promover Trabalho",
+    "reprint": "Reimprimir",
+    "reprintParts": "Reimprimir Peças",
+    "requeueParts": "Reenfileirar Peças",
+    "resendJob": "Reenviar Trabalho",
+    "reshuffle": "Baralhar"
+  },
+  "details": {
+    "basePlate": "Definições da Placa Base",
+    "currentJob": "Trabalho Atual",
+    "currentParts": "Peças Atuais",
+    "jobInformation": "Informações do Trabalho",
+    "parts": "Peças"
+  },
+  "label": {
+    "accepted": "Aceite",
+    "buildAreaUsage": "Utilização da Área de Construção",
+    "estimatedMaterial": "Material Estimado",
+    "estimatedPrintTime": "Tempo de Impressão Estimado",
+    "external": "Externo",
+    "jobContainsPriorityParts": "O trabalho contém peças prioritárias",
+    "jobsTab": "Separadores de Trabalhos",
+    "layerThickness": "Espessura da Camada",
+    "material": "Material",
+    "partName": "Nome da Peça",
+    "partType": "Tipo de Peça",
+    "provisional": "Provisório",
+    "rejected": "Rejeitado",
+    "reprintParts": "Reimprimir peças deste trabalho?",
+    "reprintPartsNoneAvailable": "Todas as peças estão a ser reimpressas",
+    "requeuedPartsSuccess": "Peças Reenfileiradas com Sucesso",
+    "requeuedPartsSuccess_one": "Peça Reenfileirada com Sucesso",
+    "requeuedPartsSuccess_other": "Peças Reenfileiradas com Sucesso",
+    "requeuingParts": "A Reenfileirar Peças",
+    "search": "Pesquisar trabalhos",
+    "source": "Origem",
+    "targetDevice": "Dispositivo de Destino",
+    "template": "Modelo",
+    "toReview": "Para Rever",
+    "trayType": "Tipo de Tabuleiro"
+  },
+  "message": {
+    "deviceOffline": "Este trabalho não será enviado até a impressora voltar a ficar online.\n\nVerifique se {{device}} está online e tem uma ligação à internet ativa.",
+    "deviceOffline_one": "Este trabalho não será enviado até a impressora voltar a ficar online.\n\nVerifique se {{device}} está online e tem uma ligação à internet ativa.",
+    "deviceOffline_other": "Estes trabalhos não serão enviados até cada impressora voltar a ficar online.\n\nVerifique se as impressoras estão online e têm uma ligação à internet ativa.",
+    "downloadInfo": "Em alternativa, o trabalho de impressão pode ser transferido para edição no Composer.",
+    "moveOffline": "Isto irá rejeitar o trabalho e descarregá-lo para edição no composer.",
+    "moveOffline_one": "Isto irá rejeitar o trabalho selecionado e descarregá-lo para edição no composer.",
+    "moveOffline_other": "Isto irá rejeitar os trabalhos selecionados e descarregá-los para edição no composer.",
+    "noJobsToReview": "Os trabalhos provisórios que tenham sido promovidos aparecerão aqui. Faça upload de peças na caixa de entrada para começar.",
+    "noParts": "Este trabalho não tem peças.",
+    "noPartsToReprint": "As peças deste trabalho já foram reenfileiradas para reimpressão.",
+    "rejectInfo": "Premir 'Baralhar' fará com que a posição e a rotação das peças variem aleatoriamente, como parte de um novo trabalho de impressão. Algumas peças podem ser removidas ou adicionadas durante este processo.",
+    "reprintParts": "As peças selecionadas serão priorizadas para reimpressão como parte do próximo trabalho de impressão adequado.",
+    "reprintPartsKey": "As peças a cinzento já foram reimpressas.",
+    "requeueParts": "Isto irá marcar o trabalho como rejeitado e devolver todas as peças do trabalho à fila.",
+    "reworkOffline_one": "O trabalho de impressão <bold>#{{id}}</bold> foi marcado como <bold>Retrabalhado offline</bold>",
+    "reworkOffline_other": "{{count}} trabalhos de impressão marcados como <bold>Retrabalhados offline</bold>",
+    "submittingJob": "A submeter #{{id}}",
+    "submittingJob_device": "A submeter  <bold>#{{id}}</bold> para <bold>{{device}}</bold>"
+  },
+  "status": {
+    "awaitingApproval": {
+      "name": "Aguardando aprovação",
+      "tooltip": "O trabalho finalizado está pronto para revisão."
+    },
+    "cancelled": {
+      "name": "Cancelado",
+      "tooltip": "O trabalho de impressão foi cancelado antes de terminar ou foi eliminado da fila de construção."
+    },
+    "failed": {
+      "name": "Falhou",
+      "tooltip": "O trabalho de impressão falhou.\n\nConsulte o ecrã da impressora para mais informações."
+    },
+    "generating": {
+      "name": "A finalizar trabalho de impressão",
+      "tooltip": "O esquema do trabalho provisório foi finalizado e as camadas de impressão estão a ser preparadas."
+    },
+    "nestingFailed": {
+      "name": "Falha no Aninhamento",
+      "tooltip": "O aninhamento das peças falhou. Isto pode ser causado por problemas com um ou mais dos ficheiros das peças."
+    },
+    "offline": {
+      "name": "Retrabalhado offline",
+      "tooltip": "O trabalho foi descarregado para ser editado e enviado no Composer."
+    },
+    "paused": {
+      "name": "Em pausa",
+      "tooltip": "O trabalho de impressão foi colocado em pausa na impressora."
+    },
+    "printed": {
+      "name": "Impresso",
+      "tooltip": "O trabalho foi concluído com sucesso."
+    },
+    "printing": {
+      "name": "A imprimir",
+      "tooltip": "O trabalho está atualmente a ser impresso."
+    },
+    "printPending": {
+      "name": "Impressão pendente",
+      "tooltip": "O trabalho está na impressora e pronto para imprimir."
+    },
+    "provisional": {
+      "name": "Provisório",
+      "tooltip": "O trabalho está num estado provisório e será finalizado quando:\n<ul><li>mais peças forem adicionadas para preencher o trabalho</li><li>uma impressora adequada estiver prestes a ficar disponível para o imprimir</li></ul>O trabalho também pode ser promovido manualmente a um estado finalizado."
+    },
+    "rejected": {
+      "name": "Rejeitado",
+      "tooltip": "O trabalho foi rejeitado e as peças foram reenfileiradas."
+    },
+    "sendingFailed": {
+      "name": "Falha no envio",
+      "tooltip": "O trabalho de impressão falhou ao ser enviado para a impressora.\n\nIsto pode ser causado pela impressora ficar offline ou pela fila de construção estar cheia com memória insuficiente."
+    },
+    "sendingToPrinter": {
+      "name": "A enviar para a impressora",
+      "tooltip": "As camadas de impressão estão a ser enviadas para a impressora."
+    },
+    "slicing": {
+      "name": "A fatiar trabalho de impressão",
+      "tooltip": "As camadas de impressão estão a ser preparadas."
+    },
+    "slicingFailed": {
+      "name": "Falha no fatiamento",
+      "tooltip": "O trabalho de impressão falhou durante a preparação das camadas de impressão.\n\nIsto pode ser causado por problemas com os ficheiros das peças."
+    }
+  },
+  "title": {
+    "device": "Dispositivo",
+    "deviceOffline": "{{device}} está offline",
+    "deviceOffline_one": "{{device}} está offline",
+    "deviceOffline_other": "Várias impressoras estão offline",
+    "jobNumber": "Número do Trabalho",
+    "material": "Material",
+    "moveOffline": "Retrabalhar trabalho offline?",
+    "moveOffline_one": "Retrabalhar trabalho offline?",
+    "moveOffline_other": "Retrabalhar trabalhos offline?",
+    "noJobsAccepted": "Nenhum trabalho aceite",
+    "noJobsRejected": "Nenhum trabalho rejeitado",
+    "noJobsToReview": "Nenhum trabalho para rever",
+    "printJobs": "Trabalhos de Impressão",
+    "rejectJob": "Baralhar trabalho rejeitado?",
+    "requeueParts": "Reenfileirar Peças?",
+    "status": "Estado"
+  },
+  "tooltips": {
+    "accepted": "Todos os trabalhos que foram aceites são mostrados aqui, juntamente com o seu estado.",
+    "provisional": "Isto mostra os próximos trabalhos esperados com base na disponibilidade da impressora, compatibilidade do template e peças não impressas no Funil.\n\nPromovê-los criará um trabalho de impressão finalizado que incluirá as peças identificadas, o esquema e a impressora de destino. Quando os suportes forem gerados para trabalhos finalizados, aparecerão no separador 'Para Rever'.",
+    "rejected": "Todos os trabalhos que foram rejeitados são mostrados aqui.",
+    "resendJob": "Reenviar um trabalho para uma impressora. Isto pode ser útil se o trabalho foi cancelado ou se o dispositivo encontrou um erro.",
+    "toReview": "Os trabalhos de impressão prontos para revisão são mostrados aqui. Aceite-os para enviar para a impressora."
+  }
+}

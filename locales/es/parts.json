@@ -1,0 +1,131 @@
+{
+  "emptyPartsMessages": {
+    "allParts": {
+      "message": "Cuando se aceptan piezas en la bandeja de entrada, aparecerán aquí para ser consideradas para la impresión",
+      "title": "No hay piezas listas para imprimir"
+    },
+    "printReady": {
+      "message": "Las piezas que estén listas para añadirse a un trabajo de impresión aparecerán aquí",
+      "title": "No hay piezas en cola"
+    },
+    "sent": {
+      "message": "Las piezas aparecerán aquí cuando se hayan ensamblado en un trabajo de impresión y enviado a la impresora",
+      "title": "No se han enviado piezas"
+    }
+  },
+  "group": {
+    "tooLarge": "Grupo demasiado grande",
+    "tooLargeTooltip": "El grupo es demasiado grande para caber en cualquier plataforma de impresora que especifique esta plantilla.\n\nDesagrupe las piezas o actualice la plantilla para usar una impresora más grande."
+  },
+  "label": {
+    "allParts": "Todas las piezas",
+    "partsQueue": "Piezas en cola",
+    "printReady": "Lista para imprimir",
+    "sent": "Enviado"
+  },
+  "status": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "Aceptar pieza para impresión",
+      "partAccepted": "Pieza aceptada"
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Aprobar trabajo de impresión",
+      "printJobApproved": "Trabajo de impresión aprobado",
+      "printJobPendingApproval": "Trabajo de impresión pendiente de aprobación"
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "Añadido al trabajo de impresión",
+      "generatingSupports": "Generando soportes",
+      "nestedInProvisionalJob": "Anidado en trabajo provisional",
+      "nestingFailed": "Error de anidado",
+      "nestingPrintJob": "Añadiendo al trabajo provisional",
+      "nestPrintJob": "Anidar trabajo de impresión",
+      "partQueued": "Pieza en cola",
+      "partTooLarge": "Pieza demasiado grande"
+    },
+    "orientatePart": {
+      "orientatePart": "Orientar pieza",
+      "orientatingPart": "Orientando pieza",
+      "orientationFailed": "Error de orientación",
+      "partOrientated": "Pieza orientada"
+    },
+    "partIdentification": {
+      "confirmPartType": "Confirmar tipo de pieza",
+      "identifyingPartType": "Identificando tipo de pieza",
+      "partIdentification": "Identificación de pieza",
+      "partTypeConfirmed": "Tipo de pieza confirmado"
+    },
+    "print": {
+      "print": "Imprimir",
+      "printed": "Impreso",
+      "printFailed": "Error de impresión",
+      "printing": "Imprimiendo"
+    },
+    "rejected": "Rechazado",
+    "sendToPrinter": {
+      "printJobDownloaded": "Trabajo de impresión descargado",
+      "sendingFailed": "Error de envío",
+      "sendingToPrinter": "Enviando a la impresora",
+      "sendToPrinter": "Enviar a la impresora",
+      "sentToPrinter": "Enviado a la impresora",
+      "slicingFailed": "Error de laminado",
+      "slicingPrintJob": "Laminando trabajo de impresión"
+    }
+  },
+  "statusTooltips": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "La pieza está esperando a que el usuario la acepte.",
+      "partAccepted": "La pieza ha sido aceptada para su impresión."
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Apruebe los trabajos provisionales para enviarlos a las impresoras.",
+      "printJobApproved": "El trabajo ha sido aceptado para su impresión.",
+      "printJobPendingApproval": "El trabajo provisional está esperando a que el usuario lo acepte."
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "La pieza se ha añadido a un trabajo de impresión.",
+      "generatingSupports": "Se están añadiendo soportes al trabajo provisional antes de finalizarlo para que el usuario lo apruebe para la impresión.",
+      "nestedInProvisionalJob": "La pieza ha sido anidada en un trabajo provisional. Se finalizará cuando:<ul><li>Se añadan más piezas para completar el trabajo</li><li>Una impresora adecuada esté a punto de estar disponible para imprimirla</li></ul>",
+      "nestingFailed": "El anidado de las piezas ha fallado.\nEsto podría deberse a problemas con el archivo de la pieza.",
+      "nestingPrintJob": "La pieza se está anidando en un trabajo provisional.",
+      "nestPrintJob": "La pieza se anidará cuando una impresora adecuada esté disponible, según el criterio “primero en entrar, primero en salir”.",
+      "partQueued": "La pieza se anidará cuando una impresora adecuada esté disponible, según el criterio “primero en entrar, primero en salir”.",
+      "partTooLarge": "La pieza es demasiado grande para las impresoras especificadas en la plantilla de impresión.\n\nCompruebe el tamaño de la pieza o considere añadir una impresora más grande a la plantilla."
+    },
+    "orientatePart": {
+      "orientatePart": "Orientar la pieza según su tipo.",
+      "orientatingPart": "La pieza se está orientando actualmente según su tipo.",
+      "orientationFailed": "La pieza no pudo orientarse correctamente para la impresión.\nEsto podría deberse a problemas con el archivo de la pieza.",
+      "partOrientated": "La pieza se orientó correctamente para la impresión."
+    },
+    "partIdentification": {
+      "confirmPartType": "Esperando confirmación del tipo de pieza.\nEsto determina cómo se orienta una pieza y las plantillas que se sugieren.",
+      "identifyingPartType": "Analizando la geometría de la pieza para identificar su tipo.",
+      "partIdentification": "Analizar la geometría de la pieza para identificar su tipo.",
+      "partTypeConfirmed": "El usuario ha confirmado el tipo de pieza."
+    },
+    "print": {
+      "print": "El trabajo comenzará a imprimirse en un dispositivo.",
+      "printed": "El trabajo de impresión se ha completado correctamente.",
+      "printFailed": "El trabajo de impresión ha fallado.\nConsulte la pantalla de la impresora para obtener más información.",
+      "printing": "El trabajo de impresión se está imprimiendo actualmente."
+    },
+    "rejected": "La pieza ha sido rechazada por un usuario.",
+    "sendToPrinter": {
+      "printJobDownloaded": "El trabajo de impresión se ha descargado para su edición manual en Composer.",
+      "sendingFailed": "El trabajo de impresión falló al enviarse a la impresora.\nEsto podría deberse a problemas de conectividad de la impresora.",
+      "sendingToPrinter": "Enviando el trabajo a la impresora.",
+      "sendToPrinter": "Prepara y envía el trabajo a una impresora.",
+      "sentToPrinter": "Trabajo de impresión enviado.",
+      "slicingFailed": "El trabajo de impresión ha fallado al preparar las capas de impresión.\nEsto podría deberse a problemas con los archivos de las piezas.",
+      "slicingPrintJob": "Las capas de impresión se están preparando."
+    }
+  },
+  "title": {
+    "parts": "Piezas"
+  },
+  "tooltips": {
+    "allParts": "Todas las piezas que han sido aceptadas se muestran aquí, junto con su estado.",
+    "partsQueue": "Las piezas que están en cola para imprimir se muestran aquí, agrupadas por su plantilla."
+  }
+}

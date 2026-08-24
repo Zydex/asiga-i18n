@@ -1,0 +1,93 @@
+{
+  "alt": {
+    "addUsers": "Mehrere Benutzer hinzufügen",
+    "profile": "Benutzerprofil"
+  },
+  "button": {
+    "add": "Benutzer hinzufügen",
+    "changeMfa": "MFA ändern",
+    "changePassword": "Passwort ändern",
+    "changeRole": "Rolle ändern",
+    "deleteProfile": "Profil löschen",
+    "newPhoto": "Neues Foto",
+    "remove": "Benutzer entfernen",
+    "remove_one": "Benutzer entfernen",
+    "remove_other": "Mehrere Benutzer entfernen",
+    "removePhoto": "Foto entfernen",
+    "resetMfa": "MFA zurücksetzen",
+    "restoreAccess": "Zugriff wiederherstellen",
+    "uploadPhoto": "Foto hochladen"
+  },
+  "label": {
+    "email": "E-Mail",
+    "enterEmails": "E-Mail-Adressen eingeben, durch Komma getrennt",
+    "name": "Name",
+    "nickname": "Spitzname",
+    "search": "Nach einem Benutzer suchen",
+    "updatedAt": "Aktualisiert am",
+    "users": "Benutzer"
+  },
+  "message": {
+    "addUsers": "Geben Sie unten E-Mail-Adressen ein, um Benutzer zu dieser Organisation einzuladen.",
+    "addUsers_org": "Geben Sie unten E-Mail-Adressen ein, um Benutzer zu {{org}} einzuladen.",
+    "changeMfa": "Dadurch wird eine Seite mit Anweisungen geöffnet, wie Sie Ihr neues MFA-Gerät einrichten.",
+    "changePassword": "Es wird eine E-Mail mit einem Link zum Ändern des Passworts gesendet.",
+    "changePassword_email": "Es wird eine E-Mail an {{email}} mit einem Link zum Ändern des Passworts gesendet.",
+    "changeRole": "Rolle aktualisieren:",
+    "changeRole_user": "Rolle von {{user}} aktualisieren:",
+    "confirmDelAccounts_one": "Dieser Benutzer wird keinen Zugriff mehr auf diese Organisation haben.",
+    "confirmDelAccounts_other": "Diese Benutzer werden keinen Zugriff mehr auf diese Organisation haben.",
+    "confirmDelAccounts_org_one": "Dieser Benutzer wird keinen Zugriff mehr auf {{org}} haben.",
+    "confirmDelAccounts_org_other": "Diese Benutzer werden keinen Zugriff mehr auf {{org}} haben.",
+    "confirmMfaPolicy": "Dadurch werden alle Benutzer Ihrer Organisation abgemeldet, damit sie die Multi-Faktor-Authentifizierung einrichten können.",
+    "confirmOwnershipTransfer": "Dadurch wird die Eigentümerschaft der Organisation übertragen, dies kann nicht rückgängig gemacht werden.",
+    "confirmOwnershipTransfer_user": "Dadurch wird die Eigentümerschaft der Organisation an {{user}} übertragen, dies kann nicht rückgängig gemacht werden.",
+    "confirmOwnershipTransferPrompt": "Geben Sie unten {{word}} ein, um zu bestätigen.",
+    "confirmOwnershipTransferWord": "ÜBERTRAGEN",
+    "confirmResetMfa_one": "Dieser Benutzer muss die Multi-Faktor-Authentifizierung erneut einrichten.",
+    "confirmResetMfa_other": "Diese Benutzer müssen die Multi-Faktor-Authentifizierung erneut einrichten.",
+    "confirmRestoreAccess": "Der Zugriff wurde aufgrund von Brute-Force-Schutzmaßnahmen entzogen.",
+    "confirmRestoreAccess_user": "Der Zugriff für {{user}} wurde aufgrund von Brute-Force-Schutzmaßnahmen entzogen.",
+    "deleteProfile": "Ihr Profil wird dauerhaft aus Ihrer Organisation entfernt.",
+    "deleteProfile_org": "Ihr Profil wird dauerhaft aus {{org}} entfernt.",
+    "howToAddUsers": "Verwenden Sie die Schaltfläche „Benutzer hinzufügen“ oben rechts auf dieser Seite oder die Schaltfläche unten, um Benutzer zu Ihrer Organisation hinzuzufügen",
+    "invitationSent": "Einladung gesendet",
+    "linkSent": "Link gesendet",
+    "mfaPolicy": "Verbessern Sie die Sicherheit Ihrer Organisation, indem Sie für alle Benutzer die Multi-Faktor-Authentifizierung verlangen.",
+    "profilePicture": "Dies hilft anderen, Sie zu erkennen, und zeigt Ihnen, dass Sie beim richtigen Konto angemeldet sind.",
+    "userPageInfo": "Die Benutzer Ihrer Organisation werden auf dieser Seite angezeigt",
+    "warnCreateAccount": "Sind Sie sicher, dass Sie dieses Konto erstellen möchten?"
+  },
+  "role": {
+    "accountant": "Buchhalter",
+    "admin": "Administrator",
+    "designer": "Designer",
+    "owner": "Eigentümer",
+    "technician": "Techniker",
+    "user": "Benutzer"
+  },
+  "title": {
+    "changeMfa": "Multi-Faktor-Authentifizierung (MFA)-Gerät ändern",
+    "changePassword": "Passwort ändern",
+    "changeRole": "Rolle ändern",
+    "confirmDeleteProfile": "Profillöschung bestätigen",
+    "confirmMfaPolicy": "Multi-Faktor-Authentifizierung verlangen?",
+    "confirmOwnershipTransfer": "Eigentümerschaft übertragen?",
+    "deleteProfile": "Profil löschen",
+    "edit": "Bearbeiten",
+    "email": "E-Mail",
+    "invite": "Mehrere Benutzer einladen",
+    "mfaPolicy": "Multi-Faktor-Authentifizierung",
+    "name": "Name",
+    "profile": "",
+    "remove_one": "Benutzer entfernen?",
+    "remove_other": "Benutzer entfernen?",
+    "resetMfa_one": "MFA für diesen Benutzer zurücksetzen?",
+    "resetMfa_other": "MFA für diese Benutzer zurücksetzen?",
+    "restoreAccess": "Zugriff für Benutzer wiederherstellen?",
+    "role": "Rolle"
+  },
+  "tooltips": {
+    "users": "Listet alle Benutzer auf, die Teil der Organisation sind. Benutzer können hier hinzugefügt und Rollen geändert werden."
+  }
+}

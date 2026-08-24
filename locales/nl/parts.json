@@ -1,0 +1,131 @@
+{
+  "emptyPartsMessages": {
+    "allParts": {
+      "message": "Wanneer onderdelen in de inbox worden geaccepteerd, verschijnen ze hier om in overweging te worden genomen voor het printen",
+      "title": "Geen onderdelen printklaar"
+    },
+    "printReady": {
+      "message": "Onderdelen die klaar zijn om aan een printtaak te worden toegevoegd, verschijnen hier",
+      "title": "Geen onderdelen in de wachtrij"
+    },
+    "sent": {
+      "message": "Onderdelen verschijnen hier zodra ze zijn samengesteld in een printtaak en naar de printer zijn verzonden",
+      "title": "Geen onderdelen verzonden"
+    }
+  },
+  "group": {
+    "tooLarge": "Groep te groot",
+    "tooLargeTooltip": "De groep is te groot om op een van de printerplatforms van deze template te passen.\n\nMaak de groepering van de onderdelen ongedaan of werk de template bij om een grotere printer te gebruiken."
+  },
+  "label": {
+    "allParts": "Alle onderdelen",
+    "partsQueue": "Onderdelen in wachtrij",
+    "printReady": "Printklaar",
+    "sent": "Verzonden"
+  },
+  "status": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "Onderdeel accepteren voor printen",
+      "partAccepted": "Onderdeel geaccepteerd"
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Printtaak goedkeuren",
+      "printJobApproved": "Printtaak goedgekeurd",
+      "printJobPendingApproval": "Printtaak in afwachting van goedkeuring"
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "Toegevoegd aan printtaak",
+      "generatingSupports": "Ondersteuningen genereren",
+      "nestedInProvisionalJob": "Genest in voorlopige taak",
+      "nestingFailed": "Nesten mislukt",
+      "nestingPrintJob": "Toevoegen aan voorlopige taak",
+      "nestPrintJob": "Printtaak nesten",
+      "partQueued": "Onderdeel in wachtrij",
+      "partTooLarge": "Onderdeel te groot"
+    },
+    "orientatePart": {
+      "orientatePart": "Onderdeel oriënteren",
+      "orientatingPart": "Onderdeel wordt georiënteerd",
+      "orientationFailed": "Oriëntatie mislukt",
+      "partOrientated": "Onderdeel georiënteerd"
+    },
+    "partIdentification": {
+      "confirmPartType": "Onderdeeltype bevestigen",
+      "identifyingPartType": "Onderdeeltype identificeren",
+      "partIdentification": "Onderdeelidentificatie",
+      "partTypeConfirmed": "Onderdeeltype bevestigd"
+    },
+    "print": {
+      "print": "Printen",
+      "printed": "Geprint",
+      "printFailed": "Printen mislukt",
+      "printing": "Bezig met printen"
+    },
+    "rejected": "Afgewezen",
+    "sendToPrinter": {
+      "printJobDownloaded": "Printtaak gedownload",
+      "sendingFailed": "Verzenden mislukt",
+      "sendingToPrinter": "Wordt naar printer verzonden",
+      "sendToPrinter": "Naar printer verzenden",
+      "sentToPrinter": "Verzonden naar printer",
+      "slicingFailed": "Slicen mislukt",
+      "slicingPrintJob": "Printtaak wordt gesliced"
+    }
+  },
+  "statusTooltips": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "Het onderdeel wacht op acceptatie door de gebruiker.",
+      "partAccepted": "Het onderdeel is geaccepteerd voor printen."
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Keur voorlopige taken goed voor verzending naar printers.",
+      "printJobApproved": "De taak is geaccepteerd voor printen.",
+      "printJobPendingApproval": "De voorlopige taak wacht op acceptatie door de gebruiker."
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "Het onderdeel is toegevoegd aan een printtaak.",
+      "generatingSupports": "Er worden ondersteuningen toegevoegd aan de voorlopige taak voordat deze wordt afgerond zodat de gebruiker deze kan goedkeuren voor printen.",
+      "nestedInProvisionalJob": "Het onderdeel is genest in een voorlopige taak. Deze wordt afgerond wanneer:<ul><li>Er meer onderdelen worden toegevoegd om de taak te vullen</li><li>Er binnenkort een geschikte printer beschikbaar is om het te printen</li></ul>",
+      "nestingFailed": "Het nesten van onderdelen is mislukt.\nDit kan worden veroorzaakt door problemen met het onderdeelbestand.",
+      "nestingPrintJob": "Het onderdeel wordt genest in een voorlopige taak.",
+      "nestPrintJob": "Het onderdeel wordt genest zodra een geschikte printer beschikbaar komt, op basis van “first in first out”.",
+      "partQueued": "Het onderdeel wordt genest zodra een geschikte printer beschikbaar komt, op basis van “first in first out”.",
+      "partTooLarge": "Het onderdeel is te groot voor de printers die in de printtemplate zijn opgegeven.\n\nControleer de grootte van het onderdeel of overweeg een grotere printer aan de template toe te voegen."
+    },
+    "orientatePart": {
+      "orientatePart": "Oriënteer het onderdeel op basis van het type.",
+      "orientatingPart": "Het onderdeel wordt momenteel georiënteerd op basis van het type.",
+      "orientationFailed": "Het onderdeel kon niet succesvol worden georiënteerd voor printen.\nDit kan worden veroorzaakt door problemen met het onderdeelbestand.",
+      "partOrientated": "Het onderdeel is succesvol georiënteerd voor printen."
+    },
+    "partIdentification": {
+      "confirmPartType": "Wachten op bevestiging van het onderdeeltype.\nDit bepaalt hoe een onderdeel wordt georiënteerd en welke templates worden voorgesteld.",
+      "identifyingPartType": "De geometrie van het onderdeel wordt geanalyseerd om het onderdeeltype te identificeren.",
+      "partIdentification": "Analyseer de geometrie van het onderdeel om het onderdeeltype te identificeren.",
+      "partTypeConfirmed": "Het onderdeeltype is bevestigd door de gebruiker."
+    },
+    "print": {
+      "print": "De taak begint met printen op een apparaat.",
+      "printed": "De printtaak is succesvol voltooid.",
+      "printFailed": "De printtaak is mislukt.\nRaadpleeg het printerscherm voor meer informatie.",
+      "printing": "De printtaak wordt momenteel geprint."
+    },
+    "rejected": "Het onderdeel is afgewezen door een gebruiker.",
+    "sendToPrinter": {
+      "printJobDownloaded": "De printtaak is gedownload voor handmatige bewerking in Composer.",
+      "sendingFailed": "De printtaak is mislukt bij het verzenden naar de printer.\nDit kan worden veroorzaakt door connectiviteitsproblemen met de printer.",
+      "sendingToPrinter": "De taak wordt naar de printer verzonden.",
+      "sendToPrinter": "Bereidt de taak voor en verzendt deze naar een printer.",
+      "sentToPrinter": "Printtaak verzonden.",
+      "slicingFailed": "De printtaak is mislukt tijdens het voorbereiden van de printlagen.\nDit kan worden veroorzaakt door problemen met de onderdeelbestanden.",
+      "slicingPrintJob": "De printlagen worden voorbereid."
+    }
+  },
+  "title": {
+    "parts": "Onderdelen"
+  },
+  "tooltips": {
+    "allParts": "Alle onderdelen die zijn geaccepteerd, worden hier weergegeven, samen met hun status.",
+    "partsQueue": "Onderdelen die in de wachtrij staan om te printen, worden hier weergegeven, gegroepeerd per template."
+  }
+}

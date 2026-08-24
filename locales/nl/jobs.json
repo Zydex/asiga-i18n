@@ -1,0 +1,158 @@
+{
+  "button": {
+    "download": "Downloaden",
+    "exportReportPdf": "PDF exporteren",
+    "moveOffline": "Offline herwerken",
+    "promoteJob": "Taak promoveren",
+    "reprint": "Opnieuw afdrukken",
+    "reprintParts": "Onderdelen opnieuw afdrukken",
+    "requeueParts": "Onderdelen opnieuw in wachtrij plaatsen",
+    "resendJob": "Taak opnieuw verzenden",
+    "reshuffle": "Herschikken"
+  },
+  "details": {
+    "basePlate": "Bodemplaat-instellingen",
+    "currentJob": "Huidige taak",
+    "currentParts": "Huidige onderdelen",
+    "jobInformation": "Taakinformatie",
+    "parts": "Onderdelen"
+  },
+  "label": {
+    "accepted": "Geaccepteerd",
+    "buildAreaUsage": "Gebruik bouwgebied",
+    "estimatedMaterial": "Geschat materiaal",
+    "estimatedPrintTime": "Geschatte printtijd",
+    "external": "Extern",
+    "jobContainsPriorityParts": "Taak bevat geprioriteerde onderdelen",
+    "jobsTab": "Taaktabbladen",
+    "layerThickness": "Laagdikte",
+    "material": "Materiaal",
+    "partName": "Onderdeelnaam",
+    "partType": "Onderdeeltype",
+    "provisional": "Voorlopig",
+    "rejected": "Afgewezen",
+    "reprintParts": "Onderdelen van deze taak opnieuw afdrukken?",
+    "reprintPartsNoneAvailable": "Alle onderdelen worden momenteel opnieuw afgedrukt",
+    "requeuedPartsSuccess": "Onderdelen succesvol opnieuw in wachtrij geplaatst",
+    "requeuedPartsSuccess_one": "Onderdeel succesvol opnieuw in wachtrij geplaatst",
+    "requeuedPartsSuccess_other": "Onderdelen succesvol opnieuw in wachtrij geplaatst",
+    "requeuingParts": "Onderdelen worden opnieuw in wachtrij geplaatst",
+    "search": "Zoeken naar taken",
+    "source": "Bron",
+    "targetDevice": "Doelapparaat",
+    "template": "Sjabloon",
+    "toReview": "Te beoordelen",
+    "trayType": "Traytype"
+  },
+  "message": {
+    "deviceOffline": "Deze taak wordt pas verzonden zodra de printer weer online is.\n\nControleer of {{device}} online is en een actieve internetverbinding heeft.",
+    "deviceOffline_one": "Deze taak wordt pas verzonden zodra de printer weer online is.\n\nControleer of {{device}} online is en een actieve internetverbinding heeft.",
+    "deviceOffline_other": "Deze taken worden pas verzonden zodra elke printer weer online is.\n\nControleer of de printers online zijn en een actieve internetverbinding hebben.",
+    "downloadInfo": "Als alternatief kan de printtaak worden gedownload om te bewerken in Composer.",
+    "moveOffline": "Hierdoor wordt de taak afgewezen en gedownload om te bewerken in composer.",
+    "moveOffline_one": "Hierdoor wordt de geselecteerde taak afgewezen en gedownload om te bewerken in composer.",
+    "moveOffline_other": "Hierdoor worden de geselecteerde taken afgewezen en gedownload om te bewerken in composer.",
+    "noJobsToReview": "Voorlopige taken die zijn gepromoveerd, verschijnen hier. Upload onderdelen in de inbox om te beginnen.",
+    "noParts": "Deze taak heeft geen onderdelen.",
+    "noPartsToReprint": "Onderdelen in deze taak zijn al opnieuw in de wachtrij geplaatst voor herdruk.",
+    "rejectInfo": "Als u op 'Herschikken' drukt, worden de positie en rotatie van onderdelen gewijzigd als onderdeel van een nieuwe printtaak. Tijdens het herschikken kunnen sommige onderdelen worden verwijderd of toegevoegd.",
+    "reprintParts": "Geselecteerde onderdelen krijgen prioriteit voor herdruk als onderdeel van de volgende geschikte printtaak.",
+    "reprintPartsKey": "Onderdelen in grijs zijn al opnieuw afgedrukt.",
+    "requeueParts": "Hierdoor wordt de taak gemarkeerd als afgewezen en worden alle onderdelen in de taak teruggezet in de wachtrij.",
+    "reworkOffline_one": "Printtaak <bold>#{{id}}</bold> gemarkeerd als <bold>Offline herwerkt</bold>",
+    "reworkOffline_other": "{{count}} printtaken gemarkeerd als <bold>Offline herwerkt</bold>",
+    "submittingJob": "Bezig met indienen van #{{id}}",
+    "submittingJob_device": "Bezig met indienen van <bold>#{{id}}</bold> bij <bold>{{device}}</bold>"
+  },
+  "status": {
+    "awaitingApproval": {
+      "name": "Wachten op goedkeuring",
+      "tooltip": "De taak is afgerond voorbereid en klaar om te worden beoordeeld."
+    },
+    "cancelled": {
+      "name": "Geannuleerd",
+      "tooltip": "De printtaak is geannuleerd voordat deze was voltooid of is verwijderd uit de bouwwachtrij."
+    },
+    "failed": {
+      "name": "Mislukt",
+      "tooltip": "De printtaak is mislukt.\n\nRaadpleeg het printerscherm voor meer informatie."
+    },
+    "generating": {
+      "name": "Printtaak wordt afgerond",
+      "tooltip": "De indeling van de voorlopige taak is afgerond en de printlagen worden voorbereid."
+    },
+    "nestingFailed": {
+      "name": "Nesten mislukt",
+      "tooltip": "Het nesten van onderdelen is mislukt. Dit kan worden veroorzaakt door problemen met een of meer onderdeelbestanden."
+    },
+    "offline": {
+      "name": "Offline herwerkt",
+      "tooltip": "De taak is gedownload om te bewerken en te verzenden in Composer."
+    },
+    "paused": {
+      "name": "Gepauzeerd",
+      "tooltip": "De printtaak is gepauzeerd op de printer."
+    },
+    "printed": {
+      "name": "Afgedrukt",
+      "tooltip": "De taak is succesvol voltooid."
+    },
+    "printing": {
+      "name": "Bezig met printen",
+      "tooltip": "De taak wordt momenteel afgedrukt."
+    },
+    "printPending": {
+      "name": "Printen in afwachting",
+      "tooltip": "De taak staat op de printer en is klaar om af te drukken."
+    },
+    "provisional": {
+      "name": "Voorlopig",
+      "tooltip": "De taak bevindt zich in een voorlopige status en wordt afgerond wanneer:\n<ul><li>er meer onderdelen worden toegevoegd om de taak te vullen</li><li>er binnenkort een geschikte printer beschikbaar is om deze af te drukken</li></ul>De taak kan ook handmatig worden gepromoveerd naar een afgeronde status."
+    },
+    "rejected": {
+      "name": "Afgewezen",
+      "tooltip": "De taak is afgewezen en de onderdelen zijn opnieuw in de wachtrij geplaatst."
+    },
+    "sendingFailed": {
+      "name": "Verzenden mislukt",
+      "tooltip": "De printtaak is mislukt bij het verzenden naar de printer.\n\nDit kan worden veroorzaakt doordat de printer offline is gegaan of doordat de bouwwachtrij vol is met onvoldoende geheugen over."
+    },
+    "sendingToPrinter": {
+      "name": "Verzenden naar printer",
+      "tooltip": "De printlagen worden naar de printer verzonden."
+    },
+    "slicing": {
+      "name": "Printtaak wordt gesliced",
+      "tooltip": "De printlagen worden voorbereid."
+    },
+    "slicingFailed": {
+      "name": "Slicen mislukt",
+      "tooltip": "De printtaak is mislukt tijdens het voorbereiden van de printlagen.\n\nDit kan worden veroorzaakt door problemen met de onderdeelbestanden."
+    }
+  },
+  "title": {
+    "device": "Apparaat",
+    "deviceOffline": "{{device}} is offline",
+    "deviceOffline_one": "{{device}} is offline",
+    "deviceOffline_other": "Meerdere printers zijn offline",
+    "jobNumber": "Taaknummer",
+    "material": "Materiaal",
+    "moveOffline": "Taak offline herwerken?",
+    "moveOffline_one": "Taak offline herwerken?",
+    "moveOffline_other": "Taken offline herwerken?",
+    "noJobsAccepted": "Geen taken geaccepteerd",
+    "noJobsRejected": "Geen taken afgewezen",
+    "noJobsToReview": "Geen taken te beoordelen",
+    "printJobs": "Printtaken",
+    "rejectJob": "Afgewezen taak herschikken?",
+    "requeueParts": "Onderdelen opnieuw in wachtrij plaatsen?",
+    "status": "Status"
+  },
+  "tooltips": {
+    "accepted": "Alle taken die zijn geaccepteerd, worden hier weergegeven, samen met hun status.",
+    "provisional": "Dit toont de verwachte aankomende taken op basis van printerbeschikbaarheid, sjablooncompatibiliteit en niet-afgedrukte onderdelen in de Funnel.\n\nDoor deze te promoveren, wordt een afgeronde printtaak gemaakt die de geïdentificeerde onderdelen, indeling en doelprinter bevat. Wanneer supports zijn gegenereerd voor afgeronde taken, verschijnen deze op het tabblad 'Te beoordelen'.",
+    "rejected": "Alle taken die zijn afgewezen, worden hier weergegeven.",
+    "resendJob": "Verzend een taak opnieuw naar een printer. Dit kan handig zijn als de taak is geannuleerd of als het apparaat een fout heeft ondervonden.",
+    "toReview": "Printtaken die klaar zijn om te beoordelen, worden hier weergegeven. Accepteer ze om ze naar de printer te verzenden."
+  }
+}

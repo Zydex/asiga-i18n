@@ -1,0 +1,131 @@
+{
+  "emptyPartsMessages": {
+    "allParts": {
+      "message": "Jakmile jsou díly v příchozí schránce přijaty k tisku, zobrazí se zde, aby mohly být zváženy k tisku",
+      "title": "Žádné díly připravené k tisku"
+    },
+    "printReady": {
+      "message": "Díly, které jsou připravené k přidání do tiskové úlohy, se zobrazí zde",
+      "title": "Žádné díly ve frontě"
+    },
+    "sent": {
+      "message": "Díly se zde zobrazí, jakmile budou sestaveny do tiskové úlohy a odeslány do tiskárny",
+      "title": "Žádné odeslané díly"
+    }
+  },
+  "group": {
+    "tooLarge": "Skupina je příliš velká",
+    "tooLargeTooltip": "Skupina je příliš velká na to, aby se vešla na jakoukoli tiskovou platformu specifikovanou touto šablonou.\n\nZrušte seskupení dílů nebo aktualizujte šablonu tak, aby používala větší tiskárnu."
+  },
+  "label": {
+    "allParts": "Všechny díly",
+    "partsQueue": "Díly ve frontě",
+    "printReady": "Připraveno k tisku",
+    "sent": "Odesláno"
+  },
+  "status": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "Přijmout díl k tisku",
+      "partAccepted": "Díl přijat"
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Schválit tiskovou úlohu",
+      "printJobApproved": "Tisková úloha schválena",
+      "printJobPendingApproval": "Tisková úloha čeká na schválení"
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "Přidáno do tiskové úlohy",
+      "generatingSupports": "Generování podpor",
+      "nestedInProvisionalJob": "Vnořeno do předběžné úlohy",
+      "nestingFailed": "Vnořování se nezdařilo",
+      "nestingPrintJob": "Přidávání do předběžné úlohy",
+      "nestPrintJob": "Vnořit tiskovou úlohu",
+      "partQueued": "Díl zařazen do fronty",
+      "partTooLarge": "Díl je příliš velký"
+    },
+    "orientatePart": {
+      "orientatePart": "Orientovat díl",
+      "orientatingPart": "Orientace dílu",
+      "orientationFailed": "Orientace se nezdařila",
+      "partOrientated": "Díl orientován"
+    },
+    "partIdentification": {
+      "confirmPartType": "Potvrdit typ dílu",
+      "identifyingPartType": "Identifikace typu dílu",
+      "partIdentification": "Identifikace dílu",
+      "partTypeConfirmed": "Typ dílu potvrzen"
+    },
+    "print": {
+      "print": "Tisk",
+      "printed": "Vytištěno",
+      "printFailed": "Tisk se nezdařil",
+      "printing": "Probíhá tisk"
+    },
+    "rejected": "Zamítnuto",
+    "sendToPrinter": {
+      "printJobDownloaded": "Tisková úloha stažena",
+      "sendingFailed": "Odeslání se nezdařilo",
+      "sendingToPrinter": "Odesílání do tiskárny",
+      "sendToPrinter": "Odeslat do tiskárny",
+      "sentToPrinter": "Odesláno do tiskárny",
+      "slicingFailed": "Slicování se nezdařilo",
+      "slicingPrintJob": "Slicování tiskové úlohy"
+    }
+  },
+  "statusTooltips": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "Díl čeká na přijetí uživatelem.",
+      "partAccepted": "Díl byl přijat k tisku."
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Schválit předběžné úlohy k odeslání do tiskáren.",
+      "printJobApproved": "Úloha byla přijata k tisku.",
+      "printJobPendingApproval": "Předběžná úloha čeká na přijetí uživatelem."
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "Díl byl přidán do tiskové úlohy.",
+      "generatingSupports": "Do předběžné úlohy se přidávají podpory, než bude dokončena a připravena ke schválení uživatelem k tisku.",
+      "nestedInProvisionalJob": "Díl byl vnořen do předběžné úlohy. Bude dokončena, jakmile:<ul><li>Do úlohy budou přidány další díly k jejímu naplnění</li><li>Bude brzy k dispozici vhodná tiskárna pro její tisk</li></ul>",
+      "nestingFailed": "Vnořování dílů se nezdařilo.\nMohlo to být způsobeno problémy se souborem dílu.",
+      "nestingPrintJob": "Díl je vnořován do předběžné úlohy.",
+      "nestPrintJob": "Díl bude vnořen, jakmile bude k dispozici vhodná tiskárna, a to na základě zásady „kdo dřív přijde, ten dřív mele“.",
+      "partQueued": "Díl bude vnořen, jakmile bude k dispozici vhodná tiskárna, a to na základě zásady „kdo dřív přijde, ten dřív mele“.",
+      "partTooLarge": "Díl je příliš velký pro tiskárny specifikované v tiskové šabloně.\n\nZkontrolujte velikost dílu nebo zvažte přidání větší tiskárny do šablony."
+    },
+    "orientatePart": {
+      "orientatePart": "Orientovat díl podle jeho typu.",
+      "orientatingPart": "Díl je právě orientován podle svého typu.",
+      "orientationFailed": "Díl se nepodařilo úspěšně orientovat k tisku.\nMohlo to být způsobeno problémy se souborem dílu.",
+      "partOrientated": "Díl byl úspěšně orientován k tisku."
+    },
+    "partIdentification": {
+      "confirmPartType": "Čeká se na potvrzení typu dílu.\nTo určuje, jak je díl orientován, a šablony, které jsou navrhovány.",
+      "identifyingPartType": "Analýza geometrie dílu za účelem identifikace typu dílu.",
+      "partIdentification": "Analyzovat geometrii dílu za účelem identifikace typu dílu.",
+      "partTypeConfirmed": "Typ dílu byl potvrzen uživatelem."
+    },
+    "print": {
+      "print": "Úloha se začne tisknout na zařízení.",
+      "printed": "Tisková úloha byla úspěšně dokončena.",
+      "printFailed": "Tisková úloha se nezdařila.\nDalší informace naleznete na displeji tiskárny.",
+      "printing": "Tisková úloha se právě tiskne."
+    },
+    "rejected": "Díl byl zamítnut uživatelem.",
+    "sendToPrinter": {
+      "printJobDownloaded": "Tisková úloha byla stažena pro ruční úpravu v aplikaci Composer.",
+      "sendingFailed": "Tisková úloha se při odesílání do tiskárny nezdařila.\nMohlo to být způsobeno problémy s připojením tiskárny.",
+      "sendingToPrinter": "Odesílání úlohy do tiskárny.",
+      "sendToPrinter": "Připraví a odešle úlohu do tiskárny.",
+      "sentToPrinter": "Tisková úloha odeslána.",
+      "slicingFailed": "Tisková úloha se nezdařila při přípravě tiskových vrstev.\nMohlo to být způsobeno problémy se soubory dílů.",
+      "slicingPrintJob": "Tiskové vrstvy se připravují."
+    }
+  },
+  "title": {
+    "parts": "Díly"
+  },
+  "tooltips": {
+    "allParts": "Zde jsou zobrazeny všechny díly, které byly přijaty k tisku, spolu s jejich stavem.",
+    "partsQueue": "Díly zařazené do fronty k tisku jsou zobrazeny zde, seskupené podle šablony."
+  }
+}

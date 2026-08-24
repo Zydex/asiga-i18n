@@ -1,0 +1,59 @@
+{
+  "gettingStarted": {
+    "dismissDialog": {
+      "description": "Vyberte, zda chcete průvodce prvními kroky trvale zavřít, nebo jej skrýt do příštího přihlášení.",
+      "dismissPermanently": "Trvale zavřít",
+      "hide": "Skrýt",
+      "title": "Zavřít „Začínáme“"
+    },
+    "help": "Potřebujete další pomoc? Podívejte se na naši podrobnou <guide>uživatelskou příručku</guide>",
+    "label": {
+      "collapse": "Sbalit",
+      "dismiss": "Zavřít",
+      "expand": "Rozbalit"
+    },
+    "step": {
+      "acceptJobs": {
+        "description": "Na stránce <bold>Zakázky</bold> vyberte zakázky a klikněte na „Přijmout“",
+        "title": "Přijmout zakázky"
+      },
+      "createTemplate": {
+        "description": "Na stránce <bold>Spravovat</bold> / <bold>Šablony</bold> klikněte na „Vytvořit“",
+        "title": "Vytvořit šablonu"
+      },
+      "enrolPrinter": {
+        "description": "Na stránce <bold>Zařízení</bold> klikněte na „Přidat zařízení“",
+        "title": "Zaregistrovat tiskárnu"
+      },
+      "inviteColleagues": {
+        "description": "Na stránce <bold>Spravovat</bold> / <bold>Uživatelé</bold> klikněte na „Přidat uživatele“",
+        "title": "Pozvat kolegy (volitelné)"
+      },
+      "uploadAcceptParts": {
+        "description": "Na stránce <bold>Doručená pošta</bold> přetáhněte soubory STL, vyberte nahrané díly a klikněte na „Přijmout“",
+        "title": "Nahrát a přijmout díly"
+      }
+    },
+    "subtitle": "Dokončete kroky pro odesílání tiskových zakázek do vašich zařízení",
+    "title": "Začínáme"
+  },
+  "label": {
+    "country": "Země",
+    "industry": "Typ odvětví",
+    "organisationName": "Název organizace",
+    "phoneNumber": "Telefonní číslo",
+    "subtitle": "Vaše brána k jednoduchému, automatizovanému nastavení 3D tisku a řízení výroby",
+    "title": "Vytvořte si účet Asiga Funnel",
+    "website": "Webové stránky"
+  },
+  "message": {
+    "completePersonalDetails": "Doplňte své osobní údaje",
+    "emailResendSuccess": "E-mail byl odeslán. Zkontrolujte prosím svou schránku.",
+    "emailVerified": "<bold>E-mail byl úspěšně ověřen</bold>\nBudete brzy přesměrováni...",
+    "regionError": "Asiga Funnel je v současné době podporován pouze v Austrálii.",
+    "resendEmail": "Znovu odeslat ověřovací e-mail",
+    "resendEmailError": "Nepodařilo se znovu odeslat ověřovací e-mail. Zkuste to prosím později.",
+    "sendingEmail": "Odesílání ověřovacího e-mailu...",
+    "verifyEmail": "Pro přístup k Asiga Funnel prosím ověřte svou e-mailovou adresu."
+  }
+}

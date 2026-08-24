@@ -1,0 +1,158 @@
+{
+  "button": {
+    "download": "Descargar",
+    "exportReportPdf": "Exportar PDF",
+    "moveOffline": "Reprocesar sin conexión",
+    "promoteJob": "Promover trabajo",
+    "reprint": "Reimprimir",
+    "reprintParts": "Reimprimir piezas",
+    "requeueParts": "Volver a poner piezas en cola",
+    "resendJob": "Reenviar trabajo",
+    "reshuffle": "Reorganizar"
+  },
+  "details": {
+    "basePlate": "Ajustes de la placa base",
+    "currentJob": "Trabajo actual",
+    "currentParts": "Piezas actuales",
+    "jobInformation": "Información del trabajo",
+    "parts": "Piezas"
+  },
+  "label": {
+    "accepted": "Aceptado",
+    "buildAreaUsage": "Uso del área de impresión",
+    "estimatedMaterial": "Material estimado",
+    "estimatedPrintTime": "Tiempo de impresión estimado",
+    "external": "Externo",
+    "jobContainsPriorityParts": "El trabajo contiene piezas priorizadas",
+    "jobsTab": "Pestañas de trabajos",
+    "layerThickness": "Grosor de capa",
+    "material": "Material",
+    "partName": "Nombre de la pieza",
+    "partType": "Tipo de pieza",
+    "provisional": "Provisional",
+    "rejected": "Rechazado",
+    "reprintParts": "¿Reimprimir piezas de este trabajo?",
+    "reprintPartsNoneAvailable": "Todas las piezas se están reimprimiendo",
+    "requeuedPartsSuccess": "Piezas vueltas a poner en cola correctamente",
+    "requeuedPartsSuccess_one": "Pieza vuelta a poner en cola correctamente",
+    "requeuedPartsSuccess_other": "Piezas vueltas a poner en cola correctamente",
+    "requeuingParts": "Volviendo a poner piezas en cola",
+    "search": "Buscar trabajos",
+    "source": "Origen",
+    "targetDevice": "Dispositivo de destino",
+    "template": "Plantilla",
+    "toReview": "Para revisar",
+    "trayType": "Tipo de bandeja"
+  },
+  "message": {
+    "deviceOffline": "Este trabajo no se enviará hasta que la impresora vuelva a estar en línea.\n\nCompruebe que {{device}} esté en línea y tenga una conexión a internet activa.",
+    "deviceOffline_one": "Este trabajo no se enviará hasta que la impresora vuelva a estar en línea.\n\nCompruebe que {{device}} esté en línea y tenga una conexión a internet activa.",
+    "deviceOffline_other": "Estos trabajos no se enviarán hasta que cada impresora vuelva a estar en línea.\n\nCompruebe que las impresoras estén en línea y tengan una conexión a internet activa.",
+    "downloadInfo": "Alternativamente, el trabajo de impresión se puede descargar para editarlo en Composer.",
+    "moveOffline": "Esto rechazará el trabajo y lo descargará para editarlo en Composer.",
+    "moveOffline_one": "Esto rechazará el trabajo seleccionado y lo descargará para editarlo en Composer.",
+    "moveOffline_other": "Esto rechazará los trabajos seleccionados y los descargará para editarlos en Composer.",
+    "noJobsToReview": "Los trabajos provisionales que hayan sido promovidos aparecerán aquí. Suba piezas a la bandeja de entrada para comenzar.",
+    "noParts": "Este trabajo no tiene piezas.",
+    "noPartsToReprint": "Las piezas de este trabajo ya han sido vueltas a poner en cola para su reimpresión.",
+    "rejectInfo": "Al pulsar «Reorganizar», la posición y la rotación de las piezas se modificarán como parte de un nuevo trabajo de impresión. Es posible que se eliminen o añadan algunas piezas durante la reorganización.",
+    "reprintParts": "Las piezas seleccionadas se priorizarán para su reimpresión como parte del siguiente trabajo de impresión adecuado.",
+    "reprintPartsKey": "Las piezas en gris ya han sido reimpresas.",
+    "requeueParts": "Esto marcará el trabajo como rechazado y devolverá todas las piezas del trabajo a la cola.",
+    "reworkOffline_one": "Trabajo de impresión <bold>n.º {{id}}</bold> marcado como <bold>Reprocesado sin conexión</bold>",
+    "reworkOffline_other": "{{count}} trabajos de impresión marcados como <bold>Reprocesados sin conexión</bold>",
+    "submittingJob": "Presentando #{{id}}",
+    "submittingJob_device": "Presentando  <bold>#{{id}}</bold> a <bold>{{device}}</bold>"
+  },
+  "status": {
+    "awaitingApproval": {
+      "name": "Esperando aprobación",
+      "tooltip": "El trabajo finalizado está listo para revisar."
+    },
+    "cancelled": {
+      "name": "Cancelado",
+      "tooltip": "El trabajo de impresión se ha cancelado antes de finalizar o se ha eliminado de la cola de impresión."
+    },
+    "failed": {
+      "name": "Fallido",
+      "tooltip": "El trabajo de impresión ha fallado.\n\nConsulte la pantalla de la impresora para obtener más información."
+    },
+    "generating": {
+      "name": "Finalizando trabajo de impresión",
+      "tooltip": "El diseño del trabajo provisional se ha finalizado y se están preparando las capas de impresión."
+    },
+    "nestingFailed": {
+      "name": "Error de anidado",
+      "tooltip": "El anidado de piezas ha fallado. Esto podría deberse a problemas con uno o más de los archivos de las piezas."
+    },
+    "offline": {
+      "name": "Reprocesado sin conexión",
+      "tooltip": "El trabajo se descargó para editarlo y enviarlo en Composer."
+    },
+    "paused": {
+      "name": "Pausado",
+      "tooltip": "El trabajo de impresión se ha pausado en la impresora."
+    },
+    "printed": {
+      "name": "Impreso",
+      "tooltip": "El trabajo se ha completado correctamente."
+    },
+    "printing": {
+      "name": "Imprimiendo",
+      "tooltip": "El trabajo se está imprimiendo actualmente."
+    },
+    "printPending": {
+      "name": "Impresión pendiente",
+      "tooltip": "El trabajo está en la impresora y listo para imprimir."
+    },
+    "provisional": {
+      "name": "Provisional",
+      "tooltip": "El trabajo está en estado provisional y se finalizará cuando:\n<ul><li>se añadan más piezas para completar el trabajo</li><li>una impresora adecuada esté a punto de estar disponible para imprimirlo</li></ul>El trabajo también se puede promover manualmente a un estado finalizado."
+    },
+    "rejected": {
+      "name": "Rechazado",
+      "tooltip": "El trabajo fue rechazado y las piezas se han vuelto a poner en cola."
+    },
+    "sendingFailed": {
+      "name": "Error de envío",
+      "tooltip": "El trabajo de impresión falló al enviarse a la impresora.\n\nEsto podría deberse a que la impresora se desconectó o a que la cola de impresión estaba llena con memoria insuficiente."
+    },
+    "sendingToPrinter": {
+      "name": "Enviando a la impresora",
+      "tooltip": "Las capas de impresión se están enviando a la impresora."
+    },
+    "slicing": {
+      "name": "Seccionando trabajo de impresión",
+      "tooltip": "Las capas de impresión se están preparando."
+    },
+    "slicingFailed": {
+      "name": "Error de seccionado",
+      "tooltip": "El trabajo de impresión ha fallado mientras se preparaban las capas de impresión.\n\nEsto podría deberse a problemas con los archivos de las piezas."
+    }
+  },
+  "title": {
+    "device": "Dispositivo",
+    "deviceOffline": "{{device}} está sin conexión",
+    "deviceOffline_one": "{{device}} está sin conexión",
+    "deviceOffline_other": "Varias impresoras están sin conexión",
+    "jobNumber": "Número de trabajo",
+    "material": "Material",
+    "moveOffline": "¿Reprocesar trabajo sin conexión?",
+    "moveOffline_one": "¿Reprocesar trabajo sin conexión?",
+    "moveOffline_other": "¿Reprocesar trabajos sin conexión?",
+    "noJobsAccepted": "No hay trabajos aceptados",
+    "noJobsRejected": "No hay trabajos rechazados",
+    "noJobsToReview": "No hay trabajos para revisar",
+    "printJobs": "Trabajos de impresión",
+    "rejectJob": "¿Reorganizar trabajo rechazado?",
+    "requeueParts": "¿Volver a poner piezas en cola?",
+    "status": "Estado"
+  },
+  "tooltips": {
+    "accepted": "Aquí se muestran todos los trabajos que han sido aceptados, junto con su estado.",
+    "provisional": "Esto muestra los próximos trabajos previstos según la disponibilidad de la impresora, la compatibilidad de plantillas y las piezas sin imprimir en el embudo.\n\nAl promoverlos se creará un trabajo de impresión finalizado que incluirá las piezas identificadas, el diseño y la impresora de destino. Cuando se hayan generado los soportes para los trabajos finalizados, aparecerán en la pestaña «Para revisar».",
+    "rejected": "Aquí se muestran todos los trabajos que han sido rechazados.",
+    "resendJob": "Reenviar un trabajo a una impresora. Esto puede ser útil si el trabajo se canceló o si el dispositivo encontró un error.",
+    "toReview": "Aquí se muestran los trabajos de impresión listos para revisar. Acéptelos para enviarlos a la impresora."
+  }
+}

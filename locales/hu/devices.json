@@ -1,0 +1,79 @@
+{
+  "alt": {
+    "devices": "Eszközök",
+    "devicesNeedingAttention": "Figyelmet igénylő eszközök",
+    "noDevices": "Nincsenek eszközök"
+  },
+  "button": {
+    "add": "Eszköz hozzáadása",
+    "exclude": "Zárja ki",
+    "excludeDevice": "Zárja ki az automatikus nyomtatási feladatokból",
+    "includeDevice": "Vonja be az automatikus nyomtatási feladatokba"
+  },
+  "details": {
+    "aboutPrinter": "A nyomtatóról",
+    "currentBuild": "Jelenlegi build",
+    "printStatus": "Nyomtatás állapota",
+    "queuedBuild": "Sorban álló buildek"
+  },
+  "label": {
+    "devices": "Eszközök",
+    "devicesTab": "Eszközök fül",
+    "excludedDevice": "Az eszköz ki lett zárva a Funnelből érkező nyomtatási feladatok fogadásából",
+    "requiresAttention": "Figyelmet igényel",
+    "search": "Eszköz keresése",
+    "status": {
+      "availableInFunnel": "Funnel feladatok elfogadása",
+      "currentBuildName": "Jelenlegi build neve",
+      "currentLayer": "Jelenlegi réteg",
+      "currentLayerHeight": "Jelenlegi rétegmagasság",
+      "elapsed": "Eltelt idő",
+      "firmwareVersion": "Firmware verzió",
+      "layers": "Rétegek",
+      "manufacturer": "Gyártó",
+      "model": "Modell",
+      "paused": "Szüneteltetve",
+      "remaining": "Hátralévő idő",
+      "serialNumber": "Sorozatszám",
+      "status": "Állapot"
+    }
+  },
+  "message": {
+    "addDevices": "Használja az „Eszközök hozzáadása” gombot az oldal jobb felső sarkában, vagy az alábbi gombot, hogy eszközöket adjon a szervezetéhez",
+    "allGood": "Minden rendben!",
+    "devicesPageInfo": "A szervezet összes eszközének állapota ezen az oldalon látható",
+    "excludeDevice": "{{device}} kizárva a funnel nyomtatási feladatainak fogadásából",
+    "includeDevice": "{{device}} bevonva a funnel nyomtatási feladataiba",
+    "noCurrentBuild": "Jelenleg nincs build nyomtatás alatt.",
+    "noDevices": "Nincsenek eszközök",
+    "noDevicesNeedAttention": "Jelenleg egyetlen eszköz sem igényel figyelmet",
+    "warnRemoveDevice": "A továbbiakban nem fogja tudni figyelni ezt az eszközt, illetve nyomtatási feladatokat küldeni rá a Funnelből.",
+    "warnRemoveDevice_name": "A továbbiakban nem fogja tudni figyelni a(z) {{device}} eszközt, illetve nyomtatási feladatokat küldeni rá a Funnelből.",
+    "willExcludeDevice": "A kizárás után a rendszer nem hoz létre nyomtatási feladatokat ehhez a géphez"
+  },
+  "state": {
+    "canceled": "Megszakítva",
+    "canceled_error": "Hiba: Megszakítva",
+    "cancelling": "Megszakítás folyamatban",
+    "cancelling_error": "Hiba: Megszakítás folyamatban",
+    "finished": "Nyomtatás kész",
+    "idle": "A nyomtató üresjáratban",
+    "offline": "Offline",
+    "paused": "Szüneteltetve",
+    "paused_error": "Hiba: Szüneteltetve",
+    "pausing": "Szüneteltetés folyamatban",
+    "pausing_error": "Hiba: Szüneteltetés folyamatban",
+    "printing": "{{duration}} van hátra",
+    "staring": "Indítás",
+    "userbusy": "Felhasználó foglalt"
+  },
+  "title": {
+    "devices": "Eszközök",
+    "excludeDevice": "Kizárja a(z) {{device}} eszközt?",
+    "removeDevice": "Eltávolítja az eszközt?"
+  },
+  "tooltips": {
+    "devices": "Ezen a lapon minden, a Funnelhez hozzáadott eszköz látható.",
+    "requiresAttention": "Ez azokat az eszközöket mutatja, amelyeknél hiba lépett fel, vagy megszakadt a kapcsolat."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "button": {
+    "add": "Materialen toevoegen",
+    "keepBoth": "Beide behouden",
+    "replaceMaterial": "Materiaal vervangen",
+    "uploadLocalMaterial": "Lokaal materiaal uploaden"
+  },
+  "label": {
+    "adding": "Een materiaal wordt toegevoegd",
+    "adding_one": "{{count}} materiaal wordt toegevoegd",
+    "adding_other": "{{count}} materialen worden toegevoegd",
+    "addSuccess_one": "{{count}} materiaal toegevoegd",
+    "addSuccess_other": "{{count}} materialen toegevoegd",
+    "deleteSuccess_one": "{{count}} materiaal verwijderd",
+    "deleteSuccess_other": "{{count}} materialen verwijderd",
+    "deleting": "Een materiaal wordt verwijderd",
+    "deleting_one": "{{count}} materiaal wordt verwijderd",
+    "deleting_other": "{{count}} materialen worden verwijderd",
+    "dropFile": "Bestand toevoegen aan <bold>Materialen</bold>",
+    "manufacturer": "Fabrikant",
+    "material": "Materiaal",
+    "name": "Materiaalnaam",
+    "search": "Zoek een materiaal",
+    "templateName": "Sjabloonnaam",
+    "updateMaterial": "Materiaalupdate beschikbaar"
+  },
+  "message": {
+    "addMaterials": "Voeg materialen toe aan uw organisatie door ze hieronder te selecteren in de Open Material Library. Materiaalbestanden kunnen ook worden toegevoegd met de uploadknop.",
+    "deleteMaterialWarning": "Weet u zeker dat u de geselecteerde materialen wilt verwijderen? Alleen de nieuwste versie van elk materiaal zal in de toekomst weer beschikbaar zijn om te downloaden.",
+    "manufacturerHasNoMaterials": "Fabrikant heeft geen materialen",
+    "materialAlreadyAdded_one": "{{name}} is al toegevoegd aan uw organisatie.",
+    "materialAlreadyAdded_other": "De volgende materialen zijn al toegevoegd aan uw organisatie:",
+    "materialNameConflict": "Er bestaat al een materiaalbestand met de naam {{name}} in uw organisatie.\n\nU kunt het bestaande materiaal vervangen of beide behouden.",
+    "materialNameConflictDoForAll_one": "Doe dit voor {{count}} resterend naamconflict",
+    "materialNameConflictDoForAll_other": "Doe dit voor {{count}} resterende naamconflicten",
+    "materialNameConflictWithRevision": "Er bestaat al een materiaalbestand met de naam {{name}}, Revisie {{revision}} in uw organisatie.\n\nWilt u het bestaande materiaal vervangen door Revisie {{requestedRevision}}?",
+    "noMaterials": "Gebruik de knop 'Materialen toevoegen' rechtsboven op deze pagina om materialen aan uw organisatie toe te voegen",
+    "unableToDelete_one": "Het geselecteerde materiaal kan niet worden verwijderd omdat het momenteel wordt gebruikt in sjablonen. Wijs alstublieft andere materialen toe aan de volgende sjablonen om door te gaan met verwijderen:",
+    "unableToDelete_other": "De geselecteerde materialen kunnen niet worden verwijderd omdat ze momenteel worden gebruikt in sjablonen. Wijs alstublieft andere materialen toe aan de volgende sjablonen om door te gaan met verwijderen:",
+    "updateMaterial_one": "<bold>{{name}}</bold> zal worden bijgewerkt naar de nieuwste versie.",
+    "updateMaterial_other": "{{count}} materiaal-INI-bestanden zullen worden bijgewerkt naar de nieuwste versie."
+  },
+  "title": {
+    "addMaterials": "Materialen toevoegen",
+    "deleteMaterial": "Materiaal verwijderen?",
+    "materialAlreadyAdded": "Materiaalbestand al toegevoegd",
+    "materialNameConflict": "Materiaalnamen bestaan al",
+    "materials": "Materialen",
+    "noMaterials": "Geen materialen in bibliotheek",
+    "unableToDelete_one": "Materiaal kan niet worden verwijderd",
+    "unableToDelete_other": "Materialen kunnen niet worden verwijderd",
+    "updateMaterial_one": "Materiaal bijwerken?",
+    "updateMaterial_other": "Materialen bijwerken?"
+  },
+  "tooltips": {
+    "materials": "Toont alle materialen die zijn toegevoegd aan de Funnel.\n\nMaterialen kunnen worden toegevoegd vanuit de Open Material-bibliotheek of handmatig worden geüpload."
+  }
+}

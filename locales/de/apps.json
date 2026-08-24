@@ -1,0 +1,39 @@
+{
+  "alt": {
+    "noApps": "Keine Apps verknüpft"
+  },
+  "button": {
+    "apps": "Apps"
+  },
+  "label": {
+    "search": "Nach Apps suchen"
+  },
+  "message": {
+    "noApps": "Keine Apps verknüpft",
+    "noAppsInfo": "Verknüpfte Apps werden hier aufgelistet. Verwenden Sie die Schaltfläche „Apps“ unten, um verfügbare Apps anzuzeigen, die verknüpft werden können.",
+    "unlink": "Ihre Organisation erhält keine Teile mehr von der App.",
+    "unlink_one": "Ihre Organisation erhält keine Teile mehr von der App.",
+    "unlink_other": "Ihre Organisation erhält keine Teile mehr von den Apps.",
+    "unlink_name_one": "Ihre Organisation erhält keine Teile mehr von {{name}}.",
+    "unlink_nameOrg_one": "{{org}} erhält keine Teile mehr von {{name}}.",
+    "unlink_org_other": "{{org}} erhält keine Teile mehr von den Apps.",
+    "unlinkParts": "Bereits erhaltene Teile verbleiben in Ihrer Organisation.",
+    "unlinkParts_org": "Bereits erhaltene Teile verbleiben in {{org}}."
+  },
+  "title": {
+    "apps": "Apps",
+    "connectedApps": "Verbundene Apps",
+    "lastUsed": "Zuletzt verwendet",
+    "linked": "Verknüpft",
+    "name": "Name",
+    "never": "Nie",
+    "unlink": "App-Verknüpfung aufheben?",
+    "unlink_name": "{{name}}-Verknüpfung aufheben?",
+    "unlink_one": "App-Verknüpfung aufheben?",
+    "unlink_other": "App-Verknüpfungen aufheben?"
+  },
+  "tooltips": {
+    "apps": "Listet alle Apps auf, die der Funnel unterstützt. Verwenden Sie diese, um automatisch Teile von Drittanbieterdiensten zu erhalten.",
+    "connectedApps": "Listet alle Apps auf, die die Berechtigung haben, Teile an den Funnel zu senden."
+  }
+}

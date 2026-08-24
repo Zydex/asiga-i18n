@@ -1,0 +1,58 @@
+{
+  "button": {
+    "add": "Přidat materiály",
+    "keepBoth": "Ponechat obojí",
+    "replaceMaterial": "Nahradit materiál",
+    "uploadLocalMaterial": "Nahrát místní materiál"
+  },
+  "label": {
+    "adding": "Přidávání materiálu",
+    "adding_one": "Přidávání {{count}} materiálu",
+    "adding_other": "Přidávání {{count}} materiálů",
+    "addSuccess_one": "{{count}} materiál přidán",
+    "addSuccess_other": "{{count}} materiálů přidáno",
+    "deleteSuccess_one": "{{count}} materiál odstraněn",
+    "deleteSuccess_other": "{{count}} materiálů odstraněno",
+    "deleting": "Odstraňování materiálu",
+    "deleting_one": "Odstraňování {{count}} materiálu",
+    "deleting_other": "Odstraňování {{count}} materiálů",
+    "dropFile": "Přidat soubor do <bold>Materiálů</bold>",
+    "manufacturer": "Výrobce",
+    "material": "Materiál",
+    "name": "Název materiálu",
+    "search": "Hledat materiál",
+    "templateName": "Název šablony",
+    "updateMaterial": "K dispozici je aktualizace materiálu"
+  },
+  "message": {
+    "addMaterials": "Přidejte materiály do své organizace jejich výběrem z knihovny Open Material Library níže. Soubory materiálů lze také přidat pomocí tlačítka pro nahrání.",
+    "deleteMaterialWarning": "Opravdu chcete odstranit vybrané materiály? V budoucnu bude možné znovu stáhnout pouze nejnovější verzi každého materiálu.",
+    "manufacturerHasNoMaterials": "Výrobce nemá žádné materiály",
+    "materialAlreadyAdded_one": "{{name}} již byl přidán do vaší organizace.",
+    "materialAlreadyAdded_other": "Následující materiály již byly přidány do vaší organizace:",
+    "materialNameConflict": "Soubor materiálu s názvem {{name}} již ve vaší organizaci existuje.\n\nMůžete nahradit stávající materiál, nebo ponechat oba.",
+    "materialNameConflictDoForAll_one": "Provést totéž pro {{count}} zbývající konflikt v názvu",
+    "materialNameConflictDoForAll_other": "Provést totéž pro {{count}} zbývajících konfliktů v názvech",
+    "materialNameConflictWithRevision": "Soubor materiálu s názvem {{name}}, revize {{revision}}, již ve vaší organizaci existuje.\n\nChcete nahradit stávající materiál revizí {{requestedRevision}}?",
+    "noMaterials": "Pomocí tlačítka „Přidat materiály“ v pravém horním rohu této stránky přidejte materiály do své organizace",
+    "unableToDelete_one": "Vybraný materiál nelze odstranit, protože je aktuálně používán v šablonách. Chcete-li pokračovat v odstraňování, přiřaďte následujícím šablonám jiné materiály:",
+    "unableToDelete_other": "Vybrané materiály nelze odstranit, protože jsou aktuálně používány v šablonách. Chcete-li pokračovat v odstraňování, přiřaďte následujícím šablonám jiné materiály:",
+    "updateMaterial_one": "<bold>{{name}}</bold> bude aktualizován na nejnovější verzi.",
+    "updateMaterial_other": "{{count}} souborů INI materiálů bude aktualizováno na nejnovější verzi."
+  },
+  "title": {
+    "addMaterials": "Přidat materiály",
+    "deleteMaterial": "Odstranit materiál?",
+    "materialAlreadyAdded": "Soubor materiálu již byl přidán",
+    "materialNameConflict": "Názvy materiálů již existují",
+    "materials": "Materiály",
+    "noMaterials": "V knihovně nejsou žádné materiály",
+    "unableToDelete_one": "Materiál nelze odstranit",
+    "unableToDelete_other": "Materiály nelze odstranit",
+    "updateMaterial_one": "Aktualizovat materiál?",
+    "updateMaterial_other": "Aktualizovat materiály?"
+  },
+  "tooltips": {
+    "materials": "Zobrazuje seznam všech materiálů, které byly přidány do Funnelu.\n\nMateriály lze přidat z knihovny Open Material nebo je nahrát ručně."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "button": {
+    "manageBilling": "Gestisci fatturazione",
+    "manageSubscription": "Gestisci abbonamento",
+    "subscribeLater": "Abbonati più tardi",
+    "subscriptionOptions": "Opzioni di abbonamento"
+  },
+  "description": {
+    "manageBilling": "Visualizza le fatture, controlla e aggiorna i dati di fatturazione.",
+    "paymentIssue": "Si è verificato un problema con i dati del tuo pagamento.",
+    "subscriptionStatus": "{{subscriptionTier}} che si rinnova il {{subscriptionEnd, datetime}}",
+    "subscriptionStatusEnding": "{{subscriptionTier}} che termina il {{subscriptionEnd, datetime}}",
+    "subscriptionTiers": "Puoi modificare il tuo livello di abbonamento ogni volta che le esigenze della tua organizzazione cambiano.",
+    "subscriptionUnknownActiveStatus": "Il tuo abbonamento è attivo",
+    "trialEnded": "Abbonati per continuare a creare e inviare lavori di stampa.",
+    "trialEnding": "Dovrai abbonarti quando la prova gratuita scade per creare e inviare lavori di stampa."
+  },
+  "title": {
+    "availableWithSubscription": "Disponibile con un abbonamento",
+    "manageBilling": "Gestisci fatturazione",
+    "newSubscription": "Nuovo abbonamento",
+    "organisation": "Organizzazione",
+    "subscription": "Abbonamento",
+    "subscriptionStatus": "Stato dell'abbonamento",
+    "subscriptionTiers": "Livelli di abbonamento",
+    "trialEnded": "La prova è terminata",
+    "trialEnding_zero": "La prova termina oggi",
+    "trialEnding_one": "La prova termina tra {{count}} giorno",
+    "trialEnding_other": "La prova termina tra {{count}} giorni",
+    "trialEndingUnknown": "La prova sta per terminare"
+  }
+}

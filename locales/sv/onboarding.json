@@ -1,0 +1,59 @@
+{
+  "gettingStarted": {
+    "dismissDialog": {
+      "description": "Välj om du vill avfärda kom igång-guiden permanent eller dölja den fram till nästa session.",
+      "dismissPermanently": "Avfärda permanent",
+      "hide": "Dölj",
+      "title": "Avfärda \"Kom igång\""
+    },
+    "help": "Behöver du mer hjälp? Se vår detaljerade <guide>användarguide</guide>",
+    "label": {
+      "collapse": "Fäll ihop",
+      "dismiss": "Avfärda",
+      "expand": "Expandera"
+    },
+    "step": {
+      "acceptJobs": {
+        "description": "På sidan <bold>Jobb</bold>, markera ett eller flera jobb och klicka på \"Acceptera\"",
+        "title": "Acceptera jobb"
+      },
+      "createTemplate": {
+        "description": "På sidan <bold>Hantera</bold> / <bold>Mallar</bold>, klicka på \"Skapa\"",
+        "title": "Skapa en mall"
+      },
+      "enrolPrinter": {
+        "description": "På sidan <bold>Enheter</bold>, klicka på \"Lägg till enhet\"",
+        "title": "Registrera en skrivare"
+      },
+      "inviteColleagues": {
+        "description": "På sidan <bold>Hantera</bold> / <bold>Användare</bold>, klicka på \"Lägg till användare\"",
+        "title": "Bjud in kollegor (valfritt)"
+      },
+      "uploadAcceptParts": {
+        "description": "På sidan <bold>Inkorg</bold>, dra och släpp dina STL-filer, välj uppladdade delar och klicka på \"Acceptera\"",
+        "title": "Ladda upp och acceptera delar"
+      }
+    },
+    "subtitle": "Slutför stegen för att skicka utskriftsjobb till dina enheter",
+    "title": "Kom igång"
+  },
+  "label": {
+    "country": "Land",
+    "industry": "Bransch",
+    "organisationName": "Organisationens namn",
+    "phoneNumber": "Telefonnummer",
+    "subtitle": "Din väg till enkel, automatiserad konfiguration och produktionshantering för 3D-utskrifter",
+    "title": "Skapa ditt Asiga Funnel-konto",
+    "website": "Webbplats"
+  },
+  "message": {
+    "completePersonalDetails": "Fyll i dina personuppgifter",
+    "emailResendSuccess": "E-postmeddelande skickat. Kontrollera din inkorg.",
+    "emailVerified": "<bold>E-postadressen har verifierats</bold>\nDu kommer att omdirigeras inom kort...",
+    "regionError": "Asiga Funnel stöds för närvarande endast i Australien.",
+    "resendEmail": "Skicka verifieringsmejlet igen",
+    "resendEmailError": "Det gick inte att skicka verifieringsmejlet igen. Försök igen senare.",
+    "sendingEmail": "Skickar verifieringsmejl...",
+    "verifyEmail": "Verifiera din e-postadress för att få tillgång till Asiga Funnel."
+  }
+}

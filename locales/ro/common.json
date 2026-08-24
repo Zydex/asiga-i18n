@@ -1,0 +1,772 @@
+{
+  "alt": {
+    "logo": "Portalul web Asiga",
+    "noSearchResults": "Niciun rezultat al căutării",
+    "sort": "Sortează după"
+  },
+  "boolean": {
+    "false": "fals",
+    "true": "adevărat"
+  },
+  "button": {
+    "accept": "Acceptă",
+    "acceptAll": "Acceptă tot",
+    "add": "Adaugă",
+    "addMore_zero": "Adaugă...",
+    "addMore_one": "Adaugă mai multe...",
+    "addMore_other": "Adaugă mai multe...",
+    "apply": "Aplică",
+    "back": "Înapoi",
+    "cancel": "Anulează",
+    "close": "Închide",
+    "confirm": "Confirmă",
+    "connect": "Conectează",
+    "continue": "Continuă",
+    "create": "Creează",
+    "delete": "Șterge",
+    "deny": "Refuză",
+    "dismiss": "Ignoră",
+    "download": "Descarcă",
+    "edit": "Editează",
+    "essentialOnly": "Doar esențiale",
+    "invite": "Invită",
+    "logout": "Deconectare",
+    "off": "Oprit",
+    "ok": "OK",
+    "on": "Pornit",
+    "pause": "Pauză",
+    "promote": "Promovează",
+    "refresh": "Reîmprospătează",
+    "reject": "Respinge",
+    "rejectAll": "Respinge tot",
+    "rejectAndRequeue": "Respinge și repune în coadă",
+    "rejectOnly": "Doar respinge",
+    "remove": "Elimină",
+    "rename": "Redenumește",
+    "reprocess": "Reprocesează",
+    "reset": "Resetează",
+    "resetToDefault": "Resetează la valoarea implicită",
+    "retry": "Reîncearcă",
+    "save": "Salvează",
+    "tooltips": {
+      "changeRoleDisabled": "Nu aveți permisiunea de a schimba rolul utilizatorilor selectați.",
+      "changeRoleDisabled_admin": "Nu aveți permisiunea de a schimba rolul utilizatorilor Admin sau Proprietar.",
+      "changeRoleDisabled_owner": "Nu aveți permisiunea de a schimba rolul utilizatorilor Proprietar.",
+      "changeRoleDisabled_user": "Nu aveți permisiunea de a schimba rolurile altor utilizatori.",
+      "deleteUserDisabled": "Nu aveți permisiunea de a elimina utilizatorii selectați.",
+      "deleteUserDisabled_admin": "Nu aveți permisiunea de a elimina utilizatorii Admin sau Proprietar.",
+      "deleteUserDisabled_owner": "Nu aveți permisiunea de a elimina alți utilizatori Proprietar.",
+      "deleteUserDisabled_user": "Nu aveți permisiunea de a elimina alți utilizatori."
+    },
+    "transfer": "Transferă",
+    "unlink": "Elimină legătura",
+    "update": "Actualizează"
+  },
+  "date": {
+    "all": "Toate",
+    "custom": "Personalizat",
+    "daysInterval": "Interval de date",
+    "daysInterval_0": "Astăzi",
+    "daysInterval_1": "Ieri",
+    "daysInterval_7": "Ultimele 7 zile",
+    "homeRange": "Interval de date",
+    "homeRange_currentPeriod": "Perioadă de facturare",
+    "homeRange_last12Months": "Ultimele 12 luni",
+    "homeRange_lastWeek": "Săptămâna trecută",
+    "homeRange_thisWeek": "Săptămâna aceasta",
+    "homeRange_today": "Astăzi",
+    "homeRange_yesterday": "Ieri"
+  },
+  "dateRange": {
+    "error": {
+      "outOfRange": "Datele selectate trebuie să fie în ultimul an.",
+      "toBeforeFrom": "Data selectată pentru „Până la” nu poate fi anterioară datei „De la”."
+    },
+    "from": "De la",
+    "title": "Interval de date {{field}}",
+    "to": "Până la"
+  },
+  "details": {
+    "copyLink": "Copiază linkul",
+    "linkCopied": "Link copiat în clipboard",
+    "linkCopyFailed": "Copierea linkului a eșuat",
+    "progress": "Progres"
+  },
+  "dialog": {
+    "no": "Nu",
+    "yes": "Da"
+  },
+  "displayError": {
+    "button": "Contactează asistența",
+    "message": "Verificați conexiunea și încercați să reîmprospătați pagina web.\nContactați asistența dacă problema persistă."
+  },
+  "error": {
+    "400": "Cererea a fost invalidă.",
+    "401": "Nu sunteți autentificat. Vă rugăm să vă conectați.",
+    "403": "Nu aveți permisiunea de a efectua această cerere.",
+    "404": "Această resursă nu a fost găsită.",
+    "409": "Cererea dvs. nu a putut fi procesată din cauza unui conflict.",
+    "422": "Nu se poate valida această cerere.",
+    "500": "A apărut o eroare neașteptată.",
+    "activeWorkflowNotFound": "Nu a fost găsit niciun flux de lucru activ.",
+    "activeWorkflowNotFound_details": "Nu a fost găsit niciun flux de lucru activ pentru organizația cu ID-ul {{details}}.",
+    "addressCreateForbidden": "Nu aveți permisiunea de a crea adrese pentru această organizație.",
+    "addressDeleteForbidden": "Nu aveți permisiunea de a șterge adresele pentru această organizație.",
+    "addressNotFound": "Adresa nu a fost găsită.",
+    "addressNotFound_details": "Adresa cu id-ul {{details}} nu a fost găsită.",
+    "addressUpdateForbidden": "Nu aveți permisiunea de a actualiza adresele pentru această organizație.",
+    "auth0BadRequest": "Nu se poate verifica utilizatorul dvs.",
+    "auth0Forbidden": "Rolul dvs. nu are permisiunile necesare pentru a efectua această cerere.",
+    "auth0Unauthorized": "Nu sunteți autentificat. Vă rugăm să vă conectați.",
+    "badRequest": "Cererea a fost invalidă.",
+    "conflict": "Cererea dvs. nu a putut fi procesată din cauza unui conflict.",
+    "deviceForbidden": "Nu aveți permisiunea de a vizualiza dispozitivele acestei organizații.",
+    "deviceNotFound": "Dispozitivul nu a fost găsit.",
+    "deviceNotFound_details": "Dispozitivul cu numărul de serie „{{details}}” nu a fost găsit.",
+    "deviceStateConflict": "Dispozitivul are o stare dorită care nu a fost confirmată.",
+    "fileChecksumMismatch": "Fișierul încărcat „{{fileName}}” nu s-a încărcat corect. Încercați să îl încărcați din nou.",
+    "filesRemoved": "Fișierele necesare pentru această acțiune și-au depășit perioada de retenție și nu mai sunt disponibile.",
+    "forbidden": "Nu aveți permisiunea de a efectua această cerere.",
+    "integrationNotFound": "Nu se poate găsi integrarea.",
+    "jobDownloadIncorrectState": "O comandă poate fi descărcată doar atunci când așteaptă revizuirea.",
+    "jobDownloadReportIncorrectState": "Comanda nu are un fișier raport disponibil.",
+    "jobForbidden": "Nu aveți permisiunea de a accesa comanda pentru această organizație.",
+    "jobNoPreviewFile": "Comanda nu are un fișier de previzualizare disponibil.",
+    "jobNoReportFile": "Comanda nu are un fișier raport disponibil.",
+    "jobNoSlicedBuildFile": "Comanda nu are un fișier de construcție feliat, pregătit pentru printare.",
+    "jobNotFound": "Comanda nu a fost găsită.",
+    "jobNotFound_details": "Comanda cu id-ul {{details}} nu a fost găsită.",
+    "jobReviewIncorrectState": "Comanda nu așteaptă revizuirea.",
+    "linkCreateConflict": "Există deja o legătură de integrare pentru această organizație.",
+    "linkCreateForbidden": "Nu aveți permisiunea de a crea o legătură de integrare pentru această organizație.",
+    "linkDeleteForbidden": "Nu aveți permisiunea de a șterge o legătură de integrare pentru această organizație.",
+    "linkGetForbidden": "Nu aveți permisiunea de a accesa o legătură de integrare pentru această organizație.",
+    "linkNotFound": "Legătura de integrare nu a fost găsită.",
+    "linkUpdateForbidden": "Nu aveți permisiunea de a actualiza o legătură de integrare pentru această organizație.",
+    "linkUserCreateForbidden": "Nu aveți permisiunea de a crea o legătură de integrare în numele altui utilizator.",
+    "luceneIllegalCharacterError": "Caracter nepermis în interogarea Lucene.",
+    "luceneIllegalCharacterError_details": "Caracter nepermis în interogarea Lucene. ({{details}})",
+    "luceneParseError": "Nu se poate interpreta interogarea Lucene.",
+    "luceneSyntaxError": "Eroare de sintaxă în interogarea Lucene.",
+    "luceneSyntaxError_details": "Eroare de sintaxă în interogarea Lucene. ({{details}})",
+    "materialCancelIncorrectState": "Nu aveți permisiunea de a anula un material care nu așteaptă o încărcare.",
+    "materialCreateForbidden": "Nu aveți permisiunea de a crea un material pentru această organizație.",
+    "materialDeleteForbidden": "Nu aveți permisiunea de a șterge un material pentru această organizație.",
+    "materialFileEmpty": "Fișierul materialului este gol.",
+    "materialFileName": "Tip de fișier neacceptat.",
+    "materialFileParse": "Nu se poate citi fișierul materialului.",
+    "materialFileRead": "Nu se poate citi fișierul materialului.",
+    "materialFileType": "Tip de fișier neacceptat.",
+    "materialGetForbidden": "Nu aveți permisiunea de a accesa un material pentru această organizație.",
+    "materialMarkAsUploadedIncorrectState": "Nu aveți permisiunea de a marca drept încărcat un material care nu așteaptă o încărcare.",
+    "materialNotFound": "Materialul nu a putut fi găsit.",
+    "materialNotUploadedIncorrectState": "Nu a fost încărcat niciun fișier ini pentru acest material.",
+    "materialRetryUploadIncorrectState": "Nu aveți permisiunea de a reîncerca încărcarea unui material care nu așteaptă o încărcare.",
+    "materialUpdateForbidden": "Nu aveți permisiunea de a actualiza un material pentru această organizație.",
+    "materialVisibilityConflict": "Nu aveți permisiunea de a schimba vizibilitatea unui material care este în curs de încărcare.",
+    "noAuthorized": "Nu sunteți autentificat. Vă rugăm să vă conectați.",
+    "notAllowedFieldFilter": "Un câmp furnizat nu poate fi filtrat.",
+    "notAllowedFieldFilter_details": "Câmpul „{{details}}” nu poate fi filtrat.",
+    "notAllowedFieldSort": "Un câmp furnizat nu poate fi sortat.",
+    "notAllowedFieldSort_details": "Câmpul „{{details}}” nu poate fi sortat.",
+    "notFound": "Această resursă nu a fost găsită.",
+    "organisationNotFound": "Organizația nu a fost găsită.",
+    "organisationNotFound_details": "Organizația cu id-ul {{details}} nu a fost găsită.",
+    "organisationUpdateForbidden": "Nu aveți permisiunea de a actualiza această organizație.",
+    "organisationViewForbidden": "Nu aveți permisiunea de a vizualiza această organizație.",
+    "organisationViewUsersForbidden": "Nu aveți permisiunea de a vizualiza utilizatorii acestei organizații.",
+    "partCancelIncorrectState": "Nu aveți permisiunea de a anula o piesă care nu așteaptă încărcarea.",
+    "partCreateForbidden": "Nu aveți permisiunea de a crea o piesă pentru această organizație.",
+    "partDeleteForbidden": "Nu aveți permisiunea de a șterge o piesă pentru această organizație.",
+    "partDequeForbidden": "Nu aveți permisiunea de a scoate din coadă o piesă care nu așteaptă poziționarea.",
+    "partDownloadIncorrectState": "Nu aveți permisiunea de a descărca o piesă care nu a fost încărcată.",
+    "partFileNameEmpty": "Numele fișierului piesei este gol",
+    "partFileNameExcessive": "Numele fișierului piesei este prea lung",
+    "partGetForbidden": "Nu aveți permisiunea de a accesa o piesă pentru această organizație.",
+    "partMarkAsAcceptedIncorrectState": "Nu aveți permisiunea de a accepta o piesă care nu este pregătită pentru a fi acceptată.",
+    "partMarkAsConfirmedIncorrectState": "Nu aveți permisiunea de a confirma o piesă care nu așteaptă confirmarea.",
+    "partMarkAsRejectedIncorrectState": "Nu aveți permisiunea de a respinge o piesă care nu așteaptă revizuirea sau acceptarea.",
+    "partMarkAsReviewedIncorrectState": "Nu aveți permisiunea de a revizui o piesă care nu este pregătită pentru revizuire.",
+    "partMarkAsUploadedIncorrectState": "Nu aveți permisiunea de a marca drept încărcată o piesă care nu are statusul corect.",
+    "partMarkQueuedAsRejectedIncorrectState": "Nu aveți permisiunea de a respinge o piesă care face parte din coada comenzii.",
+    "partMarkToConfirmAsRejectedIncorrectState": "Nu aveți permisiunea de a respinge o piesă care nu așteaptă confirmarea.",
+    "partNeedsTemplateConflict": "Această piesă necesită un șablon, dar nu îi poate fi atribuit niciun șablon.",
+    "partNotFound": "Piesa nu a fost găsită.",
+    "partNotFound_details": "Piesa cu id-ul {{details}} nu a fost găsită.",
+    "partRetryUploadIncorrectState": "Nu aveți permisiunea de a reîncerca încărcarea unei piese care nu așteaptă încărcarea.",
+    "partUndoAcceptIncorrectState": "Nu puteți anula acceptarea când o piesă nu a fost acceptată.",
+    "partUndoRejectIncorrectState": "Respingerea nu poate fi anulată când o piesă nu a fost respinsă.",
+    "partUpdateAcceptedIncorrectState": "Nu aveți permisiunea de a actualiza o piesă care a fost acceptată.",
+    "partUpdateForbidden": "Nu aveți permisiunea de a actualiza o piesă pentru această organizație.",
+    "roleNotFound": "ID-ul rolului nu există.",
+    "sortField": "Nume de câmp invalid.",
+    "sortField_details": "Nume de câmp invalid: {{details}}.",
+    "sortOrder": "Valoare de ordine invalidă. Trebuie să fie „-1” sau „1”",
+    "sortOrder_details": "Valoare de ordine invalidă: {{details}}. Trebuie să fie „-1” sau „1”",
+    "templateCreateForbidden": "Nu aveți permisiunea de a crea un șablon pentru această organizație.",
+    "templateDeleteForbidden": "Nu aveți permisiunea de a șterge un șablon pentru această organizație.",
+    "templateDeleteHardForbidden": "Nu puteți șterge direct un șablon.",
+    "templateGetForbidden": "Nu aveți permisiunea de a accesa un șablon pentru această organizație.",
+    "templateMaterialForbidden": "Nu aveți acces pentru a atribui acest material unui șablon.",
+    "templateMaterialPendingConflict": "Un material în așteptarea încărcării nu poate fi atribuit unui șablon.",
+    "templateNoEligibleDefault": "Este necesar un șablon implicit pentru fiecare tip de piesă specificat. Setați un alt șablon ca implicit înainte de a elimina acesta.",
+    "templateNotFound": "Șablonul nu a putut fi găsit.",
+    "templateUpdateForbidden": "Nu aveți permisiunea de a actualiza un șablon pentru această organizație.",
+    "unauthorized": "Nu sunteți autentificat. Vă rugăm să vă conectați.",
+    "unexpected": "A apărut o eroare neașteptată.",
+    "unprocessableContent": "Conținut ce nu poate fi procesat",
+    "unspecified": "A apărut o eroare nespecificată.",
+    "unsupportedMediaType": "Tip de media neacceptat",
+    "userBFPForbidden": "Nu se poate debloca utilizatorul.",
+    "userBlockForbidden": "Nu se poate modifica starea de blocare a utilizatorului.",
+    "userConflict": "Utilizatorul există deja.",
+    "userConflict_details": "Un utilizator cu emailul {{details}} există deja în organizația dvs. sau în altă organizație. Utilizați un alt email.",
+    "userConflictAnotherOrg_details": "Emailul {{details}} este deja asociat cu o altă organizație. Utilizați un alt email sau solicitați utilizatorului să se retragă din organizația anterioară.",
+    "userConflictWithinOrg_details": "Un utilizator cu emailul {{details}} există deja în organizația dvs.",
+    "userCreateForbidden": "Nu se poate crea utilizatorul.",
+    "userDeleteForbidden": "Nu se poate șterge utilizatorul.",
+    "userGetBFPForbidden": "Nu se poate obține starea de blocare a utilizatorului",
+    "userGetBlockForbidden": "Nu se poate obține starea de blocare a utilizatorului.",
+    "userGetForbidden": "Nu se poate găsi utilizatorul.",
+    "userNotFound": "Utilizatorul nu a fost găsit.",
+    "userNotFound_details": "Utilizatorul cu emailul {{details}} nu a putut fi găsit.",
+    "userNotInOrg": "Utilizatorul nu este asociat cu nicio organizație.",
+    "userResetForbidden": "Nu se poate reseta parola utilizatorului.",
+    "userRoleAddForbidden": "Nu se poate adăuga rolul utilizatorului.",
+    "userRoleRemoveForbidden": "Nu se poate elimina rolul utilizatorului.",
+    "userSearchField": "Setări de câmp invalide pentru căutarea utilizatorilor.",
+    "userSearchForbidden": "Nu se pot căuta utilizatori.",
+    "userSearchPagination": "Setări de paginare invalide pentru căutarea utilizatorilor.",
+    "userSearchSort": "Setări de sortare invalide pentru căutarea utilizatorilor.",
+    "userUpdateForbidden": "Nu se poate actualiza utilizatorul.",
+    "validation": "Nu se poate valida această cerere.",
+    "value": "A fost furnizată o valoare invalidă pentru această cerere.",
+    "workflowNotFound": "Fluxul de lucru nu a fost găsit.",
+    "workflowNotFound_details": "Fluxul de lucru cu id-ul {{details}} nu a fost găsit."
+  },
+  "label": {
+    "acceptedGroupsSuccess_one": "{{count}} grup mutat în <a>Acceptate</a>",
+    "acceptedGroupsSuccess_other": "{{count}} grupuri mutate în <a>Acceptate</a>",
+    "acceptedJobsSuccess_one": "{{count}} comandă mutată în <a>Acceptate</a>",
+    "acceptedJobsSuccess_other": "{{count}} comenzi mutate în <a>Acceptate</a>",
+    "acceptedPartsSuccess_one": "{{count}} piesă mutată în <a>Acceptate</a>",
+    "acceptedPartsSuccess_other": "{{count}} piese mutate în <a>Acceptate</a>",
+    "acceptingGroups": "Se acceptă grupurile de piese",
+    "acceptingJobs": "Se acceptă comenzile",
+    "acceptingParts": "Se acceptă piesele",
+    "assigningTemplates": "Se atribuie șablonul pieselor",
+    "assigningTemplatesSuccess_one": "Șablon atribuit pentru {{count}} piesă",
+    "assigningTemplatesSuccess_other": "Șablon atribuit pentru {{count}} piese",
+    "cancelUploadModalButtonSecondary": "Continuă încărcările",
+    "cancelUploadsModalBody": "Încărcările pieselor nu sunt complete. Doriți să anulați încărcările rămase?",
+    "cancelUploadsModalButtonPrimary": "Anulează încărcările",
+    "cancelUploadsModalTitle": "Anulați încărcările rămase?",
+    "confirmedSuccess_one": "{{count}} piesă confirmată",
+    "confirmedSuccess_other": "{{count}} piese confirmate",
+    "confirmingParts": "Se confirmă piesele",
+    "creatingGroup": "Se creează grupul de piese",
+    "default": "Implicit",
+    "deprioritiseSuccess_one": "Prioritatea piesei a fost eliminată.",
+    "deprioritiseSuccess_other": "Prioritățile pieselor au fost eliminate.",
+    "deprioritisingParts": "Se elimină prioritățile pieselor.",
+    "dismissingParts": "Se ignoră piesele",
+    "dismissSuccess_one": "{{count}} piesă a fost ignorată",
+    "dismissSuccess_other": "{{count}} piese au fost ignorate",
+    "downloading": "Se descarcă",
+    "downloadJobsSuccess_one": "{{count}} comandă descărcată",
+    "downloadJobsSuccess_other": "{{count}} comenzi descărcate",
+    "downloadPartsSuccess_one": "{{count}} piesă descărcată",
+    "downloadPartsSuccess_other": "{{count}} piese descărcate",
+    "duplicatePartsSuccess_one": "{{count}} piesă duplicată <a>Spre revizuire</a>",
+    "duplicatePartsSuccess_other": "{{count}} piese duplicate <a>Spre revizuire</a>",
+    "duplicatingParts": "Se duplică piesele",
+    "filesRemovedJob": "Fișierele comenzii de printare și-au depășit perioada de retenție și nu mai sunt disponibile.",
+    "filesRemovedPart": "Fișierele piesei și-au depășit perioada de retenție și nu mai sunt disponibile.",
+    "fullname": "Nume complet",
+    "groupCreateSuccess": "Grupul de piese a fost creat cu succes",
+    "groupRegroupSuccess": "Piesele au fost regrupate cu succes",
+    "groupRenameSuccess": "Grupul de piese a fost redenumit cu succes",
+    "groupUpdateSuccess_one": "{{count}} grup a fost actualizat cu succes",
+    "groupUpdateSuccess_other": "{{count}} grupuri au fost actualizate cu succes",
+    "itemSelected": "Element selectat",
+    "itemSelected_zero": "Niciun element selectat",
+    "itemSelected_one": "{{count}} element selectat",
+    "itemSelected_other": "{{count}} elemente selectate",
+    "language": "Limbă",
+    "openDrawer": "Deschide sertarul",
+    "partRenameSuccess": "Piesa a fost redenumită cu succes",
+    "preparingDownload": "Se pregătește descărcarea",
+    "prioritiseSuccess_one": "{{count}} piesă prioritizată.",
+    "prioritiseSuccess_other": "{{count}} piese prioritizate.",
+    "prioritisingParts": "Se prioritizează piesele",
+    "promotedJobsSuccess_one": "{{count}} comandă promovată <a>Spre revizuire</a>",
+    "promotedJobsSuccess_other": "{{count}} comenzi promovate <a>Spre revizuire</a>",
+    "promotingJobs": "Se promovează comenzile",
+    "regroupingParts": "Se regrupează piesele",
+    "rejectedSuccess_one": "{{count}} piesă mutată în <a>Respinse</a>",
+    "rejectedSuccess_other": "{{count}} piese mutate în <a>Respinse</a>",
+    "rejectingParts": "Se resping piesele",
+    "rejectJobPartModalIntro_one": "Această piesă este nestată într-o comandă care este gata pentru revizuire.",
+    "rejectJobPartModalIntro_other": "Aceste piese sunt nestate într-o comandă care este gata pentru revizuire.",
+    "rejectJobPartModalRejectAndRequeue_one": "Elimină această piesă și repune în coadă piesele rămase pentru re-nestare.",
+    "rejectJobPartModalRejectAndRequeue_other": "Elimină aceste piese și repune în coadă piesele rămase pentru re-nestare.",
+    "rejectJobPartModalRejectOnly_one": "Elimină această piesă și păstrează intactă comanda rămasă.",
+    "rejectJobPartModalRejectOnly_other": "Elimină aceste piese și păstrează intactă comanda rămasă.",
+    "rejectJobPartModalTitle": "Nestați din nou comanda?",
+    "rejectModal": "Piesele selectate nu vor mai fi luate în considerare pentru nicio comandă de printare.",
+    "rejectModalTitle_one": "Respingeți {{partName}}?",
+    "rejectModalTitle_other": "Respingeți {{count}} piese selectate?",
+    "removingFromGroups": "Se elimină piesele din grupuri",
+    "renamePart": "Redenumește piesa",
+    "renamingGroup": "Se redenumește grupul de piese",
+    "renamingPart": "Se redenumește piesa",
+    "reprintingParts": "Se repun în coadă piesele pentru reprintare",
+    "reprintPartsSuccess_one": "{{count}} piesă repusă în coadă și mutată în <a>Acceptate</a>",
+    "reprintPartsSuccess_other": "{{count}} piese repuse în coadă și mutate în <a>Acceptate</a>",
+    "resendingJobs": "Se retrimit comenzile",
+    "resentJobs_one": "{{count}} comandă retrimisă",
+    "resentJobs_other": "{{count}} comenzi retrimise",
+    "setTimezone": "Setează fusul orar",
+    "settings": "Setări",
+    "tabs": "File",
+    "timezone": "Fus orar",
+    "undoAcceptedPartsSuccess_one": "{{count}} piesă eliminată din Acceptate",
+    "undoAcceptedPartsSuccess_other": "{{count}} piese eliminate din Acceptate",
+    "undoingAcceptParts": "Se anulează acceptarea pieselor",
+    "undoingRejectParts": "Se anulează respingerea pieselor",
+    "undoRejectPartsSuccess_one": "{{count}} piesă eliminată din Respinse",
+    "undoRejectPartsSuccess_other": "{{count}} piese eliminate din Respinse",
+    "ungroupingGroups": "Se degrupează piesele",
+    "ungroupSuccess_one": "{{count}} grup degrupat cu succes",
+    "ungroupSuccess_other": "{{count}} grupuri degrupate cu succes",
+    "updatingPartTypes": "Se actualizează tipurile de piese",
+    "updatingPartTypesSuccess_one": "{{count}} tip de piesă actualizat",
+    "updatingPartTypesSuccess_other": "{{count}} tipuri de piese actualizate"
+  },
+  "links": {
+    "devices": "Dispozitive",
+    "home": "Acasă",
+    "inbox": "Inbox",
+    "manage": "Gestionare",
+    "parts": "Piese",
+    "printJobs": "Comenzi de printare",
+    "timeline": "Cronologie",
+    "tooltips": {
+      "devices": "O prezentare în timp real a tuturor dispozitivelor pentru a vă ajuta să monitorizați laboratorul.",
+      "home": "O imagine de ansamblu a activității laboratorului dvs. pentru a vă ține la curent.",
+      "inbox": "Încărcați și revizuiți piese de la utilizatori sau aplicații.\n\nConfirmați că piesele au șablonul de printare corect aplicat și acceptați-le pentru fabricație.",
+      "manage": "Adăugați sau editați utilizatori, conectați aplicații externe, setări generale.",
+      "parts": "Vizualizați piesele care au fost acceptate pentru fabricație.\n\nVerificați starea pentru a vedea în ce etapă a procesului de fabricație se află.",
+      "printJobs": "Revizuiți comenzile de printare care au fost create.\n\nVerificați starea pentru a vedea în ce etapă a procesului de fabricație se află.",
+      "templates": "Listează toate șabloanele din Funnel. Acestea controlează ce materiale, setări de printare și imprimante sunt utilizate pentru fiecare tip de piesă.",
+      "timeline": "Vedeți comenzile de printare programate pe fiecare dintre dispozitivele dvs. pentru a monitoriza progresul și utilizarea."
+    }
+  },
+  "loading": {
+    "unavailable": "Indisponibil"
+  },
+  "maintenancePage": {
+    "message": "Lucrăm pentru a face Funnel mai bun.\nRevenim în curând.",
+    "title": "Mentenanță programată"
+  },
+  "message": {
+    "acceptPrivacyPolicy": "Accept <a>Politica de confidențialitate</a>",
+    "acceptTermsOfService": "Accept <a>Termenii de utilizare a serviciului</a>",
+    "betaTest": "Folosiți versiunea beta, spuneți-ne cum putem îmbunătăți. <a>Oferă feedback</a>",
+    "betaTest_narrow": "Folosiți versiunea beta. <a>Oferă feedback</a>",
+    "checkConnectionForBuildInfo": "Verificați conexiunea la internet a imprimantei pentru a vedea construcțiile curente și cele din coadă.",
+    "cookiePolicy": "Folosim cookie-uri pentru a vă îmbunătăți experiența de navigare. Pentru mai multe informații, vizitați <cookie>Politica privind cookie-urile</cookie> și <privacy>Declarația de confidențialitate</privacy>.",
+    "cookiePreferencesAllowed": "Ați permis toate cookie-urile, inclusiv cele de analiză și suport.",
+    "cookiePreferencesDenied": "Utilizați doar cookie-urile strict necesare.",
+    "filesRemovedAction": "Indisponibil: fișierele necesare pentru această acțiune și-au depășit perioada de retenție și nu mai sunt disponibile.",
+    "maintenanceMode": "Funnel va fi indisponibil pe {{startDate}}, între {{startTime}} și {{endTime}}, pentru mentenanță esențială.",
+    "maintenanceMode_multiDay": "Funnel va fi indisponibil de la {{startDate}} {{startTime}} până la {{endDate}} {{endTime}}, pentru mentenanță esențială.",
+    "maintenanceModeActive": "Funnel este în mentenanță programată până la {{endDate}} {{endTime}}.",
+    "noConnection": "Nu se poate conecta, se reîncearcă în {{time}}",
+    "noMatches": "Ne pare rău, nu au fost găsite rezultate",
+    "noMatchesHelp": "Verificați greșelile de scriere sau încercați cuvinte mai generale\nAlternativ, încercați să utilizați filtrele tabelului",
+    "noMatchesHelp_both": "Verificați greșelile de scriere sau încercați cuvinte mai generale\nAlternativ, încercați să actualizați sau să ștergeți filtrele tabelului",
+    "noMatchesHelp_filtering": "Încercați să actualizați sau să ștergeți filtrele tabelului",
+    "noMatchesHelp_searching": "Verificați greșelile de scriere sau încercați cuvinte mai generale\nAlternativ, încercați să utilizați filtrele tabelului",
+    "reconnecting": "Se încearcă reconectarea",
+    "reviewAndAgreeToPolicies": "Înainte de a continua, trebuie să revizuiți și să fiți de acord cu <terms>Termenii de utilizare a serviciului</terms> și cu <privacy>Politica de confidențialitate</privacy>."
+  },
+  "notFoundPage": {
+    "message": "Verificați adresa paginii pentru greșeli de scriere sau folosiți meniul de navigare din partea stângă sus",
+    "message_narrow": "Verificați adresa paginii pentru greșeli de scriere sau folosiți meniul de navigare din partea stângă sus",
+    "message_wide": "Verificați adresa paginii pentru greșeli de scriere sau folosiți butoanele de navigare din partea stângă",
+    "title": "Nu am putut găsi această pagină"
+  },
+  "notifications": {
+    "actions": {
+      "dismiss": "Ignoră",
+      "inbox": "Inbox",
+      "reprintParts": "Reprintează piesele",
+      "requeueParts": "Repune piesele în coadă",
+      "resend": "Retrimite",
+      "reviewGroup": "Revizuiește grupul",
+      "reviewPart": "Revizuiește piesa",
+      "reworkOffline": "Refă offline",
+      "ungroup": "Degrupează"
+    },
+    "clearAll": "Șterge tot",
+    "empty": "Nicio notificare",
+    "requeuePartsConfirmation": "Sigur doriți să repuneți în coadă piesele din această comandă? Aceasta va elimina comanda curentă și va crea piese noi în inbox.",
+    "settings": {
+      "label": "Afișează notificări în timp real pentru piese, grupuri, comenzi și dispozitive care necesită atenție.",
+      "title": "Notificări"
+    },
+    "title": "Notificări",
+    "types": {
+      "deviceOffline": {
+        "body_one": "{{name}} a trecut offline",
+        "body_other": "Mai multe imprimante au trecut offline",
+        "title": "Imprimantă offline"
+      },
+      "groupTooLarge": {
+        "body_one": "{{name}} este prea mare pentru a fi printat împreună",
+        "body_other": "Mai multe grupuri sunt prea mari pentru a fi printate împreună",
+        "title": "Grup prea mare"
+      },
+      "nestingFailed": {
+        "body_one": "Nu s-a putut nesta {{name}}",
+        "body_other": "Nu s-au putut nesta mai multe comenzi",
+        "title": "Nestarea comenzii a eșuat"
+      },
+      "orientationFailed": {
+        "body_one": "Nu s-a putut orienta {{name}}",
+        "body_other": "Nu s-au putut orienta mai multe piese",
+        "title": "Orientarea piesei a eșuat"
+      },
+      "partTooLarge": {
+        "body_one": "{{name}} este prea mare pentru a fi printată",
+        "body_other": "Mai multe piese sunt prea mari pentru a fi printate",
+        "title": "Piesă prea mare"
+      },
+      "printerError": {
+        "body_one": "{{buildName}} a eșuat în timpul printării.\n\nConsultați ecranul imprimantei pentru mai multe informații.",
+        "body_other": "Mai multe printări au eșuat.\n\nConsultați ecranul imprimantei pentru mai multe informații.",
+        "title": "Printare eșuată"
+      },
+      "sendingFailed": {
+        "body_one": "Trimiterea comenzii #{{name}} a eșuat",
+        "body_other": "Trimiterea mai multor comenzi a eșuat",
+        "title": "Trimiterea comenzii a eșuat"
+      },
+      "slicingFailed": {
+        "body_one": "Felierea comenzii #{{name}} a eșuat",
+        "body_other": "Felierea mai multor comenzi a eșuat",
+        "title": "Felierea comenzii a eșuat"
+      },
+      "supportsFailed": {
+        "body_one": "Generarea suporturilor pentru comanda #{{name}} a eșuat",
+        "body_other": "Generarea suporturilor pentru mai multe comenzi a eșuat",
+        "title": "Generarea suporturilor comenzii a eșuat"
+      }
+    }
+  },
+  "progressStatus": {
+    "acceptPartForPrinting": {
+      "name": "Acceptă piesa pentru printare",
+      "tooltip": {
+        "part": "Piesa va fi prezentată pentru revizuire pentru a confirma tipul și setările șablonului care vor fi utilizate."
+      }
+    },
+    "addingToProvisionalJob": {
+      "name": "Se adaugă la comanda provizorie",
+      "tooltip": {
+        "default": "Piesa este nestată într-o comandă provizorie."
+      }
+    },
+    "approvePrintJob": {
+      "name": "Aprobă comanda de printare",
+      "tooltip": {
+        "default": "Comanda de printare va fi prezentată pentru revizuire, astfel încât aranjarea pieselor și suporturile să poată fi verificate înainte de a aproba comanda de printare pentru printare."
+      }
+    },
+    "cancelled": {
+      "name": "Printare anulată",
+      "tooltip": {
+        "default": "Comanda de printare a fost anulată înainte de a se termina sau a fost ștearsă din coada de construcție."
+      }
+    },
+    "failedToPrint": {
+      "name": "Printare eșuată",
+      "tooltip": {
+        "default": "Comanda de printare a eșuat.\n\nConsultați ecranul imprimantei pentru mai multe informații."
+      }
+    },
+    "generatingSupports": {
+      "name": "Se generează suporturile",
+      "tooltip": {
+        "job": "Aranjarea provizorie a comenzii a fost finalizată și straturile de printare sunt în curs de pregătire.",
+        "part": "Suporturile sunt adăugate la comanda provizorie înainte ca aceasta să fie finalizată pentru ca utilizatorul să o aprobe pentru printare."
+      }
+    },
+    "groupTooLarge": {
+      "name": "Grup prea mare",
+      "tooltip": {
+        "part": "Grupul din care face parte piesa este prea mare pentru a fi printat. Încercați să degrupați piesele."
+      }
+    },
+    "identifiedPartType": {
+      "name": "Tip de piesă identificat",
+      "tooltip": {
+        "part": "Tipul piesei a fost identificat, acest lucru influențează ce șabloane pot fi alese și cum va fi orientată piesa ulterior."
+      }
+    },
+    "identifyingPartType": {
+      "name": "Se identifică tipul piesei",
+      "tooltip": {
+        "part": "Se analizează geometria piesei pentru a identifica tipul piesei."
+      }
+    },
+    "invalidGeometry": {
+      "name": "Geometrie invalidă",
+      "tooltip": {
+        "part": "Piesa nu a putut fi procesată deoarece geometria sa este invalidă.\n\nÎncercați să reparați modelul și să îl încărcați din nou."
+      }
+    },
+    "invalidModel": {
+      "name": "Model invalid",
+      "tooltip": {
+        "part": "Piesa nu a putut fi procesată deoarece fișierul încărcat nu este un model.\n\nVerificați dacă fișierul nu este corupt și încărcați-l din nou."
+      }
+    },
+    "nestedInJob": {
+      "name": "Comandă de printare creată",
+      "tooltip": {
+        "job": "Comanda de printare a fost creată.",
+        "part": "Piesa a fost adăugată la o comandă de printare."
+      }
+    },
+    "nestedInProvisionalJob": {
+      "name": "Nestată într-o comandă provizorie",
+      "tooltip": {
+        "job": "Comanda este într-o stare provizorie și va deveni finalizată atunci când:<ul><li>mai multe piese sunt adăugate pentru a completa comanda</li><li>o imprimantă potrivită urmează să devină disponibilă pentru a o printa</li></ul>Comanda poate fi de asemenea promovată manual la o stare finalizată.",
+        "part": "Piesa a fost aranjată într-o comandă provizorie. Aceasta va deveni finalizată atunci când:<ul><li>mai multe piese sunt adăugate pentru a completa comanda, și</li><li>O imprimantă potrivită urmează să devină disponibilă pentru a o printa</li></ul>"
+      }
+    },
+    "nestingBlocked": {
+      "name": "Nu se poate adăuga la comanda provizorie",
+      "tooltip": {
+        "allDevicesExcludedFromFunnel": "Imprimantele compatibile au fost excluse de la acceptarea comenzilor din Funnel.\n\nIncludeți aceste imprimante pentru comenzi de printare automate sau actualizați șablonul pentru a utiliza alte imprimante.",
+        "allDevicesOfflineOrExcluded": "Nicio imprimantă compatibilă nu este online sau nu acceptă comenzi de printare Funnel.\n\nVerificați dacă imprimantele sunt conectate și incluse pentru comenzi de printare automate sau actualizați șablonul pentru a utiliza alte imprimante conectate.",
+        "groupMemberFailed": "Una sau mai multe piese din grup au eșuat la orientare.\n\nEliminați piesa (piesele) eșuată(e) pentru a printa acest grup.",
+        "groupMembersProcessing": "Una sau mai multe piese din acest grup sunt încă în curs de orientare.",
+        "noAvailableDevices": "Nicio imprimantă compatibilă nu este online pentru a printa această piesă.\n\nVerificați dacă imprimantele sunt conectate sau actualizați șablonul pentru a utiliza alte imprimante conectate."
+      }
+    },
+    "nestingFailed": {
+      "name": "Nestarea a eșuat",
+      "tooltip": {
+        "default": "Nestarea pieselor a eșuat.\nAceasta ar putea fi cauzată de probleme cu fișierul piesei."
+      }
+    },
+    "nestPrintJob": {
+      "name": "Nestează comanda de printare",
+      "tooltip": {
+        "part": "Piesa va fi adăugată la o comandă provizorie împreună cu alte piese care utilizează același șablon. Acestea vor fi apoi aranjate pe platformă."
+      }
+    },
+    "orientatePart": {
+      "name": "Se orientează piesa",
+      "tooltip": {
+        "part": "Orientarea piesei va fi optimizată în funcție de tipul piesei, înainte de a fi aranjată într-o comandă de printare."
+      }
+    },
+    "orientatingPart": {
+      "name": "Se orientează piesa",
+      "tooltip": {
+        "part": "Piesa este în prezent orientată în funcție de tipul său."
+      }
+    },
+    "orientationFailed": {
+      "name": "Orientare eșuată",
+      "tooltip": {
+        "part": "Piesa nu a putut fi orientată cu succes pentru printare.\nAceasta ar putea fi cauzată de probleme cu fișierul piesei."
+      }
+    },
+    "partAccepted": {
+      "name": "Piesă acceptată",
+      "tooltip": {
+        "part": "Piesa a fost acceptată pentru printare."
+      }
+    },
+    "partIdentification": {
+      "name": "Identificarea piesei"
+    },
+    "partOrientated": {
+      "name": "Piesă orientată",
+      "tooltip": {
+        "part": "Piesa a fost orientată cu succes pentru printare."
+      }
+    },
+    "partRejected": {
+      "name": "Piesă respinsă",
+      "tooltip": {
+        "part": "Piesa a fost respinsă de utilizator."
+      }
+    },
+    "partTooLarge": {
+      "name": "Piesă prea mare",
+      "tooltip": {
+        "part": "Piesa este prea mare pentru a încăpea pe o imprimantă asociată șablonului piesei.\n\nÎncercați să verificați scara piesei încărcate și dacă șablonul piesei are o imprimantă suficient de mare pentru a o găzdui."
+      }
+    },
+    "print": {
+      "name": "Printează",
+      "tooltip": {
+        "default": "Comanda de printare va fi trimisă către mașină, unde va fi printată."
+      }
+    },
+    "printed": {
+      "name": "Printat",
+      "tooltip": {
+        "default": "Comanda a fost finalizată cu succes."
+      }
+    },
+    "printing": {
+      "name": "Se printează",
+      "tooltip": {
+        "default": "Comanda este în prezent în curs de printare."
+      }
+    },
+    "printJobApproved": {
+      "name": "Comandă de printare aprobată",
+      "tooltip": {
+        "default": "Comanda de printare a fost aprobată."
+      }
+    },
+    "printJobPendingApproval": {
+      "name": "Comandă de printare în așteptarea aprobării",
+      "tooltip": {
+        "default": "Comanda finalizată este pregătită pentru revizuire."
+      }
+    },
+    "printJobRejected": {
+      "name": "Comandă de printare respinsă",
+      "tooltip": {
+        "default": "Comanda a fost respinsă și piesele au fost repuse în coadă."
+      }
+    },
+    "printJobReworkedOffline": {
+      "name": "Comandă de printare refăcută offline",
+      "tooltip": {
+        "default": "Comanda de printare a fost descărcată de utilizator pentru a fi editată în Composer."
+      }
+    },
+    "printPaused": {
+      "name": "Printare întreruptă",
+      "tooltip": {
+        "default": "Comanda de printare a fost întreruptă de utilizator."
+      }
+    },
+    "printPending": {
+      "name": "Printare în așteptare",
+      "tooltip": {
+        "default": "Comanda se află pe imprimantă și este pregătită de printare."
+      }
+    },
+    "sendingFailed": {
+      "name": "Trimitere eșuată",
+      "tooltip": {
+        "default": "Comanda de printare a eșuat la trimiterea către imprimantă.\n\nAceasta ar putea fi cauzată de deconectarea imprimantei sau de umplerea cozii de construcție cu memorie insuficientă rămasă."
+      }
+    },
+    "sendingToPrinter": {
+      "name": "Se trimite către imprimantă",
+      "tooltip": {
+        "default": "Straturile de printare sunt trimise către imprimantă."
+      }
+    },
+    "sendToPrinter": {
+      "name": "Trimite către imprimantă",
+      "tooltip": {
+        "default": "Comanda de printare va fi feliată în straturi separate și trimisă către imprimantă pentru printare."
+      }
+    },
+    "sentToPrinter": {
+      "name": "Trimisă către imprimantă",
+      "tooltip": {
+        "default": "Comanda de printare se află pe imprimantă și este pregătită de printare."
+      }
+    },
+    "slicingFailed": {
+      "name": "Felierea a eșuat",
+      "tooltip": {
+        "default": "Comanda de printare a eșuat în timpul pregătirii straturilor de printare.\n\nAceasta ar putea fi cauzată de probleme cu fișierele pieselor."
+      }
+    },
+    "slicingPrintJob": {
+      "name": "Se feliază comanda de printare",
+      "tooltip": {
+        "default": "Straturile de printare sunt în curs de pregătire."
+      }
+    },
+    "uploadTooLarge": {
+      "name": "Încărcare prea mare",
+      "tooltip": {
+        "part": "Fișierul încărcat este prea mare.\n\nÎncercați să reduceți dimensiunea fișierului și să îl încărcați din nou."
+      }
+    },
+    "waitingForPartToBeAccepted": {
+      "name": "Acceptă piesa pentru printare",
+      "tooltip": {
+        "part": "Piesa așteaptă ca utilizatorul să o accepte."
+      }
+    }
+  },
+  "relativeTime": {
+    "daysAgo_one": "acum {{count}} zi",
+    "daysAgo_other": "acum {{count}} zile",
+    "hoursAgo_one": "acum {{count}} oră",
+    "hoursAgo_other": "acum {{count}} ore",
+    "justNow": "Chiar acum",
+    "minutesAgo_one": "acum {{count}} minut",
+    "minutesAgo_other": "acum {{count}} minute",
+    "weeksAgo_one": "acum {{count}} săptămână",
+    "weeksAgo_other": "acum {{count}} săptămâni"
+  },
+  "share": {
+    "notFound": "Elementul partajat nu a putut fi găsit"
+  },
+  "table": {
+    "activeFilters": "Filtre active:",
+    "clearFilters": "Șterge filtrele",
+    "expandRow": "Extinde rândul",
+    "pageAmount": "Cantitate",
+    "perPage": "Pe pagină"
+  },
+  "title": {
+    "cookiePolicy": "Politica privind cookie-urile",
+    "help": "Vizualizează ajutorul",
+    "integrations": "Integrări",
+    "language": "Limbă",
+    "manage": "Gestionare",
+    "manageSubscription": "Gestionează abonamentul",
+    "name": "Nume afișat",
+    "organisation": "Organizație",
+    "photo": "Fotografie",
+    "privacy": "Confidențialitate",
+    "privacyPolicy": "Politica de confidențialitate",
+    "profile": "Profil",
+    "subscriptionOptions": "Opțiuni de abonament",
+    "tableOfContents": "Cuprins",
+    "templates": "Șabloane",
+    "termsAndPolicy": "Termeni și politică",
+    "termsOfService": "Termenii serviciului",
+    "warning": "Avertisment"
+  },
+  "underConstruction": {
+    "subtitle1": "Construim ceva special",
+    "subtitle2": "Reveniți mai târziu"
+  },
+  "units": {
+    "microns": "{{value}} μm",
+    "suffix": {
+      "degrees": " °",
+      "millimetres": " mm"
+    }
+  }
+}

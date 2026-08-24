@@ -1,0 +1,32 @@
+{
+  "button": {
+    "manageBilling": "Facturering Beheren",
+    "manageSubscription": "Abonnement Beheren",
+    "subscribeLater": "Later Abonneren",
+    "subscriptionOptions": "Abonnementsopties"
+  },
+  "description": {
+    "manageBilling": "Bekijk facturen, controleer en werk factureringsgegevens bij.",
+    "paymentIssue": "Er was een probleem met uw betalingsgegevens.",
+    "subscriptionStatus": "{{subscriptionTier}} dat wordt verlengd op {{subscriptionEnd, datetime}}",
+    "subscriptionStatusEnding": "{{subscriptionTier}} dat eindigt op {{subscriptionEnd, datetime}}",
+    "subscriptionTiers": "U kunt uw abonnementsniveau bijwerken wanneer de behoeften van uw organisatie veranderen.",
+    "subscriptionUnknownActiveStatus": "Uw abonnement is actief",
+    "trialEnded": "Neem een abonnement om door te gaan met het maken en verzenden van printtaken.",
+    "trialEnding": "U moet zich abonneren wanneer de gratis proefperiode verloopt om printtaken te kunnen maken en verzenden."
+  },
+  "title": {
+    "availableWithSubscription": "Beschikbaar met een Abonnement",
+    "manageBilling": "Facturering Beheren",
+    "newSubscription": "Nieuw Abonnement",
+    "organisation": "Organisatie",
+    "subscription": "Abonnement",
+    "subscriptionStatus": "Abonnementsstatus",
+    "subscriptionTiers": "Abonnementsniveaus",
+    "trialEnded": "Proefperiode is beëindigd",
+    "trialEnding_zero": "Proefperiode eindigt vandaag",
+    "trialEnding_one": "Proefperiode eindigt over {{count}} dag",
+    "trialEnding_other": "Proefperiode eindigt over {{count}} dagen",
+    "trialEndingUnknown": "Proefperiode eindigt binnenkort"
+  }
+}

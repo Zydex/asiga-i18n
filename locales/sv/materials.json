@@ -1,0 +1,58 @@
+{
+  "button": {
+    "add": "Lägg till material",
+    "keepBoth": "Behåll båda",
+    "replaceMaterial": "Ersätt material",
+    "uploadLocalMaterial": "Ladda upp lokalt material"
+  },
+  "label": {
+    "adding": "Lägger till ett material",
+    "adding_one": "Lägger till {{count}} material",
+    "adding_other": "Lägger till {{count}} material",
+    "addSuccess_one": "{{count}} material har lagts till",
+    "addSuccess_other": "{{count}} material har lagts till",
+    "deleteSuccess_one": "{{count}} material har tagits bort",
+    "deleteSuccess_other": "{{count}} material har tagits bort",
+    "deleting": "Tar bort ett material",
+    "deleting_one": "Tar bort {{count}} material",
+    "deleting_other": "Tar bort {{count}} material",
+    "dropFile": "Lägg till fil i <bold>Material</bold>",
+    "manufacturer": "Tillverkare",
+    "material": "Material",
+    "name": "MaterialName",
+    "search": "Sök efter ett material",
+    "templateName": "Mallnamn",
+    "updateMaterial": "Materialuppdatering tillgänglig"
+  },
+  "message": {
+    "addMaterials": "Lägg till material i din organisation genom att välja dem från öppna materialbiblioteket nedan. Materialfiler kan också läggas till med hjälp av uppladdningsknappen.",
+    "deleteMaterialWarning": "Är du säker på att du vill ta bort de valda materialen? Endast den senaste versionen av varje material kommer att finnas tillgänglig för nedladdning igen i framtiden.",
+    "manufacturerHasNoMaterials": "Tillverkaren har inga material",
+    "materialAlreadyAdded_one": "{{name}} har redan lagts till i din organisation.",
+    "materialAlreadyAdded_other": "Följande material har redan lagts till i din organisation:",
+    "materialNameConflict": "En materialfil med namnet {{name}} finns redan i din organisation.\n\nDu kan ersätta det befintliga materialet eller behålla båda.",
+    "materialNameConflictDoForAll_one": "Gör detta för {{count}} återstående namnkonflikt",
+    "materialNameConflictDoForAll_other": "Gör detta för {{count}} återstående namnkonflikter",
+    "materialNameConflictWithRevision": "En materialfil med namnet {{name}}, revision {{revision}} finns redan i din organisation.\n\nVill du ersätta det befintliga materialet med revision {{requestedRevision}}?",
+    "noMaterials": "Använd knappen \"Lägg till material\" högst upp till höger på denna sida för att lägga till material i din organisation",
+    "unableToDelete_one": "Det valda materialet kan inte tas bort eftersom det för närvarande används i mallar. Vänligen tilldela andra material till följande mallar för att kunna fortsätta med borttagningen:",
+    "unableToDelete_other": "De valda materialen kan inte tas bort eftersom de för närvarande används i mallar. Vänligen tilldela andra material till följande mallar för att kunna fortsätta med borttagningen:",
+    "updateMaterial_one": "<bold>{{name}}</bold> kommer att uppdateras till den senaste versionen.",
+    "updateMaterial_other": "{{count}} material-INI-filer kommer att uppdateras till den senaste versionen."
+  },
+  "title": {
+    "addMaterials": "Lägg till material",
+    "deleteMaterial": "Ta bort material?",
+    "materialAlreadyAdded": "Materialfil redan tillagd",
+    "materialNameConflict": "Materialnamnen finns redan",
+    "materials": "Material",
+    "noMaterials": "Inga material i biblioteket",
+    "unableToDelete_one": "Kan inte ta bort material",
+    "unableToDelete_other": "Kan inte ta bort flera material",
+    "updateMaterial_one": "Uppdatera material?",
+    "updateMaterial_other": "Uppdatera flera material?"
+  },
+  "tooltips": {
+    "materials": "Visar alla material som har lagts till i tratten.\n\nMaterial kan läggas till från öppna materialbiblioteket eller laddas upp manuellt."
+  }
+}

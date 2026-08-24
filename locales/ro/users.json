@@ -1,0 +1,93 @@
+{
+  "alt": {
+    "addUsers": "Adaugă utilizatori",
+    "profile": "Profilul utilizatorului"
+  },
+  "button": {
+    "add": "Adaugă utilizator",
+    "changeMfa": "Schimbă MFA",
+    "changePassword": "Schimbă parola",
+    "changeRole": "Schimbă rolul",
+    "deleteProfile": "Șterge profilul",
+    "newPhoto": "Fotografie nouă",
+    "remove": "Elimină utilizator",
+    "remove_one": "Elimină utilizator",
+    "remove_other": "Elimină utilizatori",
+    "removePhoto": "Elimină fotografia",
+    "resetMfa": "Resetează MFA",
+    "restoreAccess": "Restaurează accesul",
+    "uploadPhoto": "Încarcă fotografia"
+  },
+  "label": {
+    "email": "Email",
+    "enterEmails": "Introduceți adresele de email, separate prin virgulă",
+    "name": "Nume",
+    "nickname": "Poreclă",
+    "search": "Caută un utilizator",
+    "updatedAt": "Actualizat la",
+    "users": "Utilizatori"
+  },
+  "message": {
+    "addUsers": "Introduceți adresele de email mai jos pentru a invita utilizatori în această organizație.",
+    "addUsers_org": "Introduceți adresele de email mai jos pentru a invita utilizatori în {{org}}.",
+    "changeMfa": "Aceasta va deschide o pagină cu instrucțiuni despre cum să configurați noul dispozitiv MFA.",
+    "changePassword": "Va fi trimis un email cu un link pentru schimbarea parolei.",
+    "changePassword_email": "Va fi trimis un email la {{email}} cu un link pentru schimbarea parolei.",
+    "changeRole": "Actualizează rolul:",
+    "changeRole_user": "Actualizează rolul lui {{user}}:",
+    "confirmDelAccounts_one": "Acest utilizator nu va mai avea acces la această organizație.",
+    "confirmDelAccounts_other": "Acești utilizatori nu vor mai avea acces la această organizație.",
+    "confirmDelAccounts_org_one": "Acest utilizator nu va mai avea acces la {{org}}.",
+    "confirmDelAccounts_org_other": "Acești utilizatori nu vor mai avea acces la {{org}}.",
+    "confirmMfaPolicy": "Aceasta va deconecta toți utilizatorii din organizația dvs. pentru a putea configura autentificarea multi-factor.",
+    "confirmOwnershipTransfer": "Aceasta va transfera proprietatea organizației și nu poate fi anulată.",
+    "confirmOwnershipTransfer_user": "Aceasta va transfera proprietatea organizației către {{user}} și nu poate fi anulată.",
+    "confirmOwnershipTransferPrompt": "Introduceți {{word}} mai jos pentru a confirma.",
+    "confirmOwnershipTransferWord": "TRANSFER",
+    "confirmResetMfa_one": "Acest utilizator va trebui să configureze din nou autentificarea multi-factor.",
+    "confirmResetMfa_other": "Acești utilizatori vor trebui să configureze din nou autentificarea multi-factor.",
+    "confirmRestoreAccess": "Accesul a fost revocat din cauza protecțiilor împotriva atacurilor de tip brute force.",
+    "confirmRestoreAccess_user": "Accesul pentru {{user}} a fost revocat din cauza protecțiilor împotriva atacurilor de tip brute force.",
+    "deleteProfile": "Profilul dvs. va fi eliminat definitiv din organizația dvs.",
+    "deleteProfile_org": "Profilul dvs. va fi eliminat definitiv din {{org}}.",
+    "howToAddUsers": "Utilizați butonul „Adaugă utilizator” din colțul din dreapta sus al acestei pagini sau utilizați butonul de mai jos pentru a adăuga utilizatori în organizația dvs.",
+    "invitationSent": "Invitație trimisă",
+    "linkSent": "Link trimis",
+    "mfaPolicy": "Contribuiți la îmbunătățirea securității organizației dvs. solicitând autentificarea multi-factor pentru toți utilizatorii.",
+    "profilePicture": "Acest lucru îi ajută pe ceilalți să vă recunoască și vă confirmă că sunteți conectat la contul corect.",
+    "userPageInfo": "Utilizatorii din organizația dvs. sunt afișați pe această pagină",
+    "warnCreateAccount": "Sigur doriți să creați acest cont?"
+  },
+  "role": {
+    "accountant": "Contabil",
+    "admin": "Admin",
+    "designer": "Designer",
+    "owner": "Proprietar",
+    "technician": "Tehnician",
+    "user": "Utilizator"
+  },
+  "title": {
+    "changeMfa": "Schimbă dispozitivul de autentificare multi-factor (MFA)",
+    "changePassword": "Schimbă parola",
+    "changeRole": "Schimbă rolul",
+    "confirmDeleteProfile": "Confirmați ștergerea profilului",
+    "confirmMfaPolicy": "Solicitați autentificarea multi-factor?",
+    "confirmOwnershipTransfer": "Transferați proprietatea?",
+    "deleteProfile": "Șterge profilul",
+    "edit": "Editează",
+    "email": "Email",
+    "invite": "Invită utilizatori",
+    "mfaPolicy": "Autentificare multi-factor",
+    "name": "Nume",
+    "profile": "",
+    "remove_one": "Eliminați utilizatorul?",
+    "remove_other": "Eliminați utilizatorii?",
+    "resetMfa_one": "Resetați MFA pentru acest utilizator?",
+    "resetMfa_other": "Resetați MFA pentru acești utilizatori?",
+    "restoreAccess": "Restaurați accesul pentru utilizator?",
+    "role": "Rol"
+  },
+  "tooltips": {
+    "users": "Afișează toți utilizatorii care fac parte din organizație. Aici pot fi adăugați utilizatori și pot fi modificate rolurile."
+  }
+}

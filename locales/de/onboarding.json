@@ -1,0 +1,59 @@
+{
+  "gettingStarted": {
+    "dismissDialog": {
+      "description": "Wählen Sie, ob Sie den Erste-Schritte-Leitfaden dauerhaft ausblenden oder nur bis zu Ihrer nächsten Sitzung verbergen möchten.",
+      "dismissPermanently": "Dauerhaft ausblenden",
+      "hide": "Ausblenden",
+      "title": "„Erste Schritte“ ausblenden"
+    },
+    "help": "Benötigen Sie weitere Hilfe? Sehen Sie sich unser ausführliches <guide>Benutzerhandbuch</guide> an",
+    "label": {
+      "collapse": "Einklappen",
+      "dismiss": "Ausblenden",
+      "expand": "Ausklappen"
+    },
+    "step": {
+      "acceptJobs": {
+        "description": "Wählen Sie auf der Seite <bold>Aufträge</bold> Aufträge aus und klicken Sie auf „Akzeptieren“",
+        "title": "Aufträge akzeptieren"
+      },
+      "createTemplate": {
+        "description": "Klicken Sie auf der Seite <bold>Verwalten</bold> / <bold>Vorlagen</bold> auf „Erstellen“",
+        "title": "Eine Vorlage erstellen"
+      },
+      "enrolPrinter": {
+        "description": "Klicken Sie auf der Seite <bold>Geräte</bold> auf „Gerät hinzufügen“",
+        "title": "Einen Drucker registrieren"
+      },
+      "inviteColleagues": {
+        "description": "Klicken Sie auf der Seite <bold>Verwalten</bold> / <bold>Benutzer</bold> auf „Benutzer hinzufügen“",
+        "title": "Kollegen einladen (Optional)"
+      },
+      "uploadAcceptParts": {
+        "description": "Ziehen Sie auf der Seite <bold>Posteingang</bold> Ihre STL-Dateien per Drag-and-Drop hinein, wählen Sie die hochgeladenen Teile aus und klicken Sie auf „Akzeptieren“",
+        "title": "Teile hochladen & akzeptieren"
+      }
+    },
+    "subtitle": "Schließen Sie die Schritte ab, um Druckaufträge an Ihre Geräte zu senden",
+    "title": "Erste Schritte"
+  },
+  "label": {
+    "country": "Land",
+    "industry": "Branche",
+    "organisationName": "Name der Organisation",
+    "phoneNumber": "Telefonnummer",
+    "subtitle": "Ihr Zugang zu einfacher, automatisierter 3D-Druckeinrichtung und Produktionsmanagement",
+    "title": "Erstellen Sie Ihr Asiga Funnel-Konto",
+    "website": "Website"
+  },
+  "message": {
+    "completePersonalDetails": "Vervollständigen Sie Ihre persönlichen Angaben",
+    "emailResendSuccess": "E-Mail gesendet. Bitte überprüfen Sie Ihren Posteingang.",
+    "emailVerified": "<bold>E-Mail erfolgreich verifiziert</bold>\nSie werden in Kürze weitergeleitet...",
+    "regionError": "Der Asiga Funnel wird derzeit nur in Australien unterstützt.",
+    "resendEmail": "Verifizierungs-E-Mail erneut senden",
+    "resendEmailError": "Verifizierungs-E-Mail konnte nicht erneut gesendet werden. Bitte versuchen Sie es später noch einmal.",
+    "sendingEmail": "Verifizierungs-E-Mail wird gesendet...",
+    "verifyEmail": "Bitte bestätigen Sie Ihre E-Mail-Adresse, um auf den Asiga Funnel zuzugreifen."
+  }
+}

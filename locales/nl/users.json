@@ -1,0 +1,93 @@
+{
+  "alt": {
+    "addUsers": "Gebruikers toevoegen",
+    "profile": "Gebruikersprofiel"
+  },
+  "button": {
+    "add": "Gebruiker toevoegen",
+    "changeMfa": "MFA wijzigen",
+    "changePassword": "Wachtwoord wijzigen",
+    "changeRole": "Rol wijzigen",
+    "deleteProfile": "Profiel verwijderen",
+    "newPhoto": "Nieuwe foto",
+    "remove": "Gebruiker verwijderen",
+    "remove_one": "Gebruiker verwijderen",
+    "remove_other": "Gebruikers verwijderen",
+    "removePhoto": "Foto verwijderen",
+    "resetMfa": "MFA resetten",
+    "restoreAccess": "Toegang herstellen",
+    "uploadPhoto": "Foto uploaden"
+  },
+  "label": {
+    "email": "E-mail",
+    "enterEmails": "Voer e-mailadressen in, gescheiden door komma's",
+    "name": "Naam",
+    "nickname": "Bijnaam",
+    "search": "Zoek naar een gebruiker",
+    "updatedAt": "Bijgewerkt op",
+    "users": "Gebruikers"
+  },
+  "message": {
+    "addUsers": "Voer hieronder e-mailadressen in om gebruikers uit te nodigen voor deze organisatie.",
+    "addUsers_org": "Voer hieronder e-mailadressen in om gebruikers uit te nodigen voor {{org}}.",
+    "changeMfa": "Hiermee wordt een pagina geopend met instructies voor het instellen van uw nieuwe MFA-apparaat.",
+    "changePassword": "Er wordt een e-mail verzonden met een link om het wachtwoord te wijzigen.",
+    "changePassword_email": "Er wordt een e-mail verzonden naar {{email}} met een link om het wachtwoord te wijzigen.",
+    "changeRole": "Rol bijwerken:",
+    "changeRole_user": "Werk de rol van {{user}} bij:",
+    "confirmDelAccounts_one": "Deze gebruiker zal geen toegang meer hebben tot deze organisatie.",
+    "confirmDelAccounts_other": "Deze gebruikers zullen geen toegang meer hebben tot deze organisatie.",
+    "confirmDelAccounts_org_one": "Deze gebruiker zal geen toegang meer hebben tot {{org}}.",
+    "confirmDelAccounts_org_other": "Deze gebruikers zullen geen toegang meer hebben tot {{org}}.",
+    "confirmMfaPolicy": "Hiermee wordt elke gebruiker in uw organisatie uitgelogd, zodat zij multi-factor authenticatie kunnen instellen.",
+    "confirmOwnershipTransfer": "Hiermee wordt het eigendom van de organisatie overgedragen en dit kan niet ongedaan worden gemaakt.",
+    "confirmOwnershipTransfer_user": "Hiermee wordt het eigendom van de organisatie overgedragen aan {{user}} en dit kan niet ongedaan worden gemaakt.",
+    "confirmOwnershipTransferPrompt": "Typ {{word}} hieronder om te bevestigen.",
+    "confirmOwnershipTransferWord": "OVERDRAGEN",
+    "confirmResetMfa_one": "Deze gebruiker moet multi-factor authenticatie opnieuw instellen.",
+    "confirmResetMfa_other": "Deze gebruikers moeten multi-factor authenticatie opnieuw instellen.",
+    "confirmRestoreAccess": "Toegang is ingetrokken vanwege brute force-beveiliging.",
+    "confirmRestoreAccess_user": "Toegang voor {{user}} is ingetrokken vanwege brute force-beveiliging.",
+    "deleteProfile": "Uw profiel wordt permanent verwijderd uit uw organisatie.",
+    "deleteProfile_org": "Uw profiel wordt permanent verwijderd uit {{org}}.",
+    "howToAddUsers": "Gebruik de knop 'Gebruiker toevoegen' rechtsboven op deze pagina of gebruik de onderstaande knop om gebruikers aan uw organisatie toe te voegen",
+    "invitationSent": "Uitnodiging verzonden",
+    "linkSent": "Link verzonden",
+    "mfaPolicy": "Help de beveiliging van uw organisatie te verbeteren door multi-factor authenticatie voor alle gebruikers te vereisen.",
+    "profilePicture": "Dit helpt anderen u te herkennen en laat u weten dat u bent aangemeld bij het juiste account.",
+    "userPageInfo": "De gebruikers in uw organisatie worden op deze pagina weergegeven",
+    "warnCreateAccount": "Weet u zeker dat u dit account wilt aanmaken?"
+  },
+  "role": {
+    "accountant": "Accountant",
+    "admin": "Admin",
+    "designer": "Ontwerper",
+    "owner": "Eigenaar",
+    "technician": "Technicus",
+    "user": "Gebruiker"
+  },
+  "title": {
+    "changeMfa": "Multi-Factor Authenticatie (MFA)-apparaat wijzigen",
+    "changePassword": "Wachtwoord wijzigen",
+    "changeRole": "Rol wijzigen",
+    "confirmDeleteProfile": "Verwijdering van profiel bevestigen",
+    "confirmMfaPolicy": "Multi-factor authenticatie vereisen?",
+    "confirmOwnershipTransfer": "Eigendom overdragen?",
+    "deleteProfile": "Profiel verwijderen",
+    "edit": "Bewerken",
+    "email": "E-mail",
+    "invite": "Gebruikers uitnodigen",
+    "mfaPolicy": "Multi-Factor Authenticatie",
+    "name": "Naam",
+    "profile": "",
+    "remove_one": "Gebruiker verwijderen?",
+    "remove_other": "Gebruikers verwijderen?",
+    "resetMfa_one": "MFA resetten voor deze gebruiker?",
+    "resetMfa_other": "MFA resetten voor deze gebruikers?",
+    "restoreAccess": "Toegang herstellen voor gebruiker?",
+    "role": "Rol"
+  },
+  "tooltips": {
+    "users": "Toont alle gebruikers die deel uitmaken van de organisatie. Gebruikers kunnen hier worden toegevoegd en rollen gewijzigd."
+  }
+}

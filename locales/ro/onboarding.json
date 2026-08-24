@@ -1,0 +1,59 @@
+{
+  "gettingStarted": {
+    "dismissDialog": {
+      "description": "Alegeți dacă doriți să închideți definitiv ghidul de pornire sau să îl ascundeți până la următoarea sesiune.",
+      "dismissPermanently": "Închide definitiv",
+      "hide": "Ascunde",
+      "title": "Închide „Primii pași”"
+    },
+    "help": "Aveți nevoie de mai mult ajutor? Consultați <guide>ghidul detaliat pentru utilizatori</guide>",
+    "label": {
+      "collapse": "Restrânge",
+      "dismiss": "Închide",
+      "expand": "Extinde"
+    },
+    "step": {
+      "acceptJobs": {
+        "description": "Pe pagina <bold>Joburi</bold>, selectați joburile și faceți clic pe „Acceptă”",
+        "title": "Acceptați joburile"
+      },
+      "createTemplate": {
+        "description": "Pe pagina <bold>Gestionare</bold> / <bold>Șabloane</bold>, faceți clic pe „Creează”",
+        "title": "Creați un șablon"
+      },
+      "enrolPrinter": {
+        "description": "Pe pagina <bold>Dispozitive</bold>, faceți clic pe „Adaugă dispozitiv”",
+        "title": "Înregistrați o imprimantă"
+      },
+      "inviteColleagues": {
+        "description": "Pe pagina <bold>Gestionare</bold> / <bold>Utilizatori</bold>, faceți clic pe „Adaugă utilizator”",
+        "title": "Invitați colegi (Opțional)"
+      },
+      "uploadAcceptParts": {
+        "description": "Pe pagina <bold>Inbox</bold>, trageți și plasați fișierele STL, selectați piesele încărcate și faceți clic pe „Acceptă”",
+        "title": "Încărcați și acceptați piesele"
+      }
+    },
+    "subtitle": "Finalizați pașii pentru a trimite joburile de printare către dispozitivele dvs.",
+    "title": "Primii pași"
+  },
+  "label": {
+    "country": "Țară",
+    "industry": "Tip de industrie",
+    "organisationName": "Numele organizației",
+    "phoneNumber": "Număr de telefon",
+    "subtitle": "Poarta dvs. de acces către configurarea simplă, automatizată a imprimării 3D și gestionarea producției",
+    "title": "Creați-vă contul Asiga Funnel",
+    "website": "Website"
+  },
+  "message": {
+    "completePersonalDetails": "Completați-vă datele personale",
+    "emailResendSuccess": "E-mail trimis. Vă rugăm să verificați căsuța de e-mail.",
+    "emailVerified": "<bold>E-mail verificat cu succes</bold>\nVeți fi redirecționat în curând...",
+    "regionError": "Asiga Funnel este în prezent disponibil doar în Australia.",
+    "resendEmail": "Retrimite e-mailul de verificare",
+    "resendEmailError": "Nu s-a putut retrimite e-mailul de verificare. Vă rugăm să încercați din nou mai târziu.",
+    "sendingEmail": "Se trimite e-mailul de verificare...",
+    "verifyEmail": "Vă rugăm să vă verificați adresa de e-mail pentru a accesa Asiga Funnel."
+  }
+}

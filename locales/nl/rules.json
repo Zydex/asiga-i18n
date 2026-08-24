@@ -1,0 +1,43 @@
+{
+  "approvals": {
+    "jobs": {
+      "message": "Indien ingeschakeld, worden printtaken automatisch geaccepteerd en naar een printer gestuurd.",
+      "title": "Taken automatisch accepteren"
+    },
+    "parts": {
+      "message": "Indien ingeschakeld, worden onderdelen met een sjabloon automatisch geaccepteerd voor productie.",
+      "title": "Onderdelen automatisch accepteren"
+    },
+    "title": "Goedkeuringen",
+    "tooltips": {
+      "editPermission": "U heeft geen toestemming om de goedkeuringsinstellingen bij te werken. Vraag een beheerder of eigenaar in uw organisatie om wijzigingen aan te brengen"
+    }
+  },
+  "autoPartGrouping": {
+    "label": {
+      "characterPosition": "Tekenpositie",
+      "characterRange": "Tekenbereik",
+      "example": "Voorbeeld",
+      "fromEnd": "Vanaf het einde",
+      "fromStart": "Vanaf het begin",
+      "grouping": "Automatisch groeperen",
+      "grouping_off": "Automatisch groeperen Uit",
+      "grouping_on": "Automatisch groeperen Aan",
+      "startingCharacterPosition": "Beginpositie van teken"
+    },
+    "message": "Laat onderdelen automatisch groeperen zodat ze samen in dezelfde taak worden geprint. Configureer het bereik van overeenkomende tekens om aan te sluiten bij een conventie die u gebruikt.",
+    "title": "Automatische onderdeelgroepering",
+    "tooltips": {
+      "characterPosition": "Geef het teken op dat moet overeenkomen ten opzichte van het begin van de geüploade onderdeelnaam, of het einde van de geüploade onderdeelnaam. Handig als bestelnummers aan het begin of het einde van de geüploade onderdeelnaam staan.",
+      "characterRange": "Geef het aantal tekens op dat u wilt laten overeenkomen.",
+      "editPermission": "U heeft geen toestemming om de instellingen voor automatisch groeperen bij te werken. Vraag een beheerder of eigenaar in uw organisatie om wijzigingen aan te brengen",
+      "startingCharacterPosition": "Hoeveel tekenposities vanaf het begin of het einde wilt u dat het bereik begint. Handig als bestelnummers in het midden van een naam voorkomen."
+    }
+  },
+  "label": {
+    "rules": "Regels"
+  },
+  "tooltips": {
+    "rules": "Instellingen die bepalen hoe onderdelen en printtaken worden verwerkt in de Funnel van uw organisatie."
+  }
+}

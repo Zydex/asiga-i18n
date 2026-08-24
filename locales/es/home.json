@@ -1,0 +1,31 @@
+{
+  "emptyState": {
+    "message": "Esta página muestra estadísticas sobre piezas, impresoras y uso de material\n\nConecta una impresora, añade piezas y envía trabajos de impresión para ver los datos aquí",
+    "title": "Bienvenido al inicio"
+  },
+  "label": {
+    "jobs": "Trabajos",
+    "overview": "Visión general",
+    "parts": "Piezas"
+  },
+  "metrics": {
+    "jobsPrinted": "Trabajos impresos",
+    "jobsToAccept": "Trabajos por aceptar",
+    "partsAccepted": "Piezas aceptadas",
+    "partsPerTemplate": "Piezas por plantilla",
+    "partsPrinted": "Piezas impresas",
+    "partsToApprove": "Piezas por aceptar",
+    "partTypes": "Tipos de piezas",
+    "tooltips": {
+      "jobsPrinted": "Número total de trabajos impresos dentro del rango de fechas especificado",
+      "jobsPrintedPerDay": "Número total de trabajos impresos por día dentro del rango de fechas especificado",
+      "jobsToAccept": "Número total de trabajos que requieren aceptación antes de la impresión",
+      "partsAccepted": "Las piezas que han sido aceptadas cuentan para el límite de tu cuota de suscripción",
+      "partsPerTemplate": "Número total de piezas creadas por plantilla dentro del rango de fechas especificado",
+      "partsPrinted": "Número total de piezas impresas dentro del rango de fechas especificado",
+      "partsPrintedPerDay": "Número total de piezas impresas por día dentro del rango de fechas especificado",
+      "partsToApprove": "Número total de piezas que requieren aceptación antes de la impresión",
+      "partTypes": "Número total de piezas creadas por tipo de pieza dentro del rango de fechas especificado"
+    }
+  }
+}

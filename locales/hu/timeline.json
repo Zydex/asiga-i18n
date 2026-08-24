@@ -1,0 +1,16 @@
+{
+  "label": {
+    "allMachines": "Minden gép",
+    "noDevices": "Az eszközeihez sorba állított munkák egy idővonalon jelennek meg ezen az oldalon",
+    "noDevicesMessage": "Az alábbi gombbal adhat eszközöket a szervezetéhez",
+    "requiresAttention": "Figyelmet igényel"
+  },
+  "title": {
+    "timeline": "Idővonal"
+  },
+  "tooltips": {
+    "allMachines": "Megjeleníti a Funnelhez hozzáadott összes eszközt a hozzájuk sorba állított munkákkal együtt."
+  },
+  "viewHours_one": "1 órás nézet",
+  "viewHours_other": "{{count}} órás nézet"
+}

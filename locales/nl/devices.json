@@ -1,0 +1,79 @@
+{
+  "alt": {
+    "devices": "Apparaten",
+    "devicesNeedingAttention": "Apparaten die aandacht nodig hebben",
+    "noDevices": "Geen apparaten"
+  },
+  "button": {
+    "add": "Apparaat toevoegen",
+    "exclude": "Uitsluiten",
+    "excludeDevice": "Uitsluiten van automatische printtaken",
+    "includeDevice": "Opnemen voor automatische printtaken"
+  },
+  "details": {
+    "aboutPrinter": "Over de printer",
+    "currentBuild": "Huidige build",
+    "printStatus": "Printstatus",
+    "queuedBuild": "Builds in de wachtrij"
+  },
+  "label": {
+    "devices": "Apparaten",
+    "devicesTab": "Apparaten-tabblad",
+    "excludedDevice": "Apparaat is uitgesloten van het ontvangen van printtaken van de Funnel",
+    "requiresAttention": "Vereist aandacht",
+    "search": "Zoek naar een apparaat",
+    "status": {
+      "availableInFunnel": "Funnel-taken accepteren",
+      "currentBuildName": "Naam huidige build",
+      "currentLayer": "Huidige laag",
+      "currentLayerHeight": "Huidige laaghoogte",
+      "elapsed": "Verstreken",
+      "firmwareVersion": "Firmwareversie",
+      "layers": "Lagen",
+      "manufacturer": "Fabrikant",
+      "model": "Model",
+      "paused": "Gepauzeerd",
+      "remaining": "Resterend",
+      "serialNumber": "Serienummer",
+      "status": "Status"
+    }
+  },
+  "message": {
+    "addDevices": "Gebruik de knop 'Apparaten toevoegen' rechtsboven op deze pagina of gebruik de knop hieronder om apparaten aan uw organisatie toe te voegen",
+    "allGood": "Alles in orde!",
+    "devicesPageInfo": "De status van alle apparaten in uw organisatie wordt op deze pagina weergegeven",
+    "excludeDevice": "{{device}} uitgesloten van het ontvangen van funnel-printtaken",
+    "includeDevice": "{{device}} opgenomen voor funnel-printtaken",
+    "noCurrentBuild": "Er wordt momenteel geen build geprint.",
+    "noDevices": "Geen apparaten",
+    "noDevicesNeedAttention": "Geen enkel apparaat vereist momenteel aandacht",
+    "warnRemoveDevice": "U kunt dit apparaat niet langer bewaken of er printtaken vanuit de Funnel naartoe sturen.",
+    "warnRemoveDevice_name": "U kunt {{device}} niet langer bewaken of er printtaken vanuit de Funnel naartoe sturen.",
+    "willExcludeDevice": "Er worden geen printtaken meer aangemaakt voor deze machine wanneer deze is uitgesloten"
+  },
+  "state": {
+    "canceled": "Geannuleerd",
+    "canceled_error": "Fout: Geannuleerd",
+    "cancelling": "Annuleren",
+    "cancelling_error": "Fout: Annuleren",
+    "finished": "Print voltooid",
+    "idle": "Printer inactief",
+    "offline": "Offline",
+    "paused": "Gepauzeerd",
+    "paused_error": "Fout: Gepauzeerd",
+    "pausing": "Pauzeren",
+    "pausing_error": "Fout: Pauzeren",
+    "printing": "{{duration}} resterend",
+    "staring": "Starten",
+    "userbusy": "Gebruiker bezet"
+  },
+  "title": {
+    "devices": "Apparaten",
+    "excludeDevice": "{{device}} uitsluiten?",
+    "removeDevice": "Apparaat verwijderen?"
+  },
+  "tooltips": {
+    "devices": "Alle apparaten die aan uw Funnel zijn toegevoegd, worden op dit tabblad weergegeven.",
+    "requiresAttention": "Dit toont apparaten die een fout hebben of de verbinding hebben verloren."
+  }
+}

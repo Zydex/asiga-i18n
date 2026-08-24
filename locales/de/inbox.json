@@ -1,0 +1,199 @@
+{
+  "alt": {
+    "all": "Alle",
+    "userUpload": "Benutzer-Uploads"
+  },
+  "button": {
+    "accept": "Akzeptieren",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "createPartGroup": "Teilegruppe erstellen",
+    "deprioritise": "Priorität entfernen",
+    "download": "Herunterladen",
+    "duplicate": "Duplizieren",
+    "expand": "Erweitern",
+    "moveToReview": "Zur Überprüfung verschieben",
+    "partType": "Teiletyp",
+    "prioritise": "Priorisieren",
+    "regroup": "Neu gruppieren",
+    "regroup_one": "Neu gruppieren",
+    "regroup_other": "Neu gruppieren",
+    "reject": "Ablehnen",
+    "removeFromGroup": "Aus Gruppe entfernen",
+    "reprint": "Teil erneut drucken",
+    "retry": "Wiederholen",
+    "template": "Vorlage",
+    "ungroupPartGroup": "Gruppierung aufheben",
+    "uploadPart": "Teil hochladen",
+    "viewMoreParts": "Weitere Teile anzeigen"
+  },
+  "description": {
+    "functionality": "Laden Sie Teile hoch oder übernehmen Sie automatisch Teile aus Anwendungen von Drittanbietern. Teiletypen werden erkannt, Druckvorlagen angewendet und die Teile automatisch zusammen mit anderen Teilen passenden Druckaufträgen hinzugefügt."
+  },
+  "details": {
+    "datePrinted": "Druckdatum",
+    "group": {
+      "groupInformation": "Gruppeninformationen",
+      "partName": "Teilename",
+      "parts": "Teile",
+      "template": "Vorlage"
+    },
+    "groupLabel": "Gruppe",
+    "groupName": "Gruppe {{id}}",
+    "history": {
+      "date": "Datum",
+      "outcome": "Ergebnis",
+      "status": {
+        "accepted": "Druck akzeptiert",
+        "failed": "Druck fehlgeschlagen",
+        "offline": "Offline überarbeitet",
+        "printed": "Gedruckt",
+        "unknown": "Unbekannt"
+      },
+      "title": "Druckverlauf"
+    },
+    "noPrintJob_one": "Der Druckauftrag wird hier angezeigt, sobald das Teil verschachtelt wurde.",
+    "noPrintJob_other": "Der Druckauftrag wird hier angezeigt, sobald die Teile verschachtelt wurden.",
+    "partInformation": "Teilinformationen",
+    "partType": "Teiletyp",
+    "printJob": "Druckauftrag",
+    "progress": "Fortschritt",
+    "received": "Empfangen",
+    "source": "Quelle",
+    "status": "Status",
+    "targetDevice": "Zielgerät",
+    "template": "Vorlage",
+    "title_zero": "Keine Elemente ausgewählt",
+    "title_one": "1 Element ausgewählt",
+    "title_other": "{{count}} Elemente ausgewählt"
+  },
+  "emptyInboxMessages": {
+    "accepted": {
+      "message": "Teile aus dem Tab „Überprüfung“ werden hier angezeigt, sobald sie akzeptiert wurden",
+      "title": "Keine Teile akzeptiert"
+    },
+    "confirm": {
+      "message": "Verwenden Sie die Schaltfläche „Teile hochladen“ oder ziehen Sie Dateien per Drag-and-Drop, um Teile zu Ihrer Organisation hinzuzufügen",
+      "title": "Keine Teile zu bestätigen"
+    },
+    "rejected": {
+      "message": "Teile, die abgelehnt wurden, werden hier angezeigt ",
+      "title": "Keine Teile abgelehnt"
+    },
+    "review": {
+      "message": "Verwenden Sie die Schaltfläche „Teile hochladen“ oben rechts auf dieser Seite oder die Schaltfläche unten, um Teile zu Ihrer Organisation hinzuzufügen",
+      "title": "Keine Teile zu überprüfen"
+    }
+  },
+  "errors": {
+    "acceptPartError": "Teil konnte nicht akzeptiert werden",
+    "cancelPartUploadError": "Teile-Upload konnte nicht abgebrochen werden",
+    "confirmPartError": "Teil konnte nicht bestätigt werden",
+    "downloadPartError": "Teil konnte nicht heruntergeladen werden",
+    "fileTooLarge": "Dateigröße überschreitet das Limit von 500 MB",
+    "invalidFileFormat": "Datei muss vom Typ .stl sein",
+    "noFilesUploaded": "Keine Dateien hochgeladen",
+    "partCreateError": "Fehler beim Erstellen des Teils",
+    "rejectPartError": "Teil konnte nicht abgelehnt werden",
+    "setPartTypeError": "Teiletyp konnte nicht aktualisiert werden",
+    "undoAcceptPartError": "Akzeptieren des Teils konnte nicht rückgängig gemacht werden"
+  },
+  "label": {
+    "accepted": "Akzeptiert",
+    "confirm": "Bestätigen",
+    "designSelected_one": "{{count}} Design ausgewählt",
+    "designSelected_other": "{{count}} Designs ausgewählt",
+    "dropFile": "Datei zum Posteingang hinzufügen",
+    "groupHasBeenPrioritised": "Gruppe wurde priorisiert",
+    "invalidUploadFileContent": "Eine oder mehrere Dateien konnten nicht als gültiger STL-Inhalt gelesen werden",
+    "invalidUploadFileSize": "Eine oder mehrere Dateien überschreiten die maximale Upload-Größe",
+    "invalidUploadFileType": "Nur STL-Dateien werden unterstützt",
+    "partHasBeenPrioritised": "Teil wurde priorisiert",
+    "preparingDownload": "Download wird vorbereitet",
+    "rejected": "Abgelehnt",
+    "renameGroup": "Teilegruppe umbenennen",
+    "review": "Zu überprüfen",
+    "search": "Nach einem Teil suchen",
+    "uploadCancelled": "{{partName}} (abgebrochen)"
+  },
+  "message": {
+    "noParts": "Keine Teile",
+    "renameGroup": "Geben Sie einen neuen Namen für die Teilegruppe ein:",
+    "renamePart": "Geben Sie einen neuen Namen für das Teil ein:",
+    "reprocessPart_one": "{{name}} wurde bereits hinzugefügt.\n\nDurch die erneute Verarbeitung dieses Teils wird eine weitere Kopie im Funnel zum Drucken erstellt.",
+    "reprocessPart_other": "{{count}} Teile wurden bereits zum Funnel hinzugefügt.\n\nDurch die erneute Verarbeitung dieses Teils wird eine weitere Kopie im Funnel zum Drucken erstellt.",
+    "reprocessPart_time_one": "{{name}} wurde bereits am {{time}} hinzugefügt.\n\nDurch die erneute Verarbeitung dieses Teils wird eine weitere Kopie im Funnel zum Drucken erstellt.",
+    "reprocessPart_time_other": "{{count}} Teile wurden bereits zum Funnel hinzugefügt.\n\nDurch die erneute Verarbeitung dieses Teils wird eine weitere Kopie im Funnel zum Drucken erstellt."
+  },
+  "subscriptionNotice": {
+    "approaching": {
+      "description_one": "Es ist noch {{count}} Teil im monatlichen Limit der Organisation verfügbar. Das Limit wird in {{days}} zurückgesetzt.",
+      "description_other": "Es sind noch {{count}} Teile im monatlichen Limit der Organisation verfügbar. Das Limit wird in {{days}} zurückgesetzt.",
+      "title": "Monatliches Limit fast erreicht"
+    },
+    "button": "Abonnementoptionen",
+    "close": "Ausblenden",
+    "daysUntilReset_one": "{{count}} Tag",
+    "daysUntilReset_other": "{{count}} Tage",
+    "reached": {
+      "descriptionEditor": "Das Kontingent wird in {{days}} zurückgesetzt. Passen Sie die Abonnementstufe an, um mehr Teile zu verarbeiten.",
+      "descriptionMember": "Das Kontingent wird in {{days}} zurückgesetzt. Wenden Sie sich an den Administrator, um die Abonnementstufe anzupassen und mehr Teile zu verarbeiten.",
+      "title": "Monatliches Limit erreicht"
+    }
+  },
+  "table": {
+    "partClassification": {
+      "bridge": "Brücke",
+      "crownOrToothOrVeneer": "Krone/Zahn/Veneer",
+      "dentureAOX": "Prothese (AoX)",
+      "dentureBase": "Prothese (Basis)",
+      "denturePartial": "Prothese (Teil)",
+      "die": "Stumpf",
+      "flatGingiva": "Gingiva",
+      "hollowModel": "Modell (Hohl)",
+      "occlusalSplint": "Schiene",
+      "other": "Sonstiges",
+      "partialFramework": "Teilgerüst",
+      "pillowGingiva": "Gingiva (Kissen)",
+      "screwInTooth": "Implantatkrone",
+      "solidModel": "Modell (Massiv)",
+      "surgicalGuide": "Chirurgische Schablone",
+      "teethRow": "Prothesenzähne",
+      "tryInDenture": "Prothese (Anprobe)"
+    },
+    "partStatus": {
+      "addedToJob": "Zum Auftrag hinzugefügt",
+      "failed": "Fehlgeschlagen",
+      "printed": "Gedruckt",
+      "printReady": "Druckbereit",
+      "processing": "In Bearbeitung",
+      "rejected": "Abgelehnt",
+      "reworkedOffline": "Offline überarbeitet",
+      "toAccept": "Zu akzeptieren",
+      "toConfirm": "Zu bestätigen"
+    },
+    "template": {
+      "noTemplate": "Keine Vorlage",
+      "noTemplateTooltip": "<a>Erstellen Sie eine Vorlage</a> mit dem Typ dieses Teils, um das Teil für den Druck zu akzeptieren."
+    },
+    "userUpload": "Benutzer-Upload"
+  },
+  "title": {
+    "inbox": "Posteingang",
+    "name": "Name",
+    "partType": "Teiletyp",
+    "received": "Empfangen",
+    "reprocessPart_one": "{{name}} erneut verarbeiten?",
+    "reprocessPart_other": "{{count}} Teile erneut verarbeiten?",
+    "source": "Quelle",
+    "status": "Status",
+    "template": "Vorlage",
+    "uploads": "Uploads"
+  },
+  "tooltips": {
+    "accepted": "Teile, die zur Fertigung akzeptiert wurden, werden hier angezeigt.",
+    "createPartGroupDisabled": "Nur Teile, die dieselbe Vorlage verwenden, können gruppiert werden.",
+    "rejected": "Teile, die für die Fertigung abgelehnt wurden, werden hier angezeigt.",
+    "review": "Teile, die zum Funnel hinzugefügt wurden, werden hier zur Überprüfung angezeigt. Wählen Sie eine Vorlage aus, die auf das Teil angewendet werden soll, bevor Sie es für die Fertigung akzeptieren."
+  }
+}

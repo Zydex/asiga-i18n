@@ -1,0 +1,58 @@
+{
+  "button": {
+    "add": "Anyagok hozzáadása",
+    "keepBoth": "Mindkettő megtartása",
+    "replaceMaterial": "Anyag cseréje",
+    "uploadLocalMaterial": "Helyi anyag feltöltése"
+  },
+  "label": {
+    "adding": "Anyag hozzáadása",
+    "adding_one": "{{count}} anyag hozzáadása",
+    "adding_other": "{{count}} anyag hozzáadása",
+    "addSuccess_one": "{{count}} anyag hozzáadva",
+    "addSuccess_other": "{{count}} anyag hozzáadva",
+    "deleteSuccess_one": "{{count}} anyag törölve",
+    "deleteSuccess_other": "{{count}} anyag törölve",
+    "deleting": "Anyag törlése",
+    "deleting_one": "{{count}} anyag törlése",
+    "deleting_other": "{{count}} anyag törlése",
+    "dropFile": "Fájl hozzáadása az <bold>Anyagok</bold> közé",
+    "manufacturer": "Gyártó",
+    "material": "Anyag",
+    "name": "Anyagnév",
+    "search": "Anyag keresése",
+    "templateName": "Sablon neve",
+    "updateMaterial": "Anyagfrissítés érhető el"
+  },
+  "message": {
+    "addMaterials": "Adjon hozzá anyagokat a szervezetéhez az alábbi Nyílt Anyagkönyvtárból történő kiválasztással. Az anyagfájlok a feltöltés gombbal is hozzáadhatók.",
+    "deleteMaterialWarning": "Biztosan törli a kijelölt anyagokat? A jövőben csak az egyes anyagok legújabb verziója lesz újra letölthető.",
+    "manufacturerHasNoMaterials": "A gyártónak nincsenek anyagai",
+    "materialAlreadyAdded_one": "A(z) {{name}} már hozzá lett adva a szervezetéhez.",
+    "materialAlreadyAdded_other": "A következő anyagok már hozzá lettek adva a szervezetéhez:",
+    "materialNameConflict": "A(z) {{name}} nevű anyagfájl már létezik a szervezetében.\n\nLecserélheti a meglévő anyagot, vagy megtarthatja mindkettőt.",
+    "materialNameConflictDoForAll_one": "Alkalmazza ezt a fennmaradó {{count}} névütközésre",
+    "materialNameConflictDoForAll_other": "Alkalmazza ezt a fennmaradó {{count}} névütközésre",
+    "materialNameConflictWithRevision": "A(z) {{name}} nevű, {{revision}}. revíziójú anyagfájl már létezik a szervezetében.\n\nLe szeretné cserélni a meglévő anyagot a {{requestedRevision}}. revízióra?",
+    "noMaterials": "Használja az „Anyagok hozzáadása” gombot az oldal jobb felső sarkában, hogy anyagokat adjon a szervezetéhez",
+    "unableToDelete_one": "A kijelölt anyag nem törölhető, mivel jelenleg sablonokban van használatban. A törlés folytatásához rendeljen más anyagokat a következő sablonokhoz:",
+    "unableToDelete_other": "A kijelölt anyagok nem törölhetők, mivel jelenleg sablonokban vannak használatban. A törlés folytatásához rendeljen más anyagokat a következő sablonokhoz:",
+    "updateMaterial_one": "A(z) <bold>{{name}}</bold> a legújabb verzióra lesz frissítve.",
+    "updateMaterial_other": "{{count}} anyag INI-fájl a legújabb verzióra lesz frissítve."
+  },
+  "title": {
+    "addMaterials": "Anyagok hozzáadása",
+    "deleteMaterial": "Törli az anyagot?",
+    "materialAlreadyAdded": "Az anyagfájl már hozzá lett adva",
+    "materialNameConflict": "Az anyagnevek már léteznek",
+    "materials": "Anyagok",
+    "noMaterials": "Nincs anyag a könyvtárban",
+    "unableToDelete_one": "Az anyag nem törölhető",
+    "unableToDelete_other": "Az anyagok nem törölhetők",
+    "updateMaterial_one": "Frissíti az anyagot?",
+    "updateMaterial_other": "Frissíti az anyagokat?"
+  },
+  "tooltips": {
+    "materials": "Felsorolja az összes anyagot, amelyet hozzáadtak a Funnelhez.\n\nAz anyagok hozzáadhatók a Nyílt Anyagkönyvtárból, vagy manuálisan feltölthetők."
+  }
+}

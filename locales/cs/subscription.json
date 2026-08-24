@@ -1,0 +1,32 @@
+{
+  "button": {
+    "manageBilling": "Spravovat fakturaci",
+    "manageSubscription": "Spravovat předplatné",
+    "subscribeLater": "Předplatit později",
+    "subscriptionOptions": "Možnosti předplatného"
+  },
+  "description": {
+    "manageBilling": "Zobrazit faktury, zkontrolovat a aktualizovat fakturační údaje.",
+    "paymentIssue": "Došlo k problému s vašimi platebními údaji.",
+    "subscriptionStatus": "{{subscriptionTier}}, které se obnoví {{subscriptionEnd, datetime}}",
+    "subscriptionStatusEnding": "{{subscriptionTier}}, které končí {{subscriptionEnd, datetime}}",
+    "subscriptionTiers": "Úroveň předplatného můžete kdykoli aktualizovat podle měnících se potřeb vaší organizace.",
+    "subscriptionUnknownActiveStatus": "Vaše předplatné je aktivní",
+    "trialEnded": "Předplaťte si službu, abyste mohli pokračovat ve vytváření a odesílání tiskových úloh.",
+    "trialEnding": "Po vypršení zkušební doby si budete muset předplatit službu, abyste mohli vytvářet a odesílat tiskové úlohy."
+  },
+  "title": {
+    "availableWithSubscription": "Dostupné s předplatným",
+    "manageBilling": "Spravovat fakturaci",
+    "newSubscription": "Nové předplatné",
+    "organisation": "Organizace",
+    "subscription": "Předplatné",
+    "subscriptionStatus": "Stav předplatného",
+    "subscriptionTiers": "Úrovně předplatného",
+    "trialEnded": "Zkušební doba skončila",
+    "trialEnding_zero": "Zkušební doba končí dnes",
+    "trialEnding_one": "Zkušební doba končí za {{count}} den",
+    "trialEnding_other": "Zkušební doba končí za {{count}} dní",
+    "trialEndingUnknown": "Zkušební doba brzy končí"
+  }
+}

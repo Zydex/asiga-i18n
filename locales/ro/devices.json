@@ -1,0 +1,79 @@
+{
+  "alt": {
+    "devices": "Dispozitive",
+    "devicesNeedingAttention": "Dispozitive care necesită atenție",
+    "noDevices": "Niciun dispozitiv"
+  },
+  "button": {
+    "add": "Adaugă dispozitiv",
+    "exclude": "Exclude",
+    "excludeDevice": "Exclude din sarcinile de printare automate",
+    "includeDevice": "Include pentru sarcinile de printare automate"
+  },
+  "details": {
+    "aboutPrinter": "Despre imprimantă",
+    "currentBuild": "Print curent",
+    "printStatus": "Stare printare",
+    "queuedBuild": "Printuri în așteptare"
+  },
+  "label": {
+    "devices": "Dispozitive",
+    "devicesTab": "Fila Dispozitive",
+    "excludedDevice": "Dispozitivul a fost exclus de la primirea sarcinilor de printare din Funnel",
+    "requiresAttention": "Necesită atenție",
+    "search": "Caută un dispozitiv",
+    "status": {
+      "availableInFunnel": "Acceptă sarcini Funnel",
+      "currentBuildName": "Numele printului curent",
+      "currentLayer": "Strat curent",
+      "currentLayerHeight": "Înălțimea stratului curent",
+      "elapsed": "Timp scurs",
+      "firmwareVersion": "Versiune firmware",
+      "layers": "Straturi",
+      "manufacturer": "Producător",
+      "model": "Model",
+      "paused": "În pauză",
+      "remaining": "Rămas",
+      "serialNumber": "Număr de serie",
+      "status": "Stare"
+    }
+  },
+  "message": {
+    "addDevices": "Folosește butonul „Adaugă dispozitive” din partea din dreapta sus a acestei pagini sau folosește butonul de mai jos pentru a adăuga dispozitive în organizația ta",
+    "allGood": "Totul este în regulă!",
+    "devicesPageInfo": "Starea tuturor dispozitivelor din organizația ta este afișată pe această pagină",
+    "excludeDevice": "{{device}} exclus de la primirea sarcinilor de printare din funnel",
+    "includeDevice": "{{device}} inclus pentru sarcinile de printare din funnel",
+    "noCurrentBuild": "Niciun print nu se printează în prezent.",
+    "noDevices": "Niciun dispozitiv",
+    "noDevicesNeedAttention": "Niciun dispozitiv nu necesită atenție în prezent",
+    "warnRemoveDevice": "Nu vei mai putea monitoriza sau trimite sarcini de printare către acest dispozitiv din Funnel.",
+    "warnRemoveDevice_name": "Nu vei mai putea monitoriza sau trimite sarcini de printare către {{device}} din Funnel.",
+    "willExcludeDevice": "Sarcinile de printare nu vor mai fi create pentru acest aparat atunci când este exclus"
+  },
+  "state": {
+    "canceled": "Anulat",
+    "canceled_error": "Eroare: Anulat",
+    "cancelling": "Se anulează",
+    "cancelling_error": "Eroare: Se anulează",
+    "finished": "Printare finalizată",
+    "idle": "Imprimantă inactivă",
+    "offline": "Offline",
+    "paused": "În pauză",
+    "paused_error": "Eroare: În pauză",
+    "pausing": "Se pune în pauză",
+    "pausing_error": "Eroare: Se pune în pauză",
+    "printing": "{{duration}} rămas",
+    "staring": "Pornire",
+    "userbusy": "Utilizator ocupat"
+  },
+  "title": {
+    "devices": "Dispozitive",
+    "excludeDevice": "Excludeți {{device}}?",
+    "removeDevice": "Elimini dispozitivul?"
+  },
+  "tooltips": {
+    "devices": "Toate dispozitivele care au fost adăugate în Funnel-ul tău sunt afișate în această filă.",
+    "requiresAttention": "Aceasta arată dispozitivele care au o eroare sau au pierdut conexiunea."
+  }
+}

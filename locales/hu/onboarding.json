@@ -1,0 +1,59 @@
+{
+  "gettingStarted": {
+    "dismissDialog": {
+      "description": "Válassza ki, hogy véglegesen bezárja-e a bevezető útmutatót, vagy csak elrejti a következő munkamenetéig.",
+      "dismissPermanently": "Végleges bezárás",
+      "hide": "Elrejtés",
+      "title": "Az „Első lépések” elvetése"
+    },
+    "help": "További segítségre van szüksége? Tekintse meg részletes <guide>felhasználói útmutatónkat</guide>",
+    "label": {
+      "collapse": "Összecsukás",
+      "dismiss": "Bezárás",
+      "expand": "Kibontás"
+    },
+    "step": {
+      "acceptJobs": {
+        "description": "A <bold>Feladatok</bold> oldalon válassza ki a feladatokat, majd kattintson az „Elfogadás” gombra",
+        "title": "Feladatok elfogadása"
+      },
+      "createTemplate": {
+        "description": "A <bold>Kezelés</bold> / <bold>Sablonok</bold> oldalon kattintson a „Létrehozás” lehetőségre",
+        "title": "Sablon létrehozása"
+      },
+      "enrolPrinter": {
+        "description": "Az <bold>Eszközök</bold> oldalon kattintson az „Eszköz hozzáadása” gombra",
+        "title": "Nyomtató regisztrálása"
+      },
+      "inviteColleagues": {
+        "description": "A <bold>Kezelés</bold> / <bold>Felhasználók</bold> oldalon kattintson a „Felhasználó hozzáadása” lehetőségre",
+        "title": "Kollégák meghívása (Opcionális)"
+      },
+      "uploadAcceptParts": {
+        "description": "A <bold>Beérkezett üzenetek</bold> oldalon húzza és ejtse ide STL-fájljait, válassza ki a feltöltött alkatrészeket, majd kattintson az „Elfogadás” gombra",
+        "title": "Alkatrészek feltöltése és elfogadása"
+      }
+    },
+    "subtitle": "Végezze el a lépéseket, hogy nyomtatási feladatokat küldhessen eszközeire",
+    "title": "Első lépések"
+  },
+  "label": {
+    "country": "Ország",
+    "industry": "Iparág típusa",
+    "organisationName": "Szervezet neve",
+    "phoneNumber": "Telefonszám",
+    "subtitle": "Az Ön kapuja az egyszerű, automatizált 3D nyomtatás-beállításhoz és gyártásirányításhoz",
+    "title": "Hozza létre Asiga Funnel fiókját",
+    "website": "Weboldal"
+  },
+  "message": {
+    "completePersonalDetails": "Töltse ki személyes adatait",
+    "emailResendSuccess": "Az e-mail elküldve. Kérjük, ellenőrizze a postafiókját.",
+    "emailVerified": "<bold>Az e-mail-cím sikeresen megerősítve</bold>\nHamarosan átirányítjuk...",
+    "regionError": "Az Asiga Funnel jelenleg csak Ausztráliában érhető el.",
+    "resendEmail": "Megerősítő e-mail újraküldése",
+    "resendEmailError": "Nem sikerült újraküldeni a megerősítő e-mailt. Kérjük, próbálja újra később.",
+    "sendingEmail": "Megerősítő e-mail küldése...",
+    "verifyEmail": "Kérjük, erősítse meg e-mail-címét az Asiga Funnel eléréséhez."
+  }
+}

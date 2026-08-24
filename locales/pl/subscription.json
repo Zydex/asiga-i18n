@@ -1,0 +1,32 @@
+{
+  "button": {
+    "manageBilling": "Zarządzaj rozliczeniami",
+    "manageSubscription": "Zarządzaj subskrypcją",
+    "subscribeLater": "Subskrybuj później",
+    "subscriptionOptions": "Opcje subskrypcji"
+  },
+  "description": {
+    "manageBilling": "Przeglądaj faktury, sprawdzaj i aktualizuj dane rozliczeniowe.",
+    "paymentIssue": "Wystąpił problem z Twoimi danymi płatności.",
+    "subscriptionStatus": "{{subscriptionTier}}, która odnawia się {{subscriptionEnd, datetime}}",
+    "subscriptionStatusEnding": "{{subscriptionTier}}, która kończy się {{subscriptionEnd, datetime}}",
+    "subscriptionTiers": "Możesz zmienić poziom subskrypcji w dowolnym momencie, gdy zmienią się potrzeby Twojej organizacji.",
+    "subscriptionUnknownActiveStatus": "Twoja subskrypcja jest aktywna",
+    "trialEnded": "Subskrybuj, aby kontynuować tworzenie i wysyłanie zadań druku.",
+    "trialEnding": "Musisz subskrybować po zakończeniu bezpłatnego okresu próbnego, aby móc tworzyć i wysyłać zadania druku."
+  },
+  "title": {
+    "availableWithSubscription": "Dostępne z subskrypcją",
+    "manageBilling": "Zarządzaj rozliczeniami",
+    "newSubscription": "Nowa subskrypcja",
+    "organisation": "Organizacja",
+    "subscription": "Subskrypcja",
+    "subscriptionStatus": "Status subskrypcji",
+    "subscriptionTiers": "Poziomy subskrypcji",
+    "trialEnded": "Okres próbny zakończony",
+    "trialEnding_zero": "Okres próbny kończy się dzisiaj",
+    "trialEnding_one": "Okres próbny kończy się za {{count}} dzień",
+    "trialEnding_other": "Okres próbny kończy się za {{count}} dni",
+    "trialEndingUnknown": "Okres próbny wkrótce się kończy"
+  }
+}

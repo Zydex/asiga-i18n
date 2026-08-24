@@ -1,0 +1,39 @@
+{
+  "alt": {
+    "noApps": "Aucune application liée"
+  },
+  "button": {
+    "apps": "Applications"
+  },
+  "label": {
+    "search": "Rechercher des applications"
+  },
+  "message": {
+    "noApps": "Aucune application liée",
+    "noAppsInfo": "Les applications liées seront répertoriées ici. Utilisez le bouton « Applications » ci-dessous pour afficher les applications disponibles pouvant être liées.",
+    "unlink": "Votre organisation ne recevra plus de pièces produites par l'application.",
+    "unlink_one": "Votre organisation ne recevra plus de pièces produites par l'application.",
+    "unlink_other": "Votre organisation ne recevra plus de pièces produites par les applications.",
+    "unlink_name_one": "Votre organisation ne recevra plus de pièces produites par {{name}}.",
+    "unlink_nameOrg_one": "{{org}} ne recevra plus de pièces produites par {{name}}.",
+    "unlink_org_other": "{{org}} ne recevra plus de pièces produites par les applications.",
+    "unlinkParts": "Les pièces déjà reçues resteront au sein de votre organisation.",
+    "unlinkParts_org": "Les pièces déjà reçues resteront au sein de {{org}}."
+  },
+  "title": {
+    "apps": "Applications",
+    "connectedApps": "Applications connectées",
+    "lastUsed": "Dernière utilisation",
+    "linked": "Liée",
+    "name": "Nom",
+    "never": "Jamais",
+    "unlink": "Dissocier l'application ?",
+    "unlink_name": "Dissocier {{name}} ?",
+    "unlink_one": "Dissocier l'application ?",
+    "unlink_other": "Dissocier les applications ?"
+  },
+  "tooltips": {
+    "apps": "Répertorie toutes les applications prises en charge par Funnel. Utilisez-les pour recevoir automatiquement des pièces produites par des services tiers.",
+    "connectedApps": "Répertorie toutes les applications autorisées à envoyer des pièces produites vers Funnel."
+  }
+}

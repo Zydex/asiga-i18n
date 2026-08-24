@@ -1,0 +1,131 @@
+{
+  "emptyPartsMessages": {
+    "allParts": {
+      "message": "När delar accepteras i inkorgen visas de här för att övervägas för utskrift",
+      "title": "Inga delar redo för utskrift"
+    },
+    "printReady": {
+      "message": "Delar som är redo att läggas till i ett utskriftsjobb visas här",
+      "title": "Inga delar i kö"
+    },
+    "sent": {
+      "message": "Delar visas här när de har sammanställts i ett utskriftsjobb och skickats till skrivaren",
+      "title": "Inga delar skickade"
+    }
+  },
+  "group": {
+    "tooLarge": "Gruppen är för stor",
+    "tooLargeTooltip": "Gruppen är för stor för att få plats på någon skrivarplattform som denna mall anger.\n\nDela upp gruppen eller uppdatera mallen till att använda en större skrivare."
+  },
+  "label": {
+    "allParts": "Alla delar",
+    "partsQueue": "Delar i kö",
+    "printReady": "Redo för utskrift",
+    "sent": "Skickad"
+  },
+  "status": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "Acceptera del för utskrift",
+      "partAccepted": "Del accepterad"
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Godkänn utskriftsjobb",
+      "printJobApproved": "Utskriftsjobb godkänt",
+      "printJobPendingApproval": "Utskriftsjobb väntar på godkännande"
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "Tillagd i utskriftsjobb",
+      "generatingSupports": "Genererar stöd",
+      "nestedInProvisionalJob": "Nästlad i provisoriskt jobb",
+      "nestingFailed": "Nästling misslyckades",
+      "nestingPrintJob": "Läggs till i provisoriskt jobb",
+      "nestPrintJob": "Nästla utskriftsjobb",
+      "partQueued": "Del i kö",
+      "partTooLarge": "Delen är för stor"
+    },
+    "orientatePart": {
+      "orientatePart": "Orientera del",
+      "orientatingPart": "Orienterar del",
+      "orientationFailed": "Orientering misslyckades",
+      "partOrientated": "Del orienterad"
+    },
+    "partIdentification": {
+      "confirmPartType": "Bekräfta deltyp",
+      "identifyingPartType": "Identifierar deltyp",
+      "partIdentification": "Identifiering av del",
+      "partTypeConfirmed": "Deltyp bekräftad"
+    },
+    "print": {
+      "print": "Skriv ut",
+      "printed": "Utskriven",
+      "printFailed": "Utskrift misslyckades",
+      "printing": "Skriver ut"
+    },
+    "rejected": "Avvisad",
+    "sendToPrinter": {
+      "printJobDownloaded": "Utskriftsjobb nedladdat",
+      "sendingFailed": "Sändning misslyckades",
+      "sendingToPrinter": "Skickar till skrivare",
+      "sendToPrinter": "Skicka till skrivare",
+      "sentToPrinter": "Skickad till skrivare",
+      "slicingFailed": "Skivning misslyckades",
+      "slicingPrintJob": "Skivar utskriftsjobb"
+    }
+  },
+  "statusTooltips": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "Delen väntar på att användaren ska acceptera den.",
+      "partAccepted": "Delen har accepterats för utskrift."
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Godkänn provisoriska jobb för sändning till skrivare.",
+      "printJobApproved": "Jobbet har godkänts för utskrift.",
+      "printJobPendingApproval": "Det provisoriska jobbet väntar på att användaren ska godkänna det."
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "Delen har lagts till i ett utskriftsjobb.",
+      "generatingSupports": "Stöd läggs till i det provisoriska jobbet innan det slutförs för att användaren ska kunna godkänna det för utskrift.",
+      "nestedInProvisionalJob": "Delen har nästlats i ett provisoriskt jobb. Det slutförs när:<ul><li>Fler delar läggs till för att fylla jobbet</li><li>En lämplig skrivare snart är tillgänglig för att skriva ut det</li></ul>",
+      "nestingFailed": "Nästlingen av delar har misslyckats.\nDetta kan orsakas av problem med delfilen.",
+      "nestingPrintJob": "Delen nästlas i ett provisoriskt jobb.",
+      "nestPrintJob": "Delen kommer att nästlas när en lämplig skrivare blir tillgänglig & enligt principen ”först in, först ut”.",
+      "partQueued": "Delen kommer att nästlas när en lämplig skrivare blir tillgänglig & enligt principen ”först in, först ut”.",
+      "partTooLarge": "Delen är för stor för skrivarna som anges i utskriftsmallen.\n\nKontrollera delens storlek eller överväg att lägga till en större skrivare i mallen."
+    },
+    "orientatePart": {
+      "orientatePart": "Orientera del baserat på dess typ.",
+      "orientatingPart": "Delen orienteras för närvarande baserat på dess typ.",
+      "orientationFailed": "Delen kunde inte orienteras korrekt för utskrift.\nDetta kan orsakas av problem med delfilen.",
+      "partOrientated": "Delen orienterades korrekt för utskrift."
+    },
+    "partIdentification": {
+      "confirmPartType": "Väntar på bekräftelse av deltyp.\nDetta avgör hur en del orienteras & vilka mallar som föreslås.",
+      "identifyingPartType": "Analyserar delens geometri för att identifiera deltyp.",
+      "partIdentification": "Analysera delens geometri för att identifiera deltyp.",
+      "partTypeConfirmed": "Deltypen har bekräftats av användaren."
+    },
+    "print": {
+      "print": "Jobbet kommer att börja skrivas ut på en enhet.",
+      "printed": "Utskriftsjobbet har slutförts framgångsrikt.",
+      "printFailed": "Utskriftsjobbet har misslyckats.\nSe skrivarens skärm för mer information.",
+      "printing": "Utskriftsjobbet skrivs ut för närvarande."
+    },
+    "rejected": "Delen har avvisats av en användare.",
+    "sendToPrinter": {
+      "printJobDownloaded": "Utskriftsjobbet har laddats ner för manuell redigering i Composer.",
+      "sendingFailed": "Utskriftsjobbet misslyckades vid sändning till skrivaren.\nDetta kan orsakas av anslutningsproblem med skrivaren.",
+      "sendingToPrinter": "Skickar jobbet till skrivaren.",
+      "sendToPrinter": "Förbereder och skickar jobbet till en skrivare.",
+      "sentToPrinter": "Utskriftsjobb skickat.",
+      "slicingFailed": "Utskriftsjobbet misslyckades under förberedelsen av utskriftslagren.\nDetta kan orsakas av problem med delfilerna.",
+      "slicingPrintJob": "Utskriftslagren förbereds."
+    }
+  },
+  "title": {
+    "parts": "Delar"
+  },
+  "tooltips": {
+    "allParts": "Alla delar som har accepterats visas här, tillsammans med deras status.",
+    "partsQueue": "Delar som är i kö för utskrift visas här, grupperade efter mall."
+  }
+}

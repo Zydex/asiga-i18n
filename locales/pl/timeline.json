@@ -1,0 +1,16 @@
+{
+  "label": {
+    "allMachines": "Wszystkie maszyny",
+    "noDevices": "Zadania w kolejce dla Twoich urządzeń są wyświetlane na osi czasu na tej stronie",
+    "noDevicesMessage": "Użyj przycisku poniżej, aby dodać urządzenia do swojej organizacji",
+    "requiresAttention": "Wymaga uwagi"
+  },
+  "title": {
+    "timeline": "Oś czasu"
+  },
+  "tooltips": {
+    "allMachines": "Pokazuje wszystkie urządzenia dodane do Funnela wraz z ich zadaniami w kolejce."
+  },
+  "viewHours_one": "Widok 1-godzinny",
+  "viewHours_other": "Widok {{count}}-godzinny"
+}

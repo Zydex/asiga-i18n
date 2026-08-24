@@ -1,0 +1,39 @@
+{
+  "alt": {
+    "noApps": "Nessuna app collegata"
+  },
+  "button": {
+    "apps": "Le app"
+  },
+  "label": {
+    "search": "Cerca app"
+  },
+  "message": {
+    "noApps": "Nessuna app collegata",
+    "noAppsInfo": "Le app collegate verranno elencate qui. Usa il pulsante 'Le app' qui sotto per visualizzare le app disponibili che possono essere collegate.",
+    "unlink": "La tua organizzazione non riceverà più componenti dall'app.",
+    "unlink_one": "La tua organizzazione non riceverà più componenti dall'app.",
+    "unlink_other": "La tua organizzazione non riceverà più componenti dalle app.",
+    "unlink_name_one": "La tua organizzazione non riceverà più componenti da {{name}}.",
+    "unlink_nameOrg_one": "{{org}} non riceverà più componenti da {{name}}.",
+    "unlink_org_other": "{{org}} non riceverà più componenti dalle app.",
+    "unlinkParts": "I componenti già ricevuti rimarranno nella tua organizzazione.",
+    "unlinkParts_org": "I componenti già ricevuti rimarranno in {{org}}."
+  },
+  "title": {
+    "apps": "Le app",
+    "connectedApps": "App connesse",
+    "lastUsed": "Ultimo utilizzo",
+    "linked": "Collegato",
+    "name": "Nome",
+    "never": "Mai",
+    "unlink": "Scollegare l'app?",
+    "unlink_name": "Scollegare {{name}}?",
+    "unlink_one": "Scollegare l'app?",
+    "unlink_other": "Scollegare le app?"
+  },
+  "tooltips": {
+    "apps": "Elenca tutte le app supportate da Funnel. Usale per ricevere automaticamente componenti da servizi di terze parti.",
+    "connectedApps": "Elenca tutte le app che dispongono dell'autorizzazione per inviare componenti a Funnel."
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "button": {
+    "download": "Letöltés",
+    "exportReportPdf": "PDF exportálása",
+    "moveOffline": "Átdolgozás offline módban",
+    "promoteJob": "Munka előléptetése",
+    "reprint": "Újranyomtatás",
+    "reprintParts": "Alkatrészek újranyomtatása",
+    "requeueParts": "Alkatrészek visszasorolása",
+    "resendJob": "Munka újraküldése",
+    "reshuffle": "Újrarendezés"
+  },
+  "details": {
+    "basePlate": "Alaplap beállításai",
+    "currentJob": "Aktuális munka",
+    "currentParts": "Aktuális alkatrészek",
+    "jobInformation": "Munka adatai",
+    "parts": "Alkatrészek"
+  },
+  "label": {
+    "accepted": "Elfogadva",
+    "buildAreaUsage": "Építési terület kihasználtsága",
+    "estimatedMaterial": "Becsült anyagfelhasználás",
+    "estimatedPrintTime": "Becsült nyomtatási idő",
+    "external": "Külső",
+    "jobContainsPriorityParts": "A munka prioritást élvező alkatrészeket tartalmaz",
+    "jobsTab": "Munka fülek",
+    "layerThickness": "Rétegvastagság",
+    "material": "Anyag",
+    "partName": "Alkatrész neve",
+    "partType": "Alkatrész típusa",
+    "provisional": "Ideiglenes",
+    "rejected": "Elutasítva",
+    "reprintParts": "Újranyomtatja az ebből a munkából származó alkatrészeket?",
+    "reprintPartsNoneAvailable": "Az összes alkatrész újranyomtatása folyamatban van",
+    "requeuedPartsSuccess": "Az alkatrészek sikeresen visszasorolva",
+    "requeuedPartsSuccess_one": "Az alkatrész sikeresen visszasorolva",
+    "requeuedPartsSuccess_other": "Az alkatrészek sikeresen visszasorolva",
+    "requeuingParts": "Alkatrészek visszasorolása folyamatban",
+    "search": "Munkák keresése",
+    "source": "Forrás",
+    "targetDevice": "Céleszköz",
+    "template": "Sablon",
+    "toReview": "Átnézésre vár",
+    "trayType": "Tálca típusa"
+  },
+  "message": {
+    "deviceOffline": "Ez a munka nem kerül elküldésre, amíg a nyomtató újra online nem lesz.\n\nEllenőrizze, hogy a(z) {{device}} online állapotban van-e, és aktív internetkapcsolattal rendelkezik-e.",
+    "deviceOffline_one": "Ez a munka nem kerül elküldésre, amíg a nyomtató újra online nem lesz.\n\nEllenőrizze, hogy a(z) {{device}} online állapotban van-e, és aktív internetkapcsolattal rendelkezik-e.",
+    "deviceOffline_other": "Ezek a munkák nem kerülnek elküldésre, amíg az egyes nyomtatók újra online nem lesznek.\n\nEllenőrizze, hogy a nyomtatók online állapotban vannak-e, és aktív internetkapcsolattal rendelkeznek-e.",
+    "downloadInfo": "Alternatív megoldásként a nyomtatási munka letölthető, hogy szerkeszthető legyen a Composerben.",
+    "moveOffline": "Ez elutasítja a munkát, és letölti azt a Composerben történő szerkesztéshez.",
+    "moveOffline_one": "Ez elutasítja a kiválasztott munkát, és letölti azt a Composerben történő szerkesztéshez.",
+    "moveOffline_other": "Ez elutasítja a kiválasztott munkákat, és letölti azokat a Composerben történő szerkesztéshez.",
+    "noJobsToReview": "Az előléptetett ideiglenes munkák itt fognak megjelenni. A kezdéshez töltsön fel alkatrészeket a bejövő mappába.",
+    "noParts": "Ehhez a munkához nem tartoznak alkatrészek.",
+    "noPartsToReprint": "Az ebben a munkában lévő alkatrészek már vissza lettek sorolva újranyomtatásra.",
+    "rejectInfo": "Az „Újrarendezés” megnyomása az alkatrészek pozíciójának és elforgatásának megváltozását eredményezi egy új nyomtatási munka részeként. Az újrarendezés során egyes alkatrészek eltávolításra vagy hozzáadásra kerülhetnek.",
+    "reprintParts": "A kiválasztott alkatrészek prioritást kapnak az újranyomtatáshoz a következő megfelelő nyomtatási munka részeként.",
+    "reprintPartsKey": "A szürkével jelölt alkatrészek már újra lettek nyomtatva.",
+    "requeueParts": "Ez elutasítottként jelöli meg a munkát, és az összes benne lévő alkatrészt visszahelyezi a sorba.",
+    "reworkOffline_one": "A(z) <bold>#{{id}}</bold> nyomtatási munka megjelölve mint <bold>Offline átdolgozva</bold>",
+    "reworkOffline_other": "{{count}} nyomtatási munka megjelölve mint <bold>Offline átdolgozva</bold>",
+    "submittingJob": "#{{id}} beküldése",
+    "submittingJob_device": "Beküldés  <bold>#{{id}}</bold> ide: <bold>{{device}}</bold>"
+  },
+  "status": {
+    "awaitingApproval": {
+      "name": "Jóváhagyásra vár",
+      "tooltip": "A véglegesített munka átnézésre kész."
+    },
+    "cancelled": {
+      "name": "Törölve",
+      "tooltip": "A nyomtatási munka törlésre került, mielőtt befejeződött volna, vagy törölve lett az építési sorból."
+    },
+    "failed": {
+      "name": "Sikertelen",
+      "tooltip": "A nyomtatási munka sikertelen volt.\n\nTovábbi információért tekintse meg a nyomtató kijelzőjét."
+    },
+    "generating": {
+      "name": "Nyomtatási munka véglegesítése",
+      "tooltip": "Az ideiglenes munka elrendezése véglegesítésre került, és a nyomtatási rétegek előkészítése folyamatban van."
+    },
+    "nestingFailed": {
+      "name": "Nesztelés sikertelen",
+      "tooltip": "Az alkatrészek nesztelése sikertelen volt. Ezt egy vagy több alkatrészfájllal kapcsolatos probléma okozhatja."
+    },
+    "offline": {
+      "name": "Offline átdolgozva",
+      "tooltip": "A munka letöltésre került, hogy szerkeszthető és elküldhető legyen a Composerben."
+    },
+    "paused": {
+      "name": "Szüneteltetve",
+      "tooltip": "A nyomtatási munka szüneteltetve lett a nyomtatón."
+    },
+    "printed": {
+      "name": "Kinyomtatva",
+      "tooltip": "A munka sikeresen befejeződött."
+    },
+    "printing": {
+      "name": "Nyomtatás",
+      "tooltip": "A munka jelenleg nyomtatás alatt áll."
+    },
+    "printPending": {
+      "name": "Nyomtatásra vár",
+      "tooltip": "A munka a nyomtatón van, és nyomtatásra kész."
+    },
+    "provisional": {
+      "name": "Ideiglenes",
+      "tooltip": "A munka ideiglenes állapotban van, és akkor válik véglegessé, ha:\n<ul><li>további alkatrészek kerülnek hozzáadásra, hogy kitöltsék a munkát</li><li>hamarosan elérhetővé válik egy megfelelő nyomtató a nyomtatásához</li></ul>A munka manuálisan is előléptethető végleges állapotba."
+    },
+    "rejected": {
+      "name": "Elutasítva",
+      "tooltip": "A munka elutasításra került, és az alkatrészek vissza lettek sorolva."
+    },
+    "sendingFailed": {
+      "name": "Küldés sikertelen",
+      "tooltip": "A nyomtatási munka küldése a nyomtatóra sikertelen volt.\n\nEzt okozhatja, hogy a nyomtató offline állapotba került, vagy az építési sor megtelt, és nincs elegendő szabad memória."
+    },
+    "sendingToPrinter": {
+      "name": "Küldés a nyomtatóra",
+      "tooltip": "A nyomtatási rétegek küldése a nyomtatóra folyamatban van."
+    },
+    "slicing": {
+      "name": "Nyomtatási munka szeletelése",
+      "tooltip": "A nyomtatási rétegek előkészítése folyamatban van."
+    },
+    "slicingFailed": {
+      "name": "Szeletelés sikertelen",
+      "tooltip": "A nyomtatási munka sikertelen volt a nyomtatási rétegek előkészítése közben.\n\nEzt az alkatrészfájlokkal kapcsolatos problémák okozhatják."
+    }
+  },
+  "title": {
+    "device": "Eszköz",
+    "deviceOffline": "A(z) {{device}} offline állapotban van",
+    "deviceOffline_one": "A(z) {{device}} offline állapotban van",
+    "deviceOffline_other": "Több nyomtató offline állapotban van.",
+    "jobNumber": "Munkaszám",
+    "material": "Anyag",
+    "moveOffline": "Munka átdolgozása offline módban?",
+    "moveOffline_one": "Munka átdolgozása offline módban?",
+    "moveOffline_other": "Munkák átdolgozása offline módban?",
+    "noJobsAccepted": "Nincs elfogadott munka",
+    "noJobsRejected": "Nincs elutasított munka",
+    "noJobsToReview": "Nincs átnézésre váró munka",
+    "printJobs": "Nyomtatási munkák",
+    "rejectJob": "Újrarendezi az elutasított munkát?",
+    "requeueParts": "Visszasorolja az alkatrészeket?",
+    "status": "Állapot"
+  },
+  "tooltips": {
+    "accepted": "Itt láthatók az összes elfogadott munka, az állapotukkal együtt.",
+    "provisional": "Ez mutatja a várható közelgő munkákat a nyomtató elérhetősége, a sablon kompatibilitása és a Funnelben lévő nyomtatlan alkatrészek alapján.\n\nElőléptetésükkel egy véglegesített nyomtatási munka jön létre, amely tartalmazza az azonosított alkatrészeket, az elrendezést és a célnyomtatót. Amikor a véglegesített munkákhoz elkészülnek a támasztékok, azok megjelennek az „Átnézésre vár” fülön.",
+    "rejected": "Itt láthatók az összes elutasított munka.",
+    "resendJob": "Munka újraküldése egy nyomtatóra. Ez akkor lehet hasznos, ha a munka törölve lett, vagy ha az eszköznél hiba lépett fel.",
+    "toReview": "Itt láthatók az átnézésre kész nyomtatási munkák. Fogadja el őket a nyomtatóra küldéshez."
+  }
+}

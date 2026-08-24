@@ -1,0 +1,32 @@
+{
+  "button": {
+    "manageBilling": "Abrechnung verwalten",
+    "manageSubscription": "Abonnement verwalten",
+    "subscribeLater": "Später abonnieren",
+    "subscriptionOptions": "Abonnementoptionen"
+  },
+  "description": {
+    "manageBilling": "Rechnungen einsehen sowie Abrechnungsdetails überprüfen und aktualisieren.",
+    "paymentIssue": "Es gab ein Problem mit Ihren Zahlungsdetails.",
+    "subscriptionStatus": "{{subscriptionTier}}, das am {{subscriptionEnd, datetime}} erneuert wird",
+    "subscriptionStatusEnding": "{{subscriptionTier}}, das am {{subscriptionEnd, datetime}} endet",
+    "subscriptionTiers": "Sie können Ihre Abonnementstufe jederzeit aktualisieren, wenn sich die Anforderungen Ihrer Organisation ändern.",
+    "subscriptionUnknownActiveStatus": "Ihr Abonnement ist aktiv",
+    "trialEnded": "Abonnieren Sie, um weiterhin Druckaufträge zu erstellen und zu senden.",
+    "trialEnding": "Sie müssen ein Abonnement abschließen, wenn die kostenlose Testversion abläuft, um Druckaufträge erstellen und senden zu können."
+  },
+  "title": {
+    "availableWithSubscription": "Mit einem Abonnement verfügbar",
+    "manageBilling": "Abrechnung verwalten",
+    "newSubscription": "Neues Abonnement",
+    "organisation": "Organisation",
+    "subscription": "Abonnement",
+    "subscriptionStatus": "Abonnementstatus",
+    "subscriptionTiers": "Abonnementstufen",
+    "trialEnded": "Testversion ist abgelaufen",
+    "trialEnding_zero": "Testversion endet heute",
+    "trialEnding_one": "Testversion endet in {{count}} Tag",
+    "trialEnding_other": "Testversion endet in {{count}} Tagen",
+    "trialEndingUnknown": "Testversion endet bald"
+  }
+}

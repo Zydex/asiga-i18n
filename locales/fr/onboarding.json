@@ -1,0 +1,59 @@
+{
+  "gettingStarted": {
+    "dismissDialog": {
+      "description": "Choisissez de fermer définitivement le guide de démarrage ou de le masquer jusqu'à votre prochaine session.",
+      "dismissPermanently": "Fermer définitivement",
+      "hide": "Masquer",
+      "title": "Fermer « Premiers pas »"
+    },
+    "help": "Besoin d'aide supplémentaire ? Consultez notre <guide>guide d'utilisation</guide> détaillé",
+    "label": {
+      "collapse": "Réduire",
+      "dismiss": "Fermer",
+      "expand": "Développer"
+    },
+    "step": {
+      "acceptJobs": {
+        "description": "Sur la page <bold>Travaux</bold>, sélectionnez des travaux et cliquez sur « Accepter »",
+        "title": "Accepter les travaux"
+      },
+      "createTemplate": {
+        "description": "Sur la page <bold>Gérer</bold> / <bold>Modèles</bold>, cliquez sur « Créer »",
+        "title": "Créer un modèle"
+      },
+      "enrolPrinter": {
+        "description": "Sur la page <bold>Appareils</bold>, cliquez sur « Ajouter appareil »",
+        "title": "Inscrire une imprimante"
+      },
+      "inviteColleagues": {
+        "description": "Sur la page <bold>Gérer</bold> / <bold>Utilisateurs</bold>, cliquez sur « Ajouter utilisateur »",
+        "title": "Inviter des collègues (facultatif)"
+      },
+      "uploadAcceptParts": {
+        "description": "Sur la page <bold>Boîte de réception</bold>, faites glisser-déposer vos fichiers STL, sélectionnez les pièces téléchargées et cliquez sur « Accepter »",
+        "title": "Télécharger et accepter les pièces"
+      }
+    },
+    "subtitle": "Suivez ces étapes pour envoyer des travaux d'impression à vos appareils",
+    "title": "Premiers pas"
+  },
+  "label": {
+    "country": "Pays",
+    "industry": "Type de secteur d'activité",
+    "organisationName": "Nom de l'organisation",
+    "phoneNumber": "Numéro de téléphone",
+    "subtitle": "Votre portail vers une configuration d'impression 3D simple et automatisée, et une gestion de la production.",
+    "title": "Créez votre compte Asiga Funnel",
+    "website": "Site Web"
+  },
+  "message": {
+    "completePersonalDetails": "Complétez vos informations personnelles",
+    "emailResendSuccess": "E-mail envoyé. Veuillez vérifier votre boîte de réception.",
+    "emailVerified": "<bold>E-mail vérifié avec succès</bold>\nVous allez être redirigé sous peu...",
+    "regionError": "Asiga Funnel n'est actuellement pris en charge qu'en Australie.",
+    "resendEmail": "Renvoyer l'e-mail de vérification",
+    "resendEmailError": "Impossible de renvoyer l'e-mail de vérification. Veuillez réessayer plus tard.",
+    "sendingEmail": "Envoi de l'e-mail de vérification...",
+    "verifyEmail": "Veuillez vérifier votre adresse e-mail pour accéder à Asiga Funnel."
+  }
+}

@@ -1,0 +1,772 @@
+{
+  "alt": {
+    "logo": "Asiga Web Portal",
+    "noSearchResults": "Inga sökresultat",
+    "sort": "Sortera efter"
+  },
+  "boolean": {
+    "false": "falskt",
+    "true": "sant"
+  },
+  "button": {
+    "accept": "Acceptera",
+    "acceptAll": "Acceptera alla",
+    "add": "Lägg till",
+    "addMore_zero": "Lägg till...",
+    "addMore_one": "Lägg till fler...",
+    "addMore_other": "Lägg till fler...",
+    "apply": "Tillämpa",
+    "back": "Tillbaka",
+    "cancel": "Avbryt",
+    "close": "Stäng",
+    "confirm": "Bekräfta",
+    "connect": "Anslut",
+    "continue": "Fortsätt",
+    "create": "Skapa",
+    "delete": "Radera",
+    "deny": "Neka",
+    "dismiss": "Avfärda",
+    "download": "Ladda ner",
+    "edit": "Redigera",
+    "essentialOnly": "Endast nödvändiga",
+    "invite": "Bjud in",
+    "logout": "Logga ut",
+    "off": "Av",
+    "ok": "OK",
+    "on": "På",
+    "pause": "Pausa",
+    "promote": "Befordra",
+    "refresh": "Ladda om",
+    "reject": "Avvisa",
+    "rejectAll": "Avvisa alla",
+    "rejectAndRequeue": "Avvisa och köa igen",
+    "rejectOnly": "Endast avvisa",
+    "remove": "Avlägsna",
+    "rename": "Byt namn",
+    "reprocess": "Bearbeta igen",
+    "reset": "Återställ",
+    "resetToDefault": "Återställ till standard",
+    "retry": "Försök igen",
+    "save": "Spara",
+    "tooltips": {
+      "changeRoleDisabled": "Du har inte behörighet att ändra rollen för de valda användarna.",
+      "changeRoleDisabled_admin": "Du har inte behörighet att ändra rollen för administratörer eller ägare.",
+      "changeRoleDisabled_owner": "Du har inte behörighet att ändra rollen för ägare.",
+      "changeRoleDisabled_user": "Du har inte behörighet att ändra andra användares roller.",
+      "deleteUserDisabled": "Du har inte behörighet att ta bort de valda användarna.",
+      "deleteUserDisabled_admin": "Du har inte behörighet att ta bort administratörer eller ägare.",
+      "deleteUserDisabled_owner": "Du har inte behörighet att ta bort andra ägare.",
+      "deleteUserDisabled_user": "Du har inte behörighet att ta bort andra användare."
+    },
+    "transfer": "Överför",
+    "unlink": "Avlänka",
+    "update": "Uppdatera"
+  },
+  "date": {
+    "all": "Alla",
+    "custom": "Anpassad",
+    "daysInterval": "Datumintervall",
+    "daysInterval_0": "Idag",
+    "daysInterval_1": "Igår",
+    "daysInterval_7": "Senaste 7 dagarna",
+    "homeRange": "Datumintervall",
+    "homeRange_currentPeriod": "Faktureringsperiod",
+    "homeRange_last12Months": "Senaste 12 månaderna",
+    "homeRange_lastWeek": "Förra veckan",
+    "homeRange_thisWeek": "Denna vecka",
+    "homeRange_today": "Idag",
+    "homeRange_yesterday": "Igår"
+  },
+  "dateRange": {
+    "error": {
+      "outOfRange": "Valda datum måste ligga inom det senaste året.",
+      "toBeforeFrom": "Det valda \"Till\"-datumet kan inte vara före \"Från\"-datumet."
+    },
+    "from": "Från",
+    "title": "{{field}} datumintervall",
+    "to": "Till"
+  },
+  "details": {
+    "copyLink": "Kopiera länk",
+    "linkCopied": "Länk kopierad till urklipp",
+    "linkCopyFailed": "Det gick inte att kopiera länken",
+    "progress": "Förlopp"
+  },
+  "dialog": {
+    "no": "Nej",
+    "yes": "Ja"
+  },
+  "displayError": {
+    "button": "Kontakta support",
+    "message": "Kontrollera anslutningen och försök uppdatera webbsidan.\nKontakta support om problemet kvarstår."
+  },
+  "error": {
+    "400": "Begäran var ogiltig.",
+    "401": "Du är inte autentiserad. Logga in.",
+    "403": "Du har inte behörighet att utföra denna begäran.",
+    "404": "Resursen kunde inte hittas.",
+    "409": "Din begäran kunde inte behandlas på grund av en konflikt.",
+    "422": "Det gick inte att validera denna begäran.",
+    "500": "Ett oväntat fel inträffade.",
+    "activeWorkflowNotFound": "Inget aktivt arbetsflöde hittades.",
+    "activeWorkflowNotFound_details": "Inget aktivt arbetsflöde hittades för organisationen med ID {{details}}.",
+    "addressCreateForbidden": "Du har inte behörighet att skapa adresser för denna organisation.",
+    "addressDeleteForbidden": "Du har inte behörighet att ta bort adresserna för denna organisation.",
+    "addressNotFound": "Adressen hittades inte.",
+    "addressNotFound_details": "Adress med id {{details}} hittades inte.",
+    "addressUpdateForbidden": "Du har inte behörighet att uppdatera adresserna för denna organisation.",
+    "auth0BadRequest": "Det gick inte att verifiera din användare.",
+    "auth0Forbidden": "Din roll har inte de behörigheter som krävs för att göra denna begäran.",
+    "auth0Unauthorized": "Du är inte autentiserad. Logga in.",
+    "badRequest": "Begäran var ogiltig.",
+    "conflict": "Din begäran kunde inte behandlas på grund av en konflikt.",
+    "deviceForbidden": "Du har inte behörighet att visa enheterna för denna organisation.",
+    "deviceNotFound": "Enheten hittades inte.",
+    "deviceNotFound_details": "Enhet med serienummer \"{{details}}\" hittades inte.",
+    "deviceStateConflict": "Enheten har ett önskat tillstånd som inte har bekräftats.",
+    "fileChecksumMismatch": "Den uppladdade filen \"{{fileName}}\" laddades inte upp korrekt. Försök att ladda upp den igen.",
+    "filesRemoved": "Filerna som krävs för denna åtgärd har överskridit sin lagringsperiod och är inte längre tillgängliga.",
+    "forbidden": "Du har inte behörighet att utföra denna begäran.",
+    "integrationNotFound": "Det gick inte att hitta integrationen.",
+    "jobDownloadIncorrectState": "Ett jobb kan endast laddas ner när det väntar på granskning.",
+    "jobDownloadReportIncorrectState": "Jobbet har ingen rapportfil tillgänglig.",
+    "jobForbidden": "Du har inte behörighet att hämta jobbet för denna organisation.",
+    "jobNoPreviewFile": "Jobbet har ingen förhandsgranskningsfil tillgänglig.",
+    "jobNoReportFile": "Jobbet har ingen rapportfil tillgänglig.",
+    "jobNoSlicedBuildFile": "Jobbet har ingen skivad byggfil redo för utskrift.",
+    "jobNotFound": "Jobbet hittades inte.",
+    "jobNotFound_details": "Jobb med id {{details}} hittades inte.",
+    "jobReviewIncorrectState": "Jobbet väntar inte på granskning.",
+    "linkCreateConflict": "En integrationslänk finns redan för denna organisation.",
+    "linkCreateForbidden": "Du har inte behörighet att skapa en integrationslänk för denna organisation.",
+    "linkDeleteForbidden": "Du har inte behörighet att ta bort en integrationslänk för denna organisation.",
+    "linkGetForbidden": "Du har inte behörighet att hämta en integrationslänk för denna organisation.",
+    "linkNotFound": "Integrationslänken hittades inte.",
+    "linkUpdateForbidden": "Du har inte behörighet att uppdatera en integrationslänk för denna organisation.",
+    "linkUserCreateForbidden": "Du har inte behörighet att skapa en integrationslänk å en annan användares vägnar.",
+    "luceneIllegalCharacterError": "Ogiltigt tecken i lucene-frågan.",
+    "luceneIllegalCharacterError_details": "Ogiltigt tecken i lucene-frågan. ({{details}})",
+    "luceneParseError": "Det gick inte att tolka Lucene-frågan.",
+    "luceneSyntaxError": "Syntaxfel i lucene-frågan.",
+    "luceneSyntaxError_details": "Syntaxfel i lucene-frågan. ({{details}})",
+    "materialCancelIncorrectState": "Du har inte behörighet att avbryta material som inte väntar på uppladdning.",
+    "materialCreateForbidden": "Du har inte behörighet att skapa ett material för denna organisation.",
+    "materialDeleteForbidden": "Du har inte behörighet att ta bort ett material för denna organisation.",
+    "materialFileEmpty": "Materialfilen är tom.",
+    "materialFileName": "Filtypen stöds inte.",
+    "materialFileParse": "Det gick inte att läsa materialfilen.",
+    "materialFileRead": "Det gick inte att läsa materialfilen.",
+    "materialFileType": "Filtypen stöds inte.",
+    "materialGetForbidden": "Du har inte behörighet att hämta ett material för denna organisation.",
+    "materialMarkAsUploadedIncorrectState": "Du har inte behörighet att markera ett material som uppladdat om det inte väntar på uppladdning.",
+    "materialNotFound": "Materialet kunde inte hittas.",
+    "materialNotUploadedIncorrectState": "En ini-fil har inte laddats upp för detta material.",
+    "materialRetryUploadIncorrectState": "Du har inte behörighet att försöka ladda upp ett material igen om det inte väntar på uppladdning.",
+    "materialUpdateForbidden": "Du har inte behörighet att uppdatera ett material för denna organisation.",
+    "materialVisibilityConflict": "Du har inte behörighet att ändra synligheten för ett material som håller på att laddas upp.",
+    "noAuthorized": "Du är inte autentiserad. Logga in.",
+    "notAllowedFieldFilter": "Ett angivet fält går inte att filtrera på.",
+    "notAllowedFieldFilter_details": "Fältet \"{{details}}\" går inte att filtrera på.",
+    "notAllowedFieldSort": "Ett angivet fält går inte att sortera på.",
+    "notAllowedFieldSort_details": "Fältet \"{{details}}\" går inte att sortera på.",
+    "notFound": "Resursen kunde inte hittas.",
+    "organisationNotFound": "Organisationen hittades inte.",
+    "organisationNotFound_details": "Organisation med id {{details}} hittades inte.",
+    "organisationUpdateForbidden": "Du har inte behörighet att uppdatera denna organisation.",
+    "organisationViewForbidden": "Du har inte behörighet att visa denna organisation.",
+    "organisationViewUsersForbidden": "Du har inte behörighet att visa användarna för denna organisation.",
+    "partCancelIncorrectState": "Du har inte behörighet att avbryta en del som inte väntar på uppladdning.",
+    "partCreateForbidden": "Du har inte behörighet att skapa en del för denna organisation.",
+    "partDeleteForbidden": "Du har inte behörighet att ta bort en del för denna organisation.",
+    "partDequeForbidden": "Du har inte behörighet att avköa en del som inte väntar på placering.",
+    "partDownloadIncorrectState": "Du har inte behörighet att ladda ner en del som inte har laddats upp.",
+    "partFileNameEmpty": "Delens filnamn är tomt",
+    "partFileNameExcessive": "Delens filnamn är för långt",
+    "partGetForbidden": "Du har inte behörighet att hämta en del för denna organisation.",
+    "partMarkAsAcceptedIncorrectState": "Du har inte behörighet att acceptera en del som inte är redo att accepteras.",
+    "partMarkAsConfirmedIncorrectState": "Du har inte behörighet att bekräfta en del som inte väntar på att bekräftas.",
+    "partMarkAsRejectedIncorrectState": "Du får inte avvisa en del som inte väntar på granskning eller att accepteras.",
+    "partMarkAsReviewedIncorrectState": "Du har inte behörighet att granska en del som inte är redo att granskas.",
+    "partMarkAsUploadedIncorrectState": "Du har inte behörighet att markera en del som uppladdad om den inte har rätt status.",
+    "partMarkQueuedAsRejectedIncorrectState": "Du har inte behörighet att avvisa en del som ingår i jobbkön.",
+    "partMarkToConfirmAsRejectedIncorrectState": "Du har inte behörighet att avvisa en del som inte väntar på att bekräftas.",
+    "partNeedsTemplateConflict": "Denna del kräver en mall, men ingen mall kan tilldelas den.",
+    "partNotFound": "Delen hittades inte.",
+    "partNotFound_details": "Del med id {{details}} hittades inte.",
+    "partRetryUploadIncorrectState": "Du har inte behörighet att försöka ladda upp en del igen om den inte väntar på uppladdning.",
+    "partUndoAcceptIncorrectState": "Du kan inte ångra acceptansen när en del inte har accepterats.",
+    "partUndoRejectIncorrectState": "Avvisandet kan inte ångras när en del inte har avvisats.",
+    "partUpdateAcceptedIncorrectState": "Du har inte behörighet att uppdatera en del som har accepterats.",
+    "partUpdateForbidden": "Du har inte behörighet att uppdatera en del för denna organisation.",
+    "roleNotFound": "Roll-id finns inte.",
+    "sortField": "Ogiltigt fältnamn.",
+    "sortField_details": "Ogiltigt fältnamn: {{details}}.",
+    "sortOrder": "Ogiltigt ordningsvärde. Måste vara antingen \"-1\" eller \"1\"",
+    "sortOrder_details": "Ogiltigt ordningsvärde: {{details}}. Måste vara antingen \"-1\" eller \"1\"",
+    "templateCreateForbidden": "Du har inte behörighet att skapa en mall för denna organisation.",
+    "templateDeleteForbidden": "Du har inte behörighet att ta bort en mall för denna organisation.",
+    "templateDeleteHardForbidden": "Du kan inte ta bort en mall direkt.",
+    "templateGetForbidden": "Du har inte behörighet att hämta en mall för denna organisation.",
+    "templateMaterialForbidden": "Du har inte åtkomst för att tilldela detta material till en mall.",
+    "templateMaterialPendingConflict": "Ett material som väntar på uppladdning kan inte tilldelas en mall.",
+    "templateNoEligibleDefault": "En standardmall krävs för varje angiven deltyp. Ange en annan mall som standard innan du tar bort denna.",
+    "templateNotFound": "Mallen kunde inte hittas.",
+    "templateUpdateForbidden": "Du har inte behörighet att uppdatera en mall för denna organisation.",
+    "unauthorized": "Du är inte autentiserad. Logga in.",
+    "unexpected": "Ett oväntat fel inträffade.",
+    "unprocessableContent": "Innehåll kan inte bearbetas",
+    "unspecified": "Ett ospecificerat fel inträffade.",
+    "unsupportedMediaType": "Mediatypen stöds inte",
+    "userBFPForbidden": "Det gick inte att avblockera användaren.",
+    "userBlockForbidden": "Det gick inte att ändra blockeringsstatus för användaren.",
+    "userConflict": "Användaren finns redan.",
+    "userConflict_details": "En användare med e-postadressen {{details}} finns redan i din organisation eller i en annan organisation. Använd en annan e-postadress.",
+    "userConflictAnotherOrg_details": "E-postadressen {{details}} är redan kopplad till en annan organisation. Använd en annan e-postadress eller be användaren att avregistrera sig från sin tidigare organisation.",
+    "userConflictWithinOrg_details": "En användare med e-postadressen {{details}} finns redan i din organisation.",
+    "userCreateForbidden": "Det gick inte att skapa användaren.",
+    "userDeleteForbidden": "Det gick inte att ta bort användaren.",
+    "userGetBFPForbidden": "Det gick inte att hämta blockeringsstatus för användaren",
+    "userGetBlockForbidden": "Det gick inte att hämta blockeringsstatus för användaren.",
+    "userGetForbidden": "Det gick inte att hitta användaren.",
+    "userNotFound": "Användaren hittades inte.",
+    "userNotFound_details": "Användaren med e-postadressen {{details}} kunde inte hittas.",
+    "userNotInOrg": "Användaren är inte kopplad till någon organisation.",
+    "userResetForbidden": "Det gick inte att återställa användarens lösenord.",
+    "userRoleAddForbidden": "Det gick inte att lägga till roll för användaren.",
+    "userRoleRemoveForbidden": "Det gick inte att ta bort roll från användaren.",
+    "userSearchField": "Ogiltiga fältinställningar för användarsökning.",
+    "userSearchForbidden": "Det gick inte att söka efter användare.",
+    "userSearchPagination": "Ogiltiga sidnumreringsinställningar för användarsökning.",
+    "userSearchSort": "Ogiltiga sorteringsinställningar för användarsökning.",
+    "userUpdateForbidden": "Det gick inte att uppdatera användaren.",
+    "validation": "Det gick inte att validera denna begäran.",
+    "value": "Ett ogiltigt värde angavs för denna begäran.",
+    "workflowNotFound": "Arbetsflödet hittades inte.",
+    "workflowNotFound_details": "Arbetsflöde med id {{details}} hittades inte."
+  },
+  "label": {
+    "acceptedGroupsSuccess_one": "{{count}} grupp flyttad till <a>Accepterade</a>",
+    "acceptedGroupsSuccess_other": "{{count}} grupper flyttade till <a>Accepterade</a>",
+    "acceptedJobsSuccess_one": "{{count}} jobb flyttat till <a>Accepterade</a>",
+    "acceptedJobsSuccess_other": "{{count}} jobb flyttade till <a>Accepterade</a>",
+    "acceptedPartsSuccess_one": "{{count}} del flyttad till <a>Accepterade</a>",
+    "acceptedPartsSuccess_other": "{{count}} delar flyttade till <a>Accepterade</a>",
+    "acceptingGroups": "Accepterar delgrupper",
+    "acceptingJobs": "Accepterar jobb",
+    "acceptingParts": "Accepterar delar",
+    "assigningTemplates": "Tilldelar mall till delar",
+    "assigningTemplatesSuccess_one": "Mall tilldelad till {{count}} del",
+    "assigningTemplatesSuccess_other": "Mall tilldelad till {{count}} delar",
+    "cancelUploadModalButtonSecondary": "Fortsätt uppladdningar",
+    "cancelUploadsModalBody": "Uppladdningen av delarna är inte klar. Vill du avbryta de återstående uppladdningarna?",
+    "cancelUploadsModalButtonPrimary": "Avbryt uppladdningar",
+    "cancelUploadsModalTitle": "Avbryta återstående uppladdningar?",
+    "confirmedSuccess_one": "{{count}} del bekräftad",
+    "confirmedSuccess_other": "{{count}} delar bekräftade",
+    "confirmingParts": "Bekräftar delar",
+    "creatingGroup": "Skapar delgrupp",
+    "default": "Standard",
+    "deprioritiseSuccess_one": "Delens prioritet har rensats.",
+    "deprioritiseSuccess_other": "Delarnas prioriteter har rensats.",
+    "deprioritisingParts": "Rensar delarnas prioriteter.",
+    "dismissingParts": "Avfärdar delar",
+    "dismissSuccess_one": "{{count}} del har avfärdats",
+    "dismissSuccess_other": "{{count}} delar har avfärdats",
+    "downloading": "Laddar ner",
+    "downloadJobsSuccess_one": "{{count}} jobb nedladdat",
+    "downloadJobsSuccess_other": "{{count}} jobb nedladdade",
+    "downloadPartsSuccess_one": "{{count}} del nedladdad",
+    "downloadPartsSuccess_other": "{{count}} delar nedladdade",
+    "duplicatePartsSuccess_one": "{{count}} del duplicerad <a>Att granska</a>",
+    "duplicatePartsSuccess_other": "{{count}} delar duplicerade <a>Att granska</a>",
+    "duplicatingParts": "Duplicerar delar",
+    "filesRemovedJob": "Utskriftsjobbets filer har överskridit sin lagringsperiod och är inte längre tillgängliga.",
+    "filesRemovedPart": "Delens filer har överskridit sin lagringsperiod och är inte längre tillgängliga.",
+    "fullname": "Fullständigt namn",
+    "groupCreateSuccess": "Delgrupp skapad",
+    "groupRegroupSuccess": "Delarna omgrupperade",
+    "groupRenameSuccess": "Delgruppens namn ändrat",
+    "groupUpdateSuccess_one": "{{count}} grupp uppdaterad",
+    "groupUpdateSuccess_other": "{{count}} grupper uppdaterade",
+    "itemSelected": "Objekt valt",
+    "itemSelected_zero": "Inga objekt valda",
+    "itemSelected_one": "{{count}} objekt valt",
+    "itemSelected_other": "{{count}} objekt valda",
+    "language": "Språk",
+    "openDrawer": "Öppna sidopanelen",
+    "partRenameSuccess": "Delens namn ändrat",
+    "preparingDownload": "Förbereder nedladdning",
+    "prioritiseSuccess_one": "{{count}} del prioriterad.",
+    "prioritiseSuccess_other": "{{count}} delar prioriterade.",
+    "prioritisingParts": "Prioriterar delar",
+    "promotedJobsSuccess_one": "{{count}} jobb befordrat till <a>Att granska</a>",
+    "promotedJobsSuccess_other": "{{count}} jobb befordrade till <a>Att granska</a>",
+    "promotingJobs": "Befordrar jobb",
+    "regroupingParts": "Omgrupperar delar",
+    "rejectedSuccess_one": "{{count}} del flyttad till <a>Avvisade</a>",
+    "rejectedSuccess_other": "{{count}} delar flyttade till <a>Avvisade</a>",
+    "rejectingParts": "Avvisar delar",
+    "rejectJobPartModalIntro_one": "Denna del är nästlad i ett jobb som är redo att granskas.",
+    "rejectJobPartModalIntro_other": "Dessa delar är nästlade i ett jobb som är redo att granskas.",
+    "rejectJobPartModalRejectAndRequeue_one": "Ta bort denna del och köa de återstående delarna igen för omnästling.",
+    "rejectJobPartModalRejectAndRequeue_other": "Ta bort dessa delar och köa de återstående delarna igen för omnästling.",
+    "rejectJobPartModalRejectOnly_one": "Ta bort denna del och behåll resten av jobbet intakt.",
+    "rejectJobPartModalRejectOnly_other": "Ta bort dessa delar och behåll resten av jobbet intakt.",
+    "rejectJobPartModalTitle": "Nästla jobbet på nytt?",
+    "rejectModal": "Valda delar kommer inte längre att beaktas för några utskriftsjobb.",
+    "rejectModalTitle_one": "Avvisa {{partName}}?",
+    "rejectModalTitle_other": "Avvisa {{count}} valda delar?",
+    "removingFromGroups": "Tar bort delar från grupper",
+    "renamePart": "Byt namn på del",
+    "renamingGroup": "Byter namn på delgrupp",
+    "renamingPart": "Byter namn på del",
+    "reprintingParts": "Köar delar igen för omutskrift",
+    "reprintPartsSuccess_one": "{{count}} del köad igen och flyttad till <a>Accepterade</a>",
+    "reprintPartsSuccess_other": "{{count}} delar köade igen och flyttade till <a>Accepterade</a>",
+    "resendingJobs": "Skickar om jobb",
+    "resentJobs_one": "Skickade om {{count}} jobb",
+    "resentJobs_other": "Skickade om {{count}} jobb",
+    "setTimezone": "Ange tidszon",
+    "settings": "Inställningar",
+    "tabs": "Flikar",
+    "timezone": "Tidszon",
+    "undoAcceptedPartsSuccess_one": "{{count}} del borttagen från Accepterade",
+    "undoAcceptedPartsSuccess_other": "{{count}} delar borttagna från Accepterade",
+    "undoingAcceptParts": "Ångrar accepterande av delar",
+    "undoingRejectParts": "Ångrar avvisning av delar",
+    "undoRejectPartsSuccess_one": "{{count}} del borttagen från Avvisade",
+    "undoRejectPartsSuccess_other": "{{count}} delar borttagna från Avvisade",
+    "ungroupingGroups": "Avgrupperar delar",
+    "ungroupSuccess_one": "Avgrupperade {{count}} grupp",
+    "ungroupSuccess_other": "Avgrupperade {{count}} grupper",
+    "updatingPartTypes": "Uppdaterar deltyper",
+    "updatingPartTypesSuccess_one": "{{count}} deltyp uppdaterad",
+    "updatingPartTypesSuccess_other": "{{count}} deltyper uppdaterade"
+  },
+  "links": {
+    "devices": "Enheter",
+    "home": "Hem",
+    "inbox": "Inkorg",
+    "manage": "Hantera",
+    "parts": "Delar",
+    "printJobs": "Utskriftsjobb",
+    "timeline": "Tidslinje",
+    "tooltips": {
+      "devices": "En realtidsöversikt över alla enheter som hjälper dig att övervaka ditt labb.",
+      "home": "En ögonblicksbild av ditt labbs aktivitet som håller dig uppdaterad.",
+      "inbox": "Ladda upp och granska delar från användare eller applikationer.\n\nBekräfta att delarna har rätt utskriftsmall tillämpad och acceptera dem för tillverkning.",
+      "manage": "Lägg till eller redigera användare, länka externa appar, allmänna inställningar.",
+      "parts": "Visa delar som har accepterats för tillverkning.\n\nKontrollera statusen för att se var de befinner sig i tillverkningsprocessen.",
+      "printJobs": "Granska utskriftsjobb som har skapats.\n\nKontrollera statusen för att se vilket skede de är i i tillverkningsprocessen.",
+      "templates": "Listar alla mallar i Funnel. Dessa styr vilka material, utskriftsinställningar och skrivare som används för varje deltyp.",
+      "timeline": "Se de utskriftsjobb du har köat på var och en av dina enheter för att övervaka förlopp och utnyttjande."
+    }
+  },
+  "loading": {
+    "unavailable": "Otillgänglig"
+  },
+  "maintenancePage": {
+    "message": "Vi jobbar på att göra Funnel bättre.\nVi är snart tillbaka.",
+    "title": "Schemalagt underhåll"
+  },
+  "message": {
+    "acceptPrivacyPolicy": "Jag godkänner <a>integritetspolicyn</a>",
+    "acceptTermsOfService": "Jag godkänner <a>användarvillkoren</a>",
+    "betaTest": "Du använder betaversionen, berätta för oss hur vi kan förbättra den. <a>Lämna feedback</a>",
+    "betaTest_narrow": "Du använder betaversionen. <a>Lämna feedback</a>",
+    "checkConnectionForBuildInfo": "Kontrollera skrivarens internetanslutning för att se aktuella och köade byggen.",
+    "cookiePolicy": "Vi använder cookies för att förbättra din surfupplevelse. För mer information, besök vår <cookie>cookiepolicy</cookie> och <privacy>integritetsförklaring</privacy>.",
+    "cookiePreferencesAllowed": "Du har tillåtit alla cookies, inklusive analys och support.",
+    "cookiePreferencesDenied": "Du använder endast strikt nödvändiga cookies.",
+    "filesRemovedAction": "Otillgänglig: filerna som krävs för denna åtgärd har överskridit sin lagringsperiod och är inte längre tillgängliga.",
+    "maintenanceMode": "Funnel kommer att vara otillgänglig den {{startDate}}, mellan {{startTime}} och {{endTime}} för nödvändigt underhåll.",
+    "maintenanceMode_multiDay": "Funnel kommer att vara otillgänglig från {{startDate}} {{startTime}} till {{endDate}} {{endTime}} för nödvändigt underhåll.",
+    "maintenanceModeActive": "Funnel genomgår schemalagt underhåll fram till {{endDate}} {{endTime}}.",
+    "noConnection": "Det gick inte att ansluta, försöker igen om {{time}}",
+    "noMatches": "Tyvärr hittades inga träffar",
+    "noMatchesHelp": "Kontrollera stavfel eller prova mer allmänna ord\nAlternativt kan du prova att använda tabellfiltren",
+    "noMatchesHelp_both": "Kontrollera stavfel eller prova mer allmänna ord\nAlternativt kan du prova att uppdatera eller rensa tabellfiltren",
+    "noMatchesHelp_filtering": "Prova att uppdatera eller rensa tabellfiltren",
+    "noMatchesHelp_searching": "Kontrollera stavfel eller prova mer allmänna ord\nAlternativt kan du prova att använda tabellfiltren",
+    "reconnecting": "Försöker återansluta",
+    "reviewAndAgreeToPolicies": "Innan du fortsätter måste du granska och godkänna <terms>användarvillkoren</terms> och <privacy>integritetspolicyn</privacy>."
+  },
+  "notFoundPage": {
+    "message": "Kontrollera sidadressen efter stavfel eller använd navigeringsmenyn längst upp till vänster",
+    "message_narrow": "Kontrollera sidadressen efter stavfel eller använd navigeringsmenyn längst upp till vänster",
+    "message_wide": "Kontrollera sidadressen efter stavfel eller använd navigeringsknapparna till vänster",
+    "title": "Vi kan inte hitta den sidan"
+  },
+  "notifications": {
+    "actions": {
+      "dismiss": "Avfärda",
+      "inbox": "Inkorg",
+      "reprintParts": "Skriv ut delar igen",
+      "requeueParts": "Köa delar igen",
+      "resend": "Skicka igen",
+      "reviewGroup": "Granska grupp",
+      "reviewPart": "Granska del",
+      "reworkOffline": "Bearbeta om offline",
+      "ungroup": "Avgruppera"
+    },
+    "clearAll": "Rensa alla",
+    "empty": "Inga aviseringar",
+    "requeuePartsConfirmation": "Är du säker på att du vill köa delarna från detta jobb igen? Detta kommer att ta bort det aktuella jobbet och skapa nya delar i inkorgen.",
+    "settings": {
+      "label": "Visa realtidsaviseringar för delar, grupper, jobb och enheter som kräver uppmärksamhet.",
+      "title": "Aviseringar"
+    },
+    "title": "Aviseringar",
+    "types": {
+      "deviceOffline": {
+        "body_one": "{{name}} har gått offline",
+        "body_other": "Flera skrivare har gått offline",
+        "title": "Skrivare offline"
+      },
+      "groupTooLarge": {
+        "body_one": "{{name}} är för stor för att skrivas ut tillsammans",
+        "body_other": "Flera grupper är för stora för att skrivas ut tillsammans",
+        "title": "Gruppen är för stor"
+      },
+      "nestingFailed": {
+        "body_one": "Det gick inte att nästla {{name}}",
+        "body_other": "Det gick inte att nästla flera jobb",
+        "title": "Nästling av jobb misslyckades"
+      },
+      "orientationFailed": {
+        "body_one": "Det gick inte att orientera {{name}}",
+        "body_other": "Det gick inte att orientera flera delar",
+        "title": "Orientering av del misslyckades"
+      },
+      "partTooLarge": {
+        "body_one": "{{name}} är för stor för att skrivas ut",
+        "body_other": "Flera delar är för stora för att skrivas ut",
+        "title": "Delen är för stor"
+      },
+      "printerError": {
+        "body_one": "{{buildName}} misslyckades under utskriften.\n\nSe skrivarens skärm för mer information.",
+        "body_other": "Flera utskrifter misslyckades.\n\nSe skrivarens skärm för mer information.",
+        "title": "Utskrift misslyckades"
+      },
+      "sendingFailed": {
+        "body_one": "Det gick inte att skicka jobb #{{name}}",
+        "body_other": "Det gick inte att skicka flera jobb",
+        "title": "Jobbet kunde inte skickas"
+      },
+      "slicingFailed": {
+        "body_one": "Det gick inte att skiva jobb #{{name}}",
+        "body_other": "Det gick inte att skiva flera jobb",
+        "title": "Jobbet kunde inte skivas"
+      },
+      "supportsFailed": {
+        "body_one": "Det gick inte att generera stöd för jobb #{{name}}",
+        "body_other": "Det gick inte att generera stöd för flera jobb",
+        "title": "Generering av jobbstöd misslyckades"
+      }
+    }
+  },
+  "progressStatus": {
+    "acceptPartForPrinting": {
+      "name": "Acceptera del för utskrift",
+      "tooltip": {
+        "part": "Delen kommer att presenteras för granskning för att bekräfta typen och de mallinställningar som kommer att användas."
+      }
+    },
+    "addingToProvisionalJob": {
+      "name": "Läggs till i preliminärt jobb",
+      "tooltip": {
+        "default": "Delen nästlas i ett preliminärt jobb."
+      }
+    },
+    "approvePrintJob": {
+      "name": "Godkänn utskriftsjobb",
+      "tooltip": {
+        "default": "Utskriftsjobbet kommer att presenteras för granskning så att layouten av delarna och stöden kan kontrolleras innan utskriftsjobbet godkänns för utskrift."
+      }
+    },
+    "cancelled": {
+      "name": "Utskrift avbruten",
+      "tooltip": {
+        "default": "Utskriftsjobbet har avbrutits innan det slutfördes eller tagits bort från byggkön."
+      }
+    },
+    "failedToPrint": {
+      "name": "Utskrift misslyckades",
+      "tooltip": {
+        "default": "Utskriftsjobbet har misslyckats.\n\nSe skrivarens skärm för mer information."
+      }
+    },
+    "generatingSupports": {
+      "name": "Genererar stöd",
+      "tooltip": {
+        "job": "Det preliminära jobbets layout har slutförts och utskriftslagren förbereds.",
+        "part": "Stöd läggs till i det preliminära jobbet innan det slutförs för att användaren ska kunna godkänna det för utskrift."
+      }
+    },
+    "groupTooLarge": {
+      "name": "Gruppen är för stor",
+      "tooltip": {
+        "part": "Gruppen som delen tillhör är för stor för att skrivas ut. Prova att avgruppera delarna."
+      }
+    },
+    "identifiedPartType": {
+      "name": "Deltyp identifierad",
+      "tooltip": {
+        "part": "Deltypen har identifierats, vilket påverkar vilka mallar som kan väljas och hur delen kommer att orienteras senare."
+      }
+    },
+    "identifyingPartType": {
+      "name": "Identifierar deltyp",
+      "tooltip": {
+        "part": "Analyserar delens geometri för att identifiera deltypen."
+      }
+    },
+    "invalidGeometry": {
+      "name": "Ogiltig geometri",
+      "tooltip": {
+        "part": "Delen kunde inte bearbetas eftersom dess geometri är ogiltig.\n\nProva att reparera modellen och ladda upp den igen."
+      }
+    },
+    "invalidModel": {
+      "name": "Ogiltig modell",
+      "tooltip": {
+        "part": "Delen kunde inte bearbetas eftersom den uppladdade filen inte är en modell.\n\nKontrollera att filen inte är skadad och ladda upp den igen."
+      }
+    },
+    "nestedInJob": {
+      "name": "Utskriftsjobb skapat",
+      "tooltip": {
+        "job": "Utskriftsjobbet har skapats.",
+        "part": "Delen har lagts till i ett utskriftsjobb."
+      }
+    },
+    "nestedInProvisionalJob": {
+      "name": "Nästlad i preliminärt jobb",
+      "tooltip": {
+        "job": "Jobbet är i ett preliminärt tillstånd och kommer att bli färdigställt när:<ul><li>fler delar läggs till för att fylla jobbet</li><li>en lämplig skrivare snart är tillgänglig för att skriva ut det</li></ul>Jobbet kan också manuellt befordras till ett färdigställt tillstånd.",
+        "part": "Delen har nästlats i ett preliminärt jobb. Det kommer att bli färdigställt när:<ul><li>fler delar läggs till för att fylla jobbet, och</li><li>en lämplig skrivare snart är tillgänglig för att skriva ut det</li></ul>"
+      }
+    },
+    "nestingBlocked": {
+      "name": "Kan inte läggas till i preliminärt jobb",
+      "tooltip": {
+        "allDevicesExcludedFromFunnel": "Kompatibla skrivare har uteslutits från att ta emot jobb från Funnel.\n\nInkludera dessa skrivare för automatiska utskriftsjobb, eller uppdatera mallen så att andra skrivare används.",
+        "allDevicesOfflineOrExcluded": "Inga kompatibla skrivare är online eller tar emot utskriftsjobb från Funnel.\n\nKontrollera att skrivarna är anslutna och inkluderade för automatiska utskriftsjobb, eller uppdatera mallen så att andra anslutna skrivare används.",
+        "groupMemberFailed": "En eller flera delar i gruppen kunde inte orienteras.\n\nTa bort den eller de delar som misslyckades för att skriva ut denna grupp.",
+        "groupMembersProcessing": "En eller flera delar i denna grupp orienteras fortfarande.",
+        "noAvailableDevices": "Inga kompatibla skrivare är online för att skriva ut denna del.\n\nKontrollera att skrivarna är anslutna, eller uppdatera mallen så att andra anslutna skrivare används."
+      }
+    },
+    "nestingFailed": {
+      "name": "Nästling misslyckades",
+      "tooltip": {
+        "default": "Nästlingen av delarna misslyckades.\nDetta kan bero på problem med delfilen."
+      }
+    },
+    "nestPrintJob": {
+      "name": "Nästla utskriftsjobb",
+      "tooltip": {
+        "part": "Delen kommer att läggas till i ett preliminärt jobb tillsammans med andra delar som använder samma mall. De kommer sedan att arrangeras på plattformen."
+      }
+    },
+    "orientatePart": {
+      "name": "Orienterar del",
+      "tooltip": {
+        "part": "Delens orientering kommer att optimeras baserat på deltypen, innan den nästlas i ett utskriftsjobb."
+      }
+    },
+    "orientatingPart": {
+      "name": "Orienterar del",
+      "tooltip": {
+        "part": "Delen orienteras för närvarande baserat på dess typ."
+      }
+    },
+    "orientationFailed": {
+      "name": "Orientering misslyckades",
+      "tooltip": {
+        "part": "Delen kunde inte orienteras för utskrift.\nDetta kan bero på problem med delfilen."
+      }
+    },
+    "partAccepted": {
+      "name": "Del accepterad",
+      "tooltip": {
+        "part": "Delen har accepterats för utskrift."
+      }
+    },
+    "partIdentification": {
+      "name": "Delidentifiering"
+    },
+    "partOrientated": {
+      "name": "Del orienterad",
+      "tooltip": {
+        "part": "Delen orienterades korrekt för utskrift."
+      }
+    },
+    "partRejected": {
+      "name": "Del avvisad",
+      "tooltip": {
+        "part": "Delen avvisades av användaren."
+      }
+    },
+    "partTooLarge": {
+      "name": "Delen är för stor",
+      "tooltip": {
+        "part": "Delen är för stor för att få plats på en skrivare kopplad till delens mall.\n\nKontrollera skalan på den uppladdade delen, och att delens mall har en skrivare som är stor nog för att rymma den."
+      }
+    },
+    "print": {
+      "name": "Skriv ut",
+      "tooltip": {
+        "default": "Utskriftsjobbet kommer att skickas till maskinen där det kommer att skrivas ut."
+      }
+    },
+    "printed": {
+      "name": "Utskriven",
+      "tooltip": {
+        "default": "Jobbet har slutförts."
+      }
+    },
+    "printing": {
+      "name": "Skriver ut",
+      "tooltip": {
+        "default": "Jobbet skrivs ut för närvarande."
+      }
+    },
+    "printJobApproved": {
+      "name": "Utskriftsjobb godkänt",
+      "tooltip": {
+        "default": "Utskriftsjobbet har godkänts."
+      }
+    },
+    "printJobPendingApproval": {
+      "name": "Utskriftsjobb väntar på godkännande",
+      "tooltip": {
+        "default": "Det färdigställda jobbet är redo för granskning."
+      }
+    },
+    "printJobRejected": {
+      "name": "Utskriftsjobb avvisat",
+      "tooltip": {
+        "default": "Jobbet avvisades och delarna har köats igen."
+      }
+    },
+    "printJobReworkedOffline": {
+      "name": "Utskriftsjobb omarbetat offline",
+      "tooltip": {
+        "default": "Utskriftsjobbet laddades ner av användaren för redigering i Composer."
+      }
+    },
+    "printPaused": {
+      "name": "Utskrift pausad",
+      "tooltip": {
+        "default": "Utskriftsjobbet har pausats av användaren."
+      }
+    },
+    "printPending": {
+      "name": "Utskrift väntar",
+      "tooltip": {
+        "default": "Jobbet finns på skrivaren och är redo att skrivas ut."
+      }
+    },
+    "sendingFailed": {
+      "name": "Sändning misslyckades",
+      "tooltip": {
+        "default": "Utskriftsjobbet misslyckades vid sändning till skrivaren.\n\nDetta kan bero på att skrivaren gick offline eller att byggkön är full med otillräckligt minne kvar."
+      }
+    },
+    "sendingToPrinter": {
+      "name": "Skickar till skrivare",
+      "tooltip": {
+        "default": "Utskriftslagren skickas till skrivaren."
+      }
+    },
+    "sendToPrinter": {
+      "name": "Skicka till skrivare",
+      "tooltip": {
+        "default": "Utskriftsjobbet kommer att skivas upp i separata lager och skickas till skrivaren för utskrift."
+      }
+    },
+    "sentToPrinter": {
+      "name": "Skickat till skrivare",
+      "tooltip": {
+        "default": "Utskriftsjobbet finns på skrivaren och är redo att skrivas ut."
+      }
+    },
+    "slicingFailed": {
+      "name": "Skivning misslyckades",
+      "tooltip": {
+        "default": "Utskriftsjobbet misslyckades under förberedelsen av utskriftslagren.\n\nDetta kan bero på problem med delfilerna."
+      }
+    },
+    "slicingPrintJob": {
+      "name": "Skivar utskriftsjobb",
+      "tooltip": {
+        "default": "Utskriftslagren förbereds."
+      }
+    },
+    "uploadTooLarge": {
+      "name": "Uppladdningen är för stor",
+      "tooltip": {
+        "part": "Den uppladdade filen är för stor.\n\nProva att minska filstorleken och ladda upp den igen."
+      }
+    },
+    "waitingForPartToBeAccepted": {
+      "name": "Acceptera del för utskrift",
+      "tooltip": {
+        "part": "Delen väntar på att användaren ska acceptera den."
+      }
+    }
+  },
+  "relativeTime": {
+    "daysAgo_one": "{{count}} dag sedan",
+    "daysAgo_other": "{{count}} dagar sedan",
+    "hoursAgo_one": "{{count}} timme sedan",
+    "hoursAgo_other": "{{count}} timmar sedan",
+    "justNow": "Just nu",
+    "minutesAgo_one": "{{count}} minut sedan",
+    "minutesAgo_other": "{{count}} minuter sedan",
+    "weeksAgo_one": "{{count}} vecka sedan",
+    "weeksAgo_other": "{{count}} veckor sedan"
+  },
+  "share": {
+    "notFound": "Det delade objektet kunde inte hittas"
+  },
+  "table": {
+    "activeFilters": "Aktiva filter:",
+    "clearFilters": "Rensa filter",
+    "expandRow": "Expandera rad",
+    "pageAmount": "Antal",
+    "perPage": "Per sida"
+  },
+  "title": {
+    "cookiePolicy": "Cookiepolicy",
+    "help": "Visa hjälp",
+    "integrations": "Integrationer",
+    "language": "Språk",
+    "manage": "Hantera",
+    "manageSubscription": "Hantera prenumeration",
+    "name": "Visningsnamn",
+    "organisation": "Organisation",
+    "photo": "Foto",
+    "privacy": "Integritet",
+    "privacyPolicy": "Integritetspolicy",
+    "profile": "Profil",
+    "subscriptionOptions": "Prenumerationsalternativ",
+    "tableOfContents": "Innehållsförteckning",
+    "templates": "Mallar",
+    "termsAndPolicy": "Villkor och policy",
+    "termsOfService": "Användarvillkor",
+    "warning": "Varning"
+  },
+  "underConstruction": {
+    "subtitle1": "Vi bygger något speciellt",
+    "subtitle2": "Kom tillbaka senare"
+  },
+  "units": {
+    "microns": "{{value}} μm",
+    "suffix": {
+      "degrees": " °",
+      "millimetres": " mm"
+    }
+  }
+}

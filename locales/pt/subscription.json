@@ -1,0 +1,32 @@
+{
+  "button": {
+    "manageBilling": "Gerir Faturação",
+    "manageSubscription": "Gerir Subscrição",
+    "subscribeLater": "Subscrever Mais Tarde",
+    "subscriptionOptions": "Opções de Subscrição"
+  },
+  "description": {
+    "manageBilling": "Ver faturas, rever e atualizar os dados de faturação.",
+    "paymentIssue": "Houve um problema com os seus dados de pagamento.",
+    "subscriptionStatus": "{{subscriptionTier}} que renova a {{subscriptionEnd, datetime}}",
+    "subscriptionStatusEnding": "{{subscriptionTier}} que termina a {{subscriptionEnd, datetime}}",
+    "subscriptionTiers": "Pode alterar o seu nível de subscrição sempre que as necessidades da sua organização mudarem.",
+    "subscriptionUnknownActiveStatus": "A sua subscrição está ativa",
+    "trialEnded": "Subscreva para continuar a criar e enviar trabalhos de impressão.",
+    "trialEnding": "Terá de subscrever quando o período de teste gratuito terminar para criar e enviar trabalhos de impressão."
+  },
+  "title": {
+    "availableWithSubscription": "Disponível com uma Subscrição",
+    "manageBilling": "Gerir Faturação",
+    "newSubscription": "Nova Subscrição",
+    "organisation": "Organização",
+    "subscription": "Subscrição",
+    "subscriptionStatus": "Estado da Subscrição",
+    "subscriptionTiers": "Níveis de Subscrição",
+    "trialEnded": "O período de teste terminou",
+    "trialEnding_zero": "O período de teste termina hoje",
+    "trialEnding_one": "O período de teste termina em {{count}} dia",
+    "trialEnding_other": "O período de teste termina em {{count}} dias",
+    "trialEndingUnknown": "O período de teste termina em breve"
+  }
+}

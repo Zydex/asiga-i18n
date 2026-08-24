@@ -1,0 +1,58 @@
+{
+  "button": {
+    "add": "Materialien hinzufügen",
+    "keepBoth": "Beide behalten",
+    "replaceMaterial": "Material ersetzen",
+    "uploadLocalMaterial": "Lokales Material hochladen"
+  },
+  "label": {
+    "adding": "Ein Material wird hinzugefügt",
+    "adding_one": "{{count}} Material wird hinzugefügt",
+    "adding_other": "{{count}} Materialien werden hinzugefügt",
+    "addSuccess_one": "{{count}} Material hinzugefügt",
+    "addSuccess_other": "{{count}} Materialien hinzugefügt",
+    "deleteSuccess_one": "{{count}} Material gelöscht",
+    "deleteSuccess_other": "{{count}} Materialien gelöscht",
+    "deleting": "Ein Material wird gelöscht",
+    "deleting_one": "{{count}} Material wird gelöscht",
+    "deleting_other": "{{count}} Materialien werden gelöscht",
+    "dropFile": "Datei zu <bold>Materialien</bold> hinzufügen",
+    "manufacturer": "Hersteller",
+    "material": "Material",
+    "name": "Materialname",
+    "search": "Nach einem Material suchen",
+    "templateName": "Vorlagenname",
+    "updateMaterial": "Materialupdate verfügbar"
+  },
+  "message": {
+    "addMaterials": "Fügen Sie Ihrer Organisation Materialien hinzu, indem Sie sie unten aus der Open Material Library auswählen. Materialdateien können auch über die Schaltfläche „Hochladen“ hinzugefügt werden.",
+    "deleteMaterialWarning": "Möchten Sie die ausgewählten Materialien wirklich löschen? In Zukunft steht nur noch die neueste Version jedes Materials wieder zum Download zur Verfügung.",
+    "manufacturerHasNoMaterials": "Hersteller hat keine Materialien",
+    "materialAlreadyAdded_one": "{{name}} wurde bereits zu Ihrer Organisation hinzugefügt.",
+    "materialAlreadyAdded_other": "Die folgenden Materialien wurden bereits zu Ihrer Organisation hinzugefügt:",
+    "materialNameConflict": "Eine Materialdatei mit dem Namen {{name}} existiert bereits in Ihrer Organisation.\n\nSie können das vorhandene Material ersetzen oder beide behalten.",
+    "materialNameConflictDoForAll_one": "Dies für {{count}} verbleibenden Namenskonflikt anwenden",
+    "materialNameConflictDoForAll_other": "Dies für {{count}} verbleibende Namenskonflikte anwenden",
+    "materialNameConflictWithRevision": "Eine Materialdatei mit dem Namen {{name}}, Revision {{revision}}, existiert bereits in Ihrer Organisation.\n\nMöchten Sie das vorhandene Material durch Revision {{requestedRevision}} ersetzen?",
+    "noMaterials": "Verwenden Sie die Schaltfläche „Materialien hinzufügen“ oben rechts auf dieser Seite, um Materialien zu Ihrer Organisation hinzuzufügen",
+    "unableToDelete_one": "Das ausgewählte Material kann nicht gelöscht werden, da es derzeit in Vorlagen verwendet wird. Bitte weisen Sie den folgenden Vorlagen andere Materialien zu, um mit dem Löschen fortzufahren:",
+    "unableToDelete_other": "Die ausgewählten Materialien können nicht gelöscht werden, da sie derzeit in Vorlagen verwendet werden. Bitte weisen Sie den folgenden Vorlagen andere Materialien zu, um mit dem Löschen fortzufahren:",
+    "updateMaterial_one": "<bold>{{name}}</bold> wird auf die neueste Version aktualisiert.",
+    "updateMaterial_other": "{{count}} Material-INI-Dateien werden auf die neueste Version aktualisiert."
+  },
+  "title": {
+    "addMaterials": "Materialien hinzufügen",
+    "deleteMaterial": "Material löschen?",
+    "materialAlreadyAdded": "Materialdatei bereits hinzugefügt",
+    "materialNameConflict": "Materialnamen sind bereits vorhanden",
+    "materials": "Materialien",
+    "noMaterials": "Keine Materialien in der Bibliothek",
+    "unableToDelete_one": "Material kann nicht gelöscht werden",
+    "unableToDelete_other": "Materialien können nicht gelöscht werden",
+    "updateMaterial_one": "Material aktualisieren?",
+    "updateMaterial_other": "Materialien aktualisieren?"
+  },
+  "tooltips": {
+    "materials": "Listet alle Materialien auf, die dem Funnel hinzugefügt wurden.\n\nMaterialien können aus der Open Material Library hinzugefügt oder manuell hochgeladen werden."
+  }
+}

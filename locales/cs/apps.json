@@ -1,0 +1,39 @@
+{
+  "alt": {
+    "noApps": "Žádné propojené aplikace"
+  },
+  "button": {
+    "apps": "Aplikace"
+  },
+  "label": {
+    "search": "Hledat aplikace"
+  },
+  "message": {
+    "noApps": "Žádné propojené aplikace",
+    "noAppsInfo": "Propojené aplikace budou zobrazeny zde. Pomocí tlačítka „Aplikace“ níže zobrazíte dostupné aplikace, které lze propojit.",
+    "unlink": "Vaše organizace už z této aplikace nebude přijímat žádné díly.",
+    "unlink_one": "Vaše organizace už z této aplikace nebude přijímat žádné díly.",
+    "unlink_other": "Vaše organizace už z těchto aplikací nebude přijímat žádné díly.",
+    "unlink_name_one": "Vaše organizace už nebude přijímat díly z aplikace {{name}}.",
+    "unlink_nameOrg_one": "{{org}} už nebude přijímat díly z aplikace {{name}}.",
+    "unlink_org_other": "{{org}} už nebude přijímat díly z těchto aplikací.",
+    "unlinkParts": "Již přijaté díly zůstanou ve vaší organizaci.",
+    "unlinkParts_org": "Již přijaté díly zůstanou v {{org}}."
+  },
+  "title": {
+    "apps": "Aplikace",
+    "connectedApps": "Připojené aplikace",
+    "lastUsed": "Naposledy použito",
+    "linked": "Propojeno",
+    "name": "Název",
+    "never": "Nikdy",
+    "unlink": "Odpojit aplikaci?",
+    "unlink_name": "Odpojit {{name}}?",
+    "unlink_one": "Odpojit aplikaci?",
+    "unlink_other": "Odpojit aplikace?"
+  },
+  "tooltips": {
+    "apps": "Zobrazuje seznam všech aplikací, které Funnel podporuje. Pomocí nich můžete automaticky přijímat díly od služeb třetích stran.",
+    "connectedApps": "Zobrazuje seznam všech aplikací, které mají oprávnění odesílat díly do Funnelu."
+  }
+}

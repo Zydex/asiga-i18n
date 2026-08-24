@@ -1,0 +1,238 @@
+{
+  "basePlate": {
+    "addTo": {
+      "enum": {
+        "allParts": "Všechny díly",
+        "supportedParts": "Podporované díly"
+      },
+      "label": "Přidat základní desku k",
+      "tooltip": "Přidá základní desku k podporovaným nebo všem dílům."
+    },
+    "enabled": {
+      "label": "Základní deska",
+      "tooltip": "Povolit generování základní desky"
+    },
+    "engraved": {
+      "label": "Přidat název tiskové úlohy na základní desku",
+      "tooltip": "Přidá na základní desku název tiskové úlohy a rozlišení XYZ v µm."
+    },
+    "meshShape": {
+      "enum": {
+        "hexagon": "Šestiúhelník",
+        "none": "Žádný",
+        "square": "Čtverec",
+        "triangle": "Trojúhelník"
+      },
+      "label": "Tvar mřížky",
+      "tooltip": "Výběrem jiného tvaru než Žádný se do základní desky přidá vzor otvorů zvoleného tvaru."
+    },
+    "meshSize": {
+      "label": "Velikost mřížky",
+      "tooltip": "Průměr otvorů v základní desce."
+    },
+    "meshWidth": {
+      "label": "Šířka mřížky",
+      "tooltip": "Tloušťka stěn mezi otvory."
+    },
+    "placement": {
+      "enum": {
+        "intersecting": "Protínající se",
+        "underneath": "Vespod"
+      },
+      "label": "Umístění",
+      "tooltip": "Umístění základní desky vzhledem ke každému dílu a jeho podporám.\n<ul><li>Vespod - posune díly a podpory nahoru a umístí základní desku vespod.</li><li>Protínající se - protne základní desku se spodní částí dílu nebo jeho podpory.</li></lu>"
+    },
+    "thickness": {
+      "label": "Tloušťka",
+      "tooltip": "Tloušťka základní desky v milimetrech."
+    },
+    "type": {
+      "enum": {
+        "boundingBox": "Ohraničující rámeček",
+        "full": "Plná",
+        "shadow": "Stín"
+      },
+      "label": "Typ",
+      "tooltip": "Typ základní desky:\n<ul><li>Plná - pokryje celou platformu základní deskou</li><li>Stín - pokryje oblasti přímo pod díly.</li><li>Ohraničující rámeček - pokryje ohraničení každého dílu.</li></ul>"
+    }
+  },
+  "button": {
+    "editBasePlateSettings": "Upravit..."
+  },
+  "label": {
+    "associatedPartType": "Přiřazený typ dílu",
+    "associatedWith": "Přiřazeno k",
+    "basePlateSettings": "Nastavení základní desky",
+    "default": "Výchozí",
+    "deleted": "Odstraněná šablona",
+    "deleteSuccess_one": "{{count}} šablona odstraněna",
+    "deleteSuccess_other": "{{count}} šablon odstraněno",
+    "enabled": "Povoleno",
+    "fastPrintMode": "Režim rychlého tisku",
+    "manufacturer": "Výrobce",
+    "material": "Materiál",
+    "materialName": "Název materiálu",
+    "outdated": "Zastaralá šablona",
+    "overrideMaterialSettings": "Zadání hodnot do těchto polí přepíše výchozí hodnoty nastavené materiálem.",
+    "partType": "Typ dílu",
+    "partTypes_other": "{{count}} typů dílů",
+    "partTypes_other_one": "1 typ dílu",
+    "partTypes_other_other": "{{count}} typů dílů",
+    "printerAndTrayType": "Typy tiskárny a podložky",
+    "printerModel": "Model tiskárny",
+    "search": "Hledat šablony",
+    "selectThickness": "Vyberte tloušťku vrstvy",
+    "separationDetect": "Detekce oddělení",
+    "supports": "Podpory",
+    "templateName": "Název šablony",
+    "thickness": "Tloušťka vrstvy",
+    "tray": "Podložka",
+    "trayType": "Typ podložky"
+  },
+  "message": {
+    "changesApplyToNewParts": "Existující díly budou aktualizovány novým nastavením šablony a znovu zařazeny do fronty k tisku.",
+    "deleteTemplateWarning": "Všechny díly používající tuto šablonu budou vráceny do Doručené pošty k posouzení. Přiřaďte jim k tisku novou šablonu, nebo je odmítněte a odstraňte z Funnelu.",
+    "modifyWillAffectParts": "Přiřazené typy dílů používající tuto šablonu budou znovu zařazeny do fronty k tisku a všechny odebrané typy dílů budou vráceny do Doručené pošty k posouzení.",
+    "modifyWillRequeueParts": "Existující díly budou aktualizovány novým nastavením šablony a znovu zařazeny do fronty k tisku.",
+    "noTemplates": "Žádné šablony",
+    "noTemplatesInfo": "Šablony budou zobrazeny zde. Pomocí tlačítka „Vytvořit“ vytvořte svou první šablonu."
+  },
+  "supportSettings": {
+    "accuracyZ": {
+      "label": "Přesnost Z",
+      "tooltip": "Tloušťka řezu použitá pro automatické generování struktur a zabránění průniku s dílem."
+    },
+    "aspectRatio": {
+      "label": "Poměr stran",
+      "tooltip": "Řídí rychlost rozšiřování podpůrných struktur."
+    },
+    "connectGap": {
+      "label": "Mezera spojení",
+      "tooltip": "Počet úrovní mřížky, pro které se spojení potlačí po nalezení vertikálního spojení (dostupné)."
+    },
+    "connection": {
+      "label": "Spojení",
+      "tooltip": "Počet uzlů, které mají být spojeny na nižší úrovni mřížky. Pokud tuto hodnotu nastavíte na 0, vytvoří se pružné podpory."
+    },
+    "contactWidth": {
+      "label": "Šířka kontaktu",
+      "tooltip": "Pro výchozí podpory: Šířka podpůrné struktury v místě kontaktu s dílem.\n\nPro mřížkové podpory: Šířka kontaktní kuličky v místě kontaktu s dílem."
+    },
+    "halfContactWidth": {
+      "label": "Poloviční šířka kontaktu",
+      "tooltip": "Zkusí znovu přidat kontaktní body s poloviční šířkou."
+    },
+    "heightLevel": {
+      "label": "Úroveň výšky",
+      "toggle": "Vyrovnání výšky",
+      "tooltip": "Použije okraj Z mezi díly a platformou."
+    },
+    "islandWidth": {
+      "label": "Šířka ostrůvku",
+      "tooltip": "Pro výchozí podpory: Šířka podpůrné struktury při prvním kontaktu s dílem.\n\nPro mřížkové podpory: Šířka kontaktní kuličky při prvním kontaktu s každým tělesem dílu."
+    },
+    "lattice": {
+      "label": "Mřížka",
+      "tooltip": "Povolí mřížkové podpory. Mřížkové podpory vytvářejí propojenou síť podpůrných nosníků kolem modelu."
+    },
+    "layout": {
+      "enum": {
+        "circle": "Kruh",
+        "hexagon": "Šestiúhelník",
+        "square": "Čtverec",
+        "triangle": "Trojúhelník"
+      },
+      "label": "Rozvržení",
+      "tooltip": "Jak jsou uzly rozmístěny v pozicích XY."
+    },
+    "margin": {
+      "label": "Okraj",
+      "tooltip": "Dodatečná vzdálenost od dílu pro zamezení kolizi."
+    },
+    "maximumWidth": {
+      "label": "Maximální šířka",
+      "tooltip": "Omezuje šířku podpůrných struktur u základny."
+    },
+    "minimumHeight": {
+      "label": "Minimální výška",
+      "tooltip": "Zabrání přidání znovu se protínajících podpor, pokud je jejich výška nižší než zadaná výška."
+    },
+    "modelInterSupport": {
+      "label": "Vzájemné podpírání modelu",
+      "tooltip": "Povolí podpůrné sloupky, které se znovu protnou a budou stát na dílu."
+    },
+    "selfSupportAngle": {
+      "label": "Úhel samonosnosti",
+      "tooltip": "Úhel ve stupních od vodorovné roviny, který nevyžaduje podpory."
+    },
+    "sideFaces": {
+      "label": "Boční plochy",
+      "tooltip": "Definuje počet bočních ploch pro nové podpůrné struktury."
+    },
+    "sideFeaturesSize": {
+      "label": "Velikost bočního detailu",
+      "tooltip": "Vzdálenost, o kterou může detail vyčnívat z povrchu bez podepření."
+    },
+    "spacingXY": {
+      "label": "Rozestup XY",
+      "tooltip": "Vzdálenost mezi uzly v rovině XY"
+    },
+    "spacingZ": {
+      "label": "Rozestup Z",
+      "tooltip": "Vzdálenost mezi mřížkovými úrovněmi podél osy Z."
+    },
+    "supportSpacing": {
+      "label": "Rozestup podpor",
+      "tooltip": "Vzdálenost mezi podpůrnými body na dílu."
+    },
+    "tallestSupport": {
+      "label": "Nejvyšší podpora",
+      "tooltip": "Ignoruje jakýkoli podepiratelný prvek nad zadanou výškou."
+    },
+    "undershoot": {
+      "label": "Podstřelení/přestřelení",
+      "tooltip": "Pro výchozí podpory: Maximální vsunutá vzdálenost, o kterou podpůrný bod vstupuje do dílu.\n\nPro mřížkové podpory: Vzdálenost od kontaktního bodu, kde se struktura začíná zužovat do bodu."
+    }
+  },
+  "title": {
+    "changesApplyToNewParts": "Změny se vztahují na nové díly",
+    "classificationSupportSettings": "Podpory {{classification}}",
+    "createTemplate": "Nová šablona",
+    "deleteTemplate": "Odstranit šablonu?",
+    "deleteTemplate_zero": "Odstranit šablonu?",
+    "deleteTemplate_one": "{{count}} díl bude vrácen do doručené pošty",
+    "deleteTemplate_other": "{{count}} dílů bude vráceno do doručené pošty",
+    "editTemplate": "Upravit šablonu",
+    "modifyWillAffectParts": "Díly mohou být touto změnou ovlivněny",
+    "modifyWillAffectParts_zero": "Díly mohou být touto změnou ovlivněny",
+    "modifyWillAffectParts_one": "{{count}} díl bude touto změnou ovlivněn",
+    "modifyWillAffectParts_other": "{{count}} dílů bude touto změnou ovlivněno",
+    "modifyWillRequeueParts": "Díly mohou být znovu zařazeny do fronty",
+    "modifyWillRequeueParts_zero": "Díly mohou být znovu zařazeny do fronty",
+    "modifyWillRequeueParts_one": "{{count}} díl bude znovu zařazen do fronty",
+    "modifyWillRequeueParts_other": "{{count}} dílů bude znovu zařazeno do fronty",
+    "templateBasePlate": "Základní deska {{name}}"
+  },
+  "tooltip": {
+    "defaultPartType": "Nastavit jako výchozí šablonu pro vybraný typ dílu",
+    "defaultPartType_disabled": "Toto je aktuálně výchozí šablona pro {{partType}}. Chcete-li ji nahradit, vyberte jako výchozí jinou šablonu.",
+    "defaultPartType_only": "Toto je výchozí šablona, protože s tímto typem dílu není přiřazena žádná jiná šablona",
+    "fastPrintMode": "<bold>Režim rychlého tisku</bold>\nZrychluje všechny nepodstatné pohyby tiskové platformy a rychle mění polohu mezi vrstvami, aby minimalizoval prostoje a zkrátil celkovou dobu tisku.",
+    "separationDetect": "<bold>Detekce oddělení</bold>\nDetekuje uvolnění fólie a zkracuje vzdálenost zvedání mezi vrstvami.\n\nPokud není oddělení správně detekováno, hrozí riziko vad tisku."
+  },
+  "types": {
+    "printerTypes": {
+      "max": "Max & Max 2",
+      "pro": "Pro 4K",
+      "ultra": "Ultra"
+    },
+    "trays": {
+      "endurance": "Endurance",
+      "LIFT": "LIFT",
+      "lowForce": "Low Force",
+      "ultraGLOSS": "UltraGLOSS",
+      "ultraGLOSSLIFT": "UltraGLOSS LIFT",
+      "universal": "Univerzální"
+    }
+  }
+}

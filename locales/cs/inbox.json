@@ -1,0 +1,199 @@
+{
+  "alt": {
+    "all": "Vše",
+    "userUpload": "Nahrávky uživatelů"
+  },
+  "button": {
+    "accept": "Přijmout",
+    "cancel": "Zrušit",
+    "confirm": "Potvrdit",
+    "createPartGroup": "Vytvořit skupinu dílů",
+    "deprioritise": "Zrušit prioritu",
+    "download": "Stáhnout",
+    "duplicate": "Duplikovat",
+    "expand": "Rozbalit",
+    "moveToReview": "Přesunout ke kontrole",
+    "partType": "Typ dílu",
+    "prioritise": "Upřednostnit",
+    "regroup": "Přeskupit",
+    "regroup_one": "Přeskupit",
+    "regroup_other": "Přeskupit",
+    "reject": "Odmítnout",
+    "removeFromGroup": "Odebrat ze skupiny",
+    "reprint": "Vytisknout díl znovu",
+    "retry": "Zkusit znovu",
+    "template": "Šablona",
+    "ungroupPartGroup": "Rozpustit skupinu",
+    "uploadPart": "Nahrát díl",
+    "viewMoreParts": "Zobrazit další díly"
+  },
+  "description": {
+    "functionality": "Nahrajte díly nebo je automaticky importujte z aplikací třetích stran. Typy dílů jsou rozpoznány, jsou na ně použity tiskové šablony a automaticky jsou přidány k vhodným tiskovým úlohám spolu s dalšími díly."
+  },
+  "details": {
+    "datePrinted": "Datum tisku",
+    "group": {
+      "groupInformation": "Informace o skupině",
+      "partName": "Název dílu",
+      "parts": "Díly",
+      "template": "Šablona"
+    },
+    "groupLabel": "Skupina",
+    "groupName": "Skupina {{id}}",
+    "history": {
+      "date": "Datum",
+      "outcome": "Výsledek",
+      "status": {
+        "accepted": "Tisk přijat",
+        "failed": "Tisk selhal",
+        "offline": "Přepracováno offline",
+        "printed": "Vytištěno",
+        "unknown": "Neznámý"
+      },
+      "title": "Historie tisku"
+    },
+    "noPrintJob_one": "Tisková úloha se zde zobrazí, jakmile bude díl vnořen.",
+    "noPrintJob_other": "Tisková úloha se zde zobrazí, jakmile budou díly vnořeny.",
+    "partInformation": "Informace o dílu",
+    "partType": "Typ dílu",
+    "printJob": "Tisková úloha",
+    "progress": "Průběh",
+    "received": "Přijato",
+    "source": "Zdroj",
+    "status": "Stav",
+    "targetDevice": "Cílové zařízení",
+    "template": "Šablona",
+    "title_zero": "Nejsou vybrány žádné položky",
+    "title_one": "Vybrána 1 položka",
+    "title_other": "Vybráno {{count}} položek"
+  },
+  "emptyInboxMessages": {
+    "accepted": {
+      "message": "Díly z karty „Kontrola“ se zde zobrazí, jakmile budou přijaty",
+      "title": "Žádné přijaté díly"
+    },
+    "confirm": {
+      "message": "Pomocí tlačítka „Nahrát díly“ nebo přetažením souborů přidejte díly do své organizace",
+      "title": "Žádné díly k potvrzení"
+    },
+    "rejected": {
+      "message": "Odmítnuté díly se zobrazí zde ",
+      "title": "Žádné odmítnuté díly"
+    },
+    "review": {
+      "message": "Pomocí tlačítka „Nahrát díly“ v pravém horním rohu této stránky nebo pomocí tlačítka níže přidejte díly do své organizace",
+      "title": "Žádné díly ke kontrole"
+    }
+  },
+  "errors": {
+    "acceptPartError": "Nepodařilo se přijmout díl",
+    "cancelPartUploadError": "Nepodařilo se zrušit nahrávání dílu",
+    "confirmPartError": "Nepodařilo se potvrdit díl",
+    "downloadPartError": "Nepodařilo se stáhnout díl",
+    "fileTooLarge": "Velikost souboru přesahuje limit 500 MB",
+    "invalidFileFormat": "Soubor musí být typu .stl",
+    "noFilesUploaded": "Nebyly nahrány žádné soubory",
+    "partCreateError": "Chyba při vytváření dílu",
+    "rejectPartError": "Nepodařilo se odmítnout díl",
+    "setPartTypeError": "Nepodařilo se aktualizovat typ dílu",
+    "undoAcceptPartError": "Nepodařilo se vrátit zpět přijetí dílu"
+  },
+  "label": {
+    "accepted": "Přijato",
+    "confirm": "Potvrdit",
+    "designSelected_one": "{{count}} vybraný návrh",
+    "designSelected_other": "{{count}} vybraných návrhů",
+    "dropFile": "Přidat soubor do schránky",
+    "groupHasBeenPrioritised": "Skupina byla upřednostněna",
+    "invalidUploadFileContent": "Jeden nebo více souborů nelze přečíst jako platný obsah STL",
+    "invalidUploadFileSize": "Jeden nebo více souborů přesahuje maximální velikost pro nahrání",
+    "invalidUploadFileType": "Podporovány jsou pouze soubory STL",
+    "partHasBeenPrioritised": "Díl byl upřednostněn",
+    "preparingDownload": "Příprava stahování",
+    "rejected": "Odmítnuto",
+    "renameGroup": "Přejmenovat skupinu dílů",
+    "review": "Ke kontrole",
+    "search": "Hledat díl",
+    "uploadCancelled": "{{partName}} (zrušeno)"
+  },
+  "message": {
+    "noParts": "Žádné díly",
+    "renameGroup": "Zadejte nový název skupiny dílů:",
+    "renamePart": "Zadejte nový název dílu:",
+    "reprocessPart_one": "{{name}} byl již dříve přidán.\n\nOpětovné zpracování tohoto dílu vytvoří další kopii ve Funnelu k tisku.",
+    "reprocessPart_other": "{{count}} dílů bylo již dříve přidáno do Funnelu.\n\nOpětovné zpracování tohoto dílu vytvoří další kopii ve Funnelu k tisku.",
+    "reprocessPart_time_one": "{{name}} byl již dříve přidán dne {{time}}.\n\nOpětovné zpracování tohoto dílu vytvoří další kopii ve Funnelu k tisku.",
+    "reprocessPart_time_other": "{{count}} dílů bylo již dříve přidáno do Funnelu.\n\nOpětovné zpracování tohoto dílu vytvoří další kopii ve Funnelu k tisku."
+  },
+  "subscriptionNotice": {
+    "approaching": {
+      "description_one": "V měsíčním limitu organizace zbývá {{count}} díl. Limit se resetuje za {{days}}.",
+      "description_other": "V měsíčním limitu organizace zbývá {{count}} dílů. Limit se resetuje za {{days}}.",
+      "title": "Blíží se měsíční limit"
+    },
+    "button": "Možnosti předplatného",
+    "close": "Zavřít",
+    "daysUntilReset_one": "{{count}} den",
+    "daysUntilReset_other": "{{count}} dní",
+    "reached": {
+      "descriptionEditor": "Limit se obnoví za {{days}}. Upravte úroveň předplatného pro zpracování dalších dílů.",
+      "descriptionMember": "Limit se obnoví za {{days}}. Kontaktujte správce, aby upravil úroveň předplatného a bylo možné zpracovat další díly.",
+      "title": "Měsíční limit dosažen"
+    }
+  },
+  "table": {
+    "partClassification": {
+      "bridge": "Můstek",
+      "crownOrToothOrVeneer": "Korunka/Zub/Fazeta",
+      "dentureAOX": "Zubní náhrada (AoX)",
+      "dentureBase": "Zubní náhrada (Báze)",
+      "denturePartial": "Zubní náhrada (Částečná)",
+      "die": "Model pahýlu",
+      "flatGingiva": "Dáseň",
+      "hollowModel": "Model (Dutý)",
+      "occlusalSplint": "Dlaha",
+      "other": "Jiné",
+      "partialFramework": "Částečný skelet",
+      "pillowGingiva": "Dáseň (Polštářová)",
+      "screwInTooth": "Implantátová korunka",
+      "solidModel": "Model (Plný)",
+      "surgicalGuide": "Chirurgické vodítko",
+      "teethRow": "Zuby náhrady",
+      "tryInDenture": "Zubní náhrada (Zkouška)"
+    },
+    "partStatus": {
+      "addedToJob": "Přidáno do úlohy",
+      "failed": "Selhalo",
+      "printed": "Vytištěno",
+      "printReady": "Připraveno k tisku",
+      "processing": "Zpracovává se",
+      "rejected": "Odmítnuto",
+      "reworkedOffline": "Přepracováno offline",
+      "toAccept": "K přijetí",
+      "toConfirm": "K potvrzení"
+    },
+    "template": {
+      "noTemplate": "Žádná šablona",
+      "noTemplateTooltip": "<a>Vytvořte šablonu</a> s typem tohoto dílu, abyste díl mohli přijmout k tisku."
+    },
+    "userUpload": "Nahrání uživatelem"
+  },
+  "title": {
+    "inbox": "Schránka",
+    "name": "Název",
+    "partType": "Typ dílu",
+    "received": "Přijato",
+    "reprocessPart_one": "Zpracovat znovu {{name}}?",
+    "reprocessPart_other": "Zpracovat znovu {{count}} dílů?",
+    "source": "Zdroj",
+    "status": "Stav",
+    "template": "Šablona",
+    "uploads": "Nahrávky"
+  },
+  "tooltips": {
+    "accepted": "Zde jsou zobrazeny díly, které byly přijaty k výrobě.",
+    "createPartGroupDisabled": "Do skupiny lze spojit pouze díly, které používají stejnou šablonu.",
+    "rejected": "Zde jsou zobrazeny díly, které byly odmítnuty k výrobě.",
+    "review": "Zde jsou zobrazeny díly přidané do Funnelu ke kontrole. Před přijetím dílu k výrobě zvolte šablonu, která se na něj použije."
+  }
+}

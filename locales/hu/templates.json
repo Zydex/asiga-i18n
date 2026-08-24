@@ -1,0 +1,238 @@
+{
+  "basePlate": {
+    "addTo": {
+      "enum": {
+        "allParts": "Minden alkatrész",
+        "supportedParts": "Támogatott alkatrészek"
+      },
+      "label": "Alaplap hozzáadása ehhez",
+      "tooltip": "Alaplap hozzáadása a támogatott vagy az összes alkatrészhez."
+    },
+    "enabled": {
+      "label": "Alaplap",
+      "tooltip": "Alaplap-generálás engedélyezése"
+    },
+    "engraved": {
+      "label": "Építés nevének hozzáadása az alaplaphoz",
+      "tooltip": "Adja hozzá az építés nevét és az XYZ felbontást µm-ben az alaplaphoz."
+    },
+    "meshShape": {
+      "enum": {
+        "hexagon": "Hatszög",
+        "none": "Nincs",
+        "square": "Négyzet",
+        "triangle": "Háromszög"
+      },
+      "label": "Háló alakja",
+      "tooltip": "Ha a Nincs opciótól eltérő alakot választ, a rendszer a kiválasztott alakú lyukmintát ad az alaplaphoz."
+    },
+    "meshSize": {
+      "label": "Háló mérete",
+      "tooltip": "Az alaplap lyukainak átmérője."
+    },
+    "meshWidth": {
+      "label": "Háló szélessége",
+      "tooltip": "A lyukak közötti falak vastagsága."
+    },
+    "placement": {
+      "enum": {
+        "intersecting": "Metsző",
+        "underneath": "Alatta"
+      },
+      "label": "Elhelyezés",
+      "tooltip": "Az alaplap elhelyezése az egyes alkatrészekhez és azok támasztékaihoz képest.\n<ul><li>Alatta - az alkatrészek és támasztékok felfelé tolása, majd az alaplap elhelyezése alattuk.</li><li>Metsző - az alaplap metszése az alkatrész vagy támasztéka aljával.</li></lu>"
+    },
+    "thickness": {
+      "label": "Vastagság",
+      "tooltip": "Az alaplap vastagsága milliméterben."
+    },
+    "type": {
+      "enum": {
+        "boundingBox": "Határoló doboz",
+        "full": "Teljes",
+        "shadow": "Árnyék"
+      },
+      "label": "Típus",
+      "tooltip": "Alaplap típusa:\n<ul><li>Teljes - lefedi az egész platformot egy alaplappal</li><li>Árnyék - lefedi az alkatrészek alatt közvetlenül elhelyezkedő területeket.</li><li>Határoló doboz - lefedi az egyes alkatrészek határoló dobozát.</li></ul>"
+    }
+  },
+  "button": {
+    "editBasePlateSettings": "Szerkesztés..."
+  },
+  "label": {
+    "associatedPartType": "Társított alkatrésztípus",
+    "associatedWith": "Társítva ezzel",
+    "basePlateSettings": "Alaplap beállításai",
+    "default": "Alapértelmezett",
+    "deleted": "Törölt sablon",
+    "deleteSuccess_one": "{{count}} sablon törölve",
+    "deleteSuccess_other": "{{count}} sablon törölve",
+    "enabled": "Engedélyezve",
+    "fastPrintMode": "Gyors nyomtatási mód",
+    "manufacturer": "Gyártó",
+    "material": "Anyag",
+    "materialName": "Anyag neve",
+    "outdated": "Elavult sablon",
+    "overrideMaterialSettings": "Az ezekbe a mezőkbe beírt értékek felülírják az anyag által beállított alapértelmezett értékeket.",
+    "partType": "Alkatrésztípus",
+    "partTypes_other": "{{count}} alkatrésztípus",
+    "partTypes_other_one": "1 alkatrésztípus",
+    "partTypes_other_other": "{{count}} alkatrésztípus",
+    "printerAndTrayType": "Nyomtató- és tálcatípusok",
+    "printerModel": "Nyomtató modellje",
+    "search": "Sablonok keresése",
+    "selectThickness": "Válassza ki a rétegvastagságot",
+    "separationDetect": "Leválás-érzékelés",
+    "supports": "Támasztékok",
+    "templateName": "Sablon neve",
+    "thickness": "Rétegvastagság",
+    "tray": "Tálca",
+    "trayType": "Tálca típusa"
+  },
+  "message": {
+    "changesApplyToNewParts": "A meglévő alkatrészek frissülnek az új sablonbeállításokkal, és újra sorba kerülnek nyomtatásra.",
+    "deleteTemplateWarning": "Az ezt a sablont használó alkatrészek visszakerülnek a Beérkezőbe felülvizsgálatra. Rendeljen hozzájuk új sablont a nyomtatásukhoz, vagy utasítsa el őket, hogy eltávolítsa őket a Funnelből.",
+    "modifyWillAffectParts": "Az ezt a sablont használó társított alkatrésztípusok újra nyomtatási sorba kerülnek, az eltávolított alkatrésztípusok pedig visszakerülnek a Beérkezőbe felülvizsgálatra.",
+    "modifyWillRequeueParts": "A meglévő alkatrészek frissülnek az új sablonbeállításokkal, és újra sorba kerülnek nyomtatásra.",
+    "noTemplates": "Nincsenek sablonok",
+    "noTemplatesInfo": "A sablonok itt jelennek meg. Az első sablon létrehozásához használja a „Létrehozás” gombot."
+  },
+  "supportSettings": {
+    "accuracyZ": {
+      "label": "Z pontosság",
+      "tooltip": "A szeletvastagság, amelyet a struktúrák automatikus generálásához és az alkatrésszel való metszés elkerüléséhez használ a rendszer."
+    },
+    "aspectRatio": {
+      "label": "Oldalarány",
+      "tooltip": "Szabályozza a támasztékstruktúrák szélesedési ütemét."
+    },
+    "connectGap": {
+      "label": "Kapcsolódási hézag",
+      "tooltip": "Azon rácsszintek száma, amelyeken a kapcsolódás el van nyomva, miután függőleges kapcsolódás található (elérhető)."
+    },
+    "connection": {
+      "label": "Kapcsolódás",
+      "tooltip": "Az alatta lévő rácsszinten összekapcsolandó csomópontok száma. Ha ezt az értéket 0-ra állítja, rugalmas támasztékok jönnek létre."
+    },
+    "contactWidth": {
+      "label": "Érintkezési szélesség",
+      "tooltip": "Alapértelmezett támasztékok esetén: a támasztékstruktúra szélessége az alkatrésszel való érintkezéskor.\n\nRácstámasztékok esetén: az érintkezési gömb szélessége az alkatrésszel való érintkezéskor."
+    },
+    "halfContactWidth": {
+      "label": "Fél érintkezési szélesség",
+      "tooltip": "Érintkezési pontok hozzáadásának újrapróbálása fele akkora szélességgel."
+    },
+    "heightLevel": {
+      "label": "Magassági szint",
+      "toggle": "Magasságkiegyenlítés",
+      "tooltip": "Z-margó alkalmazása az alkatrészek és a platform között."
+    },
+    "islandWidth": {
+      "label": "Sziget szélessége",
+      "tooltip": "Alapértelmezett támasztékok esetén: a támasztékstruktúra szélessége az alkatrésszel való első érintkezéskor.\n\nRácstámasztékok esetén: az érintkezési gömb szélessége az egyes alkatrésztestekkel való első érintkezéskor."
+    },
+    "lattice": {
+      "label": "Rács",
+      "tooltip": "Rácstámasztékok engedélyezése. A rácstámasztékok a modell körül összekapcsolt támasztógerenda-hálózatot hoznak létre."
+    },
+    "layout": {
+      "enum": {
+        "circle": "Kör",
+        "hexagon": "Hatszög",
+        "square": "Négyzet",
+        "triangle": "Háromszög"
+      },
+      "label": "Elrendezés",
+      "tooltip": "Hogyan oszlanak el a csomópontok az XY pozíciókon."
+    },
+    "margin": {
+      "label": "Margó",
+      "tooltip": "Az alkatrésztől való további ütközéselkerülési távolság."
+    },
+    "maximumWidth": {
+      "label": "Maximális szélesség",
+      "tooltip": "Korlátozza a támasztékstruktúrák szélességét az alapnál."
+    },
+    "minimumHeight": {
+      "label": "Minimális magasság",
+      "tooltip": "Elkerüli az újra metsződő támasztékok hozzáadását, ha azok magassága kisebb a megadott magasságnál."
+    },
+    "modelInterSupport": {
+      "label": "Modellt metsző támaszték",
+      "tooltip": "Engedélyezi az olyan támasztékoszlopokat, amelyek újra metsződnek, és az alkatrészen állnak."
+    },
+    "selfSupportAngle": {
+      "label": "Öntartó szög",
+      "tooltip": "A vízszinteshez képesti szög fokban, amelynél nincs szükség támasztékokra."
+    },
+    "sideFaces": {
+      "label": "Oldallapok",
+      "tooltip": "Meghatározza az új támasztékstruktúrák oldallapjainak számát."
+    },
+    "sideFeaturesSize": {
+      "label": "Oldalsó jellemző mérete",
+      "tooltip": "Az a távolság, amennyire egy részlet kiállhat egy felületből anélkül, hogy támasztékra lenne szükség."
+    },
+    "spacingXY": {
+      "label": "XY távolság",
+      "tooltip": "Csomópontok közötti távolság az XY síkban"
+    },
+    "spacingZ": {
+      "label": "Z távolság",
+      "tooltip": "Rácsszintek közötti távolság a Z tengely mentén."
+    },
+    "supportSpacing": {
+      "label": "Támaszték-távolság",
+      "tooltip": "Az alkatrész támasztási pontjai közötti távolság."
+    },
+    "tallestSupport": {
+      "label": "Legmagasabb támaszték",
+      "tooltip": "Figyelmen kívül hagy minden támasztható jellemzőt a megadott magasság felett."
+    },
+    "undershoot": {
+      "label": "Alul-/túllövés",
+      "tooltip": "Alapértelmezett támasztékok esetén: a maximális behatolási távolság, ahol a támasztási pont belép az alkatrészbe.\n\nRácstámasztékok esetén: az érintkezési ponttól mért távolság, ahol a struktúra elkezd egy pontba keskenyedni."
+    }
+  },
+  "title": {
+    "changesApplyToNewParts": "A módosítások az új alkatrészekre vonatkoznak",
+    "classificationSupportSettings": "{{classification}} támasztékok",
+    "createTemplate": "Új sablon",
+    "deleteTemplate": "Sablon törlése?",
+    "deleteTemplate_zero": "Sablon törlése?",
+    "deleteTemplate_one": "{{count}} alkatrész visszakerül a Beérkezőbe",
+    "deleteTemplate_other": "{{count}} alkatrész visszakerül a Beérkezőbe",
+    "editTemplate": "Sablon szerkesztése",
+    "modifyWillAffectParts": "Ez a módosítás alkatrészeket érinthet",
+    "modifyWillAffectParts_zero": "Ez a módosítás alkatrészeket érinthet",
+    "modifyWillAffectParts_one": "{{count}} alkatrészt érint ez a módosítás",
+    "modifyWillAffectParts_other": "{{count}} alkatrészt érint ez a módosítás",
+    "modifyWillRequeueParts": "Az alkatrészek újra sorba kerülhetnek",
+    "modifyWillRequeueParts_zero": "Az alkatrészek újra sorba kerülhetnek",
+    "modifyWillRequeueParts_one": "{{count}} alkatrész kerül újra sorba",
+    "modifyWillRequeueParts_other": "{{count}} alkatrész kerül újra sorba",
+    "templateBasePlate": "{{name}} alaplap"
+  },
+  "tooltip": {
+    "defaultPartType": "Állítsa be ezt alapértelmezett sablonként a kiválasztott alkatrésztípushoz",
+    "defaultPartType_disabled": "Ez jelenleg az alapértelmezett sablon a következőhöz: {{partType}}. Válasszon egy másik sablont alapértelmezettként a lecseréléséhez.",
+    "defaultPartType_only": "Ez az alapértelmezett sablon, mivel nincs más sablon társítva ehhez az alkatrésztípushoz",
+    "fastPrintMode": "<bold>Gyors nyomtatási mód</bold>\nFelgyorsítja az összes nem lényeges építőplatform-mozgást, gyorsan újrapozicionálva a rétegek között, hogy minimalizálja az üresjáratot és lerövidítse a teljes nyomtatási időt.",
+    "separationDetect": "<bold>Leválás-érzékelés</bold>\nÉrzékeli a fólia leválását, csökkentve az emelési távolságot a rétegek között.\n\nHa a leválás érzékelése nem megfelelő, nyomtatási hibák kockázatával járhat."
+  },
+  "types": {
+    "printerTypes": {
+      "max": "Max & Max 2",
+      "pro": "Pro 4K",
+      "ultra": "Ultra"
+    },
+    "trays": {
+      "endurance": "Endurance",
+      "LIFT": "LIFT",
+      "lowForce": "Low Force",
+      "ultraGLOSS": "UltraGLOSS",
+      "ultraGLOSSLIFT": "UltraGLOSS LIFT",
+      "universal": "Universal"
+    }
+  }
+}

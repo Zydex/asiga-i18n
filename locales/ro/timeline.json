@@ -1,0 +1,16 @@
+{
+  "label": {
+    "allMachines": "Toate mașinile",
+    "noDevices": "Sarcinile în așteptare pentru dispozitivele tale sunt afișate într-o cronologie pe această pagină",
+    "noDevicesMessage": "Utilizează butonul de mai jos pentru a adăuga dispozitive la organizația ta",
+    "requiresAttention": "Necesită atenție"
+  },
+  "title": {
+    "timeline": "Cronologie"
+  },
+  "tooltips": {
+    "allMachines": "Afișează toate dispozitivele adăugate în Funnel, împreună cu sarcinile lor în așteptare."
+  },
+  "viewHours_one": "Vizualizare de 1 oră",
+  "viewHours_other": "Vizualizare de {{count}} ore"
+}

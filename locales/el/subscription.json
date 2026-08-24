@@ -1,0 +1,32 @@
+{
+  "button": {
+    "manageBilling": "Διαχείριση Χρέωσης",
+    "manageSubscription": "Διαχείριση Συνδρομής",
+    "subscribeLater": "Εγγραφή Αργότερα",
+    "subscriptionOptions": "Επιλογές Συνδρομής"
+  },
+  "description": {
+    "manageBilling": "Προβολή τιμολογίων, έλεγχος και ενημέρωση στοιχείων χρέωσης.",
+    "paymentIssue": "Υπήρξε πρόβλημα με τα στοιχεία πληρωμής σας.",
+    "subscriptionStatus": "{{subscriptionTier}} που ανανεώνεται στις {{subscriptionEnd, datetime}}",
+    "subscriptionStatusEnding": "{{subscriptionTier}} που λήγει στις {{subscriptionEnd, datetime}}",
+    "subscriptionTiers": "Μπορείτε να ενημερώσετε το επίπεδο συνδρομής σας όποτε αλλάζουν οι ανάγκες του οργανισμού σας.",
+    "subscriptionUnknownActiveStatus": "Η συνδρομή σας είναι ενεργή",
+    "trialEnded": "Εγγραφείτε σε μια συνδρομή για να συνεχίσετε να δημιουργείτε και να στέλνετε εργασίες εκτύπωσης.",
+    "trialEnding": "Θα χρειαστεί να εγγραφείτε σε μια συνδρομή όταν λήξει η δωρεάν δοκιμή για να δημιουργείτε και να στέλνετε εργασίες εκτύπωσης."
+  },
+  "title": {
+    "availableWithSubscription": "Διαθέσιμο με Συνδρομή",
+    "manageBilling": "Διαχείριση Χρέωσης",
+    "newSubscription": "Νέα Συνδρομή",
+    "organisation": "Οργανισμός",
+    "subscription": "Συνδρομή",
+    "subscriptionStatus": "Κατάσταση Συνδρομής",
+    "subscriptionTiers": "Επίπεδα Συνδρομής",
+    "trialEnded": "Η δοκιμαστική περίοδος έληξε",
+    "trialEnding_zero": "Η δοκιμαστική περίοδος λήγει σήμερα",
+    "trialEnding_one": "Η δοκιμαστική περίοδος λήγει σε {{count}} ημέρα",
+    "trialEnding_other": "Η δοκιμαστική περίοδος λήγει σε {{count}} ημέρες",
+    "trialEndingUnknown": "Η δοκιμαστική περίοδος λήγει σύντομα"
+  }
+}

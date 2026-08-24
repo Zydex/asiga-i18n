@@ -1,0 +1,43 @@
+{
+  "approvals": {
+    "jobs": {
+      "message": "När detta är aktiverat accepteras utskriftsjobb automatiskt och skickas till en skrivare.",
+      "title": "Acceptera jobb automatiskt"
+    },
+    "parts": {
+      "message": "När detta är aktiverat accepteras delar med en mall automatiskt för tillverkning.",
+      "title": "Acceptera delar automatiskt"
+    },
+    "title": "Godkännanden",
+    "tooltips": {
+      "editPermission": "Du har inte behörighet att uppdatera godkännandeinställningar. Be en administratör eller ägare i din organisation att göra ändringar"
+    }
+  },
+  "autoPartGrouping": {
+    "label": {
+      "characterPosition": "Teckenposition",
+      "characterRange": "Teckenintervall",
+      "example": "Exempel",
+      "fromEnd": "Från slutet",
+      "fromStart": "Från början",
+      "grouping": "Automatisk gruppering",
+      "grouping_off": "Automatisk gruppering Av",
+      "grouping_on": "Automatisk gruppering På",
+      "startingCharacterPosition": "Startteckenposition"
+    },
+    "message": "Låt delar grupperas automatiskt så att de skrivs ut tillsammans i samma jobb. Konfigurera intervallet av matchande tecken så att det stämmer överens med en konvention du använder.",
+    "title": "Automatisk delgruppering",
+    "tooltips": {
+      "characterPosition": "Ange vilket tecken som ska matchas i förhållande till början eller slutet av det uppladdade delnamnet. Användbart om ordernummer visas i början eller slutet av det uppladdade delnamnet.",
+      "characterRange": "Ange antalet tecken du vill matcha.",
+      "editPermission": "Du har inte behörighet att uppdatera inställningar för automatisk gruppering. Be en administratör eller ägare i din organisation att göra ändringar",
+      "startingCharacterPosition": "Hur många teckenpositioner från början eller slutet vill du att intervallet ska börja vid. Användbart om ordernummer visas i mitten av ett namn."
+    }
+  },
+  "label": {
+    "rules": "Regler"
+  },
+  "tooltips": {
+    "rules": "Inställningar som påverkar hur delar och utskriftsjobb hanteras i din organisations Funnel."
+  }
+}

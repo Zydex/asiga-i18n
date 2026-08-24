@@ -1,0 +1,131 @@
+{
+  "emptyPartsMessages": {
+    "allParts": {
+      "message": "Wenn Teile im Posteingang akzeptiert werden, erscheinen sie hier, um für den Druck berücksichtigt zu werden",
+      "title": "Keine druckbereiten Teile"
+    },
+    "printReady": {
+      "message": "Teile, die bereit sind, einem Druckauftrag hinzugefügt zu werden, erscheinen hier",
+      "title": "Keine Teile in der Warteschlange"
+    },
+    "sent": {
+      "message": "Teile erscheinen hier, sobald sie in einem Druckauftrag zusammengestellt und an den Drucker gesendet wurden",
+      "title": "Keine Teile gesendet"
+    }
+  },
+  "group": {
+    "tooLarge": "Gruppe zu groß",
+    "tooLargeTooltip": "Die Gruppe ist zu groß, um auf eine der in dieser Vorlage angegebenen Druckerplattformen zu passen.\n\nHeben Sie die Gruppierung der Teile auf oder aktualisieren Sie die Vorlage, um einen größeren Drucker zu verwenden."
+  },
+  "label": {
+    "allParts": "Alle Teile",
+    "partsQueue": "Teile in der Warteschlange",
+    "printReady": "Druckbereit",
+    "sent": "Gesendet"
+  },
+  "status": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "Teil zum Drucken akzeptieren",
+      "partAccepted": "Teil akzeptiert"
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Druckauftrag genehmigen",
+      "printJobApproved": "Druckauftrag genehmigt",
+      "printJobPendingApproval": "Druckauftrag wartet auf Genehmigung"
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "Zum Druckauftrag hinzugefügt",
+      "generatingSupports": "Stützstrukturen werden erzeugt",
+      "nestedInProvisionalJob": "Im vorläufigen Auftrag verschachtelt",
+      "nestingFailed": "Verschachtelung fehlgeschlagen",
+      "nestingPrintJob": "Wird zum vorläufigen Auftrag hinzugefügt",
+      "nestPrintJob": "Druckauftrag verschachteln",
+      "partQueued": "Teil in Warteschlange",
+      "partTooLarge": "Teil zu groß"
+    },
+    "orientatePart": {
+      "orientatePart": "Teil ausrichten",
+      "orientatingPart": "Teil wird ausgerichtet",
+      "orientationFailed": "Ausrichtung fehlgeschlagen",
+      "partOrientated": "Teil ausgerichtet"
+    },
+    "partIdentification": {
+      "confirmPartType": "Teiltyp bestätigen",
+      "identifyingPartType": "Teiltyp wird identifiziert",
+      "partIdentification": "Teilidentifikation",
+      "partTypeConfirmed": "Teiltyp bestätigt"
+    },
+    "print": {
+      "print": "Drucken",
+      "printed": "Gedruckt",
+      "printFailed": "Drucken fehlgeschlagen",
+      "printing": "Wird gedruckt"
+    },
+    "rejected": "Abgelehnt",
+    "sendToPrinter": {
+      "printJobDownloaded": "Druckauftrag heruntergeladen",
+      "sendingFailed": "Senden fehlgeschlagen",
+      "sendingToPrinter": "Wird an den Drucker gesendet",
+      "sendToPrinter": "An Drucker senden",
+      "sentToPrinter": "An Drucker gesendet",
+      "slicingFailed": "Slicing fehlgeschlagen",
+      "slicingPrintJob": "Druckauftrag wird gesliced"
+    }
+  },
+  "statusTooltips": {
+    "acceptPartForPrinting": {
+      "acceptPartForPrinting": "Das Teil wartet darauf, vom Benutzer akzeptiert zu werden.",
+      "partAccepted": "Das Teil wurde zum Drucken akzeptiert."
+    },
+    "approvePrintJob": {
+      "approvePrintJob": "Genehmigen Sie vorläufige Aufträge zum Senden an Drucker.",
+      "printJobApproved": "Der Auftrag wurde zum Drucken akzeptiert.",
+      "printJobPendingApproval": "Der vorläufige Auftrag wartet darauf, vom Benutzer akzeptiert zu werden."
+    },
+    "nestPrintJob": {
+      "addedToPrintJob": "Das Teil wurde einem Druckauftrag hinzugefügt.",
+      "generatingSupports": "Stützstrukturen werden dem vorläufigen Auftrag hinzugefügt, bevor er fertiggestellt wird, damit der Benutzer ihn zum Drucken genehmigen kann.",
+      "nestedInProvisionalJob": "Das Teil wurde in einem vorläufigen Auftrag verschachtelt. Er wird fertiggestellt, wenn:<ul><li>Weitere Teile hinzugefügt werden, um den Auftrag zu füllen</li><li>Ein geeigneter Drucker bald zum Drucken verfügbar ist</li></ul>",
+      "nestingFailed": "Die Verschachtelung der Teile ist fehlgeschlagen.\nDies könnte durch Probleme mit der Teiledatei verursacht worden sein.",
+      "nestingPrintJob": "Das Teil wird in einem vorläufigen Auftrag verschachtelt.",
+      "nestPrintJob": "Das Teil wird verschachtelt, sobald ein geeigneter Drucker verfügbar ist, nach dem Prinzip „first in first out“.",
+      "partQueued": "Das Teil wird verschachtelt, sobald ein geeigneter Drucker verfügbar ist, nach dem Prinzip „first in first out“.",
+      "partTooLarge": "Das Teil ist zu groß für die in der Druckvorlage angegebenen Drucker.\n\nÜberprüfen Sie die Teilegröße oder erwägen Sie, der Vorlage einen größeren Drucker hinzuzufügen."
+    },
+    "orientatePart": {
+      "orientatePart": "Teil basierend auf seinem Typ ausrichten.",
+      "orientatingPart": "Das Teil wird derzeit basierend auf seinem Typ ausgerichtet.",
+      "orientationFailed": "Das Teil konnte nicht erfolgreich zum Drucken ausgerichtet werden.\nDies könnte durch Probleme mit der Teiledatei verursacht worden sein.",
+      "partOrientated": "Das Teil wurde erfolgreich zum Drucken ausgerichtet."
+    },
+    "partIdentification": {
+      "confirmPartType": "Warten auf Bestätigung des Teiltyps.\nDies bestimmt, wie ein Teil ausgerichtet wird & welche Vorlagen vorgeschlagen werden.",
+      "identifyingPartType": "Die Teilegeometrie wird analysiert, um den Teiltyp zu identifizieren.",
+      "partIdentification": "Teilegeometrie analysieren, um den Teiltyp zu identifizieren.",
+      "partTypeConfirmed": "Der Teiltyp wurde vom Benutzer bestätigt."
+    },
+    "print": {
+      "print": "Der Auftrag beginnt mit dem Drucken auf einem Gerät.",
+      "printed": "Der Druckauftrag wurde erfolgreich abgeschlossen.",
+      "printFailed": "Der Druckauftrag ist fehlgeschlagen.\nWeitere Informationen finden Sie auf dem Display des Druckers.",
+      "printing": "Der Druckauftrag wird derzeit gedruckt."
+    },
+    "rejected": "Das Teil wurde von einem Benutzer abgelehnt.",
+    "sendToPrinter": {
+      "printJobDownloaded": "Der Druckauftrag wurde zum manuellen Bearbeiten in Composer heruntergeladen.",
+      "sendingFailed": "Der Druckauftrag ist beim Senden an den Drucker fehlgeschlagen.\nDies könnte durch Verbindungsprobleme des Druckers verursacht worden sein.",
+      "sendingToPrinter": "Auftrag wird an den Drucker übermittelt.",
+      "sendToPrinter": "Bereitet den Auftrag vor und sendet ihn an einen Drucker.",
+      "sentToPrinter": "Druckauftrag übermittelt.",
+      "slicingFailed": "Der Druckauftrag ist beim Vorbereiten der Druckschichten fehlgeschlagen.\nDies könnte durch Probleme mit den Teiledateien verursacht worden sein.",
+      "slicingPrintJob": "Die Druckschichten werden vorbereitet."
+    }
+  },
+  "title": {
+    "parts": "Teile"
+  },
+  "tooltips": {
+    "allParts": "Alle akzeptierten Teile werden hier zusammen mit ihrem Status angezeigt.",
+    "partsQueue": "Teile, die in der Druckwarteschlange stehen, werden hier gruppiert nach ihrer Vorlage angezeigt."
+  }
+}

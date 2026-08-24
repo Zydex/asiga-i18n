@@ -1,0 +1,238 @@
+{
+  "basePlate": {
+    "addTo": {
+      "enum": {
+        "allParts": "Todas as peças",
+        "supportedParts": "Peças suportadas"
+      },
+      "label": "Adicionar placa base a",
+      "tooltip": "Adiciona uma base às peças suportadas, ou a todas as peças."
+    },
+    "enabled": {
+      "label": "Placa base",
+      "tooltip": "Ativar geração de base"
+    },
+    "engraved": {
+      "label": "Adicionar nome da construção à placa base",
+      "tooltip": "Adiciona o nome da construção e a resolução XYZ em µm à base."
+    },
+    "meshShape": {
+      "enum": {
+        "hexagon": "Hexágono",
+        "none": "Nenhum",
+        "square": "Quadrado",
+        "triangle": "Triângulo"
+      },
+      "label": "Forma da malha",
+      "tooltip": "Selecionar uma forma diferente de Nenhum adicionará um padrão de furos na base com a forma selecionada."
+    },
+    "meshSize": {
+      "label": "Tamanho da malha",
+      "tooltip": "O diâmetro dos furos na base."
+    },
+    "meshWidth": {
+      "label": "Largura da malha",
+      "tooltip": "Espessura das paredes entre os furos."
+    },
+    "placement": {
+      "enum": {
+        "intersecting": "Intersecção",
+        "underneath": "Por baixo"
+      },
+      "label": "Posicionamento",
+      "tooltip": "O posicionamento da base em relação a cada peça e aos seus suportes.\n<ul><li>Por baixo - desloca as peças e os suportes para cima, e coloca a base por baixo.</li><li>Intersecção - faz a base intersectar com a parte inferior da peça ou do seu suporte.</li></lu>"
+    },
+    "thickness": {
+      "label": "Espessura",
+      "tooltip": "Espessura da base em milímetros."
+    },
+    "type": {
+      "enum": {
+        "boundingBox": "Caixa delimitadora",
+        "full": "Completa",
+        "shadow": "Sombra"
+      },
+      "label": "Tipo",
+      "tooltip": "Tipo de base:\n<ul><li>Completa - cobre toda a plataforma com uma base</li><li>Sombra - cobre as regiões diretamente abaixo das peças.</li><li>Caixa delimitadora - cobre o limite de cada peça.</li></ul>"
+    }
+  },
+  "button": {
+    "editBasePlateSettings": "Editar..."
+  },
+  "label": {
+    "associatedPartType": "Tipo de peça associado",
+    "associatedWith": "Associado a",
+    "basePlateSettings": "Definições da placa base",
+    "default": "Padrão",
+    "deleted": "Modelo eliminado",
+    "deleteSuccess_one": "{{count}} modelo eliminado",
+    "deleteSuccess_other": "{{count}} modelos eliminados",
+    "enabled": "Ativado",
+    "fastPrintMode": "Modo de impressão rápida",
+    "manufacturer": "Fabricante",
+    "material": "Material",
+    "materialName": "Nome do material",
+    "outdated": "Modelo desatualizado",
+    "overrideMaterialSettings": "Inserir valores nestes campos substituirá as predefinições definidas pelo material.",
+    "partType": "Tipo de peça",
+    "partTypes_other": "{{count}} Tipos de peça",
+    "partTypes_other_one": "1 Tipo de peça",
+    "partTypes_other_other": "{{count}} Tipos de peça",
+    "printerAndTrayType": "Tipos de impressora e tabuleiro",
+    "printerModel": "Modelo da impressora",
+    "search": "Pesquisar modelos",
+    "selectThickness": "Selecionar espessura da camada",
+    "separationDetect": "Deteção de separação",
+    "supports": "Suportes",
+    "templateName": "Nome do modelo",
+    "thickness": "Espessura da camada",
+    "tray": "Tabuleiro",
+    "trayType": "Tipo de tabuleiro"
+  },
+  "message": {
+    "changesApplyToNewParts": "As peças existentes serão atualizadas com as novas definições do modelo e recolocadas na fila para impressão.",
+    "deleteTemplateWarning": "Todas as peças que utilizam este modelo serão devolvidas à Caixa de entrada para revisão. Atribua um novo modelo para as imprimir, ou rejeite-as para as remover do Funil.",
+    "modifyWillAffectParts": "Os tipos de peça associados que utilizam este modelo serão recolocados na fila para impressão e quaisquer tipos de peça removidos serão devolvidos à Caixa de entrada para revisão.",
+    "modifyWillRequeueParts": "As peças existentes serão atualizadas com as novas definições do modelo e recolocadas na fila para impressão.",
+    "noTemplates": "Sem modelos",
+    "noTemplatesInfo": "Os modelos serão apresentados aqui. Utilize o botão 'Criar' para criar o seu primeiro modelo."
+  },
+  "supportSettings": {
+    "accuracyZ": {
+      "label": "Precisão Z",
+      "tooltip": "A espessura de fatia utilizada para gerar automaticamente as estruturas e evitar a intersecção com a peça."
+    },
+    "aspectRatio": {
+      "label": "Proporção",
+      "tooltip": "Controla a taxa de alargamento das estruturas de suporte."
+    },
+    "connectGap": {
+      "label": "Lacuna de ligação",
+      "tooltip": "Número de níveis de treliça a suprimir a ligação após ter sido encontrada uma ligação vertical (disponível)."
+    },
+    "connection": {
+      "label": "Ligação",
+      "tooltip": "Número de nós a ligar no nível de treliça abaixo. Definir este valor como 0 criará suportes flexíveis."
+    },
+    "contactWidth": {
+      "label": "Largura de contacto",
+      "tooltip": "Para suportes padrão: Largura da estrutura de suporte no ponto de contacto com a peça.\n\nPara suportes em treliça: Largura da esfera de contacto no ponto de contacto com a peça."
+    },
+    "halfContactWidth": {
+      "label": "Metade da largura de contacto",
+      "tooltip": "Tenta novamente adicionar pontos de contacto com metade da largura."
+    },
+    "heightLevel": {
+      "label": "Nível de altura",
+      "toggle": "Nivelamento de altura",
+      "tooltip": "Aplica uma margem Z entre as peças e a plataforma."
+    },
+    "islandWidth": {
+      "label": "Largura de ilha",
+      "tooltip": "Para suportes padrão: Largura da estrutura de suporte no primeiro contacto com a peça.\n\nPara suportes em treliça: Largura da esfera de contacto no primeiro contacto para cada corpo da peça."
+    },
+    "lattice": {
+      "label": "Treliça",
+      "tooltip": "Ativa os suportes em treliça. Os suportes em treliça geram uma rede interligada de vigas de suporte à volta do modelo."
+    },
+    "layout": {
+      "enum": {
+        "circle": "Círculo",
+        "hexagon": "Hexágono",
+        "square": "Quadrado",
+        "triangle": "Triângulo"
+      },
+      "label": "Disposição",
+      "tooltip": "Como os nós são distribuídos pelas posições XY."
+    },
+    "margin": {
+      "label": "Margem",
+      "tooltip": "Distância adicional de prevenção de colisão em relação à peça."
+    },
+    "maximumWidth": {
+      "label": "Largura máxima",
+      "tooltip": "Limita a largura das estruturas de suporte na base."
+    },
+    "minimumHeight": {
+      "label": "Altura mínima",
+      "tooltip": "Evita adicionar suportes que se reintersectam se a sua altura for inferior à altura especificada."
+    },
+    "modelInterSupport": {
+      "label": "Intersuporte do modelo",
+      "tooltip": "Permite colunas de suporte que se reintersectam e assentam sobre a peça."
+    },
+    "selfSupportAngle": {
+      "label": "Ângulo de autossuporte",
+      "tooltip": "O ângulo em graus a partir da horizontal que não requer suportes."
+    },
+    "sideFaces": {
+      "label": "Faces laterais",
+      "tooltip": "Define o número de faces laterais para novas estruturas de suporte."
+    },
+    "sideFeaturesSize": {
+      "label": "Tamanho de detalhe lateral",
+      "tooltip": "A distância que um detalhe pode sobressair de uma superfície sem ser suportado."
+    },
+    "spacingXY": {
+      "label": "Espaçamento XY",
+      "tooltip": "Distância entre nós no plano XY"
+    },
+    "spacingZ": {
+      "label": "Espaçamento Z",
+      "tooltip": "Distância entre níveis de treliça ao longo do eixo Z."
+    },
+    "supportSpacing": {
+      "label": "Espaçamento de suportes",
+      "tooltip": "Distância entre pontos de suporte numa peça."
+    },
+    "tallestSupport": {
+      "label": "Suporte mais alto",
+      "tooltip": "Ignora qualquer característica passível de suporte acima da altura especificada."
+    },
+    "undershoot": {
+      "label": "Sub/Sobre-alcance",
+      "tooltip": "Para suportes padrão: A distância máxima injetada onde o ponto de suporte entra na peça.\n\nPara suportes em treliça: Distância a partir do ponto de contacto onde a estrutura começa a afunilar-se até um ponto."
+    }
+  },
+  "title": {
+    "changesApplyToNewParts": "As alterações aplicam-se a novas peças",
+    "classificationSupportSettings": "Suportes de {{classification}}",
+    "createTemplate": "Novo modelo",
+    "deleteTemplate": "Eliminar modelo?",
+    "deleteTemplate_zero": "Eliminar modelo?",
+    "deleteTemplate_one": "{{count}} peça será devolvida à caixa de entrada",
+    "deleteTemplate_other": "{{count}} peças serão devolvidas à caixa de entrada",
+    "editTemplate": "Editar modelo",
+    "modifyWillAffectParts": "As peças podem ser afetadas por esta alteração",
+    "modifyWillAffectParts_zero": "As peças podem ser afetadas por esta alteração",
+    "modifyWillAffectParts_one": "{{count}} peça será afetada por esta alteração",
+    "modifyWillAffectParts_other": "{{count}} peças serão afetadas por esta alteração",
+    "modifyWillRequeueParts": "As peças podem ser recolocadas na fila",
+    "modifyWillRequeueParts_zero": "As peças podem ser recolocadas na fila",
+    "modifyWillRequeueParts_one": "{{count}} peça será recolocada na fila",
+    "modifyWillRequeueParts_other": "{{count}} peças serão recolocadas na fila",
+    "templateBasePlate": "Placa base de {{name}}"
+  },
+  "tooltip": {
+    "defaultPartType": "Tornar este o modelo padrão para o tipo de peça selecionado",
+    "defaultPartType_disabled": "Este é atualmente o modelo padrão para {{partType}}. Selecione outro modelo como padrão para o substituir.",
+    "defaultPartType_only": "Este é o modelo padrão, pois não existe nenhum outro modelo associado a este tipo de peça",
+    "fastPrintMode": "<bold>Modo de impressão rápida</bold>\nAcelera todos os movimentos não essenciais da plataforma de construção, reposicionando rapidamente entre camadas para minimizar o tempo de inatividade e reduzir a duração total da impressão.",
+    "separationDetect": "<bold>Deteção de separação</bold>\nDeteta a libertação da película, reduzindo a distância de elevação entre camadas.\n\nPode arriscar defeitos de impressão se a separação não for detetada corretamente."
+  },
+  "types": {
+    "printerTypes": {
+      "max": "Max & Max 2",
+      "pro": "Pro 4K",
+      "ultra": "Ultra"
+    },
+    "trays": {
+      "endurance": "Endurance",
+      "LIFT": "LIFT",
+      "lowForce": "Low Force",
+      "ultraGLOSS": "UltraGLOSS",
+      "ultraGLOSSLIFT": "UltraGLOSS LIFT",
+      "universal": "Universal"
+    }
+  }
+}

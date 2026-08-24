@@ -1,0 +1,43 @@
+{
+  "approvals": {
+    "jobs": {
+      "message": "Gdy ta opcja jest włączona, zlecenia druku są akceptowane automatycznie i wysyłane do drukarki.",
+      "title": "Automatyczna akceptacja zleceń"
+    },
+    "parts": {
+      "message": "Gdy ta opcja jest włączona, części z szablonem są automatycznie akceptowane do produkcji.",
+      "title": "Automatyczna akceptacja części"
+    },
+    "title": "Zatwierdzenia",
+    "tooltips": {
+      "editPermission": "Nie masz uprawnień do aktualizowania ustawień zatwierdzeń. Poproś administratora lub właściciela w swojej organizacji o wprowadzenie zmian"
+    }
+  },
+  "autoPartGrouping": {
+    "label": {
+      "characterPosition": "Pozycja znaku",
+      "characterRange": "Zakres znaków",
+      "example": "Przykład",
+      "fromEnd": "Od końca",
+      "fromStart": "Od początku",
+      "grouping": "Automatyczne grupowanie",
+      "grouping_off": "Automatyczne grupowanie wyłączone",
+      "grouping_on": "Automatyczne grupowanie włączone",
+      "startingCharacterPosition": "Początkowa pozycja znaku"
+    },
+    "message": "Automatycznie grupuj części, aby były drukowane razem w tym samym zleceniu. Skonfiguruj zakres dopasowywanych znaków, aby dostosować go do stosowanej konwencji.",
+    "title": "Automatyczne grupowanie części",
+    "tooltips": {
+      "characterPosition": "Określ znak do dopasowania względem początku nazwy przesłanej części lub końca nazwy przesłanej części. Przydatne, jeśli numery zamówień pojawiają się na początku lub na końcu nazwy przesłanej części.",
+      "characterRange": "Określ liczbę znaków, które chcesz dopasować.",
+      "editPermission": "Nie masz uprawnień do aktualizowania ustawień automatycznego grupowania. Poproś administratora lub właściciela w swojej organizacji o wprowadzenie zmian",
+      "startingCharacterPosition": "Ile odstępów znaków od początku lub końca ma zaczynać się zakres. Przydatne, jeśli numery zamówień pojawiają się w środku nazwy."
+    }
+  },
+  "label": {
+    "rules": "Reguły"
+  },
+  "tooltips": {
+    "rules": "Ustawienia wpływające na sposób przetwarzania części i zleceń druku w Funnel Twojej organizacji."
+  }
+}
