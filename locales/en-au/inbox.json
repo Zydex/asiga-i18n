@@ -118,6 +118,7 @@
   },
   "message": {
     "noParts": "No Parts",
+    "partSafetyCapReached_zero": "Too many parts are waiting to be printed. Approve print jobs before uploading any more parts.",
     "partSafetyCapReached_one": "There is {{count}} part that is waiting to be printed. Approve print jobs before uploading any more parts.",
     "partSafetyCapReached_other": "There are {{count}} parts that are waiting to be printed. Approve print jobs before uploading any more parts.",
     "renameGroup": "Enter a new name for the part group:",
