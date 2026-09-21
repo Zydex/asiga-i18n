@@ -118,6 +118,9 @@
   },
   "message": {
     "noParts": "No Parts",
+    "partSafetyCapReached_zero": "Too many parts are waiting to be printed. Approve print jobs before uploading any more parts.",
+    "partSafetyCapReached_one": "There is {{count}} part that is waiting to be printed. Approve print jobs before uploading any more parts.",
+    "partSafetyCapReached_other": "There are {{count}} parts that are waiting to be printed. Approve print jobs before uploading any more parts.",
     "renameGroup": "Enter a new name for the part group:",
     "renamePart": "Enter a new name for the part:",
     "reprocessPart_one": "{{name}} was previously added.\n\nReprocessing this part will create another copy in the Funnel for printing.",
@@ -179,6 +182,7 @@
     "userUpload": "User upload"
   },
   "title": {
+    "approvePrintJobs": "Approve print jobs",
     "inbox": "Inbox",
     "name": "Name",
     "partType": "Part type",
