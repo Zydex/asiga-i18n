@@ -261,6 +261,7 @@
     "assigningTemplates": "Assigning template to parts",
     "assigningTemplatesSuccess_one": "Assigned template to {{count}} part",
     "assigningTemplatesSuccess_other": "Assigned template to {{count}} parts",
+    "beta": "Beta",
     "cancelUploadModalButtonSecondary": "Continue Uploads",
     "cancelUploadsModalBody": "Part uploads are not complete. Would you like to cancel the remaining uploads?",
     "cancelUploadsModalButtonPrimary": "Cancel Uploads",
