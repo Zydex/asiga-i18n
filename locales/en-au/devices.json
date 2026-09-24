@@ -24,6 +24,7 @@
     "excluded": "Excluded",
     "excludedDevice": "Device has been excluded from receiving print jobs from the Funnel",
     "freePrintsRemaining": "The number of free prints this device has remaining this month",
+    "licenceEnding": "This device's licence will be cancelled on {{date}}",
     "printsRemaining": "{{remaining}}/{{allowance}}",
     "requiresAttention": "Requires Attention",
     "search": "Search for a device",
