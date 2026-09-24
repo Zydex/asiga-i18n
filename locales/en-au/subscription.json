@@ -2,18 +2,43 @@
   "button": {
     "manageBilling": "Manage Billing",
     "manageSubscription": "Manage Subscription",
+    "payment": "Payment",
+    "subscribe": "Subscribe",
     "subscribeLater": "Subscribe Later",
-    "subscriptionOptions": "Subscription Options"
+    "subscribed": "Subscribed",
+    "subscriptionOptions": "Subscription Options",
+    "unsubscribe": "Unsubscribe",
+    "update": "Update"
+  },
+  "class": {
+    "max": "Max",
+    "other": "Other",
+    "pro": "Pro",
+    "ultra": "Ultra"
   },
   "description": {
     "manageBilling": "View invoices, review and update billing details.",
     "paymentIssue": "There was an issue with your payment details.",
+    "proRataBilling": "*Devices added during the billing period will be charged pro rata. <learnMore>Learn More</learnMore> about billing.",
+    "selectPrinters": "Select which devices you wish to purchase a subscription for from the list below.",
     "subscriptionStatus": "{{subscriptionTier}} which renews on {{subscriptionEnd, datetime}}",
     "subscriptionStatusEnding": "{{subscriptionTier}} which ends on {{subscriptionEnd, datetime}}",
     "subscriptionTiers": "You can update your subscription tier whenever the needs of your organisation change.",
     "subscriptionUnknownActiveStatus": "Your subscription is active",
     "trialEnded": "Subscribe to continue creating and sending print jobs.",
     "trialEnding": "You will need to subscribe when the free trial expires to create and send print jobs."
+  },
+  "label": {
+    "cost": "${{amount}} USD",
+    "costPerMonth": "Cost per month*",
+    "monthlyTotal": "Monthly total",
+    "newMonthlyTotal": "New monthly total",
+    "paymentDueToday": "Payment due today*",
+    "printer": "Printer",
+    "subscriptionStatus": "Subscription status"
+  },
+  "message": {
+    "noPrinters": "No printers have been added to your organisation yet."
   },
   "title": {
     "availableWithSubscription": "Available with a Subscription",
