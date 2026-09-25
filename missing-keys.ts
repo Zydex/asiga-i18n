@@ -5,12 +5,17 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
+// Parse command line args for --no-hint (used when the output is captured as a Claude prompt)
+const args = process.argv.slice(2)
+const showHint = !args.includes('--no-hint')
+
 // Output formatting colours, disabled by the NO_COLOR convention (https://no-color.org)
 const colour = (code: string) => (process.env.NO_COLOR ? '' : code)
 const CONSOLE_RED = colour('\x1b[31m')
 const CONSOLE_GREEN = colour('\x1b[32m')
 const CONSOLE_YELLOW = colour('\x1b[33m')
 const CONSOLE_CYAN = colour('\x1b[36m')
+const CONSOLE_BOLD_HIGHLIGHT = colour('\x1b[1;30;43m')
 const CONSOLE_RESET = colour('\x1b[0m')
 
 // Target directory containing locale JSON files
@@ -129,6 +134,12 @@ function main(): void {
         ? `${CONSOLE_RED}${totalMissing} missing key(s) across ${failedLocales} locale(s).${CONSOLE_RESET}`
         : `${CONSOLE_GREEN}No missing keys.${CONSOLE_RESET}`),
   )
+
+  if (totalMissing > 0 && showHint) {
+    console.log(
+      `\n${CONSOLE_BOLD_HIGHLIGHT} run \`npm run translate-missing-keys\` to auto-generate translation values with Claude. ${CONSOLE_RESET}`,
+    )
+  }
 
   // Exit code for CI integration
   process.exit(totalMissing > 0 ? 1 : 0)

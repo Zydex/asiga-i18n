@@ -32,12 +32,16 @@ function buildPrompt(processDoc: string, report: string): string {
 
 function main(): void {
   // Run the check without colours so the report is clean prompt text
-  const check = spawnSync('npm', ['run', '--silent', 'check-missing-keys'], {
-    cwd: __dirname,
-    encoding: 'utf8',
-    env: { ...process.env, NO_COLOR: '1' },
-    shell: process.platform === 'win32',
-  })
+  const check = spawnSync(
+    'npm',
+    ['run', '--silent', 'check-missing-keys', '--', '--no-hint'],
+    {
+      cwd: __dirname,
+      encoding: 'utf8',
+      env: { ...process.env, NO_COLOR: '1' },
+      shell: process.platform === 'win32',
+    },
+  )
 
   if (check.status === 0) {
     console.log('No missing keys, nothing to translate.')
