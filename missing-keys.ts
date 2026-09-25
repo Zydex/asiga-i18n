@@ -5,12 +5,13 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-// Output formatting colours
-const CONSOLE_RED = '\x1b[31m'
-const CONSOLE_GREEN = '\x1b[32m'
-const CONSOLE_YELLOW = '\x1b[33m'
-const CONSOLE_CYAN = '\x1b[36m'
-const CONSOLE_RESET = '\x1b[0m'
+// Output formatting colours, disabled by the NO_COLOR convention (https://no-color.org)
+const colour = (code: string) => (process.env.NO_COLOR ? '' : code)
+const CONSOLE_RED = colour('\x1b[31m')
+const CONSOLE_GREEN = colour('\x1b[32m')
+const CONSOLE_YELLOW = colour('\x1b[33m')
+const CONSOLE_CYAN = colour('\x1b[36m')
+const CONSOLE_RESET = colour('\x1b[0m')
 
 // Target directory containing locale JSON files
 const LOCALES_DIR = path.join(__dirname, 'locales')
