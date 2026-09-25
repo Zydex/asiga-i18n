@@ -103,6 +103,7 @@
     "confirm": "Bestätigen",
     "designSelected_one": "{{count}} Design ausgewählt",
     "designSelected_other": "{{count}} Designs ausgewählt",
+    "downloadPartError": "Teil konnte nicht heruntergeladen werden",
     "dropFile": "Datei zum Posteingang hinzufügen",
     "groupHasBeenPrioritised": "Gruppe wurde priorisiert",
     "invalidUploadFileContent": "Eine oder mehrere Dateien konnten nicht als gültiger STL-Inhalt gelesen werden",
@@ -118,6 +119,9 @@
   },
   "message": {
     "noParts": "Keine Teile",
+    "partSafetyCapReached_zero": "Zu viele Teile warten auf den Druck. Genehmigen Sie Druckaufträge, bevor Sie weitere Teile hochladen.",
+    "partSafetyCapReached_one": "Es wartet {{count}} Teil auf den Druck. Genehmigen Sie Druckaufträge, bevor Sie weitere Teile hochladen.",
+    "partSafetyCapReached_other": "Es warten {{count}} Teile auf den Druck. Genehmigen Sie Druckaufträge, bevor Sie weitere Teile hochladen.",
     "renameGroup": "Geben Sie einen neuen Namen für die Teilegruppe ein:",
     "renamePart": "Geben Sie einen neuen Namen für das Teil ein:",
     "reprocessPart_one": "{{name}} wurde bereits hinzugefügt.\n\nDurch die erneute Verarbeitung dieses Teils wird eine weitere Kopie im Funnel zum Drucken erstellt.",
@@ -179,6 +183,7 @@
     "userUpload": "Benutzer-Upload"
   },
   "title": {
+    "approvePrintJobs": "Druckaufträge genehmigen",
     "inbox": "Posteingang",
     "name": "Name",
     "partType": "Teiletyp",

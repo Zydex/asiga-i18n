@@ -103,6 +103,7 @@
     "confirm": "Confirmar",
     "designSelected_one": "{{count}} Design selecionado",
     "designSelected_other": "{{count}} Designs selecionados",
+    "downloadPartError": "Falha ao transferir a peça",
     "dropFile": "Adicionar ficheiro à Caixa de Entrada",
     "groupHasBeenPrioritised": "O grupo foi priorizado",
     "invalidUploadFileContent": "Um ou mais ficheiros não puderam ser lidos como conteúdo STL válido",
@@ -118,6 +119,9 @@
   },
   "message": {
     "noParts": "Nenhuma Peça",
+    "partSafetyCapReached_zero": "Há demasiadas peças à espera de serem impressas. Aprove trabalhos de impressão antes de carregar mais peças.",
+    "partSafetyCapReached_one": "Existe {{count}} peça à espera de ser impressa. Aprove trabalhos de impressão antes de carregar mais peças.",
+    "partSafetyCapReached_other": "Existem {{count}} peças à espera de serem impressas. Aprove trabalhos de impressão antes de carregar mais peças.",
     "renameGroup": "Introduza um novo nome para o grupo de peças:",
     "renamePart": "Introduza um novo nome para a peça:",
     "reprocessPart_one": "{{name}} foi adicionado anteriormente.\n\nReprocessar esta peça criará outra cópia no Funil para impressão.",
@@ -179,6 +183,7 @@
     "userUpload": "Carregamento do utilizador"
   },
   "title": {
+    "approvePrintJobs": "Aprovar trabalhos de impressão",
     "inbox": "Caixa de Entrada",
     "name": "Nome",
     "partType": "Tipo de peça",

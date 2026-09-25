@@ -103,6 +103,7 @@
     "confirm": "Conferma",
     "designSelected_one": "{{count}} progetto selezionato",
     "designSelected_other": "{{count}} progetti selezionati",
+    "downloadPartError": "Impossibile scaricare la parte",
     "dropFile": "Aggiungi file alla Posta in arrivo",
     "groupHasBeenPrioritised": "Al gruppo è stata assegnata la priorità",
     "invalidUploadFileContent": "Uno o più file non sono stati letti come contenuto STL valido",
@@ -118,6 +119,9 @@
   },
   "message": {
     "noParts": "Nessuna parte",
+    "partSafetyCapReached_zero": "Troppe parti sono in attesa di stampa. Approva i lavori di stampa prima di caricare altre parti.",
+    "partSafetyCapReached_one": "C'è {{count}} parte in attesa di stampa. Approva i lavori di stampa prima di caricare altre parti.",
+    "partSafetyCapReached_other": "Ci sono {{count}} parti in attesa di stampa. Approva i lavori di stampa prima di caricare altre parti.",
     "renameGroup": "Inserisci un nuovo nome per il gruppo di parti:",
     "renamePart": "Inserisci un nuovo nome per la parte:",
     "reprocessPart_one": "{{name}} è stato aggiunto in precedenza.\n\nRiprocessare questa parte creerà un'altra copia nel Funnel per la stampa.",
@@ -179,6 +183,7 @@
     "userUpload": "Caricamento utente"
   },
   "title": {
+    "approvePrintJobs": "Approva lavori di stampa",
     "inbox": "Posta in arrivo",
     "name": "Nome",
     "partType": "Tipo di parte",
