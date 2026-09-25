@@ -103,6 +103,7 @@
     "confirm": "Confirmar",
     "designSelected_one": "{{count}} diseño seleccionado",
     "designSelected_other": "{{count}} diseños seleccionados",
+    "downloadPartError": "Error al descargar la pieza",
     "dropFile": "Agregar archivo a la bandeja de entrada",
     "groupHasBeenPrioritised": "El grupo ha sido priorizado",
     "invalidUploadFileContent": "Uno o más archivos no se pudieron leer como contenido STL válido",
@@ -118,6 +119,9 @@
   },
   "message": {
     "noParts": "No hay piezas",
+    "partSafetyCapReached_zero": "Hay demasiadas piezas esperando a ser impresas. Aprueba los trabajos de impresión antes de cargar más piezas.",
+    "partSafetyCapReached_one": "Hay {{count}} pieza esperando a ser impresa. Aprueba los trabajos de impresión antes de cargar más piezas.",
+    "partSafetyCapReached_other": "Hay {{count}} piezas esperando a ser impresas. Aprueba los trabajos de impresión antes de cargar más piezas.",
     "renameGroup": "Ingrese un nuevo nombre para el grupo de piezas:",
     "renamePart": "Ingrese un nuevo nombre para la pieza:",
     "reprocessPart_one": "{{name}} se agregó anteriormente.\n\nReprocesar esta pieza creará otra copia en el Embudo para impresión.",
@@ -179,6 +183,7 @@
     "userUpload": "Carga de usuario"
   },
   "title": {
+    "approvePrintJobs": "Aprobar trabajos de impresión",
     "inbox": "Bandeja de entrada",
     "name": "Nombre",
     "partType": "Tipo de pieza",
