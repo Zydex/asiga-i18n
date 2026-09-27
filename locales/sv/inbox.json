@@ -103,6 +103,7 @@
     "confirm": "Bekräfta",
     "designSelected_one": "{{count}} design vald",
     "designSelected_other": "{{count}} designer valda",
+    "downloadPartError": "Det gick inte att ladda ner delen",
     "dropFile": "Lägg till fil i inkorgen",
     "groupHasBeenPrioritised": "Gruppen har prioriterats",
     "invalidUploadFileContent": "En eller flera filer kunde inte läsas som giltigt STL-innehåll",
@@ -118,6 +119,9 @@
   },
   "message": {
     "noParts": "Inga delar",
+    "partSafetyCapReached_zero": "För många delar väntar på att skrivas ut. Godkänn utskriftsjobb innan du laddar upp fler delar.",
+    "partSafetyCapReached_one": "Det finns {{count}} del som väntar på att skrivas ut. Godkänn utskriftsjobb innan du laddar upp fler delar.",
+    "partSafetyCapReached_other": "Det finns {{count}} delar som väntar på att skrivas ut. Godkänn utskriftsjobb innan du laddar upp fler delar.",
     "renameGroup": "Ange ett nytt namn för delgruppen:",
     "renamePart": "Ange ett nytt namn för delen:",
     "reprocessPart_one": "{{name}} har lagts till tidigare.\n\nOm du bearbetar denna del igen skapas ytterligare en kopia i tratten för utskrift.",
@@ -179,6 +183,7 @@
     "userUpload": "Användaruppladdning"
   },
   "title": {
+    "approvePrintJobs": "Godkänn utskriftsjobb",
     "inbox": "Inkorg",
     "name": "Namn",
     "partType": "Deltyp",

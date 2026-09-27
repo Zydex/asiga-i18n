@@ -103,6 +103,7 @@
     "confirm": "Bevestigen",
     "designSelected_one": "{{count}} ontwerp geselecteerd",
     "designSelected_other": "{{count}} ontwerpen geselecteerd",
+    "downloadPartError": "Onderdeel downloaden mislukt",
     "dropFile": "Bestand toevoegen aan de inbox",
     "groupHasBeenPrioritised": "Groep is geprioriteerd",
     "invalidUploadFileContent": "Een of meer bestanden konden niet worden gelezen als geldige STL-inhoud",
@@ -118,6 +119,9 @@
   },
   "message": {
     "noParts": "Geen onderdelen",
+    "partSafetyCapReached_zero": "Er wachten te veel onderdelen om te worden geprint. Keur printtaken goed voordat u meer onderdelen uploadt.",
+    "partSafetyCapReached_one": "Er is {{count}} onderdeel dat wacht om te worden geprint. Keur printtaken goed voordat u meer onderdelen uploadt.",
+    "partSafetyCapReached_other": "Er zijn {{count}} onderdelen die wachten om te worden geprint. Keur printtaken goed voordat u meer onderdelen uploadt.",
     "renameGroup": "Voer een nieuwe naam in voor de onderdelengroep:",
     "renamePart": "Voer een nieuwe naam in voor het onderdeel:",
     "reprocessPart_one": "{{name}} is eerder toegevoegd.\n\nDit onderdeel opnieuw verwerken maakt een extra kopie aan in de Funnel om te printen.",
@@ -179,6 +183,7 @@
     "userUpload": "Gebruikersupload"
   },
   "title": {
+    "approvePrintJobs": "Printtaken goedkeuren",
     "inbox": "Inbox",
     "name": "Naam",
     "partType": "Onderdeeltype",

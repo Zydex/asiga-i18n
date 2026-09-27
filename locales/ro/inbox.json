@@ -103,6 +103,7 @@
     "confirm": "Confirmă",
     "designSelected_one": "{{count}} model selectat",
     "designSelected_other": "{{count}} modele selectate",
+    "downloadPartError": "Descărcarea piesei a eșuat",
     "dropFile": "Adaugă fișier în Inbox",
     "groupHasBeenPrioritised": "Grupul a fost prioritizat",
     "invalidUploadFileContent": "Unul sau mai multe fișiere nu au putut fi citite ca conținut STL valid",
@@ -118,6 +119,9 @@
   },
   "message": {
     "noParts": "Nicio piesă",
+    "partSafetyCapReached_zero": "Prea multe piese așteaptă să fie printate. Aprobați joburile de printare înainte de a mai încărca piese.",
+    "partSafetyCapReached_one": "Există {{count}} piesă care așteaptă să fie printată. Aprobați joburile de printare înainte de a mai încărca piese.",
+    "partSafetyCapReached_other": "Numărul de piese care așteaptă să fie printate: {{count}}. Aprobați joburile de printare înainte de a mai încărca piese.",
     "renameGroup": "Introduceți un nume nou pentru grupul de piese:",
     "renamePart": "Introduceți un nume nou pentru piesă:",
     "reprocessPart_one": "{{name}} a fost adăugată anterior.\n\nReprocesarea acestei piese va crea o altă copie în Funnel pentru printare.",
@@ -179,6 +183,7 @@
     "userUpload": "Încărcare utilizator"
   },
   "title": {
+    "approvePrintJobs": "Aprobați joburile de printare",
     "inbox": "Inbox",
     "name": "Nume",
     "partType": "Tip de piesă",

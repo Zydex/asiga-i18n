@@ -103,6 +103,7 @@
     "confirm": "Vouch",
     "designSelected_one": "{{count}} Design picked",
     "designSelected_other": "{{count}} Designs picked",
+    "downloadPartError": "Couldn't haul th' trinket ashore",
     "dropFile": "Add scroll to th' Crow's Nest",
     "groupHasBeenPrioritised": "Band has been prioritised",
     "invalidUploadFileContent": "One or more scrolls could not be read as proper STL content",
@@ -118,6 +119,9 @@
   },
   "message": {
     "noParts": "No Trinkets",
+    "partSafetyCapReached_zero": "Too many trinkets be waitin' to be forged. Approve forge voyages afore hoistin' any more trinkets.",
+    "partSafetyCapReached_one": "There be {{count}} trinket waitin' to be forged. Approve forge voyages afore hoistin' any more trinkets.",
+    "partSafetyCapReached_other": "There be {{count}} trinkets waitin' to be forged. Approve forge voyages afore hoistin' any more trinkets.",
     "renameGroup": "Enter a new name for th' trinket band:",
     "renamePart": "Enter a new name for th' trinket:",
     "reprocessPart_one": "{{name}} was previously added.\n\nReprocessin' this trinket will create another copy in th' Funnel for forgin'.",
@@ -179,6 +183,7 @@
     "userUpload": "Crew hoist"
   },
   "title": {
+    "approvePrintJobs": "Approve forge voyages",
     "inbox": "Crow's Nest",
     "name": "Moniker",
     "partType": "Trinket type",
