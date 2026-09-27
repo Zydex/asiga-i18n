@@ -2,18 +2,43 @@
   "button": {
     "manageBilling": "Manage Coin",
     "manageSubscription": "Manage Tithe",
+    "payment": "Payment o' Coin",
+    "subscribe": "Tithe",
+    "subscribed": "Tithed",
     "subscribeLater": "Tithe Later",
-    "subscriptionOptions": "Tithe Options"
+    "subscriptionOptions": "Tithe Options",
+    "unsubscribe": "Stop Tithin'",
+    "update": "Update"
+  },
+  "class": {
+    "max": "Max",
+    "other": "Other",
+    "pro": "Pro",
+    "ultra": "Ultra"
   },
   "description": {
     "manageBilling": "View invoices, review and update yer coin details.",
     "paymentIssue": "There be trouble with yer payment details.",
+    "proRataBilling": "*Contraptions added durin' th' tithin' period will be charged their fair share. <learnMore>Learn More</learnMore> about tithin'.",
+    "selectPrinters": "Pick which contraptions ye wish to buy a tithe fer from th' list below.",
     "subscriptionStatus": "{{subscriptionTier}} which be renewed come {{subscriptionEnd, datetime}}",
     "subscriptionStatusEnding": "{{subscriptionTier}} which be endin' come {{subscriptionEnd, datetime}}",
     "subscriptionTiers": "Ye can update yer tithe tier whenever the needs o' yer crew change.",
     "subscriptionUnknownActiveStatus": "Yer tithe be active",
     "trialEnded": "Pay yer tithe to keep creatin' and sendin' forgin' voyages.",
     "trialEnding": "Ye'll need to pay yer tithe when the free trial runs out to create and send forgin' voyages."
+  },
+  "label": {
+    "cost": "${{amount}} USD",
+    "costPerMonth": "Coin per month*",
+    "monthlyTotal": "Monthly reckonin'",
+    "newMonthlyTotal": "New monthly reckonin'",
+    "paymentDueToday": "Coin due today*",
+    "printer": "Contraption",
+    "subscriptionStatus": "Tithe status"
+  },
+  "message": {
+    "noPrinters": "No contraptions have been added to yer crew yet."
   },
   "title": {
     "availableWithSubscription": "Available with a Tithe",

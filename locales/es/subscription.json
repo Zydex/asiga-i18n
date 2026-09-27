@@ -2,18 +2,43 @@
   "button": {
     "manageBilling": "Gestionar Facturación",
     "manageSubscription": "Gestionar Suscripción",
+    "payment": "Pago",
+    "subscribe": "Suscribirse",
+    "subscribed": "Suscrito",
     "subscribeLater": "Suscribirse Más Tarde",
-    "subscriptionOptions": "Opciones de Suscripción"
+    "subscriptionOptions": "Opciones de Suscripción",
+    "unsubscribe": "Cancelar Suscripción",
+    "update": "Actualizar"
+  },
+  "class": {
+    "max": "Max",
+    "other": "Otro",
+    "pro": "Pro",
+    "ultra": "Ultra"
   },
   "description": {
     "manageBilling": "Ver facturas, revisar y actualizar los datos de facturación.",
     "paymentIssue": "Hubo un problema con los datos de tu pago.",
+    "proRataBilling": "*Los dispositivos añadidos durante el periodo de facturación se cobrarán de forma prorrateada. <learnMore>Obtén más información</learnMore> sobre la facturación.",
+    "selectPrinters": "Selecciona en la lista siguiente los dispositivos para los que deseas adquirir una suscripción.",
     "subscriptionStatus": "{{subscriptionTier}} que se renueva el {{subscriptionEnd, datetime}}",
     "subscriptionStatusEnding": "{{subscriptionTier}} que finaliza el {{subscriptionEnd, datetime}}",
     "subscriptionTiers": "Puedes actualizar tu nivel de suscripción cuando cambien las necesidades de tu organización.",
     "subscriptionUnknownActiveStatus": "Tu suscripción está activa",
     "trialEnded": "Suscríbete para continuar creando y enviando trabajos de impresión.",
     "trialEnding": "Deberás suscribirte cuando finalice la prueba gratuita para crear y enviar trabajos de impresión."
+  },
+  "label": {
+    "cost": "${{amount}} USD",
+    "costPerMonth": "Coste por mes*",
+    "monthlyTotal": "Total mensual",
+    "newMonthlyTotal": "Nuevo total mensual",
+    "paymentDueToday": "Importe a pagar hoy*",
+    "printer": "Impresora",
+    "subscriptionStatus": "Estado de la suscripción"
+  },
+  "message": {
+    "noPrinters": "Aún no se han añadido impresoras a tu organización."
   },
   "title": {
     "availableWithSubscription": "Disponible con una Suscripción",

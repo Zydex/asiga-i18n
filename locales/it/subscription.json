@@ -2,18 +2,43 @@
   "button": {
     "manageBilling": "Gestisci fatturazione",
     "manageSubscription": "Gestisci abbonamento",
+    "payment": "Pagamento",
+    "subscribe": "Abbonati",
+    "subscribed": "Abbonato",
     "subscribeLater": "Abbonati più tardi",
-    "subscriptionOptions": "Opzioni di abbonamento"
+    "subscriptionOptions": "Opzioni di abbonamento",
+    "unsubscribe": "Annulla abbonamento",
+    "update": "Aggiorna"
+  },
+  "class": {
+    "max": "Max",
+    "other": "Altro",
+    "pro": "Pro",
+    "ultra": "Ultra"
   },
   "description": {
     "manageBilling": "Visualizza le fatture, controlla e aggiorna i dati di fatturazione.",
     "paymentIssue": "Si è verificato un problema con i dati del tuo pagamento.",
+    "proRataBilling": "*I dispositivi aggiunti durante il periodo di fatturazione verranno addebitati pro rata. <learnMore>Scopri di più</learnMore> sulla fatturazione.",
+    "selectPrinters": "Seleziona dall'elenco seguente i dispositivi per cui desideri acquistare un abbonamento.",
     "subscriptionStatus": "{{subscriptionTier}} che si rinnova il {{subscriptionEnd, datetime}}",
     "subscriptionStatusEnding": "{{subscriptionTier}} che termina il {{subscriptionEnd, datetime}}",
     "subscriptionTiers": "Puoi modificare il tuo livello di abbonamento ogni volta che le esigenze della tua organizzazione cambiano.",
     "subscriptionUnknownActiveStatus": "Il tuo abbonamento è attivo",
     "trialEnded": "Abbonati per continuare a creare e inviare lavori di stampa.",
     "trialEnding": "Dovrai abbonarti quando la prova gratuita scade per creare e inviare lavori di stampa."
+  },
+  "label": {
+    "cost": "${{amount}} USD",
+    "costPerMonth": "Costo al mese*",
+    "monthlyTotal": "Totale mensile",
+    "newMonthlyTotal": "Nuovo totale mensile",
+    "paymentDueToday": "Pagamento dovuto oggi*",
+    "printer": "Stampante",
+    "subscriptionStatus": "Stato dell'abbonamento"
+  },
+  "message": {
+    "noPrinters": "Nessuna stampante è stata ancora aggiunta alla tua organizzazione."
   },
   "title": {
     "availableWithSubscription": "Disponibile con un abbonamento",

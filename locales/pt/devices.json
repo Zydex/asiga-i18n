@@ -8,7 +8,9 @@
     "add": "Adicionar dispositivo",
     "exclude": "Excluir",
     "excludeDevice": "Excluir dos trabalhos de impressão automáticos",
-    "includeDevice": "Incluir para trabalhos de impressão automáticos"
+    "includeDevice": "Incluir para trabalhos de impressão automáticos",
+    "subscribePrinter": "Subscrever Impressora",
+    "unsubscribePrinter": "Cancelar Subscrição da Impressora"
   },
   "details": {
     "aboutPrinter": "Sobre a impressora",
@@ -19,7 +21,11 @@
   "label": {
     "devices": "Dispositivos",
     "devicesTab": "Separador de dispositivos",
+    "excluded": "Excluído dos trabalhos",
     "excludedDevice": "O dispositivo foi excluído de receber trabalhos de impressão do Funnel",
+    "freePrintsRemaining": "O número de impressões gratuitas que restam a este dispositivo este mês",
+    "licenceEnding": "A licença deste dispositivo será cancelada em {{date}}",
+    "printsRemaining": "{{remaining}}/{{allowance}}",
     "requiresAttention": "Requer atenção",
     "search": "Pesquisar um dispositivo",
     "status": {
@@ -36,7 +42,9 @@
       "remaining": "Restante",
       "serialNumber": "Número de série",
       "status": "Estado"
-    }
+    },
+    "unlimited": "Ilimitado",
+    "unlimitedEnding": "Ilimitado*"
   },
   "message": {
     "addDevices": "Utilize o botão 'Adicionar dispositivos' no canto superior direito desta página ou utilize o botão abaixo para adicionar dispositivos à sua organização",

@@ -8,7 +8,9 @@
     "add": "Adaugă dispozitiv",
     "exclude": "Exclude",
     "excludeDevice": "Exclude din sarcinile de printare automate",
-    "includeDevice": "Include pentru sarcinile de printare automate"
+    "includeDevice": "Include pentru sarcinile de printare automate",
+    "subscribePrinter": "Abonează imprimanta",
+    "unsubscribePrinter": "Dezabonează imprimanta"
   },
   "details": {
     "aboutPrinter": "Despre imprimantă",
@@ -19,7 +21,11 @@
   "label": {
     "devices": "Dispozitive",
     "devicesTab": "Fila Dispozitive",
+    "excluded": "Exclus",
     "excludedDevice": "Dispozitivul a fost exclus de la primirea sarcinilor de printare din Funnel",
+    "freePrintsRemaining": "Numărul de printări gratuite rămase pentru acest dispozitiv în această lună",
+    "licenceEnding": "Licența acestui dispozitiv va fi anulată pe {{date}}",
+    "printsRemaining": "{{remaining}}/{{allowance}}",
     "requiresAttention": "Necesită atenție",
     "search": "Caută un dispozitiv",
     "status": {
@@ -36,7 +42,9 @@
       "remaining": "Rămas",
       "serialNumber": "Număr de serie",
       "status": "Stare"
-    }
+    },
+    "unlimited": "Nelimitat",
+    "unlimitedEnding": "Nelimitat*"
   },
   "message": {
     "addDevices": "Folosește butonul „Adaugă dispozitive” din partea din dreapta sus a acestei pagini sau folosește butonul de mai jos pentru a adăuga dispozitive în organizația ta",

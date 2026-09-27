@@ -8,7 +8,9 @@
     "add": "Přidat zařízení",
     "exclude": "Vyloučit",
     "excludeDevice": "Vyloučit z automatických tiskových úloh",
-    "includeDevice": "Zahrnout do automatických tiskových úloh"
+    "includeDevice": "Zahrnout do automatických tiskových úloh",
+    "subscribePrinter": "Předplatit tiskárnu",
+    "unsubscribePrinter": "Zrušit předplatné tiskárny"
   },
   "details": {
     "aboutPrinter": "O tiskárně",
@@ -19,7 +21,11 @@
   "label": {
     "devices": "Zařízení",
     "devicesTab": "Karta zařízení",
+    "excluded": "Vyloučeno",
     "excludedDevice": "Zařízení bylo vyloučeno z přijímání tiskových úloh z Funnelu",
+    "freePrintsRemaining": "Počet bezplatných tisků, které tomuto zařízení tento měsíc zbývají",
+    "licenceEnding": "Licence tohoto zařízení bude zrušena dne {{date}}",
+    "printsRemaining": "{{remaining}}/{{allowance}}",
     "requiresAttention": "Vyžaduje pozornost",
     "search": "Hledat zařízení",
     "status": {
@@ -36,7 +42,9 @@
       "remaining": "Zbývá",
       "serialNumber": "Sériové číslo",
       "status": "Stav"
-    }
+    },
+    "unlimited": "Neomezeno",
+    "unlimitedEnding": "Neomezeno*"
   },
   "message": {
     "addDevices": "Pro přidání zařízení do vaší organizace použijte tlačítko „Přidat zařízení“ v pravém horním rohu této stránky nebo tlačítko níže",

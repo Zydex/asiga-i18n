@@ -2,18 +2,43 @@
   "button": {
     "manageBilling": "Spravovat fakturaci",
     "manageSubscription": "Spravovat předplatné",
+    "payment": "Platba",
+    "subscribe": "Předplatit",
+    "subscribed": "Předplaceno",
     "subscribeLater": "Předplatit později",
-    "subscriptionOptions": "Možnosti předplatného"
+    "subscriptionOptions": "Možnosti předplatného",
+    "unsubscribe": "Zrušit předplatné",
+    "update": "Aktualizovat"
+  },
+  "class": {
+    "max": "Max",
+    "other": "Ostatní",
+    "pro": "Pro",
+    "ultra": "Ultra"
   },
   "description": {
     "manageBilling": "Zobrazit faktury, zkontrolovat a aktualizovat fakturační údaje.",
     "paymentIssue": "Došlo k problému s vašimi platebními údaji.",
+    "proRataBilling": "*Zařízení přidaná během fakturačního období budou účtována poměrně. <learnMore>Zjistěte více</learnMore> o fakturaci.",
+    "selectPrinters": "Ze seznamu níže vyberte zařízení, pro která chcete zakoupit předplatné.",
     "subscriptionStatus": "{{subscriptionTier}}, které se obnoví {{subscriptionEnd, datetime}}",
     "subscriptionStatusEnding": "{{subscriptionTier}}, které končí {{subscriptionEnd, datetime}}",
     "subscriptionTiers": "Úroveň předplatného můžete kdykoli aktualizovat podle měnících se potřeb vaší organizace.",
     "subscriptionUnknownActiveStatus": "Vaše předplatné je aktivní",
     "trialEnded": "Předplaťte si službu, abyste mohli pokračovat ve vytváření a odesílání tiskových úloh.",
     "trialEnding": "Po vypršení zkušební doby si budete muset předplatit službu, abyste mohli vytvářet a odesílat tiskové úlohy."
+  },
+  "label": {
+    "cost": "${{amount}} USD",
+    "costPerMonth": "Cena za měsíc*",
+    "monthlyTotal": "Celková měsíční částka",
+    "newMonthlyTotal": "Nová celková měsíční částka",
+    "paymentDueToday": "K úhradě dnes*",
+    "printer": "Tiskárna",
+    "subscriptionStatus": "Stav předplatného"
+  },
+  "message": {
+    "noPrinters": "Do vaší organizace zatím nebyly přidány žádné tiskárny."
   },
   "title": {
     "availableWithSubscription": "Dostupné s předplatným",

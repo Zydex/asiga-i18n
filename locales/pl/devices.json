@@ -8,7 +8,9 @@
     "add": "Dodaj urządzenie",
     "exclude": "Wyklucz",
     "excludeDevice": "Wyklucz z automatycznych zadań druku",
-    "includeDevice": "Uwzględnij w automatycznych zadaniach druku"
+    "includeDevice": "Uwzględnij w automatycznych zadaniach druku",
+    "subscribePrinter": "Subskrybuj drukarkę",
+    "unsubscribePrinter": "Anuluj subskrypcję drukarki"
   },
   "details": {
     "aboutPrinter": "O drukarce",
@@ -19,7 +21,11 @@
   "label": {
     "devices": "Urządzenia",
     "devicesTab": "Karta urządzeń",
+    "excluded": "Wykluczone",
     "excludedDevice": "Urządzenie zostało wykluczone z otrzymywania zadań druku z Funnela",
+    "freePrintsRemaining": "Liczba darmowych wydruków pozostałych dla tego urządzenia w tym miesiącu",
+    "licenceEnding": "Licencja tego urządzenia zostanie anulowana dnia {{date}}",
+    "printsRemaining": "{{remaining}}/{{allowance}}",
     "requiresAttention": "Wymaga uwagi",
     "search": "Wyszukaj urządzenie",
     "status": {
@@ -36,7 +42,9 @@
       "remaining": "Pozostało",
       "serialNumber": "Numer seryjny",
       "status": "Status"
-    }
+    },
+    "unlimited": "Bez limitu",
+    "unlimitedEnding": "Bez limitu*"
   },
   "message": {
     "addDevices": "Użyj przycisku „Dodaj urządzenia” w prawym górnym rogu tej strony lub użyj poniższego przycisku, aby dodać urządzenia do swojej organizacji",
