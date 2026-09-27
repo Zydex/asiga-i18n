@@ -103,6 +103,7 @@
     "confirm": "Confirmer",
     "designSelected_one": "{{count}} Design sélectionné",
     "designSelected_other": "{{count}} Designs sélectionnés",
+    "downloadPartError": "Échec du téléchargement de la pièce",
     "dropFile": "Ajouter un fichier à la Boîte de réception",
     "groupHasBeenPrioritised": "Le groupe a été priorisé",
     "invalidUploadFileContent": "Un ou plusieurs fichiers n'ont pas pu être lus comme contenu STL valide",
@@ -118,6 +119,9 @@
   },
   "message": {
     "noParts": "Aucune pièce",
+    "partSafetyCapReached_zero": "Trop de pièces sont en attente d'impression. Approuvez des tâches d'impression avant de téléverser d'autres pièces.",
+    "partSafetyCapReached_one": "Il y a {{count}} pièce en attente d'impression. Approuvez des tâches d'impression avant de téléverser d'autres pièces.",
+    "partSafetyCapReached_other": "Il y a {{count}} pièces en attente d'impression. Approuvez des tâches d'impression avant de téléverser d'autres pièces.",
     "renameGroup": "Entrez un nouveau nom pour le groupe de pièces :",
     "renamePart": "Entrez un nouveau nom pour la pièce :",
     "reprocessPart_one": "{{name}} a déjà été ajouté.\n\nRetraiter cette pièce créera une autre copie dans l'Entonnoir pour impression.",
@@ -179,6 +183,7 @@
     "userUpload": "Téléversement utilisateur"
   },
   "title": {
+    "approvePrintJobs": "Approuver les tâches d'impression",
     "inbox": "Boîte de réception",
     "name": "Nom",
     "partType": "Type de pièce",

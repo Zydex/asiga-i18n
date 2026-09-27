@@ -68,7 +68,9 @@ Run after all 14 files for a language have been produced:
    conflicting keys and canonical formatting. Fix anything it flags.
 3. **Structural parity check**: the new locale's key set must exactly match
    `en-au`'s key set, file by file — no missing or extra keys. This is a plain
-   diff, not something to delegate to an agent.
+   diff, not something to delegate to an agent. `npm run check-missing-keys`
+   reports any `en-au` keys missing from each locale (and runs in CI); extra
+   keys still need a manual check.
 
 ## 4. Review report
 

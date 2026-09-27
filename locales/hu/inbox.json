@@ -103,6 +103,7 @@
     "confirm": "Megerősít",
     "designSelected_one": "{{count}} terv kiválasztva",
     "designSelected_other": "{{count}} terv kiválasztva",
+    "downloadPartError": "Nem sikerült letölteni az alkatrészt",
     "dropFile": "Fájl hozzáadása a Beérkezőhöz",
     "groupHasBeenPrioritised": "A csoport prioritást kapott",
     "invalidUploadFileContent": "Egy vagy több fájl nem olvasható be érvényes STL-tartalomként",
@@ -118,6 +119,9 @@
   },
   "message": {
     "noParts": "Nincsenek alkatrészek",
+    "partSafetyCapReached_zero": "Túl sok alkatrész vár nyomtatásra. Hagyja jóvá a nyomtatási feladatokat, mielőtt további alkatrészeket töltene fel.",
+    "partSafetyCapReached_one": "{{count}} alkatrész vár nyomtatásra. Hagyja jóvá a nyomtatási feladatokat, mielőtt további alkatrészeket töltene fel.",
+    "partSafetyCapReached_other": "{{count}} alkatrész vár nyomtatásra. Hagyja jóvá a nyomtatási feladatokat, mielőtt további alkatrészeket töltene fel.",
     "renameGroup": "Adja meg az alkatrészcsoport új nevét:",
     "renamePart": "Adja meg az alkatrész új nevét:",
     "reprocessPart_one": "{{name}} korábban már hozzáadásra került.\n\nAz alkatrész újrafeldolgozása egy újabb másolatot hoz létre a Funnelben nyomtatáshoz.",
@@ -179,6 +183,7 @@
     "userUpload": "Felhasználói feltöltés"
   },
   "title": {
+    "approvePrintJobs": "Nyomtatási feladatok jóváhagyása",
     "inbox": "Beérkező",
     "name": "Név",
     "partType": "Alkatrész típusa",
