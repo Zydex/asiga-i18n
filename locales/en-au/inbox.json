@@ -103,6 +103,7 @@
     "confirm": "Confirm",
     "designSelected_one": "{{count}} Design selected",
     "designSelected_other": "{{count}} Designs selected",
+    "downloadPartError": "Failed to download part",
     "dropFile": "Add file to the Inbox",
     "groupHasBeenPrioritised": "Group has been prioritised",
     "invalidUploadFileContent": "One or more files could not be read as valid STL content",

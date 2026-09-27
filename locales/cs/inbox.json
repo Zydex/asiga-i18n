@@ -103,6 +103,7 @@
     "confirm": "Potvrdit",
     "designSelected_one": "{{count}} vybraný návrh",
     "designSelected_other": "{{count}} vybraných návrhů",
+    "downloadPartError": "Nepodařilo se stáhnout díl",
     "dropFile": "Přidat soubor do schránky",
     "groupHasBeenPrioritised": "Skupina byla upřednostněna",
     "invalidUploadFileContent": "Jeden nebo více souborů nelze přečíst jako platný obsah STL",
@@ -118,6 +119,9 @@
   },
   "message": {
     "noParts": "Žádné díly",
+    "partSafetyCapReached_zero": "Na tisk čeká příliš mnoho dílů. Před nahráním dalších dílů schvalte tiskové úlohy.",
+    "partSafetyCapReached_one": "Na tisk čeká {{count}} díl. Před nahráním dalších dílů schvalte tiskové úlohy.",
+    "partSafetyCapReached_other": "Počet dílů čekajících na tisk: {{count}}. Před nahráním dalších dílů schvalte tiskové úlohy.",
     "renameGroup": "Zadejte nový název skupiny dílů:",
     "renamePart": "Zadejte nový název dílu:",
     "reprocessPart_one": "{{name}} byl již dříve přidán.\n\nOpětovné zpracování tohoto dílu vytvoří další kopii ve Funnelu k tisku.",
@@ -179,6 +183,7 @@
     "userUpload": "Nahrání uživatelem"
   },
   "title": {
+    "approvePrintJobs": "Schválit tiskové úlohy",
     "inbox": "Schránka",
     "name": "Název",
     "partType": "Typ dílu",

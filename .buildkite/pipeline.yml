@@ -7,6 +7,14 @@ steps:
     agents:
       queue: build
 
+  - label: ':earth_asia: Missing Translation Keys'
+    command: npm run check-missing-keys
+    plugins:
+      - docker-compose#v3.9.0:
+          run: app
+    agents:
+      queue: build
+
   - wait
 
   - label: ':aws: :s3: Deploy to Dev Environment'

@@ -103,6 +103,7 @@
     "confirm": "Potwierdź",
     "designSelected_one": "Wybrano {{count}} projekt",
     "designSelected_other": "Wybrano {{count}} projektów",
+    "downloadPartError": "Nie udało się pobrać części",
     "dropFile": "Dodaj plik do skrzynki odbiorczej",
     "groupHasBeenPrioritised": "Grupie nadano priorytet",
     "invalidUploadFileContent": "Co najmniej jednego pliku nie udało się odczytać jako prawidłowej zawartości STL",
@@ -118,6 +119,9 @@
   },
   "message": {
     "noParts": "Brak części",
+    "partSafetyCapReached_zero": "Zbyt wiele części oczekuje na druk. Zatwierdź zadania druku przed przesłaniem kolejnych części.",
+    "partSafetyCapReached_one": "{{count}} część oczekuje na druk. Zatwierdź zadania druku przed przesłaniem kolejnych części.",
+    "partSafetyCapReached_other": "Liczba części oczekujących na druk: {{count}}. Zatwierdź zadania druku przed przesłaniem kolejnych części.",
     "renameGroup": "Wprowadź nową nazwę grupy części:",
     "renamePart": "Wprowadź nową nazwę części:",
     "reprocessPart_one": "{{name}} została wcześniej dodana.\n\nPonowne przetworzenie tej części utworzy kolejną kopię w Lejku do druku.",
@@ -179,6 +183,7 @@
     "userUpload": "Przesłane przez użytkownika"
   },
   "title": {
+    "approvePrintJobs": "Zatwierdź zadania druku",
     "inbox": "Skrzynka odbiorcza",
     "name": "Nazwa",
     "partType": "Typ części",

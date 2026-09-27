@@ -4,9 +4,11 @@
   "description": "Asiga i18n Internationalisation.",
   "main": "index.js",
   "scripts": {
-    "test": "vitest run ./format.test.ts",
+    "test": "vitest run",
     "lint": "li18nt /app/locales/**/*.json && tsx ./format.ts --dry-run",
-    "fmt": "tsx ./format.ts"
+    "fmt": "tsx ./format.ts",
+    "check-missing-keys": "tsx ./missing-keys.ts",
+    "translate-missing-keys": "tsx ./translate-missing-keys.ts"
   },
   "author": "",
   "license": "ISC",
