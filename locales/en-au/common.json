@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "The job does not have a sliced build file ready for printing.",
     "jobNotFound": "Job not found.",
     "jobNotFound_details": "Job with id {{details}} not found.",
+    "jobPrintAllowanceExhausted": "The printer for this job has run out of free prints.",
+    "jobPrinterExcluded": "The printer for this job has been excluded from receiving jobs.",
     "jobReviewIncorrectState": "Job is not waiting for review.",
     "linkCreateConflict": "Integration link already exists for this organisation.",
     "linkCreateForbidden": "You are not allowed to create an integration link for this organisation.",
