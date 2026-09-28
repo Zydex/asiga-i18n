@@ -2,6 +2,7 @@
   "button": {
     "download": "Pobierz",
     "exportReportPdf": "Eksportuj PDF",
+    "manageSubscription": "Zarządzaj subskrypcją",
     "moveOffline": "Przerób offline",
     "promote": "Promuj",
     "promoteJob": "Podwyższ zadanie",
@@ -9,7 +10,8 @@
     "reprintParts": "Wydrukuj ponownie części",
     "requeueParts": "Ustaw części w kolejce ponownie",
     "resendJob": "Wyślij zadanie ponownie",
-    "reshuffle": "Przetasuj"
+    "reshuffle": "Przetasuj",
+    "sendAnyway": "Wyślij mimo to"
   },
   "details": {
     "basePlate": "Ustawienia płyty podstawowej",
@@ -56,6 +58,10 @@
     "noJobsToReview": "Wstępne zadania, które zostały podwyższone, pojawią się tutaj. Prześlij części do skrzynki odbiorczej, aby rozpocząć.",
     "noParts": "To zadanie nie ma części.",
     "noPartsToReprint": "Części w tym zadaniu zostały już ponownie ustawione w kolejce do ponownego druku.",
+    "noPrintsRemaining": "Drukarce przypisanej do tego zadania skończyły się bezpłatne wydruki. Ustaw części w kolejce ponownie, aby zaplanować je na dostępnej drukarce, lub subskrybuj, aby odblokować nieograniczoną liczbę wydruków.",
+    "noPrintsRemainingPartial": "Co najmniej jedno z wybranych zadań jest przypisane do drukarki, której skończyły się bezpłatne wydruki. Ustaw części w kolejce ponownie, aby zaplanować je na dostępnej drukarce, lub subskrybuj, aby odblokować nieograniczoną liczbę wydruków.",
+    "printerExcluded": "Ta drukarka została wykluczona z otrzymywania zadań. Ustaw ponownie w kolejce, aby zaplanować na innej drukarce, lub wyślij mimo to do tej drukarki.",
+    "printerExcludedPartial": "Co najmniej jedno z wybranych zadań jest przypisane do drukarki, która została wykluczona z otrzymywania zadań. Ustaw ponownie w kolejce, aby zaplanować na innej drukarce, lub wyślij mimo to do wykluczonej drukarki.",
     "rejectInfo": "Naciśnięcie przycisku „Przetasuj” spowoduje zmianę pozycji i obrotu części w ramach nowego zadania druku. Niektóre części mogą zostać usunięte lub dodane podczas przetasowania.",
     "reprintParts": "Wybrane części będą traktowane priorytetowo do ponownego druku w ramach kolejnego odpowiedniego zadania druku.",
     "reprintPartsKey": "Części w kolorze szarym zostały już wydrukowane ponownie.",
@@ -144,6 +150,8 @@
     "noJobsAccepted": "Brak zaakceptowanych zadań",
     "noJobsRejected": "Brak odrzuconych zadań",
     "noJobsToReview": "Brak zadań do sprawdzenia",
+    "noPrintsRemaining": "Brak pozostałych wydruków",
+    "printerExcluded": "Drukarka wykluczona z zadań",
     "printJobs": "Zadania druku",
     "rejectJob": "Przetasować odrzucone zadanie?",
     "requeueParts": "Ustawić części w kolejce ponownie?",

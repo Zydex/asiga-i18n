@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "El trabajo no tiene un archivo de compilación laminado listo para imprimir.",
     "jobNotFound": "Trabajo no encontrado.",
     "jobNotFound_details": "No se encontró el trabajo con id {{details}}.",
+    "jobPrintAllowanceExhausted": "La impresora de este trabajo se ha quedado sin impresiones gratuitas.",
+    "jobPrinterExcluded": "La impresora de este trabajo ha sido excluida de recibir trabajos.",
     "jobReviewIncorrectState": "El trabajo no está esperando revisión.",
     "linkCreateConflict": "Ya existe un enlace de integración para esta organización.",
     "linkCreateForbidden": "No tienes permitido crear un enlace de integración para esta organización.",

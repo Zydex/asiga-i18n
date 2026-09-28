@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "Il lavoro non dispone di un file di build sezionato pronto per la stampa.",
     "jobNotFound": "Lavoro non trovato.",
     "jobNotFound_details": "Lavoro con id {{details}} non trovato.",
+    "jobPrintAllowanceExhausted": "La stampante per questo lavoro ha esaurito le stampe gratuite.",
+    "jobPrinterExcluded": "La stampante per questo lavoro è stata esclusa dalla ricezione dei lavori.",
     "jobReviewIncorrectState": "Il lavoro non è in attesa di revisione.",
     "linkCreateConflict": "Esiste già un link di integrazione per questa organizzazione.",
     "linkCreateForbidden": "Non sei autorizzato a creare un link di integrazione per questa organizzazione.",

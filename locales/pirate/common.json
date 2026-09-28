@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "Th' voyage has no sliced haul scroll ready for forgin'.",
     "jobNotFound": "Voyage not found.",
     "jobNotFound_details": "Voyage with id {{details}} not found.",
+    "jobPrintAllowanceExhausted": "Th' contraption fer this voyage has run dry o' free forgin's.",
+    "jobPrinterExcluded": "Th' contraption fer this voyage has been barred from receivin' voyages.",
     "jobReviewIncorrectState": "Th' voyage ain't waitin' for review.",
     "linkCreateConflict": "An integration link already exists for this crew.",
     "linkCreateForbidden": "Ye ain't allowed to create an integration link for this crew.",

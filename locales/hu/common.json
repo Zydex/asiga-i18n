@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "A feladathoz nem áll rendelkezésre nyomtatásra kész szeletelt build fájl.",
     "jobNotFound": "A feladat nem található.",
     "jobNotFound_details": "A(z) {{details}} azonosítójú feladat nem található.",
+    "jobPrintAllowanceExhausted": "Az ehhez a munkához tartozó nyomtató ingyenes nyomtatásai elfogytak.",
+    "jobPrinterExcluded": "Az ehhez a munkához tartozó nyomtató ki lett zárva a munkák fogadásából.",
     "jobReviewIncorrectState": "A feladat nem vár felülvizsgálatra.",
     "linkCreateConflict": "Ehhez a szervezethez már létezik integrációs hivatkozás.",
     "linkCreateForbidden": "Nincs jogosultsága integrációs hivatkozást létrehozni ehhez a szervezethez.",

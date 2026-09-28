@@ -2,6 +2,7 @@
   "button": {
     "download": "Herunterladen",
     "exportReportPdf": "PDF exportieren",
+    "manageSubscription": "Abonnement verwalten",
     "moveOffline": "Offline überarbeiten",
     "promote": "Hochstufen",
     "promoteJob": "Auftrag hochstufen",
@@ -9,7 +10,8 @@
     "reprintParts": "Teile erneut drucken",
     "requeueParts": "Teile erneut einreihen",
     "resendJob": "Auftrag erneut senden",
-    "reshuffle": "Neu anordnen"
+    "reshuffle": "Neu anordnen",
+    "sendAnyway": "Trotzdem senden"
   },
   "details": {
     "basePlate": "Grundplatteneinstellungen",
@@ -56,6 +58,10 @@
     "noJobsToReview": "Vorläufige Aufträge, die hochgestuft wurden, werden hier angezeigt. Laden Sie Teile in den Posteingang hoch, um zu beginnen.",
     "noParts": "Dieser Auftrag enthält keine Teile.",
     "noPartsToReprint": "Teile in diesem Auftrag wurden bereits wieder in die Warteschlange zum erneuten Drucken aufgenommen.",
+    "noPrintsRemaining": "Der Drucker für diesen Auftrag hat keine kostenlosen Drucke mehr. Reihen Sie die Teile erneut ein, um sie auf einem verfügbaren Drucker einzuplanen, oder schließen Sie ein Abonnement ab, um unbegrenzte Drucke freizuschalten.",
+    "noPrintsRemainingPartial": "Mindestens ein ausgewählter Auftrag ist einem Drucker zugewiesen, der keine kostenlosen Drucke mehr hat. Reihen Sie die Teile erneut ein, um sie auf einem verfügbaren Drucker einzuplanen, oder schließen Sie ein Abonnement ab, um unbegrenzte Drucke freizuschalten.",
+    "printerExcluded": "Dieser Drucker wurde vom Empfang von Aufträgen ausgeschlossen. Reihen Sie den Auftrag erneut ein, um ihn auf einem anderen Drucker einzuplanen, oder senden Sie ihn trotzdem an diesen Drucker.",
+    "printerExcludedPartial": "Mindestens ein ausgewählter Auftrag ist einem Drucker zugewiesen, der vom Empfang von Aufträgen ausgeschlossen wurde. Erneut einreihen, um auf einem anderen Drucker einzuplanen, oder trotzdem an den ausgeschlossenen Drucker senden.",
     "rejectInfo": "Durch Klicken auf 'Neu anordnen' werden Position und Rotation der Teile im Rahmen eines neuen Druckauftrags verändert. Beim Neuanordnen können einige Teile entfernt oder hinzugefügt werden.",
     "reprintParts": "Ausgewählte Teile werden für das erneute Drucken im Rahmen des nächsten geeigneten Druckauftrags priorisiert.",
     "reprintPartsKey": "Grau dargestellte Teile wurden bereits erneut gedruckt.",
@@ -144,6 +150,8 @@
     "noJobsAccepted": "Keine Aufträge akzeptiert",
     "noJobsRejected": "Keine Aufträge abgelehnt",
     "noJobsToReview": "Keine Aufträge zu überprüfen",
+    "noPrintsRemaining": "Keine Drucke übrig",
+    "printerExcluded": "Drucker von Aufträgen ausgeschlossen",
     "printJobs": "Druckaufträge",
     "rejectJob": "Abgelehnten Auftrag neu anordnen?",
     "requeueParts": "Teile erneut einreihen?",

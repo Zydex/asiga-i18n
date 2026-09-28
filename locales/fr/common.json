@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "La tâche n'a pas de fichier de fabrication découpé prêt pour l'impression.",
     "jobNotFound": "Tâche non trouvée.",
     "jobNotFound_details": "Tâche avec l'id {{details}} non trouvée.",
+    "jobPrintAllowanceExhausted": "L'imprimante de cette tâche n'a plus d'impressions gratuites.",
+    "jobPrinterExcluded": "L'imprimante de cette tâche a été exclue de la réception des tâches.",
     "jobReviewIncorrectState": "La tâche n'est pas en attente de révision.",
     "linkCreateConflict": "Un lien d'intégration existe déjà pour cette organisation.",
     "linkCreateForbidden": "Vous n'êtes pas autorisé à créer un lien d'intégration pour cette organisation.",

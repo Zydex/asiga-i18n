@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "De taak heeft geen gesliced buildbestand gereed voor printen.",
     "jobNotFound": "Taak niet gevonden.",
     "jobNotFound_details": "Taak met id {{details}} niet gevonden.",
+    "jobPrintAllowanceExhausted": "De printer voor deze taak heeft geen gratis prints meer.",
+    "jobPrinterExcluded": "De printer voor deze taak is uitgesloten van het ontvangen van taken.",
     "jobReviewIncorrectState": "Taak wacht niet op beoordeling.",
     "linkCreateConflict": "Integratielink bestaat al voor deze organisatie.",
     "linkCreateForbidden": "U mag geen integratielink aanmaken voor deze organisatie.",

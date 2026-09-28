@@ -2,6 +2,7 @@
   "button": {
     "download": "Downloaden",
     "exportReportPdf": "PDF exporteren",
+    "manageSubscription": "Abonnement beheren",
     "moveOffline": "Offline herwerken",
     "promote": "Promoten",
     "promoteJob": "Taak promoveren",
@@ -9,7 +10,8 @@
     "reprintParts": "Onderdelen opnieuw afdrukken",
     "requeueParts": "Onderdelen opnieuw in wachtrij plaatsen",
     "resendJob": "Taak opnieuw verzenden",
-    "reshuffle": "Herschikken"
+    "reshuffle": "Herschikken",
+    "sendAnyway": "Toch verzenden"
   },
   "details": {
     "basePlate": "Bodemplaat-instellingen",
@@ -56,6 +58,10 @@
     "noJobsToReview": "Voorlopige taken die zijn gepromoveerd, verschijnen hier. Upload onderdelen in de inbox om te beginnen.",
     "noParts": "Deze taak heeft geen onderdelen.",
     "noPartsToReprint": "Onderdelen in deze taak zijn al opnieuw in de wachtrij geplaatst voor herdruk.",
+    "noPrintsRemaining": "De printer voor deze taak heeft geen gratis prints meer. Plaats de onderdelen opnieuw in de wachtrij om ze op een beschikbare printer in te plannen, of neem een abonnement om onbeperkte prints te ontgrendelen.",
+    "noPrintsRemainingPartial": "Een of meer geselecteerde taken zijn toegewezen aan een printer die geen gratis prints meer heeft. Plaats de onderdelen opnieuw in de wachtrij om ze op een beschikbare printer in te plannen, of neem een abonnement om onbeperkte prints te ontgrendelen.",
+    "printerExcluded": "Deze printer is uitgesloten van het ontvangen van taken. Plaats opnieuw in de wachtrij om op een andere printer in te plannen, of verzend toch naar deze printer.",
+    "printerExcludedPartial": "Een of meer geselecteerde taken zijn toegewezen aan een printer die is uitgesloten van het ontvangen van taken. Plaats opnieuw in de wachtrij om op een andere printer in te plannen, of verzend toch naar de uitgesloten printer.",
     "rejectInfo": "Als u op 'Herschikken' drukt, worden de positie en rotatie van onderdelen gewijzigd als onderdeel van een nieuwe printtaak. Tijdens het herschikken kunnen sommige onderdelen worden verwijderd of toegevoegd.",
     "reprintParts": "Geselecteerde onderdelen krijgen prioriteit voor herdruk als onderdeel van de volgende geschikte printtaak.",
     "reprintPartsKey": "Onderdelen in grijs zijn al opnieuw afgedrukt.",
@@ -144,6 +150,8 @@
     "noJobsAccepted": "Geen taken geaccepteerd",
     "noJobsRejected": "Geen taken afgewezen",
     "noJobsToReview": "Geen taken te beoordelen",
+    "noPrintsRemaining": "Geen prints meer over",
+    "printerExcluded": "Printer uitgesloten van taken",
     "printJobs": "Printtaken",
     "rejectJob": "Afgewezen taak herschikken?",
     "requeueParts": "Onderdelen opnieuw in wachtrij plaatsen?",

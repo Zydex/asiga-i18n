@@ -2,6 +2,7 @@
   "button": {
     "download": "Descargar",
     "exportReportPdf": "Exportar PDF",
+    "manageSubscription": "Gestionar suscripción",
     "moveOffline": "Reprocesar sin conexión",
     "promote": "Promover",
     "promoteJob": "Promover trabajo",
@@ -9,7 +10,8 @@
     "reprintParts": "Reimprimir piezas",
     "requeueParts": "Volver a poner piezas en cola",
     "resendJob": "Reenviar trabajo",
-    "reshuffle": "Reorganizar"
+    "reshuffle": "Reorganizar",
+    "sendAnyway": "Enviar de todos modos"
   },
   "details": {
     "basePlate": "Ajustes de la placa base",
@@ -56,6 +58,10 @@
     "noJobsToReview": "Los trabajos provisionales que hayan sido promovidos aparecerán aquí. Suba piezas a la bandeja de entrada para comenzar.",
     "noParts": "Este trabajo no tiene piezas.",
     "noPartsToReprint": "Las piezas de este trabajo ya han sido vueltas a poner en cola para su reimpresión.",
+    "noPrintsRemaining": "La impresora de este trabajo se ha quedado sin impresiones gratuitas. Vuelve a poner las piezas en cola para programarlas en una impresora disponible, o suscríbete para desbloquear impresiones ilimitadas.",
+    "noPrintsRemainingPartial": "Uno o más trabajos seleccionados están asignados a una impresora que se ha quedado sin impresiones gratuitas. Vuelve a poner las piezas en cola para programarlas en una impresora disponible, o suscríbete para desbloquear impresiones ilimitadas.",
+    "printerExcluded": "Esta impresora ha sido excluida de recibir trabajos. Vuelve a ponerlo en cola para programarlo en otra impresora, o envíalo a esta impresora de todos modos.",
+    "printerExcludedPartial": "Uno o más trabajos seleccionados están asignados a una impresora que ha sido excluida de recibir trabajos. Vuelve a ponerlos en cola para programarlos en otra impresora, o envíalos a la impresora excluida de todos modos.",
     "rejectInfo": "Al pulsar «Reorganizar», la posición y la rotación de las piezas se modificarán como parte de un nuevo trabajo de impresión. Es posible que se eliminen o añadan algunas piezas durante la reorganización.",
     "reprintParts": "Las piezas seleccionadas se priorizarán para su reimpresión como parte del siguiente trabajo de impresión adecuado.",
     "reprintPartsKey": "Las piezas en gris ya han sido reimpresas.",
@@ -144,6 +150,8 @@
     "noJobsAccepted": "No hay trabajos aceptados",
     "noJobsRejected": "No hay trabajos rechazados",
     "noJobsToReview": "No hay trabajos para revisar",
+    "noPrintsRemaining": "No quedan impresiones",
+    "printerExcluded": "Impresora excluida de trabajos",
     "printJobs": "Trabajos de impresión",
     "rejectJob": "¿Reorganizar trabajo rechazado?",
     "requeueParts": "¿Volver a poner piezas en cola?",

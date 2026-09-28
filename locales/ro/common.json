@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "Comanda nu are un fișier de construcție feliat, pregătit pentru printare.",
     "jobNotFound": "Comanda nu a fost găsită.",
     "jobNotFound_details": "Comanda cu id-ul {{details}} nu a fost găsită.",
+    "jobPrintAllowanceExhausted": "Imprimanta pentru acest job a rămas fără printări gratuite.",
+    "jobPrinterExcluded": "Imprimanta pentru acest job a fost exclusă de la primirea joburilor.",
     "jobReviewIncorrectState": "Comanda nu așteaptă revizuirea.",
     "linkCreateConflict": "Există deja o legătură de integrare pentru această organizație.",
     "linkCreateForbidden": "Nu aveți permisiunea de a crea o legătură de integrare pentru această organizație.",
