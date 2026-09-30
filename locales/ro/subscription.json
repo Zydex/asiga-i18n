@@ -38,7 +38,8 @@
     "subscriptionStatus": "Starea abonamentului"
   },
   "message": {
-    "noPrinters": "Nicio imprimantă nu a fost adăugată încă în organizația ta."
+    "noPrinters": "Nicio imprimantă nu a fost adăugată încă în organizația ta.",
+    "seatsUpdated": "Abonamentul a fost actualizat cu succes."
   },
   "title": {
     "availableWithSubscription": "Disponibil cu un abonament",

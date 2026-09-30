@@ -38,7 +38,8 @@
     "subscriptionStatus": "Előfizetés állapota"
   },
   "message": {
-    "noPrinters": "Még nem adtak hozzá nyomtatót a szervezetéhez."
+    "noPrinters": "Még nem adtak hozzá nyomtatót a szervezetéhez.",
+    "seatsUpdated": "Az előfizetés sikeresen frissítve."
   },
   "title": {
     "availableWithSubscription": "Előfizetéssel elérhető",

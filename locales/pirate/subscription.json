@@ -38,7 +38,8 @@
     "subscriptionStatus": "Tithe status"
   },
   "message": {
-    "noPrinters": "No contraptions have been added to yer crew yet."
+    "noPrinters": "No contraptions have been added to yer crew yet.",
+    "seatsUpdated": "Yer tithe has been updated successfully."
   },
   "title": {
     "availableWithSubscription": "Available with a Tithe",

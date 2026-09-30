@@ -38,7 +38,8 @@
     "subscriptionStatus": "Estado de la suscripción"
   },
   "message": {
-    "noPrinters": "Aún no se han añadido impresoras a tu organización."
+    "noPrinters": "Aún no se han añadido impresoras a tu organización.",
+    "seatsUpdated": "Suscripción actualizada correctamente."
   },
   "title": {
     "availableWithSubscription": "Disponible con una Suscripción",

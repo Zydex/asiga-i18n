@@ -38,7 +38,8 @@
     "subscriptionStatus": "Prenumerationsstatus"
   },
   "message": {
-    "noPrinters": "Inga skrivare har lagts till i din organisation ännu."
+    "noPrinters": "Inga skrivare har lagts till i din organisation ännu.",
+    "seatsUpdated": "Uppdateringen av prenumerationen lyckades."
   },
   "title": {
     "availableWithSubscription": "Tillgängligt med en prenumeration",
