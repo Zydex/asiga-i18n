@@ -38,7 +38,8 @@
     "subscriptionStatus": "Subscription status"
   },
   "message": {
-    "noPrinters": "No printers have been added to your organisation yet."
+    "noPrinters": "No printers have been added to your organisation yet.",
+    "seatsUpdated": "Subscription successfully updated."
   },
   "title": {
     "availableWithSubscription": "Available with a Subscription",
