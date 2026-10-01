@@ -2,6 +2,7 @@
   "button": {
     "download": "Stáhnout",
     "exportReportPdf": "Exportovat PDF",
+    "manageSubscription": "Spravovat předplatné",
     "moveOffline": "Přepracovat offline",
     "promote": "Povýšit",
     "promoteJob": "Povýšit úlohu",
@@ -9,7 +10,8 @@
     "reprintParts": "Vytisknout díly znovu",
     "requeueParts": "Zařadit díly znovu do fronty",
     "resendJob": "Odeslat úlohu znovu",
-    "reshuffle": "Přeuspořádat"
+    "reshuffle": "Přeuspořádat",
+    "sendAnyway": "Přesto odeslat"
   },
   "details": {
     "basePlate": "Nastavení základní desky",
@@ -56,6 +58,10 @@
     "noJobsToReview": "Předběžné úlohy, které byly povýšeny, se zobrazí zde. Chcete-li začít, nahrajte díly do doručené pošty.",
     "noParts": "Tato úloha neobsahuje žádné díly.",
     "noPartsToReprint": "Díly v této úloze již byly zařazeny znovu do fronty pro opětovný tisk.",
+    "noPrintsRemaining": "Tiskárně pro tuto úlohu došly bezplatné tisky. Zařaďte díly znovu do fronty, aby byly naplánovány na dostupnou tiskárnu, nebo si předplaťte službu a odemkněte neomezený počet tisků.",
+    "noPrintsRemainingPartial": "Jedna nebo více vybraných úloh je přiřazena k tiskárně, které došly bezplatné tisky. Zařaďte díly znovu do fronty, aby byly naplánovány na dostupnou tiskárnu, nebo si předplaťte službu a odemkněte neomezený počet tisků.",
+    "printerExcluded": "Tato tiskárna byla vyloučena z přijímání úloh. Zařaďte znovu do fronty pro naplánování na jinou tiskárnu, nebo přesto odešlete na tuto tiskárnu.",
+    "printerExcludedPartial": "Jedna nebo více vybraných úloh je přiřazena k tiskárně, která byla vyloučena z přijímání úloh. Zařaďte znovu do fronty pro naplánování na jinou tiskárnu, nebo přesto odešlete na vyloučenou tiskárnu.",
     "rejectInfo": "Stisknutím tlačítka „Přeuspořádat“ dojde ke změně pozice a otočení dílů v rámci nové tiskové úlohy. Některé díly mohou být během přeuspořádání odebrány nebo přidány.",
     "reprintParts": "Vybrané díly budou upřednostněny pro opětovný tisk v rámci další vhodné tiskové úlohy.",
     "reprintPartsKey": "Šedě zobrazené díly již byly vytištěny znovu.",
@@ -144,6 +150,8 @@
     "noJobsAccepted": "Žádné přijaté úlohy",
     "noJobsRejected": "Žádné zamítnuté úlohy",
     "noJobsToReview": "Žádné úlohy ke kontrole",
+    "noPrintsRemaining": "Nezbývají žádné tisky",
+    "printerExcluded": "Tiskárna vyloučena z úloh",
     "printJobs": "Tiskové úlohy",
     "rejectJob": "Přeuspořádat zamítnutou úlohu?",
     "requeueParts": "Zařadit díly znovu do fronty?",

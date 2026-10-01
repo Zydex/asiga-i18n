@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "O trabalho não tem um ficheiro de construção fatiado pronto para impressão.",
     "jobNotFound": "Trabalho não encontrado.",
     "jobNotFound_details": "Trabalho com id {{details}} não encontrado.",
+    "jobPrintAllowanceExhausted": "A impressora deste trabalho esgotou as impressões gratuitas.",
+    "jobPrinterExcluded": "A impressora deste trabalho foi excluída de receber trabalhos.",
     "jobReviewIncorrectState": "O trabalho não está à espera de revisão.",
     "linkCreateConflict": "Já existe uma ligação de integração para esta organização.",
     "linkCreateForbidden": "Não tem permissão para criar uma ligação de integração para esta organização.",

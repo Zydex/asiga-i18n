@@ -2,6 +2,7 @@
   "button": {
     "download": "Haul Ashore",
     "exportReportPdf": "Ship Out PDF",
+    "manageSubscription": "Manage Tithe",
     "moveOffline": "Rework Ashore",
     "promote": "Raise Up",
     "promoteJob": "Promote Voyage",
@@ -9,7 +10,8 @@
     "reprintParts": "Re-forge Trinkets",
     "requeueParts": "Trinkets Back in Line",
     "resendJob": "Resend Voyage",
-    "reshuffle": "Shuffle Anew"
+    "reshuffle": "Shuffle Anew",
+    "sendAnyway": "Send Regardless"
   },
   "details": {
     "basePlate": "Base Plate riggin'",
@@ -56,6 +58,10 @@
     "noJobsToReview": "Rumoured voyages that've been promoted will appear here. Hoist trinkets aboard in th' crow's nest to get started.",
     "noParts": "This voyage carries no trinkets.",
     "noPartsToReprint": "Trinkets in this voyage be already back in line fer re-forgin'.",
+    "noPrintsRemaining": "Th' contraption fer this voyage has run dry o' free forgin's. Send th' trinkets back in line to chart 'em on an available contraption, or pay yer tithe to unlock endless forgin's.",
+    "noPrintsRemainingPartial": "One or more chosen voyages be assigned to a contraption that's run dry o' free forgin's. Send th' trinkets back in line to chart 'em on an available contraption, or pay yer tithe to unlock endless forgin's.",
+    "printerExcluded": "This contraption has been barred from receivin' voyages. Send back in line to chart on another contraption, or send to this contraption regardless.",
+    "printerExcludedPartial": "One or more chosen voyages be assigned to a contraption that's been barred from receivin' voyages. Send back in line to chart on another contraption, or send to th' barred contraption regardless.",
     "rejectInfo": "Pressin' 'Shuffle Anew' will vary trinket position an' rotation as part o' a new forge voyage. Some trinkets may be scuttled or added durin' th' shuffle.",
     "reprintParts": "Chosen trinkets will be prioritised fer re-forgin' as part o' th' next suitable forge voyage.",
     "reprintPartsKey": "Trinkets in grey have already been re-forged.",
@@ -144,6 +150,8 @@
     "noJobsAccepted": "No voyages aboard",
     "noJobsRejected": "No voyages cast off",
     "noJobsToReview": "No voyages to inspect",
+    "noPrintsRemaining": "No forgin's left",
+    "printerExcluded": "Contraption barred from voyages",
     "printJobs": "Forge Voyages",
     "rejectJob": "Shuffle th' cast off voyage anew?",
     "requeueParts": "Send Trinkets Back in Line?",

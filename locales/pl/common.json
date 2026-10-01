@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "Zadanie nie ma pociętego na warstwy pliku budowy gotowego do druku.",
     "jobNotFound": "Nie znaleziono zadania.",
     "jobNotFound_details": "Nie znaleziono zadania o id {{details}}.",
+    "jobPrintAllowanceExhausted": "Drukarce przypisanej do tego zadania skończyły się bezpłatne wydruki.",
+    "jobPrinterExcluded": "Drukarka przypisana do tego zadania została wykluczona z otrzymywania zadań.",
     "jobReviewIncorrectState": "Zadanie nie oczekuje na przegląd.",
     "linkCreateConflict": "Link integracji już istnieje dla tej organizacji.",
     "linkCreateForbidden": "Nie masz uprawnień do tworzenia linku integracji dla tej organizacji.",

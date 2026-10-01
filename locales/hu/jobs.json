@@ -2,6 +2,7 @@
   "button": {
     "download": "Letöltés",
     "exportReportPdf": "PDF exportálása",
+    "manageSubscription": "Előfizetés kezelése",
     "moveOffline": "Átdolgozás offline módban",
     "promote": "Előléptetés",
     "promoteJob": "Munka előléptetése",
@@ -9,7 +10,8 @@
     "reprintParts": "Alkatrészek újranyomtatása",
     "requeueParts": "Alkatrészek visszasorolása",
     "resendJob": "Munka újraküldése",
-    "reshuffle": "Újrarendezés"
+    "reshuffle": "Újrarendezés",
+    "sendAnyway": "Küldés ennek ellenére"
   },
   "details": {
     "basePlate": "Alaplap beállításai",
@@ -56,6 +58,10 @@
     "noJobsToReview": "Az előléptetett ideiglenes munkák itt fognak megjelenni. A kezdéshez töltsön fel alkatrészeket a bejövő mappába.",
     "noParts": "Ehhez a munkához nem tartoznak alkatrészek.",
     "noPartsToReprint": "Az ebben a munkában lévő alkatrészek már vissza lettek sorolva újranyomtatásra.",
+    "noPrintsRemaining": "Az ehhez a munkához tartozó nyomtató ingyenes nyomtatásai elfogytak. Sorolja vissza az alkatrészeket, hogy egy elérhető nyomtatóra ütemezze őket, vagy fizessen elő a korlátlan nyomtatás feloldásához.",
+    "noPrintsRemainingPartial": "Egy vagy több kijelölt munka olyan nyomtatóhoz van rendelve, amelynek ingyenes nyomtatásai elfogytak. Sorolja vissza az alkatrészeket, hogy egy elérhető nyomtatóra ütemezze őket, vagy fizessen elő a korlátlan nyomtatás feloldásához.",
+    "printerExcluded": "Ez a nyomtató ki lett zárva a munkák fogadásából. Sorolja vissza, hogy egy másik nyomtatóra ütemezze, vagy küldje el ennek ellenére erre a nyomtatóra.",
+    "printerExcludedPartial": "Egy vagy több kijelölt munka olyan nyomtatóhoz van rendelve, amely ki lett zárva a munkák fogadásából. Sorolja vissza, hogy egy másik nyomtatóra ütemezze, vagy küldje el ennek ellenére a kizárt nyomtatóra.",
     "rejectInfo": "Az „Újrarendezés” megnyomása az alkatrészek pozíciójának és elforgatásának megváltozását eredményezi egy új nyomtatási munka részeként. Az újrarendezés során egyes alkatrészek eltávolításra vagy hozzáadásra kerülhetnek.",
     "reprintParts": "A kiválasztott alkatrészek prioritást kapnak az újranyomtatáshoz a következő megfelelő nyomtatási munka részeként.",
     "reprintPartsKey": "A szürkével jelölt alkatrészek már újra lettek nyomtatva.",
@@ -144,6 +150,8 @@
     "noJobsAccepted": "Nincs elfogadott munka",
     "noJobsRejected": "Nincs elutasított munka",
     "noJobsToReview": "Nincs átnézésre váró munka",
+    "noPrintsRemaining": "Nincs több nyomtatás",
+    "printerExcluded": "Nyomtató kizárva a munkákból",
     "printJobs": "Nyomtatási munkák",
     "rejectJob": "Újrarendezi az elutasított munkát?",
     "requeueParts": "Visszasorolja az alkatrészeket?",

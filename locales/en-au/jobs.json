@@ -2,6 +2,7 @@
   "button": {
     "download": "Download",
     "exportReportPdf": "Export PDF",
+    "manageSubscription": "Manage Subscription",
     "moveOffline": "Rework Offline",
     "promote": "Promote",
     "promoteJob": "Promote Job",
@@ -9,7 +10,8 @@
     "reprintParts": "Reprint Parts",
     "requeueParts": "Requeue Parts",
     "resendJob": "Resend Job",
-    "reshuffle": "Reshuffle"
+    "reshuffle": "Reshuffle",
+    "sendAnyway": "Send Anyway"
   },
   "details": {
     "basePlate": "Base Plate settings",
@@ -56,6 +58,10 @@
     "noJobsToReview": "Provisional jobs that have been promoted will appear here. Upload parts in the inbox to get started.",
     "noParts": "This job has no parts.",
     "noPartsToReprint": "Parts in this job have already been requeued for reprinting.",
+    "noPrintsRemaining": "The printer for this job has run out of free prints. Requeue the parts to schedule them on an available printer, or subscribe to unlock unlimited prints.",
+    "noPrintsRemainingPartial": "One or more selected jobs are assigned to a printer that has run out of free prints. Requeue the parts to schedule them on an available printer, or subscribe to unlock unlimited prints.",
+    "printerExcluded": "This printer has been excluded from receiving jobs. Requeue to schedule on another printer, or send to this printer anyway.",
+    "printerExcludedPartial": "One or more selected jobs are assigned to a printer that has been excluded from receiving jobs. Requeue to schedule on another printer, or send to the excluded printer anyway.",
     "rejectInfo": "Pressing 'Reshuffle' will result in part position and rotation being varied as part of a new print job. Some parts may be removed or added during the reshuffle.",
     "reprintParts": "Selected parts will be prioritised for reprinting as part of the next suitable print job.",
     "reprintPartsKey": "Parts in grey have already been reprinted.",
@@ -144,6 +150,8 @@
     "noJobsAccepted": "No jobs accepted",
     "noJobsRejected": "No jobs rejected",
     "noJobsToReview": "No jobs to review",
+    "noPrintsRemaining": "No prints remaining",
+    "printerExcluded": "Printer excluded from jobs",
     "printJobs": "Print Jobs",
     "rejectJob": "Reshuffle rejected job?",
     "requeueParts": "Requeue Parts?",

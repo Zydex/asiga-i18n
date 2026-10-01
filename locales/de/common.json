@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "Für den Auftrag ist keine in Schichten aufbereitete Build-Datei zum Drucken verfügbar.",
     "jobNotFound": "Auftrag nicht gefunden.",
     "jobNotFound_details": "Auftrag mit der ID {{details}} nicht gefunden.",
+    "jobPrintAllowanceExhausted": "Der Drucker für diesen Auftrag hat keine kostenlosen Drucke mehr.",
+    "jobPrinterExcluded": "Der Drucker für diesen Auftrag wurde vom Empfang von Aufträgen ausgeschlossen.",
     "jobReviewIncorrectState": "Der Auftrag wartet nicht auf eine Überprüfung.",
     "linkCreateConflict": "Für diese Organisation existiert bereits ein Integrationslink.",
     "linkCreateForbidden": "Sie sind nicht berechtigt, einen Integrationslink für diese Organisation zu erstellen.",

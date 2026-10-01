@@ -2,6 +2,7 @@
   "button": {
     "download": "Ladda ner",
     "exportReportPdf": "Exportera PDF",
+    "manageSubscription": "Hantera prenumeration",
     "moveOffline": "Omarbeta offline",
     "promote": "Befordra",
     "promoteJob": "Befordra jobb",
@@ -9,7 +10,8 @@
     "reprintParts": "Skriv ut delar igen",
     "requeueParts": "Köa delar igen",
     "resendJob": "Skicka jobb igen",
-    "reshuffle": "Blanda om"
+    "reshuffle": "Blanda om",
+    "sendAnyway": "Skicka ändå"
   },
   "details": {
     "basePlate": "Inställningar för basplatta",
@@ -56,6 +58,10 @@
     "noJobsToReview": "Preliminära jobb som har befordrats visas här. Ladda upp delar i inkorgen för att komma igång.",
     "noParts": "Detta jobb har inga delar.",
     "noPartsToReprint": "Delar i detta jobb har redan köats igen för att skrivas ut på nytt.",
+    "noPrintsRemaining": "Skrivaren för detta jobb har slut på kostnadsfria utskrifter. Köa delarna igen för att schemalägga dem på en tillgänglig skrivare, eller prenumerera för att låsa upp obegränsade utskrifter.",
+    "noPrintsRemainingPartial": "Ett eller flera valda jobb är tilldelade till en skrivare som har slut på kostnadsfria utskrifter. Köa delarna igen för att schemalägga dem på en tillgänglig skrivare, eller prenumerera för att låsa upp obegränsade utskrifter.",
+    "printerExcluded": "Denna skrivare har exkluderats från att ta emot jobb. Köa igen för att schemalägga på en annan skrivare, eller skicka ändå till denna skrivare.",
+    "printerExcludedPartial": "Ett eller flera valda jobb är tilldelade till en skrivare som har exkluderats från att ta emot jobb. Köa igen för att schemalägga på en annan skrivare, eller skicka ändå till den exkluderade skrivaren.",
     "rejectInfo": "Att trycka på 'Blanda om' innebär att delarnas position och rotation varieras som en del av ett nytt utskriftsjobb. Vissa delar kan tas bort eller läggas till under omblandningen.",
     "reprintParts": "Valda delar kommer att prioriteras för utskrift på nytt som en del av nästa lämpliga utskriftsjobb.",
     "reprintPartsKey": "Delar i grått har redan skrivits ut på nytt.",
@@ -144,6 +150,8 @@
     "noJobsAccepted": "Inga jobb accepterade",
     "noJobsRejected": "Inga jobb avvisade",
     "noJobsToReview": "Inga jobb att granska",
+    "noPrintsRemaining": "Inga utskrifter kvar",
+    "printerExcluded": "Skrivare exkluderad från jobb",
     "printJobs": "Utskriftsjobb",
     "rejectJob": "Blanda om avvisat jobb?",
     "requeueParts": "Köa delar igen?",

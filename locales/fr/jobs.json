@@ -2,6 +2,7 @@
   "button": {
     "download": "Télécharger",
     "exportReportPdf": "Exporter en PDF",
+    "manageSubscription": "Gérer l'abonnement",
     "moveOffline": "Retravailler hors ligne",
     "promote": "Promouvoir",
     "promoteJob": "Promouvoir la tâche",
@@ -9,7 +10,8 @@
     "reprintParts": "Réimprimer les pièces",
     "requeueParts": "Remettre les pièces en file d'attente",
     "resendJob": "Renvoyer la tâche",
-    "reshuffle": "Réorganiser"
+    "reshuffle": "Réorganiser",
+    "sendAnyway": "Envoyer quand même"
   },
   "details": {
     "basePlate": "Paramètres du plateau de base",
@@ -56,6 +58,10 @@
     "noJobsToReview": "Les tâches provisoires qui ont été promues apparaîtront ici. Chargez des pièces dans la boîte de réception pour commencer.",
     "noParts": "Cette tâche ne contient aucune pièce.",
     "noPartsToReprint": "Les pièces de cette tâche ont déjà été remises en file d'attente pour réimpression.",
+    "noPrintsRemaining": "L'imprimante de cette tâche n'a plus d'impressions gratuites. Remettez les pièces en file d'attente pour les planifier sur une imprimante disponible, ou abonnez-vous pour débloquer des impressions illimitées.",
+    "noPrintsRemainingPartial": "Une ou plusieurs tâches sélectionnées sont attribuées à une imprimante qui n'a plus d'impressions gratuites. Remettez les pièces en file d'attente pour les planifier sur une imprimante disponible, ou abonnez-vous pour débloquer des impressions illimitées.",
+    "printerExcluded": "Cette imprimante a été exclue de la réception des tâches. Remettez en file d'attente pour planifier sur une autre imprimante, ou envoyez quand même à cette imprimante.",
+    "printerExcludedPartial": "Une ou plusieurs tâches sélectionnées sont attribuées à une imprimante qui a été exclue de la réception des tâches. Remettez en file d'attente pour planifier sur une autre imprimante, ou envoyez quand même à l'imprimante exclue.",
     "rejectInfo": "Appuyer sur « Réorganiser » entraînera une variation de la position et de la rotation des pièces dans le cadre d'une nouvelle tâche d'impression. Certaines pièces peuvent être supprimées ou ajoutées lors de la réorganisation.",
     "reprintParts": "Les pièces sélectionnées seront prioritaires pour la réimpression dans le cadre de la prochaine tâche d'impression appropriée.",
     "reprintPartsKey": "Les pièces en gris ont déjà été réimprimées.",
@@ -144,6 +150,8 @@
     "noJobsAccepted": "Aucune tâche acceptée",
     "noJobsRejected": "Aucune tâche rejetée",
     "noJobsToReview": "Aucune tâche à examiner",
+    "noPrintsRemaining": "Aucune impression restante",
+    "printerExcluded": "Imprimante exclue des tâches",
     "printJobs": "Tâches d'impression",
     "rejectJob": "Réorganiser la tâche rejetée ?",
     "requeueParts": "Remettre les pièces en file d'attente ?",

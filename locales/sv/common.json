@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "Jobbet har ingen skivad byggfil redo för utskrift.",
     "jobNotFound": "Jobbet hittades inte.",
     "jobNotFound_details": "Jobb med id {{details}} hittades inte.",
+    "jobPrintAllowanceExhausted": "Skrivaren för detta jobb har slut på kostnadsfria utskrifter.",
+    "jobPrinterExcluded": "Skrivaren för detta jobb har exkluderats från att ta emot jobb.",
     "jobReviewIncorrectState": "Jobbet väntar inte på granskning.",
     "linkCreateConflict": "En integrationslänk finns redan för denna organisation.",
     "linkCreateForbidden": "Du har inte behörighet att skapa en integrationslänk för denna organisation.",

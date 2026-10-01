@@ -2,6 +2,7 @@
   "button": {
     "download": "Descarregar",
     "exportReportPdf": "Exportar PDF",
+    "manageSubscription": "Gerir Subscrição",
     "moveOffline": "Retrabalhar Offline",
     "promote": "Promover",
     "promoteJob": "Promover Trabalho",
@@ -9,7 +10,8 @@
     "reprintParts": "Reimprimir Peças",
     "requeueParts": "Reenfileirar Peças",
     "resendJob": "Reenviar Trabalho",
-    "reshuffle": "Baralhar"
+    "reshuffle": "Baralhar",
+    "sendAnyway": "Enviar Mesmo Assim"
   },
   "details": {
     "basePlate": "Definições da Placa Base",
@@ -56,6 +58,10 @@
     "noJobsToReview": "Os trabalhos provisórios que tenham sido promovidos aparecerão aqui. Faça upload de peças na caixa de entrada para começar.",
     "noParts": "Este trabalho não tem peças.",
     "noPartsToReprint": "As peças deste trabalho já foram reenfileiradas para reimpressão.",
+    "noPrintsRemaining": "A impressora deste trabalho esgotou as impressões gratuitas. Reenfileire as peças para as agendar numa impressora disponível, ou subscreva para desbloquear impressões ilimitadas.",
+    "noPrintsRemainingPartial": "Um ou mais trabalhos selecionados estão atribuídos a uma impressora que esgotou as impressões gratuitas. Reenfileire as peças para as agendar numa impressora disponível, ou subscreva para desbloquear impressões ilimitadas.",
+    "printerExcluded": "Esta impressora foi excluída de receber trabalhos. Reenfileire para agendar noutra impressora, ou envie para esta impressora mesmo assim.",
+    "printerExcludedPartial": "Um ou mais trabalhos selecionados estão atribuídos a uma impressora que foi excluída de receber trabalhos. Reenfileire para agendar noutra impressora, ou envie para a impressora excluída mesmo assim.",
     "rejectInfo": "Premir 'Baralhar' fará com que a posição e a rotação das peças variem aleatoriamente, como parte de um novo trabalho de impressão. Algumas peças podem ser removidas ou adicionadas durante este processo.",
     "reprintParts": "As peças selecionadas serão priorizadas para reimpressão como parte do próximo trabalho de impressão adequado.",
     "reprintPartsKey": "As peças a cinzento já foram reimpressas.",
@@ -144,6 +150,8 @@
     "noJobsAccepted": "Nenhum trabalho aceite",
     "noJobsRejected": "Nenhum trabalho rejeitado",
     "noJobsToReview": "Nenhum trabalho para rever",
+    "noPrintsRemaining": "Sem impressões restantes",
+    "printerExcluded": "Impressora excluída de trabalhos",
     "printJobs": "Trabalhos de Impressão",
     "rejectJob": "Baralhar trabalho rejeitado?",
     "requeueParts": "Reenfileirar Peças?",
