@@ -14,6 +14,13 @@
     }
   },
   "autoPartGrouping": {
+    "example": {
+      "dragEnd": "Húzza az utolsó egyeztetett karakter módosításához",
+      "dragStart": "Húzza az első egyeztetett karakter módosításához",
+      "extensionIgnored": "A fájlkiterjesztést az egyeztetés figyelmen kívül hagyja.",
+      "matchKey": "Az ezen a pozíción \"{{key}}\" szöveget tartalmazó alkatrészek egy csoportba kerülnek.",
+      "tooShort": "Ez a név túl rövid ezekhez a beállításokhoz, ezért nem kerülne csoportosításra."
+    },
     "label": {
       "characterPosition": "Karakter pozíciója",
       "characterRange": "Karaktertartomány",

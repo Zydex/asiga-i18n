@@ -14,6 +14,13 @@
     }
   },
   "autoPartGrouping": {
+    "example": {
+      "dragEnd": "Arrastra para cambiar el último carácter coincidente",
+      "dragStart": "Arrastra para cambiar el primer carácter coincidente",
+      "extensionIgnored": "La extensión del archivo se ignora al hacer la coincidencia.",
+      "matchKey": "Las piezas con \"{{key}}\" en esta posición se agrupan juntas.",
+      "tooShort": "Este nombre es demasiado corto para esta configuración, por lo que no se agruparía."
+    },
     "label": {
       "characterPosition": "Posición del carácter",
       "characterRange": "Rango de caracteres",

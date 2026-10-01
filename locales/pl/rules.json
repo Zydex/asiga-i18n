@@ -14,6 +14,13 @@
     }
   },
   "autoPartGrouping": {
+    "example": {
+      "dragEnd": "Przeciągnij, aby zmienić ostatni dopasowywany znak",
+      "dragStart": "Przeciągnij, aby zmienić pierwszy dopasowywany znak",
+      "extensionIgnored": "Rozszerzenie pliku jest pomijane podczas dopasowywania.",
+      "matchKey": "Części z \"{{key}}\" na tej pozycji są grupowane razem.",
+      "tooShort": "Ta nazwa jest za krótka dla tych ustawień, więc nie zostałaby zgrupowana."
+    },
     "label": {
       "characterPosition": "Pozycja znaku",
       "characterRange": "Zakres znaków",

@@ -14,6 +14,13 @@
     }
   },
   "autoPartGrouping": {
+    "example": {
+      "dragEnd": "Dra för att ändra det sista matchade tecknet",
+      "dragStart": "Dra för att ändra det första matchade tecknet",
+      "extensionIgnored": "Filändelsen ignoreras vid matchningen.",
+      "matchKey": "Delar med \"{{key}}\" på den här positionen grupperas tillsammans.",
+      "tooShort": "Det här namnet är för kort för de här inställningarna och skulle därför inte grupperas."
+    },
     "label": {
       "characterPosition": "Teckenposition",
       "characterRange": "Teckenintervall",

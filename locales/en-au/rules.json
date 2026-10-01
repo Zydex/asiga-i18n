@@ -14,6 +14,13 @@
     }
   },
   "autoPartGrouping": {
+    "example": {
+      "dragEnd": "Drag to change the last matched character",
+      "dragStart": "Drag to change the first matched character",
+      "extensionIgnored": "The file extension is ignored when matching.",
+      "matchKey": "Parts with \"{{key}}\" at this position are grouped together.",
+      "tooShort": "This name is too short for these settings, so it would not be grouped."
+    },
     "label": {
       "characterPosition": "Character position",
       "characterRange": "Character range",
