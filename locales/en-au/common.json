@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "The job does not have a sliced build file ready for printing.",
     "jobNotFound": "Job not found.",
     "jobNotFound_details": "Job with id {{details}} not found.",
+    "jobPrintAllowanceExhausted": "The printer for this job has run out of free prints.",
+    "jobPrinterExcluded": "The printer for this job has been excluded from receiving jobs.",
     "jobReviewIncorrectState": "Job is not waiting for review.",
     "linkCreateConflict": "Integration link already exists for this organisation.",
     "linkCreateForbidden": "You are not allowed to create an integration link for this organisation.",
@@ -560,6 +562,7 @@
     "nestingBlocked": {
       "name": "Unable to add to provisional job",
       "tooltip": {
+        "allDevicesAllowanceExhausted": "All compatible printers have used their free prints for this month.\n\nSubscribe a printer for unlimited prints, or update the template to use other printers.",
         "allDevicesExcludedFromFunnel": "Compatible printers have been excluded from accepting jobs from the Funnel.\n\nInclude these printers for automatic print jobs, or update the template to use other printers.",
         "allDevicesOfflineOrExcluded": "No compatible printers are online, or accepting Funnel print jobs.\n\nCheck printers are connected and included for automatic print jobs, or update the template to use other connected printers.",
         "groupMemberFailed": "One or more parts in the group have failed orientation.\n\nRemove the failed part(s) to print this group.",

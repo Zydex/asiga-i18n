@@ -2,6 +2,7 @@
   "button": {
     "download": "Descarcă",
     "exportReportPdf": "Exportă PDF",
+    "manageSubscription": "Gestionează abonamentul",
     "moveOffline": "Reprelucrează offline",
     "promote": "Promovează",
     "promoteJob": "Promovează job",
@@ -9,7 +10,8 @@
     "reprintParts": "Reimprimă piese",
     "requeueParts": "Repune piese în coadă",
     "resendJob": "Retrimite job",
-    "reshuffle": "Amestecă"
+    "reshuffle": "Amestecă",
+    "sendAnyway": "Trimite oricum"
   },
   "details": {
     "basePlate": "Setări platou de bază",
@@ -56,6 +58,10 @@
     "noJobsToReview": "Joburile provizorii care au fost promovate vor apărea aici. Încarcă piese în inbox pentru a începe.",
     "noParts": "Acest job nu are piese.",
     "noPartsToReprint": "Piesele din acest job au fost deja repuse în coadă pentru reimprimare.",
+    "noPrintsRemaining": "Imprimanta pentru acest job a rămas fără printări gratuite. Repune piesele în coadă pentru a le programa pe o imprimantă disponibilă sau abonează-te pentru a debloca printări nelimitate.",
+    "noPrintsRemainingPartial": "Unul sau mai multe joburi selectate sunt atribuite unei imprimante care a rămas fără printări gratuite. Repune piesele în coadă pentru a le programa pe o imprimantă disponibilă sau abonează-te pentru a debloca printări nelimitate.",
+    "printerExcluded": "Această imprimantă a fost exclusă de la primirea joburilor. Repune în coadă pentru a programa pe o altă imprimantă sau trimite oricum la această imprimantă.",
+    "printerExcludedPartial": "Unul sau mai multe joburi selectate sunt atribuite unei imprimante care a fost exclusă de la primirea joburilor. Repune în coadă pentru a programa pe o altă imprimantă sau trimite oricum la imprimanta exclusă.",
     "rejectInfo": "Apăsarea butonului „Amestecă” va duce la variația poziției și rotației pieselor ca parte a unui nou job de printare. Este posibil ca unele piese să fie eliminate sau adăugate în timpul amestecării.",
     "reprintParts": "Piesele selectate vor fi prioritizate pentru reimprimare ca parte a următorului job de printare potrivit.",
     "reprintPartsKey": "Piesele afișate cu gri au fost deja reimprimate.",
@@ -144,6 +150,8 @@
     "noJobsAccepted": "Niciun job acceptat",
     "noJobsRejected": "Niciun job respins",
     "noJobsToReview": "Niciun job de verificat",
+    "noPrintsRemaining": "Nicio printare rămasă",
+    "printerExcluded": "Imprimantă exclusă de la joburi",
     "printJobs": "Joburi de printare",
     "rejectJob": "Amesteci jobul respins?",
     "requeueParts": "Repui piesele în coadă?",

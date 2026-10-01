@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "Il lavoro non dispone di un file di build sezionato pronto per la stampa.",
     "jobNotFound": "Lavoro non trovato.",
     "jobNotFound_details": "Lavoro con id {{details}} non trovato.",
+    "jobPrintAllowanceExhausted": "La stampante per questo lavoro ha esaurito le stampe gratuite.",
+    "jobPrinterExcluded": "La stampante per questo lavoro è stata esclusa dalla ricezione dei lavori.",
     "jobReviewIncorrectState": "Il lavoro non è in attesa di revisione.",
     "linkCreateConflict": "Esiste già un link di integrazione per questa organizzazione.",
     "linkCreateForbidden": "Non sei autorizzato a creare un link di integrazione per questa organizzazione.",
@@ -560,6 +562,7 @@
     "nestingBlocked": {
       "name": "Impossibile aggiungere al lavoro provvisorio",
       "tooltip": {
+        "allDevicesAllowanceExhausted": "Tutte le stampanti compatibili hanno esaurito le stampe gratuite per questo mese.\n\nAttiva un abbonamento per una stampante per ottenere stampe illimitate, oppure aggiorna il modello per utilizzare altre stampanti.",
         "allDevicesExcludedFromFunnel": "Le stampanti compatibili sono state escluse dall'accettazione dei lavori dal Funnel.\n\nIncludi queste stampanti per i lavori di stampa automatici, oppure aggiorna il modello per utilizzare altre stampanti.",
         "allDevicesOfflineOrExcluded": "Nessuna stampante compatibile è online o accetta lavori di stampa dal Funnel.\n\nControlla che le stampanti siano connesse e incluse per i lavori di stampa automatici, oppure aggiorna il modello per utilizzare altre stampanti connesse.",
         "groupMemberFailed": "Uno o più pezzi nel gruppo non sono riusciti nell'orientamento.\n\nRimuovi i pezzi non riusciti per stampare questo gruppo.",

@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "Zakázka nemá připravený rozřezaný soubor sestavy pro tisk.",
     "jobNotFound": "Zakázka nebyla nalezena.",
     "jobNotFound_details": "Zakázka s ID {{details}} nebyla nalezena.",
+    "jobPrintAllowanceExhausted": "Tiskárně pro tuto úlohu došly bezplatné tisky.",
+    "jobPrinterExcluded": "Tiskárna pro tuto úlohu byla vyloučena z přijímání úloh.",
     "jobReviewIncorrectState": "Zakázka nečeká na kontrolu.",
     "linkCreateConflict": "Propojení integrace pro tuto organizaci již existuje.",
     "linkCreateForbidden": "Nemáte oprávnění vytvořit propojení integrace pro tuto organizaci.",
@@ -560,6 +562,7 @@
     "nestingBlocked": {
       "name": "Nelze přidat do předběžné zakázky",
       "tooltip": {
+        "allDevicesAllowanceExhausted": "Všechny kompatibilní tiskárny již tento měsíc vyčerpaly své bezplatné tisky.\n\nPředplaťte tiskárnu pro neomezený počet tisků, nebo upravte šablonu tak, aby používala jiné tiskárny.",
         "allDevicesExcludedFromFunnel": "Kompatibilní tiskárny byly vyloučeny z přijímání zakázek z Funnelu.\n\nZahrňte tyto tiskárny pro automatické tiskové zakázky, nebo upravte šablonu tak, aby používala jiné tiskárny.",
         "allDevicesOfflineOrExcluded": "Žádné kompatibilní tiskárny nejsou online nebo nepřijímají tiskové zakázky z Funnelu.\n\nZkontrolujte, že jsou tiskárny připojeny a zahrnuty pro automatické tiskové zakázky, nebo upravte šablonu tak, aby používala jiné připojené tiskárny.",
         "groupMemberFailed": "U jednoho nebo více dílů ve skupině selhala orientace.\n\nOdeberte neúspěšné díly, aby bylo možné tuto skupinu vytisknout.",

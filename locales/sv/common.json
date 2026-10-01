@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "Jobbet har ingen skivad byggfil redo för utskrift.",
     "jobNotFound": "Jobbet hittades inte.",
     "jobNotFound_details": "Jobb med id {{details}} hittades inte.",
+    "jobPrintAllowanceExhausted": "Skrivaren för detta jobb har slut på kostnadsfria utskrifter.",
+    "jobPrinterExcluded": "Skrivaren för detta jobb har exkluderats från att ta emot jobb.",
     "jobReviewIncorrectState": "Jobbet väntar inte på granskning.",
     "linkCreateConflict": "En integrationslänk finns redan för denna organisation.",
     "linkCreateForbidden": "Du har inte behörighet att skapa en integrationslänk för denna organisation.",
@@ -560,6 +562,7 @@
     "nestingBlocked": {
       "name": "Kan inte läggas till i preliminärt jobb",
       "tooltip": {
+        "allDevicesAllowanceExhausted": "Alla kompatibla skrivare har förbrukat sina kostnadsfria utskrifter för den här månaden.\n\nStarta en prenumeration för en skrivare för obegränsade utskrifter, eller uppdatera mallen så att andra skrivare används.",
         "allDevicesExcludedFromFunnel": "Kompatibla skrivare har uteslutits från att ta emot jobb från Funnel.\n\nInkludera dessa skrivare för automatiska utskriftsjobb, eller uppdatera mallen så att andra skrivare används.",
         "allDevicesOfflineOrExcluded": "Inga kompatibla skrivare är online eller tar emot utskriftsjobb från Funnel.\n\nKontrollera att skrivarna är anslutna och inkluderade för automatiska utskriftsjobb, eller uppdatera mallen så att andra anslutna skrivare används.",
         "groupMemberFailed": "En eller flera delar i gruppen kunde inte orienteras.\n\nTa bort den eller de delar som misslyckades för att skriva ut denna grupp.",

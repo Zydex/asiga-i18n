@@ -8,7 +8,9 @@
     "add": "Eszköz hozzáadása",
     "exclude": "Zárja ki",
     "excludeDevice": "Zárja ki az automatikus nyomtatási feladatokból",
-    "includeDevice": "Vonja be az automatikus nyomtatási feladatokba"
+    "includeDevice": "Vonja be az automatikus nyomtatási feladatokba",
+    "subscribePrinter": "Fizessen elő a nyomtatóra",
+    "unsubscribePrinter": "Nyomtató előfizetésének lemondása"
   },
   "details": {
     "aboutPrinter": "A nyomtatóról",
@@ -19,7 +21,11 @@
   "label": {
     "devices": "Eszközök",
     "devicesTab": "Eszközök fül",
+    "excluded": "Kizárva",
     "excludedDevice": "Az eszköz ki lett zárva a Funnelből érkező nyomtatási feladatok fogadásából",
+    "freePrintsRemaining": "Az eszköz ebben a hónapban még rendelkezésre álló ingyenes nyomtatásainak száma",
+    "licenceEnding": "Ennek az eszköznek a licence {{date}} napján lemondásra kerül",
+    "printsRemaining": "{{remaining}}/{{allowance}}",
     "requiresAttention": "Figyelmet igényel",
     "search": "Eszköz keresése",
     "status": {
@@ -36,7 +42,9 @@
       "remaining": "Hátralévő idő",
       "serialNumber": "Sorozatszám",
       "status": "Állapot"
-    }
+    },
+    "unlimited": "Korlátlan",
+    "unlimitedEnding": "Korlátlan*"
   },
   "message": {
     "addDevices": "Használja az „Eszközök hozzáadása” gombot az oldal jobb felső sarkában, vagy az alábbi gombot, hogy eszközöket adjon a szervezetéhez",

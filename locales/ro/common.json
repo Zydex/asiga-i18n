@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "Comanda nu are un fișier de construcție feliat, pregătit pentru printare.",
     "jobNotFound": "Comanda nu a fost găsită.",
     "jobNotFound_details": "Comanda cu id-ul {{details}} nu a fost găsită.",
+    "jobPrintAllowanceExhausted": "Imprimanta pentru acest job a rămas fără printări gratuite.",
+    "jobPrinterExcluded": "Imprimanta pentru acest job a fost exclusă de la primirea joburilor.",
     "jobReviewIncorrectState": "Comanda nu așteaptă revizuirea.",
     "linkCreateConflict": "Există deja o legătură de integrare pentru această organizație.",
     "linkCreateForbidden": "Nu aveți permisiunea de a crea o legătură de integrare pentru această organizație.",
@@ -560,6 +562,7 @@
     "nestingBlocked": {
       "name": "Nu se poate adăuga la comanda provizorie",
       "tooltip": {
+        "allDevicesAllowanceExhausted": "Toate imprimantele compatibile și-au folosit printările gratuite pentru această lună.\n\nAbonați o imprimantă pentru printări nelimitate sau actualizați șablonul pentru a utiliza alte imprimante.",
         "allDevicesExcludedFromFunnel": "Imprimantele compatibile au fost excluse de la acceptarea comenzilor din Funnel.\n\nIncludeți aceste imprimante pentru comenzi de printare automate sau actualizați șablonul pentru a utiliza alte imprimante.",
         "allDevicesOfflineOrExcluded": "Nicio imprimantă compatibilă nu este online sau nu acceptă comenzi de printare Funnel.\n\nVerificați dacă imprimantele sunt conectate și incluse pentru comenzi de printare automate sau actualizați șablonul pentru a utiliza alte imprimante conectate.",
         "groupMemberFailed": "Una sau mai multe piese din grup au eșuat la orientare.\n\nEliminați piesa (piesele) eșuată(e) pentru a printa acest grup.",

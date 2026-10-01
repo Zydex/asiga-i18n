@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "O trabalho não tem um ficheiro de construção fatiado pronto para impressão.",
     "jobNotFound": "Trabalho não encontrado.",
     "jobNotFound_details": "Trabalho com id {{details}} não encontrado.",
+    "jobPrintAllowanceExhausted": "A impressora deste trabalho esgotou as impressões gratuitas.",
+    "jobPrinterExcluded": "A impressora deste trabalho foi excluída de receber trabalhos.",
     "jobReviewIncorrectState": "O trabalho não está à espera de revisão.",
     "linkCreateConflict": "Já existe uma ligação de integração para esta organização.",
     "linkCreateForbidden": "Não tem permissão para criar uma ligação de integração para esta organização.",
@@ -560,6 +562,7 @@
     "nestingBlocked": {
       "name": "Não foi possível adicionar a trabalho provisório",
       "tooltip": {
+        "allDevicesAllowanceExhausted": "Todas as impressoras compatíveis já utilizaram as suas impressões gratuitas deste mês.\n\nSubscreva uma impressora para obter impressões ilimitadas, ou atualize o modelo para utilizar outras impressoras.",
         "allDevicesExcludedFromFunnel": "As impressoras compatíveis foram excluídas de aceitar trabalhos do Funnel.\n\nInclua estas impressoras para trabalhos de impressão automáticos, ou atualize o modelo para utilizar outras impressoras.",
         "allDevicesOfflineOrExcluded": "Nenhuma impressora compatível está online, ou a aceitar trabalhos de impressão do Funnel.\n\nVerifique se as impressoras estão ligadas e incluídas para trabalhos de impressão automáticos, ou atualize o modelo para utilizar outras impressoras ligadas.",
         "groupMemberFailed": "Uma ou mais peças no grupo falharam na orientação.\n\nRemova a(s) peça(s) com falha para imprimir este grupo.",

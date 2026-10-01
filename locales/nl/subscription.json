@@ -2,18 +2,44 @@
   "button": {
     "manageBilling": "Facturering Beheren",
     "manageSubscription": "Abonnement Beheren",
+    "payment": "Betaling",
+    "subscribe": "Abonneren",
+    "subscribed": "Geabonneerd",
     "subscribeLater": "Later Abonneren",
-    "subscriptionOptions": "Abonnementsopties"
+    "subscriptionOptions": "Abonnementsopties",
+    "unsubscribe": "Abonnement Opzeggen",
+    "update": "Bijwerken"
+  },
+  "class": {
+    "max": "Max",
+    "other": "Overig",
+    "pro": "Pro",
+    "ultra": "Ultra"
   },
   "description": {
     "manageBilling": "Bekijk facturen, controleer en werk factureringsgegevens bij.",
     "paymentIssue": "Er was een probleem met uw betalingsgegevens.",
+    "proRataBilling": "*Apparaten die tijdens de factureringsperiode worden toegevoegd, worden naar rato in rekening gebracht. <learnMore>Lees Meer</learnMore> over facturering.",
+    "selectPrinters": "Selecteer in de onderstaande lijst voor welke apparaten u een abonnement wilt aanschaffen.",
     "subscriptionStatus": "{{subscriptionTier}} dat wordt verlengd op {{subscriptionEnd, datetime}}",
     "subscriptionStatusEnding": "{{subscriptionTier}} dat eindigt op {{subscriptionEnd, datetime}}",
     "subscriptionTiers": "U kunt uw abonnementsniveau bijwerken wanneer de behoeften van uw organisatie veranderen.",
     "subscriptionUnknownActiveStatus": "Uw abonnement is actief",
     "trialEnded": "Neem een abonnement om door te gaan met het maken en verzenden van printtaken.",
     "trialEnding": "U moet zich abonneren wanneer de gratis proefperiode verloopt om printtaken te kunnen maken en verzenden."
+  },
+  "label": {
+    "cost": "${{amount}} USD",
+    "costPerMonth": "Kosten per maand*",
+    "monthlyTotal": "Maandtotaal",
+    "newMonthlyTotal": "Nieuw maandtotaal",
+    "paymentDueToday": "Vandaag te betalen*",
+    "printer": "Printer",
+    "subscriptionStatus": "Abonnementsstatus"
+  },
+  "message": {
+    "noPrinters": "Er zijn nog geen printers aan uw organisatie toegevoegd.",
+    "seatsUpdated": "Abonnement succesvol bijgewerkt."
   },
   "title": {
     "availableWithSubscription": "Beschikbaar met een Abonnement",

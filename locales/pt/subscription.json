@@ -2,18 +2,44 @@
   "button": {
     "manageBilling": "Gerir Faturação",
     "manageSubscription": "Gerir Subscrição",
+    "payment": "Pagamento",
+    "subscribe": "Subscrever",
+    "subscribed": "Subscrito",
     "subscribeLater": "Subscrever Mais Tarde",
-    "subscriptionOptions": "Opções de Subscrição"
+    "subscriptionOptions": "Opções de Subscrição",
+    "unsubscribe": "Cancelar Subscrição",
+    "update": "Atualizar"
+  },
+  "class": {
+    "max": "Max",
+    "other": "Outro",
+    "pro": "Pro",
+    "ultra": "Ultra"
   },
   "description": {
     "manageBilling": "Ver faturas, rever e atualizar os dados de faturação.",
     "paymentIssue": "Houve um problema com os seus dados de pagamento.",
+    "proRataBilling": "*Os dispositivos adicionados durante o período de faturação serão cobrados proporcionalmente. <learnMore>Saiba Mais</learnMore> sobre a faturação.",
+    "selectPrinters": "Selecione na lista abaixo os dispositivos para os quais pretende adquirir uma subscrição.",
     "subscriptionStatus": "{{subscriptionTier}} que renova a {{subscriptionEnd, datetime}}",
     "subscriptionStatusEnding": "{{subscriptionTier}} que termina a {{subscriptionEnd, datetime}}",
     "subscriptionTiers": "Pode alterar o seu nível de subscrição sempre que as necessidades da sua organização mudarem.",
     "subscriptionUnknownActiveStatus": "A sua subscrição está ativa",
     "trialEnded": "Subscreva para continuar a criar e enviar trabalhos de impressão.",
     "trialEnding": "Terá de subscrever quando o período de teste gratuito terminar para criar e enviar trabalhos de impressão."
+  },
+  "label": {
+    "cost": "${{amount}} USD",
+    "costPerMonth": "Custo por mês*",
+    "monthlyTotal": "Total mensal",
+    "newMonthlyTotal": "Novo total mensal",
+    "paymentDueToday": "Pagamento devido hoje*",
+    "printer": "Impressora",
+    "subscriptionStatus": "Estado da subscrição"
+  },
+  "message": {
+    "noPrinters": "Ainda não foram adicionadas impressoras à sua organização.",
+    "seatsUpdated": "Subscrição atualizada com sucesso."
   },
   "title": {
     "availableWithSubscription": "Disponível com uma Subscrição",

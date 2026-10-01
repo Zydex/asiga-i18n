@@ -2,6 +2,7 @@
   "button": {
     "download": "Scarica",
     "exportReportPdf": "Esporta PDF",
+    "manageSubscription": "Gestisci abbonamento",
     "moveOffline": "Rilavora offline",
     "promote": "Promuovi",
     "promoteJob": "Promuovi lavoro",
@@ -9,7 +10,8 @@
     "reprintParts": "Ristampa parti",
     "requeueParts": "Rimetti in coda le parti",
     "resendJob": "Reinvia lavoro",
-    "reshuffle": "Rimescola"
+    "reshuffle": "Rimescola",
+    "sendAnyway": "Invia comunque"
   },
   "details": {
     "basePlate": "Impostazioni piastra di base",
@@ -56,6 +58,10 @@
     "noJobsToReview": "I lavori provvisori che sono stati promossi verranno visualizzati qui. Carica le parti nella posta in arrivo per iniziare.",
     "noParts": "Questo lavoro non ha parti.",
     "noPartsToReprint": "Le parti di questo lavoro sono già state rimesse in coda per la ristampa.",
+    "noPrintsRemaining": "La stampante per questo lavoro ha esaurito le stampe gratuite. Rimetti in coda le parti per pianificarle su una stampante disponibile, oppure abbonati per sbloccare stampe illimitate.",
+    "noPrintsRemainingPartial": "Uno o più lavori selezionati sono assegnati a una stampante che ha esaurito le stampe gratuite. Rimetti in coda le parti per pianificarle su una stampante disponibile, oppure abbonati per sbloccare stampe illimitate.",
+    "printerExcluded": "Questa stampante è stata esclusa dalla ricezione dei lavori. Rimetti in coda per pianificare su un'altra stampante, oppure invia comunque a questa stampante.",
+    "printerExcludedPartial": "Uno o più lavori selezionati sono assegnati a una stampante che è stata esclusa dalla ricezione dei lavori. Rimetti in coda per pianificare su un'altra stampante, oppure invia comunque alla stampante esclusa.",
     "rejectInfo": "Premendo 'Rimescola' la posizione e la rotazione delle parti verranno modificate come parte di un nuovo lavoro di stampa. Alcune parti potrebbero essere rimosse o aggiunte durante il rimescolamento.",
     "reprintParts": "Le parti selezionate avranno priorità per la ristampa come parte del prossimo lavoro di stampa idoneo.",
     "reprintPartsKey": "Le parti in grigio sono già state ristampate.",
@@ -144,6 +150,8 @@
     "noJobsAccepted": "Nessun lavoro accettato",
     "noJobsRejected": "Nessun lavoro rifiutato",
     "noJobsToReview": "Nessun lavoro da revisionare",
+    "noPrintsRemaining": "Nessuna stampa rimanente",
+    "printerExcluded": "Stampante esclusa dai lavori",
     "printJobs": "Lavori di stampa",
     "rejectJob": "Rimescolare il lavoro rifiutato?",
     "requeueParts": "Rimettere in coda le parti?",

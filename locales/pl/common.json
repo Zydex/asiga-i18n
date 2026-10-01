@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "Zadanie nie ma pociętego na warstwy pliku budowy gotowego do druku.",
     "jobNotFound": "Nie znaleziono zadania.",
     "jobNotFound_details": "Nie znaleziono zadania o id {{details}}.",
+    "jobPrintAllowanceExhausted": "Drukarce przypisanej do tego zadania skończyły się bezpłatne wydruki.",
+    "jobPrinterExcluded": "Drukarka przypisana do tego zadania została wykluczona z otrzymywania zadań.",
     "jobReviewIncorrectState": "Zadanie nie oczekuje na przegląd.",
     "linkCreateConflict": "Link integracji już istnieje dla tej organizacji.",
     "linkCreateForbidden": "Nie masz uprawnień do tworzenia linku integracji dla tej organizacji.",
@@ -560,6 +562,7 @@
     "nestingBlocked": {
       "name": "Nie można dodać do zadania tymczasowego",
       "tooltip": {
+        "allDevicesAllowanceExhausted": "Wszystkie kompatybilne drukarki wykorzystały swoje darmowe wydruki w tym miesiącu.\n\nWykup subskrypcję dla drukarki, aby uzyskać nielimitowane wydruki, lub zaktualizuj szablon, aby korzystał z innych drukarek.",
         "allDevicesExcludedFromFunnel": "Kompatybilne drukarki zostały wykluczone z przyjmowania zadań z Funnel.\n\nWłącz te drukarki do automatycznych zadań druku lub zaktualizuj szablon, aby korzystał z innych drukarek.",
         "allDevicesOfflineOrExcluded": "Żadna kompatybilna drukarka nie jest online ani nie przyjmuje zadań druku z Funnel.\n\nSprawdź, czy drukarki są podłączone i włączone do automatycznych zadań druku, lub zaktualizuj szablon, aby korzystał z innych podłączonych drukarek.",
         "groupMemberFailed": "Jedna lub więcej części w grupie nie przeszło orientacji.\n\nUsuń część(-ci), której(-ych) to dotyczy, aby wydrukować tę grupę.",

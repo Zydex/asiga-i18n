@@ -1,0 +1,3 @@
+# Collapse machine-translated locales in PR diffs; en-au is the hand-edited source locale
+locales/** linguist-generated
+locales/en-au/** -linguist-generated

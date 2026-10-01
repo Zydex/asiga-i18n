@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "A feladathoz nem áll rendelkezésre nyomtatásra kész szeletelt build fájl.",
     "jobNotFound": "A feladat nem található.",
     "jobNotFound_details": "A(z) {{details}} azonosítójú feladat nem található.",
+    "jobPrintAllowanceExhausted": "Az ehhez a munkához tartozó nyomtató ingyenes nyomtatásai elfogytak.",
+    "jobPrinterExcluded": "Az ehhez a munkához tartozó nyomtató ki lett zárva a munkák fogadásából.",
     "jobReviewIncorrectState": "A feladat nem vár felülvizsgálatra.",
     "linkCreateConflict": "Ehhez a szervezethez már létezik integrációs hivatkozás.",
     "linkCreateForbidden": "Nincs jogosultsága integrációs hivatkozást létrehozni ehhez a szervezethez.",
@@ -560,6 +562,7 @@
     "nestingBlocked": {
       "name": "Nem sikerült hozzáadni az ideiglenes feladathoz",
       "tooltip": {
+        "allDevicesAllowanceExhausted": "Az összes kompatibilis nyomtató felhasználta az ingyenes nyomtatásait ebben a hónapban.\n\nFizessen elő egy nyomtatóra a korlátlan nyomtatáshoz, vagy frissítse a sablont más nyomtatók használatára.",
         "allDevicesExcludedFromFunnel": "A kompatibilis nyomtatók ki lettek zárva a Funnelből érkező feladatok elfogadásából.\n\nVegye fel ezeket a nyomtatókat az automatikus nyomtatási feladatokhoz, vagy frissítse a sablont más nyomtatók használatára.",
         "allDevicesOfflineOrExcluded": "Egyetlen kompatibilis nyomtató sincs online, vagy egyik sem fogad el Funnel nyomtatási feladatokat.\n\nEllenőrizze, hogy a nyomtatók csatlakoztatva vannak-e, és fel vannak-e véve az automatikus nyomtatási feladatokhoz, vagy frissítse a sablont más csatlakoztatott nyomtatók használatára.",
         "groupMemberFailed": "A csoport egy vagy több alkatrészének tájolása meghiúsult.\n\nTávolítsa el a meghiúsult alkatrész(eke)t a csoport nyomtatásához.",

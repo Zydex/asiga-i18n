@@ -2,18 +2,44 @@
   "button": {
     "manageBilling": "Abrechnung verwalten",
     "manageSubscription": "Abonnement verwalten",
+    "payment": "Zahlung",
+    "subscribe": "Abonnieren",
+    "subscribed": "Abonniert",
     "subscribeLater": "Später abonnieren",
-    "subscriptionOptions": "Abonnementoptionen"
+    "subscriptionOptions": "Abonnementoptionen",
+    "unsubscribe": "Abonnement kündigen",
+    "update": "Aktualisieren"
+  },
+  "class": {
+    "max": "Max",
+    "other": "Sonstige",
+    "pro": "Pro",
+    "ultra": "Ultra"
   },
   "description": {
     "manageBilling": "Rechnungen einsehen sowie Abrechnungsdetails überprüfen und aktualisieren.",
     "paymentIssue": "Es gab ein Problem mit Ihren Zahlungsdetails.",
+    "proRataBilling": "*Geräte, die während des Abrechnungszeitraums hinzugefügt werden, werden anteilig berechnet. <learnMore>Erfahren Sie mehr</learnMore> über die Abrechnung.",
+    "selectPrinters": "Wählen Sie in der folgenden Liste die Geräte aus, für die Sie ein Abonnement erwerben möchten.",
     "subscriptionStatus": "{{subscriptionTier}}, das am {{subscriptionEnd, datetime}} erneuert wird",
     "subscriptionStatusEnding": "{{subscriptionTier}}, das am {{subscriptionEnd, datetime}} endet",
     "subscriptionTiers": "Sie können Ihre Abonnementstufe jederzeit aktualisieren, wenn sich die Anforderungen Ihrer Organisation ändern.",
     "subscriptionUnknownActiveStatus": "Ihr Abonnement ist aktiv",
     "trialEnded": "Abonnieren Sie, um weiterhin Druckaufträge zu erstellen und zu senden.",
     "trialEnding": "Sie müssen ein Abonnement abschließen, wenn die kostenlose Testversion abläuft, um Druckaufträge erstellen und senden zu können."
+  },
+  "label": {
+    "cost": "${{amount}} USD",
+    "costPerMonth": "Kosten pro Monat*",
+    "monthlyTotal": "Monatliche Gesamtsumme",
+    "newMonthlyTotal": "Neue monatliche Gesamtsumme",
+    "paymentDueToday": "Heute fällige Zahlung*",
+    "printer": "Drucker",
+    "subscriptionStatus": "Abonnementstatus"
+  },
+  "message": {
+    "noPrinters": "Ihrer Organisation wurden noch keine Drucker hinzugefügt.",
+    "seatsUpdated": "Abonnement erfolgreich aktualisiert."
   },
   "title": {
     "availableWithSubscription": "Mit einem Abonnement verfügbar",

@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "La tâche n'a pas de fichier de fabrication découpé prêt pour l'impression.",
     "jobNotFound": "Tâche non trouvée.",
     "jobNotFound_details": "Tâche avec l'id {{details}} non trouvée.",
+    "jobPrintAllowanceExhausted": "L'imprimante de cette tâche n'a plus d'impressions gratuites.",
+    "jobPrinterExcluded": "L'imprimante de cette tâche a été exclue de la réception des tâches.",
     "jobReviewIncorrectState": "La tâche n'est pas en attente de révision.",
     "linkCreateConflict": "Un lien d'intégration existe déjà pour cette organisation.",
     "linkCreateForbidden": "Vous n'êtes pas autorisé à créer un lien d'intégration pour cette organisation.",
@@ -560,6 +562,7 @@
     "nestingBlocked": {
       "name": "Impossible d'ajouter à la tâche provisoire",
       "tooltip": {
+        "allDevicesAllowanceExhausted": "Toutes les imprimantes compatibles ont utilisé leurs impressions gratuites pour ce mois-ci.\n\nAbonnez une imprimante pour bénéficier d'impressions illimitées, ou mettez à jour le modèle pour utiliser d'autres imprimantes.",
         "allDevicesExcludedFromFunnel": "Les imprimantes compatibles ont été exclues de l'acceptation des tâches du Funnel.\n\nIncluez ces imprimantes pour les tâches d'impression automatiques, ou mettez à jour le modèle pour utiliser d'autres imprimantes.",
         "allDevicesOfflineOrExcluded": "Aucune imprimante compatible n'est en ligne, ou n'accepte les tâches d'impression du Funnel.\n\nVérifiez que les imprimantes sont connectées et incluses pour les tâches d'impression automatiques, ou mettez à jour le modèle pour utiliser d'autres imprimantes connectées.",
         "groupMemberFailed": "Une ou plusieurs pièces du groupe ont échoué à l'orientation.\n\nRetirez la ou les pièces en échec pour imprimer ce groupe.",

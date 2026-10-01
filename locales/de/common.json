@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "Für den Auftrag ist keine in Schichten aufbereitete Build-Datei zum Drucken verfügbar.",
     "jobNotFound": "Auftrag nicht gefunden.",
     "jobNotFound_details": "Auftrag mit der ID {{details}} nicht gefunden.",
+    "jobPrintAllowanceExhausted": "Der Drucker für diesen Auftrag hat keine kostenlosen Drucke mehr.",
+    "jobPrinterExcluded": "Der Drucker für diesen Auftrag wurde vom Empfang von Aufträgen ausgeschlossen.",
     "jobReviewIncorrectState": "Der Auftrag wartet nicht auf eine Überprüfung.",
     "linkCreateConflict": "Für diese Organisation existiert bereits ein Integrationslink.",
     "linkCreateForbidden": "Sie sind nicht berechtigt, einen Integrationslink für diese Organisation zu erstellen.",
@@ -560,6 +562,7 @@
     "nestingBlocked": {
       "name": "Hinzufügen zu vorläufigem Auftrag nicht möglich",
       "tooltip": {
+        "allDevicesAllowanceExhausted": "Alle kompatiblen Drucker haben ihre kostenlosen Drucke für diesen Monat aufgebraucht.\n\nAbonnieren Sie einen Drucker für unbegrenzte Drucke, oder aktualisieren Sie die Vorlage, um andere Drucker zu verwenden.",
         "allDevicesExcludedFromFunnel": "Kompatible Drucker wurden von der Annahme von Aufträgen aus dem Funnel ausgeschlossen.\n\nSchließen Sie diese Drucker für automatische Druckaufträge ein, oder aktualisieren Sie die Vorlage, um andere Drucker zu verwenden.",
         "allDevicesOfflineOrExcluded": "Es sind keine kompatiblen Drucker online oder akzeptieren Funnel-Druckaufträge.\n\nÜberprüfen Sie, ob Drucker verbunden und für automatische Druckaufträge eingeschlossen sind, oder aktualisieren Sie die Vorlage, um andere verbundene Drucker zu verwenden.",
         "groupMemberFailed": "Ein oder mehrere Teile in der Gruppe konnten nicht ausgerichtet werden.\n\nEntfernen Sie das/die fehlgeschlagene(n) Teil(e), um diese Gruppe zu drucken.",

@@ -8,7 +8,9 @@
     "add": "Apparaat toevoegen",
     "exclude": "Uitsluiten",
     "excludeDevice": "Uitsluiten van automatische printtaken",
-    "includeDevice": "Opnemen voor automatische printtaken"
+    "includeDevice": "Opnemen voor automatische printtaken",
+    "subscribePrinter": "Printer Abonneren",
+    "unsubscribePrinter": "Printerabonnement Opzeggen"
   },
   "details": {
     "aboutPrinter": "Over de printer",
@@ -19,7 +21,11 @@
   "label": {
     "devices": "Apparaten",
     "devicesTab": "Apparaten-tabblad",
+    "excluded": "Uitgesloten",
     "excludedDevice": "Apparaat is uitgesloten van het ontvangen van printtaken van de Funnel",
+    "freePrintsRemaining": "Het aantal gratis prints dat dit apparaat deze maand nog over heeft",
+    "licenceEnding": "De licentie van dit apparaat wordt op {{date}} geannuleerd",
+    "printsRemaining": "{{remaining}}/{{allowance}}",
     "requiresAttention": "Vereist aandacht",
     "search": "Zoek naar een apparaat",
     "status": {
@@ -36,7 +42,9 @@
       "remaining": "Resterend",
       "serialNumber": "Serienummer",
       "status": "Status"
-    }
+    },
+    "unlimited": "Onbeperkt",
+    "unlimitedEnding": "Onbeperkt*"
   },
   "message": {
     "addDevices": "Gebruik de knop 'Apparaten toevoegen' rechtsboven op deze pagina of gebruik de knop hieronder om apparaten aan uw organisatie toe te voegen",

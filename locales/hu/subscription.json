@@ -2,18 +2,44 @@
   "button": {
     "manageBilling": "Számlázás kezelése",
     "manageSubscription": "Előfizetés kezelése",
+    "payment": "Fizetés",
+    "subscribe": "Fizessen elő",
+    "subscribed": "Előfizetve",
     "subscribeLater": "Feliratkozás később",
-    "subscriptionOptions": "Előfizetési lehetőségek"
+    "subscriptionOptions": "Előfizetési lehetőségek",
+    "unsubscribe": "Leiratkozás",
+    "update": "Frissítés"
+  },
+  "class": {
+    "max": "Max",
+    "other": "Egyéb",
+    "pro": "Pro",
+    "ultra": "Ultra"
   },
   "description": {
     "manageBilling": "Számlák megtekintése, számlázási adatok ellenőrzése és frissítése.",
     "paymentIssue": "Probléma történt a fizetési adataival.",
+    "proRataBilling": "*A számlázási időszak alatt hozzáadott eszközök díja időarányosan kerül felszámításra. <learnMore>További információ</learnMore> a számlázásról.",
+    "selectPrinters": "Válassza ki az alábbi listából azokat az eszközöket, amelyekre előfizetést szeretne vásárolni.",
     "subscriptionStatus": "{{subscriptionTier}}, amely {{subscriptionEnd, datetime}} időpontban újul meg",
     "subscriptionStatusEnding": "{{subscriptionTier}}, amely {{subscriptionEnd, datetime}} időpontban véget ér",
     "subscriptionTiers": "Az előfizetési szintet bármikor frissítheti, amikor szervezetének igényei megváltoznak.",
     "subscriptionUnknownActiveStatus": "Az előfizetése aktív",
     "trialEnded": "Iratkozzon fel, hogy továbbra is létrehozhasson és küldhessen nyomtatási feladatokat.",
     "trialEnding": "A próbaidőszak lejártakor fel kell iratkoznia ahhoz, hogy nyomtatási feladatokat hozhasson létre és küldhessen."
+  },
+  "label": {
+    "cost": "${{amount}} USD",
+    "costPerMonth": "Havi költség*",
+    "monthlyTotal": "Havi összesen",
+    "newMonthlyTotal": "Új havi összesen",
+    "paymentDueToday": "Ma esedékes fizetés*",
+    "printer": "Nyomtató",
+    "subscriptionStatus": "Előfizetés állapota"
+  },
+  "message": {
+    "noPrinters": "Még nem adtak hozzá nyomtatót a szervezetéhez.",
+    "seatsUpdated": "Az előfizetés sikeresen frissítve."
   },
   "title": {
     "availableWithSubscription": "Előfizetéssel elérhető",

@@ -141,6 +141,8 @@
     "jobNoSlicedBuildFile": "Th' voyage has no sliced haul scroll ready for forgin'.",
     "jobNotFound": "Voyage not found.",
     "jobNotFound_details": "Voyage with id {{details}} not found.",
+    "jobPrintAllowanceExhausted": "Th' contraption fer this voyage has run dry o' free forgin's.",
+    "jobPrinterExcluded": "Th' contraption fer this voyage has been barred from receivin' voyages.",
     "jobReviewIncorrectState": "Th' voyage ain't waitin' for review.",
     "linkCreateConflict": "An integration link already exists for this crew.",
     "linkCreateForbidden": "Ye ain't allowed to create an integration link for this crew.",
@@ -560,6 +562,7 @@
     "nestingBlocked": {
       "name": "Cannot add to provisional voyage",
       "tooltip": {
+        "allDevicesAllowanceExhausted": "All compatible contraptions have spent their free forgin's fer this month.\n\nPay a tithe fer a contraption fer boundless forgin's, or update th' chart to use other contraptions.",
         "allDevicesExcludedFromFunnel": "Compatible contraptions be excluded from takin' voyages from th' Funnel.\n\nInclude these contraptions fer automatic forge voyages, or update th' chart to use other contraptions.",
         "allDevicesOfflineOrExcluded": "No compatible contraptions be online, nor takin' Funnel forge voyages.\n\nCheck contraptions be connected and included fer automatic forge voyages, or update th' chart to use other connected contraptions.",
         "groupMemberFailed": "One or more trinkets in th' group went down durin' turnin' about.\n\nScuttle th' sunk trinkets to forge this group.",
