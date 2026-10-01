@@ -8,7 +8,9 @@
     "add": "Add Contraption",
     "exclude": "Bar",
     "excludeDevice": "Bar from Automatic Forge Voyages",
-    "includeDevice": "Enlist for Automatic Forge Voyages"
+    "includeDevice": "Enlist for Automatic Forge Voyages",
+    "subscribePrinter": "Tithe Contraption",
+    "unsubscribePrinter": "Stop Tithin' Contraption"
   },
   "details": {
     "aboutPrinter": "About Contraption",
@@ -19,7 +21,11 @@
   "label": {
     "devices": "Contraptions",
     "devicesTab": "Contraption Tab",
+    "excluded": "Barred",
     "excludedDevice": "Contraption has been barred from receivin' forge voyages from th' Funnel",
+    "freePrintsRemaining": "Th' tally o' free forgin's this contraption has left this month",
+    "licenceEnding": "This contraption's licence be cancelled come {{date}}",
+    "printsRemaining": "{{remaining}}/{{allowance}}",
     "requiresAttention": "Needs Tendin'",
     "search": "Scout for a contraption",
     "status": {
@@ -36,7 +42,9 @@
       "remaining": "Remainin'",
       "serialNumber": "Serial Number",
       "status": "Standin'"
-    }
+    },
+    "unlimited": "Boundless",
+    "unlimitedEnding": "Boundless*"
   },
   "message": {
     "addDevices": "Use th' 'Add Contraptions' button at th' top right o' this page or use th' button below to add contraptions to yer crew",

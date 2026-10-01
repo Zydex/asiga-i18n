@@ -2,18 +2,44 @@
   "button": {
     "manageBilling": "Gestionare facturare",
     "manageSubscription": "Gestionare abonament",
+    "payment": "Plată",
+    "subscribe": "Abonează-te",
+    "subscribed": "Abonat",
     "subscribeLater": "Abonează-te mai târziu",
-    "subscriptionOptions": "Opțiuni de abonament"
+    "subscriptionOptions": "Opțiuni de abonament",
+    "unsubscribe": "Dezabonează-te",
+    "update": "Actualizează"
+  },
+  "class": {
+    "max": "Max",
+    "other": "Altele",
+    "pro": "Pro",
+    "ultra": "Ultra"
   },
   "description": {
     "manageBilling": "Vizualizează facturile, revizuiește și actualizează detaliile de facturare.",
     "paymentIssue": "A apărut o problemă cu detaliile tale de plată.",
+    "proRataBilling": "*Dispozitivele adăugate în timpul perioadei de facturare vor fi taxate proporțional. <learnMore>Află mai multe</learnMore> despre facturare.",
+    "selectPrinters": "Selectează din lista de mai jos dispozitivele pentru care dorești să achiziționezi un abonament.",
     "subscriptionStatus": "{{subscriptionTier}} care se reînnoiește pe {{subscriptionEnd, datetime}}",
     "subscriptionStatusEnding": "{{subscriptionTier}} care se încheie pe {{subscriptionEnd, datetime}}",
     "subscriptionTiers": "Îți poți actualiza nivelul de abonament oricând nevoile organizației tale se schimbă.",
     "subscriptionUnknownActiveStatus": "Abonamentul tău este activ",
     "trialEnded": "Abonează-te pentru a continua să creezi și să trimiți sarcini de printare.",
     "trialEnding": "Va trebui să te abonezi când perioada de probă gratuită expiră pentru a crea și trimite sarcini de printare."
+  },
+  "label": {
+    "cost": "${{amount}} USD",
+    "costPerMonth": "Cost lunar*",
+    "monthlyTotal": "Total lunar",
+    "newMonthlyTotal": "Total lunar nou",
+    "paymentDueToday": "Plată scadentă astăzi*",
+    "printer": "Imprimantă",
+    "subscriptionStatus": "Starea abonamentului"
+  },
+  "message": {
+    "noPrinters": "Nicio imprimantă nu a fost adăugată încă în organizația ta.",
+    "seatsUpdated": "Abonamentul a fost actualizat cu succes."
   },
   "title": {
     "availableWithSubscription": "Disponibil cu un abonament",

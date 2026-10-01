@@ -560,6 +560,7 @@
     "nestingBlocked": {
       "name": "Kan niet worden toegevoegd aan voorlopige taak",
       "tooltip": {
+        "allDevicesAllowanceExhausted": "Alle compatibele printers hebben hun gratis prints voor deze maand gebruikt.\n\nNeem een abonnement op een printer voor onbeperkte prints, of werk het sjabloon bij om andere printers te gebruiken.",
         "allDevicesExcludedFromFunnel": "Compatibele printers zijn uitgesloten van het accepteren van taken van de Funnel.\n\nNeem deze printers op voor automatische printtaken, of werk het sjabloon bij om andere printers te gebruiken.",
         "allDevicesOfflineOrExcluded": "Er zijn geen compatibele printers online of die Funnel-printtaken accepteren.\n\nControleer of printers zijn verbonden en opgenomen voor automatische printtaken, of werk het sjabloon bij om andere verbonden printers te gebruiken.",
         "groupMemberFailed": "Een of meer onderdelen in de groep zijn niet correct georiënteerd.\n\nVerwijder de mislukte onderdelen om deze groep te printen.",

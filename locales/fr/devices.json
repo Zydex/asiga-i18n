@@ -8,7 +8,9 @@
     "add": "Ajouter un appareil",
     "exclude": "Exclure",
     "excludeDevice": "Exclure des travaux d'impression automatiques",
-    "includeDevice": "Inclure pour les travaux d'impression automatiques"
+    "includeDevice": "Inclure pour les travaux d'impression automatiques",
+    "subscribePrinter": "Abonner l'imprimante",
+    "unsubscribePrinter": "Désabonner l'imprimante"
   },
   "details": {
     "aboutPrinter": "À propos de l'imprimante",
@@ -19,7 +21,11 @@
   "label": {
     "devices": "Appareils",
     "devicesTab": "Onglet Appareils",
+    "excluded": "Exclu",
     "excludedDevice": "L'appareil a été exclu de la réception des travaux d'impression du Funnel",
+    "freePrintsRemaining": "Nombre d'impressions gratuites restantes pour cet appareil ce mois-ci",
+    "licenceEnding": "La licence de cet appareil sera résiliée le {{date}}",
+    "printsRemaining": "{{remaining}}/{{allowance}}",
     "requiresAttention": "Nécessite une attention",
     "search": "Rechercher un appareil",
     "status": {
@@ -36,7 +42,9 @@
       "remaining": "Restant",
       "serialNumber": "Numéro de série",
       "status": "État"
-    }
+    },
+    "unlimited": "Illimité",
+    "unlimitedEnding": "Illimité*"
   },
   "message": {
     "addDevices": "Utilisez le bouton « Ajouter des appareils » en haut à droite de cette page ou utilisez le bouton ci-dessous pour ajouter des appareils à votre organisation",

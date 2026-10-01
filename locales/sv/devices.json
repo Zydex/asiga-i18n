@@ -8,7 +8,9 @@
     "add": "Lägg till enhet",
     "exclude": "Exkludera",
     "excludeDevice": "Exkludera från automatiska utskriftsjobb",
-    "includeDevice": "Inkludera för automatiska utskriftsjobb"
+    "includeDevice": "Inkludera för automatiska utskriftsjobb",
+    "subscribePrinter": "Starta skrivarprenumeration",
+    "unsubscribePrinter": "Avsluta skrivarprenumeration"
   },
   "details": {
     "aboutPrinter": "Om skrivaren",
@@ -19,7 +21,11 @@
   "label": {
     "devices": "Enheter",
     "devicesTab": "Enhetsflik",
+    "excluded": "Exkluderad",
     "excludedDevice": "Enheten har exkluderats från att ta emot utskriftsjobb från Funnel",
+    "freePrintsRemaining": "Antalet kostnadsfria utskrifter som denna enhet har kvar den här månaden",
+    "licenceEnding": "Enhetens licens kommer att sägas upp den {{date}}",
+    "printsRemaining": "{{remaining}}/{{allowance}}",
     "requiresAttention": "Kräver uppmärksamhet",
     "search": "Sök efter en enhet",
     "status": {
@@ -36,7 +42,9 @@
       "remaining": "Återstår",
       "serialNumber": "Serienummer",
       "status": "Status"
-    }
+    },
+    "unlimited": "Obegränsat",
+    "unlimitedEnding": "Obegränsat*"
   },
   "message": {
     "addDevices": "Använd knappen \"Lägg till enheter\" högst upp till höger på sidan eller använd knappen nedan för att lägga till enheter till din organisation",

@@ -560,6 +560,7 @@
     "nestingBlocked": {
       "name": "Kan inte läggas till i preliminärt jobb",
       "tooltip": {
+        "allDevicesAllowanceExhausted": "Alla kompatibla skrivare har förbrukat sina kostnadsfria utskrifter för den här månaden.\n\nStarta en prenumeration för en skrivare för obegränsade utskrifter, eller uppdatera mallen så att andra skrivare används.",
         "allDevicesExcludedFromFunnel": "Kompatibla skrivare har uteslutits från att ta emot jobb från Funnel.\n\nInkludera dessa skrivare för automatiska utskriftsjobb, eller uppdatera mallen så att andra skrivare används.",
         "allDevicesOfflineOrExcluded": "Inga kompatibla skrivare är online eller tar emot utskriftsjobb från Funnel.\n\nKontrollera att skrivarna är anslutna och inkluderade för automatiska utskriftsjobb, eller uppdatera mallen så att andra anslutna skrivare används.",
         "groupMemberFailed": "En eller flera delar i gruppen kunde inte orienteras.\n\nTa bort den eller de delar som misslyckades för att skriva ut denna grupp.",

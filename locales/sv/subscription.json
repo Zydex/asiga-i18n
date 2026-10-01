@@ -2,18 +2,44 @@
   "button": {
     "manageBilling": "Hantera fakturering",
     "manageSubscription": "Hantera prenumeration",
+    "payment": "Betalning",
+    "subscribe": "Prenumerera",
+    "subscribed": "Prenumererad",
     "subscribeLater": "Prenumerera senare",
-    "subscriptionOptions": "Prenumerationsalternativ"
+    "subscriptionOptions": "Prenumerationsalternativ",
+    "unsubscribe": "Avsluta prenumeration",
+    "update": "Uppdatera"
+  },
+  "class": {
+    "max": "Max",
+    "other": "Övrigt",
+    "pro": "Pro",
+    "ultra": "Ultra"
   },
   "description": {
     "manageBilling": "Visa fakturor, granska och uppdatera faktureringsuppgifter.",
     "paymentIssue": "Det uppstod ett problem med dina betalningsuppgifter.",
+    "proRataBilling": "*Enheter som läggs till under faktureringsperioden debiteras proportionellt. <learnMore>Läs mer</learnMore> om fakturering.",
+    "selectPrinters": "Välj i listan nedan vilka enheter du vill köpa en prenumeration för.",
     "subscriptionStatus": "{{subscriptionTier}} som förnyas den {{subscriptionEnd, datetime}}",
     "subscriptionStatusEnding": "{{subscriptionTier}} som upphör den {{subscriptionEnd, datetime}}",
     "subscriptionTiers": "Du kan uppdatera din prenumerationsnivå när din organisations behov förändras.",
     "subscriptionUnknownActiveStatus": "Din prenumeration är aktiv",
     "trialEnded": "Prenumerera för att fortsätta skapa och skicka utskriftsjobb.",
     "trialEnding": "Du behöver prenumerera när den kostnadsfria provperioden löper ut för att kunna skapa och skicka utskriftsjobb."
+  },
+  "label": {
+    "cost": "${{amount}} USD",
+    "costPerMonth": "Kostnad per månad*",
+    "monthlyTotal": "Månadssumma",
+    "newMonthlyTotal": "Ny månadssumma",
+    "paymentDueToday": "Att betala idag*",
+    "printer": "Skrivare",
+    "subscriptionStatus": "Prenumerationsstatus"
+  },
+  "message": {
+    "noPrinters": "Inga skrivare har lagts till i din organisation ännu.",
+    "seatsUpdated": "Uppdateringen av prenumerationen lyckades."
   },
   "title": {
     "availableWithSubscription": "Tillgängligt med en prenumeration",

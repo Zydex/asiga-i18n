@@ -560,6 +560,7 @@
     "nestingBlocked": {
       "name": "Nu se poate adăuga la comanda provizorie",
       "tooltip": {
+        "allDevicesAllowanceExhausted": "Toate imprimantele compatibile și-au folosit printările gratuite pentru această lună.\n\nAbonați o imprimantă pentru printări nelimitate sau actualizați șablonul pentru a utiliza alte imprimante.",
         "allDevicesExcludedFromFunnel": "Imprimantele compatibile au fost excluse de la acceptarea comenzilor din Funnel.\n\nIncludeți aceste imprimante pentru comenzi de printare automate sau actualizați șablonul pentru a utiliza alte imprimante.",
         "allDevicesOfflineOrExcluded": "Nicio imprimantă compatibilă nu este online sau nu acceptă comenzi de printare Funnel.\n\nVerificați dacă imprimantele sunt conectate și incluse pentru comenzi de printare automate sau actualizați șablonul pentru a utiliza alte imprimante conectate.",
         "groupMemberFailed": "Una sau mai multe piese din grup au eșuat la orientare.\n\nEliminați piesa (piesele) eșuată(e) pentru a printa acest grup.",

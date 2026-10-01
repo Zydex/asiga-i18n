@@ -560,6 +560,7 @@
     "nestingBlocked": {
       "name": "No se puede añadir a trabajo provisional",
       "tooltip": {
+        "allDevicesAllowanceExhausted": "Todas las impresoras compatibles han agotado sus impresiones gratuitas de este mes.\n\nSuscribe una impresora para obtener impresiones ilimitadas, o actualiza la plantilla para usar otras impresoras.",
         "allDevicesExcludedFromFunnel": "Las impresoras compatibles han sido excluidas de aceptar trabajos del Funnel.\n\nInclúyelas para trabajos de impresión automáticos, o actualiza la plantilla para usar otras impresoras.",
         "allDevicesOfflineOrExcluded": "No hay impresoras compatibles en línea, o que acepten trabajos de impresión del Funnel.\n\nComprueba que las impresoras estén conectadas e incluidas para trabajos de impresión automáticos, o actualiza la plantilla para usar otras impresoras conectadas.",
         "groupMemberFailed": "Una o más piezas del grupo han fallado en la orientación.\n\nElimina la(s) pieza(s) fallida(s) para imprimir este grupo.",

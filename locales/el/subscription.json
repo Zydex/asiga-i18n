@@ -2,18 +2,44 @@
   "button": {
     "manageBilling": "Διαχείριση Χρέωσης",
     "manageSubscription": "Διαχείριση Συνδρομής",
+    "payment": "Πληρωμή",
+    "subscribe": "Εγγραφή σε Συνδρομή",
+    "subscribed": "Συνδρομή Ενεργή",
     "subscribeLater": "Εγγραφή Αργότερα",
-    "subscriptionOptions": "Επιλογές Συνδρομής"
+    "subscriptionOptions": "Επιλογές Συνδρομής",
+    "unsubscribe": "Ακύρωση Συνδρομής",
+    "update": "Ενημέρωση"
+  },
+  "class": {
+    "max": "Max",
+    "other": "Άλλο",
+    "pro": "Pro",
+    "ultra": "Ultra"
   },
   "description": {
     "manageBilling": "Προβολή τιμολογίων, έλεγχος και ενημέρωση στοιχείων χρέωσης.",
     "paymentIssue": "Υπήρξε πρόβλημα με τα στοιχεία πληρωμής σας.",
+    "proRataBilling": "*Οι συσκευές που προστίθενται κατά τη διάρκεια της περιόδου χρέωσης θα χρεώνονται αναλογικά. <learnMore>Μάθετε Περισσότερα</learnMore> σχετικά με τη χρέωση.",
+    "selectPrinters": "Επιλέξτε από την παρακάτω λίστα τις συσκευές για τις οποίες θέλετε να αγοράσετε συνδρομή.",
     "subscriptionStatus": "{{subscriptionTier}} που ανανεώνεται στις {{subscriptionEnd, datetime}}",
     "subscriptionStatusEnding": "{{subscriptionTier}} που λήγει στις {{subscriptionEnd, datetime}}",
     "subscriptionTiers": "Μπορείτε να ενημερώσετε το επίπεδο συνδρομής σας όποτε αλλάζουν οι ανάγκες του οργανισμού σας.",
     "subscriptionUnknownActiveStatus": "Η συνδρομή σας είναι ενεργή",
     "trialEnded": "Εγγραφείτε σε μια συνδρομή για να συνεχίσετε να δημιουργείτε και να στέλνετε εργασίες εκτύπωσης.",
     "trialEnding": "Θα χρειαστεί να εγγραφείτε σε μια συνδρομή όταν λήξει η δωρεάν δοκιμή για να δημιουργείτε και να στέλνετε εργασίες εκτύπωσης."
+  },
+  "label": {
+    "cost": "${{amount}} USD",
+    "costPerMonth": "Κόστος ανά μήνα*",
+    "monthlyTotal": "Μηνιαίο σύνολο",
+    "newMonthlyTotal": "Νέο μηνιαίο σύνολο",
+    "paymentDueToday": "Πληρωτέο σήμερα*",
+    "printer": "Εκτυπωτής",
+    "subscriptionStatus": "Κατάσταση συνδρομής"
+  },
+  "message": {
+    "noPrinters": "Δεν έχουν προστεθεί ακόμη εκτυπωτές στον οργανισμό σας.",
+    "seatsUpdated": "Η συνδρομή ενημερώθηκε με επιτυχία."
   },
   "title": {
     "availableWithSubscription": "Διαθέσιμο με Συνδρομή",
