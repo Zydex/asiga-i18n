@@ -14,6 +14,13 @@
     }
   },
   "autoPartGrouping": {
+    "example": {
+      "dragEnd": "Faites glisser pour modifier le dernier caractère correspondant",
+      "dragStart": "Faites glisser pour modifier le premier caractère correspondant",
+      "extensionIgnored": "L’extension du fichier est ignorée lors de la correspondance.",
+      "matchKey": "Les pièces contenant \"{{key}}\" à cette position sont regroupées ensemble.",
+      "tooShort": "Ce nom est trop court pour ces paramètres, il ne serait donc pas regroupé."
+    },
     "label": {
       "characterPosition": "Position du caractère",
       "characterRange": "Plage de caractères",

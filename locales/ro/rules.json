@@ -14,6 +14,13 @@
     }
   },
   "autoPartGrouping": {
+    "example": {
+      "dragEnd": "Trageți pentru a modifica ultimul caracter potrivit",
+      "dragStart": "Trageți pentru a modifica primul caracter potrivit",
+      "extensionIgnored": "Extensia fișierului este ignorată la potrivire.",
+      "matchKey": "Piesele cu \"{{key}}\" în această poziție sunt grupate împreună.",
+      "tooShort": "Acest nume este prea scurt pentru aceste setări, așa că nu ar fi grupat."
+    },
     "label": {
       "characterPosition": "Poziția caracterului",
       "characterRange": "Intervalul de caractere",

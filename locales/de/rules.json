@@ -14,6 +14,13 @@
     }
   },
   "autoPartGrouping": {
+    "example": {
+      "dragEnd": "Ziehen, um das letzte abgeglichene Zeichen zu ändern",
+      "dragStart": "Ziehen, um das erste abgeglichene Zeichen zu ändern",
+      "extensionIgnored": "Die Dateiendung wird beim Abgleich ignoriert.",
+      "matchKey": "Teile mit \"{{key}}\" an dieser Stelle werden gemeinsam gruppiert.",
+      "tooShort": "Dieser Name ist für diese Einstellungen zu kurz und würde daher nicht gruppiert werden."
+    },
     "label": {
       "characterPosition": "Zeichenposition",
       "characterRange": "Zeichenbereich",

@@ -14,6 +14,13 @@
     }
   },
   "autoPartGrouping": {
+    "example": {
+      "dragEnd": "Přetažením změníte poslední porovnávaný znak",
+      "dragStart": "Přetažením změníte první porovnávaný znak",
+      "extensionIgnored": "Přípona souboru se při porovnávání ignoruje.",
+      "matchKey": "Díly s \"{{key}}\" na této pozici se seskupí dohromady.",
+      "tooShort": "Tento název je pro tato nastavení příliš krátký, takže by nebyl seskupen."
+    },
     "label": {
       "characterPosition": "Pozice znaku",
       "characterRange": "Rozsah znaků",

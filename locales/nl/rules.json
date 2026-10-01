@@ -14,6 +14,13 @@
     }
   },
   "autoPartGrouping": {
+    "example": {
+      "dragEnd": "Sleep om het laatste overeenkomende teken te wijzigen",
+      "dragStart": "Sleep om het eerste overeenkomende teken te wijzigen",
+      "extensionIgnored": "De bestandsextensie wordt bij het vergelijken genegeerd.",
+      "matchKey": "Onderdelen met \"{{key}}\" op deze positie worden samen gegroepeerd.",
+      "tooShort": "Deze naam is te kort voor deze instellingen en zou daarom niet worden gegroepeerd."
+    },
     "label": {
       "characterPosition": "Tekenpositie",
       "characterRange": "Tekenbereik",
