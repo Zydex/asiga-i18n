@@ -57,6 +57,7 @@
     "noCurrentBuild": "Momentálně se netiskne žádný model.",
     "noDevices": "Žádná zařízení",
     "noDevicesNeedAttention": "Žádná zařízení aktuálně nevyžadují pozornost",
+    "noDevicesReadOnly": "Požádejte správce nebo vlastníka ve vaší organizaci o přidání zařízení",
     "warnRemoveDevice": "Toto zařízení již nebudete moci sledovat ani mu z Funnelu odesílat tiskové úlohy.",
     "warnRemoveDevice_name": "Zařízení {{device}} již nebudete moci sledovat ani mu z Funnelu odesílat tiskové úlohy.",
     "willExcludeDevice": "Po vyloučení tohoto zařízení pro něj již nebudou vytvářeny žádné tiskové úlohy"

@@ -57,6 +57,7 @@
     "noCurrentBuild": "Ingen utskrift pågår för närvarande.",
     "noDevices": "Inga enheter",
     "noDevicesNeedAttention": "Inga enheter kräver för närvarande uppmärksamhet",
+    "noDevicesReadOnly": "Be en administratör eller ägare i din organisation att lägga till enheter",
     "warnRemoveDevice": "Du kommer inte längre att kunna övervaka eller skicka utskriftsjobb till denna enhet från Funnel.",
     "warnRemoveDevice_name": "Du kommer inte längre att kunna övervaka eller skicka utskriftsjobb till {{device}} från Funnel.",
     "willExcludeDevice": "Utskriftsjobb kommer inte längre att skapas för denna maskin när den exkluderas"

@@ -95,7 +95,8 @@
     "modifyWillAffectParts": "I tipi di parte associati che utilizzano questo template verranno rimessi in coda per la stampa e tutti i tipi di parte rimossi verranno restituiti alla Posta in arrivo per la revisione.",
     "modifyWillRequeueParts": "Le parti esistenti verranno aggiornate con le nuove impostazioni del template e rimesse in coda per la stampa.",
     "noTemplates": "Nessun template",
-    "noTemplatesInfo": "I template verranno elencati qui. Usa il pulsante 'Crea' per creare il tuo primo template."
+    "noTemplatesInfo": "I template verranno elencati qui. Usa il pulsante 'Crea' per creare il tuo primo template.",
+    "noTemplatesInfoReadOnly": "I template verranno elencati qui. Chiedi a un Amministratore o Proprietario della tua organizzazione di creare il tuo primo template."
   },
   "supportSettings": {
     "accuracyZ": {

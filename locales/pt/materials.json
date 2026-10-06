@@ -35,6 +35,7 @@
     "materialNameConflictDoForAll_other": "Fazer isto para {{count}} conflitos de nome restantes",
     "materialNameConflictWithRevision": "Já existe um ficheiro de material com o nome {{name}}, Revisão {{revision}}, na sua organização.\n\nPretende substituir o material existente pela Revisão {{requestedRevision}}?",
     "noMaterials": "Utilize o botão 'Adicionar Materiais' no canto superior direito desta página para adicionar materiais à sua organização",
+    "noMaterialsReadOnly": "Peça a um Administrador ou Proprietário da sua organização para adicionar materiais",
     "unableToDelete_one": "O material selecionado não pode ser eliminado, pois está atualmente a ser utilizado em modelos. Atribua materiais diferentes aos seguintes modelos para continuar com a eliminação:",
     "unableToDelete_other": "Os materiais selecionados não podem ser eliminados, pois estão atualmente a ser utilizados em modelos. Atribua materiais diferentes aos seguintes modelos para continuar com a eliminação:",
     "updateMaterial_one": "<bold>{{name}}</bold> será atualizado para a versão mais recente.",

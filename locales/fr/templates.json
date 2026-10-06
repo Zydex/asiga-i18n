@@ -95,7 +95,8 @@
     "modifyWillAffectParts": "Les types de pièces associés utilisant ce modèle seront remis en file d'attente pour l'impression, et tout type de pièce retiré sera renvoyé dans la boîte de réception pour examen.",
     "modifyWillRequeueParts": "Les pièces existantes seront mises à jour avec les nouveaux paramètres du modèle et remises en file d'attente pour l'impression.",
     "noTemplates": "Aucun modèle",
-    "noTemplatesInfo": "Les modèles seront répertoriés ici. Utilisez le bouton « Créer » pour créer votre premier modèle."
+    "noTemplatesInfo": "Les modèles seront répertoriés ici. Utilisez le bouton « Créer » pour créer votre premier modèle.",
+    "noTemplatesInfoReadOnly": "Les modèles seront répertoriés ici. Demandez à un administrateur ou à un propriétaire de votre organisation de créer votre premier modèle."
   },
   "supportSettings": {
     "accuracyZ": {

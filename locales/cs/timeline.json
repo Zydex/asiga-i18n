@@ -3,6 +3,7 @@
     "allMachines": "Všechny stroje",
     "noDevices": "Úlohy zařazené do fronty pro všechna vaše zařízení jsou zobrazeny na časové ose na této stránce",
     "noDevicesMessage": "Pomocí tlačítka níže přidávejte zařízení do vaší organizace",
+    "noDevicesMessageReadOnly": "Požádejte správce nebo vlastníka ve vaší organizaci o přidání zařízení",
     "requiresAttention": "Vyžaduje pozornost"
   },
   "title": {

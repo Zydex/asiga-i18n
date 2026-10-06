@@ -95,7 +95,8 @@
     "modifyWillAffectParts": "Associated part types using this template will be requeued for printing and any removed part types will be returned to the Inbox for review.",
     "modifyWillRequeueParts": "Existing parts will be updated with the new template settings and requeued for printing.",
     "noTemplates": "No Templates",
-    "noTemplatesInfo": "Templates will be listed here. Use the 'Create' button to create your first template."
+    "noTemplatesInfo": "Templates will be listed here. Use the 'Create' button to create your first template.",
+    "noTemplatesInfoReadOnly": "Templates will be listed here. Ask an Admin or Owner in your organisation to create your first template."
   },
   "supportSettings": {
     "accuracyZ": {

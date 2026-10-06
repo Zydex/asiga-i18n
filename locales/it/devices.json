@@ -57,6 +57,7 @@
     "noCurrentBuild": "Nessuna build attualmente in stampa.",
     "noDevices": "Nessun dispositivo",
     "noDevicesNeedAttention": "Nessun dispositivo richiede attualmente attenzione",
+    "noDevicesReadOnly": "Chiedi a un Amministratore o Proprietario della tua organizzazione di aggiungere dispositivi",
     "warnRemoveDevice": "Non sarai più in grado di monitorare o inviare lavori di stampa a questo dispositivo dal Funnel.",
     "warnRemoveDevice_name": "Non sarai più in grado di monitorare o inviare lavori di stampa a {{device}} dal Funnel.",
     "willExcludeDevice": "I lavori di stampa non verranno più creati per questa macchina una volta esclusa"

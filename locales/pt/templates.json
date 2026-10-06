@@ -95,7 +95,8 @@
     "modifyWillAffectParts": "Os tipos de peça associados que utilizam este modelo serão recolocados na fila para impressão e quaisquer tipos de peça removidos serão devolvidos à Caixa de entrada para revisão.",
     "modifyWillRequeueParts": "As peças existentes serão atualizadas com as novas definições do modelo e recolocadas na fila para impressão.",
     "noTemplates": "Sem modelos",
-    "noTemplatesInfo": "Os modelos serão apresentados aqui. Utilize o botão 'Criar' para criar o seu primeiro modelo."
+    "noTemplatesInfo": "Os modelos serão apresentados aqui. Utilize o botão 'Criar' para criar o seu primeiro modelo.",
+    "noTemplatesInfoReadOnly": "Os modelos serão apresentados aqui. Peça a um Administrador ou Proprietário da sua organização para criar o seu primeiro modelo."
   },
   "supportSettings": {
     "accuracyZ": {

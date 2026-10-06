@@ -95,7 +95,8 @@
     "modifyWillAffectParts": "Associated trinket types usin' this chart will rejoin th' line o' waitin' for forgin', and any scuttled trinket types will be sent back to th' Crow's Nest for review.",
     "modifyWillRequeueParts": "Existin' trinkets will be updated with th' new chart riggin' and sent back to th' line o' waitin' for forgin'.",
     "noTemplates": "No Charts",
-    "noTemplatesInfo": "Charts will be listed here. Use th' 'Create' button to draw yer first chart."
+    "noTemplatesInfo": "Charts will be listed here. Use th' 'Create' button to draw yer first chart.",
+    "noTemplatesInfoReadOnly": "Charts will be listed here. Ask a Quartermaster or Cap'n in yer crew to draw yer first chart."
   },
   "supportSettings": {
     "accuracyZ": {

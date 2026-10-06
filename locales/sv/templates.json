@@ -95,7 +95,8 @@
     "modifyWillAffectParts": "Associerade deltyper som använder denna mall kommer att köas på nytt för utskrift, och eventuella borttagna deltyper returneras till inkorgen för granskning.",
     "modifyWillRequeueParts": "Befintliga delar uppdateras med de nya mallinställningarna och köas på nytt för utskrift.",
     "noTemplates": "Inga mallar",
-    "noTemplatesInfo": "Mallar visas här. Använd knappen \"Skapa\" för att skapa din första mall."
+    "noTemplatesInfo": "Mallar visas här. Använd knappen \"Skapa\" för att skapa din första mall.",
+    "noTemplatesInfoReadOnly": "Mallar visas här. Be en administratör eller ägare i din organisation att skapa din första mall."
   },
   "supportSettings": {
     "accuracyZ": {

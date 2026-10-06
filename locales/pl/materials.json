@@ -35,6 +35,7 @@
     "materialNameConflictDoForAll_other": "Zrób to dla {{count}} pozostałych konfliktów nazw",
     "materialNameConflictWithRevision": "Plik materiału o nazwie {{name}}, Rewizja {{revision}}, już istnieje w Twojej organizacji.\n\nCzy chcesz zastąpić istniejący materiał Rewizją {{requestedRevision}}?",
     "noMaterials": "Użyj przycisku 'Dodaj materiały' w prawym górnym rogu tej strony, aby dodać materiały do swojej organizacji",
+    "noMaterialsReadOnly": "Poproś administratora lub właściciela w swojej organizacji o dodanie materiałów",
     "unableToDelete_one": "Wybranego materiału nie można usunąć, ponieważ jest on obecnie używany w szablonach. Przypisz inne materiały do poniższych szablonów, aby kontynuować usuwanie:",
     "unableToDelete_other": "Wybranych materiałów nie można usunąć, ponieważ są one obecnie używane w szablonach. Przypisz inne materiały do poniższych szablonów, aby kontynuować usuwanie:",
     "updateMaterial_one": "<bold>{{name}}</bold> zostanie zaktualizowany do najnowszej wersji.",
