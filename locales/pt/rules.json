@@ -14,6 +14,13 @@
     }
   },
   "autoPartGrouping": {
+    "example": {
+      "dragEnd": "Arraste para alterar o último caráter correspondido",
+      "dragStart": "Arraste para alterar o primeiro caráter correspondido",
+      "extensionIgnored": "A extensão do ficheiro é ignorada na correspondência.",
+      "matchKey": "As peças com \"{{key}}\" nesta posição são agrupadas em conjunto.",
+      "tooShort": "Este nome é demasiado curto para estas definições, pelo que não seria agrupado."
+    },
     "label": {
       "characterPosition": "Posição do carácter",
       "characterRange": "Intervalo de carateres",

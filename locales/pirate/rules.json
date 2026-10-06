@@ -14,6 +14,13 @@
     }
   },
   "autoPartGrouping": {
+    "example": {
+      "dragEnd": "Haul to change th’ last matched character",
+      "dragStart": "Haul to change th’ first matched character",
+      "extensionIgnored": "Th’ file extension be ignored when matchin’.",
+      "matchKey": "Trinkets with \"{{key}}\" at this spot be lashed together.",
+      "tooShort": "This name be too short fer these settings, so it’d not be lashed together."
+    },
     "label": {
       "characterPosition": "Character mark",
       "characterRange": "Character span",
