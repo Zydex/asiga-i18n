@@ -63,6 +63,7 @@
     "regionDescriptionLong": "Selecteer de regio waar de gegevens van uw organisatie worden opgeslagen, verwerkt en geback-upt.\n<bold>Deze keuze is definitief en kan na het instellen niet meer worden gewijzigd.</bold> Kies voor de beste prestaties de regio die het dichtst bij uw gebruikers ligt, of de regio die aansluit bij uw wettelijke vereisten (bijvoorbeeld AVG, HIPAA of wetgeving inzake gegevenslocatie).\n\nAls u later van regio wilt wisselen, moet u een nieuwe organisatie aanmaken en daar handmatig naartoe migreren.",
     "regionDescriptionShort": "Selecteer de regio waar de gegevens van uw organisatie worden opgeslagen, verwerkt en geback-upt.\n<bold>Deze keuze is definitief en kan na het instellen niet meer worden gewijzigd.</bold>",
     "regionError": "De Asiga Funnel wordt momenteel alleen ondersteund in Australië.",
+    "regionMaintenance": "De geselecteerde regio ondergaat gepland onderhoud tot {{endDate}} {{endTime}}.",
     "resendBaa": "Overeenkomst opnieuw verzenden",
     "resendBaaError": "Kan de overeenkomst niet opnieuw verzenden. Probeer het later opnieuw.",
     "resendEmail": "Verificatie-e-mail opnieuw verzenden",

@@ -63,6 +63,7 @@
     "regionDescriptionLong": "Selecciona la región donde se almacenarán, procesarán y respaldarán los datos de tu organización.\n<bold>Esta elección es permanente y no se puede cambiar después de la configuración.</bold> Elige la región más cercana a tus usuarios para obtener el mejor rendimiento, o la que se ajuste a tus requisitos normativos (por ejemplo, RGPD, HIPAA o leyes de residencia de datos).\n\nCambiar de región más adelante requiere crear una nueva organización y migrar a ella manualmente.",
     "regionDescriptionShort": "Selecciona la región donde se almacenarán, procesarán y respaldarán los datos de tu organización.\n<bold>Esta elección es permanente y no se puede cambiar después de la configuración.</bold>",
     "regionError": "Asiga Funnel actualmente solo es compatible en Australia.",
+    "regionMaintenance": "La región seleccionada está en mantenimiento programado hasta el {{endDate}} {{endTime}}.",
     "resendBaa": "Reenviar acuerdo",
     "resendBaaError": "No se pudo reenviar el acuerdo. Por favor, inténtalo de nuevo más tarde.",
     "resendEmail": "Reenviar correo de verificación",

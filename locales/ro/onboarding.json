@@ -63,6 +63,7 @@
     "regionDescriptionLong": "Selectați regiunea în care datele organizației dvs. vor fi stocate, procesate și salvate de rezervă.\n<bold>Această alegere este permanentă și nu poate fi modificată după configurare.</bold> Alegeți regiunea cea mai apropiată de utilizatorii dvs. pentru cea mai bună performanță sau pe cea care corespunde cerințelor de reglementare care vi se aplică (de exemplu, GDPR, HIPAA sau legile privind rezidența datelor).\n\nSchimbarea ulterioară a regiunii necesită crearea unei organizații noi și migrarea manuală către aceasta.",
     "regionDescriptionShort": "Selectați regiunea în care datele organizației dvs. vor fi stocate, procesate și salvate de rezervă.\n<bold>Această alegere este permanentă și nu poate fi modificată după configurare.</bold>",
     "regionError": "Asiga Funnel este în prezent disponibil doar în Australia.",
+    "regionMaintenance": "Regiunea selectată este în mentenanță programată până la {{endDate}} {{endTime}}.",
     "resendBaa": "Retrimite acordul",
     "resendBaaError": "Nu s-a putut retrimite acordul. Vă rugăm să încercați din nou mai târziu.",
     "resendEmail": "Retrimite e-mailul de verificare",
