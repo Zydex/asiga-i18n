@@ -63,6 +63,7 @@
     "regionDescriptionLong": "Välj den region där din organisations data ska lagras, bearbetas och säkerhetskopieras.\n<bold>Detta val är permanent och kan inte ändras efter konfigurationen.</bold> Välj den region som ligger närmast dina användare för bästa prestanda, eller den som uppfyller dina regulatoriska krav (till exempel GDPR, HIPAA eller lagar om datalokalisering).\n\nOm du vill byta region senare måste du skapa en ny organisation och migrera till den manuellt.",
     "regionDescriptionShort": "Välj den region där din organisations data ska lagras, bearbetas och säkerhetskopieras.\n<bold>Detta val är permanent och kan inte ändras efter konfigurationen.</bold>",
     "regionError": "Asiga Funnel stöds för närvarande endast i Australien.",
+    "regionMaintenance": "Den valda regionen genomgår schemalagt underhåll fram till {{endDate}} {{endTime}}.",
     "resendBaa": "Skicka avtalet igen",
     "resendBaaError": "Det gick inte att skicka avtalet igen. Försök igen senare.",
     "resendEmail": "Skicka verifieringsmejlet igen",

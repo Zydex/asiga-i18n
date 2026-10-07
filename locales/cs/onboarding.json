@@ -63,6 +63,7 @@
     "regionDescriptionLong": "Vyberte oblast, ve které budou data vaší organizace ukládána, zpracovávána a zálohována.\n<bold>Tato volba je trvalá a po nastavení ji nelze změnit.</bold> Pro nejlepší výkon zvolte oblast nejblíže vašim uživatelům, nebo oblast, která odpovídá vašim regulatorním požadavkům (například GDPR, HIPAA nebo zákonům o umístění dat).\n\nPozdější změna oblasti vyžaduje vytvoření nové organizace a ruční migraci do ní.",
     "regionDescriptionShort": "Vyberte oblast, ve které budou data vaší organizace ukládána, zpracovávána a zálohována.\n<bold>Tato volba je trvalá a po nastavení ji nelze změnit.</bold>",
     "regionError": "Asiga Funnel je v současné době podporován pouze v Austrálii.",
+    "regionMaintenance": "Vybraná oblast prochází plánovanou údržbou do {{endDate}} {{endTime}}.",
     "resendBaa": "Znovu odeslat smlouvu",
     "resendBaaError": "Nepodařilo se znovu odeslat smlouvu. Zkuste to prosím později.",
     "resendEmail": "Znovu odeslat ověřovací e-mail",
