@@ -3,6 +3,7 @@
     "allMachines": "Toate mașinile",
     "noDevices": "Sarcinile în așteptare pentru dispozitivele tale sunt afișate într-o cronologie pe această pagină",
     "noDevicesMessage": "Utilizează butonul de mai jos pentru a adăuga dispozitive la organizația ta",
+    "noDevicesMessageReadOnly": "Cere unui Administrator sau Proprietar din organizația ta să adauge dispozitive",
     "requiresAttention": "Necesită atenție"
   },
   "title": {

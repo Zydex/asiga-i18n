@@ -35,6 +35,7 @@
     "materialNameConflictDoForAll_other": "Faire cela pour les {{count}} conflits de noms restants",
     "materialNameConflictWithRevision": "Un fichier de matériau nommé {{name}}, révision {{revision}}, existe déjà dans votre organisation.\n\nVoulez-vous remplacer le matériau existant par la révision {{requestedRevision}} ?",
     "noMaterials": "Utilisez le bouton « Ajouter des matériaux » en haut à droite de cette page pour ajouter des matériaux à votre organisation",
+    "noMaterialsReadOnly": "Demandez à un administrateur ou à un propriétaire de votre organisation d'ajouter des matériaux",
     "unableToDelete_one": "Le matériau sélectionné ne peut pas être supprimé car il est actuellement utilisé dans des modèles. Veuillez attribuer des matériaux différents aux modèles suivants pour poursuivre la suppression :",
     "unableToDelete_other": "Les matériaux sélectionnés ne peuvent pas être supprimés car ils sont actuellement utilisés dans des modèles. Veuillez attribuer des matériaux différents aux modèles suivants pour poursuivre la suppression :",
     "updateMaterial_one": "<bold>{{name}}</bold> sera mis à jour vers la dernière version.",

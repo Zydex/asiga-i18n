@@ -64,7 +64,8 @@
     },
     "transfer": "Transfer",
     "unlink": "Unlink",
-    "update": "Update"
+    "update": "Update",
+    "view": "View"
   },
   "date": {
     "all": "All",

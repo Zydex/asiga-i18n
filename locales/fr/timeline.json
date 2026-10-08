@@ -3,6 +3,7 @@
     "allMachines": "Toutes les machines",
     "noDevices": "Les tâches en file d'attente pour vos appareils sont affichées dans une chronologie sur cette page",
     "noDevicesMessage": "Utilisez le bouton ci-dessous pour ajouter des appareils à votre organisation",
+    "noDevicesMessageReadOnly": "Demandez à un administrateur ou à un propriétaire de votre organisation d'ajouter des appareils",
     "requiresAttention": "Nécessite une attention"
   },
   "title": {

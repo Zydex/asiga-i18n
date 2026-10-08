@@ -35,6 +35,7 @@
     "materialNameConflictDoForAll_other": "Doe dit voor {{count}} resterende naamconflicten",
     "materialNameConflictWithRevision": "Er bestaat al een materiaalbestand met de naam {{name}}, Revisie {{revision}} in uw organisatie.\n\nWilt u het bestaande materiaal vervangen door Revisie {{requestedRevision}}?",
     "noMaterials": "Gebruik de knop 'Materialen toevoegen' rechtsboven op deze pagina om materialen aan uw organisatie toe te voegen",
+    "noMaterialsReadOnly": "Vraag een beheerder of eigenaar in uw organisatie om materialen toe te voegen",
     "unableToDelete_one": "Het geselecteerde materiaal kan niet worden verwijderd omdat het momenteel wordt gebruikt in sjablonen. Wijs alstublieft andere materialen toe aan de volgende sjablonen om door te gaan met verwijderen:",
     "unableToDelete_other": "De geselecteerde materialen kunnen niet worden verwijderd omdat ze momenteel worden gebruikt in sjablonen. Wijs alstublieft andere materialen toe aan de volgende sjablonen om door te gaan met verwijderen:",
     "updateMaterial_one": "<bold>{{name}}</bold> zal worden bijgewerkt naar de nieuwste versie.",

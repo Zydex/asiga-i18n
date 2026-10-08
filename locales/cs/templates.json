@@ -95,7 +95,8 @@
     "modifyWillAffectParts": "Přiřazené typy dílů používající tuto šablonu budou znovu zařazeny do fronty k tisku a všechny odebrané typy dílů budou vráceny do Doručené pošty k posouzení.",
     "modifyWillRequeueParts": "Existující díly budou aktualizovány novým nastavením šablony a znovu zařazeny do fronty k tisku.",
     "noTemplates": "Žádné šablony",
-    "noTemplatesInfo": "Šablony budou zobrazeny zde. Pomocí tlačítka „Vytvořit“ vytvořte svou první šablonu."
+    "noTemplatesInfo": "Šablony budou zobrazeny zde. Pomocí tlačítka „Vytvořit“ vytvořte svou první šablonu.",
+    "noTemplatesInfoReadOnly": "Šablony budou zobrazeny zde. Požádejte správce nebo vlastníka ve vaší organizaci o vytvoření první šablony."
   },
   "supportSettings": {
     "accuracyZ": {
@@ -211,7 +212,8 @@
     "modifyWillRequeueParts_zero": "Díly mohou být znovu zařazeny do fronty",
     "modifyWillRequeueParts_one": "{{count}} díl bude znovu zařazen do fronty",
     "modifyWillRequeueParts_other": "{{count}} dílů bude znovu zařazeno do fronty",
-    "templateBasePlate": "Základní deska {{name}}"
+    "templateBasePlate": "Základní deska {{name}}",
+    "viewTemplate": "Zobrazit šablonu"
   },
   "tooltip": {
     "defaultPartType": "Nastavit jako výchozí šablonu pro vybraný typ dílu",

@@ -35,6 +35,7 @@
     "materialNameConflictDoForAll_other": "Fă acest lucru pentru {{count}} conflicte de denumire rămase",
     "materialNameConflictWithRevision": "Un fișier de material numit {{name}}, Revizia {{revision}} există deja în organizația ta.\n\nVrei să înlocuiești materialul existent cu Revizia {{requestedRevision}}?",
     "noMaterials": "Folosește butonul „Adaugă materiale” din colțul din dreapta sus al acestei pagini pentru a adăuga materiale în organizația ta",
+    "noMaterialsReadOnly": "Cere unui Administrator sau Proprietar din organizația ta să adauge materiale",
     "unableToDelete_one": "Materialul selectat nu poate fi șters deoarece este în prezent folosit în șabloane. Te rugăm să atribui materiale diferite următoarelor șabloane pentru a continua ștergerea:",
     "unableToDelete_other": "Materialele selectate nu pot fi șterse deoarece sunt în prezent folosite în șabloane. Te rugăm să atribui materiale diferite următoarelor șabloane pentru a continua ștergerea:",
     "updateMaterial_one": "<bold>{{name}}</bold> va fi actualizat la cea mai recentă versiune.",

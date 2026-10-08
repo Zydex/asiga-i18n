@@ -60,6 +60,8 @@
     "noPartsToReprint": "Parts in this job have already been requeued for reprinting.",
     "noPrintsRemaining": "The printer for this job has run out of free prints. Requeue the parts to schedule them on an available printer, or subscribe to unlock unlimited prints.",
     "noPrintsRemainingPartial": "One or more selected jobs are assigned to a printer that has run out of free prints. Requeue the parts to schedule them on an available printer, or subscribe to unlock unlimited prints.",
+    "noPrintsRemainingPartialReadOnly": "One or more selected jobs are assigned to a printer that has run out of free prints. Requeue the parts to schedule them on an available printer, or ask an Admin or Owner in your organisation to subscribe to unlock unlimited prints.",
+    "noPrintsRemainingReadOnly": "The printer for this job has run out of free prints. Requeue the parts to schedule them on an available printer, or ask an Admin or Owner in your organisation to subscribe to unlock unlimited prints.",
     "printerExcluded": "This printer has been excluded from receiving jobs. Requeue to schedule on another printer, or send to this printer anyway.",
     "printerExcludedPartial": "One or more selected jobs are assigned to a printer that has been excluded from receiving jobs. Requeue to schedule on another printer, or send to the excluded printer anyway.",
     "rejectInfo": "Pressing 'Reshuffle' will result in part position and rotation being varied as part of a new print job. Some parts may be removed or added during the reshuffle.",

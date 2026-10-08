@@ -95,7 +95,8 @@
     "modifyWillAffectParts": "Zugehörige Teiletypen, die diese Vorlage verwenden, werden erneut zum Druck eingereiht, und alle entfernten Teiletypen werden zur Überprüfung an den Posteingang zurückgegeben.",
     "modifyWillRequeueParts": "Vorhandene Teile werden mit den neuen Vorlageneinstellungen aktualisiert und erneut zum Druck eingereiht.",
     "noTemplates": "Keine Vorlagen",
-    "noTemplatesInfo": "Vorlagen werden hier aufgelistet. Verwenden Sie die Schaltfläche „Erstellen“, um Ihre erste Vorlage zu erstellen."
+    "noTemplatesInfo": "Vorlagen werden hier aufgelistet. Verwenden Sie die Schaltfläche „Erstellen“, um Ihre erste Vorlage zu erstellen.",
+    "noTemplatesInfoReadOnly": "Vorlagen werden hier aufgelistet. Bitten Sie einen Administrator oder Eigentümer in Ihrer Organisation, Ihre erste Vorlage zu erstellen."
   },
   "supportSettings": {
     "accuracyZ": {
@@ -211,7 +212,8 @@
     "modifyWillRequeueParts_zero": "Teile werden möglicherweise erneut eingereiht",
     "modifyWillRequeueParts_one": "{{count}} Teil wird erneut eingereiht",
     "modifyWillRequeueParts_other": "{{count}} Teile werden erneut eingereiht",
-    "templateBasePlate": "{{name}}-Grundplatte"
+    "templateBasePlate": "{{name}}-Grundplatte",
+    "viewTemplate": "Vorlage anzeigen"
   },
   "tooltip": {
     "defaultPartType": "Diese Vorlage als Standard für den ausgewählten Teiletyp festlegen",

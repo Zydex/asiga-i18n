@@ -57,6 +57,7 @@
     "noCurrentBuild": "Obecnie żaden build nie jest drukowany.",
     "noDevices": "Brak urządzeń",
     "noDevicesNeedAttention": "Żadne urządzenia obecnie nie wymagają uwagi",
+    "noDevicesReadOnly": "Poproś administratora lub właściciela w swojej organizacji o dodanie urządzeń",
     "warnRemoveDevice": "Nie będziesz już mógł monitorować ani wysyłać zadań druku do tego urządzenia z Funnela.",
     "warnRemoveDevice_name": "Nie będziesz już mógł monitorować ani wysyłać zadań druku do {{device}} z Funnela.",
     "willExcludeDevice": "Po wykluczeniu tego urządzenia zadania druku nie będą już dla niego tworzone"

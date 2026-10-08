@@ -95,7 +95,8 @@
     "modifyWillAffectParts": "Az ezt a sablont használó társított alkatrésztípusok újra nyomtatási sorba kerülnek, az eltávolított alkatrésztípusok pedig visszakerülnek a Beérkezőbe felülvizsgálatra.",
     "modifyWillRequeueParts": "A meglévő alkatrészek frissülnek az új sablonbeállításokkal, és újra sorba kerülnek nyomtatásra.",
     "noTemplates": "Nincsenek sablonok",
-    "noTemplatesInfo": "A sablonok itt jelennek meg. Az első sablon létrehozásához használja a „Létrehozás” gombot."
+    "noTemplatesInfo": "A sablonok itt jelennek meg. Az első sablon létrehozásához használja a „Létrehozás” gombot.",
+    "noTemplatesInfoReadOnly": "A sablonok itt jelennek meg. Kérje meg szervezete egyik rendszergazdáját vagy tulajdonosát, hogy hozza létre az első sablont."
   },
   "supportSettings": {
     "accuracyZ": {
@@ -211,7 +212,8 @@
     "modifyWillRequeueParts_zero": "Az alkatrészek újra sorba kerülhetnek",
     "modifyWillRequeueParts_one": "{{count}} alkatrész kerül újra sorba",
     "modifyWillRequeueParts_other": "{{count}} alkatrész kerül újra sorba",
-    "templateBasePlate": "{{name}} alaplap"
+    "templateBasePlate": "{{name}} alaplap",
+    "viewTemplate": "Sablon megtekintése"
   },
   "tooltip": {
     "defaultPartType": "Állítsa be ezt alapértelmezett sablonként a kiválasztott alkatrésztípushoz",
