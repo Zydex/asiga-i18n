@@ -212,7 +212,8 @@
     "modifyWillRequeueParts_zero": "Díly mohou být znovu zařazeny do fronty",
     "modifyWillRequeueParts_one": "{{count}} díl bude znovu zařazen do fronty",
     "modifyWillRequeueParts_other": "{{count}} dílů bude znovu zařazeno do fronty",
-    "templateBasePlate": "Základní deska {{name}}"
+    "templateBasePlate": "Základní deska {{name}}",
+    "viewTemplate": "Zobrazit šablonu"
   },
   "tooltip": {
     "defaultPartType": "Nastavit jako výchozí šablonu pro vybraný typ dílu",

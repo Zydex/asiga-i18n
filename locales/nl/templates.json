@@ -212,7 +212,8 @@
     "modifyWillRequeueParts_zero": "Onderdelen kunnen opnieuw in de wachtrij worden geplaatst",
     "modifyWillRequeueParts_one": "{{count}} onderdeel wordt opnieuw in de wachtrij geplaatst",
     "modifyWillRequeueParts_other": "{{count}} onderdelen worden opnieuw in de wachtrij geplaatst",
-    "templateBasePlate": "{{name}} bodemplaat"
+    "templateBasePlate": "{{name}} bodemplaat",
+    "viewTemplate": "Sjabloon bekijken"
   },
   "tooltip": {
     "defaultPartType": "Maak dit de standaardsjabloon voor het geselecteerde onderdeeltype",

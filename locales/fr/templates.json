@@ -212,7 +212,8 @@
     "modifyWillRequeueParts_zero": "Des pièces pourraient être remises en file d'attente",
     "modifyWillRequeueParts_one": "{{count}} pièce sera remise en file d'attente",
     "modifyWillRequeueParts_other": "{{count}} pièces seront remises en file d'attente",
-    "templateBasePlate": "Plateau de base de {{name}}"
+    "templateBasePlate": "Plateau de base de {{name}}",
+    "viewTemplate": "Afficher le modèle"
   },
   "tooltip": {
     "defaultPartType": "Définir ceci comme modèle par défaut pour le type de pièce sélectionné",

@@ -212,7 +212,8 @@
     "modifyWillRequeueParts_zero": "Τα εξαρτήματα ενδέχεται να μπουν ξανά στην ουρά",
     "modifyWillRequeueParts_one": "{{count}} εξάρτημα θα μπει ξανά στην ουρά",
     "modifyWillRequeueParts_other": "{{count}} εξαρτήματα θα μπουν ξανά στην ουρά",
-    "templateBasePlate": "Πλάκα βάσης {{name}}"
+    "templateBasePlate": "Πλάκα βάσης {{name}}",
+    "viewTemplate": "Προβολή προτύπου"
   },
   "tooltip": {
     "defaultPartType": "Ορισμός αυτού ως προεπιλεγμένο πρότυπο για τον επιλεγμένο τύπο εξαρτήματος",

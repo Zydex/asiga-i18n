@@ -212,7 +212,8 @@
     "modifyWillRequeueParts_zero": "Piesele pot fi reintroduse în coadă",
     "modifyWillRequeueParts_one": "{{count}} piesă va fi reintrodusă în coadă",
     "modifyWillRequeueParts_other": "{{count}} piese vor fi reintroduse în coadă",
-    "templateBasePlate": "Placă de bază {{name}}"
+    "templateBasePlate": "Placă de bază {{name}}",
+    "viewTemplate": "Vizualizare șablon"
   },
   "tooltip": {
     "defaultPartType": "Faceți acest șablon implicit pentru tipul de piesă selectat",

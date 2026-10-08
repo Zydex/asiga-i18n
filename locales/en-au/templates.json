@@ -212,7 +212,8 @@
     "modifyWillRequeueParts_zero": "Parts may be requeued",
     "modifyWillRequeueParts_one": "{{count}} part will be requeued",
     "modifyWillRequeueParts_other": "{{count}} parts will be requeued",
-    "templateBasePlate": "{{name}} base plate"
+    "templateBasePlate": "{{name}} base plate",
+    "viewTemplate": "View Template"
   },
   "tooltip": {
     "defaultPartType": "Make this the default template for the selected part type",

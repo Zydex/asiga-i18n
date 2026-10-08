@@ -212,7 +212,8 @@
     "modifyWillRequeueParts_zero": "Części mogą zostać ponownie umieszczone w kolejce",
     "modifyWillRequeueParts_one": "{{count}} część zostanie ponownie umieszczona w kolejce",
     "modifyWillRequeueParts_other": "{{count}} części zostanie ponownie umieszczonych w kolejce",
-    "templateBasePlate": "Płyta podstawy {{name}}"
+    "templateBasePlate": "Płyta podstawy {{name}}",
+    "viewTemplate": "Wyświetl szablon"
   },
   "tooltip": {
     "defaultPartType": "Ustaw jako domyślny szablon dla wybranego typu części",

@@ -212,7 +212,8 @@
     "modifyWillRequeueParts_zero": "As peças podem ser recolocadas na fila",
     "modifyWillRequeueParts_one": "{{count}} peça será recolocada na fila",
     "modifyWillRequeueParts_other": "{{count}} peças serão recolocadas na fila",
-    "templateBasePlate": "Placa base de {{name}}"
+    "templateBasePlate": "Placa base de {{name}}",
+    "viewTemplate": "Ver modelo"
   },
   "tooltip": {
     "defaultPartType": "Tornar este o modelo padrão para o tipo de peça selecionado",

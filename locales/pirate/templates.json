@@ -212,7 +212,8 @@
     "modifyWillRequeueParts_zero": "Trinkets may rejoin th' line o' waitin'",
     "modifyWillRequeueParts_one": "{{count}} trinket will rejoin th' line o' waitin'",
     "modifyWillRequeueParts_other": "{{count}} trinkets will rejoin th' line o' waitin'",
-    "templateBasePlate": "{{name}} keel plate"
+    "templateBasePlate": "{{name}} keel plate",
+    "viewTemplate": "Behold Chart"
   },
   "tooltip": {
     "defaultPartType": "Make this th' default chart for th' chosen trinket type",

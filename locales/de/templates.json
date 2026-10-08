@@ -212,7 +212,8 @@
     "modifyWillRequeueParts_zero": "Teile werden möglicherweise erneut eingereiht",
     "modifyWillRequeueParts_one": "{{count}} Teil wird erneut eingereiht",
     "modifyWillRequeueParts_other": "{{count}} Teile werden erneut eingereiht",
-    "templateBasePlate": "{{name}}-Grundplatte"
+    "templateBasePlate": "{{name}}-Grundplatte",
+    "viewTemplate": "Vorlage anzeigen"
   },
   "tooltip": {
     "defaultPartType": "Diese Vorlage als Standard für den ausgewählten Teiletyp festlegen",

@@ -212,7 +212,8 @@
     "modifyWillRequeueParts_zero": "Le parti potrebbero essere rimesse in coda",
     "modifyWillRequeueParts_one": "{{count}} parte verrà rimessa in coda",
     "modifyWillRequeueParts_other": "{{count}} parti verranno rimesse in coda",
-    "templateBasePlate": "Piastra di base {{name}}"
+    "templateBasePlate": "Piastra di base {{name}}",
+    "viewTemplate": "Visualizza template"
   },
   "tooltip": {
     "defaultPartType": "Rendi questo il template predefinito per il tipo di parte selezionato",

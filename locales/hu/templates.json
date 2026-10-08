@@ -212,7 +212,8 @@
     "modifyWillRequeueParts_zero": "Az alkatrészek újra sorba kerülhetnek",
     "modifyWillRequeueParts_one": "{{count}} alkatrész kerül újra sorba",
     "modifyWillRequeueParts_other": "{{count}} alkatrész kerül újra sorba",
-    "templateBasePlate": "{{name}} alaplap"
+    "templateBasePlate": "{{name}} alaplap",
+    "viewTemplate": "Sablon megtekintése"
   },
   "tooltip": {
     "defaultPartType": "Állítsa be ezt alapértelmezett sablonként a kiválasztott alkatrésztípushoz",
