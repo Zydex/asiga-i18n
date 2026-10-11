@@ -3,6 +3,7 @@
     "allMachines": "Alla maskiner",
     "noDevices": "Köade jobb för dina enheter visas i en tidslinje på den här sidan",
     "noDevicesMessage": "Använd knappen nedan för att lägga till enheter i din organisation",
+    "noDevicesMessageReadOnly": "Be en administratör eller ägare i din organisation att lägga till enheter",
     "requiresAttention": "Kräver uppmärksamhet"
   },
   "title": {

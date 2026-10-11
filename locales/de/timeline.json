@@ -3,6 +3,7 @@
     "allMachines": "Alle Maschinen",
     "noDevices": "Für Ihre Geräte eingereihte Aufträge werden auf dieser Seite in einer Zeitleiste angezeigt",
     "noDevicesMessage": "Verwenden Sie die Schaltfläche unten, um Geräte zu Ihrer Organisation hinzuzufügen",
+    "noDevicesMessageReadOnly": "Bitten Sie einen Administrator oder Eigentümer in Ihrer Organisation, Geräte hinzuzufügen",
     "requiresAttention": "Erfordert Aufmerksamkeit"
   },
   "title": {

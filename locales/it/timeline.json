@@ -3,6 +3,7 @@
     "allMachines": "Tutte le macchine",
     "noDevices": "I lavori in coda per i tuoi dispositivi vengono mostrati in una sequenza temporale in questa pagina",
     "noDevicesMessage": "Usa il pulsante qui sotto per aggiungere dispositivi alla tua organizzazione",
+    "noDevicesMessageReadOnly": "Chiedi a un Amministratore o Proprietario della tua organizzazione di aggiungere dispositivi",
     "requiresAttention": "Richiede attenzione"
   },
   "title": {

@@ -3,6 +3,7 @@
     "allMachines": "Todas as Máquinas",
     "noDevices": "Os trabalhos na fila para os seus dispositivos são apresentados numa linha do tempo nesta página",
     "noDevicesMessage": "Utilize o botão abaixo para adicionar dispositivos à sua organização",
+    "noDevicesMessageReadOnly": "Peça a um Administrador ou Proprietário da sua organização para adicionar dispositivos",
     "requiresAttention": "Requer Atenção"
   },
   "title": {

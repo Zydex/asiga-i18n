@@ -3,6 +3,7 @@
     "allMachines": "Wszystkie maszyny",
     "noDevices": "Zadania w kolejce dla Twoich urządzeń są wyświetlane na osi czasu na tej stronie",
     "noDevicesMessage": "Użyj przycisku poniżej, aby dodać urządzenia do swojej organizacji",
+    "noDevicesMessageReadOnly": "Poproś administratora lub właściciela w swojej organizacji o dodanie urządzeń",
     "requiresAttention": "Wymaga uwagi"
   },
   "title": {

@@ -57,6 +57,7 @@
     "noCurrentBuild": "No build currently printing.",
     "noDevices": "No Devices",
     "noDevicesNeedAttention": "No devices currently require attention",
+    "noDevicesReadOnly": "Ask an Admin or Owner in your organisation to add devices",
     "warnRemoveDevice": "You will no longer be able to monitor or send print jobs to this device from the Funnel.",
     "warnRemoveDevice_name": "You will no longer be able to monitor or send print jobs to {{device}} from the Funnel.",
     "willExcludeDevice": "Print Jobs will no longer be created for this machine when it is excluded"

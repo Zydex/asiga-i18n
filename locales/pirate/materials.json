@@ -35,6 +35,7 @@
     "materialNameConflictDoForAll_other": "Do this for {{count}} remainin' name clashes",
     "materialNameConflictWithRevision": "A grog scroll named {{name}}, Revision {{revision}} already exists in yer crew.\n\nDo ye want to replace th' existin' grog with Revision {{requestedRevision}}?",
     "noMaterials": "Use th' 'Add Grog' button at the top right o' this page to add grog to yer crew",
+    "noMaterialsReadOnly": "Ask a Quartermaster or Cap'n in yer crew to add grog",
     "unableToDelete_one": "The selected grog cannot be scuttled as it be currently used in charts. Please assign different grog to the followin' charts to continue with the scuttlin':",
     "unableToDelete_other": "The selected grogs cannot be scuttled as they be currently used in charts. Please assign different grog to the followin' charts to continue with the scuttlin':",
     "updateMaterial_one": "<bold>{{name}}</bold> will be updated to th' latest version.",

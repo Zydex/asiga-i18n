@@ -57,6 +57,7 @@
     "noCurrentBuild": "Aucune impression en cours.",
     "noDevices": "Aucun appareil",
     "noDevicesNeedAttention": "Aucun appareil ne nécessite actuellement d'attention",
+    "noDevicesReadOnly": "Demandez à un administrateur ou à un propriétaire de votre organisation d'ajouter des appareils",
     "warnRemoveDevice": "Vous ne pourrez plus surveiller ni envoyer de travaux d'impression à cet appareil depuis le Funnel.",
     "warnRemoveDevice_name": "Vous ne pourrez plus surveiller ni envoyer de travaux d'impression à {{device}} depuis le Funnel.",
     "willExcludeDevice": "Les travaux d'impression ne seront plus créés pour cette machine lorsqu'elle sera exclue"

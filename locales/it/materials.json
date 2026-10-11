@@ -35,6 +35,7 @@
     "materialNameConflictDoForAll_other": "Applica questa scelta per i rimanenti {{count}} conflitti di denominazione",
     "materialNameConflictWithRevision": "Esiste già nella tua organizzazione un file di materiale denominato {{name}}, Revisione {{revision}}.\n\nVuoi sostituire il materiale esistente con la Revisione {{requestedRevision}}?",
     "noMaterials": "Utilizza il pulsante \"Aggiungi materiali\" in alto a destra in questa pagina per aggiungere materiali alla tua organizzazione",
+    "noMaterialsReadOnly": "Chiedi a un Amministratore o Proprietario della tua organizzazione di aggiungere materiali",
     "unableToDelete_one": "Il materiale selezionato non può essere eliminato poiché è attualmente utilizzato nei modelli. Per favore, assegna materiali diversi ai seguenti modelli per continuare con l'eliminazione:",
     "unableToDelete_other": "I materiali selezionati non possono essere eliminati poiché sono attualmente utilizzati nei modelli. Per favore, assegna materiali diversi ai seguenti modelli per continuare con l'eliminazione:",
     "updateMaterial_one": "<bold>{{name}}</bold> verrà aggiornato all'ultima versione.",

@@ -35,6 +35,7 @@
     "materialNameConflictDoForAll_other": "Provést totéž pro {{count}} zbývajících konfliktů v názvech",
     "materialNameConflictWithRevision": "Soubor materiálu s názvem {{name}}, revize {{revision}}, již ve vaší organizaci existuje.\n\nChcete nahradit stávající materiál revizí {{requestedRevision}}?",
     "noMaterials": "Pomocí tlačítka „Přidat materiály“ v pravém horním rohu této stránky přidejte materiály do své organizace",
+    "noMaterialsReadOnly": "Požádejte správce nebo vlastníka ve vaší organizaci o přidání materiálů",
     "unableToDelete_one": "Vybraný materiál nelze odstranit, protože je aktuálně používán v šablonách. Chcete-li pokračovat v odstraňování, přiřaďte následujícím šablonám jiné materiály:",
     "unableToDelete_other": "Vybrané materiály nelze odstranit, protože jsou aktuálně používány v šablonách. Chcete-li pokračovat v odstraňování, přiřaďte následujícím šablonám jiné materiály:",
     "updateMaterial_one": "<bold>{{name}}</bold> bude aktualizován na nejnovější verzi.",

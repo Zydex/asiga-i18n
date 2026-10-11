@@ -95,7 +95,8 @@
     "modifyWillAffectParts": "Powiązane typy części korzystające z tego szablonu zostaną ponownie umieszczone w kolejce do druku, a usunięte typy części zostaną zwrócone do Skrzynki odbiorczej w celu przeglądu.",
     "modifyWillRequeueParts": "Istniejące części zostaną zaktualizowane nowymi ustawieniami szablonu i ponownie umieszczone w kolejce do druku.",
     "noTemplates": "Brak szablonów",
-    "noTemplatesInfo": "Szablony będą wyświetlane tutaj. Użyj przycisku „Utwórz”, aby utworzyć swój pierwszy szablon."
+    "noTemplatesInfo": "Szablony będą wyświetlane tutaj. Użyj przycisku „Utwórz”, aby utworzyć swój pierwszy szablon.",
+    "noTemplatesInfoReadOnly": "Szablony będą wyświetlane tutaj. Poproś administratora lub właściciela w swojej organizacji o utworzenie pierwszego szablonu."
   },
   "supportSettings": {
     "accuracyZ": {
@@ -211,7 +212,8 @@
     "modifyWillRequeueParts_zero": "Części mogą zostać ponownie umieszczone w kolejce",
     "modifyWillRequeueParts_one": "{{count}} część zostanie ponownie umieszczona w kolejce",
     "modifyWillRequeueParts_other": "{{count}} części zostanie ponownie umieszczonych w kolejce",
-    "templateBasePlate": "Płyta podstawy {{name}}"
+    "templateBasePlate": "Płyta podstawy {{name}}",
+    "viewTemplate": "Wyświetl szablon"
   },
   "tooltip": {
     "defaultPartType": "Ustaw jako domyślny szablon dla wybranego typu części",

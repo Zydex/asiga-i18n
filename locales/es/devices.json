@@ -57,6 +57,7 @@
     "noCurrentBuild": "No hay ninguna impresión en curso.",
     "noDevices": "Sin dispositivos",
     "noDevicesNeedAttention": "Actualmente ningún dispositivo requiere atención",
+    "noDevicesReadOnly": "Pida a un administrador o propietario de su organización que añada dispositivos",
     "warnRemoveDevice": "Ya no podrá supervisar ni enviar trabajos de impresión a este dispositivo desde el Funnel.",
     "warnRemoveDevice_name": "Ya no podrá supervisar ni enviar trabajos de impresión a {{device}} desde el Funnel.",
     "willExcludeDevice": "Ya no se crearán trabajos de impresión para esta máquina cuando esté excluida"

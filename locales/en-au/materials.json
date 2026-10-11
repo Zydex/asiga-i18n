@@ -35,6 +35,7 @@
     "materialNameConflictDoForAll_other": "Do this for {{count}} remaining naming conflicts",
     "materialNameConflictWithRevision": "A material file named {{name}}, Revision {{revision}} already exists in your organisation.\n\nDo you want to replace the existing material with Revision {{requestedRevision}}?",
     "noMaterials": "Use the 'Add Materials' button at the top right of this page to add materials to your organisation",
+    "noMaterialsReadOnly": "Ask an Admin or Owner in your organisation to add materials",
     "unableToDelete_one": "The selected material cannot be deleted as it is currently being used in templates. Please assign different materials to the following templates to continue with deletion:",
     "unableToDelete_other": "The selected materials cannot be deleted as they are currently being used in templates. Please assign different materials to the following templates to continue with deletion:",
     "updateMaterial_one": "<bold>{{name}}</bold> will be updated to the latest version.",

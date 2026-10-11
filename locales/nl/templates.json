@@ -95,7 +95,8 @@
     "modifyWillAffectParts": "Gekoppelde onderdeeltypen die deze sjabloon gebruiken, worden opnieuw in de wachtrij geplaatst voor het printen, en eventuele losgekoppelde onderdeeltypen worden teruggezet naar de Inbox voor beoordeling.",
     "modifyWillRequeueParts": "Bestaande onderdelen worden bijgewerkt met de nieuwe sjabloninstellingen en opnieuw in de wachtrij geplaatst voor het printen.",
     "noTemplates": "Geen sjablonen",
-    "noTemplatesInfo": "Sjablonen worden hier weergegeven. Gebruik de knop 'Aanmaken' om uw eerste sjabloon te maken."
+    "noTemplatesInfo": "Sjablonen worden hier weergegeven. Gebruik de knop 'Aanmaken' om uw eerste sjabloon te maken.",
+    "noTemplatesInfoReadOnly": "Sjablonen worden hier weergegeven. Vraag een beheerder of eigenaar in uw organisatie om uw eerste sjabloon te maken."
   },
   "supportSettings": {
     "accuracyZ": {
@@ -211,7 +212,8 @@
     "modifyWillRequeueParts_zero": "Onderdelen kunnen opnieuw in de wachtrij worden geplaatst",
     "modifyWillRequeueParts_one": "{{count}} onderdeel wordt opnieuw in de wachtrij geplaatst",
     "modifyWillRequeueParts_other": "{{count}} onderdelen worden opnieuw in de wachtrij geplaatst",
-    "templateBasePlate": "{{name}} bodemplaat"
+    "templateBasePlate": "{{name}} bodemplaat",
+    "viewTemplate": "Sjabloon bekijken"
   },
   "tooltip": {
     "defaultPartType": "Maak dit de standaardsjabloon voor het geselecteerde onderdeeltype",

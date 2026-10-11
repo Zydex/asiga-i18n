@@ -57,6 +57,7 @@
     "noCurrentBuild": "Niciun print nu se printează în prezent.",
     "noDevices": "Niciun dispozitiv",
     "noDevicesNeedAttention": "Niciun dispozitiv nu necesită atenție în prezent",
+    "noDevicesReadOnly": "Cere unui Administrator sau Proprietar din organizația ta să adauge dispozitive",
     "warnRemoveDevice": "Nu vei mai putea monitoriza sau trimite sarcini de printare către acest dispozitiv din Funnel.",
     "warnRemoveDevice_name": "Nu vei mai putea monitoriza sau trimite sarcini de printare către {{device}} din Funnel.",
     "willExcludeDevice": "Sarcinile de printare nu vor mai fi create pentru acest aparat atunci când este exclus"

@@ -57,6 +57,7 @@
     "noCurrentBuild": "Nenhum build a imprimir atualmente.",
     "noDevices": "Nenhum dispositivo",
     "noDevicesNeedAttention": "Nenhum dispositivo necessita atualmente de atenção",
+    "noDevicesReadOnly": "Peça a um Administrador ou Proprietário da sua organização para adicionar dispositivos",
     "warnRemoveDevice": "Deixará de poder monitorizar ou enviar trabalhos de impressão para este dispositivo a partir do Funnel.",
     "warnRemoveDevice_name": "Deixará de poder monitorizar ou enviar trabalhos de impressão para {{device}} a partir do Funnel.",
     "willExcludeDevice": "Os trabalhos de impressão deixarão de ser criados para esta máquina quando esta for excluída"

@@ -57,6 +57,7 @@
     "noCurrentBuild": "Er wordt momenteel geen build geprint.",
     "noDevices": "Geen apparaten",
     "noDevicesNeedAttention": "Geen enkel apparaat vereist momenteel aandacht",
+    "noDevicesReadOnly": "Vraag een beheerder of eigenaar in uw organisatie om apparaten toe te voegen",
     "warnRemoveDevice": "U kunt dit apparaat niet langer bewaken of er printtaken vanuit de Funnel naartoe sturen.",
     "warnRemoveDevice_name": "U kunt {{device}} niet langer bewaken of er printtaken vanuit de Funnel naartoe sturen.",
     "willExcludeDevice": "Er worden geen printtaken meer aangemaakt voor deze machine wanneer deze is uitgesloten"

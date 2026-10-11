@@ -95,7 +95,8 @@
     "modifyWillAffectParts": "Tipurile de piese asociate care utilizează acest șablon vor fi reintroduse în coadă pentru printare, iar tipurile de piese eliminate vor fi returnate în Inbox pentru revizuire.",
     "modifyWillRequeueParts": "Piesele existente vor fi actualizate cu noile setări ale șablonului și reintroduse în coadă pentru printare.",
     "noTemplates": "Niciun șablon",
-    "noTemplatesInfo": "Șabloanele vor fi listate aici. Utilizați butonul „Creare” pentru a crea primul dvs. șablon."
+    "noTemplatesInfo": "Șabloanele vor fi listate aici. Utilizați butonul „Creare” pentru a crea primul dvs. șablon.",
+    "noTemplatesInfoReadOnly": "Șabloanele vor fi listate aici. Cereți unui Administrator sau Proprietar din organizația dvs. să creeze primul dvs. șablon."
   },
   "supportSettings": {
     "accuracyZ": {
@@ -211,7 +212,8 @@
     "modifyWillRequeueParts_zero": "Piesele pot fi reintroduse în coadă",
     "modifyWillRequeueParts_one": "{{count}} piesă va fi reintrodusă în coadă",
     "modifyWillRequeueParts_other": "{{count}} piese vor fi reintroduse în coadă",
-    "templateBasePlate": "Placă de bază {{name}}"
+    "templateBasePlate": "Placă de bază {{name}}",
+    "viewTemplate": "Vizualizare șablon"
   },
   "tooltip": {
     "defaultPartType": "Faceți acest șablon implicit pentru tipul de piesă selectat",

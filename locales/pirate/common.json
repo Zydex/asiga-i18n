@@ -64,7 +64,8 @@
     },
     "transfer": "Hand Over",
     "unlink": "Unmoor",
-    "update": "Renew"
+    "update": "Renew",
+    "view": "Behold"
   },
   "date": {
     "all": "All",

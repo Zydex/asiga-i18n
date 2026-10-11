@@ -35,6 +35,7 @@
     "materialNameConflictDoForAll_other": "Gör detta för {{count}} återstående namnkonflikter",
     "materialNameConflictWithRevision": "En materialfil med namnet {{name}}, revision {{revision}} finns redan i din organisation.\n\nVill du ersätta det befintliga materialet med revision {{requestedRevision}}?",
     "noMaterials": "Använd knappen \"Lägg till material\" högst upp till höger på denna sida för att lägga till material i din organisation",
+    "noMaterialsReadOnly": "Be en administratör eller ägare i din organisation att lägga till material",
     "unableToDelete_one": "Det valda materialet kan inte tas bort eftersom det för närvarande används i mallar. Vänligen tilldela andra material till följande mallar för att kunna fortsätta med borttagningen:",
     "unableToDelete_other": "De valda materialen kan inte tas bort eftersom de för närvarande används i mallar. Vänligen tilldela andra material till följande mallar för att kunna fortsätta med borttagningen:",
     "updateMaterial_one": "<bold>{{name}}</bold> kommer att uppdateras till den senaste versionen.",

@@ -3,6 +3,7 @@
     "allMachines": "Minden gép",
     "noDevices": "Az eszközeihez sorba állított munkák egy idővonalon jelennek meg ezen az oldalon",
     "noDevicesMessage": "Az alábbi gombbal adhat eszközöket a szervezetéhez",
+    "noDevicesMessageReadOnly": "Kérje meg szervezete egyik rendszergazdáját vagy tulajdonosát, hogy adjon hozzá eszközöket",
     "requiresAttention": "Figyelmet igényel"
   },
   "title": {

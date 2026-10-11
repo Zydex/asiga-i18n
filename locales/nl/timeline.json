@@ -3,6 +3,7 @@
     "allMachines": "Alle machines",
     "noDevices": "Taken die in de wachtrij staan voor je apparaten worden op deze pagina in een tijdlijn weergegeven",
     "noDevicesMessage": "Gebruik de onderstaande knop om apparaten aan je organisatie toe te voegen",
+    "noDevicesMessageReadOnly": "Vraag een beheerder of eigenaar in uw organisatie om apparaten toe te voegen",
     "requiresAttention": "Vereist aandacht"
   },
   "title": {

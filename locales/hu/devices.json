@@ -57,6 +57,7 @@
     "noCurrentBuild": "Jelenleg nincs build nyomtatás alatt.",
     "noDevices": "Nincsenek eszközök",
     "noDevicesNeedAttention": "Jelenleg egyetlen eszköz sem igényel figyelmet",
+    "noDevicesReadOnly": "Kérje meg szervezete egyik rendszergazdáját vagy tulajdonosát, hogy adjon hozzá eszközöket",
     "warnRemoveDevice": "A továbbiakban nem fogja tudni figyelni ezt az eszközt, illetve nyomtatási feladatokat küldeni rá a Funnelből.",
     "warnRemoveDevice_name": "A továbbiakban nem fogja tudni figyelni a(z) {{device}} eszközt, illetve nyomtatási feladatokat küldeni rá a Funnelből.",
     "willExcludeDevice": "A kizárás után a rendszer nem hoz létre nyomtatási feladatokat ehhez a géphez"

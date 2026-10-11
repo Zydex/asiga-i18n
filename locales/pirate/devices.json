@@ -57,6 +57,7 @@
     "noCurrentBuild": "No haul currently forgin'.",
     "noDevices": "No Contraptions",
     "noDevicesNeedAttention": "No contraptions currently need tendin'",
+    "noDevicesReadOnly": "Ask a Quartermaster or Cap'n in yer crew to add contraptions",
     "warnRemoveDevice": "Ye will no longer be able to watch or send forge voyages to this contraption from th' Funnel.",
     "warnRemoveDevice_name": "Ye will no longer be able to watch or send forge voyages to {{device}} from th' Funnel.",
     "willExcludeDevice": "Forge Voyages will no longer be created for this contraption once it be barred"

@@ -35,6 +35,7 @@
     "materialNameConflictDoForAll_other": "Dies für {{count}} verbleibende Namenskonflikte anwenden",
     "materialNameConflictWithRevision": "Eine Materialdatei mit dem Namen {{name}}, Revision {{revision}}, existiert bereits in Ihrer Organisation.\n\nMöchten Sie das vorhandene Material durch Revision {{requestedRevision}} ersetzen?",
     "noMaterials": "Verwenden Sie die Schaltfläche „Materialien hinzufügen“ oben rechts auf dieser Seite, um Materialien zu Ihrer Organisation hinzuzufügen",
+    "noMaterialsReadOnly": "Bitten Sie einen Administrator oder Eigentümer in Ihrer Organisation, Materialien hinzuzufügen",
     "unableToDelete_one": "Das ausgewählte Material kann nicht gelöscht werden, da es derzeit in Vorlagen verwendet wird. Bitte weisen Sie den folgenden Vorlagen andere Materialien zu, um mit dem Löschen fortzufahren:",
     "unableToDelete_other": "Die ausgewählten Materialien können nicht gelöscht werden, da sie derzeit in Vorlagen verwendet werden. Bitte weisen Sie den folgenden Vorlagen andere Materialien zu, um mit dem Löschen fortzufahren:",
     "updateMaterial_one": "<bold>{{name}}</bold> wird auf die neueste Version aktualisiert.",

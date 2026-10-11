@@ -35,6 +35,7 @@
     "materialNameConflictDoForAll_other": "Alkalmazza ezt a fennmaradó {{count}} névütközésre",
     "materialNameConflictWithRevision": "A(z) {{name}} nevű, {{revision}}. revíziójú anyagfájl már létezik a szervezetében.\n\nLe szeretné cserélni a meglévő anyagot a {{requestedRevision}}. revízióra?",
     "noMaterials": "Használja az „Anyagok hozzáadása” gombot az oldal jobb felső sarkában, hogy anyagokat adjon a szervezetéhez",
+    "noMaterialsReadOnly": "Kérje meg szervezete egyik rendszergazdáját vagy tulajdonosát, hogy adjon hozzá anyagokat",
     "unableToDelete_one": "A kijelölt anyag nem törölhető, mivel jelenleg sablonokban van használatban. A törlés folytatásához rendeljen más anyagokat a következő sablonokhoz:",
     "unableToDelete_other": "A kijelölt anyagok nem törölhetők, mivel jelenleg sablonokban vannak használatban. A törlés folytatásához rendeljen más anyagokat a következő sablonokhoz:",
     "updateMaterial_one": "A(z) <bold>{{name}}</bold> a legújabb verzióra lesz frissítve.",

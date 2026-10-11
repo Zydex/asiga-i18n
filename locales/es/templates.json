@@ -95,7 +95,8 @@
     "modifyWillAffectParts": "Los tipos de pieza asociados que utilicen esta plantilla se volverán a poner en cola para su impresión, y cualquier tipo de pieza eliminado se devolverá a la Bandeja de entrada para su revisión.",
     "modifyWillRequeueParts": "Las piezas existentes se actualizarán con la nueva configuración de la plantilla y se volverán a poner en cola para su impresión.",
     "noTemplates": "Sin plantillas",
-    "noTemplatesInfo": "Las plantillas se mostrarán aquí. Utiliza el botón 'Crear' para crear tu primera plantilla."
+    "noTemplatesInfo": "Las plantillas se mostrarán aquí. Utiliza el botón 'Crear' para crear tu primera plantilla.",
+    "noTemplatesInfoReadOnly": "Las plantillas se mostrarán aquí. Pide a un administrador o propietario de tu organización que cree tu primera plantilla."
   },
   "supportSettings": {
     "accuracyZ": {
@@ -211,7 +212,8 @@
     "modifyWillRequeueParts_zero": "Las piezas pueden volver a ponerse en cola",
     "modifyWillRequeueParts_one": "{{count}} pieza se volverá a poner en cola",
     "modifyWillRequeueParts_other": "{{count}} piezas se volverán a poner en cola",
-    "templateBasePlate": "Placa base de {{name}}"
+    "templateBasePlate": "Placa base de {{name}}",
+    "viewTemplate": "Ver plantilla"
   },
   "tooltip": {
     "defaultPartType": "Hacer que esta sea la plantilla predeterminada para el tipo de pieza seleccionado",

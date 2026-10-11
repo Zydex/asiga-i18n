@@ -64,7 +64,8 @@
     },
     "transfer": "Overdragen",
     "unlink": "Ontkoppelen",
-    "update": "Bijwerken"
+    "update": "Bijwerken",
+    "view": "Bekijken"
   },
   "date": {
     "all": "Alle",

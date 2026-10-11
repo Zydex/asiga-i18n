@@ -3,6 +3,7 @@
     "allMachines": "All Machines",
     "noDevices": "Jobs queued for your devices are shown in a timeline on this page",
     "noDevicesMessage": "Use the button below to add devices to your organisation",
+    "noDevicesMessageReadOnly": "Ask an Admin or Owner in your organisation to add devices",
     "requiresAttention": "Requires Attention"
   },
   "title": {

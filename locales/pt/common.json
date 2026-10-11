@@ -64,7 +64,8 @@
     },
     "transfer": "Transferir",
     "unlink": "Desassociar",
-    "update": "Atualizar"
+    "update": "Atualizar",
+    "view": "Ver"
   },
   "date": {
     "all": "Todos",
