@@ -23,6 +23,7 @@
       },
       "enrolPrinter": {
         "description": "Στη σελίδα <bold>Συσκευές</bold>, κάντε κλικ στο «Προσθήκη Συσκευής»",
+        "firmware": "Λήψη του <firmware>πιο πρόσφατου υλικολογισμικού</firmware>",
         "title": "Εγγραφή εκτυπωτή"
       },
       "inviteColleagues": {

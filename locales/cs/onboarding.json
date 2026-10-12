@@ -23,6 +23,7 @@
       },
       "enrolPrinter": {
         "description": "Na stránce <bold>Zařízení</bold> klikněte na „Přidat zařízení“",
+        "firmware": "Stáhnout <firmware>nejnovější firmware</firmware>",
         "title": "Zaregistrovat tiskárnu"
       },
       "inviteColleagues": {

@@ -23,6 +23,7 @@
       },
       "enrolPrinter": {
         "description": "Klik op de pagina <bold>Apparaten</bold> op “Apparaat toevoegen”",
+        "firmware": "Download de <firmware>nieuwste firmware</firmware>",
         "title": "Een printer registreren"
       },
       "inviteColleagues": {

@@ -23,6 +23,7 @@
       },
       "enrolPrinter": {
         "description": "Klicken Sie auf der Seite <bold>Geräte</bold> auf „Gerät hinzufügen“",
+        "firmware": "<firmware>Neueste Firmware</firmware> herunterladen",
         "title": "Einen Drucker registrieren"
       },
       "inviteColleagues": {
