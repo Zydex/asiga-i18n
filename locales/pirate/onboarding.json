@@ -23,7 +23,7 @@
       },
       "enrolPrinter": {
         "description": "On the <bold>Contraptions</bold> page, click “Add Contraption”",
-        "firmware": "Plunder th' <firmware>latest firmware</firmware>",
+        "firmware": "Plunder th' <a>latest firmware</a>",
         "title": "Enlist a contraption"
       },
       "inviteColleagues": {

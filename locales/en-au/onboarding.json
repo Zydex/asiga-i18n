@@ -23,7 +23,7 @@
       },
       "enrolPrinter": {
         "description": "On the <bold>Devices</bold> page, click “Add Device”",
-        "firmware": "Download the <firmware>latest firmware</firmware>",
+        "firmware": "Download the <a>latest firmware</a>",
         "title": "Enrol a printer"
       },
       "inviteColleagues": {

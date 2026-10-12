@@ -23,7 +23,7 @@
       },
       "enrolPrinter": {
         "description": "Pe pagina <bold>Dispozitive</bold>, faceți clic pe „Adaugă dispozitiv”",
-        "firmware": "Descarcă <firmware>cel mai recent firmware</firmware>",
+        "firmware": "Descarcă <a>cel mai recent firmware</a>",
         "title": "Înregistrați o imprimantă"
       },
       "inviteColleagues": {
