@@ -49,7 +49,7 @@
     "unlimitedEnding": "Unlimited*"
   },
   "message": {
-    "addDevices": "Use the 'Add Devices' button at the top right of this page or use the button below to add devices to your organisation",
+    "addDevices": "Ensure you have the <a>latest firmware</a> to connect your devices to Funnel.",
     "allGood": "All good!",
     "devicesPageInfo": "The status for all devices in your organisation are shown on this page",
     "excludeDevice": "{{device}} excluded from receiving funnel print jobs",

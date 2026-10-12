@@ -49,7 +49,7 @@
     "unlimitedEnding": "Neomezeno*"
   },
   "message": {
-    "addDevices": "Pro přidání zařízení do vaší organizace použijte tlačítko „Přidat zařízení“ v pravém horním rohu této stránky nebo tlačítko níže",
+    "addDevices": "Ujistěte se, že máte <a>nejnovější firmware</a>, abyste mohli připojit svá zařízení k Funnelu.",
     "allGood": "Vše v pořádku!",
     "devicesPageInfo": "Na této stránce je zobrazen stav všech zařízení ve vaší organizaci",
     "excludeDevice": "{{device}} bylo vyloučeno z přijímání tiskových úloh z Funnelu",

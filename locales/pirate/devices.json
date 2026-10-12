@@ -49,7 +49,7 @@
     "unlimitedEnding": "Boundless*"
   },
   "message": {
-    "addDevices": "Use th' 'Add Contraptions' button at th' top right o' this page or use th' button below to add contraptions to yer crew",
+    "addDevices": "Make sure ye be havin' th' <a>latest firmware</a> to hitch yer contraptions to th' Funnel.",
     "allGood": "All shipshape!",
     "devicesPageInfo": "Th' status for all contraptions in yer crew be shown on this page",
     "excludeDevice": "{{device}} barred from receivin' funnel forge voyages",

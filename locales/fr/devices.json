@@ -49,7 +49,7 @@
     "unlimitedEnding": "Illimité*"
   },
   "message": {
-    "addDevices": "Utilisez le bouton « Ajouter des appareils » en haut à droite de cette page ou utilisez le bouton ci-dessous pour ajouter des appareils à votre organisation",
+    "addDevices": "Assurez-vous de disposer du <a>dernier firmware</a> pour connecter vos appareils à Funnel.",
     "allGood": "Tout va bien !",
     "devicesPageInfo": "L'état de tous les appareils de votre organisation est affiché sur cette page",
     "excludeDevice": "{{device}} exclu de la réception des travaux d'impression du funnel",
