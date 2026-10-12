@@ -49,7 +49,7 @@
     "unlimitedEnding": "Obegränsat*"
   },
   "message": {
-    "addDevices": "Använd knappen \"Lägg till enheter\" högst upp till höger på sidan eller använd knappen nedan för att lägga till enheter till din organisation",
+    "addDevices": "Se till att du har den <a>senaste firmwaren</a> för att ansluta dina enheter till Funnel.",
     "allGood": "Allt är bra!",
     "devicesPageInfo": "Statusen för alla enheter i din organisation visas på denna sida",
     "excludeDevice": "{{device}} exkluderad från att ta emot utskriftsjobb från Funnel",
