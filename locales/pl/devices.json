@@ -49,7 +49,7 @@
     "unlimitedEnding": "Bez limitu*"
   },
   "message": {
-    "addDevices": "Użyj przycisku „Dodaj urządzenia” w prawym górnym rogu tej strony lub użyj poniższego przycisku, aby dodać urządzenia do swojej organizacji",
+    "addDevices": "Upewnij się, że masz <a>najnowsze oprogramowanie sprzętowe</a>, aby połączyć swoje urządzenia z Funnelem.",
     "allGood": "Wszystko w porządku!",
     "devicesPageInfo": "Na tej stronie wyświetlany jest status wszystkich urządzeń w Twojej organizacji",
     "excludeDevice": "{{device}} wykluczone z otrzymywania zadań druku z Funnela",

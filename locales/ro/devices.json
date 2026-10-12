@@ -49,7 +49,7 @@
     "unlimitedEnding": "Nelimitat*"
   },
   "message": {
-    "addDevices": "Folosește butonul „Adaugă dispozitive” din partea din dreapta sus a acestei pagini sau folosește butonul de mai jos pentru a adăuga dispozitive în organizația ta",
+    "addDevices": "Asigură-te că ai <a>cel mai recent firmware</a> pentru a-ți conecta dispozitivele la Funnel.",
     "allGood": "Totul este în regulă!",
     "devicesPageInfo": "Starea tuturor dispozitivelor din organizația ta este afișată pe această pagină",
     "excludeDevice": "{{device}} exclus de la primirea sarcinilor de printare din funnel",

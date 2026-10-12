@@ -49,7 +49,7 @@
     "unlimitedEnding": "Unbegrenzt*"
   },
   "message": {
-    "addDevices": "Verwenden Sie die Schaltfläche „Geräte hinzufügen“ oben rechts auf dieser Seite oder die Schaltfläche unten, um Geräte zu Ihrer Organisation hinzuzufügen",
+    "addDevices": "Stellen Sie sicher, dass Sie die <a>neueste Firmware</a> installiert haben, um Ihre Geräte mit Funnel zu verbinden.",
     "allGood": "Alles in Ordnung!",
     "devicesPageInfo": "Der Status aller Geräte in Ihrer Organisation wird auf dieser Seite angezeigt",
     "excludeDevice": "{{device}} wurde von den Funnel-Druckaufträgen ausgeschlossen",

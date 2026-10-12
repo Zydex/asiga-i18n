@@ -49,7 +49,7 @@
     "unlimitedEnding": "Onbeperkt*"
   },
   "message": {
-    "addDevices": "Gebruik de knop 'Apparaten toevoegen' rechtsboven op deze pagina of gebruik de knop hieronder om apparaten aan uw organisatie toe te voegen",
+    "addDevices": "Zorg ervoor dat u de <a>nieuwste firmware</a> hebt om uw apparaten met de Funnel te verbinden.",
     "allGood": "Alles in orde!",
     "devicesPageInfo": "De status van alle apparaten in uw organisatie wordt op deze pagina weergegeven",
     "excludeDevice": "{{device}} uitgesloten van het ontvangen van funnel-printtaken",

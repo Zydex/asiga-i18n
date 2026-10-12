@@ -49,7 +49,7 @@
     "unlimitedEnding": "Korlátlan*"
   },
   "message": {
-    "addDevices": "Használja az „Eszközök hozzáadása” gombot az oldal jobb felső sarkában, vagy az alábbi gombot, hogy eszközöket adjon a szervezetéhez",
+    "addDevices": "Győződjön meg arról, hogy a <a>legújabb firmware</a> van telepítve, hogy eszközeit csatlakoztathassa a Funnelhez.",
     "allGood": "Minden rendben!",
     "devicesPageInfo": "A szervezet összes eszközének állapota ezen az oldalon látható",
     "excludeDevice": "{{device}} kizárva a funnel nyomtatási feladatainak fogadásából",
