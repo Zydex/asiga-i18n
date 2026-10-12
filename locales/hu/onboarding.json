@@ -23,6 +23,7 @@
       },
       "enrolPrinter": {
         "description": "Az <bold>Eszközök</bold> oldalon kattintson az „Eszköz hozzáadása” gombra",
+        "firmware": "A <a>legújabb firmware</a> letöltése",
         "title": "Nyomtató regisztrálása"
       },
       "inviteColleagues": {

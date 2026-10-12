@@ -23,6 +23,7 @@
       },
       "enrolPrinter": {
         "description": "Sur la page <bold>Appareils</bold>, cliquez sur « Ajouter appareil »",
+        "firmware": "Télécharger le <a>dernier firmware</a>",
         "title": "Inscrire une imprimante"
       },
       "inviteColleagues": {

@@ -23,6 +23,7 @@
       },
       "enrolPrinter": {
         "description": "På sidan <bold>Enheter</bold>, klicka på \"Lägg till enhet\"",
+        "firmware": "Ladda ner den <a>senaste firmwaren</a>",
         "title": "Registrera en skrivare"
       },
       "inviteColleagues": {

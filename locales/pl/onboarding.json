@@ -23,6 +23,7 @@
       },
       "enrolPrinter": {
         "description": "Na stronie <bold>Urządzenia</bold> kliknij „Dodaj urządzenie”",
+        "firmware": "Pobierz <a>najnowsze oprogramowanie sprzętowe</a>",
         "title": "Zarejestruj drukarkę"
       },
       "inviteColleagues": {

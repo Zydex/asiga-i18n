@@ -23,6 +23,7 @@
       },
       "enrolPrinter": {
         "description": "Nella pagina <bold>Dispositivi</bold>, fai clic su “Aggiungi dispositivo”",
+        "firmware": "Scarica il <a>firmware più recente</a>",
         "title": "Registra una stampante"
       },
       "inviteColleagues": {
