@@ -14,6 +14,8 @@
     "remove_one": "Odebrat uživatele",
     "remove_other": "Odebrat vybrané uživatele",
     "removePhoto": "Odebrat fotku",
+    "requestBaa": "Požádat o smlouvu",
+    "resendBaa": "Znovu odeslat smlouvu",
     "resetMfa": "Resetovat MFA",
     "restoreAccess": "Obnovit přístup",
     "uploadPhoto": "Nahrát fotku"
@@ -30,6 +32,16 @@
   "message": {
     "addUsers": "Níže zadejte e-maily a pozvěte uživatele do této organizace.",
     "addUsers_org": "Níže zadejte e-maily a pozvěte uživatele do organizace {{org}}.",
+    "baaAlreadySigned": "Smlouva již byla podepsána.",
+    "baaAwaitingSignature": "Odesláno k podpisu – zkontrolujte svou schránku.",
+    "baaDeclined": "Smlouva byla odmítnuta. Můžete požádat o novou.",
+    "baaDescription": "Pokud ji vaše organizace vyžaduje, požádejte o smlouvu HIPAA Business Associate Agreement. Bude vám zaslána e-mailem k elektronickému podpisu.",
+    "baaLoadError": "Stav smlouvy nelze načíst. Zkuste to prosím později.",
+    "baaNotRequested": "Nepožádáno",
+    "baaRequestSuccess": "Smlouva byla odeslána. Zkontrolujte prosím svou schránku.",
+    "baaSigned": "Podepsáno {{date}}",
+    "baaSignedNoDate": "Podepsáno",
+    "baaWithdrawn": "Smlouva byla zrušena. Můžete požádat o novou.",
     "changeMfa": "Otevře se stránka s pokyny, jak nastavit nové zařízení MFA.",
     "changePassword": "Bude odeslán e-mail s odkazem pro změnu hesla.",
     "changePassword_email": "Na adresu {{email}} bude odeslán e-mail s odkazem pro změnu hesla.",
@@ -67,6 +79,7 @@
     "user": "Uživatel"
   },
   "title": {
+    "baa": "Business Associate Agreement",
     "changeMfa": "Změnit zařízení vícefaktorového ověřování (MFA)",
     "changePassword": "Změnit heslo",
     "changeRole": "Změnit roli",

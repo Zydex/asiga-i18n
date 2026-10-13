@@ -14,6 +14,8 @@
     "remove_one": "Felhasználó eltávolítása",
     "remove_other": "Felhasználók eltávolítása",
     "removePhoto": "Fénykép eltávolítása",
+    "requestBaa": "Megállapodás igénylése",
+    "resendBaa": "Megállapodás újraküldése",
     "resetMfa": "MFA visszaállítása",
     "restoreAccess": "Hozzáférés visszaállítása",
     "uploadPhoto": "Fénykép feltöltése"
@@ -30,6 +32,16 @@
   "message": {
     "addUsers": "Adja meg az e-mail címeket alább, hogy felhasználókat hívjon meg ehhez a szervezethez.",
     "addUsers_org": "Adja meg az e-mail címeket alább, hogy felhasználókat hívjon meg a(z) {{org}} szervezethez.",
+    "baaAlreadySigned": "A megállapodást már aláírták.",
+    "baaAwaitingSignature": "Aláírásra elküldve – ellenőrizze a postafiókját.",
+    "baaDeclined": "A megállapodást elutasították. Igényelhet újat.",
+    "baaDescription": "Igényeljen HIPAA szerinti Üzleti partneri megállapodást, ha szervezetének szüksége van rá. E-mailben elküldjük Önnek elektronikus aláírásra.",
+    "baaLoadError": "Nem sikerült betölteni a megállapodás állapotát. Kérjük, próbálja újra később.",
+    "baaNotRequested": "Nincs igényelve",
+    "baaRequestSuccess": "A megállapodás elküldve. Kérjük, ellenőrizze a postafiókját.",
+    "baaSigned": "Aláírva: {{date}}",
+    "baaSignedNoDate": "Aláírva",
+    "baaWithdrawn": "A megállapodást törölték. Igényelhet újat.",
     "changeMfa": "Ez megnyit egy oldalt az új MFA-eszköz beállítására vonatkozó utasításokkal.",
     "changePassword": "Egy e-mailt küldünk a jelszó módosítására szolgáló hivatkozással.",
     "changePassword_email": "Egy e-mailt küldünk a(z) {{email}} címre a jelszó módosítására szolgáló hivatkozással.",
@@ -67,6 +79,7 @@
     "user": "Felhasználó"
   },
   "title": {
+    "baa": "Üzleti partneri megállapodás",
     "changeMfa": "Többfaktoros hitelesítési (MFA) eszköz módosítása",
     "changePassword": "Jelszó módosítása",
     "changeRole": "Szerepkör módosítása",

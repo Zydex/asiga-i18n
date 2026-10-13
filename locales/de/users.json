@@ -14,6 +14,8 @@
     "remove_one": "Benutzer entfernen",
     "remove_other": "Mehrere Benutzer entfernen",
     "removePhoto": "Foto entfernen",
+    "requestBaa": "Vereinbarung anfordern",
+    "resendBaa": "Vereinbarung erneut senden",
     "resetMfa": "MFA zurücksetzen",
     "restoreAccess": "Zugriff wiederherstellen",
     "uploadPhoto": "Foto hochladen"
@@ -30,6 +32,16 @@
   "message": {
     "addUsers": "Geben Sie unten E-Mail-Adressen ein, um Benutzer zu dieser Organisation einzuladen.",
     "addUsers_org": "Geben Sie unten E-Mail-Adressen ein, um Benutzer zu {{org}} einzuladen.",
+    "baaAlreadySigned": "Die Vereinbarung wurde bereits unterzeichnet.",
+    "baaAwaitingSignature": "Zur Unterzeichnung gesendet - überprüfen Sie Ihren Posteingang.",
+    "baaDeclined": "Die Vereinbarung wurde abgelehnt. Sie können eine neue anfordern.",
+    "baaDescription": "Fordern Sie ein HIPAA Business Associate Agreement an, wenn Ihre Organisation eines benötigt. Es wird Ihnen zur elektronischen Unterzeichnung per E-Mail zugesendet.",
+    "baaLoadError": "Der Status der Vereinbarung konnte nicht geladen werden. Bitte versuchen Sie es später erneut.",
+    "baaNotRequested": "Nicht angefordert",
+    "baaRequestSuccess": "Vereinbarung gesendet. Bitte überprüfen Sie Ihren Posteingang.",
+    "baaSigned": "Unterzeichnet am {{date}}",
+    "baaSignedNoDate": "Unterzeichnet",
+    "baaWithdrawn": "Die Vereinbarung wurde storniert. Sie können eine neue anfordern.",
     "changeMfa": "Dadurch wird eine Seite mit Anweisungen geöffnet, wie Sie Ihr neues MFA-Gerät einrichten.",
     "changePassword": "Es wird eine E-Mail mit einem Link zum Ändern des Passworts gesendet.",
     "changePassword_email": "Es wird eine E-Mail an {{email}} mit einem Link zum Ändern des Passworts gesendet.",
@@ -67,6 +79,7 @@
     "user": "Benutzer"
   },
   "title": {
+    "baa": "Business Associate Agreement",
     "changeMfa": "Multi-Faktor-Authentifizierung (MFA)-Gerät ändern",
     "changePassword": "Passwort ändern",
     "changeRole": "Rolle ändern",

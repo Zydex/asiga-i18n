@@ -14,6 +14,8 @@
     "remove_one": "Ta bort användare",
     "remove_other": "Ta bort användarna",
     "removePhoto": "Ta bort foto",
+    "requestBaa": "Begär avtal",
+    "resendBaa": "Skicka avtalet igen",
     "resetMfa": "Återställ MFA",
     "restoreAccess": "Återställ åtkomst",
     "uploadPhoto": "Ladda upp foto"
@@ -30,6 +32,16 @@
   "message": {
     "addUsers": "Ange e-postadresser nedan för att bjuda in användare till denna organisation.",
     "addUsers_org": "Ange e-postadresser nedan för att bjuda in användare till {{org}}.",
+    "baaAlreadySigned": "Avtalet har redan signerats.",
+    "baaAwaitingSignature": "Skickat för signering - kontrollera din inkorg.",
+    "baaDeclined": "Avtalet avböjdes. Du kan begära ett nytt.",
+    "baaDescription": "Begär ett HIPAA Business Associate Agreement om din organisation behöver ett. Det mejlas till dig för elektronisk signering.",
+    "baaLoadError": "Det gick inte att läsa in avtalets status. Försök igen senare.",
+    "baaNotRequested": "Inte begärt",
+    "baaRequestSuccess": "Avtalet har skickats. Kontrollera din inkorg.",
+    "baaSigned": "Signerat {{date}}",
+    "baaSignedNoDate": "Signerat",
+    "baaWithdrawn": "Avtalet avbröts. Du kan begära ett nytt.",
     "changeMfa": "Detta öppnar en sida med instruktioner om hur du konfigurerar din nya MFA-enhet.",
     "changePassword": "Ett e-postmeddelande skickas med en länk för att ändra lösenord.",
     "changePassword_email": "Ett e-postmeddelande skickas till {{email}} med en länk för att ändra lösenord.",
@@ -67,6 +79,7 @@
     "user": "Användare"
   },
   "title": {
+    "baa": "Business Associate Agreement",
     "changeMfa": "Ändra enhet för multifaktorautentisering (MFA)",
     "changePassword": "Ändra lösenord",
     "changeRole": "Ändra roll",

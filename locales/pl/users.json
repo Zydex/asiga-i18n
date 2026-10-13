@@ -14,6 +14,8 @@
     "remove_one": "Usuń użytkownika",
     "remove_other": "Usuń użytkowników",
     "removePhoto": "Usuń zdjęcie",
+    "requestBaa": "Poproś o umowę",
+    "resendBaa": "Wyślij ponownie umowę",
     "resetMfa": "Zresetuj MFA",
     "restoreAccess": "Przywróć dostęp",
     "uploadPhoto": "Prześlij zdjęcie"
@@ -30,6 +32,16 @@
   "message": {
     "addUsers": "Wprowadź poniżej adresy e-mail, aby zaprosić użytkowników do tej organizacji.",
     "addUsers_org": "Wprowadź poniżej adresy e-mail, aby zaprosić użytkowników do {{org}}.",
+    "baaAlreadySigned": "Umowa została już podpisana.",
+    "baaAwaitingSignature": "Wysłano do podpisu - sprawdź swoją skrzynkę odbiorczą.",
+    "baaDeclined": "Umowa została odrzucona. Możesz poprosić o nową.",
+    "baaDescription": "Poproś o umowę HIPAA Business Associate Agreement, jeśli Twoja organizacja jej potrzebuje. Zostanie wysłana do Ciebie e-mailem do podpisu elektronicznego.",
+    "baaLoadError": "Nie można wczytać statusu umowy. Spróbuj ponownie później.",
+    "baaNotRequested": "Nie złożono wniosku",
+    "baaRequestSuccess": "Umowa wysłana. Sprawdź, proszę, swoją skrzynkę odbiorczą.",
+    "baaSigned": "Podpisano {{date}}",
+    "baaSignedNoDate": "Podpisano",
+    "baaWithdrawn": "Umowa została anulowana. Możesz poprosić o nową.",
     "changeMfa": "Spowoduje to otwarcie strony z instrukcjami dotyczącymi konfiguracji nowego urządzenia MFA.",
     "changePassword": "Zostanie wysłana wiadomość e-mail z linkiem do zmiany hasła.",
     "changePassword_email": "Wiadomość e-mail z linkiem do zmiany hasła zostanie wysłana na adres {{email}}.",
@@ -67,6 +79,7 @@
     "user": "Użytkownik"
   },
   "title": {
+    "baa": "Business Associate Agreement",
     "changeMfa": "Zmień urządzenie uwierzytelniania wieloskładnikowego (MFA)",
     "changePassword": "Zmień hasło",
     "changeRole": "Zmień rolę",

@@ -14,6 +14,8 @@
     "remove_one": "Rimuovi utente",
     "remove_other": "Rimuovi utenti",
     "removePhoto": "Rimuovi foto",
+    "requestBaa": "Richiedi l'accordo",
+    "resendBaa": "Invia nuovamente l'accordo",
     "resetMfa": "Reimposta MFA",
     "restoreAccess": "Ripristina accesso",
     "uploadPhoto": "Carica foto"
@@ -30,6 +32,16 @@
   "message": {
     "addUsers": "Inserisci le email qui sotto per invitare utenti in questa organizzazione.",
     "addUsers_org": "Inserisci le email qui sotto per invitare utenti in {{org}}.",
+    "baaAlreadySigned": "L'accordo è già stato firmato.",
+    "baaAwaitingSignature": "Inviato per la firma - controlla la tua posta in arrivo.",
+    "baaDeclined": "L'accordo è stato rifiutato. Puoi richiederne uno nuovo.",
+    "baaDescription": "Richiedi un Business Associate Agreement HIPAA se la tua organizzazione ne ha bisogno. Ti verrà inviato via email per la firma elettronica.",
+    "baaLoadError": "Impossibile caricare lo stato dell'accordo. Riprova più tardi.",
+    "baaNotRequested": "Non richiesto",
+    "baaRequestSuccess": "Accordo inviato. Per favore, controlla la tua posta in arrivo.",
+    "baaSigned": "Firmato il {{date}}",
+    "baaSignedNoDate": "Firmato",
+    "baaWithdrawn": "L'accordo è stato annullato. Puoi richiederne uno nuovo.",
     "changeMfa": "Verrà aperta una pagina con le istruzioni su come configurare il nuovo dispositivo MFA.",
     "changePassword": "Verrà inviata un'email con un link per cambiare la password.",
     "changePassword_email": "Verrà inviata un'email a {{email}} con un link per cambiare la password.",
@@ -67,6 +79,7 @@
     "user": "Utente"
   },
   "title": {
+    "baa": "Business Associate Agreement",
     "changeMfa": "Modifica dispositivo di autenticazione a più fattori (MFA)",
     "changePassword": "Cambia password",
     "changeRole": "Modifica ruolo",
