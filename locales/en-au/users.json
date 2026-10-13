@@ -14,6 +14,8 @@
     "remove_one": "Remove User",
     "remove_other": "Remove Users",
     "removePhoto": "Remove Photo",
+    "requestBaa": "Request agreement",
+    "resendBaa": "Resend agreement",
     "resetMfa": "Reset MFA",
     "restoreAccess": "Restore Access",
     "uploadPhoto": "Upload Photo"
@@ -30,6 +32,16 @@
   "message": {
     "addUsers": "Enter emails below to invite users to this organisation.",
     "addUsers_org": "Enter emails below to invite users to {{org}}.",
+    "baaAlreadySigned": "The agreement has already been signed.",
+    "baaAwaitingSignature": "Sent for signature - check your inbox.",
+    "baaDeclined": "The agreement was declined. You can request a new one.",
+    "baaDescription": "Request a HIPAA Business Associate Agreement if your organisation requires one. It will be emailed to you for electronic signature.",
+    "baaLoadError": "Unable to load the agreement status. Please try again later.",
+    "baaNotRequested": "Not requested",
+    "baaRequestSuccess": "Agreement sent. Please check your inbox.",
+    "baaSigned": "Signed on {{date}}",
+    "baaSignedNoDate": "Signed",
+    "baaWithdrawn": "The agreement was cancelled. You can request a new one.",
     "changeMfa": "This will open a page with instructions on how to set up your new MFA device.",
     "changePassword": "An email will be sent with a password change link.",
     "changePassword_email": "An email will be sent to {{email}} with a password change link.",
@@ -67,6 +79,7 @@
     "user": "User"
   },
   "title": {
+    "baa": "Business Associate Agreement",
     "changeMfa": "Change Multi-Factor Authentication (MFA) Device",
     "changePassword": "Change Password",
     "changeRole": "Change Role",
