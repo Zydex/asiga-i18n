@@ -14,6 +14,8 @@
     "remove_one": "Gebruiker verwijderen",
     "remove_other": "Gebruikers verwijderen",
     "removePhoto": "Foto verwijderen",
+    "requestBaa": "Overeenkomst aanvragen",
+    "resendBaa": "Overeenkomst opnieuw verzenden",
     "resetMfa": "MFA resetten",
     "restoreAccess": "Toegang herstellen",
     "uploadPhoto": "Foto uploaden"
@@ -30,6 +32,16 @@
   "message": {
     "addUsers": "Voer hieronder e-mailadressen in om gebruikers uit te nodigen voor deze organisatie.",
     "addUsers_org": "Voer hieronder e-mailadressen in om gebruikers uit te nodigen voor {{org}}.",
+    "baaAlreadySigned": "De overeenkomst is al ondertekend.",
+    "baaAwaitingSignature": "Verzonden voor ondertekening - controleer uw postvak IN.",
+    "baaDeclined": "De overeenkomst is geweigerd. U kunt een nieuwe aanvragen.",
+    "baaDescription": "Vraag een HIPAA Business Associate Agreement aan als uw organisatie er een nodig heeft. Deze wordt u per e-mail toegestuurd voor elektronische ondertekening.",
+    "baaLoadError": "Kan de status van de overeenkomst niet laden. Probeer het later opnieuw.",
+    "baaNotRequested": "Niet aangevraagd",
+    "baaRequestSuccess": "Overeenkomst verzonden. Controleer alstublieft uw postvak IN.",
+    "baaSigned": "Ondertekend",
+    "baaSigned_date": "Ondertekend op {{date}}",
+    "baaWithdrawn": "De overeenkomst is geannuleerd. U kunt een nieuwe aanvragen.",
     "changeMfa": "Hiermee wordt een pagina geopend met instructies voor het instellen van uw nieuwe MFA-apparaat.",
     "changePassword": "Er wordt een e-mail verzonden met een link om het wachtwoord te wijzigen.",
     "changePassword_email": "Er wordt een e-mail verzonden naar {{email}} met een link om het wachtwoord te wijzigen.",
@@ -67,6 +79,7 @@
     "user": "Gebruiker"
   },
   "title": {
+    "baa": "Business Associate Agreement",
     "changeMfa": "Multi-Factor Authenticatie (MFA)-apparaat wijzigen",
     "changePassword": "Wachtwoord wijzigen",
     "changeRole": "Rol wijzigen",

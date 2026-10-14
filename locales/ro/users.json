@@ -14,6 +14,8 @@
     "remove_one": "Elimină utilizator",
     "remove_other": "Elimină utilizatori",
     "removePhoto": "Elimină fotografia",
+    "requestBaa": "Solicită acordul",
+    "resendBaa": "Retrimite acordul",
     "resetMfa": "Resetează MFA",
     "restoreAccess": "Restaurează accesul",
     "uploadPhoto": "Încarcă fotografia"
@@ -30,6 +32,16 @@
   "message": {
     "addUsers": "Introduceți adresele de email mai jos pentru a invita utilizatori în această organizație.",
     "addUsers_org": "Introduceți adresele de email mai jos pentru a invita utilizatori în {{org}}.",
+    "baaAlreadySigned": "Acordul a fost deja semnat.",
+    "baaAwaitingSignature": "Trimis spre semnare - verificați căsuța de e-mail.",
+    "baaDeclined": "Acordul a fost refuzat. Puteți solicita unul nou.",
+    "baaDescription": "Solicitați un Acord de asociat de afaceri HIPAA dacă organizația dvs. are nevoie de unul. Vă va fi trimis prin e-mail pentru semnare electronică.",
+    "baaLoadError": "Starea acordului nu a putut fi încărcată. Vă rugăm să încercați din nou mai târziu.",
+    "baaNotRequested": "Nesolicitat",
+    "baaRequestSuccess": "Acord trimis. Vă rugăm să verificați căsuța de e-mail.",
+    "baaSigned": "Semnat",
+    "baaSigned_date": "Semnat la {{date}}",
+    "baaWithdrawn": "Acordul a fost anulat. Puteți solicita unul nou.",
     "changeMfa": "Aceasta va deschide o pagină cu instrucțiuni despre cum să configurați noul dispozitiv MFA.",
     "changePassword": "Va fi trimis un email cu un link pentru schimbarea parolei.",
     "changePassword_email": "Va fi trimis un email la {{email}} cu un link pentru schimbarea parolei.",
@@ -67,6 +79,7 @@
     "user": "Utilizator"
   },
   "title": {
+    "baa": "Acord de asociat de afaceri",
     "changeMfa": "Schimbă dispozitivul de autentificare multi-factor (MFA)",
     "changePassword": "Schimbă parola",
     "changeRole": "Schimbă rolul",

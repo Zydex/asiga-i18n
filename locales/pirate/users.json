@@ -14,6 +14,8 @@
     "remove_one": "Scuttle Crewmate",
     "remove_other": "Scuttle Crewmates",
     "removePhoto": "Scuttle Portrait",
+    "requestBaa": "Request th' agreement",
+    "resendBaa": "Send th' agreement again",
     "resetMfa": "Recind Second Oath",
     "restoreAccess": "Restore Passage",
     "uploadPhoto": "Hoist Portrait"
@@ -30,6 +32,16 @@
   "message": {
     "addUsers": "Scrawl emails below to press-gang crewmates into this crew.",
     "addUsers_org": "Scrawl emails below to press-gang crewmates into {{org}}.",
+    "baaAlreadySigned": "Th' agreement be already signed.",
+    "baaAwaitingSignature": "Sent for signature - check yer crow's nest.",
+    "baaDeclined": "Th' agreement were declined. Ye can request a new one.",
+    "baaDescription": "Request a HIPAA Business Associate Agreement if yer crew be needin' one. It'll be emailed to ye for electronic signature.",
+    "baaLoadError": "Couldn't haul in th' agreement status. Try again later, matey.",
+    "baaNotRequested": "Not requested",
+    "baaRequestSuccess": "Agreement sent. Please check yer crow's nest.",
+    "baaSigned": "Signed",
+    "baaSigned_date": "Signed on {{date}}",
+    "baaWithdrawn": "Th' agreement were cancelled. Ye can request a new one.",
     "changeMfa": "This'll open a chart with instructions on how to swear yer new second oath.",
     "changePassword": "An email will be sent with a watchword change link.",
     "changePassword_email": "An email will be sent to {{email}} with a watchword change link.",
@@ -67,6 +79,7 @@
     "user": "Crewmate"
   },
   "title": {
+    "baa": "Business Associate Agreement",
     "changeMfa": "Change Th' Second Oath",
     "changePassword": "Change Watchword",
     "changeRole": "Change Rank",

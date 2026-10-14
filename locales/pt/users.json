@@ -14,6 +14,8 @@
     "remove_one": "Remover Utilizador",
     "remove_other": "Remover Utilizadores",
     "removePhoto": "Remover Foto",
+    "requestBaa": "Solicitar contrato",
+    "resendBaa": "Reenviar contrato",
     "resetMfa": "Repor MFA",
     "restoreAccess": "Restaurar Acesso",
     "uploadPhoto": "Carregar Foto"
@@ -30,6 +32,16 @@
   "message": {
     "addUsers": "Introduza os emails abaixo para convidar utilizadores para esta organização.",
     "addUsers_org": "Introduza os emails abaixo para convidar utilizadores para {{org}}.",
+    "baaAlreadySigned": "O contrato já foi assinado.",
+    "baaAwaitingSignature": "Enviado para assinatura - verifique a sua caixa de entrada.",
+    "baaDeclined": "O contrato foi recusado. Pode solicitar um novo.",
+    "baaDescription": "Solicite um Contrato de Associado Comercial HIPAA se a sua organização necessitar de um. Ser-lhe-á enviado por email para assinatura eletrónica.",
+    "baaLoadError": "Não foi possível carregar o estado do contrato. Tente novamente mais tarde.",
+    "baaNotRequested": "Não solicitado",
+    "baaRequestSuccess": "Contrato enviado. Por favor, verifique a sua caixa de entrada.",
+    "baaSigned": "Assinado",
+    "baaSigned_date": "Assinado em {{date}}",
+    "baaWithdrawn": "O contrato foi cancelado. Pode solicitar um novo.",
     "changeMfa": "Isto irá abrir uma página com instruções sobre como configurar o seu novo dispositivo MFA.",
     "changePassword": "Será enviado um email com uma ligação para alteração da palavra-passe.",
     "changePassword_email": "Será enviado um email para {{email}} com uma ligação para alteração da palavra-passe.",
@@ -67,6 +79,7 @@
     "user": "Utilizador"
   },
   "title": {
+    "baa": "Contrato de Associado Comercial",
     "changeMfa": "Alterar Dispositivo de Autenticação Multifator (MFA)",
     "changePassword": "Alterar Palavra-passe",
     "changeRole": "Alterar Função",

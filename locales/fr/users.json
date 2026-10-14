@@ -14,6 +14,8 @@
     "remove_one": "Retirer l'utilisateur",
     "remove_other": "Retirer les utilisateurs",
     "removePhoto": "Supprimer la photo",
+    "requestBaa": "Demander l'accord",
+    "resendBaa": "Renvoyer l'accord",
     "resetMfa": "Réinitialiser l'authentification multifacteur",
     "restoreAccess": "Restaurer l'accès",
     "uploadPhoto": "Télécharger une photo"
@@ -30,6 +32,16 @@
   "message": {
     "addUsers": "Saisissez les e-mails ci-dessous pour inviter des utilisateurs à rejoindre cette organisation.",
     "addUsers_org": "Saisissez les e-mails ci-dessous pour inviter des utilisateurs à rejoindre {{org}}.",
+    "baaAlreadySigned": "L'accord a déjà été signé.",
+    "baaAwaitingSignature": "Envoyé pour signature - vérifiez votre boîte de réception.",
+    "baaDeclined": "L'accord a été refusé. Vous pouvez en demander un nouveau.",
+    "baaDescription": "Demandez un Business Associate Agreement HIPAA si votre organisation en a besoin. Il vous sera envoyé par e-mail pour signature électronique.",
+    "baaLoadError": "Impossible de charger le statut de l'accord. Veuillez réessayer plus tard.",
+    "baaNotRequested": "Non demandé",
+    "baaRequestSuccess": "Accord envoyé. Veuillez vérifier votre boîte de réception.",
+    "baaSigned": "Signé",
+    "baaSigned_date": "Signé le {{date}}",
+    "baaWithdrawn": "L'accord a été annulé. Vous pouvez en demander un nouveau.",
     "changeMfa": "Cela ouvrira une page avec des instructions sur la façon de configurer votre nouveau dispositif d'authentification multifacteur.",
     "changePassword": "Un e-mail contenant un lien de modification du mot de passe sera envoyé.",
     "changePassword_email": "Un e-mail contenant un lien de modification du mot de passe sera envoyé à {{email}}.",
@@ -67,6 +79,7 @@
     "user": "Utilisateur"
   },
   "title": {
+    "baa": "Business Associate Agreement",
     "changeMfa": "Modifier le dispositif d'authentification multifacteur (MFA)",
     "changePassword": "Modifier le mot de passe",
     "changeRole": "Modifier le rôle",
