@@ -59,6 +59,11 @@
   "button": {
     "editBasePlateSettings": "Edytuj..."
   },
+  "details": {
+    "partTypes": "Typy części",
+    "printersAndTrays": "Drukarki i tace",
+    "templateInformation": "Informacje o szablonie"
+  },
   "label": {
     "associatedPartType": "Powiązany typ części",
     "associatedWith": "Powiązane z",

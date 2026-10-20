@@ -59,6 +59,11 @@
   "button": {
     "editBasePlateSettings": "Bearbeiten..."
   },
+  "details": {
+    "partTypes": "Teiletypen",
+    "printersAndTrays": "Drucker und Wannen",
+    "templateInformation": "Vorlageninformationen"
+  },
   "label": {
     "associatedPartType": "Zugehöriger Teiletyp",
     "associatedWith": "Zugehörig zu",

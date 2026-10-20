@@ -59,6 +59,11 @@
   "button": {
     "editBasePlateSettings": "Upravit..."
   },
+  "details": {
+    "partTypes": "Typy dílů",
+    "printersAndTrays": "Tiskárny a podložky",
+    "templateInformation": "Informace o šabloně"
+  },
   "label": {
     "associatedPartType": "Přiřazený typ dílu",
     "associatedWith": "Přiřazeno k",

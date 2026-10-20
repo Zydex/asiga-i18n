@@ -59,6 +59,11 @@
   "button": {
     "editBasePlateSettings": "Bewerken..."
   },
+  "details": {
+    "partTypes": "Onderdeeltypen",
+    "printersAndTrays": "Printers en trays",
+    "templateInformation": "Sjablooninformatie"
+  },
   "label": {
     "associatedPartType": "Gekoppeld onderdeeltype",
     "associatedWith": "Gekoppeld met",

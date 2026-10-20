@@ -59,6 +59,11 @@
   "button": {
     "editBasePlateSettings": "Tinker..."
   },
+  "details": {
+    "partTypes": "Trinket Kinds",
+    "printersAndTrays": "Contraptions and Grog Trays",
+    "templateInformation": "Chart Information"
+  },
   "label": {
     "associatedPartType": "Associated trinket kind",
     "associatedWith": "Lashed To",

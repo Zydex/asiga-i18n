@@ -59,6 +59,11 @@
   "button": {
     "editBasePlateSettings": "Redigera..."
   },
+  "details": {
+    "partTypes": "Deltyper",
+    "printersAndTrays": "Skrivare och brickor",
+    "templateInformation": "Mallinformation"
+  },
   "label": {
     "associatedPartType": "Associerad deltyp",
     "associatedWith": "Associerad med",

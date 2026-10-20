@@ -59,6 +59,11 @@
   "button": {
     "editBasePlateSettings": "Modifier..."
   },
+  "details": {
+    "partTypes": "Types de pièces",
+    "printersAndTrays": "Imprimantes et bacs",
+    "templateInformation": "Informations sur le modèle"
+  },
   "label": {
     "associatedPartType": "Type de pièce associé",
     "associatedWith": "Associé à",

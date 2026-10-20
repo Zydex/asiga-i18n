@@ -59,6 +59,11 @@
   "button": {
     "editBasePlateSettings": "Szerkesztés..."
   },
+  "details": {
+    "partTypes": "Alkatrésztípusok",
+    "printersAndTrays": "Nyomtatók és tálcák",
+    "templateInformation": "Sablon adatai"
+  },
   "label": {
     "associatedPartType": "Társított alkatrésztípus",
     "associatedWith": "Társítva ezzel",

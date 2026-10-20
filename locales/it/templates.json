@@ -59,6 +59,11 @@
   "button": {
     "editBasePlateSettings": "Modifica..."
   },
+  "details": {
+    "partTypes": "Tipi di parte",
+    "printersAndTrays": "Stampanti e vassoi",
+    "templateInformation": "Informazioni sul modello"
+  },
   "label": {
     "associatedPartType": "Tipo di parte associato",
     "associatedWith": "Associato a",

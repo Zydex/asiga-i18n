@@ -59,6 +59,11 @@
   "button": {
     "editBasePlateSettings": "Επεξεργασία..."
   },
+  "details": {
+    "partTypes": "Τύποι εξαρτημάτων",
+    "printersAndTrays": "Εκτυπωτές και δίσκοι",
+    "templateInformation": "Πληροφορίες προτύπου"
+  },
   "label": {
     "associatedPartType": "Συσχετισμένος τύπος εξαρτήματος",
     "associatedWith": "Συσχετισμένο με",
