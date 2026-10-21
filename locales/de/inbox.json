@@ -83,6 +83,10 @@
     "review": {
       "message": "Verwenden Sie die Schaltfläche „Teile hochladen“ oben rechts auf dieser Seite oder die Schaltfläche unten, um Teile zu Ihrer Organisation hinzuzufügen",
       "title": "Keine Teile zu überprüfen"
+    },
+    "reviewAutoApprove": {
+      "message": "Die automatische Annahme von Teilen ist aktiviert. Hier werden nur Teile angezeigt, die ein manuelles Eingreifen erfordern.",
+      "title": "Keine Teile zu überprüfen"
     }
   },
   "errors": {

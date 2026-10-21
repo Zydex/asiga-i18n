@@ -83,6 +83,10 @@
     "review": {
       "message": "Använd knappen ‘Ladda upp delar’ högst upp till höger på denna sida eller använd knappen nedan för att lägga till delar i din organisation",
       "title": "Inga delar att granska"
+    },
+    "reviewAutoApprove": {
+      "message": "Automatiskt godkännande av delar är aktiverat. Endast delar som kräver manuellt ingripande visas här.",
+      "title": "Inga delar att granska"
     }
   },
   "errors": {

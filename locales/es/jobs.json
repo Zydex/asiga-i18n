@@ -56,6 +56,7 @@
     "moveOffline_one": "Esto rechazará el trabajo seleccionado y lo descargará para editarlo en Composer.",
     "moveOffline_other": "Esto rechazará los trabajos seleccionados y los descargará para editarlos en Composer.",
     "noJobsToReview": "Los trabajos provisionales que hayan sido promovidos aparecerán aquí. Suba piezas a la bandeja de entrada para comenzar.",
+    "noJobsToReviewAutoApprove": "La aceptación automática de trabajos está activada. Aquí solo aparecerán los trabajos que requieran intervención manual.",
     "noParts": "Este trabajo no tiene piezas.",
     "noPartsToReprint": "Las piezas de este trabajo ya han sido vueltas a poner en cola para su reimpresión.",
     "noPrintsRemaining": "La impresora de este trabajo se ha quedado sin impresiones gratuitas. Vuelve a poner las piezas en cola para programarlas en una impresora disponible, o suscríbete para desbloquear impresiones ilimitadas.",

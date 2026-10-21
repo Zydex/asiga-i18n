@@ -56,6 +56,7 @@
     "moveOffline_one": "To spowoduje odrzucenie wybranego zadania i pobranie go w celu edycji w composerze.",
     "moveOffline_other": "To spowoduje odrzucenie wybranych zadań i pobranie ich w celu edycji w composerze.",
     "noJobsToReview": "Wstępne zadania, które zostały podwyższone, pojawią się tutaj. Prześlij części do skrzynki odbiorczej, aby rozpocząć.",
+    "noJobsToReviewAutoApprove": "Automatyczna akceptacja zadań jest włączona. Pojawią się tu tylko zadania wymagające ręcznej interwencji.",
     "noParts": "To zadanie nie ma części.",
     "noPartsToReprint": "Części w tym zadaniu zostały już ponownie ustawione w kolejce do ponownego druku.",
     "noPrintsRemaining": "Drukarce przypisanej do tego zadania skończyły się bezpłatne wydruki. Ustaw części w kolejce ponownie, aby zaplanować je na dostępnej drukarce, lub subskrybuj, aby odblokować nieograniczoną liczbę wydruków.",

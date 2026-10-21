@@ -83,6 +83,10 @@
     "review": {
       "message": "Pomocí tlačítka „Nahrát díly“ v pravém horním rohu této stránky nebo pomocí tlačítka níže přidejte díly do své organizace",
       "title": "Žádné díly ke kontrole"
+    },
+    "reviewAutoApprove": {
+      "message": "Automatické přijímání dílů je zapnuté. Zde se zobrazí pouze díly, které vyžadují ruční zásah.",
+      "title": "Žádné díly ke kontrole"
     }
   },
   "errors": {

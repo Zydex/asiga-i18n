@@ -83,6 +83,10 @@
     "review": {
       "message": "Használja a lap jobb felső sarkában található „Alkatrészek feltöltése” gombot, vagy az alábbi gombot, hogy alkatrészeket adjon a szervezetéhez",
       "title": "Nincs ellenőrizendő alkatrész"
+    },
+    "reviewAutoApprove": {
+      "message": "Az alkatrészek automatikus elfogadása be van kapcsolva. Itt csak a kézi beavatkozást igénylő alkatrészek fognak megjelenni.",
+      "title": "Nincs ellenőrizendő alkatrész"
     }
   },
   "errors": {

@@ -83,6 +83,10 @@
     "review": {
       "message": "Usa il pulsante ‘Carica parti’ in alto a destra in questa pagina oppure usa il pulsante qui sotto per aggiungere parti alla tua organizzazione",
       "title": "Nessuna parte da revisionare"
+    },
+    "reviewAutoApprove": {
+      "message": "L'accettazione automatica delle parti è attiva. Qui verranno visualizzate solo le parti che richiedono un intervento manuale.",
+      "title": "Nessuna parte da revisionare"
     }
   },
   "errors": {

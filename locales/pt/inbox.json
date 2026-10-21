@@ -83,6 +83,10 @@
     "review": {
       "message": "Utilize o botão ‘Carregar Peças’ no canto superior direito desta página ou utilize o botão abaixo para adicionar peças à sua organização",
       "title": "Nenhuma peça para rever"
+    },
+    "reviewAutoApprove": {
+      "message": "A aceitação automática de peças está ativada. Aqui apenas aparecerão as peças que requerem intervenção manual.",
+      "title": "Nenhuma peça para rever"
     }
   },
   "errors": {

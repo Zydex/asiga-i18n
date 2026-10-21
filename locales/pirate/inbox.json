@@ -83,6 +83,10 @@
     "review": {
       "message": "Use the ‘Hoist Trinkets’ button at the top right o' this page or use the button below to add trinkets to yer crew",
       "title": "No trinkets to review"
+    },
+    "reviewAutoApprove": {
+      "message": "Auto accept trinkets be on. Only trinkets that need a hand on deck will appear here.",
+      "title": "No trinkets to review"
     }
   },
   "errors": {

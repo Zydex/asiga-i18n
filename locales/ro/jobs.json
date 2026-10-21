@@ -56,6 +56,7 @@
     "moveOffline_one": "Aceasta va respinge jobul selectat și îl va descărca pentru editare în composer.",
     "moveOffline_other": "Aceasta va respinge joburile selectate și le va descărca pentru editare în composer.",
     "noJobsToReview": "Joburile provizorii care au fost promovate vor apărea aici. Încarcă piese în inbox pentru a începe.",
+    "noJobsToReviewAutoApprove": "Acceptarea automată a joburilor este activată. Aici vor apărea doar joburile care necesită intervenție manuală.",
     "noParts": "Acest job nu are piese.",
     "noPartsToReprint": "Piesele din acest job au fost deja repuse în coadă pentru reimprimare.",
     "noPrintsRemaining": "Imprimanta pentru acest job a rămas fără printări gratuite. Repune piesele în coadă pentru a le programa pe o imprimantă disponibilă sau abonează-te pentru a debloca printări nelimitate.",

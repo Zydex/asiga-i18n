@@ -56,6 +56,7 @@
     "moveOffline_one": "Hierdoor wordt de geselecteerde taak afgewezen en gedownload om te bewerken in composer.",
     "moveOffline_other": "Hierdoor worden de geselecteerde taken afgewezen en gedownload om te bewerken in composer.",
     "noJobsToReview": "Voorlopige taken die zijn gepromoveerd, verschijnen hier. Upload onderdelen in de inbox om te beginnen.",
+    "noJobsToReviewAutoApprove": "Automatisch accepteren van taken is ingeschakeld. Hier worden alleen taken weergegeven die handmatige tussenkomst vereisen.",
     "noParts": "Deze taak heeft geen onderdelen.",
     "noPartsToReprint": "Onderdelen in deze taak zijn al opnieuw in de wachtrij geplaatst voor herdruk.",
     "noPrintsRemaining": "De printer voor deze taak heeft geen gratis prints meer. Plaats de onderdelen opnieuw in de wachtrij om ze op een beschikbare printer in te plannen, of neem een abonnement om onbeperkte prints te ontgrendelen.",

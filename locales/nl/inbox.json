@@ -83,6 +83,10 @@
     "review": {
       "message": "Gebruik de knop ‘Onderdelen uploaden’ rechtsboven op deze pagina of gebruik de knop hieronder om onderdelen aan uw organisatie toe te voegen",
       "title": "Geen onderdelen om te beoordelen"
+    },
+    "reviewAutoApprove": {
+      "message": "Automatisch accepteren van onderdelen is ingeschakeld. Hier worden alleen onderdelen weergegeven die handmatige tussenkomst vereisen.",
+      "title": "Geen onderdelen om te beoordelen"
     }
   },
   "errors": {

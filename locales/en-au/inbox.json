@@ -83,6 +83,10 @@
     "review": {
       "message": "Use the ‘Upload Parts’ button at the top right of this page or use the button below to add parts to your organisation",
       "title": "No parts to review"
+    },
+    "reviewAutoApprove": {
+      "message": "Auto accept parts is on. Only parts that require manual intervention will appear here.",
+      "title": "No parts to review"
     }
   },
   "errors": {
