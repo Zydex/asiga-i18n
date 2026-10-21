@@ -65,7 +65,7 @@
     "templateInformation": "Informations sur le modèle"
   },
   "label": {
-    "associatedPartType": "Type de pièce associé",
+    "associatedPartType": "Types de pièce associés",
     "associatedWith": "Associé à",
     "basePlateSettings": "Paramètres du plateau de base",
     "default": "Par défaut",

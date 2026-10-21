@@ -65,7 +65,7 @@
     "templateInformation": "Informações do Modelo"
   },
   "label": {
-    "associatedPartType": "Tipo de peça associado",
+    "associatedPartType": "Tipos de peça associados",
     "associatedWith": "Associado a",
     "basePlateSettings": "Definições da placa base",
     "default": "Padrão",

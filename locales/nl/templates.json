@@ -65,7 +65,7 @@
     "templateInformation": "Sjablooninformatie"
   },
   "label": {
-    "associatedPartType": "Gekoppeld onderdeeltype",
+    "associatedPartType": "Gekoppelde onderdeeltypen",
     "associatedWith": "Gekoppeld met",
     "basePlateSettings": "Bodemplaatinstellingen",
     "default": "Standaard",

@@ -65,7 +65,7 @@
     "templateInformation": "Vorlageninformationen"
   },
   "label": {
-    "associatedPartType": "Zugehöriger Teiletyp",
+    "associatedPartType": "Zugehörige Teiletypen",
     "associatedWith": "Zugehörig zu",
     "basePlateSettings": "Grundplatteneinstellungen",
     "default": "Standard",
