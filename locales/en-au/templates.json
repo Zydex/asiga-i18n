@@ -59,8 +59,13 @@
   "button": {
     "editBasePlateSettings": "Edit..."
   },
+  "details": {
+    "partTypes": "Part Types",
+    "printersAndTrays": "Printers and Trays",
+    "templateInformation": "Template Information"
+  },
   "label": {
-    "associatedPartType": "Associated part type",
+    "associatedPartType": "Associated part types",
     "associatedWith": "Associated With",
     "basePlateSettings": "Base plate settings",
     "default": "Default",

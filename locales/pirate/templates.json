@@ -59,8 +59,13 @@
   "button": {
     "editBasePlateSettings": "Tinker..."
   },
+  "details": {
+    "partTypes": "Trinket Kinds",
+    "printersAndTrays": "Contraptions and Grog Trays",
+    "templateInformation": "Chart Information"
+  },
   "label": {
-    "associatedPartType": "Associated trinket kind",
+    "associatedPartType": "Associated trinket kinds",
     "associatedWith": "Lashed To",
     "basePlateSettings": "Keel plate riggin'",
     "default": "Th' Usual",

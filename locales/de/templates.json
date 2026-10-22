@@ -59,8 +59,13 @@
   "button": {
     "editBasePlateSettings": "Bearbeiten..."
   },
+  "details": {
+    "partTypes": "Teiletypen",
+    "printersAndTrays": "Drucker und Wannen",
+    "templateInformation": "Vorlageninformationen"
+  },
   "label": {
-    "associatedPartType": "Zugehöriger Teiletyp",
+    "associatedPartType": "Zugehörige Teiletypen",
     "associatedWith": "Zugehörig zu",
     "basePlateSettings": "Grundplatteneinstellungen",
     "default": "Standard",

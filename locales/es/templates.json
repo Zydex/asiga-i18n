@@ -59,8 +59,13 @@
   "button": {
     "editBasePlateSettings": "Editar..."
   },
+  "details": {
+    "partTypes": "Tipos de pieza",
+    "printersAndTrays": "Impresoras y bandejas",
+    "templateInformation": "Información de la plantilla"
+  },
   "label": {
-    "associatedPartType": "Tipo de pieza asociado",
+    "associatedPartType": "Tipos de pieza asociados",
     "associatedWith": "Asociado con",
     "basePlateSettings": "Configuración de la placa base",
     "default": "Predeterminado",

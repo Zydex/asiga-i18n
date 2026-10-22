@@ -59,8 +59,13 @@
   "button": {
     "editBasePlateSettings": "Editare..."
   },
+  "details": {
+    "partTypes": "Tipuri de piese",
+    "printersAndTrays": "Imprimante și tăvi",
+    "templateInformation": "Informații despre șablon"
+  },
   "label": {
-    "associatedPartType": "Tip de piesă asociat",
+    "associatedPartType": "Tipuri de piesă asociate",
     "associatedWith": "Asociat cu",
     "basePlateSettings": "Setări placă de bază",
     "default": "Implicit",
