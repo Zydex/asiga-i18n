@@ -83,6 +83,10 @@
     "review": {
       "message": "Użyj przycisku „Prześlij części” w prawym górnym rogu tej strony lub użyj przycisku poniżej, aby dodać części do swojej organizacji",
       "title": "Brak części do weryfikacji"
+    },
+    "reviewAutoApprove": {
+      "message": "Automatyczna akceptacja części jest włączona. Pojawią się tu tylko części wymagające ręcznej interwencji.",
+      "title": "Brak części do weryfikacji"
     }
   },
   "errors": {

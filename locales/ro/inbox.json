@@ -83,6 +83,10 @@
     "review": {
       "message": "Folosiți butonul „Încarcă piese” din partea din dreapta sus a acestei pagini sau folosiți butonul de mai jos pentru a adăuga piese în organizația dvs.",
       "title": "Nicio piesă de revizuit"
+    },
+    "reviewAutoApprove": {
+      "message": "Acceptarea automată a pieselor este activată. Aici vor apărea doar piesele care necesită intervenție manuală.",
+      "title": "Nicio piesă de revizuit"
     }
   },
   "errors": {

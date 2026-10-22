@@ -83,6 +83,10 @@
     "review": {
       "message": "Utilisez le bouton ‘Téléverser des pièces’ en haut à droite de cette page ou utilisez le bouton ci-dessous pour ajouter des pièces à votre organisation",
       "title": "Aucune pièce à réviser"
+    },
+    "reviewAutoApprove": {
+      "message": "L'acceptation automatique des pièces est activée. Seules les pièces nécessitant une intervention manuelle apparaîtront ici.",
+      "title": "Aucune pièce à réviser"
     }
   },
   "errors": {

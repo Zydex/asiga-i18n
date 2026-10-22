@@ -56,6 +56,7 @@
     "moveOffline_one": "Cela rejettera la tâche sélectionnée et la téléchargera pour modification dans Composer.",
     "moveOffline_other": "Cela rejettera les tâches sélectionnées et les téléchargera pour modification dans Composer.",
     "noJobsToReview": "Les tâches provisoires qui ont été promues apparaîtront ici. Chargez des pièces dans la boîte de réception pour commencer.",
+    "noJobsToReviewAutoApprove": "L'acceptation automatique des tâches est activée. Seules les tâches nécessitant une intervention manuelle apparaîtront ici.",
     "noParts": "Cette tâche ne contient aucune pièce.",
     "noPartsToReprint": "Les pièces de cette tâche ont déjà été remises en file d'attente pour réimpression.",
     "noPrintsRemaining": "L'imprimante de cette tâche n'a plus d'impressions gratuites. Remettez les pièces en file d'attente pour les planifier sur une imprimante disponible, ou abonnez-vous pour débloquer des impressions illimitées.",
