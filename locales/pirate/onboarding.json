@@ -15,28 +15,36 @@
     "step": {
       "acceptJobs": {
         "description": "On the <bold>Voyages</bold> page, select voyages and click “Accept”",
-        "title": "Accept voyages"
+        "title": "Inspect voyages",
+        "tooltip": "Funnel bundles accepted trinkets into printin' voyages. Inspect a voyage and accept it to send it off to the contraption."
       },
       "createTemplate": {
         "description": "On the <bold>Manage</bold> / <bold>Charts</bold> page, click “Create”",
-        "title": "Draw up a chart"
+        "title": "Draw up a chart",
+        "tooltip": "Charts decide which materials, printin' settings and contraptions be used fer each kind o' trinket."
       },
       "enrolPrinter": {
         "description": "On the <bold>Contraptions</bold> page, click “Add Contraption”",
         "firmware": "Plunder th' <a>latest firmware</a>",
-        "title": "Enlist a contraption"
+        "title": "Enlist a contraption",
+        "tooltip": "Enlist yer contraptions so Funnel can keep watch o'er them and send them printin' voyages."
       },
       "inviteColleagues": {
         "description": "On the <bold>Manage</bold> / <bold>Crew</bold> page, click “Add Crewmate”",
-        "title": "Press-gang shipmates (Optional)"
+        "title": "Press-gang shipmates (Optional)",
+        "tooltip": "Press-gang yer crew so they can hoist trinkets, inspect voyages and wrangle contraptions alongside ye."
       },
       "uploadAcceptParts": {
         "description": "On the <bold>Crow's Nest</bold> page, drag-and-drop yer STL scrolls, select hoisted trinkets and click “Accept”",
-        "title": "Hoist & accept trinkets"
+        "title": "Hoist & accept trinkets",
+        "tooltip": "Hoist STL scrolls into the Crow's Nest, then accept the trinkets ye want Funnel to ready fer printin'."
       }
     },
     "subtitle": "Complete the steps to send forgin' voyages to yer contraptions",
-    "title": "Gettin' Started"
+    "title": "Gettin' Started",
+    "tooltip": {
+      "learnMore": "Learn more, ye landlubber"
+    }
   },
   "label": {
     "country": "Homeland",

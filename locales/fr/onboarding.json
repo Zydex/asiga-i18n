@@ -15,28 +15,36 @@
     "step": {
       "acceptJobs": {
         "description": "Sur la page <bold>Travaux</bold>, sélectionnez des travaux et cliquez sur « Accepter »",
-        "title": "Accepter les travaux"
+        "title": "Vérifier les travaux",
+        "tooltip": "Funnel regroupe les pièces acceptées en travaux d'impression. Vérifiez un travail et acceptez-le pour l'envoyer à l'imprimante."
       },
       "createTemplate": {
         "description": "Sur la page <bold>Gérer</bold> / <bold>Modèles</bold>, cliquez sur « Créer »",
-        "title": "Créer un modèle"
+        "title": "Créer un modèle",
+        "tooltip": "Les modèles déterminent les matériaux, les paramètres d'impression et les imprimantes utilisés pour chaque type de pièce."
       },
       "enrolPrinter": {
         "description": "Sur la page <bold>Appareils</bold>, cliquez sur « Ajouter appareil »",
         "firmware": "Télécharger le <a>dernier firmware</a>",
-        "title": "Inscrire une imprimante"
+        "title": "Inscrire une imprimante",
+        "tooltip": "Inscrivez vos imprimantes pour que Funnel puisse les surveiller et leur envoyer des travaux d'impression."
       },
       "inviteColleagues": {
         "description": "Sur la page <bold>Gérer</bold> / <bold>Utilisateurs</bold>, cliquez sur « Ajouter utilisateur »",
-        "title": "Inviter des collègues (facultatif)"
+        "title": "Inviter des collègues (facultatif)",
+        "tooltip": "Invitez votre équipe afin qu'elle puisse télécharger des pièces, vérifier des travaux et gérer les imprimantes avec vous."
       },
       "uploadAcceptParts": {
         "description": "Sur la page <bold>Boîte de réception</bold>, faites glisser-déposer vos fichiers STL, sélectionnez les pièces téléchargées et cliquez sur « Accepter »",
-        "title": "Télécharger et accepter les pièces"
+        "title": "Télécharger et accepter les pièces",
+        "tooltip": "Téléchargez des fichiers STL dans la Boîte de réception, puis acceptez les pièces que Funnel doit préparer pour l'impression."
       }
     },
     "subtitle": "Suivez ces étapes pour envoyer des travaux d'impression à vos appareils",
-    "title": "Premiers pas"
+    "title": "Premiers pas",
+    "tooltip": {
+      "learnMore": "En savoir plus"
+    }
   },
   "label": {
     "country": "Pays",
