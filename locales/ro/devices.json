@@ -87,9 +87,9 @@
     "material": "Material",
     "model": "Model",
     "name": "Nume",
+    "printsAvailable": "Printări disponibile",
     "progress": "Progres",
     "status": "Stare",
-    "subscription": "Abonament",
     "tray": "Tavă"
   },
   "title": {

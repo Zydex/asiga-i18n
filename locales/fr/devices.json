@@ -86,9 +86,9 @@
     "material": "Matériau",
     "model": "Modèle",
     "name": "Nom",
+    "printsAvailable": "Impressions disponibles",
     "progress": "Progression",
     "status": "Statut",
-    "subscription": "Abonnement",
     "tray": "Bac"
   },
   "title": {

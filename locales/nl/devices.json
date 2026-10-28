@@ -86,9 +86,9 @@
     "material": "Materiaal",
     "model": "Model",
     "name": "Naam",
+    "printsAvailable": "Beschikbare prints",
     "progress": "Voortgang",
     "status": "Status",
-    "subscription": "Abonnement",
     "tray": "Tray"
   },
   "title": {

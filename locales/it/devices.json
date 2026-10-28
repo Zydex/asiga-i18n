@@ -86,9 +86,9 @@
     "material": "Materiale",
     "model": "Modello",
     "name": "Nome",
+    "printsAvailable": "Stampe disponibili",
     "progress": "Avanzamento",
     "status": "Stato",
-    "subscription": "Abbonamento",
     "tray": "Vassoio"
   },
   "title": {

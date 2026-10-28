@@ -86,9 +86,9 @@
     "material": "Material",
     "model": "Modell",
     "name": "Namn",
+    "printsAvailable": "Tillgängliga utskrifter",
     "progress": "Förlopp",
     "status": "Status",
-    "subscription": "Prenumeration",
     "tray": "Bricka"
   },
   "title": {

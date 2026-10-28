@@ -86,9 +86,9 @@
     "material": "Anyag",
     "model": "Modell",
     "name": "Név",
+    "printsAvailable": "Elérhető nyomtatások",
     "progress": "Folyamat",
     "status": "Állapot",
-    "subscription": "Előfizetés",
     "tray": "Tálca"
   },
   "title": {

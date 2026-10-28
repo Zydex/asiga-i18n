@@ -86,9 +86,9 @@
     "material": "Material",
     "model": "Model",
     "name": "Name",
+    "printsAvailable": "Prints Available",
     "progress": "Progress",
     "status": "Status",
-    "subscription": "Subscription",
     "tray": "Tray"
   },
   "title": {

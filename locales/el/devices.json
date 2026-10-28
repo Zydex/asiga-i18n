@@ -86,9 +86,9 @@
     "material": "Υλικό",
     "model": "Μοντέλο",
     "name": "Όνομα",
+    "printsAvailable": "Διαθέσιμες εκτυπώσεις",
     "progress": "Πρόοδος",
     "status": "Κατάσταση",
-    "subscription": "Συνδρομή",
     "tray": "Δίσκος"
   },
   "title": {

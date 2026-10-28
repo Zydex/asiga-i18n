@@ -88,9 +88,9 @@
     "material": "Materiał",
     "model": "Model",
     "name": "Nazwa",
+    "printsAvailable": "Dostępne wydruki",
     "progress": "Postęp",
     "status": "Status",
-    "subscription": "Subskrypcja",
     "tray": "Taca"
   },
   "title": {
