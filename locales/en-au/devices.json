@@ -9,6 +9,7 @@
     "exclude": "Exclude",
     "excludeDevice": "Exclude from Automatic Print Jobs",
     "includeDevice": "Include for Automatic Print Jobs",
+    "manageSubscription": "Manage Subscription",
     "subscribePrinter": "Subscribe Printer",
     "unsubscribePrinter": "Unsubscribe Printer"
   },
@@ -60,9 +61,12 @@
     "noDevicesReadOnly": "Ask an Admin or Owner in your organisation to add devices",
     "warnRemoveDevice": "You will no longer be able to monitor or send print jobs to this device from the Funnel.",
     "warnRemoveDevice_name": "You will no longer be able to monitor or send print jobs to {{device}} from the Funnel.",
-    "willExcludeDevice": "Print Jobs will no longer be created for this machine when it is excluded"
+    "willExcludeDevice": "Print Jobs will no longer be created for this machine when it is excluded",
+    "willExcludeDevice_one": "Print Jobs will no longer be created for this machine when it is excluded",
+    "willExcludeDevice_other": "Print Jobs will no longer be created for these machines when they are excluded"
   },
   "state": {
+    "buildQueued": "Build Queued",
     "canceled": "Canceled",
     "canceled_error": "Error: Canceled",
     "cancelling": "Cancelling",
@@ -78,9 +82,20 @@
     "staring": "Starting",
     "userbusy": "User Busy"
   },
+  "table": {
+    "material": "Material",
+    "model": "Model",
+    "name": "Name",
+    "progress": "Progress",
+    "status": "Status",
+    "subscription": "Subscription",
+    "tray": "Tray"
+  },
   "title": {
     "devices": "Devices",
     "excludeDevice": "Exclude {{device}}?",
+    "excludeDevice_one": "Exclude {{device}}?",
+    "excludeDevice_other": "Exclude {{count}} devices?",
     "removeDevice": "Remove device?"
   },
   "tooltips": {

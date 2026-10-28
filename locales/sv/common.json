@@ -748,9 +748,14 @@
   "table": {
     "activeFilters": "Aktiva filter:",
     "clearFilters": "Rensa filter",
+    "columns": "Kolumner",
     "expandRow": "Expandera rad",
     "pageAmount": "Antal",
-    "perPage": "Per sida"
+    "perPage": "Per sida",
+    "view": {
+      "cards": "Kortvy",
+      "table": "Tabellvy"
+    }
   },
   "title": {
     "cookiePolicy": "Cookiepolicy",

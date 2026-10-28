@@ -9,6 +9,7 @@
     "exclude": "Bar",
     "excludeDevice": "Bar from Automatic Forge Voyages",
     "includeDevice": "Enlist for Automatic Forge Voyages",
+    "manageSubscription": "Command Tithe",
     "subscribePrinter": "Tithe Contraption",
     "unsubscribePrinter": "Stop Tithin' Contraption"
   },
@@ -60,9 +61,12 @@
     "noDevicesReadOnly": "Ask a Quartermaster or Cap'n in yer crew to add contraptions",
     "warnRemoveDevice": "Ye will no longer be able to watch or send forge voyages to this contraption from th' Funnel.",
     "warnRemoveDevice_name": "Ye will no longer be able to watch or send forge voyages to {{device}} from th' Funnel.",
-    "willExcludeDevice": "Forge Voyages will no longer be created for this contraption once it be barred"
+    "willExcludeDevice": "Forge Voyages will no longer be created for this contraption once it be barred",
+    "willExcludeDevice_one": "Forge Voyages will no longer be created for this contraption once it be barred",
+    "willExcludeDevice_other": "Forge Voyages will no longer be created for these contraptions once they be barred"
   },
   "state": {
+    "buildQueued": "Haul Waitin'",
     "canceled": "Belayed",
     "canceled_error": "Blunder: Belayed",
     "cancelling": "Belayin'",
@@ -78,9 +82,20 @@
     "staring": "Settin' Sail",
     "userbusy": "Crewmate Busy"
   },
+  "table": {
+    "material": "Grog",
+    "model": "Model",
+    "name": "Moniker",
+    "progress": "Headway",
+    "status": "Standin'",
+    "subscription": "Tithe",
+    "tray": "Grog Tray"
+  },
   "title": {
     "devices": "Contraptions",
     "excludeDevice": "Bar {{device}}?",
+    "excludeDevice_one": "Bar {{device}}?",
+    "excludeDevice_other": "Bar {{count}} contraptions?",
     "removeDevice": "Scuttle contraption?"
   },
   "tooltips": {

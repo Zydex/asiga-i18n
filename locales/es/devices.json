@@ -9,6 +9,7 @@
     "exclude": "Excluir",
     "excludeDevice": "Excluir de los trabajos de impresión automáticos",
     "includeDevice": "Incluir para trabajos de impresión automáticos",
+    "manageSubscription": "Administrar suscripción",
     "subscribePrinter": "Suscribir Impresora",
     "unsubscribePrinter": "Cancelar Suscripción de Impresora"
   },
@@ -60,9 +61,12 @@
     "noDevicesReadOnly": "Pida a un administrador o propietario de su organización que añada dispositivos",
     "warnRemoveDevice": "Ya no podrá supervisar ni enviar trabajos de impresión a este dispositivo desde el Funnel.",
     "warnRemoveDevice_name": "Ya no podrá supervisar ni enviar trabajos de impresión a {{device}} desde el Funnel.",
-    "willExcludeDevice": "Ya no se crearán trabajos de impresión para esta máquina cuando esté excluida"
+    "willExcludeDevice": "Ya no se crearán trabajos de impresión para esta máquina cuando esté excluida",
+    "willExcludeDevice_one": "Ya no se crearán trabajos de impresión para esta máquina cuando esté excluida",
+    "willExcludeDevice_other": "Ya no se crearán trabajos de impresión para estas máquinas cuando estén excluidas"
   },
   "state": {
+    "buildQueued": "Impresión en cola",
     "canceled": "Cancelado",
     "canceled_error": "Error: Cancelado",
     "cancelling": "Cancelando",
@@ -78,9 +82,20 @@
     "staring": "Iniciando",
     "userbusy": "Usuario ocupado"
   },
+  "table": {
+    "material": "Material",
+    "model": "Modelo",
+    "name": "Nombre",
+    "progress": "Progreso",
+    "status": "Estado",
+    "subscription": "Suscripción",
+    "tray": "Bandeja"
+  },
   "title": {
     "devices": "Dispositivos",
     "excludeDevice": "¿Excluir {{device}}?",
+    "excludeDevice_one": "¿Excluir {{device}}?",
+    "excludeDevice_other": "¿Excluir {{count}} dispositivos?",
     "removeDevice": "¿Eliminar dispositivo?"
   },
   "tooltips": {

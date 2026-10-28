@@ -9,6 +9,7 @@
     "exclude": "Exclude",
     "excludeDevice": "Exclude din sarcinile de printare automate",
     "includeDevice": "Include pentru sarcinile de printare automate",
+    "manageSubscription": "Gestionează abonamentul",
     "subscribePrinter": "Abonează imprimanta",
     "unsubscribePrinter": "Dezabonează imprimanta"
   },
@@ -60,9 +61,13 @@
     "noDevicesReadOnly": "Cere unui Administrator sau Proprietar din organizația ta să adauge dispozitive",
     "warnRemoveDevice": "Nu vei mai putea monitoriza sau trimite sarcini de printare către acest dispozitiv din Funnel.",
     "warnRemoveDevice_name": "Nu vei mai putea monitoriza sau trimite sarcini de printare către {{device}} din Funnel.",
-    "willExcludeDevice": "Sarcinile de printare nu vor mai fi create pentru acest aparat atunci când este exclus"
+    "willExcludeDevice": "Sarcinile de printare nu vor mai fi create pentru acest aparat atunci când este exclus",
+    "willExcludeDevice_few": "Sarcinile de printare nu vor mai fi create pentru aceste aparate atunci când sunt excluse",
+    "willExcludeDevice_one": "Sarcinile de printare nu vor mai fi create pentru acest aparat atunci când este exclus",
+    "willExcludeDevice_other": "Sarcinile de printare nu vor mai fi create pentru aceste aparate atunci când sunt excluse"
   },
   "state": {
+    "buildQueued": "Print în așteptare",
     "canceled": "Anulat",
     "canceled_error": "Eroare: Anulat",
     "cancelling": "Se anulează",
@@ -78,9 +83,21 @@
     "staring": "Pornire",
     "userbusy": "Utilizator ocupat"
   },
+  "table": {
+    "material": "Material",
+    "model": "Model",
+    "name": "Nume",
+    "progress": "Progres",
+    "status": "Stare",
+    "subscription": "Abonament",
+    "tray": "Tavă"
+  },
   "title": {
     "devices": "Dispozitive",
     "excludeDevice": "Excludeți {{device}}?",
+    "excludeDevice_few": "Excludeți {{count}} dispozitive?",
+    "excludeDevice_one": "Excludeți {{device}}?",
+    "excludeDevice_other": "Excludeți {{count}} de dispozitive?",
     "removeDevice": "Elimini dispozitivul?"
   },
   "tooltips": {

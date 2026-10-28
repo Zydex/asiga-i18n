@@ -748,9 +748,14 @@
   "table": {
     "activeFilters": "Actieve filters:",
     "clearFilters": "Filters wissen",
+    "columns": "Kolommen",
     "expandRow": "Rij uitvouwen",
     "pageAmount": "Aantal",
-    "perPage": "Per pagina"
+    "perPage": "Per pagina",
+    "view": {
+      "cards": "Kaartweergave",
+      "table": "Tabelweergave"
+    }
   },
   "title": {
     "cookiePolicy": "Cookiebeleid",

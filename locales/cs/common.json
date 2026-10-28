@@ -748,9 +748,14 @@
   "table": {
     "activeFilters": "Aktivní filtry:",
     "clearFilters": "Vymazat filtry",
+    "columns": "Sloupce",
     "expandRow": "Rozbalit řádek",
     "pageAmount": "Počet",
-    "perPage": "Na stránku"
+    "perPage": "Na stránku",
+    "view": {
+      "cards": "Zobrazení karet",
+      "table": "Zobrazení tabulky"
+    }
   },
   "title": {
     "cookiePolicy": "Zásady používání souborů cookie",

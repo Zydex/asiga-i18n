@@ -748,9 +748,14 @@
   "table": {
     "activeFilters": "Ενεργά φίλτρα:",
     "clearFilters": "Εκκαθάριση φίλτρων",
+    "columns": "Στήλες",
     "expandRow": "Ανάπτυξη γραμμής",
     "pageAmount": "Ποσότητα",
-    "perPage": "Ανά σελίδα"
+    "perPage": "Ανά σελίδα",
+    "view": {
+      "cards": "Προβολή καρτών",
+      "table": "Προβολή πίνακα"
+    }
   },
   "title": {
     "cookiePolicy": "Πολιτική cookies",

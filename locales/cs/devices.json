@@ -9,6 +9,7 @@
     "exclude": "Vyloučit",
     "excludeDevice": "Vyloučit z automatických tiskových úloh",
     "includeDevice": "Zahrnout do automatických tiskových úloh",
+    "manageSubscription": "Spravovat předplatné",
     "subscribePrinter": "Předplatit tiskárnu",
     "unsubscribePrinter": "Zrušit předplatné tiskárny"
   },
@@ -60,9 +61,14 @@
     "noDevicesReadOnly": "Požádejte správce nebo vlastníka ve vaší organizaci o přidání zařízení",
     "warnRemoveDevice": "Toto zařízení již nebudete moci sledovat ani mu z Funnelu odesílat tiskové úlohy.",
     "warnRemoveDevice_name": "Zařízení {{device}} již nebudete moci sledovat ani mu z Funnelu odesílat tiskové úlohy.",
-    "willExcludeDevice": "Po vyloučení tohoto zařízení pro něj již nebudou vytvářeny žádné tiskové úlohy"
+    "willExcludeDevice": "Po vyloučení tohoto zařízení pro něj již nebudou vytvářeny žádné tiskové úlohy",
+    "willExcludeDevice_few": "Po vyloučení těchto zařízení pro ně již nebudou vytvářeny žádné tiskové úlohy",
+    "willExcludeDevice_many": "Po vyloučení těchto zařízení pro ně již nebudou vytvářeny žádné tiskové úlohy",
+    "willExcludeDevice_one": "Po vyloučení tohoto zařízení pro něj již nebudou vytvářeny žádné tiskové úlohy",
+    "willExcludeDevice_other": "Po vyloučení těchto zařízení pro ně již nebudou vytvářeny žádné tiskové úlohy"
   },
   "state": {
+    "buildQueued": "Tisková úloha ve frontě",
     "canceled": "Zrušeno",
     "canceled_error": "Chyba: Zrušeno",
     "cancelling": "Ruší se",
@@ -78,9 +84,22 @@
     "staring": "Spouští se",
     "userbusy": "Uživatel zaneprázdněn"
   },
+  "table": {
+    "material": "Materiál",
+    "model": "Model",
+    "name": "Název",
+    "progress": "Průběh",
+    "status": "Stav",
+    "subscription": "Předplatné",
+    "tray": "Podložka"
+  },
   "title": {
     "devices": "Zařízení",
     "excludeDevice": "Vyloučit {{device}}?",
+    "excludeDevice_few": "Vyloučit {{count}} zařízení?",
+    "excludeDevice_many": "Vyloučit {{count}} zařízení?",
+    "excludeDevice_one": "Vyloučit {{device}}?",
+    "excludeDevice_other": "Vyloučit {{count}} zařízení?",
     "removeDevice": "Odebrat zařízení?"
   },
   "tooltips": {

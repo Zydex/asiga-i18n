@@ -9,6 +9,7 @@
     "exclude": "Uitsluiten",
     "excludeDevice": "Uitsluiten van automatische printtaken",
     "includeDevice": "Opnemen voor automatische printtaken",
+    "manageSubscription": "Abonnement beheren",
     "subscribePrinter": "Printer Abonneren",
     "unsubscribePrinter": "Printerabonnement Opzeggen"
   },
@@ -60,9 +61,12 @@
     "noDevicesReadOnly": "Vraag een beheerder of eigenaar in uw organisatie om apparaten toe te voegen",
     "warnRemoveDevice": "U kunt dit apparaat niet langer bewaken of er printtaken vanuit de Funnel naartoe sturen.",
     "warnRemoveDevice_name": "U kunt {{device}} niet langer bewaken of er printtaken vanuit de Funnel naartoe sturen.",
-    "willExcludeDevice": "Er worden geen printtaken meer aangemaakt voor deze machine wanneer deze is uitgesloten"
+    "willExcludeDevice": "Er worden geen printtaken meer aangemaakt voor deze machine wanneer deze is uitgesloten",
+    "willExcludeDevice_one": "Er worden geen printtaken meer aangemaakt voor deze machine wanneer deze is uitgesloten",
+    "willExcludeDevice_other": "Er worden geen printtaken meer aangemaakt voor deze machines wanneer ze zijn uitgesloten"
   },
   "state": {
+    "buildQueued": "Build in wachtrij",
     "canceled": "Geannuleerd",
     "canceled_error": "Fout: Geannuleerd",
     "cancelling": "Annuleren",
@@ -78,9 +82,20 @@
     "staring": "Starten",
     "userbusy": "Gebruiker bezet"
   },
+  "table": {
+    "material": "Materiaal",
+    "model": "Model",
+    "name": "Naam",
+    "progress": "Voortgang",
+    "status": "Status",
+    "subscription": "Abonnement",
+    "tray": "Tray"
+  },
   "title": {
     "devices": "Apparaten",
     "excludeDevice": "{{device}} uitsluiten?",
+    "excludeDevice_one": "{{device}} uitsluiten?",
+    "excludeDevice_other": "{{count}} apparaten uitsluiten?",
     "removeDevice": "Apparaat verwijderen?"
   },
   "tooltips": {
