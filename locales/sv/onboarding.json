@@ -15,28 +15,36 @@
     "step": {
       "acceptJobs": {
         "description": "På sidan <bold>Jobb</bold>, markera ett eller flera jobb och klicka på \"Acceptera\"",
-        "title": "Acceptera jobb"
+        "title": "Granska jobb",
+        "tooltip": "Granska jobb som skapats av Funnel innan du accepterar dem för utskrift."
       },
       "createTemplate": {
         "description": "På sidan <bold>Hantera</bold> / <bold>Mallar</bold>, klicka på \"Skapa\"",
-        "title": "Skapa en mall"
+        "title": "Skapa en mall",
+        "tooltip": "Mallar styr vilka material, utskriftsinställningar och skrivare som används för varje deltyp."
       },
       "enrolPrinter": {
         "description": "På sidan <bold>Enheter</bold>, klicka på \"Lägg till enhet\"",
         "firmware": "Ladda ner den <a>senaste firmwaren</a>",
-        "title": "Registrera en skrivare"
+        "title": "Registrera en skrivare",
+        "tooltip": "Registrera dina skrivare så att Funnel kan övervaka dem och skicka utskriftsjobb."
       },
       "inviteColleagues": {
         "description": "På sidan <bold>Hantera</bold> / <bold>Användare</bold>, klicka på \"Lägg till användare\"",
-        "title": "Bjud in kollegor (valfritt)"
+        "title": "Bjud in kollegor (valfritt)",
+        "tooltip": "Bjud in teammedlemmar så att de kan ladda upp delar, granska jobb och hantera skrivare tillsammans med dig."
       },
       "uploadAcceptParts": {
         "description": "På sidan <bold>Inkorg</bold>, dra och släpp dina STL-filer, välj uppladdade delar och klicka på \"Acceptera\"",
-        "title": "Ladda upp och acceptera delar"
+        "title": "Ladda upp och acceptera delar",
+        "tooltip": "Ladda upp konstruerade STL-delar till Inkorgen och granska sedan de tilldelade inställningarna för godkännande."
       }
     },
     "subtitle": "Slutför stegen för att skicka utskriftsjobb till dina enheter",
-    "title": "Kom igång"
+    "title": "Kom igång",
+    "tooltip": {
+      "learnMore": "Läs mer"
+    }
   },
   "label": {
     "country": "Land",

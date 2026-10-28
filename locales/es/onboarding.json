@@ -15,28 +15,36 @@
     "step": {
       "acceptJobs": {
         "description": "En la página <bold>Trabajos</bold>, selecciona los trabajos y haz clic en “Aceptar”",
-        "title": "Aceptar trabajos"
+        "title": "Revisar trabajos",
+        "tooltip": "Revisa los trabajos creados por Funnel antes de aceptarlos para imprimir."
       },
       "createTemplate": {
         "description": "En la página <bold>Gestionar</bold> / <bold>Plantillas</bold>, haz clic en “Crear”",
-        "title": "Crear una plantilla"
+        "title": "Crear una plantilla",
+        "tooltip": "Las plantillas controlan qué materiales, ajustes de impresión e impresoras se usan para cada tipo de pieza."
       },
       "enrolPrinter": {
         "description": "En la página <bold>Dispositivos</bold>, haz clic en “Agregar dispositivo”",
         "firmware": "Descargar el <a>firmware más reciente</a>",
-        "title": "Registrar una impresora"
+        "title": "Registrar una impresora",
+        "tooltip": "Registra tus impresoras para que Funnel pueda supervisarlas y enviar trabajos de impresión."
       },
       "inviteColleagues": {
         "description": "En la página <bold>Gestionar</bold> / <bold>Usuarios</bold>, haz clic en “Agregar usuario”",
-        "title": "Invitar a colegas (Opcional)"
+        "title": "Invitar a colegas (Opcional)",
+        "tooltip": "Invita a miembros del equipo para que puedan subir piezas, revisar trabajos y gestionar impresoras contigo."
       },
       "uploadAcceptParts": {
         "description": "En la página <bold>Bandeja de entrada</bold>, arrastra y suelta tus archivos STL, selecciona las piezas subidas y haz clic en “Aceptar”",
-        "title": "Subir y aceptar piezas"
+        "title": "Subir y aceptar piezas",
+        "tooltip": "Sube piezas STL diseñadas a la Bandeja de entrada y luego revisa la configuración asignada para su aceptación."
       }
     },
     "subtitle": "Completa los pasos para enviar trabajos de impresión a tus dispositivos",
-    "title": "Primeros pasos"
+    "title": "Primeros pasos",
+    "tooltip": {
+      "learnMore": "Más información"
+    }
   },
   "label": {
     "country": "País",

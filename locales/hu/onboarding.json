@@ -15,28 +15,36 @@
     "step": {
       "acceptJobs": {
         "description": "A <bold>Feladatok</bold> oldalon válassza ki a feladatokat, majd kattintson az „Elfogadás” gombra",
-        "title": "Feladatok elfogadása"
+        "title": "Feladatok ellenőrzése",
+        "tooltip": "Ellenőrizze a Funnel által létrehozott feladatokat, mielőtt elfogadja őket nyomtatásra."
       },
       "createTemplate": {
         "description": "A <bold>Kezelés</bold> / <bold>Sablonok</bold> oldalon kattintson a „Létrehozás” lehetőségre",
-        "title": "Sablon létrehozása"
+        "title": "Sablon létrehozása",
+        "tooltip": "A sablonok határozzák meg, hogy az egyes alkatrésztípusokhoz mely anyagokat, nyomtatási beállításokat és nyomtatókat használja a rendszer."
       },
       "enrolPrinter": {
         "description": "Az <bold>Eszközök</bold> oldalon kattintson az „Eszköz hozzáadása” gombra",
         "firmware": "A <a>legújabb firmware</a> letöltése",
-        "title": "Nyomtató regisztrálása"
+        "title": "Nyomtató regisztrálása",
+        "tooltip": "Regisztrálja nyomtatóit, hogy a Funnel figyelhesse őket és nyomtatási feladatokat küldhessen."
       },
       "inviteColleagues": {
         "description": "A <bold>Kezelés</bold> / <bold>Felhasználók</bold> oldalon kattintson a „Felhasználó hozzáadása” lehetőségre",
-        "title": "Kollégák meghívása (Opcionális)"
+        "title": "Kollégák meghívása (Opcionális)",
+        "tooltip": "Hívjon meg csapattagokat, hogy Önnel együtt tölthessenek fel alkatrészeket, ellenőrizhessenek feladatokat és kezelhessék a nyomtatókat."
       },
       "uploadAcceptParts": {
         "description": "A <bold>Beérkezett üzenetek</bold> oldalon húzza és ejtse ide STL-fájljait, válassza ki a feltöltött alkatrészeket, majd kattintson az „Elfogadás” gombra",
-        "title": "Alkatrészek feltöltése és elfogadása"
+        "title": "Alkatrészek feltöltése és elfogadása",
+        "tooltip": "Töltse fel a megtervezett STL-alkatrészeket a Beérkezett üzenetek oldalra, majd ellenőrizze a hozzárendelt beállításokat az elfogadáshoz."
       }
     },
     "subtitle": "Végezze el a lépéseket, hogy nyomtatási feladatokat küldhessen eszközeire",
-    "title": "Első lépések"
+    "title": "Első lépések",
+    "tooltip": {
+      "learnMore": "További információ"
+    }
   },
   "label": {
     "country": "Ország",

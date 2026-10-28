@@ -15,28 +15,36 @@
     "step": {
       "acceptJobs": {
         "description": "Wählen Sie auf der Seite <bold>Aufträge</bold> Aufträge aus und klicken Sie auf „Akzeptieren“",
-        "title": "Aufträge akzeptieren"
+        "title": "Aufträge prüfen",
+        "tooltip": "Prüfen Sie von Funnel erstellte Aufträge, bevor Sie sie zum Drucken akzeptieren."
       },
       "createTemplate": {
         "description": "Klicken Sie auf der Seite <bold>Verwalten</bold> / <bold>Vorlagen</bold> auf „Erstellen“",
-        "title": "Eine Vorlage erstellen"
+        "title": "Eine Vorlage erstellen",
+        "tooltip": "Vorlagen legen fest, welche Materialien, Druckeinstellungen und Drucker für jeden Teiletyp verwendet werden."
       },
       "enrolPrinter": {
         "description": "Klicken Sie auf der Seite <bold>Geräte</bold> auf „Gerät hinzufügen“",
         "firmware": "<a>Neueste Firmware</a> herunterladen",
-        "title": "Einen Drucker registrieren"
+        "title": "Einen Drucker registrieren",
+        "tooltip": "Registrieren Sie Ihre Drucker, damit Funnel sie überwachen und Druckaufträge senden kann."
       },
       "inviteColleagues": {
         "description": "Klicken Sie auf der Seite <bold>Verwalten</bold> / <bold>Benutzer</bold> auf „Benutzer hinzufügen“",
-        "title": "Kollegen einladen (Optional)"
+        "title": "Kollegen einladen (Optional)",
+        "tooltip": "Laden Sie Teammitglieder ein, damit sie gemeinsam mit Ihnen Teile hochladen, Aufträge prüfen und Drucker verwalten können."
       },
       "uploadAcceptParts": {
         "description": "Ziehen Sie auf der Seite <bold>Posteingang</bold> Ihre STL-Dateien per Drag-and-Drop hinein, wählen Sie die hochgeladenen Teile aus und klicken Sie auf „Akzeptieren“",
-        "title": "Teile hochladen & akzeptieren"
+        "title": "Teile hochladen & akzeptieren",
+        "tooltip": "Laden Sie konstruierte STL-Teile in den Posteingang hoch und prüfen Sie dann die zugewiesenen Einstellungen zur Annahme."
       }
     },
     "subtitle": "Schließen Sie die Schritte ab, um Druckaufträge an Ihre Geräte zu senden",
-    "title": "Erste Schritte"
+    "title": "Erste Schritte",
+    "tooltip": {
+      "learnMore": "Mehr erfahren"
+    }
   },
   "label": {
     "country": "Land",

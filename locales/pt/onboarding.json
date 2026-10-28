@@ -15,28 +15,36 @@
     "step": {
       "acceptJobs": {
         "description": "Na página <bold>Trabalhos</bold>, selecione os trabalhos e clique em “Aceitar”",
-        "title": "Aceitar trabalhos"
+        "title": "Rever trabalhos",
+        "tooltip": "Reveja os trabalhos criados pelo Funnel antes de os aceitar para impressão."
       },
       "createTemplate": {
         "description": "Na página <bold>Gerir</bold> / <bold>Modelos</bold>, clique em “Criar”",
-        "title": "Criar um modelo"
+        "title": "Criar um modelo",
+        "tooltip": "Os modelos controlam que materiais, definições de impressão e impressoras são usados para cada tipo de peça."
       },
       "enrolPrinter": {
         "description": "Na página <bold>Dispositivos</bold>, clique em “Adicionar Dispositivo”",
         "firmware": "Transferir o <a>firmware mais recente</a>",
-        "title": "Registar uma impressora"
+        "title": "Registar uma impressora",
+        "tooltip": "Registe as suas impressoras para que o Funnel as possa monitorizar e enviar trabalhos de impressão."
       },
       "inviteColleagues": {
         "description": "Na página <bold>Gerir</bold> / <bold>Utilizadores</bold>, clique em “Adicionar Utilizador”",
-        "title": "Convidar colegas (Opcional)"
+        "title": "Convidar colegas (Opcional)",
+        "tooltip": "Convide membros da equipa para que possam carregar peças, rever trabalhos e gerir impressoras consigo."
       },
       "uploadAcceptParts": {
         "description": "Na página <bold>Caixa de Entrada</bold>, arraste e largue os seus ficheiros STL, selecione as peças carregadas e clique em “Aceitar”",
-        "title": "Carregar e aceitar peças"
+        "title": "Carregar e aceitar peças",
+        "tooltip": "Carregue peças STL concebidas para a Caixa de Entrada e depois reveja as definições atribuídas para aceitação."
       }
     },
     "subtitle": "Conclua os passos para enviar trabalhos de impressão para os seus dispositivos",
-    "title": "Introdução"
+    "title": "Introdução",
+    "tooltip": {
+      "learnMore": "Saiba mais"
+    }
   },
   "label": {
     "country": "País",

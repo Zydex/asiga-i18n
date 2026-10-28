@@ -15,28 +15,36 @@
     "step": {
       "acceptJobs": {
         "description": "Na stronie <bold>Zlecenia</bold> wybierz zlecenia i kliknij „Akceptuj”",
-        "title": "Akceptuj zlecenia"
+        "title": "Przejrzyj zlecenia",
+        "tooltip": "Przejrzyj zlecenia utworzone przez Funnel przed zaakceptowaniem ich do druku."
       },
       "createTemplate": {
         "description": "Na stronie <bold>Zarządzaj</bold> / <bold>Szablony</bold> kliknij „Utwórz”",
-        "title": "Utwórz szablon"
+        "title": "Utwórz szablon",
+        "tooltip": "Szablony określają, które materiały, ustawienia druku i drukarki są używane dla każdego typu części."
       },
       "enrolPrinter": {
         "description": "Na stronie <bold>Urządzenia</bold> kliknij „Dodaj urządzenie”",
         "firmware": "Pobierz <a>najnowsze oprogramowanie sprzętowe</a>",
-        "title": "Zarejestruj drukarkę"
+        "title": "Zarejestruj drukarkę",
+        "tooltip": "Zarejestruj swoje drukarki, aby Funnel mógł je monitorować i wysyłać zlecenia druku."
       },
       "inviteColleagues": {
         "description": "Na stronie <bold>Zarządzaj</bold> / <bold>Użytkownicy</bold> kliknij „Dodaj użytkownika”",
-        "title": "Zaproś współpracowników (Opcjonalnie)"
+        "title": "Zaproś współpracowników (Opcjonalnie)",
+        "tooltip": "Zaproś członków zespołu, aby mogli razem z Tobą przesyłać części, przeglądać zlecenia i zarządzać drukarkami."
       },
       "uploadAcceptParts": {
         "description": "Na stronie <bold>Skrzynka odbiorcza</bold> przeciągnij i upuść pliki STL, wybierz przesłane części i kliknij „Akceptuj”",
-        "title": "Prześlij i zaakceptuj części"
+        "title": "Prześlij i zaakceptuj części",
+        "tooltip": "Prześlij zaprojektowane części STL do Skrzynki odbiorczej, a następnie przejrzyj przypisane ustawienia do akceptacji."
       }
     },
     "subtitle": "Wykonaj poniższe kroki, aby wysyłać zlecenia druku do swoich urządzeń",
-    "title": "Pierwsze kroki"
+    "title": "Pierwsze kroki",
+    "tooltip": {
+      "learnMore": "Dowiedz się więcej"
+    }
   },
   "label": {
     "country": "Kraj",

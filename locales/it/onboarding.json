@@ -15,28 +15,36 @@
     "step": {
       "acceptJobs": {
         "description": "Nella pagina <bold>Lavori</bold>, seleziona i lavori e fai clic su “Accetta”",
-        "title": "Accetta lavori"
+        "title": "Rivedi i lavori",
+        "tooltip": "Rivedi i lavori creati da Funnel prima di accettarli per la stampa."
       },
       "createTemplate": {
         "description": "Nella pagina <bold>Gestisci</bold> / <bold>Modelli</bold>, fai clic su “Crea”",
-        "title": "Crea un modello"
+        "title": "Crea un modello",
+        "tooltip": "I modelli determinano quali materiali, impostazioni di stampa e stampanti vengono usati per ogni tipo di parte."
       },
       "enrolPrinter": {
         "description": "Nella pagina <bold>Dispositivi</bold>, fai clic su “Aggiungi dispositivo”",
         "firmware": "Scarica il <a>firmware più recente</a>",
-        "title": "Registra una stampante"
+        "title": "Registra una stampante",
+        "tooltip": "Registra le tue stampanti così che Funnel possa monitorarle e inviare lavori di stampa."
       },
       "inviteColleagues": {
         "description": "Nella pagina <bold>Gestisci</bold> / <bold>Utenti</bold>, fai clic su “Aggiungi utente”",
-        "title": "Invita colleghi (Facoltativo)"
+        "title": "Invita colleghi (Facoltativo)",
+        "tooltip": "Invita i membri del team per caricare parti, rivedere lavori e gestire le stampanti insieme a te."
       },
       "uploadAcceptParts": {
         "description": "Nella pagina <bold>Posta in arrivo</bold>, trascina e rilascia i tuoi file STL, seleziona le parti caricate e fai clic su “Accetta”",
-        "title": "Carica e accetta le parti"
+        "title": "Carica e accetta le parti",
+        "tooltip": "Carica le parti STL progettate nella Posta in arrivo, poi rivedi le impostazioni assegnate per l'accettazione."
       }
     },
     "subtitle": "Completa i passaggi per inviare i lavori di stampa ai tuoi dispositivi",
-    "title": "Guida introduttiva"
+    "title": "Guida introduttiva",
+    "tooltip": {
+      "learnMore": "Scopri di più"
+    }
   },
   "label": {
     "country": "Paese",

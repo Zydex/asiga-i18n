@@ -15,28 +15,36 @@
     "step": {
       "acceptJobs": {
         "description": "Na stránce <bold>Zakázky</bold> vyberte zakázky a klikněte na „Přijmout“",
-        "title": "Přijmout zakázky"
+        "title": "Zkontrolovat zakázky",
+        "tooltip": "Zkontrolujte zakázky vytvořené systémem Funnel před jejich přijetím k tisku."
       },
       "createTemplate": {
         "description": "Na stránce <bold>Spravovat</bold> / <bold>Šablony</bold> klikněte na „Vytvořit“",
-        "title": "Vytvořit šablonu"
+        "title": "Vytvořit šablonu",
+        "tooltip": "Šablony určují, které materiály, nastavení tisku a tiskárny se použijí pro jednotlivé typy dílů."
       },
       "enrolPrinter": {
         "description": "Na stránce <bold>Zařízení</bold> klikněte na „Přidat zařízení“",
         "firmware": "Stáhnout <a>nejnovější firmware</a>",
-        "title": "Zaregistrovat tiskárnu"
+        "title": "Zaregistrovat tiskárnu",
+        "tooltip": "Zaregistrujte své tiskárny, aby je Funnel mohl sledovat a odesílat tiskové zakázky."
       },
       "inviteColleagues": {
         "description": "Na stránce <bold>Spravovat</bold> / <bold>Uživatelé</bold> klikněte na „Přidat uživatele“",
-        "title": "Pozvat kolegy (volitelné)"
+        "title": "Pozvat kolegy (volitelné)",
+        "tooltip": "Pozvěte členy týmu, aby mohli společně s vámi nahrávat díly, kontrolovat zakázky a spravovat tiskárny."
       },
       "uploadAcceptParts": {
         "description": "Na stránce <bold>Doručená pošta</bold> přetáhněte soubory STL, vyberte nahrané díly a klikněte na „Přijmout“",
-        "title": "Nahrát a přijmout díly"
+        "title": "Nahrát a přijmout díly",
+        "tooltip": "Nahrajte navržené díly STL do doručené pošty a poté zkontrolujte přiřazená nastavení k přijetí."
       }
     },
     "subtitle": "Dokončete kroky pro odesílání tiskových zakázek do vašich zařízení",
-    "title": "Začínáme"
+    "title": "Začínáme",
+    "tooltip": {
+      "learnMore": "Další informace"
+    }
   },
   "label": {
     "country": "Země",
