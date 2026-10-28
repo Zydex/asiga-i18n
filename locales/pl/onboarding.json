@@ -16,7 +16,7 @@
       "acceptJobs": {
         "description": "Na stronie <bold>Zlecenia</bold> wybierz zlecenia i kliknij „Akceptuj”",
         "title": "Przejrzyj zlecenia",
-        "tooltip": "Funnel grupuje zaakceptowane części w zlecenia druku. Przejrzyj zlecenie i zaakceptuj je, aby wysłać je do drukarki."
+        "tooltip": "Przejrzyj zlecenia utworzone przez Funnel przed zaakceptowaniem ich do druku."
       },
       "createTemplate": {
         "description": "Na stronie <bold>Zarządzaj</bold> / <bold>Szablony</bold> kliknij „Utwórz”",
@@ -27,17 +27,17 @@
         "description": "Na stronie <bold>Urządzenia</bold> kliknij „Dodaj urządzenie”",
         "firmware": "Pobierz <a>najnowsze oprogramowanie sprzętowe</a>",
         "title": "Zarejestruj drukarkę",
-        "tooltip": "Zarejestruj swoje drukarki, aby Funnel mógł je monitorować i wysyłać do nich zlecenia druku."
+        "tooltip": "Zarejestruj swoje drukarki, aby Funnel mógł je monitorować i wysyłać zlecenia druku."
       },
       "inviteColleagues": {
         "description": "Na stronie <bold>Zarządzaj</bold> / <bold>Użytkownicy</bold> kliknij „Dodaj użytkownika”",
         "title": "Zaproś współpracowników (Opcjonalnie)",
-        "tooltip": "Zaproś swój zespół, aby mógł razem z Tobą przesyłać części, przeglądać zlecenia i zarządzać drukarkami."
+        "tooltip": "Zaproś członków zespołu, aby mogli razem z Tobą przesyłać części, przeglądać zlecenia i zarządzać drukarkami."
       },
       "uploadAcceptParts": {
         "description": "Na stronie <bold>Skrzynka odbiorcza</bold> przeciągnij i upuść pliki STL, wybierz przesłane części i kliknij „Akceptuj”",
         "title": "Prześlij i zaakceptuj części",
-        "tooltip": "Prześlij pliki STL do Skrzynki odbiorczej, a następnie zaakceptuj części, które Funnel ma przygotować do druku."
+        "tooltip": "Prześlij zaprojektowane części STL do Skrzynki odbiorczej, a następnie przejrzyj przypisane ustawienia do akceptacji."
       }
     },
     "subtitle": "Wykonaj poniższe kroki, aby wysyłać zlecenia druku do swoich urządzeń",

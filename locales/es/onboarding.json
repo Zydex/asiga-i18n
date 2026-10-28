@@ -16,7 +16,7 @@
       "acceptJobs": {
         "description": "En la página <bold>Trabajos</bold>, selecciona los trabajos y haz clic en “Aceptar”",
         "title": "Revisar trabajos",
-        "tooltip": "Funnel agrupa las piezas aceptadas en trabajos de impresión. Revisa un trabajo y acéptalo para enviarlo a la impresora."
+        "tooltip": "Revisa los trabajos creados por Funnel antes de aceptarlos para imprimir."
       },
       "createTemplate": {
         "description": "En la página <bold>Gestionar</bold> / <bold>Plantillas</bold>, haz clic en “Crear”",
@@ -27,17 +27,17 @@
         "description": "En la página <bold>Dispositivos</bold>, haz clic en “Agregar dispositivo”",
         "firmware": "Descargar el <a>firmware más reciente</a>",
         "title": "Registrar una impresora",
-        "tooltip": "Registra tus impresoras para que Funnel pueda supervisarlas y enviarles trabajos de impresión."
+        "tooltip": "Registra tus impresoras para que Funnel pueda supervisarlas y enviar trabajos de impresión."
       },
       "inviteColleagues": {
         "description": "En la página <bold>Gestionar</bold> / <bold>Usuarios</bold>, haz clic en “Agregar usuario”",
         "title": "Invitar a colegas (Opcional)",
-        "tooltip": "Invita a tu equipo para que pueda subir piezas, revisar trabajos y gestionar impresoras contigo."
+        "tooltip": "Invita a miembros del equipo para que puedan subir piezas, revisar trabajos y gestionar impresoras contigo."
       },
       "uploadAcceptParts": {
         "description": "En la página <bold>Bandeja de entrada</bold>, arrastra y suelta tus archivos STL, selecciona las piezas subidas y haz clic en “Aceptar”",
         "title": "Subir y aceptar piezas",
-        "tooltip": "Sube archivos STL a la Bandeja de entrada y luego acepta las piezas que quieres que Funnel prepare para imprimir."
+        "tooltip": "Sube piezas STL diseñadas a la Bandeja de entrada y luego revisa la configuración asignada para su aceptación."
       }
     },
     "subtitle": "Completa los pasos para enviar trabajos de impresión a tus dispositivos",

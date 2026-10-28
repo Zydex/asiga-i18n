@@ -16,7 +16,7 @@
       "acceptJobs": {
         "description": "On the <bold>Voyages</bold> page, select voyages and click “Accept”",
         "title": "Inspect voyages",
-        "tooltip": "Funnel bundles accepted trinkets into printin' voyages. Inspect a voyage and accept it to send it off to the contraption."
+        "tooltip": "Inspect voyages charted by Funnel afore acceptin' them fer printin'."
       },
       "createTemplate": {
         "description": "On the <bold>Manage</bold> / <bold>Charts</bold> page, click “Create”",
@@ -27,17 +27,17 @@
         "description": "On the <bold>Contraptions</bold> page, click “Add Contraption”",
         "firmware": "Plunder th' <a>latest firmware</a>",
         "title": "Enlist a contraption",
-        "tooltip": "Enlist yer contraptions so Funnel can keep watch o'er them and send them printin' voyages."
+        "tooltip": "Enlist yer contraptions so Funnel can keep watch o'er them and send printin' voyages."
       },
       "inviteColleagues": {
         "description": "On the <bold>Manage</bold> / <bold>Crew</bold> page, click “Add Crewmate”",
         "title": "Press-gang shipmates (Optional)",
-        "tooltip": "Press-gang yer crew so they can hoist trinkets, inspect voyages and wrangle contraptions alongside ye."
+        "tooltip": "Press-gang crewmates so they can hoist trinkets, inspect voyages and wrangle contraptions alongside ye."
       },
       "uploadAcceptParts": {
         "description": "On the <bold>Crow's Nest</bold> page, drag-and-drop yer STL scrolls, select hoisted trinkets and click “Accept”",
         "title": "Hoist & accept trinkets",
-        "tooltip": "Hoist STL scrolls into the Crow's Nest, then accept the trinkets ye want Funnel to ready fer printin'."
+        "tooltip": "Hoist designed STL trinkets into the Crow's Nest, then inspect the assigned settin's fer acceptance."
       }
     },
     "subtitle": "Complete the steps to send forgin' voyages to yer contraptions",

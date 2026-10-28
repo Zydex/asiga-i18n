@@ -16,7 +16,7 @@
       "acceptJobs": {
         "description": "On the <bold>Jobs</bold> page, select jobs and click “Accept”",
         "title": "Review jobs",
-        "tooltip": "Funnel groups accepted parts into print jobs. Review a job and accept it to send it to the printer."
+        "tooltip": "Review jobs created by Funnel before accepting them for printing."
       },
       "createTemplate": {
         "description": "On the <bold>Manage</bold> / <bold>Templates</bold> page, click “Create”",
@@ -27,17 +27,17 @@
         "description": "On the <bold>Devices</bold> page, click “Add Device”",
         "firmware": "Download the <a>latest firmware</a>",
         "title": "Enrol a printer",
-        "tooltip": "Enrol your printers so Funnel can monitor them and send them print jobs."
+        "tooltip": "Enrol your printers so Funnel can monitor them and send print jobs."
       },
       "inviteColleagues": {
         "description": "On the <bold>Manage</bold> / <bold>Users</bold> page, click “Add User”",
         "title": "Invite colleagues (Optional)",
-        "tooltip": "Invite your team so they can upload parts, review jobs and manage printers with you."
+        "tooltip": "Invite team members so they can upload parts, review jobs and manage printers with you."
       },
       "uploadAcceptParts": {
         "description": "On the <bold>Inbox</bold> page, drag-and-drop your STL files, select uploaded parts and click “Accept”",
         "title": "Upload & accept parts",
-        "tooltip": "Upload STL files to the Inbox, then accept the parts you want Funnel to prepare for printing."
+        "tooltip": "Upload designed STL parts to the Inbox, then review assigned settings for acceptance."
       }
     },
     "subtitle": "Complete the steps to send print jobs to your devices",

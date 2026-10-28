@@ -16,7 +16,7 @@
       "acceptJobs": {
         "description": "Pe pagina <bold>Joburi</bold>, selectați joburile și faceți clic pe „Acceptă”",
         "title": "Verificați joburile",
-        "tooltip": "Funnel grupează piesele acceptate în joburi de imprimare. Verificați un job și acceptați-l pentru a-l trimite la imprimantă."
+        "tooltip": "Verificați joburile create de Funnel înainte de a le accepta pentru imprimare."
       },
       "createTemplate": {
         "description": "Pe pagina <bold>Gestionare</bold> / <bold>Șabloane</bold>, faceți clic pe „Creează”",
@@ -27,17 +27,17 @@
         "description": "Pe pagina <bold>Dispozitive</bold>, faceți clic pe „Adaugă dispozitiv”",
         "firmware": "Descarcă <a>cel mai recent firmware</a>",
         "title": "Înregistrați o imprimantă",
-        "tooltip": "Înregistrați-vă imprimantele pentru ca Funnel să le poată monitoriza și să le trimită joburi de imprimare."
+        "tooltip": "Înregistrați-vă imprimantele pentru ca Funnel să le poată monitoriza și să trimită joburi de imprimare."
       },
       "inviteColleagues": {
         "description": "Pe pagina <bold>Gestionare</bold> / <bold>Utilizatori</bold>, faceți clic pe „Adaugă utilizator”",
         "title": "Invitați colegi (Opțional)",
-        "tooltip": "Invitați-vă echipa pentru a putea încărca piese, verifica joburi și gestiona imprimante împreună cu dvs."
+        "tooltip": "Invitați membri ai echipei pentru a putea încărca piese, verifica joburi și gestiona imprimante împreună cu dvs."
       },
       "uploadAcceptParts": {
         "description": "Pe pagina <bold>Inbox</bold>, trageți și plasați fișierele STL, selectați piesele încărcate și faceți clic pe „Acceptă”",
         "title": "Încărcați și acceptați piesele",
-        "tooltip": "Încărcați fișiere STL în Inbox, apoi acceptați piesele pe care doriți ca Funnel să le pregătească pentru imprimare."
+        "tooltip": "Încărcați piesele STL proiectate în Inbox, apoi verificați setările atribuite în vederea acceptării."
       }
     },
     "subtitle": "Finalizați pașii pentru a trimite joburile de printare către dispozitivele dvs.",

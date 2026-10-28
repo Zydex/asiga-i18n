@@ -16,7 +16,7 @@
       "acceptJobs": {
         "description": "Selecteer op de pagina <bold>Taken</bold> de taken en klik op “Accepteren”",
         "title": "Taken beoordelen",
-        "tooltip": "Funnel groepeert geaccepteerde onderdelen in printtaken. Beoordeel een taak en accepteer deze om die naar de printer te sturen."
+        "tooltip": "Beoordeel door Funnel aangemaakte taken voordat u ze accepteert om te printen."
       },
       "createTemplate": {
         "description": "Klik op de pagina <bold>Beheren</bold> / <bold>Sjablonen</bold> op “Maken”",
@@ -27,17 +27,17 @@
         "description": "Klik op de pagina <bold>Apparaten</bold> op “Apparaat toevoegen”",
         "firmware": "Download de <a>nieuwste firmware</a>",
         "title": "Een printer registreren",
-        "tooltip": "Registreer uw printers zodat Funnel ze kan bewaken en er printtaken naartoe kan sturen."
+        "tooltip": "Registreer uw printers zodat Funnel ze kan bewaken en printtaken kan versturen."
       },
       "inviteColleagues": {
         "description": "Klik op de pagina <bold>Beheren</bold> / <bold>Gebruikers</bold> op “Gebruiker toevoegen”",
         "title": "Collega's uitnodigen (Optioneel)",
-        "tooltip": "Nodig uw team uit zodat zij samen met u onderdelen kunnen uploaden, taken kunnen beoordelen en printers kunnen beheren."
+        "tooltip": "Nodig teamleden uit zodat zij samen met u onderdelen kunnen uploaden, taken kunnen beoordelen en printers kunnen beheren."
       },
       "uploadAcceptParts": {
         "description": "Sleep op de pagina <bold>Postvak IN</bold> uw STL-bestanden, selecteer de geüploade onderdelen en klik op “Accepteren”",
         "title": "Onderdelen uploaden en accepteren",
-        "tooltip": "Upload STL-bestanden naar het Postvak IN en accepteer vervolgens de onderdelen die Funnel voor het printen moet voorbereiden."
+        "tooltip": "Upload ontworpen STL-onderdelen naar het Postvak IN en beoordeel vervolgens de toegewezen instellingen voor acceptatie."
       }
     },
     "subtitle": "Doorloop de stappen om printtaken naar uw apparaten te sturen",

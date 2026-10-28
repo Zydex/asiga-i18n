@@ -16,7 +16,7 @@
       "acceptJobs": {
         "description": "Na stránce <bold>Zakázky</bold> vyberte zakázky a klikněte na „Přijmout“",
         "title": "Zkontrolovat zakázky",
-        "tooltip": "Funnel seskupuje přijaté díly do tiskových zakázek. Zkontrolujte zakázku a přijměte ji, aby byla odeslána na tiskárnu."
+        "tooltip": "Zkontrolujte zakázky vytvořené systémem Funnel před jejich přijetím k tisku."
       },
       "createTemplate": {
         "description": "Na stránce <bold>Spravovat</bold> / <bold>Šablony</bold> klikněte na „Vytvořit“",
@@ -27,17 +27,17 @@
         "description": "Na stránce <bold>Zařízení</bold> klikněte na „Přidat zařízení“",
         "firmware": "Stáhnout <a>nejnovější firmware</a>",
         "title": "Zaregistrovat tiskárnu",
-        "tooltip": "Zaregistrujte své tiskárny, aby je Funnel mohl sledovat a odesílat jim tiskové zakázky."
+        "tooltip": "Zaregistrujte své tiskárny, aby je Funnel mohl sledovat a odesílat tiskové zakázky."
       },
       "inviteColleagues": {
         "description": "Na stránce <bold>Spravovat</bold> / <bold>Uživatelé</bold> klikněte na „Přidat uživatele“",
         "title": "Pozvat kolegy (volitelné)",
-        "tooltip": "Pozvěte svůj tým, aby mohl společně s vámi nahrávat díly, kontrolovat zakázky a spravovat tiskárny."
+        "tooltip": "Pozvěte členy týmu, aby mohli společně s vámi nahrávat díly, kontrolovat zakázky a spravovat tiskárny."
       },
       "uploadAcceptParts": {
         "description": "Na stránce <bold>Doručená pošta</bold> přetáhněte soubory STL, vyberte nahrané díly a klikněte na „Přijmout“",
         "title": "Nahrát a přijmout díly",
-        "tooltip": "Nahrajte soubory STL do doručené pošty a poté přijměte díly, které má Funnel připravit k tisku."
+        "tooltip": "Nahrajte navržené díly STL do doručené pošty a poté zkontrolujte přiřazená nastavení k přijetí."
       }
     },
     "subtitle": "Dokončete kroky pro odesílání tiskových zakázek do vašich zařízení",

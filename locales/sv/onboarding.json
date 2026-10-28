@@ -16,7 +16,7 @@
       "acceptJobs": {
         "description": "På sidan <bold>Jobb</bold>, markera ett eller flera jobb och klicka på \"Acceptera\"",
         "title": "Granska jobb",
-        "tooltip": "Funnel grupperar accepterade delar i utskriftsjobb. Granska ett jobb och acceptera det för att skicka det till skrivaren."
+        "tooltip": "Granska jobb som skapats av Funnel innan du accepterar dem för utskrift."
       },
       "createTemplate": {
         "description": "På sidan <bold>Hantera</bold> / <bold>Mallar</bold>, klicka på \"Skapa\"",
@@ -27,17 +27,17 @@
         "description": "På sidan <bold>Enheter</bold>, klicka på \"Lägg till enhet\"",
         "firmware": "Ladda ner den <a>senaste firmwaren</a>",
         "title": "Registrera en skrivare",
-        "tooltip": "Registrera dina skrivare så att Funnel kan övervaka dem och skicka utskriftsjobb till dem."
+        "tooltip": "Registrera dina skrivare så att Funnel kan övervaka dem och skicka utskriftsjobb."
       },
       "inviteColleagues": {
         "description": "På sidan <bold>Hantera</bold> / <bold>Användare</bold>, klicka på \"Lägg till användare\"",
         "title": "Bjud in kollegor (valfritt)",
-        "tooltip": "Bjud in ditt team så att de kan ladda upp delar, granska jobb och hantera skrivare tillsammans med dig."
+        "tooltip": "Bjud in teammedlemmar så att de kan ladda upp delar, granska jobb och hantera skrivare tillsammans med dig."
       },
       "uploadAcceptParts": {
         "description": "På sidan <bold>Inkorg</bold>, dra och släpp dina STL-filer, välj uppladdade delar och klicka på \"Acceptera\"",
         "title": "Ladda upp och acceptera delar",
-        "tooltip": "Ladda upp STL-filer till Inkorgen och acceptera sedan de delar du vill att Funnel ska förbereda för utskrift."
+        "tooltip": "Ladda upp konstruerade STL-delar till Inkorgen och granska sedan de tilldelade inställningarna för godkännande."
       }
     },
     "subtitle": "Slutför stegen för att skicka utskriftsjobb till dina enheter",

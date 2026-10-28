@@ -16,7 +16,7 @@
       "acceptJobs": {
         "description": "Nella pagina <bold>Lavori</bold>, seleziona i lavori e fai clic su “Accetta”",
         "title": "Rivedi i lavori",
-        "tooltip": "Funnel raggruppa le parti accettate in lavori di stampa. Rivedi un lavoro e accettalo per inviarlo alla stampante."
+        "tooltip": "Rivedi i lavori creati da Funnel prima di accettarli per la stampa."
       },
       "createTemplate": {
         "description": "Nella pagina <bold>Gestisci</bold> / <bold>Modelli</bold>, fai clic su “Crea”",
@@ -27,17 +27,17 @@
         "description": "Nella pagina <bold>Dispositivi</bold>, fai clic su “Aggiungi dispositivo”",
         "firmware": "Scarica il <a>firmware più recente</a>",
         "title": "Registra una stampante",
-        "tooltip": "Registra le tue stampanti così che Funnel possa monitorarle e inviare loro lavori di stampa."
+        "tooltip": "Registra le tue stampanti così che Funnel possa monitorarle e inviare lavori di stampa."
       },
       "inviteColleagues": {
         "description": "Nella pagina <bold>Gestisci</bold> / <bold>Utenti</bold>, fai clic su “Aggiungi utente”",
         "title": "Invita colleghi (Facoltativo)",
-        "tooltip": "Invita il tuo team per caricare parti, rivedere lavori e gestire le stampanti insieme a te."
+        "tooltip": "Invita i membri del team per caricare parti, rivedere lavori e gestire le stampanti insieme a te."
       },
       "uploadAcceptParts": {
         "description": "Nella pagina <bold>Posta in arrivo</bold>, trascina e rilascia i tuoi file STL, seleziona le parti caricate e fai clic su “Accetta”",
         "title": "Carica e accetta le parti",
-        "tooltip": "Carica i file STL nella Posta in arrivo, poi accetta le parti che vuoi far preparare a Funnel per la stampa."
+        "tooltip": "Carica le parti STL progettate nella Posta in arrivo, poi rivedi le impostazioni assegnate per l'accettazione."
       }
     },
     "subtitle": "Completa i passaggi per inviare i lavori di stampa ai tuoi dispositivi",

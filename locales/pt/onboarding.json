@@ -16,7 +16,7 @@
       "acceptJobs": {
         "description": "Na página <bold>Trabalhos</bold>, selecione os trabalhos e clique em “Aceitar”",
         "title": "Rever trabalhos",
-        "tooltip": "O Funnel agrupa as peças aceites em trabalhos de impressão. Reveja um trabalho e aceite-o para o enviar para a impressora."
+        "tooltip": "Reveja os trabalhos criados pelo Funnel antes de os aceitar para impressão."
       },
       "createTemplate": {
         "description": "Na página <bold>Gerir</bold> / <bold>Modelos</bold>, clique em “Criar”",
@@ -27,17 +27,17 @@
         "description": "Na página <bold>Dispositivos</bold>, clique em “Adicionar Dispositivo”",
         "firmware": "Transferir o <a>firmware mais recente</a>",
         "title": "Registar uma impressora",
-        "tooltip": "Registe as suas impressoras para que o Funnel as possa monitorizar e enviar-lhes trabalhos de impressão."
+        "tooltip": "Registe as suas impressoras para que o Funnel as possa monitorizar e enviar trabalhos de impressão."
       },
       "inviteColleagues": {
         "description": "Na página <bold>Gerir</bold> / <bold>Utilizadores</bold>, clique em “Adicionar Utilizador”",
         "title": "Convidar colegas (Opcional)",
-        "tooltip": "Convide a sua equipa para que possam carregar peças, rever trabalhos e gerir impressoras consigo."
+        "tooltip": "Convide membros da equipa para que possam carregar peças, rever trabalhos e gerir impressoras consigo."
       },
       "uploadAcceptParts": {
         "description": "Na página <bold>Caixa de Entrada</bold>, arraste e largue os seus ficheiros STL, selecione as peças carregadas e clique em “Aceitar”",
         "title": "Carregar e aceitar peças",
-        "tooltip": "Carregue ficheiros STL para a Caixa de Entrada e depois aceite as peças que quer que o Funnel prepare para impressão."
+        "tooltip": "Carregue peças STL concebidas para a Caixa de Entrada e depois reveja as definições atribuídas para aceitação."
       }
     },
     "subtitle": "Conclua os passos para enviar trabalhos de impressão para os seus dispositivos",
