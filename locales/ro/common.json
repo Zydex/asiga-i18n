@@ -748,9 +748,14 @@
   "table": {
     "activeFilters": "Filtre active:",
     "clearFilters": "Șterge filtrele",
+    "columns": "Coloane",
     "expandRow": "Extinde rândul",
     "pageAmount": "Cantitate",
-    "perPage": "Pe pagină"
+    "perPage": "Pe pagină",
+    "view": {
+      "cards": "Vizualizare carduri",
+      "table": "Vizualizare tabel"
+    }
   },
   "title": {
     "cookiePolicy": "Politica privind cookie-urile",

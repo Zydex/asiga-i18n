@@ -9,6 +9,7 @@
     "exclude": "Ausschließen",
     "excludeDevice": "Von automatischen Druckaufträgen ausschließen",
     "includeDevice": "Für automatische Druckaufträge einschließen",
+    "manageSubscription": "Abonnement verwalten",
     "subscribePrinter": "Drucker abonnieren",
     "unsubscribePrinter": "Druckerabonnement kündigen"
   },
@@ -60,9 +61,12 @@
     "noDevicesReadOnly": "Bitten Sie einen Administrator oder Eigentümer in Ihrer Organisation, Geräte hinzuzufügen",
     "warnRemoveDevice": "Sie können dieses Gerät vom Funnel aus nicht mehr überwachen oder Druckaufträge daran senden.",
     "warnRemoveDevice_name": "Sie können {{device}} vom Funnel aus nicht mehr überwachen oder Druckaufträge daran senden.",
-    "willExcludeDevice": "Für diese Maschine werden keine Druckaufträge mehr erstellt, wenn sie ausgeschlossen ist"
+    "willExcludeDevice": "Für diese Maschine werden keine Druckaufträge mehr erstellt, wenn sie ausgeschlossen ist",
+    "willExcludeDevice_one": "Für diese Maschine werden keine Druckaufträge mehr erstellt, wenn sie ausgeschlossen ist",
+    "willExcludeDevice_other": "Für diese Maschinen werden keine Druckaufträge mehr erstellt, wenn sie ausgeschlossen sind"
   },
   "state": {
+    "buildQueued": "Build in Warteschlange",
     "canceled": "Abgebrochen",
     "canceled_error": "Fehler: Abgebrochen",
     "cancelling": "Wird abgebrochen",
@@ -78,9 +82,20 @@
     "staring": "Wird gestartet",
     "userbusy": "Benutzer beschäftigt"
   },
+  "table": {
+    "material": "Material",
+    "model": "Modell",
+    "name": "Name",
+    "printsAvailable": "Verfügbare Drucke",
+    "progress": "Fortschritt",
+    "status": "Status",
+    "tray": "Wanne"
+  },
   "title": {
     "devices": "Geräte",
     "excludeDevice": "{{device}} ausschließen?",
+    "excludeDevice_one": "{{device}} ausschließen?",
+    "excludeDevice_other": "{{count}} Geräte ausschließen?",
     "removeDevice": "Gerät entfernen?"
   },
   "tooltips": {

@@ -748,9 +748,14 @@
   "table": {
     "activeFilters": "Filtri attivi:",
     "clearFilters": "Cancella filtri",
+    "columns": "Colonne",
     "expandRow": "Espandi riga",
     "pageAmount": "Quantità",
-    "perPage": "Per pagina"
+    "perPage": "Per pagina",
+    "view": {
+      "cards": "Vista a schede",
+      "table": "Vista tabella"
+    }
   },
   "title": {
     "cookiePolicy": "Cookie policy",

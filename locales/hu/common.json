@@ -748,9 +748,14 @@
   "table": {
     "activeFilters": "Aktív szűrők:",
     "clearFilters": "Szűrők törlése",
+    "columns": "Oszlopok",
     "expandRow": "Sor kibontása",
     "pageAmount": "Mennyiség",
-    "perPage": "Oldalanként"
+    "perPage": "Oldalanként",
+    "view": {
+      "cards": "Kártyanézet",
+      "table": "Táblázatnézet"
+    }
   },
   "title": {
     "cookiePolicy": "Süti szabályzat",

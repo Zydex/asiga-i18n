@@ -748,9 +748,14 @@
   "table": {
     "activeFilters": "Active sieves:",
     "clearFilters": "Clear sieves",
+    "columns": "Columns",
     "expandRow": "Unfurl Row",
     "pageAmount": "Tally",
-    "perPage": "To a Page"
+    "perPage": "To a Page",
+    "view": {
+      "cards": "Behold as cards",
+      "table": "Behold as a chart"
+    }
   },
   "title": {
     "cookiePolicy": "Cookie articles",

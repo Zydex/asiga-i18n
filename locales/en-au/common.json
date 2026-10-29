@@ -748,9 +748,14 @@
   "table": {
     "activeFilters": "Active filters:",
     "clearFilters": "Clear filters",
+    "columns": "Columns",
     "expandRow": "Expand Row",
     "pageAmount": "Amount",
-    "perPage": "Per Page"
+    "perPage": "Per Page",
+    "view": {
+      "cards": "Card view",
+      "table": "Table view"
+    }
   },
   "title": {
     "cookiePolicy": "Cookie policy",

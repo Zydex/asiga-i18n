@@ -9,6 +9,7 @@
     "exclude": "Wyklucz",
     "excludeDevice": "Wyklucz z automatycznych zadań druku",
     "includeDevice": "Uwzględnij w automatycznych zadaniach druku",
+    "manageSubscription": "Zarządzaj subskrypcją",
     "subscribePrinter": "Subskrybuj drukarkę",
     "unsubscribePrinter": "Anuluj subskrypcję drukarki"
   },
@@ -60,9 +61,14 @@
     "noDevicesReadOnly": "Poproś administratora lub właściciela w swojej organizacji o dodanie urządzeń",
     "warnRemoveDevice": "Nie będziesz już mógł monitorować ani wysyłać zadań druku do tego urządzenia z Funnela.",
     "warnRemoveDevice_name": "Nie będziesz już mógł monitorować ani wysyłać zadań druku do {{device}} z Funnela.",
-    "willExcludeDevice": "Po wykluczeniu tego urządzenia zadania druku nie będą już dla niego tworzone"
+    "willExcludeDevice": "Po wykluczeniu tego urządzenia zadania druku nie będą już dla niego tworzone",
+    "willExcludeDevice_few": "Po wykluczeniu tych urządzeń zadania druku nie będą już dla nich tworzone",
+    "willExcludeDevice_many": "Po wykluczeniu tych urządzeń zadania druku nie będą już dla nich tworzone",
+    "willExcludeDevice_one": "Po wykluczeniu tego urządzenia zadania druku nie będą już dla niego tworzone",
+    "willExcludeDevice_other": "Po wykluczeniu tych urządzeń zadania druku nie będą już dla nich tworzone"
   },
   "state": {
+    "buildQueued": "Build w kolejce",
     "canceled": "Anulowano",
     "canceled_error": "Błąd: Anulowano",
     "cancelling": "Anulowanie",
@@ -78,9 +84,22 @@
     "staring": "Uruchamianie",
     "userbusy": "Użytkownik zajęty"
   },
+  "table": {
+    "material": "Materiał",
+    "model": "Model",
+    "name": "Nazwa",
+    "printsAvailable": "Dostępne wydruki",
+    "progress": "Postęp",
+    "status": "Status",
+    "tray": "Taca"
+  },
   "title": {
     "devices": "Urządzenia",
     "excludeDevice": "Wykluczyć {{device}}?",
+    "excludeDevice_few": "Wykluczyć {{count}} urządzenia?",
+    "excludeDevice_many": "Wykluczyć {{count}} urządzeń?",
+    "excludeDevice_one": "Wykluczyć {{device}}?",
+    "excludeDevice_other": "Wykluczyć {{count}} urządzenia?",
     "removeDevice": "Usunąć urządzenie?"
   },
   "tooltips": {

@@ -9,6 +9,7 @@
     "exclude": "Zárja ki",
     "excludeDevice": "Zárja ki az automatikus nyomtatási feladatokból",
     "includeDevice": "Vonja be az automatikus nyomtatási feladatokba",
+    "manageSubscription": "Előfizetés kezelése",
     "subscribePrinter": "Fizessen elő a nyomtatóra",
     "unsubscribePrinter": "Nyomtató előfizetésének lemondása"
   },
@@ -60,9 +61,12 @@
     "noDevicesReadOnly": "Kérje meg szervezete egyik rendszergazdáját vagy tulajdonosát, hogy adjon hozzá eszközöket",
     "warnRemoveDevice": "A továbbiakban nem fogja tudni figyelni ezt az eszközt, illetve nyomtatási feladatokat küldeni rá a Funnelből.",
     "warnRemoveDevice_name": "A továbbiakban nem fogja tudni figyelni a(z) {{device}} eszközt, illetve nyomtatási feladatokat küldeni rá a Funnelből.",
-    "willExcludeDevice": "A kizárás után a rendszer nem hoz létre nyomtatási feladatokat ehhez a géphez"
+    "willExcludeDevice": "A kizárás után a rendszer nem hoz létre nyomtatási feladatokat ehhez a géphez",
+    "willExcludeDevice_one": "A kizárás után a rendszer nem hoz létre nyomtatási feladatokat ehhez a géphez",
+    "willExcludeDevice_other": "A kizárás után a rendszer nem hoz létre nyomtatási feladatokat ezekhez a gépekhez"
   },
   "state": {
+    "buildQueued": "Build sorban áll",
     "canceled": "Megszakítva",
     "canceled_error": "Hiba: Megszakítva",
     "cancelling": "Megszakítás folyamatban",
@@ -78,9 +82,20 @@
     "staring": "Indítás",
     "userbusy": "Felhasználó foglalt"
   },
+  "table": {
+    "material": "Anyag",
+    "model": "Modell",
+    "name": "Név",
+    "printsAvailable": "Elérhető nyomtatások",
+    "progress": "Folyamat",
+    "status": "Állapot",
+    "tray": "Tálca"
+  },
   "title": {
     "devices": "Eszközök",
     "excludeDevice": "Kizárja a(z) {{device}} eszközt?",
+    "excludeDevice_one": "Kizárja a(z) {{device}} eszközt?",
+    "excludeDevice_other": "Kizárja ezt a(z) {{count}} eszközt?",
     "removeDevice": "Eltávolítja az eszközt?"
   },
   "tooltips": {

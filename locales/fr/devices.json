@@ -9,6 +9,7 @@
     "exclude": "Exclure",
     "excludeDevice": "Exclure des travaux d'impression automatiques",
     "includeDevice": "Inclure pour les travaux d'impression automatiques",
+    "manageSubscription": "Gérer l'abonnement",
     "subscribePrinter": "Abonner l'imprimante",
     "unsubscribePrinter": "Désabonner l'imprimante"
   },
@@ -60,9 +61,12 @@
     "noDevicesReadOnly": "Demandez à un administrateur ou à un propriétaire de votre organisation d'ajouter des appareils",
     "warnRemoveDevice": "Vous ne pourrez plus surveiller ni envoyer de travaux d'impression à cet appareil depuis le Funnel.",
     "warnRemoveDevice_name": "Vous ne pourrez plus surveiller ni envoyer de travaux d'impression à {{device}} depuis le Funnel.",
-    "willExcludeDevice": "Les travaux d'impression ne seront plus créés pour cette machine lorsqu'elle sera exclue"
+    "willExcludeDevice": "Les travaux d'impression ne seront plus créés pour cette machine lorsqu'elle sera exclue",
+    "willExcludeDevice_one": "Les travaux d'impression ne seront plus créés pour cette machine lorsqu'elle sera exclue",
+    "willExcludeDevice_other": "Les travaux d'impression ne seront plus créés pour ces machines lorsqu'elles seront exclues"
   },
   "state": {
+    "buildQueued": "Impression en file d'attente",
     "canceled": "Annulé",
     "canceled_error": "Erreur : Annulé",
     "cancelling": "Annulation",
@@ -78,9 +82,20 @@
     "staring": "Démarrage",
     "userbusy": "Utilisateur occupé"
   },
+  "table": {
+    "material": "Matériau",
+    "model": "Modèle",
+    "name": "Nom",
+    "printsAvailable": "Impressions disponibles",
+    "progress": "Progression",
+    "status": "Statut",
+    "tray": "Bac"
+  },
   "title": {
     "devices": "Appareils",
     "excludeDevice": "Exclure {{device}} ?",
+    "excludeDevice_one": "Exclure {{device}} ?",
+    "excludeDevice_other": "Exclure {{count}} appareils ?",
     "removeDevice": "Supprimer l'appareil ?"
   },
   "tooltips": {
