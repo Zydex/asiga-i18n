@@ -145,7 +145,7 @@
     "deviceOffline": "{{device}} je offline",
     "deviceOffline_one": "{{device}} je offline",
     "deviceOffline_other": "Více tiskáren je offline",
-    "jobNumber": "Číslo úlohy",
+    "jobNumber": "ID úlohy",
     "material": "Materiál",
     "moveOffline": "Přepracovat úlohu offline?",
     "moveOffline_one": "Přepracovat úlohu offline?",

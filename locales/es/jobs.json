@@ -145,7 +145,7 @@
     "deviceOffline": "{{device}} está sin conexión",
     "deviceOffline_one": "{{device}} está sin conexión",
     "deviceOffline_other": "Varias impresoras están sin conexión",
-    "jobNumber": "Número de trabajo",
+    "jobNumber": "ID de trabajo",
     "material": "Material",
     "moveOffline": "¿Reprocesar trabajo sin conexión?",
     "moveOffline_one": "¿Reprocesar trabajo sin conexión?",

@@ -145,7 +145,7 @@
     "deviceOffline": "{{device}} is offline",
     "deviceOffline_one": "{{device}} is offline",
     "deviceOffline_other": "Meerdere printers zijn offline",
-    "jobNumber": "Taaknummer",
+    "jobNumber": "Taak-ID",
     "material": "Materiaal",
     "moveOffline": "Taak offline herwerken?",
     "moveOffline_one": "Taak offline herwerken?",

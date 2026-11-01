@@ -145,7 +145,7 @@
     "deviceOffline": "{{device}} está offline",
     "deviceOffline_one": "{{device}} está offline",
     "deviceOffline_other": "Várias impressoras estão offline",
-    "jobNumber": "Número do Trabalho",
+    "jobNumber": "ID do Trabalho",
     "material": "Material",
     "moveOffline": "Retrabalhar trabalho offline?",
     "moveOffline_one": "Retrabalhar trabalho offline?",

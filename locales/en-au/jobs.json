@@ -145,7 +145,7 @@
     "deviceOffline": "{{device}} is offline",
     "deviceOffline_one": "{{device}} is offline",
     "deviceOffline_other": "Multiple printers are offline",
-    "jobNumber": "Job Number",
+    "jobNumber": "Job ID",
     "material": "Material",
     "moveOffline": "Rework job offline?",
     "moveOffline_one": "Rework job offline?",

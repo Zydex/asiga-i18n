@@ -145,7 +145,7 @@
     "deviceOffline": "{{device}} este offline",
     "deviceOffline_one": "{{device}} este offline",
     "deviceOffline_other": "Mai multe imprimante sunt offline",
-    "jobNumber": "Număr job",
+    "jobNumber": "ID job",
     "material": "Material",
     "moveOffline": "Reprelucrezi jobul offline?",
     "moveOffline_one": "Reprelucrezi jobul offline?",

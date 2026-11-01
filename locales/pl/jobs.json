@@ -145,7 +145,7 @@
     "deviceOffline": "{{device}} jest offline",
     "deviceOffline_one": "{{device}} jest offline",
     "deviceOffline_other": "Kilka drukarek jest offline",
-    "jobNumber": "Numer zadania",
+    "jobNumber": "ID zadania",
     "material": "Materiał",
     "moveOffline": "Przerobić zadanie offline?",
     "moveOffline_one": "Przerobić zadanie offline?",

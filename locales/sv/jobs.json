@@ -145,7 +145,7 @@
     "deviceOffline": "{{device}} är offline",
     "deviceOffline_one": "{{device}} är offline",
     "deviceOffline_other": "Flera skrivare är offline",
-    "jobNumber": "Jobbnummer",
+    "jobNumber": "Jobb-ID",
     "material": "Material",
     "moveOffline": "Omarbeta jobbet offline?",
     "moveOffline_one": "Omarbeta jobbet offline?",
