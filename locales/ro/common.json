@@ -184,6 +184,7 @@
     "organisationViewForbidden": "Nu aveți permisiunea de a vizualiza această organizație.",
     "organisationViewUsersForbidden": "Nu aveți permisiunea de a vizualiza utilizatorii acestei organizații.",
     "orgConsentRequired": "Organizația dvs. trebuie să semneze Acordul de asociat de afaceri înainte de a putea încărca piese.",
+    "orgNoPrintCapacity": "Organizația ta nu are printări gratuite disponibile. Abonează o imprimantă sau așteaptă reînnoirea printărilor gratuite.",
     "partCancelIncorrectState": "Nu aveți permisiunea de a anula o piesă care nu așteaptă încărcarea.",
     "partCreateForbidden": "Nu aveți permisiunea de a crea o piesă pentru această organizație.",
     "partDeleteForbidden": "Nu aveți permisiunea de a șterge o piesă pentru această organizație.",
