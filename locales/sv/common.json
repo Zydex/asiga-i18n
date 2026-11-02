@@ -184,6 +184,7 @@
     "organisationViewForbidden": "Du har inte behörighet att visa denna organisation.",
     "organisationViewUsersForbidden": "Du har inte behörighet att visa användarna för denna organisation.",
     "orgConsentRequired": "Din organisation måste signera Business Associate Agreement innan delar kan laddas upp.",
+    "orgNoPrintCapacity": "Din organisation har inga kostnadsfria utskrifter tillgängliga. Starta en skrivarprenumeration eller vänta tills de kostnadsfria utskrifterna förnyas.",
     "partCancelIncorrectState": "Du har inte behörighet att avbryta en del som inte väntar på uppladdning.",
     "partCreateForbidden": "Du har inte behörighet att skapa en del för denna organisation.",
     "partDeleteForbidden": "Du har inte behörighet att ta bort en del för denna organisation.",

@@ -184,6 +184,7 @@
     "organisationViewForbidden": "Nemáte oprávnění zobrazit tuto organizaci.",
     "organisationViewUsersForbidden": "Nemáte oprávnění zobrazit uživatele této organizace.",
     "orgConsentRequired": "Než bude možné nahrávat díly, musí vaše organizace podepsat smlouvu Business Associate Agreement.",
+    "orgNoPrintCapacity": "Vaše organizace nemá k dispozici žádné bezplatné tisky. Předplaťte tiskárnu, nebo počkejte na obnovení bezplatných tisků.",
     "partCancelIncorrectState": "Nemáte oprávnění zrušit díl, který nečeká na nahrání.",
     "partCreateForbidden": "Nemáte oprávnění vytvořit díl pro tuto organizaci.",
     "partDeleteForbidden": "Nemáte oprávnění smazat díl pro tuto organizaci.",

@@ -184,6 +184,7 @@
     "organisationViewForbidden": "Vous n'êtes pas autorisé à voir cette organisation.",
     "organisationViewUsersForbidden": "Vous n'êtes pas autorisé à voir les utilisateurs de cette organisation.",
     "orgConsentRequired": "Votre organisation doit signer le Business Associate Agreement avant de pouvoir téléverser des pièces.",
+    "orgNoPrintCapacity": "Votre organisation n'a plus d'impressions gratuites disponibles. Abonnez une imprimante ou attendez le renouvellement des impressions gratuites.",
     "partCancelIncorrectState": "Vous n'êtes pas autorisé à annuler une pièce qui n'est pas en attente de téléchargement.",
     "partCreateForbidden": "Vous n'êtes pas autorisé à créer une pièce pour cette organisation.",
     "partDeleteForbidden": "Vous n'êtes pas autorisé à supprimer une pièce pour cette organisation.",

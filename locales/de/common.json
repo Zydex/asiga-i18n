@@ -184,6 +184,7 @@
     "organisationViewForbidden": "Sie sind nicht berechtigt, diese Organisation anzuzeigen.",
     "organisationViewUsersForbidden": "Sie sind nicht berechtigt, die Benutzer dieser Organisation anzuzeigen.",
     "orgConsentRequired": "Ihre Organisation muss das Business Associate Agreement unterzeichnen, bevor Teile hochgeladen werden können.",
+    "orgNoPrintCapacity": "Ihre Organisation hat keine kostenlosen Drucke mehr verfügbar. Abonnieren Sie einen Drucker oder warten Sie, bis sich die kostenlosen Drucke erneuern.",
     "partCancelIncorrectState": "Sie dürfen kein Teil stornieren, das nicht auf einen Upload wartet.",
     "partCreateForbidden": "Sie sind nicht berechtigt, ein Teil für diese Organisation zu erstellen.",
     "partDeleteForbidden": "Sie sind nicht berechtigt, ein Teil für diese Organisation zu löschen.",

@@ -184,6 +184,7 @@
     "organisationViewForbidden": "Ye ain't allowed to view this crew.",
     "organisationViewUsersForbidden": "Ye ain't allowed to view th' crewmates o' this crew.",
     "orgConsentRequired": "Yer crew must sign th' Business Associate Agreement afore trinkets can be hoisted aboard.",
+    "orgNoPrintCapacity": "Yer crew has no free forgin's available. Pay th' tithe fer a contraption, or wait fer th' free forgin's to renew.",
     "partCancelIncorrectState": "Ye ain't allowed to belay a trinket that ain't pendin' a hoist aboard.",
     "partCreateForbidden": "Ye ain't allowed to create a trinket for this crew.",
     "partDeleteForbidden": "Ye ain't allowed to scuttle a trinket for this crew.",

@@ -184,6 +184,7 @@
     "organisationViewForbidden": "Nincs jogosultsága megtekinteni ezt a szervezetet.",
     "organisationViewUsersForbidden": "Nincs jogosultsága megtekinteni ennek a szervezetnek a felhasználóit.",
     "orgConsentRequired": "Az alkatrészek feltöltése előtt szervezetének alá kell írnia az Üzleti partneri megállapodást.",
+    "orgNoPrintCapacity": "Szervezetének nincs elérhető ingyenes nyomtatása. Fizessen elő egy nyomtatóra, vagy várja meg az ingyenes nyomtatások megújulását.",
     "partCancelIncorrectState": "Nincs jogosultsága megszakítani egy olyan alkatrészt, amely nincs feltöltésre várva.",
     "partCreateForbidden": "Nincs jogosultsága alkatrészt létrehozni ehhez a szervezethez.",
     "partDeleteForbidden": "Nincs jogosultsága törölni ennek a szervezetnek egy alkatrészét.",

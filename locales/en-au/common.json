@@ -184,6 +184,7 @@
     "organisationViewForbidden": "You are not allowed to view this organisation.",
     "organisationViewUsersForbidden": "You are not allowed to view users this organisation.",
     "orgConsentRequired": "Your organisation must sign the Business Associate Agreement before parts can be uploaded.",
+    "orgNoPrintCapacity": "Your organisation has no free prints available. Subscribe a printer, or wait for the free prints to renew.",
     "partCancelIncorrectState": "You are not allowed to cancel a part that is not pending upload.",
     "partCreateForbidden": "You are not allowed to create a part for this organisation.",
     "partDeleteForbidden": "You are not allowed to delete a part for this organisation.",

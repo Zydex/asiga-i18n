@@ -184,6 +184,7 @@
     "organisationViewForbidden": "U mag deze organisatie niet bekijken.",
     "organisationViewUsersForbidden": "U mag de gebruikers van deze organisatie niet bekijken.",
     "orgConsentRequired": "Uw organisatie moet de Business Associate Agreement ondertekenen voordat er onderdelen kunnen worden geüpload.",
+    "orgNoPrintCapacity": "Uw organisatie heeft geen gratis prints beschikbaar. Abonneer een printer of wacht tot de gratis prints worden vernieuwd.",
     "partCancelIncorrectState": "U mag een onderdeel dat niet in afwachting is van een upload niet annuleren.",
     "partCreateForbidden": "U mag geen onderdeel aanmaken voor deze organisatie.",
     "partDeleteForbidden": "U mag geen onderdeel verwijderen voor deze organisatie.",

@@ -184,6 +184,7 @@
     "organisationViewForbidden": "No tienes permitido ver esta organización.",
     "organisationViewUsersForbidden": "No tienes permitido ver los usuarios de esta organización.",
     "orgConsentRequired": "Tu organización debe firmar el Acuerdo de Asociado Comercial antes de poder cargar piezas.",
+    "orgNoPrintCapacity": "Tu organización no tiene impresiones gratuitas disponibles. Suscribe una impresora o espera a que se renueven las impresiones gratuitas.",
     "partCancelIncorrectState": "No tienes permitido cancelar una pieza que no está pendiente de carga.",
     "partCreateForbidden": "No tienes permitido crear una pieza para esta organización.",
     "partDeleteForbidden": "No tienes permitido eliminar una pieza para esta organización.",
