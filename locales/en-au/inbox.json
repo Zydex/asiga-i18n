@@ -11,7 +11,9 @@
     "deprioritise": "Clear Priority",
     "download": "Download",
     "duplicate": "Duplicate",
+    "enrolPrinter": "Enrol Printer",
     "expand": "Expand",
+    "manageSubscription": "Manage Subscription",
     "moveToReview": "Move To Review",
     "partType": "Part type",
     "prioritise": "Prioritise",
@@ -131,7 +133,10 @@
     "reprocessPart_one": "{{name}} was previously added.\n\nReprocessing this part will create another copy in the Funnel for printing.",
     "reprocessPart_other": "{{count}} parts were previously added to the funnel.\n\nReprocessing this part will create another copy in the Funnel for printing.",
     "reprocessPart_time_one": "{{name}} was previously added on {{time}}.\n\nReprocessing this part will create another copy in the Funnel for printing.",
-    "reprocessPart_time_other": "{{count}} parts were previously added to the funnel.\n\nReprocessing this part will create another copy in the Funnel for printing."
+    "reprocessPart_time_other": "{{count}} parts were previously added to the funnel.\n\nReprocessing this part will create another copy in the Funnel for printing.",
+    "noPrintCapacityNoPrinters": "Parts can only be uploaded once there is a printer to print them. Enrol a printer to start uploading parts.",
+    "noPrintCapacity": "All printers have used their free prints for this period. Subscribe a printer for unlimited prints, or wait for the free prints to renew before uploading more parts.",
+    "noPrintCapacityReadOnly": "All printers have used their free prints for this period. Ask an Admin or Owner in your organisation to subscribe a printer for unlimited prints, or wait for the free prints to renew before uploading more parts."
   },
   "subscriptionNotice": {
     "approaching": {
@@ -190,6 +195,7 @@
     "approvePrintJobs": "Approve print jobs",
     "inbox": "Inbox",
     "name": "Name",
+    "noPrintCapacity": "No prints available",
     "partType": "Part type",
     "received": "Received",
     "reprocessPart_one": "Reprocess {{name}}?",
