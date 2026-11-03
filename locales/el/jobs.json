@@ -145,7 +145,7 @@
     "deviceOffline": "{{device}} είναι εκτός σύνδεσης",
     "deviceOffline_one": "{{device}} είναι εκτός σύνδεσης",
     "deviceOffline_other": "Πολλοί εκτυπωτές είναι εκτός σύνδεσης",
-    "jobNumber": "Αριθμός εργασίας",
+    "jobNumber": "ID εργασίας",
     "material": "Υλικό",
     "moveOffline": "Επανεπεξεργασία εργασίας εκτός σύνδεσης;",
     "moveOffline_one": "Επανεπεξεργασία εργασίας εκτός σύνδεσης;",

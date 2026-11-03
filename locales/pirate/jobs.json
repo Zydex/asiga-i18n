@@ -145,7 +145,7 @@
     "deviceOffline": "{{device}} be offline",
     "deviceOffline_one": "{{device}} be offline",
     "deviceOffline_other": "Several contraptions be offline",
-    "jobNumber": "Voyage Number",
+    "jobNumber": "Voyage ID",
     "material": "Grog",
     "moveOffline": "Rework voyage ashore?",
     "moveOffline_one": "Rework voyage ashore?",

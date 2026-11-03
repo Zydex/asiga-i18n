@@ -145,7 +145,7 @@
     "deviceOffline": "{{device}} ist offline",
     "deviceOffline_one": "{{device}} ist offline",
     "deviceOffline_other": "Mehrere Drucker sind offline",
-    "jobNumber": "Auftragsnummer",
+    "jobNumber": "Auftrags-ID",
     "material": "Material",
     "moveOffline": "Auftrag offline überarbeiten?",
     "moveOffline_one": "Auftrag offline überarbeiten?",

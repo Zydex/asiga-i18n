@@ -145,7 +145,7 @@
     "deviceOffline": "{{device}} est hors ligne",
     "deviceOffline_one": "{{device}} est hors ligne",
     "deviceOffline_other": "Plusieurs imprimantes sont hors ligne",
-    "jobNumber": "Numéro de tâche",
+    "jobNumber": "ID de tâche",
     "material": "Matériau",
     "moveOffline": "Retravailler la tâche hors ligne ?",
     "moveOffline_one": "Retravailler la tâche hors ligne ?",

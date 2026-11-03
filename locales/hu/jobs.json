@@ -145,7 +145,7 @@
     "deviceOffline": "A(z) {{device}} offline állapotban van",
     "deviceOffline_one": "A(z) {{device}} offline állapotban van",
     "deviceOffline_other": "Több nyomtató offline állapotban van.",
-    "jobNumber": "Munkaszám",
+    "jobNumber": "Munkaazonosító",
     "material": "Anyag",
     "moveOffline": "Munka átdolgozása offline módban?",
     "moveOffline_one": "Munka átdolgozása offline módban?",
