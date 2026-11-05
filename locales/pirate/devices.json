@@ -11,11 +11,14 @@
     "includeDevice": "Enlist for Automatic Forge Voyages",
     "manageSubscription": "Command Tithe",
     "subscribePrinter": "Tithe Contraption",
-    "unsubscribePrinter": "Stop Tithin' Contraption"
+    "unsubscribePrinter": "Stop Tithin' Contraption",
+    "viewOlderJobs": "Spy Older Voyages"
   },
   "details": {
+    "aboutDevice": "About Contraption",
     "aboutPrinter": "About Contraption",
     "currentBuild": "Current Haul",
+    "funnelJobHistory": "Funnel Voyage Log",
     "printStatus": "Forge Status",
     "queuedBuild": "Hauls Waitin'"
   },
@@ -26,6 +29,11 @@
     "excludedDevice": "Contraption has been barred from receivin' forge voyages from th' Funnel",
     "freePrintsRemaining": "Th' tally o' free Funnel forgin's this contraption has left this month",
     "freePrintsUntilReset": "Th' tally o' free Funnel forgin's this contraption has left 'til its ration be restocked come {{date}}",
+    "jobHistory": {
+      "jobId": "Voyage ID",
+      "openJob": "Open voyage {{tag}}",
+      "printDate": "Forgin' Date"
+    },
     "licenceEnding": "This contraption's licence be cancelled come {{date}}",
     "licensedDevice": "This contraption be signed on an' can take boundless Funnel forge voyages",
     "printsRemaining": "{{remaining}}/{{allowance}}",
@@ -59,6 +67,9 @@
     "noDevices": "No Contraptions",
     "noDevicesNeedAttention": "No contraptions currently need tendin'",
     "noDevicesReadOnly": "Ask a Quartermaster or Cap'n in yer crew to add contraptions",
+    "noJobHistory": "No Funnel voyages have been forged on this contraption.",
+    "noQueuedBuilds": "No hauls waitin'.",
+    "queuedBuildsWhenConnected": "Hauls waitin' be shown while the contraption be connected.",
     "warnRemoveDevice": "Ye will no longer be able to watch or send forge voyages to this contraption from th' Funnel.",
     "warnRemoveDevice_name": "Ye will no longer be able to watch or send forge voyages to {{device}} from th' Funnel.",
     "willExcludeDevice": "Forge Voyages will no longer be created for this contraption once it be barred",

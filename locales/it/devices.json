@@ -11,11 +11,14 @@
     "includeDevice": "Includi nei lavori di stampa automatici",
     "manageSubscription": "Gestisci abbonamento",
     "subscribePrinter": "Abbona stampante",
-    "unsubscribePrinter": "Annulla abbonamento stampante"
+    "unsubscribePrinter": "Annulla abbonamento stampante",
+    "viewOlderJobs": "Visualizza lavori precedenti"
   },
   "details": {
+    "aboutDevice": "Informazioni sul dispositivo",
     "aboutPrinter": "Informazioni sulla stampante",
     "currentBuild": "Build corrente",
+    "funnelJobHistory": "Cronologia lavori del Funnel",
     "printStatus": "Stato di stampa",
     "queuedBuild": "Build accodate"
   },
@@ -26,6 +29,11 @@
     "excludedDevice": "Il dispositivo è stato escluso dalla ricezione dei lavori di stampa dal Funnel",
     "freePrintsRemaining": "Il numero di stampe Funnel gratuite rimanenti per questo dispositivo in questo mese",
     "freePrintsUntilReset": "Il numero di stampe Funnel gratuite rimanenti per questo dispositivo fino al ripristino della sua quota il {{date}}",
+    "jobHistory": {
+      "jobId": "ID lavoro",
+      "openJob": "Apri lavoro {{tag}}",
+      "printDate": "Data di stampa"
+    },
     "licenceEnding": "La licenza di questo dispositivo verrà annullata il {{date}}",
     "licensedDevice": "Questo dispositivo è in abbonamento e può ricevere lavori di stampa Funnel illimitati",
     "printsRemaining": "{{remaining}}/{{allowance}}",
@@ -59,6 +67,9 @@
     "noDevices": "Nessun dispositivo",
     "noDevicesNeedAttention": "Nessun dispositivo richiede attualmente attenzione",
     "noDevicesReadOnly": "Chiedi a un Amministratore o Proprietario della tua organizzazione di aggiungere dispositivi",
+    "noJobHistory": "Nessun lavoro del Funnel è stato stampato su questo dispositivo.",
+    "noQueuedBuilds": "Nessuna build accodata.",
+    "queuedBuildsWhenConnected": "Le build accodate vengono mostrate mentre la stampante è connessa.",
     "warnRemoveDevice": "Non sarai più in grado di monitorare o inviare lavori di stampa a questo dispositivo dal Funnel.",
     "warnRemoveDevice_name": "Non sarai più in grado di monitorare o inviare lavori di stampa a {{device}} dal Funnel.",
     "willExcludeDevice": "I lavori di stampa non verranno più creati per questa macchina una volta esclusa",

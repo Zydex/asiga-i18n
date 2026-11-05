@@ -11,11 +11,14 @@
     "includeDevice": "Für automatische Druckaufträge einschließen",
     "manageSubscription": "Abonnement verwalten",
     "subscribePrinter": "Drucker abonnieren",
-    "unsubscribePrinter": "Druckerabonnement kündigen"
+    "unsubscribePrinter": "Druckerabonnement kündigen",
+    "viewOlderJobs": "Ältere Aufträge anzeigen"
   },
   "details": {
+    "aboutDevice": "Über das Gerät",
     "aboutPrinter": "Über den Drucker",
     "currentBuild": "Aktueller Build",
+    "funnelJobHistory": "Funnel-Auftragsverlauf",
     "printStatus": "Druckstatus",
     "queuedBuild": "Builds in der Warteschlange"
   },
@@ -26,6 +29,11 @@
     "excludedDevice": "Das Gerät wurde von den Druckaufträgen des Funnels ausgeschlossen",
     "freePrintsRemaining": "Die Anzahl der kostenlosen Funnel-Drucke, die diesem Gerät in diesem Monat noch verbleiben",
     "freePrintsUntilReset": "Die Anzahl der kostenlosen Funnel-Drucke, die diesem Gerät bis zur Zurücksetzung seines Kontingents am {{date}} verbleiben",
+    "jobHistory": {
+      "jobId": "Auftrags-ID",
+      "openJob": "Auftrag {{tag}} öffnen",
+      "printDate": "Druckdatum"
+    },
     "licenceEnding": "Die Lizenz dieses Geräts wird am {{date}} gekündigt",
     "licensedDevice": "Dieses Gerät ist abonniert und kann unbegrenzt Funnel-Druckaufträge empfangen",
     "printsRemaining": "{{remaining}}/{{allowance}}",
@@ -59,6 +67,9 @@
     "noDevices": "Keine Geräte",
     "noDevicesNeedAttention": "Derzeit benötigt kein Gerät Aufmerksamkeit",
     "noDevicesReadOnly": "Bitten Sie einen Administrator oder Eigentümer in Ihrer Organisation, Geräte hinzuzufügen",
+    "noJobHistory": "Auf diesem Gerät wurden keine Funnel-Aufträge gedruckt.",
+    "noQueuedBuilds": "Keine Builds in der Warteschlange.",
+    "queuedBuildsWhenConnected": "Builds in der Warteschlange werden angezeigt, solange der Drucker verbunden ist.",
     "warnRemoveDevice": "Sie können dieses Gerät vom Funnel aus nicht mehr überwachen oder Druckaufträge daran senden.",
     "warnRemoveDevice_name": "Sie können {{device}} vom Funnel aus nicht mehr überwachen oder Druckaufträge daran senden.",
     "willExcludeDevice": "Für diese Maschine werden keine Druckaufträge mehr erstellt, wenn sie ausgeschlossen ist",

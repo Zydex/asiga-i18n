@@ -11,11 +11,14 @@
     "includeDevice": "Inkludera för automatiska utskriftsjobb",
     "manageSubscription": "Hantera prenumeration",
     "subscribePrinter": "Starta skrivarprenumeration",
-    "unsubscribePrinter": "Avsluta skrivarprenumeration"
+    "unsubscribePrinter": "Avsluta skrivarprenumeration",
+    "viewOlderJobs": "Visa äldre jobb"
   },
   "details": {
+    "aboutDevice": "Om enheten",
     "aboutPrinter": "Om skrivaren",
     "currentBuild": "Aktuell utskrift",
+    "funnelJobHistory": "Funnel-jobbhistorik",
     "printStatus": "Utskriftsstatus",
     "queuedBuild": "Köade utskrifter"
   },
@@ -26,6 +29,11 @@
     "excludedDevice": "Enheten har exkluderats från att ta emot utskriftsjobb från Funnel",
     "freePrintsRemaining": "Antalet kostnadsfria Funnel-utskrifter som denna enhet har kvar den här månaden",
     "freePrintsUntilReset": "Antalet kostnadsfria Funnel-utskrifter som denna enhet har kvar tills dess kvot återställs den {{date}}",
+    "jobHistory": {
+      "jobId": "Jobb-ID",
+      "openJob": "Öppna jobb {{tag}}",
+      "printDate": "Utskriftsdatum"
+    },
     "licenceEnding": "Enhetens licens kommer att sägas upp den {{date}}",
     "licensedDevice": "Den här enheten har ett abonnemang och kan ta emot obegränsat antal utskriftsjobb från Funnel",
     "printsRemaining": "{{remaining}}/{{allowance}}",
@@ -59,6 +67,9 @@
     "noDevices": "Inga enheter",
     "noDevicesNeedAttention": "Inga enheter kräver för närvarande uppmärksamhet",
     "noDevicesReadOnly": "Be en administratör eller ägare i din organisation att lägga till enheter",
+    "noJobHistory": "Inga Funnel-jobb har skrivits ut på den här enheten.",
+    "noQueuedBuilds": "Inga köade utskrifter.",
+    "queuedBuildsWhenConnected": "Köade utskrifter visas medan skrivaren är ansluten.",
     "warnRemoveDevice": "Du kommer inte längre att kunna övervaka eller skicka utskriftsjobb till denna enhet från Funnel.",
     "warnRemoveDevice_name": "Du kommer inte längre att kunna övervaka eller skicka utskriftsjobb till {{device}} från Funnel.",
     "willExcludeDevice": "Utskriftsjobb kommer inte längre att skapas för denna maskin när den exkluderas",
