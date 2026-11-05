@@ -11,11 +11,14 @@
     "includeDevice": "Opnemen voor automatische printtaken",
     "manageSubscription": "Abonnement beheren",
     "subscribePrinter": "Printer Abonneren",
-    "unsubscribePrinter": "Printerabonnement Opzeggen"
+    "unsubscribePrinter": "Printerabonnement Opzeggen",
+    "viewOlderJobs": "Oudere taken bekijken"
   },
   "details": {
+    "aboutDevice": "Over het apparaat",
     "aboutPrinter": "Over de printer",
     "currentBuild": "Huidige build",
+    "funnelJobHistory": "Funnel-takengeschiedenis",
     "printStatus": "Printstatus",
     "queuedBuild": "Builds in de wachtrij"
   },
@@ -26,6 +29,11 @@
     "excludedDevice": "Apparaat is uitgesloten van het ontvangen van printtaken van de Funnel",
     "freePrintsRemaining": "Het aantal gratis Funnel-prints dat dit apparaat deze maand nog over heeft",
     "freePrintsUntilReset": "Het aantal gratis Funnel-prints dat dit apparaat nog over heeft totdat het tegoed op {{date}} wordt gereset",
+    "jobHistory": {
+      "jobId": "Taak-ID",
+      "openJob": "Taak {{tag}} openen",
+      "printDate": "Printdatum"
+    },
     "licenceEnding": "De licentie van dit apparaat wordt op {{date}} geannuleerd",
     "licensedDevice": "Dit apparaat heeft een abonnement en kan onbeperkt Funnel-printtaken ontvangen",
     "printsRemaining": "{{remaining}}/{{allowance}}",
@@ -59,6 +67,9 @@
     "noDevices": "Geen apparaten",
     "noDevicesNeedAttention": "Geen enkel apparaat vereist momenteel aandacht",
     "noDevicesReadOnly": "Vraag een beheerder of eigenaar in uw organisatie om apparaten toe te voegen",
+    "noJobHistory": "Er zijn geen Funnel-taken op dit apparaat geprint.",
+    "noQueuedBuilds": "Geen builds in de wachtrij.",
+    "queuedBuildsWhenConnected": "Builds in de wachtrij worden weergegeven zolang de printer verbonden is.",
     "warnRemoveDevice": "U kunt dit apparaat niet langer bewaken of er printtaken vanuit de Funnel naartoe sturen.",
     "warnRemoveDevice_name": "U kunt {{device}} niet langer bewaken of er printtaken vanuit de Funnel naartoe sturen.",
     "willExcludeDevice": "Er worden geen printtaken meer aangemaakt voor deze machine wanneer deze is uitgesloten",

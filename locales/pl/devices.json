@@ -11,11 +11,14 @@
     "includeDevice": "Uwzględnij w automatycznych zadaniach druku",
     "manageSubscription": "Zarządzaj subskrypcją",
     "subscribePrinter": "Subskrybuj drukarkę",
-    "unsubscribePrinter": "Anuluj subskrypcję drukarki"
+    "unsubscribePrinter": "Anuluj subskrypcję drukarki",
+    "viewOlderJobs": "Wyświetl starsze zadania"
   },
   "details": {
+    "aboutDevice": "O urządzeniu",
     "aboutPrinter": "O drukarce",
     "currentBuild": "Bieżący build",
+    "funnelJobHistory": "Historia zadań Funnela",
     "printStatus": "Status druku",
     "queuedBuild": "Buildy w kolejce"
   },
@@ -26,6 +29,11 @@
     "excludedDevice": "Urządzenie zostało wykluczone z otrzymywania zadań druku z Funnela",
     "freePrintsRemaining": "Liczba darmowych wydruków z Funnela pozostałych dla tego urządzenia w tym miesiącu",
     "freePrintsUntilReset": "Liczba darmowych wydruków z Funnela pozostałych dla tego urządzenia do odnowienia limitu dnia {{date}}",
+    "jobHistory": {
+      "jobId": "ID zadania",
+      "openJob": "Otwórz zadanie {{tag}}",
+      "printDate": "Data druku"
+    },
     "licenceEnding": "Licencja tego urządzenia zostanie anulowana dnia {{date}}",
     "licensedDevice": "To urządzenie ma subskrypcję i może otrzymywać nieograniczoną liczbę zadań druku z Funnela",
     "printsRemaining": "{{remaining}}/{{allowance}}",
@@ -59,6 +67,9 @@
     "noDevices": "Brak urządzeń",
     "noDevicesNeedAttention": "Żadne urządzenia obecnie nie wymagają uwagi",
     "noDevicesReadOnly": "Poproś administratora lub właściciela w swojej organizacji o dodanie urządzeń",
+    "noJobHistory": "Na tym urządzeniu nie wydrukowano żadnych zadań z Funnela.",
+    "noQueuedBuilds": "Brak buildów w kolejce.",
+    "queuedBuildsWhenConnected": "Buildy w kolejce są wyświetlane, gdy drukarka jest podłączona.",
     "warnRemoveDevice": "Nie będziesz już mógł monitorować ani wysyłać zadań druku do tego urządzenia z Funnela.",
     "warnRemoveDevice_name": "Nie będziesz już mógł monitorować ani wysyłać zadań druku do {{device}} z Funnela.",
     "willExcludeDevice": "Po wykluczeniu tego urządzenia zadania druku nie będą już dla niego tworzone",

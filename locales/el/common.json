@@ -784,6 +784,7 @@
   },
   "units": {
     "microns": "{{value}} μm",
+    "nanometres": "{{value}} nm",
     "suffix": {
       "degrees": " °",
       "millimetres": " mm"

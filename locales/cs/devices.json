@@ -11,11 +11,14 @@
     "includeDevice": "Zahrnout do automatických tiskových úloh",
     "manageSubscription": "Spravovat předplatné",
     "subscribePrinter": "Předplatit tiskárnu",
-    "unsubscribePrinter": "Zrušit předplatné tiskárny"
+    "unsubscribePrinter": "Zrušit předplatné tiskárny",
+    "viewOlderJobs": "Zobrazit starší úlohy"
   },
   "details": {
+    "aboutDevice": "O zařízení",
     "aboutPrinter": "O tiskárně",
     "currentBuild": "Aktuální tisk",
+    "funnelJobHistory": "Historie úloh Funnelu",
     "printStatus": "Stav tisku",
     "queuedBuild": "Tiskové úlohy ve frontě"
   },
@@ -26,6 +29,11 @@
     "excludedDevice": "Zařízení bylo vyloučeno z přijímání tiskových úloh z Funnelu",
     "freePrintsRemaining": "Počet bezplatných tisků z Funnelu, které tomuto zařízení tento měsíc zbývají",
     "freePrintsUntilReset": "Počet bezplatných tisků z Funnelu, které tomuto zařízení zbývají do obnovení limitu dne {{date}}",
+    "jobHistory": {
+      "jobId": "ID úlohy",
+      "openJob": "Otevřít úlohu {{tag}}",
+      "printDate": "Datum tisku"
+    },
     "licenceEnding": "Licence tohoto zařízení bude zrušena dne {{date}}",
     "licensedDevice": "Toto zařízení má předplatné a může přijímat neomezený počet tiskových úloh z Funnelu",
     "printsRemaining": "{{remaining}}/{{allowance}}",
@@ -59,6 +67,9 @@
     "noDevices": "Žádná zařízení",
     "noDevicesNeedAttention": "Žádná zařízení aktuálně nevyžadují pozornost",
     "noDevicesReadOnly": "Požádejte správce nebo vlastníka ve vaší organizaci o přidání zařízení",
+    "noJobHistory": "Na tomto zařízení nebyly vytištěny žádné úlohy z Funnelu.",
+    "noQueuedBuilds": "Ve frontě nejsou žádné tiskové úlohy.",
+    "queuedBuildsWhenConnected": "Tiskové úlohy ve frontě se zobrazují, když je tiskárna připojena.",
     "warnRemoveDevice": "Toto zařízení již nebudete moci sledovat ani mu z Funnelu odesílat tiskové úlohy.",
     "warnRemoveDevice_name": "Zařízení {{device}} již nebudete moci sledovat ani mu z Funnelu odesílat tiskové úlohy.",
     "willExcludeDevice": "Po vyloučení tohoto zařízení pro něj již nebudou vytvářeny žádné tiskové úlohy",
