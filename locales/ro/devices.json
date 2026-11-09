@@ -11,11 +11,14 @@
     "includeDevice": "Include pentru sarcinile de printare automate",
     "manageSubscription": "Gestionează abonamentul",
     "subscribePrinter": "Abonează imprimanta",
-    "unsubscribePrinter": "Dezabonează imprimanta"
+    "unsubscribePrinter": "Dezabonează imprimanta",
+    "viewOlderJobs": "Vezi joburile mai vechi"
   },
   "details": {
+    "aboutDevice": "Despre dispozitiv",
     "aboutPrinter": "Despre imprimantă",
     "currentBuild": "Print curent",
+    "funnelJobHistory": "Istoricul joburilor Funnel",
     "printStatus": "Stare printare",
     "queuedBuild": "Printuri în așteptare"
   },
@@ -26,6 +29,11 @@
     "excludedDevice": "Dispozitivul a fost exclus de la primirea sarcinilor de printare din Funnel",
     "freePrintsRemaining": "Numărul de printări Funnel gratuite rămase pentru acest dispozitiv în această lună",
     "freePrintsUntilReset": "Numărul de printări Funnel gratuite rămase pentru acest dispozitiv până la resetarea alocării pe {{date}}",
+    "jobHistory": {
+      "jobId": "ID job",
+      "openJob": "Deschide jobul {{tag}}",
+      "printDate": "Data printării"
+    },
     "licenceEnding": "Licența acestui dispozitiv va fi anulată pe {{date}}",
     "licensedDevice": "Acest dispozitiv are abonament și poate primi un număr nelimitat de sarcini de printare Funnel",
     "printsRemaining": "{{remaining}}/{{allowance}}",
@@ -59,6 +67,9 @@
     "noDevices": "Niciun dispozitiv",
     "noDevicesNeedAttention": "Niciun dispozitiv nu necesită atenție în prezent",
     "noDevicesReadOnly": "Cere unui Administrator sau Proprietar din organizația ta să adauge dispozitive",
+    "noJobHistory": "Niciun job Funnel nu a fost printat pe acest dispozitiv.",
+    "noQueuedBuilds": "Niciun print în așteptare.",
+    "queuedBuildsWhenConnected": "Printurile în așteptare sunt afișate cât timp imprimanta este conectată.",
     "warnRemoveDevice": "Nu vei mai putea monitoriza sau trimite sarcini de printare către acest dispozitiv din Funnel.",
     "warnRemoveDevice_name": "Nu vei mai putea monitoriza sau trimite sarcini de printare către {{device}} din Funnel.",
     "willExcludeDevice": "Sarcinile de printare nu vor mai fi create pentru acest aparat atunci când este exclus",

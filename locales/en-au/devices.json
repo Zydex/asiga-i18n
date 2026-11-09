@@ -11,11 +11,14 @@
     "includeDevice": "Include for Automatic Print Jobs",
     "manageSubscription": "Manage Subscription",
     "subscribePrinter": "Subscribe Printer",
-    "unsubscribePrinter": "Unsubscribe Printer"
+    "unsubscribePrinter": "Unsubscribe Printer",
+    "viewOlderJobs": "View Older Jobs"
   },
   "details": {
+    "aboutDevice": "About Device",
     "aboutPrinter": "About Printer",
     "currentBuild": "Current Build",
+    "funnelJobHistory": "Funnel Job History",
     "printStatus": "Print Status",
     "queuedBuild": "Queued Builds"
   },
@@ -26,6 +29,11 @@
     "excludedDevice": "Device has been excluded from receiving print jobs from the Funnel",
     "freePrintsRemaining": "The number of free Funnel prints this device has remaining this month",
     "freePrintsUntilReset": "The number of free Funnel prints this device has remaining until its allowance resets on {{date}}",
+    "jobHistory": {
+      "jobId": "Job ID",
+      "openJob": "Open job {{tag}}",
+      "printDate": "Print Date"
+    },
     "licenceEnding": "This device's licence will be cancelled on {{date}}",
     "licensedDevice": "This device is subscribed and can receive unlimited Funnel print jobs",
     "printsRemaining": "{{remaining}}/{{allowance}}",
@@ -59,6 +67,9 @@
     "noDevices": "No Devices",
     "noDevicesNeedAttention": "No devices currently require attention",
     "noDevicesReadOnly": "Ask an Admin or Owner in your organisation to add devices",
+    "noJobHistory": "No Funnel jobs have been printed on this device.",
+    "noQueuedBuilds": "No builds queued.",
+    "queuedBuildsWhenConnected": "Queued builds are shown while the printer is connected.",
     "warnRemoveDevice": "You will no longer be able to monitor or send print jobs to this device from the Funnel.",
     "warnRemoveDevice_name": "You will no longer be able to monitor or send print jobs to {{device}} from the Funnel.",
     "willExcludeDevice": "Print Jobs will no longer be created for this machine when it is excluded",

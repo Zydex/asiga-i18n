@@ -11,11 +11,14 @@
     "includeDevice": "Vonja be az automatikus nyomtatási feladatokba",
     "manageSubscription": "Előfizetés kezelése",
     "subscribePrinter": "Fizessen elő a nyomtatóra",
-    "unsubscribePrinter": "Nyomtató előfizetésének lemondása"
+    "unsubscribePrinter": "Nyomtató előfizetésének lemondása",
+    "viewOlderJobs": "Régebbi feladatok megtekintése"
   },
   "details": {
+    "aboutDevice": "Az eszközről",
     "aboutPrinter": "A nyomtatóról",
     "currentBuild": "Jelenlegi build",
+    "funnelJobHistory": "Funnel-feladatok előzményei",
     "printStatus": "Nyomtatás állapota",
     "queuedBuild": "Sorban álló buildek"
   },
@@ -26,6 +29,11 @@
     "excludedDevice": "Az eszköz ki lett zárva a Funnelből érkező nyomtatási feladatok fogadásából",
     "freePrintsRemaining": "Az eszköz ebben a hónapban még rendelkezésre álló ingyenes Funnel-nyomtatásainak száma",
     "freePrintsUntilReset": "Az eszköz még rendelkezésre álló ingyenes Funnel-nyomtatásainak száma a keret {{date}} napi visszaállításáig",
+    "jobHistory": {
+      "jobId": "Feladatazonosító",
+      "openJob": "{{tag}} feladat megnyitása",
+      "printDate": "Nyomtatás dátuma"
+    },
     "licenceEnding": "Ennek az eszköznek a licence {{date}} napján lemondásra kerül",
     "licensedDevice": "Ez az eszköz előfizetéssel rendelkezik, és korlátlan számú Funnel-nyomtatási feladatot fogadhat",
     "printsRemaining": "{{remaining}}/{{allowance}}",
@@ -59,6 +67,9 @@
     "noDevices": "Nincsenek eszközök",
     "noDevicesNeedAttention": "Jelenleg egyetlen eszköz sem igényel figyelmet",
     "noDevicesReadOnly": "Kérje meg szervezete egyik rendszergazdáját vagy tulajdonosát, hogy adjon hozzá eszközöket",
+    "noJobHistory": "Ezen az eszközön nem nyomtattak ki Funnel-feladatokat.",
+    "noQueuedBuilds": "Nincsenek sorban álló buildek.",
+    "queuedBuildsWhenConnected": "A sorban álló buildek akkor jelennek meg, amikor a nyomtató csatlakoztatva van.",
     "warnRemoveDevice": "A továbbiakban nem fogja tudni figyelni ezt az eszközt, illetve nyomtatási feladatokat küldeni rá a Funnelből.",
     "warnRemoveDevice_name": "A továbbiakban nem fogja tudni figyelni a(z) {{device}} eszközt, illetve nyomtatási feladatokat küldeni rá a Funnelből.",
     "willExcludeDevice": "A kizárás után a rendszer nem hoz létre nyomtatási feladatokat ehhez a géphez",
