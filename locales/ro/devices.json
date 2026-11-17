@@ -79,12 +79,14 @@
   },
   "state": {
     "buildQueued": "Print în așteptare",
+    "buildsQueued": "Printuri în așteptare",
     "canceled": "Anulat",
     "canceled_error": "Eroare: Anulat",
     "cancelling": "Se anulează",
     "cancelling_error": "Eroare: Se anulează",
     "finished": "Printare finalizată",
     "idle": "Imprimantă inactivă",
+    "noBuildsQueued": "Niciun print în așteptare",
     "offline": "Offline",
     "paused": "În pauză",
     "paused_error": "Eroare: În pauză",
@@ -92,6 +94,7 @@
     "pausing_error": "Eroare: Se pune în pauză",
     "printing": "{{duration}} rămas",
     "staring": "Pornire",
+    "starting": "Pornire",
     "userbusy": "Utilizator ocupat"
   },
   "table": {

@@ -78,12 +78,14 @@
   },
   "state": {
     "buildQueued": "Build Queued",
+    "buildsQueued": "Builds queued",
     "canceled": "Canceled",
     "canceled_error": "Error: Canceled",
     "cancelling": "Cancelling",
     "cancelling_error": "Error: Cancelling",
     "finished": "Print Complete",
     "idle": "Printer Idle",
+    "noBuildsQueued": "No builds queued",
     "offline": "Offline",
     "paused": "Paused",
     "paused_error": "Error: Paused",
@@ -91,6 +93,7 @@
     "pausing_error": "Error: Pausing",
     "printing": "{{duration}} remaining",
     "staring": "Starting",
+    "starting": "Starting",
     "userbusy": "User Busy"
   },
   "table": {

@@ -78,12 +78,14 @@
   },
   "state": {
     "buildQueued": "Build sorban áll",
+    "buildsQueued": "Sorban álló buildek",
     "canceled": "Megszakítva",
     "canceled_error": "Hiba: Megszakítva",
     "cancelling": "Megszakítás folyamatban",
     "cancelling_error": "Hiba: Megszakítás folyamatban",
     "finished": "Nyomtatás kész",
     "idle": "A nyomtató üresjáratban",
+    "noBuildsQueued": "Nincs sorban álló build",
     "offline": "Offline",
     "paused": "Szüneteltetve",
     "paused_error": "Hiba: Szüneteltetve",
@@ -91,6 +93,7 @@
     "pausing_error": "Hiba: Szüneteltetés folyamatban",
     "printing": "{{duration}} van hátra",
     "staring": "Indítás",
+    "starting": "Indítás",
     "userbusy": "Felhasználó foglalt"
   },
   "table": {

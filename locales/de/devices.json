@@ -78,12 +78,14 @@
   },
   "state": {
     "buildQueued": "Build in Warteschlange",
+    "buildsQueued": "Builds in der Warteschlange",
     "canceled": "Abgebrochen",
     "canceled_error": "Fehler: Abgebrochen",
     "cancelling": "Wird abgebrochen",
     "cancelling_error": "Fehler: Wird abgebrochen",
     "finished": "Druck abgeschlossen",
     "idle": "Drucker im Leerlauf",
+    "noBuildsQueued": "Keine Builds in der Warteschlange",
     "offline": "Offline",
     "paused": "Pausiert",
     "paused_error": "Fehler: Pausiert",
@@ -91,6 +93,7 @@
     "pausing_error": "Fehler: Wird pausiert",
     "printing": "{{duration}} verbleibend",
     "staring": "Wird gestartet",
+    "starting": "Wird gestartet",
     "userbusy": "Benutzer beschäftigt"
   },
   "table": {
