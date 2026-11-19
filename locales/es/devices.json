@@ -78,12 +78,14 @@
   },
   "state": {
     "buildQueued": "Impresión en cola",
+    "buildsQueued": "Impresiones en cola",
     "canceled": "Cancelado",
     "canceled_error": "Error: Cancelado",
     "cancelling": "Cancelando",
     "cancelling_error": "Error: Cancelando",
     "finished": "Impresión completa",
     "idle": "Impresora inactiva",
+    "noBuildsQueued": "Sin impresiones en cola",
     "offline": "Fuera de línea",
     "paused": "En pausa",
     "paused_error": "Error: En pausa",
@@ -91,6 +93,7 @@
     "pausing_error": "Error: Pausando",
     "printing": "{{duration}} restante",
     "staring": "Iniciando",
+    "starting": "Iniciando",
     "userbusy": "Usuario ocupado"
   },
   "table": {

@@ -78,12 +78,14 @@
   },
   "state": {
     "buildQueued": "Köad utskrift",
+    "buildsQueued": "Köade utskrifter",
     "canceled": "Avbruten",
     "canceled_error": "Fel: Avbruten",
     "cancelling": "Avbryter",
     "cancelling_error": "Fel: Avbryter",
     "finished": "Utskrift klar",
     "idle": "Skrivare inaktiv",
+    "noBuildsQueued": "Inga köade utskrifter",
     "offline": "Offline",
     "paused": "Pausad",
     "paused_error": "Fel: Pausad",
@@ -91,6 +93,7 @@
     "pausing_error": "Fel: Pausar",
     "printing": "{{duration}} återstår",
     "staring": "Startar",
+    "starting": "Startar",
     "userbusy": "Användare upptagen"
   },
   "table": {

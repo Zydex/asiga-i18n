@@ -80,12 +80,14 @@
   },
   "state": {
     "buildQueued": "Tisková úloha ve frontě",
+    "buildsQueued": "Tiskové úlohy ve frontě",
     "canceled": "Zrušeno",
     "canceled_error": "Chyba: Zrušeno",
     "cancelling": "Ruší se",
     "cancelling_error": "Chyba: Ruší se",
     "finished": "Tisk dokončen",
     "idle": "Tiskárna nečinná",
+    "noBuildsQueued": "Žádné tiskové úlohy ve frontě",
     "offline": "Offline",
     "paused": "Pozastaveno",
     "paused_error": "Chyba: Pozastaveno",
@@ -93,6 +95,7 @@
     "pausing_error": "Chyba: Pozastavuje se",
     "printing": "Zbývá {{duration}}",
     "staring": "Spouští se",
+    "starting": "Spouští se",
     "userbusy": "Uživatel zaneprázdněn"
   },
   "table": {

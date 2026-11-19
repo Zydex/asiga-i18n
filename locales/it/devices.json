@@ -78,12 +78,14 @@
   },
   "state": {
     "buildQueued": "Build accodata",
+    "buildsQueued": "Build accodate",
     "canceled": "Annullato",
     "canceled_error": "Errore: Annullato",
     "cancelling": "Annullamento",
     "cancelling_error": "Errore: Annullamento",
     "finished": "Stampa completata",
     "idle": "Stampante inattiva",
+    "noBuildsQueued": "Nessuna build accodata",
     "offline": "Offline",
     "paused": "In pausa",
     "paused_error": "Errore: In pausa",
@@ -91,6 +93,7 @@
     "pausing_error": "Errore: Messa in pausa",
     "printing": "{{duration}} rimanente",
     "staring": "Avvio",
+    "starting": "Avvio",
     "userbusy": "Utente occupato"
   },
   "table": {

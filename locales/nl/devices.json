@@ -78,12 +78,14 @@
   },
   "state": {
     "buildQueued": "Build in wachtrij",
+    "buildsQueued": "Builds in de wachtrij",
     "canceled": "Geannuleerd",
     "canceled_error": "Fout: Geannuleerd",
     "cancelling": "Annuleren",
     "cancelling_error": "Fout: Annuleren",
     "finished": "Print voltooid",
     "idle": "Printer inactief",
+    "noBuildsQueued": "Geen builds in de wachtrij",
     "offline": "Offline",
     "paused": "Gepauzeerd",
     "paused_error": "Fout: Gepauzeerd",
@@ -91,6 +93,7 @@
     "pausing_error": "Fout: Pauzeren",
     "printing": "{{duration}} resterend",
     "staring": "Starten",
+    "starting": "Starten",
     "userbusy": "Gebruiker bezet"
   },
   "table": {

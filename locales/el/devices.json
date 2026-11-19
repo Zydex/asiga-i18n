@@ -78,12 +78,14 @@
   },
   "state": {
     "buildQueued": "Κατασκευή σε ουρά",
+    "buildsQueued": "Κατασκευές σε ουρά",
     "canceled": "Ακυρώθηκε",
     "canceled_error": "Σφάλμα: Ακυρώθηκε",
     "cancelling": "Ακύρωση σε εξέλιξη",
     "cancelling_error": "Σφάλμα: Ακύρωση σε εξέλιξη",
     "finished": "Η εκτύπωση ολοκληρώθηκε",
     "idle": "Ο εκτυπωτής είναι αδρανής",
+    "noBuildsQueued": "Καμία κατασκευή σε ουρά",
     "offline": "Εκτός σύνδεσης",
     "paused": "Σε παύση",
     "paused_error": "Σφάλμα: Σε παύση",
@@ -91,6 +93,7 @@
     "pausing_error": "Σφάλμα: Παύση σε εξέλιξη",
     "printing": "{{duration}} απομένουν",
     "staring": "Εκκίνηση",
+    "starting": "Εκκίνηση",
     "userbusy": "Ο χρήστης είναι απασχολημένος"
   },
   "table": {

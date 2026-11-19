@@ -78,12 +78,14 @@
   },
   "state": {
     "buildQueued": "Impression en file d'attente",
+    "buildsQueued": "Impressions en file d'attente",
     "canceled": "Annulé",
     "canceled_error": "Erreur : Annulé",
     "cancelling": "Annulation",
     "cancelling_error": "Erreur : Annulation",
     "finished": "Impression terminée",
     "idle": "Imprimante inactive",
+    "noBuildsQueued": "Aucune impression en file d'attente",
     "offline": "Hors ligne",
     "paused": "En pause",
     "paused_error": "Erreur : En pause",
@@ -91,6 +93,7 @@
     "pausing_error": "Erreur : Mise en pause",
     "printing": "{{duration}} restant",
     "staring": "Démarrage",
+    "starting": "Démarrage",
     "userbusy": "Utilisateur occupé"
   },
   "table": {

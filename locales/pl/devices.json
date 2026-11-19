@@ -80,12 +80,14 @@
   },
   "state": {
     "buildQueued": "Build w kolejce",
+    "buildsQueued": "Buildy w kolejce",
     "canceled": "Anulowano",
     "canceled_error": "Błąd: Anulowano",
     "cancelling": "Anulowanie",
     "cancelling_error": "Błąd: Anulowanie",
     "finished": "Druk zakończony",
     "idle": "Drukarka bezczynna",
+    "noBuildsQueued": "Brak buildów w kolejce",
     "offline": "Offline",
     "paused": "Wstrzymano",
     "paused_error": "Błąd: Wstrzymano",
@@ -93,6 +95,7 @@
     "pausing_error": "Błąd: Wstrzymywanie",
     "printing": "Pozostało: {{duration}}",
     "staring": "Uruchamianie",
+    "starting": "Uruchamianie",
     "userbusy": "Użytkownik zajęty"
   },
   "table": {

@@ -78,12 +78,14 @@
   },
   "state": {
     "buildQueued": "Haul Waitin'",
+    "buildsQueued": "Hauls Waitin'",
     "canceled": "Belayed",
     "canceled_error": "Blunder: Belayed",
     "cancelling": "Belayin'",
     "cancelling_error": "Blunder: Belayin'",
     "finished": "Forge Complete",
     "idle": "Contraption Restin'",
+    "noBuildsQueued": "No Hauls Waitin'",
     "offline": "Lost at Sea",
     "paused": "Anchored",
     "paused_error": "Blunder: Anchored",
@@ -91,6 +93,7 @@
     "pausing_error": "Blunder: Droppin' Anchor",
     "printing": "{{duration}} remainin'",
     "staring": "Settin' Sail",
+    "starting": "Settin' Sail",
     "userbusy": "Crewmate Busy"
   },
   "table": {
