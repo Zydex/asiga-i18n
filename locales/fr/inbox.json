@@ -113,7 +113,7 @@
     "designSelected_one": "{{count}} Design sélectionné",
     "designSelected_other": "{{count}} Designs sélectionnés",
     "downloadPartError": "Échec du téléchargement de la pièce",
-    "dropFile": "Déposez des fichiers ou des dossiers pour les ajouter à la Boîte de réception",
+    "dropFile": "Déposez des fichiers ou des dossiers pour les ajouter aux Pièces",
     "groupHasBeenPrioritised": "Le groupe a été priorisé",
     "invalidUploadFileContent": "Un ou plusieurs fichiers n'ont pas pu être lus comme contenu STL valide",
     "invalidUploadFileSize": "Un ou plusieurs fichiers dépassent la taille maximale de téléversement",

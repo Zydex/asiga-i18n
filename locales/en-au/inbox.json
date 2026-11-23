@@ -113,7 +113,7 @@
     "designSelected_one": "{{count}} Design selected",
     "designSelected_other": "{{count}} Designs selected",
     "downloadPartError": "Failed to download part",
-    "dropFile": "Drop files or folders to add them to the Inbox",
+    "dropFile": "Drop files or folders to add them to Parts",
     "groupHasBeenPrioritised": "Group has been prioritised",
     "invalidUploadFileContent": "One or more files could not be read as valid STL content",
     "invalidUploadFileSize": "One or more files exceed the maximum upload size",

@@ -113,7 +113,7 @@
     "designSelected_one": "Wybrano {{count}} projekt",
     "designSelected_other": "Wybrano {{count}} projektów",
     "downloadPartError": "Nie udało się pobrać części",
-    "dropFile": "Upuść pliki lub foldery, aby dodać je do skrzynki odbiorczej",
+    "dropFile": "Upuść pliki lub foldery, aby dodać je do Części",
     "groupHasBeenPrioritised": "Grupie nadano priorytet",
     "invalidUploadFileContent": "Co najmniej jednego pliku nie udało się odczytać jako prawidłowej zawartości STL",
     "invalidUploadFileSize": "Co najmniej jeden plik przekracza maksymalny rozmiar przesyłania",

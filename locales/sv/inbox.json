@@ -113,7 +113,7 @@
     "designSelected_one": "{{count}} design vald",
     "designSelected_other": "{{count}} designer valda",
     "downloadPartError": "Det gick inte att ladda ner delen",
-    "dropFile": "Släpp filer eller mappar för att lägga till dem i inkorgen",
+    "dropFile": "Släpp filer eller mappar för att lägga till dem i Delar",
     "groupHasBeenPrioritised": "Gruppen har prioriterats",
     "invalidUploadFileContent": "En eller flera filer kunde inte läsas som giltigt STL-innehåll",
     "invalidUploadFileSize": "En eller flera filer överskrider den maximala uppladdningsstorleken",
