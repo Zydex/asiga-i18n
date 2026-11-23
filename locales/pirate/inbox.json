@@ -113,7 +113,7 @@
     "designSelected_one": "{{count}} Design picked",
     "designSelected_other": "{{count}} Designs picked",
     "downloadPartError": "Couldn't haul th' trinket ashore",
-    "dropFile": "Drop scrolls or chests to add 'em to th' Trinkets",
+    "dropFile": "Drop scrolls or chests to add 'em to th' Funnel",
     "groupHasBeenPrioritised": "Band has been prioritised",
     "invalidUploadFileContent": "One or more scrolls could not be read as proper STL content",
     "invalidUploadFileSize": "One or more scrolls exceed th' maximum hoist size",

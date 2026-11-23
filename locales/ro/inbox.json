@@ -113,7 +113,7 @@
     "designSelected_one": "{{count}} model selectat",
     "designSelected_other": "{{count}} modele selectate",
     "downloadPartError": "Descărcarea piesei a eșuat",
-    "dropFile": "Plasați fișiere sau dosare pentru a le adăuga în Piese",
+    "dropFile": "Plasați fișiere sau dosare pentru a le adăuga în Funnel",
     "groupHasBeenPrioritised": "Grupul a fost prioritizat",
     "invalidUploadFileContent": "Unul sau mai multe fișiere nu au putut fi citite ca conținut STL valid",
     "invalidUploadFileSize": "Unul sau mai multe fișiere depășesc dimensiunea maximă de încărcare",
