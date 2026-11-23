@@ -35,9 +35,9 @@
         "tooltip": "Invita i membri del team per caricare parti, rivedere lavori e gestire le stampanti insieme a te."
       },
       "uploadAcceptParts": {
-        "description": "Nella pagina <bold>Posta in arrivo</bold>, trascina e rilascia i tuoi file STL, seleziona le parti caricate e fai clic su “Accetta”",
+        "description": "Nella pagina <bold>Pezzi</bold>, trascina e rilascia i tuoi file STL, seleziona le parti caricate e fai clic su “Accetta”",
         "title": "Carica e accetta le parti",
-        "tooltip": "Carica le parti STL progettate nella Posta in arrivo, poi rivedi le impostazioni assegnate per l'accettazione."
+        "tooltip": "Carica le parti STL progettate nella pagina Pezzi, poi rivedi le impostazioni assegnate per l'accettazione."
       }
     },
     "subtitle": "Completa i passaggi per inviare i lavori di stampa ai tuoi dispositivi",

@@ -35,9 +35,9 @@
         "tooltip": "Laden Sie Teammitglieder ein, damit sie gemeinsam mit Ihnen Teile hochladen, Aufträge prüfen und Drucker verwalten können."
       },
       "uploadAcceptParts": {
-        "description": "Ziehen Sie auf der Seite <bold>Posteingang</bold> Ihre STL-Dateien per Drag-and-Drop hinein, wählen Sie die hochgeladenen Teile aus und klicken Sie auf „Akzeptieren“",
+        "description": "Ziehen Sie auf der Seite <bold>Teile</bold> Ihre STL-Dateien per Drag-and-Drop hinein, wählen Sie die hochgeladenen Teile aus und klicken Sie auf „Akzeptieren“",
         "title": "Teile hochladen & akzeptieren",
-        "tooltip": "Laden Sie konstruierte STL-Teile in den Posteingang hoch und prüfen Sie dann die zugewiesenen Einstellungen zur Annahme."
+        "tooltip": "Laden Sie konstruierte STL-Teile auf der Seite „Teile“ hoch und prüfen Sie dann die zugewiesenen Einstellungen zur Annahme."
       }
     },
     "subtitle": "Schließen Sie die Schritte ab, um Druckaufträge an Ihre Geräte zu senden",

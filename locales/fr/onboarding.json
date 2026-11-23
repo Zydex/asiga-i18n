@@ -35,9 +35,9 @@
         "tooltip": "Invitez des membres de l'équipe afin qu'ils puissent télécharger des pièces, vérifier des travaux et gérer les imprimantes avec vous."
       },
       "uploadAcceptParts": {
-        "description": "Sur la page <bold>Boîte de réception</bold>, faites glisser-déposer vos fichiers STL, sélectionnez les pièces téléchargées et cliquez sur « Accepter »",
+        "description": "Sur la page <bold>Pièces</bold>, faites glisser-déposer vos fichiers STL, sélectionnez les pièces téléchargées et cliquez sur « Accepter »",
         "title": "Télécharger et accepter les pièces",
-        "tooltip": "Téléchargez les pièces STL conçues dans la Boîte de réception, puis vérifiez les paramètres attribués en vue de leur acceptation."
+        "tooltip": "Téléchargez les pièces STL conçues sur la page Pièces, puis vérifiez les paramètres attribués en vue de leur acceptation."
       }
     },
     "subtitle": "Suivez ces étapes pour envoyer des travaux d'impression à vos appareils",

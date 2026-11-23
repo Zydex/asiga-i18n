@@ -259,10 +259,14 @@
   "label": {
     "acceptedGroupsSuccess_one": "{{count}} group moved to <a>Accepted</a>",
     "acceptedGroupsSuccess_other": "{{count}} groups moved to <a>Accepted</a>",
+    "acceptedGroupsToProcessing_one": "{{count}} group moved to <a>Processing</a>",
+    "acceptedGroupsToProcessing_other": "{{count}} groups moved to <a>Processing</a>",
     "acceptedJobsSuccess_one": "{{count}} job moved to <a>Accepted</a>",
     "acceptedJobsSuccess_other": "{{count}} jobs moved to <a>Accepted</a>",
     "acceptedPartsSuccess_one": "{{count}} part moved to <a>Accepted</a>",
     "acceptedPartsSuccess_other": "{{count}} parts moved to <a>Accepted</a>",
+    "acceptedPartsToProcessing_one": "{{count}} part moved to <a>Processing</a>",
+    "acceptedPartsToProcessing_other": "{{count}} parts moved to <a>Processing</a>",
     "acceptingGroups": "Accepting part groups",
     "acceptingJobs": "Accepting jobs",
     "acceptingParts": "Accepting parts",
@@ -336,6 +340,8 @@
     "reprintingParts": "Requeuing parts for reprinting",
     "reprintPartsSuccess_one": "{{count}} part requeued and moved to <a>Accepted</a>",
     "reprintPartsSuccess_other": "{{count}} parts requeued and moved to <a>Accepted</a>",
+    "reprintPartsToProcessing_one": "{{count}} part requeued and moved to <a>Processing</a>",
+    "reprintPartsToProcessing_other": "{{count}} parts requeued and moved to <a>Processing</a>",
     "resendingJobs": "Resending jobs",
     "resentJobs_one": "Resent {{count}} job",
     "resentJobs_other": "Resent {{count}} jobs",
@@ -370,6 +376,7 @@
       "inbox": "Upload & review parts from users or applications.\n\nConfirm parts have the correct print template applied & accept for manufacturing.",
       "manage": "Add or edit users, link external apps, general settings.",
       "parts": "View parts that have been accepted for manufacture.\n\nCheck on the status to see where they are in the manufacturing process.",
+      "partsOverview": "Upload & review parts from users or applications.\n\nAccept parts for manufacturing & check where they are in the manufacturing process.",
       "printJobs": "Review print jobs that have been created.\n\nCheck on the status to see what stage they are at in the manufacturing process.",
       "templates": "Lists all the templates in the Funnel. These control which materials, print settings and printers are used for each part type.",
       "timeline": "See the print jobs you have queued on each of your devices to monitor progress & utilisation."
@@ -420,12 +427,13 @@
       "resend": "Resend",
       "reviewGroup": "Review Group",
       "reviewPart": "Review Part",
+      "reviewParts": "Review Parts",
       "reworkOffline": "Rework Offline",
       "ungroup": "Ungroup"
     },
     "clearAll": "Clear All",
     "empty": "No notifications",
-    "requeuePartsConfirmation": "Are you sure you want to requeue the parts from this job? This will remove the current job and create new parts in the inbox.",
+    "requeuePartsConfirmation": "Are you sure you want to requeue the parts from this job? This will remove the current job and create new parts in the To Review tab of the Parts page.",
     "settings": {
       "label": "Show real-time notifications for parts, groups, jobs and devices that require attention.",
       "title": "Notifications"

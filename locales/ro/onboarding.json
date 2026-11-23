@@ -35,9 +35,9 @@
         "tooltip": "Invitați membri ai echipei pentru a putea încărca piese, verifica joburi și gestiona imprimante împreună cu dvs."
       },
       "uploadAcceptParts": {
-        "description": "Pe pagina <bold>Inbox</bold>, trageți și plasați fișierele STL, selectați piesele încărcate și faceți clic pe „Acceptă”",
+        "description": "Pe pagina <bold>Piese</bold>, trageți și plasați fișierele STL, selectați piesele încărcate și faceți clic pe „Acceptă”",
         "title": "Încărcați și acceptați piesele",
-        "tooltip": "Încărcați piesele STL proiectate în Inbox, apoi verificați setările atribuite în vederea acceptării."
+        "tooltip": "Încărcați piesele STL proiectate pe pagina Piese, apoi verificați setările atribuite în vederea acceptării."
       }
     },
     "subtitle": "Finalizați pașii pentru a trimite joburile de printare către dispozitivele dvs.",

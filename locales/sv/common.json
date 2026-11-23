@@ -259,10 +259,14 @@
   "label": {
     "acceptedGroupsSuccess_one": "{{count}} grupp flyttad till <a>Accepterade</a>",
     "acceptedGroupsSuccess_other": "{{count}} grupper flyttade till <a>Accepterade</a>",
+    "acceptedGroupsToProcessing_one": "{{count}} grupp flyttad till <a>Bearbetas</a>",
+    "acceptedGroupsToProcessing_other": "{{count}} grupper flyttade till <a>Bearbetas</a>",
     "acceptedJobsSuccess_one": "{{count}} jobb flyttat till <a>Accepterade</a>",
     "acceptedJobsSuccess_other": "{{count}} jobb flyttade till <a>Accepterade</a>",
     "acceptedPartsSuccess_one": "{{count}} del flyttad till <a>Accepterade</a>",
     "acceptedPartsSuccess_other": "{{count}} delar flyttade till <a>Accepterade</a>",
+    "acceptedPartsToProcessing_one": "{{count}} del flyttad till <a>Bearbetas</a>",
+    "acceptedPartsToProcessing_other": "{{count}} delar flyttade till <a>Bearbetas</a>",
     "acceptingGroups": "Accepterar delgrupper",
     "acceptingJobs": "Accepterar jobb",
     "acceptingParts": "Accepterar delar",
@@ -336,6 +340,8 @@
     "reprintingParts": "Köar delar igen för omutskrift",
     "reprintPartsSuccess_one": "{{count}} del köad igen och flyttad till <a>Accepterade</a>",
     "reprintPartsSuccess_other": "{{count}} delar köade igen och flyttade till <a>Accepterade</a>",
+    "reprintPartsToProcessing_one": "{{count}} del köad igen och flyttad till <a>Bearbetas</a>",
+    "reprintPartsToProcessing_other": "{{count}} delar köade igen och flyttade till <a>Bearbetas</a>",
     "resendingJobs": "Skickar om jobb",
     "resentJobs_one": "Skickade om {{count}} jobb",
     "resentJobs_other": "Skickade om {{count}} jobb",
@@ -370,6 +376,7 @@
       "inbox": "Ladda upp och granska delar från användare eller applikationer.\n\nBekräfta att delarna har rätt utskriftsmall tillämpad och acceptera dem för tillverkning.",
       "manage": "Lägg till eller redigera användare, länka externa appar, allmänna inställningar.",
       "parts": "Visa delar som har accepterats för tillverkning.\n\nKontrollera statusen för att se var de befinner sig i tillverkningsprocessen.",
+      "partsOverview": "Ladda upp och granska delar från användare eller applikationer.\n\nAcceptera delar för tillverkning och se var de befinner sig i tillverkningsprocessen.",
       "printJobs": "Granska utskriftsjobb som har skapats.\n\nKontrollera statusen för att se vilket skede de är i i tillverkningsprocessen.",
       "templates": "Listar alla mallar i Funnel. Dessa styr vilka material, utskriftsinställningar och skrivare som används för varje deltyp.",
       "timeline": "Se de utskriftsjobb du har köat på var och en av dina enheter för att övervaka förlopp och utnyttjande."
@@ -420,12 +427,13 @@
       "resend": "Skicka igen",
       "reviewGroup": "Granska grupp",
       "reviewPart": "Granska del",
+      "reviewParts": "Granska delar",
       "reworkOffline": "Bearbeta om offline",
       "ungroup": "Avgruppera"
     },
     "clearAll": "Rensa alla",
     "empty": "Inga aviseringar",
-    "requeuePartsConfirmation": "Är du säker på att du vill köa delarna från detta jobb igen? Detta kommer att ta bort det aktuella jobbet och skapa nya delar i inkorgen.",
+    "requeuePartsConfirmation": "Är du säker på att du vill köa delarna från detta jobb igen? Detta kommer att ta bort det aktuella jobbet och skapa nya delar på fliken Att granska på sidan Delar.",
     "settings": {
       "label": "Visa realtidsaviseringar för delar, grupper, jobb och enheter som kräver uppmärksamhet.",
       "title": "Aviseringar"

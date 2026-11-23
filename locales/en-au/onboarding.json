@@ -35,9 +35,9 @@
         "tooltip": "Invite team members so they can upload parts, review jobs and manage printers with you."
       },
       "uploadAcceptParts": {
-        "description": "On the <bold>Inbox</bold> page, drag-and-drop your STL files, select uploaded parts and click “Accept”",
+        "description": "On the <bold>Parts</bold> page, drag-and-drop your STL files, select uploaded parts and click “Accept”",
         "title": "Upload & accept parts",
-        "tooltip": "Upload designed STL parts to the Inbox, then review assigned settings for acceptance."
+        "tooltip": "Upload designed STL parts on the Parts page, then review assigned settings for acceptance."
       }
     },
     "subtitle": "Complete the steps to send print jobs to your devices",

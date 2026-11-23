@@ -1,12 +1,20 @@
 {
   "emptyPartsMessages": {
+    "all": {
+      "message": "Las piezas que se hayan añadido al Embudo aparecerán aquí, junto con su estado",
+      "title": "No hay piezas"
+    },
     "allParts": {
-      "message": "Cuando se aceptan piezas en la bandeja de entrada, aparecerán aquí para ser consideradas para la impresión",
+      "message": "Cuando se aceptan piezas en la pestaña «Para revisar», aparecerán aquí para ser consideradas para la impresión",
       "title": "No hay piezas listas para imprimir"
     },
     "printReady": {
       "message": "Las piezas que estén listas para añadirse a un trabajo de impresión aparecerán aquí",
       "title": "No hay piezas en cola"
+    },
+    "processing": {
+      "message": "Las piezas de la pestaña «Para revisar» aparecerán aquí cuando hayan sido aceptadas",
+      "title": "No hay piezas en proceso"
     },
     "sent": {
       "message": "Las piezas aparecerán aquí cuando se hayan ensamblado en un trabajo de impresión y enviado a la impresora",
@@ -19,8 +27,10 @@
   },
   "label": {
     "allParts": "Todas las piezas",
+    "dropFile": "Añadir archivos a Piezas",
     "partsQueue": "Piezas en cola",
     "printReady": "Lista para imprimir",
+    "processing": "En proceso",
     "sent": "Enviado"
   },
   "status": {
@@ -125,7 +135,8 @@
     "parts": "Piezas"
   },
   "tooltips": {
-    "allParts": "Todas las piezas que han sido aceptadas se muestran aquí, junto con su estado.",
-    "partsQueue": "Las piezas que están en cola para imprimir se muestran aquí, agrupadas por su plantilla."
+    "allParts": "Todas las piezas que se han añadido al Embudo se muestran aquí, junto con su estado.",
+    "partsQueue": "Las piezas que están en cola para imprimir se muestran aquí, agrupadas por su plantilla.",
+    "processing": "Las piezas aceptadas se muestran aquí mientras se procesan y se ponen en cola para imprimir, agrupadas por su plantilla."
   }
 }

@@ -35,9 +35,9 @@
         "tooltip": "Press-gang crewmates so they can hoist trinkets, inspect voyages and wrangle contraptions alongside ye."
       },
       "uploadAcceptParts": {
-        "description": "On the <bold>Crow's Nest</bold> page, drag-and-drop yer STL scrolls, select hoisted trinkets and click “Accept”",
+        "description": "On the <bold>Trinkets</bold> page, drag-and-drop yer STL scrolls, select hoisted trinkets and click “Accept”",
         "title": "Hoist & accept trinkets",
-        "tooltip": "Hoist designed STL trinkets into the Crow's Nest, then inspect the assigned settin's fer acceptance."
+        "tooltip": "Hoist designed STL trinkets aboard on the Trinkets page, then inspect the assigned settin's fer acceptance."
       }
     },
     "subtitle": "Complete the steps to send forgin' voyages to yer contraptions",

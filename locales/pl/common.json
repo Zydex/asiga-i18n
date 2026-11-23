@@ -259,10 +259,14 @@
   "label": {
     "acceptedGroupsSuccess_one": "{{count}} grupa przeniesiona do <a>Zaakceptowane</a>",
     "acceptedGroupsSuccess_other": "{{count}} grup przeniesionych do <a>Zaakceptowane</a>",
+    "acceptedGroupsToProcessing_one": "{{count}} grupa przeniesiona do <a>Przetwarzane</a>",
+    "acceptedGroupsToProcessing_other": "{{count}} grup przeniesionych do <a>Przetwarzane</a>",
     "acceptedJobsSuccess_one": "{{count}} zadanie przeniesione do <a>Zaakceptowane</a>",
     "acceptedJobsSuccess_other": "{{count}} zadań przeniesionych do <a>Zaakceptowane</a>",
     "acceptedPartsSuccess_one": "{{count}} część przeniesiona do <a>Zaakceptowane</a>",
     "acceptedPartsSuccess_other": "{{count}} części przeniesionych do <a>Zaakceptowane</a>",
+    "acceptedPartsToProcessing_one": "{{count}} część przeniesiona do <a>Przetwarzane</a>",
+    "acceptedPartsToProcessing_other": "{{count}} części przeniesionych do <a>Przetwarzane</a>",
     "acceptingGroups": "Akceptowanie grup części",
     "acceptingJobs": "Akceptowanie zadań",
     "acceptingParts": "Akceptowanie części",
@@ -336,6 +340,8 @@
     "reprintingParts": "Ponowne kolejkowanie części do ponownego druku",
     "reprintPartsSuccess_one": "{{count}} część ponownie zakolejkowana i przeniesiona do <a>Zaakceptowane</a>",
     "reprintPartsSuccess_other": "{{count}} części ponownie zakolejkowanych i przeniesionych do <a>Zaakceptowane</a>",
+    "reprintPartsToProcessing_one": "{{count}} część ponownie zakolejkowana i przeniesiona do <a>Przetwarzane</a>",
+    "reprintPartsToProcessing_other": "{{count}} części ponownie zakolejkowanych i przeniesionych do <a>Przetwarzane</a>",
     "resendingJobs": "Ponowne wysyłanie zadań",
     "resentJobs_one": "Ponownie wysłano {{count}} zadanie",
     "resentJobs_other": "Ponownie wysłano {{count}} zadań",
@@ -370,6 +376,7 @@
       "inbox": "Przesyłaj i przeglądaj części od użytkowników lub aplikacji.\n\nPotwierdź, że częściom przypisano prawidłowy szablon druku, i zaakceptuj je do produkcji.",
       "manage": "Dodawaj lub edytuj użytkowników, łącz aplikacje zewnętrzne, ustawienia ogólne.",
       "parts": "Wyświetl części zaakceptowane do produkcji.\n\nSprawdź status, aby zobaczyć, na jakim etapie procesu produkcji się znajdują.",
+      "partsOverview": "Przesyłaj i przeglądaj części od użytkowników lub aplikacji.\n\nAkceptuj części do produkcji i sprawdzaj, na jakim etapie procesu produkcji się znajdują.",
       "printJobs": "Przeglądaj utworzone zadania druku.\n\nSprawdź status, aby zobaczyć, na jakim etapie procesu produkcji się znajdują.",
       "templates": "Wyświetla listę wszystkich szablonów w Funnel. Określają one, jakie materiały, ustawienia druku i drukarki są używane dla każdego typu części.",
       "timeline": "Zobacz zadania druku zakolejkowane na każdym z Twoich urządzeń, aby monitorować postęp i wykorzystanie."
@@ -420,12 +427,13 @@
       "resend": "Wyślij ponownie",
       "reviewGroup": "Przejrzyj grupę",
       "reviewPart": "Przejrzyj część",
+      "reviewParts": "Przejrzyj części",
       "reworkOffline": "Popraw offline",
       "ungroup": "Rozgrupuj"
     },
     "clearAll": "Wyczyść wszystko",
     "empty": "Brak powiadomień",
-    "requeuePartsConfirmation": "Czy na pewno chcesz ponownie zakolejkować części z tego zadania? Spowoduje to usunięcie bieżącego zadania i utworzenie nowych części w skrzynce odbiorczej.",
+    "requeuePartsConfirmation": "Czy na pewno chcesz ponownie zakolejkować części z tego zadania? Spowoduje to usunięcie bieżącego zadania i utworzenie nowych części na karcie Do weryfikacji na stronie Części.",
     "settings": {
       "label": "Pokazuj powiadomienia w czasie rzeczywistym o częściach, grupach, zadaniach i urządzeniach wymagających uwagi.",
       "title": "Powiadomienia"

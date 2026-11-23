@@ -259,10 +259,14 @@
   "label": {
     "acceptedGroupsSuccess_one": "{{count}} grupo movido para <a>Aceites</a>",
     "acceptedGroupsSuccess_other": "{{count}} grupos movidos para <a>Aceites</a>",
+    "acceptedGroupsToProcessing_one": "{{count}} grupo movido para <a>Em processamento</a>",
+    "acceptedGroupsToProcessing_other": "{{count}} grupos movidos para <a>Em processamento</a>",
     "acceptedJobsSuccess_one": "{{count}} trabalho movido para <a>Aceites</a>",
     "acceptedJobsSuccess_other": "{{count}} trabalhos movidos para <a>Aceites</a>",
     "acceptedPartsSuccess_one": "{{count}} peça movida para <a>Aceites</a>",
     "acceptedPartsSuccess_other": "{{count}} peças movidas para <a>Aceites</a>",
+    "acceptedPartsToProcessing_one": "{{count}} peça movida para <a>Em processamento</a>",
+    "acceptedPartsToProcessing_other": "{{count}} peças movidas para <a>Em processamento</a>",
     "acceptingGroups": "A aceitar grupos de peças",
     "acceptingJobs": "A aceitar trabalhos",
     "acceptingParts": "A aceitar peças",
@@ -336,6 +340,8 @@
     "reprintingParts": "A recolocar peças na fila para reimpressão",
     "reprintPartsSuccess_one": "{{count}} peça recolocada na fila e movida para <a>Aceites</a>",
     "reprintPartsSuccess_other": "{{count}} peças recolocadas na fila e movidas para <a>Aceites</a>",
+    "reprintPartsToProcessing_one": "{{count}} peça recolocada na fila e movida para <a>Em processamento</a>",
+    "reprintPartsToProcessing_other": "{{count}} peças recolocadas na fila e movidas para <a>Em processamento</a>",
     "resendingJobs": "A reenviar trabalhos",
     "resentJobs_one": "{{count}} trabalho reenviado",
     "resentJobs_other": "{{count}} trabalhos reenviados",
@@ -370,6 +376,7 @@
       "inbox": "Carregue e reveja peças de utilizadores ou aplicações.\n\nConfirme que as peças têm o modelo de impressão correto aplicado e aceite para fabrico.",
       "manage": "Adicione ou edite utilizadores, associe aplicações externas, definições gerais.",
       "parts": "Veja as peças que foram aceites para fabrico.\n\nVerifique o estado para ver em que ponto do processo de fabrico se encontram.",
+      "partsOverview": "Carregue e reveja peças de utilizadores ou aplicações.\n\nAceite peças para fabrico e verifique em que ponto do processo de fabrico se encontram.",
       "printJobs": "Reveja os trabalhos de impressão que foram criados.\n\nVerifique o estado para ver em que fase do processo de fabrico se encontram.",
       "templates": "Lista todos os modelos no Funnel. Estes controlam quais os materiais, definições de impressão e impressoras utilizados para cada tipo de peça.",
       "timeline": "Veja os trabalhos de impressão que colocou na fila em cada um dos seus dispositivos para monitorizar o progresso e a utilização."
@@ -420,12 +427,13 @@
       "resend": "Reenviar",
       "reviewGroup": "Rever Grupo",
       "reviewPart": "Rever Peça",
+      "reviewParts": "Rever Peças",
       "reworkOffline": "Retrabalhar Offline",
       "ungroup": "Desagrupar"
     },
     "clearAll": "Limpar Tudo",
     "empty": "Sem notificações",
-    "requeuePartsConfirmation": "Tem a certeza de que pretende recolocar na fila as peças deste trabalho? Isto irá remover o trabalho atual e criar novas peças na caixa de entrada.",
+    "requeuePartsConfirmation": "Tem a certeza de que pretende recolocar na fila as peças deste trabalho? Isto irá remover o trabalho atual e criar novas peças no separador Para Rever da página Peças.",
     "settings": {
       "label": "Mostrar notificações em tempo real para peças, grupos, trabalhos e dispositivos que requerem atenção.",
       "title": "Notificações"

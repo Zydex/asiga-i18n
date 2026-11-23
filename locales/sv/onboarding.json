@@ -35,9 +35,9 @@
         "tooltip": "Bjud in teammedlemmar så att de kan ladda upp delar, granska jobb och hantera skrivare tillsammans med dig."
       },
       "uploadAcceptParts": {
-        "description": "På sidan <bold>Inkorg</bold>, dra och släpp dina STL-filer, välj uppladdade delar och klicka på \"Acceptera\"",
+        "description": "På sidan <bold>Delar</bold>, dra och släpp dina STL-filer, välj uppladdade delar och klicka på \"Acceptera\"",
         "title": "Ladda upp och acceptera delar",
-        "tooltip": "Ladda upp konstruerade STL-delar till Inkorgen och granska sedan de tilldelade inställningarna för godkännande."
+        "tooltip": "Ladda upp konstruerade STL-delar på sidan Delar och granska sedan de tilldelade inställningarna för godkännande."
       }
     },
     "subtitle": "Slutför stegen för att skicka utskriftsjobb till dina enheter",

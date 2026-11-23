@@ -55,7 +55,7 @@
     "moveOffline": "Detta kommer att avvisa jobbet och ladda ner det för redigering i composer.",
     "moveOffline_one": "Detta kommer att avvisa det valda jobbet och ladda ner det för redigering i composer.",
     "moveOffline_other": "Detta kommer att avvisa de valda jobben och ladda ner dem för redigering i composer.",
-    "noJobsToReview": "Preliminära jobb som har befordrats visas här. Ladda upp delar i inkorgen för att komma igång.",
+    "noJobsToReview": "Preliminära jobb som har befordrats visas här. Ladda upp delar på sidan Delar för att komma igång.",
     "noJobsToReviewAutoApprove": "Automatiskt godkännande av jobb är aktiverat. Endast jobb som kräver manuellt ingripande visas här.",
     "noParts": "Detta jobb har inga delar.",
     "noPartsToReprint": "Delar i detta jobb har redan köats igen för att skrivas ut på nytt.",

@@ -259,10 +259,14 @@
   "label": {
     "acceptedGroupsSuccess_one": "{{count}} Gruppe zu <a>Akzeptiert</a> verschoben",
     "acceptedGroupsSuccess_other": "{{count}} Gruppen zu <a>Akzeptiert</a> verschoben",
+    "acceptedGroupsToProcessing_one": "{{count}} Gruppe zu <a>In Bearbeitung</a> verschoben",
+    "acceptedGroupsToProcessing_other": "{{count}} Gruppen zu <a>In Bearbeitung</a> verschoben",
     "acceptedJobsSuccess_one": "{{count}} Auftrag zu <a>Akzeptiert</a> verschoben",
     "acceptedJobsSuccess_other": "{{count}} Aufträge zu <a>Akzeptiert</a> verschoben",
     "acceptedPartsSuccess_one": "{{count}} Teil zu <a>Akzeptiert</a> verschoben",
     "acceptedPartsSuccess_other": "{{count}} Teile zu <a>Akzeptiert</a> verschoben",
+    "acceptedPartsToProcessing_one": "{{count}} Teil zu <a>In Bearbeitung</a> verschoben",
+    "acceptedPartsToProcessing_other": "{{count}} Teile zu <a>In Bearbeitung</a> verschoben",
     "acceptingGroups": "Teilegruppen werden akzeptiert",
     "acceptingJobs": "Aufträge werden akzeptiert",
     "acceptingParts": "Teile werden akzeptiert",
@@ -336,6 +340,8 @@
     "reprintingParts": "Teile werden zum erneuten Drucken eingereiht",
     "reprintPartsSuccess_one": "{{count}} Teil erneut eingereiht und zu <a>Akzeptiert</a> verschoben",
     "reprintPartsSuccess_other": "{{count}} Teile erneut eingereiht und zu <a>Akzeptiert</a> verschoben",
+    "reprintPartsToProcessing_one": "{{count}} Teil erneut eingereiht und zu <a>In Bearbeitung</a> verschoben",
+    "reprintPartsToProcessing_other": "{{count}} Teile erneut eingereiht und zu <a>In Bearbeitung</a> verschoben",
     "resendingJobs": "Aufträge werden erneut gesendet",
     "resentJobs_one": "{{count}} Auftrag erneut gesendet",
     "resentJobs_other": "{{count}} Aufträge erneut gesendet",
@@ -370,6 +376,7 @@
       "inbox": "Laden Sie Teile von Benutzern oder Anwendungen hoch und überprüfen Sie sie.\n\nBestätigen Sie, dass für die Teile die richtige Druckvorlage angewendet wurde, und akzeptieren Sie sie für die Fertigung.",
       "manage": "Benutzer hinzufügen oder bearbeiten, externe Apps verknüpfen, allgemeine Einstellungen.",
       "parts": "Zeigt Teile an, die für die Fertigung akzeptiert wurden.\n\nÜberprüfen Sie den Status, um zu sehen, wo sie sich im Fertigungsprozess befinden.",
+      "partsOverview": "Laden Sie Teile von Benutzern oder Anwendungen hoch und überprüfen Sie sie.\n\nAkzeptieren Sie Teile für die Fertigung und verfolgen Sie, wo sie sich im Fertigungsprozess befinden.",
       "printJobs": "Überprüfen Sie erstellte Druckaufträge.\n\nÜberprüfen Sie den Status, um zu sehen, in welcher Phase des Fertigungsprozesses sie sich befinden.",
       "templates": "Listet alle Vorlagen im Funnel auf. Diese bestimmen, welche Materialien, Druckeinstellungen und Drucker für jeden Teiletyp verwendet werden.",
       "timeline": "Zeigt die auf jedem Ihrer Geräte eingereihten Druckaufträge an, damit Sie Fortschritt und Auslastung überwachen können."
@@ -420,12 +427,13 @@
       "resend": "Erneut senden",
       "reviewGroup": "Gruppe überprüfen",
       "reviewPart": "Teil überprüfen",
+      "reviewParts": "Teile überprüfen",
       "reworkOffline": "Offline überarbeiten",
       "ungroup": "Gruppierung aufheben"
     },
     "clearAll": "Alle löschen",
     "empty": "Keine Benachrichtigungen",
-    "requeuePartsConfirmation": "Möchten Sie die Teile dieses Auftrags wirklich erneut einreihen? Dadurch wird der aktuelle Auftrag entfernt und es werden neue Teile im Posteingang erstellt.",
+    "requeuePartsConfirmation": "Möchten Sie die Teile dieses Auftrags wirklich erneut einreihen? Dadurch wird der aktuelle Auftrag entfernt und es werden neue Teile im Tab „Zu überprüfen“ der Seite „Teile“ erstellt.",
     "settings": {
       "label": "Zeigen Sie Echtzeit-Benachrichtigungen für Teile, Gruppen, Aufträge und Geräte an, die Aufmerksamkeit erfordern.",
       "title": "Benachrichtigungen"

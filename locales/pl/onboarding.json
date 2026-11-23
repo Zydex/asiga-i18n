@@ -35,9 +35,9 @@
         "tooltip": "Zaproś członków zespołu, aby mogli razem z Tobą przesyłać części, przeglądać zlecenia i zarządzać drukarkami."
       },
       "uploadAcceptParts": {
-        "description": "Na stronie <bold>Skrzynka odbiorcza</bold> przeciągnij i upuść pliki STL, wybierz przesłane części i kliknij „Akceptuj”",
+        "description": "Na stronie <bold>Części</bold> przeciągnij i upuść pliki STL, wybierz przesłane części i kliknij „Akceptuj”",
         "title": "Prześlij i zaakceptuj części",
-        "tooltip": "Prześlij zaprojektowane części STL do Skrzynki odbiorczej, a następnie przejrzyj przypisane ustawienia do akceptacji."
+        "tooltip": "Prześlij zaprojektowane części STL na stronie Części, a następnie przejrzyj przypisane ustawienia do akceptacji."
       }
     },
     "subtitle": "Wykonaj poniższe kroki, aby wysyłać zlecenia druku do swoich urządzeń",

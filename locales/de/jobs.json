@@ -55,7 +55,7 @@
     "moveOffline": "Dadurch wird der Auftrag abgelehnt und zur Bearbeitung in Composer heruntergeladen.",
     "moveOffline_one": "Dadurch wird der ausgewählte Auftrag abgelehnt und zur Bearbeitung in Composer heruntergeladen.",
     "moveOffline_other": "Dadurch werden die ausgewählten Aufträge abgelehnt und zur Bearbeitung in Composer heruntergeladen.",
-    "noJobsToReview": "Vorläufige Aufträge, die hochgestuft wurden, werden hier angezeigt. Laden Sie Teile in den Posteingang hoch, um zu beginnen.",
+    "noJobsToReview": "Vorläufige Aufträge, die hochgestuft wurden, werden hier angezeigt. Laden Sie Teile auf der Seite „Teile“ hoch, um zu beginnen.",
     "noJobsToReviewAutoApprove": "Die automatische Annahme von Aufträgen ist aktiviert. Hier werden nur Aufträge angezeigt, die ein manuelles Eingreifen erfordern.",
     "noParts": "Dieser Auftrag enthält keine Teile.",
     "noPartsToReprint": "Teile in diesem Auftrag wurden bereits wieder in die Warteschlange zum erneuten Drucken aufgenommen.",

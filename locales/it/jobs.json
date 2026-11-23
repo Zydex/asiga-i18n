@@ -55,7 +55,7 @@
     "moveOffline": "Questa azione rifiuterà il lavoro e lo scaricherà per la modifica in Composer.",
     "moveOffline_one": "Questa azione rifiuterà il lavoro selezionato e lo scaricherà per la modifica in Composer.",
     "moveOffline_other": "Questa azione rifiuterà i lavori selezionati e li scaricherà per la modifica in Composer.",
-    "noJobsToReview": "I lavori provvisori che sono stati promossi verranno visualizzati qui. Carica le parti nella posta in arrivo per iniziare.",
+    "noJobsToReview": "I lavori provvisori che sono stati promossi verranno visualizzati qui. Carica le parti nella pagina Pezzi per iniziare.",
     "noJobsToReviewAutoApprove": "L'accettazione automatica dei lavori è attiva. Qui verranno visualizzati solo i lavori che richiedono un intervento manuale.",
     "noParts": "Questo lavoro non ha parti.",
     "noPartsToReprint": "Le parti di questo lavoro sono già state rimesse in coda per la ristampa.",

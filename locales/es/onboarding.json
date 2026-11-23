@@ -35,9 +35,9 @@
         "tooltip": "Invita a miembros del equipo para que puedan subir piezas, revisar trabajos y gestionar impresoras contigo."
       },
       "uploadAcceptParts": {
-        "description": "En la página <bold>Bandeja de entrada</bold>, arrastra y suelta tus archivos STL, selecciona las piezas subidas y haz clic en “Aceptar”",
+        "description": "En la página <bold>Piezas</bold>, arrastra y suelta tus archivos STL, selecciona las piezas subidas y haz clic en “Aceptar”",
         "title": "Subir y aceptar piezas",
-        "tooltip": "Sube piezas STL diseñadas a la Bandeja de entrada y luego revisa la configuración asignada para su aceptación."
+        "tooltip": "Sube piezas STL diseñadas en la página Piezas y luego revisa la configuración asignada para su aceptación."
       }
     },
     "subtitle": "Completa los pasos para enviar trabajos de impresión a tus dispositivos",

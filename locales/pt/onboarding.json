@@ -35,9 +35,9 @@
         "tooltip": "Convide membros da equipa para que possam carregar peças, rever trabalhos e gerir impressoras consigo."
       },
       "uploadAcceptParts": {
-        "description": "Na página <bold>Caixa de Entrada</bold>, arraste e largue os seus ficheiros STL, selecione as peças carregadas e clique em “Aceitar”",
+        "description": "Na página <bold>Peças</bold>, arraste e largue os seus ficheiros STL, selecione as peças carregadas e clique em “Aceitar”",
         "title": "Carregar e aceitar peças",
-        "tooltip": "Carregue peças STL concebidas para a Caixa de Entrada e depois reveja as definições atribuídas para aceitação."
+        "tooltip": "Carregue peças STL concebidas na página Peças e depois reveja as definições atribuídas para aceitação."
       }
     },
     "subtitle": "Conclua os passos para enviar trabalhos de impressão para os seus dispositivos",
