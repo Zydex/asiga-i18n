@@ -259,10 +259,14 @@
   "label": {
     "acceptedGroupsSuccess_one": "{{count}} groep verplaatst naar <a>Geaccepteerd</a>",
     "acceptedGroupsSuccess_other": "{{count}} groepen verplaatst naar <a>Geaccepteerd</a>",
+    "acceptedGroupsToProcessing_one": "{{count}} groep verplaatst naar <a>In verwerking</a>",
+    "acceptedGroupsToProcessing_other": "{{count}} groepen verplaatst naar <a>In verwerking</a>",
     "acceptedJobsSuccess_one": "{{count}} taak verplaatst naar <a>Geaccepteerd</a>",
     "acceptedJobsSuccess_other": "{{count}} taken verplaatst naar <a>Geaccepteerd</a>",
     "acceptedPartsSuccess_one": "{{count}} onderdeel verplaatst naar <a>Geaccepteerd</a>",
     "acceptedPartsSuccess_other": "{{count}} onderdelen verplaatst naar <a>Geaccepteerd</a>",
+    "acceptedPartsToProcessing_one": "{{count}} onderdeel verplaatst naar <a>In verwerking</a>",
+    "acceptedPartsToProcessing_other": "{{count}} onderdelen verplaatst naar <a>In verwerking</a>",
     "acceptingGroups": "Onderdeelgroepen worden geaccepteerd",
     "acceptingJobs": "Taken worden geaccepteerd",
     "acceptingParts": "Onderdelen worden geaccepteerd",
@@ -336,6 +340,8 @@
     "reprintingParts": "Onderdelen worden opnieuw in de wachtrij geplaatst voor herdruk",
     "reprintPartsSuccess_one": "{{count}} onderdeel opnieuw in de wachtrij geplaatst en verplaatst naar <a>Geaccepteerd</a>",
     "reprintPartsSuccess_other": "{{count}} onderdelen opnieuw in de wachtrij geplaatst en verplaatst naar <a>Geaccepteerd</a>",
+    "reprintPartsToProcessing_one": "{{count}} onderdeel opnieuw in de wachtrij geplaatst en verplaatst naar <a>In verwerking</a>",
+    "reprintPartsToProcessing_other": "{{count}} onderdelen opnieuw in de wachtrij geplaatst en verplaatst naar <a>In verwerking</a>",
     "resendingJobs": "Taken worden opnieuw verzonden",
     "resentJobs_one": "{{count}} taak opnieuw verzonden",
     "resentJobs_other": "{{count}} taken opnieuw verzonden",
@@ -370,6 +376,7 @@
       "inbox": "Upload en beoordeel onderdelen van gebruikers of applicaties.\n\nBevestig dat onderdelen het juiste printsjabloon hebben toegepast en accepteer ze voor productie.",
       "manage": "Voeg gebruikers toe of bewerk ze, koppel externe apps, algemene instellingen.",
       "parts": "Bekijk onderdelen die zijn geaccepteerd voor productie.\n\nControleer de status om te zien waar ze zich bevinden in het productieproces.",
+      "partsOverview": "Upload en beoordeel onderdelen van gebruikers of applicaties.\n\nAccepteer onderdelen voor productie en controleer waar ze zich bevinden in het productieproces.",
       "printJobs": "Beoordeel printtaken die zijn aangemaakt.\n\nControleer de status om te zien in welke fase van het productieproces ze zich bevinden.",
       "templates": "Toont alle sjablonen in de Funnel. Deze bepalen welke materialen, printinstellingen en printers voor elk onderdeeltype worden gebruikt.",
       "timeline": "Bekijk de printtaken die in de wachtrij staan op elk van uw apparaten om de voortgang en benutting te monitoren."
@@ -420,12 +427,13 @@
       "resend": "Opnieuw verzenden",
       "reviewGroup": "Groep beoordelen",
       "reviewPart": "Onderdeel beoordelen",
+      "reviewParts": "Onderdelen beoordelen",
       "reworkOffline": "Offline herbewerken",
       "ungroup": "Ontgroeperen"
     },
     "clearAll": "Alles wissen",
     "empty": "Geen meldingen",
-    "requeuePartsConfirmation": "Weet u zeker dat u de onderdelen van deze taak opnieuw in de wachtrij wilt plaatsen? Hierdoor wordt de huidige taak verwijderd en worden nieuwe onderdelen in de inbox aangemaakt.",
+    "requeuePartsConfirmation": "Weet u zeker dat u de onderdelen van deze taak opnieuw in de wachtrij wilt plaatsen? Hierdoor wordt de huidige taak verwijderd en worden nieuwe onderdelen aangemaakt op het tabblad Te beoordelen van de pagina Onderdelen.",
     "settings": {
       "label": "Toon realtime meldingen voor onderdelen, groepen, taken en apparaten die aandacht vereisen.",
       "title": "Meldingen"

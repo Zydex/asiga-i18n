@@ -1,12 +1,20 @@
 {
   "emptyPartsMessages": {
+    "all": {
+      "message": "Części dodane do Lejka pojawią się tutaj wraz z ich statusem",
+      "title": "Brak części"
+    },
     "allParts": {
-      "message": "Gdy części zostaną zaakceptowane w skrzynce odbiorczej, pojawią się tutaj, aby można je było rozważyć do druku",
+      "message": "Gdy części zostaną zaakceptowane na karcie „Do weryfikacji”, pojawią się tutaj, aby można je było rozważyć do druku",
       "title": "Brak części gotowych do druku"
     },
     "printReady": {
       "message": "Części gotowe do dodania do zadania druku pojawią się tutaj",
       "title": "Brak części w kolejce"
+    },
+    "processing": {
+      "message": "Części z karty „Do weryfikacji” pojawią się tutaj po ich zaakceptowaniu",
+      "title": "Brak przetwarzanych części"
     },
     "sent": {
       "message": "Części pojawią się tutaj, gdy zostaną złożone w zadanie druku i wysłane do drukarki",
@@ -19,8 +27,10 @@
   },
   "label": {
     "allParts": "Wszystkie części",
+    "dropFile": "Dodaj pliki do Funnela",
     "partsQueue": "Części w kolejce",
     "printReady": "Gotowe do druku",
+    "processing": "Przetwarzane",
     "sent": "Wysłano"
   },
   "status": {
@@ -125,7 +135,8 @@
     "parts": "Części"
   },
   "tooltips": {
-    "allParts": "Wszystkie zaakceptowane części są tutaj wyświetlane wraz z ich statusem.",
-    "partsQueue": "Części oczekujące w kolejce do druku są tutaj wyświetlane, pogrupowane według szablonu."
+    "allParts": "Wszystkie części dodane do Lejka są tutaj wyświetlane wraz z ich statusem.",
+    "partsQueue": "Części oczekujące w kolejce do druku są tutaj wyświetlane, pogrupowane według szablonu.",
+    "processing": "Zaakceptowane części są tutaj wyświetlane podczas przetwarzania i kolejkowania do druku, pogrupowane według szablonu."
   }
 }

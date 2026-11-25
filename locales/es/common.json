@@ -259,10 +259,14 @@
   "label": {
     "acceptedGroupsSuccess_one": "{{count}} grupo movido a <a>Aceptados</a>",
     "acceptedGroupsSuccess_other": "{{count}} grupos movidos a <a>Aceptados</a>",
+    "acceptedGroupsToProcessing_one": "{{count}} grupo movido a <a>En proceso</a>",
+    "acceptedGroupsToProcessing_other": "{{count}} grupos movidos a <a>En proceso</a>",
     "acceptedJobsSuccess_one": "{{count}} trabajo movido a <a>Aceptados</a>",
     "acceptedJobsSuccess_other": "{{count}} trabajos movidos a <a>Aceptados</a>",
     "acceptedPartsSuccess_one": "{{count}} pieza movida a <a>Aceptados</a>",
     "acceptedPartsSuccess_other": "{{count}} piezas movidas a <a>Aceptados</a>",
+    "acceptedPartsToProcessing_one": "{{count}} pieza movida a <a>En proceso</a>",
+    "acceptedPartsToProcessing_other": "{{count}} piezas movidas a <a>En proceso</a>",
     "acceptingGroups": "Aceptando grupos de piezas",
     "acceptingJobs": "Aceptando trabajos",
     "acceptingParts": "Aceptando piezas",
@@ -336,6 +340,8 @@
     "reprintingParts": "Volviendo a poner en cola piezas para reimprimir",
     "reprintPartsSuccess_one": "{{count}} pieza vuelta a poner en cola y movida a <a>Aceptados</a>",
     "reprintPartsSuccess_other": "{{count}} piezas vueltas a poner en cola y movidas a <a>Aceptados</a>",
+    "reprintPartsToProcessing_one": "{{count}} pieza vuelta a poner en cola y movida a <a>En proceso</a>",
+    "reprintPartsToProcessing_other": "{{count}} piezas vueltas a poner en cola y movidas a <a>En proceso</a>",
     "resendingJobs": "Reenviando trabajos",
     "resentJobs_one": "{{count}} trabajo reenviado",
     "resentJobs_other": "{{count}} trabajos reenviados",
@@ -370,6 +376,7 @@
       "inbox": "Sube y revisa piezas de usuarios o aplicaciones.\n\nConfirma que las piezas tengan aplicada la plantilla de impresión correcta y acéptalas para su fabricación.",
       "manage": "Añade o edita usuarios, vincula aplicaciones externas, configuración general.",
       "parts": "Consulta las piezas que han sido aceptadas para fabricación.\n\nRevisa el estado para ver en qué punto del proceso de fabricación se encuentran.",
+      "partsOverview": "Sube y revisa piezas de usuarios o aplicaciones.\n\nAcepta piezas para su fabricación y consulta en qué punto del proceso de fabricación se encuentran.",
       "printJobs": "Revisa los trabajos de impresión que se han creado.\n\nRevisa el estado para ver en qué etapa del proceso de fabricación se encuentran.",
       "templates": "Muestra todas las plantillas del Funnel. Estas controlan qué materiales, ajustes de impresión e impresoras se utilizan para cada tipo de pieza.",
       "timeline": "Consulta los trabajos de impresión en cola en cada uno de tus dispositivos para monitorear el progreso y la utilización."
@@ -420,12 +427,13 @@
       "resend": "Reenviar",
       "reviewGroup": "Revisar grupo",
       "reviewPart": "Revisar pieza",
+      "reviewParts": "Revisar piezas",
       "reworkOffline": "Retrabajar sin conexión",
       "ungroup": "Desagrupar"
     },
     "clearAll": "Borrar todo",
     "empty": "Sin notificaciones",
-    "requeuePartsConfirmation": "¿Seguro que deseas volver a poner en cola las piezas de este trabajo? Esto eliminará el trabajo actual y creará nuevas piezas en la bandeja de entrada.",
+    "requeuePartsConfirmation": "¿Seguro que deseas volver a poner en cola las piezas de este trabajo? Esto eliminará el trabajo actual y creará nuevas piezas en la pestaña Para revisar de la página Piezas.",
     "settings": {
       "label": "Mostrar notificaciones en tiempo real para piezas, grupos, trabajos y dispositivos que requieran atención.",
       "title": "Notificaciones"

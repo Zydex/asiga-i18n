@@ -1,12 +1,20 @@
 {
   "emptyPartsMessages": {
+    "all": {
+      "message": "Delar som har lagts till i tratten visas här, tillsammans med deras status",
+      "title": "Inga delar"
+    },
     "allParts": {
-      "message": "När delar accepteras i inkorgen visas de här för att övervägas för utskrift",
+      "message": "När delar accepteras på fliken 'Att granska' visas de här för att övervägas för utskrift",
       "title": "Inga delar redo för utskrift"
     },
     "printReady": {
       "message": "Delar som är redo att läggas till i ett utskriftsjobb visas här",
       "title": "Inga delar i kö"
+    },
+    "processing": {
+      "message": "Delar från fliken 'Att granska' visas här när de har accepterats",
+      "title": "Inga delar bearbetas"
     },
     "sent": {
       "message": "Delar visas här när de har sammanställts i ett utskriftsjobb och skickats till skrivaren",
@@ -19,8 +27,10 @@
   },
   "label": {
     "allParts": "Alla delar",
+    "dropFile": "Lägg till filer i Funnel",
     "partsQueue": "Delar i kö",
     "printReady": "Redo för utskrift",
+    "processing": "Bearbetas",
     "sent": "Skickad"
   },
   "status": {
@@ -125,7 +135,8 @@
     "parts": "Delar"
   },
   "tooltips": {
-    "allParts": "Alla delar som har accepterats visas här, tillsammans med deras status.",
-    "partsQueue": "Delar som är i kö för utskrift visas här, grupperade efter mall."
+    "allParts": "Alla delar som har lagts till i tratten visas här, tillsammans med deras status.",
+    "partsQueue": "Delar som är i kö för utskrift visas här, grupperade efter mall.",
+    "processing": "Accepterade delar visas här medan de bearbetas och köas för utskrift, grupperade efter mall."
   }
 }

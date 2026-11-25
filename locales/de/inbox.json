@@ -113,7 +113,7 @@
     "designSelected_one": "{{count}} Design ausgewählt",
     "designSelected_other": "{{count}} Designs ausgewählt",
     "downloadPartError": "Teil konnte nicht heruntergeladen werden",
-    "dropFile": "Dateien oder Ordner hier ablegen, um sie zum Posteingang hinzuzufügen",
+    "dropFile": "Dateien oder Ordner hier ablegen, um sie zum Funnel hinzuzufügen",
     "groupHasBeenPrioritised": "Gruppe wurde priorisiert",
     "invalidUploadFileContent": "Eine oder mehrere Dateien konnten nicht als gültiger STL-Inhalt gelesen werden",
     "invalidUploadFileSize": "Eine oder mehrere Dateien überschreiten die maximale Upload-Größe",

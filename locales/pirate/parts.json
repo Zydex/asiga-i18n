@@ -1,12 +1,20 @@
 {
   "emptyPartsMessages": {
+    "all": {
+      "message": "Trinkets that have been brought aboard th' Funnel will appear here, alongside their status",
+      "title": "No trinkets"
+    },
     "allParts": {
-      "message": "When trinkets be accepted in th' crow's nest they will appear here to be considered for forgin'",
+      "message": "When trinkets be accepted in th' 'To Eye Over' tab they will appear here to be considered for forgin'",
       "title": "No trinkets forge ready"
     },
     "printReady": {
       "message": "Trinkets that be ready to join a forge voyage will appear here",
       "title": "No trinkets in th' line"
+    },
+    "processing": {
+      "message": "Trinkets from th' 'To Eye Over' tab will appear here once they be accepted",
+      "title": "No trinkets in th' works"
     },
     "sent": {
       "message": "Trinkets will appear here when they have been assembled into a forge voyage an' sent to th' contraption",
@@ -19,8 +27,10 @@
   },
   "label": {
     "allParts": "All Trinkets",
+    "dropFile": "Add scrolls to th' Funnel",
     "partsQueue": "Trinkets Waitin'",
     "printReady": "Forge ready",
+    "processing": "In th' Works",
     "sent": "Sailed Off"
   },
   "status": {
@@ -125,7 +135,8 @@
     "parts": "Trinkets"
   },
   "tooltips": {
-    "allParts": "All trinkets that have been accepted be shown here, alongside their status.",
-    "partsQueue": "Trinkets in th' line for forgin' be shown here, grouped by their chart."
+    "allParts": "All trinkets that have been brought aboard th' Funnel be shown here, alongside their status.",
+    "partsQueue": "Trinkets in th' line for forgin' be shown here, grouped by their chart.",
+    "processing": "Accepted trinkets be shown here while they be readied an' lined up for forgin', grouped by their chart."
   }
 }

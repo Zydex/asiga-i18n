@@ -55,7 +55,7 @@
     "moveOffline": "Ez elutasítja a munkát, és letölti azt a Composerben történő szerkesztéshez.",
     "moveOffline_one": "Ez elutasítja a kiválasztott munkát, és letölti azt a Composerben történő szerkesztéshez.",
     "moveOffline_other": "Ez elutasítja a kiválasztott munkákat, és letölti azokat a Composerben történő szerkesztéshez.",
-    "noJobsToReview": "Az előléptetett ideiglenes munkák itt fognak megjelenni. A kezdéshez töltsön fel alkatrészeket a bejövő mappába.",
+    "noJobsToReview": "Az előléptetett ideiglenes munkák itt fognak megjelenni. A kezdéshez töltsön fel alkatrészeket az Alkatrészek oldalon.",
     "noJobsToReviewAutoApprove": "A munkák automatikus elfogadása be van kapcsolva. Itt csak a kézi beavatkozást igénylő munkák fognak megjelenni.",
     "noParts": "Ehhez a munkához nem tartoznak alkatrészek.",
     "noPartsToReprint": "Az ebben a munkában lévő alkatrészek már vissza lettek sorolva újranyomtatásra.",

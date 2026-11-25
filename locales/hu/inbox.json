@@ -113,7 +113,7 @@
     "designSelected_one": "{{count}} terv kiválasztva",
     "designSelected_other": "{{count}} terv kiválasztva",
     "downloadPartError": "Nem sikerült letölteni az alkatrészt",
-    "dropFile": "Húzzon ide fájlokat vagy mappákat a Beérkezőhöz való hozzáadáshoz",
+    "dropFile": "Húzzon ide fájlokat vagy mappákat a Funnelhez való hozzáadáshoz",
     "groupHasBeenPrioritised": "A csoport prioritást kapott",
     "invalidUploadFileContent": "Egy vagy több fájl nem olvasható be érvényes STL-tartalomként",
     "invalidUploadFileSize": "Egy vagy több fájl meghaladja a megengedett maximális feltöltési méretet",

@@ -55,7 +55,7 @@
     "moveOffline": "Isto irá rejeitar o trabalho e descarregá-lo para edição no composer.",
     "moveOffline_one": "Isto irá rejeitar o trabalho selecionado e descarregá-lo para edição no composer.",
     "moveOffline_other": "Isto irá rejeitar os trabalhos selecionados e descarregá-los para edição no composer.",
-    "noJobsToReview": "Os trabalhos provisórios que tenham sido promovidos aparecerão aqui. Faça upload de peças na caixa de entrada para começar.",
+    "noJobsToReview": "Os trabalhos provisórios que tenham sido promovidos aparecerão aqui. Carregue peças na página Peças para começar.",
     "noJobsToReviewAutoApprove": "A aceitação automática de trabalhos está ativada. Aqui apenas aparecerão os trabalhos que requerem intervenção manual.",
     "noParts": "Este trabalho não tem peças.",
     "noPartsToReprint": "As peças deste trabalho já foram reenfileiradas para reimpressão.",

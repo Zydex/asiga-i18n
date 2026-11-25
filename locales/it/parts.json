@@ -1,12 +1,20 @@
 {
   "emptyPartsMessages": {
+    "all": {
+      "message": "Le parti aggiunte al Funnel appariranno qui, insieme al loro stato",
+      "title": "Nessuna parte"
+    },
     "allParts": {
-      "message": "Quando le parti vengono accettate nella posta in arrivo, appariranno qui per essere prese in considerazione per la stampa",
+      "message": "Quando le parti vengono accettate nella scheda 'Da revisionare', appariranno qui per essere prese in considerazione per la stampa",
       "title": "Nessuna parte pronta per la stampa"
     },
     "printReady": {
       "message": "Le parti pronte per essere aggiunte a un lavoro di stampa appariranno qui",
       "title": "Nessuna parte in coda"
+    },
+    "processing": {
+      "message": "Le parti della scheda 'Da revisionare' appariranno qui una volta accettate",
+      "title": "Nessuna parte in elaborazione"
     },
     "sent": {
       "message": "Le parti appariranno qui quando saranno state assemblate in un lavoro di stampa e inviate alla stampante",
@@ -19,8 +27,10 @@
   },
   "label": {
     "allParts": "Tutte le parti",
+    "dropFile": "Aggiungi file al Funnel",
     "partsQueue": "Parti in coda",
     "printReady": "Pronto per la stampa",
+    "processing": "In elaborazione",
     "sent": "Inviato"
   },
   "status": {
@@ -125,7 +135,8 @@
     "parts": "Parti"
   },
   "tooltips": {
-    "allParts": "Tutte le parti che sono state accettate vengono mostrate qui, insieme al loro stato.",
-    "partsQueue": "Le parti in coda per la stampa vengono mostrate qui, raggruppate per modello."
+    "allParts": "Tutte le parti che sono state aggiunte al Funnel vengono mostrate qui, insieme al loro stato.",
+    "partsQueue": "Le parti in coda per la stampa vengono mostrate qui, raggruppate per modello.",
+    "processing": "Le parti accettate vengono mostrate qui mentre vengono elaborate e messe in coda per la stampa, raggruppate per template."
   }
 }

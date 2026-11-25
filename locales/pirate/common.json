@@ -259,10 +259,14 @@
   "label": {
     "acceptedGroupsSuccess_one": "{{count}} band moved to <a>Accepted</a>",
     "acceptedGroupsSuccess_other": "{{count}} bands moved to <a>Accepted</a>",
+    "acceptedGroupsToProcessing_one": "{{count}} band moved to <a>In th' Works</a>",
+    "acceptedGroupsToProcessing_other": "{{count}} bands moved to <a>In th' Works</a>",
     "acceptedJobsSuccess_one": "{{count}} voyage moved to <a>Accepted</a>",
     "acceptedJobsSuccess_other": "{{count}} voyages moved to <a>Accepted</a>",
     "acceptedPartsSuccess_one": "{{count}} trinket moved to <a>Accepted</a>",
     "acceptedPartsSuccess_other": "{{count}} trinkets moved to <a>Accepted</a>",
+    "acceptedPartsToProcessing_one": "{{count}} trinket moved to <a>In th' Works</a>",
+    "acceptedPartsToProcessing_other": "{{count}} trinkets moved to <a>In th' Works</a>",
     "acceptingGroups": "Acceptin' trinket bands",
     "acceptingJobs": "Acceptin' voyages",
     "acceptingParts": "Acceptin' trinkets",
@@ -336,6 +340,8 @@
     "reprintingParts": "Sendin' trinkets back in line for re-forgin'",
     "reprintPartsSuccess_one": "{{count}} trinket back in line an' moved to <a>Accepted</a>",
     "reprintPartsSuccess_other": "{{count}} trinkets back in line an' moved to <a>Accepted</a>",
+    "reprintPartsToProcessing_one": "{{count}} trinket back in line an' moved to <a>In th' Works</a>",
+    "reprintPartsToProcessing_other": "{{count}} trinkets back in line an' moved to <a>In th' Works</a>",
     "resendingJobs": "Resendin' voyages",
     "resentJobs_one": "Resent {{count}} voyage",
     "resentJobs_other": "Resent {{count}} voyages",
@@ -370,6 +376,7 @@
       "inbox": "Hoist aboard & review trinkets from crew or applications.\n\nConfirm th' trinkets have th' right forgin' chart applied & accept them for makin'.",
       "manage": "Add or edit crew, link outside apps, general riggin'.",
       "parts": "View trinkets that have been accepted for makin'.\n\nCheck th' status to see where they be in th' makin' process.",
+      "partsOverview": "Hoist aboard & review trinkets from crew or applications.\n\nAccept trinkets for makin' & check where they be in th' makin' process.",
       "printJobs": "Review forgin' voyages that have been created.\n\nCheck th' status to see what stage they be at in th' makin' process.",
       "templates": "Lists all th' charts in th' Funnel. These control which grog, forgin' riggin' and contraptions be used for each trinket type.",
       "timeline": "See th' forgin' voyages ye have waitin' in line on each o' yer contraptions to watch progress & use."
@@ -420,12 +427,13 @@
       "resend": "Send Again",
       "reviewGroup": "Review Band",
       "reviewPart": "Review Trinket",
+      "reviewParts": "Review Trinkets",
       "reworkOffline": "Rework Ashore",
       "ungroup": "Unband"
     },
     "clearAll": "Swab All",
     "empty": "No tidings",
-    "requeuePartsConfirmation": "Be ye sure ye want to send th' trinkets from this voyage back in line? This will scuttle th' current voyage an' create new trinkets in th' crow's nest.",
+    "requeuePartsConfirmation": "Be ye sure ye want to send th' trinkets from this voyage back in line? This will scuttle th' current voyage an' create new trinkets in th' To Eye Over tab o' th' Trinkets page.",
     "settings": {
       "label": "Show live tidings for trinkets, bands, voyages and contraptions that need yer eye.",
       "title": "Tidings"

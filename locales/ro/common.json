@@ -259,10 +259,14 @@
   "label": {
     "acceptedGroupsSuccess_one": "{{count}} grup mutat în <a>Acceptate</a>",
     "acceptedGroupsSuccess_other": "{{count}} grupuri mutate în <a>Acceptate</a>",
+    "acceptedGroupsToProcessing_one": "{{count}} grup mutat în <a>În procesare</a>",
+    "acceptedGroupsToProcessing_other": "{{count}} grupuri mutate în <a>În procesare</a>",
     "acceptedJobsSuccess_one": "{{count}} comandă mutată în <a>Acceptate</a>",
     "acceptedJobsSuccess_other": "{{count}} comenzi mutate în <a>Acceptate</a>",
     "acceptedPartsSuccess_one": "{{count}} piesă mutată în <a>Acceptate</a>",
     "acceptedPartsSuccess_other": "{{count}} piese mutate în <a>Acceptate</a>",
+    "acceptedPartsToProcessing_one": "{{count}} piesă mutată în <a>În procesare</a>",
+    "acceptedPartsToProcessing_other": "{{count}} piese mutate în <a>În procesare</a>",
     "acceptingGroups": "Se acceptă grupurile de piese",
     "acceptingJobs": "Se acceptă comenzile",
     "acceptingParts": "Se acceptă piesele",
@@ -336,6 +340,8 @@
     "reprintingParts": "Se repun în coadă piesele pentru reprintare",
     "reprintPartsSuccess_one": "{{count}} piesă repusă în coadă și mutată în <a>Acceptate</a>",
     "reprintPartsSuccess_other": "{{count}} piese repuse în coadă și mutate în <a>Acceptate</a>",
+    "reprintPartsToProcessing_one": "{{count}} piesă repusă în coadă și mutată în <a>În procesare</a>",
+    "reprintPartsToProcessing_other": "{{count}} piese repuse în coadă și mutate în <a>În procesare</a>",
     "resendingJobs": "Se retrimit comenzile",
     "resentJobs_one": "{{count}} comandă retrimisă",
     "resentJobs_other": "{{count}} comenzi retrimise",
@@ -370,6 +376,7 @@
       "inbox": "Încărcați și revizuiți piese de la utilizatori sau aplicații.\n\nConfirmați că piesele au șablonul de printare corect aplicat și acceptați-le pentru fabricație.",
       "manage": "Adăugați sau editați utilizatori, conectați aplicații externe, setări generale.",
       "parts": "Vizualizați piesele care au fost acceptate pentru fabricație.\n\nVerificați starea pentru a vedea în ce etapă a procesului de fabricație se află.",
+      "partsOverview": "Încărcați și revizuiți piese de la utilizatori sau aplicații.\n\nAcceptați piesele pentru fabricație și verificați în ce etapă a procesului de fabricație se află.",
       "printJobs": "Revizuiți comenzile de printare care au fost create.\n\nVerificați starea pentru a vedea în ce etapă a procesului de fabricație se află.",
       "templates": "Listează toate șabloanele din Funnel. Acestea controlează ce materiale, setări de printare și imprimante sunt utilizate pentru fiecare tip de piesă.",
       "timeline": "Vedeți comenzile de printare programate pe fiecare dintre dispozitivele dvs. pentru a monitoriza progresul și utilizarea."
@@ -420,12 +427,13 @@
       "resend": "Retrimite",
       "reviewGroup": "Revizuiește grupul",
       "reviewPart": "Revizuiește piesa",
+      "reviewParts": "Revizuiește piesele",
       "reworkOffline": "Refă offline",
       "ungroup": "Degrupează"
     },
     "clearAll": "Șterge tot",
     "empty": "Nicio notificare",
-    "requeuePartsConfirmation": "Sigur doriți să repuneți în coadă piesele din această comandă? Aceasta va elimina comanda curentă și va crea piese noi în inbox.",
+    "requeuePartsConfirmation": "Sigur doriți să repuneți în coadă piesele din această comandă? Aceasta va elimina comanda curentă și va crea piese noi în fila De revizuit a paginii Piese.",
     "settings": {
       "label": "Afișează notificări în timp real pentru piese, grupuri, comenzi și dispozitive care necesită atenție.",
       "title": "Notificări"

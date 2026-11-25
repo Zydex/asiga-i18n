@@ -113,7 +113,7 @@
     "designSelected_one": "{{count}} Design selecionado",
     "designSelected_other": "{{count}} Designs selecionados",
     "downloadPartError": "Falha ao transferir a peça",
-    "dropFile": "Largue ficheiros ou pastas para os adicionar à Caixa de Entrada",
+    "dropFile": "Largue ficheiros ou pastas para os adicionar ao Funnel",
     "groupHasBeenPrioritised": "O grupo foi priorizado",
     "invalidUploadFileContent": "Um ou mais ficheiros não puderam ser lidos como conteúdo STL válido",
     "invalidUploadFileSize": "Um ou mais ficheiros excedem o tamanho máximo de carregamento",

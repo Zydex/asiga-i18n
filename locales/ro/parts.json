@@ -1,12 +1,20 @@
 {
   "emptyPartsMessages": {
+    "all": {
+      "message": "Piesele care au fost adăugate în Funnel vor apărea aici, împreună cu statusul lor",
+      "title": "Nicio piesă"
+    },
     "allParts": {
-      "message": "Când piesele sunt acceptate în inbox, acestea vor apărea aici pentru a fi luate în considerare pentru imprimare",
+      "message": "Când piesele sunt acceptate în fila „De revizuit”, acestea vor apărea aici pentru a fi luate în considerare pentru imprimare",
       "title": "Nicio piesă pregătită de imprimare"
     },
     "printReady": {
       "message": "Piesele care sunt gata să fie adăugate la o sarcină de imprimare vor apărea aici",
       "title": "Nicio piesă în așteptare"
+    },
+    "processing": {
+      "message": "Piesele din fila „De revizuit” vor apărea aici după ce au fost acceptate",
+      "title": "Nicio piesă în procesare"
     },
     "sent": {
       "message": "Piesele vor apărea aici după ce au fost asamblate într-o sarcină de imprimare și trimise la imprimantă",
@@ -19,8 +27,10 @@
   },
   "label": {
     "allParts": "Toate piesele",
+    "dropFile": "Adăugați fișiere în Funnel",
     "partsQueue": "Piese în așteptare",
     "printReady": "Pregătit de imprimare",
+    "processing": "În procesare",
     "sent": "Trimis"
   },
   "status": {
@@ -125,7 +135,8 @@
     "parts": "Piese"
   },
   "tooltips": {
-    "allParts": "Toate piesele care au fost acceptate sunt afișate aici, împreună cu statusul lor.",
-    "partsQueue": "Piesele care sunt în așteptare pentru imprimare sunt afișate aici, grupate după șablonul lor."
+    "allParts": "Toate piesele care au fost adăugate în Funnel sunt afișate aici, împreună cu statusul lor.",
+    "partsQueue": "Piesele care sunt în așteptare pentru imprimare sunt afișate aici, grupate după șablonul lor.",
+    "processing": "Piesele acceptate sunt afișate aici în timp ce sunt procesate și puse în coadă pentru imprimare, grupate după șablon."
   }
 }

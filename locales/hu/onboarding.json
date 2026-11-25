@@ -35,9 +35,9 @@
         "tooltip": "Hívjon meg csapattagokat, hogy Önnel együtt tölthessenek fel alkatrészeket, ellenőrizhessenek feladatokat és kezelhessék a nyomtatókat."
       },
       "uploadAcceptParts": {
-        "description": "A <bold>Beérkezett üzenetek</bold> oldalon húzza és ejtse ide STL-fájljait, válassza ki a feltöltött alkatrészeket, majd kattintson az „Elfogadás” gombra",
+        "description": "Az <bold>Alkatrészek</bold> oldalon húzza és ejtse ide STL-fájljait, válassza ki a feltöltött alkatrészeket, majd kattintson az „Elfogadás” gombra",
         "title": "Alkatrészek feltöltése és elfogadása",
-        "tooltip": "Töltse fel a megtervezett STL-alkatrészeket a Beérkezett üzenetek oldalra, majd ellenőrizze a hozzárendelt beállításokat az elfogadáshoz."
+        "tooltip": "Töltse fel a megtervezett STL-alkatrészeket az Alkatrészek oldalon, majd ellenőrizze a hozzárendelt beállításokat az elfogadáshoz."
       }
     },
     "subtitle": "Végezze el a lépéseket, hogy nyomtatási feladatokat küldhessen eszközeire",

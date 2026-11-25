@@ -1,12 +1,20 @@
 {
   "emptyPartsMessages": {
+    "all": {
+      "message": "Teile, die zum Funnel hinzugefügt wurden, werden hier zusammen mit ihrem Status angezeigt",
+      "title": "Keine Teile"
+    },
     "allParts": {
-      "message": "Wenn Teile im Posteingang akzeptiert werden, erscheinen sie hier, um für den Druck berücksichtigt zu werden",
+      "message": "Wenn Teile im Tab „Zu überprüfen“ akzeptiert werden, erscheinen sie hier, um für den Druck berücksichtigt zu werden",
       "title": "Keine druckbereiten Teile"
     },
     "printReady": {
       "message": "Teile, die bereit sind, einem Druckauftrag hinzugefügt zu werden, erscheinen hier",
       "title": "Keine Teile in der Warteschlange"
+    },
+    "processing": {
+      "message": "Teile aus dem Tab „Zu überprüfen“ werden hier angezeigt, sobald sie akzeptiert wurden",
+      "title": "Keine Teile in Bearbeitung"
     },
     "sent": {
       "message": "Teile erscheinen hier, sobald sie in einem Druckauftrag zusammengestellt und an den Drucker gesendet wurden",
@@ -19,8 +27,10 @@
   },
   "label": {
     "allParts": "Alle Teile",
+    "dropFile": "Dateien zum Funnel hinzufügen",
     "partsQueue": "Teile in der Warteschlange",
     "printReady": "Druckbereit",
+    "processing": "In Bearbeitung",
     "sent": "Gesendet"
   },
   "status": {
@@ -125,7 +135,8 @@
     "parts": "Teile"
   },
   "tooltips": {
-    "allParts": "Alle akzeptierten Teile werden hier zusammen mit ihrem Status angezeigt.",
-    "partsQueue": "Teile, die in der Druckwarteschlange stehen, werden hier gruppiert nach ihrer Vorlage angezeigt."
+    "allParts": "Alle Teile, die zum Funnel hinzugefügt wurden, werden hier zusammen mit ihrem Status angezeigt.",
+    "partsQueue": "Teile, die in der Druckwarteschlange stehen, werden hier gruppiert nach ihrer Vorlage angezeigt.",
+    "processing": "Akzeptierte Teile werden hier angezeigt, während sie verarbeitet und für den Druck eingereiht werden, gruppiert nach ihrer Vorlage."
   }
 }

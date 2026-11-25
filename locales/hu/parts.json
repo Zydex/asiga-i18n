@@ -1,12 +1,20 @@
 {
   "emptyPartsMessages": {
+    "all": {
+      "message": "A Funnelhez hozzáadott alkatrészek itt jelennek meg, az állapotukkal együtt",
+      "title": "Nincsenek alkatrészek"
+    },
     "allParts": {
-      "message": "A Beérkezőben elfogadott alkatrészek itt jelennek meg, hogy mérlegeljék nyomtatásukat.",
+      "message": "Az „Ellenőrzésre vár” lapon elfogadott alkatrészek itt jelennek meg, hogy mérlegeljék nyomtatásukat.",
       "title": "Nincsenek nyomtatásra kész alkatrészek"
     },
     "printReady": {
       "message": "Az alkatrészek, amelyek készen állnak arra, hogy hozzáadják őket egy nyomtatási feladathoz, itt fognak megjelenni",
       "title": "Nincsenek sorba állított alkatrészek"
+    },
+    "processing": {
+      "message": "Az „Ellenőrzésre vár” lapon lévő alkatrészek az elfogadásuk után itt jelennek meg",
+      "title": "Nincsenek feldolgozás alatt álló alkatrészek"
     },
     "sent": {
       "message": "Az alkatrészek itt fognak megjelenni, amikor összeállították őket egy nyomtatási feladatba, és elküldték a nyomtatóra",
@@ -19,8 +27,10 @@
   },
   "label": {
     "allParts": "Összes alkatrész",
+    "dropFile": "Fájlok hozzáadása a Funnelhez",
     "partsQueue": "Sorba állított alkatrészek",
     "printReady": "Nyomtatásra kész",
+    "processing": "Feldolgozás alatt",
     "sent": "Elküldve"
   },
   "status": {
@@ -125,7 +135,8 @@
     "parts": "Alkatrészek"
   },
   "tooltips": {
-    "allParts": "Itt jelenik meg az összes elfogadott alkatrész, az állapotukkal együtt.",
-    "partsQueue": "Itt jelennek meg a nyomtatásra sorba állított alkatrészek, sablonjuk szerint csoportosítva."
+    "allParts": "Itt jelenik meg a Funnelhez hozzáadott összes alkatrész, az állapotukkal együtt.",
+    "partsQueue": "Itt jelennek meg a nyomtatásra sorba állított alkatrészek, sablonjuk szerint csoportosítva.",
+    "processing": "Az elfogadott alkatrészek itt jelennek meg, amíg feldolgozásra és nyomtatási sorba kerülnek, sablon szerint csoportosítva."
   }
 }

@@ -1,12 +1,20 @@
 {
   "emptyPartsMessages": {
+    "all": {
+      "message": "Onderdelen die aan de Funnel zijn toegevoegd, verschijnen hier, samen met hun status",
+      "title": "Geen onderdelen"
+    },
     "allParts": {
-      "message": "Wanneer onderdelen in de inbox worden geaccepteerd, verschijnen ze hier om in overweging te worden genomen voor het printen",
+      "message": "Wanneer onderdelen op het tabblad 'Te beoordelen' worden geaccepteerd, verschijnen ze hier om in overweging te worden genomen voor het printen",
       "title": "Geen onderdelen printklaar"
     },
     "printReady": {
       "message": "Onderdelen die klaar zijn om aan een printtaak te worden toegevoegd, verschijnen hier",
       "title": "Geen onderdelen in de wachtrij"
+    },
+    "processing": {
+      "message": "Onderdelen van het tabblad 'Te beoordelen' verschijnen hier zodra ze zijn geaccepteerd",
+      "title": "Geen onderdelen in verwerking"
     },
     "sent": {
       "message": "Onderdelen verschijnen hier zodra ze zijn samengesteld in een printtaak en naar de printer zijn verzonden",
@@ -19,8 +27,10 @@
   },
   "label": {
     "allParts": "Alle onderdelen",
+    "dropFile": "Bestanden toevoegen aan de Funnel",
     "partsQueue": "Onderdelen in wachtrij",
     "printReady": "Printklaar",
+    "processing": "In verwerking",
     "sent": "Verzonden"
   },
   "status": {
@@ -125,7 +135,8 @@
     "parts": "Onderdelen"
   },
   "tooltips": {
-    "allParts": "Alle onderdelen die zijn geaccepteerd, worden hier weergegeven, samen met hun status.",
-    "partsQueue": "Onderdelen die in de wachtrij staan om te printen, worden hier weergegeven, gegroepeerd per template."
+    "allParts": "Alle onderdelen die aan de Funnel zijn toegevoegd, worden hier weergegeven, samen met hun status.",
+    "partsQueue": "Onderdelen die in de wachtrij staan om te printen, worden hier weergegeven, gegroepeerd per template.",
+    "processing": "Geaccepteerde onderdelen worden hier weergegeven terwijl ze worden verwerkt en in de wachtrij worden geplaatst voor het printen, gegroepeerd op sjabloon."
   }
 }

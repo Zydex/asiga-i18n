@@ -259,10 +259,14 @@
   "label": {
     "acceptedGroupsSuccess_one": "{{count}} csoport áthelyezve ide: <a>Elfogadva</a>",
     "acceptedGroupsSuccess_other": "{{count}} csoport áthelyezve ide: <a>Elfogadva</a>",
+    "acceptedGroupsToProcessing_one": "{{count}} csoport áthelyezve ide: <a>Feldolgozás alatt</a>",
+    "acceptedGroupsToProcessing_other": "{{count}} csoport áthelyezve ide: <a>Feldolgozás alatt</a>",
     "acceptedJobsSuccess_one": "{{count}} feladat áthelyezve ide: <a>Elfogadva</a>",
     "acceptedJobsSuccess_other": "{{count}} feladat áthelyezve ide: <a>Elfogadva</a>",
     "acceptedPartsSuccess_one": "{{count}} alkatrész áthelyezve ide: <a>Elfogadva</a>",
     "acceptedPartsSuccess_other": "{{count}} alkatrész áthelyezve ide: <a>Elfogadva</a>",
+    "acceptedPartsToProcessing_one": "{{count}} alkatrész áthelyezve ide: <a>Feldolgozás alatt</a>",
+    "acceptedPartsToProcessing_other": "{{count}} alkatrész áthelyezve ide: <a>Feldolgozás alatt</a>",
     "acceptingGroups": "Alkatrészcsoportok elfogadása",
     "acceptingJobs": "Feladatok elfogadása",
     "acceptingParts": "Alkatrészek elfogadása",
@@ -336,6 +340,8 @@
     "reprintingParts": "Alkatrészek besorolása újranyomtatáshoz",
     "reprintPartsSuccess_one": "{{count}} alkatrész újrasorolva és áthelyezve ide: <a>Elfogadva</a>",
     "reprintPartsSuccess_other": "{{count}} alkatrész újrasorolva és áthelyezve ide: <a>Elfogadva</a>",
+    "reprintPartsToProcessing_one": "{{count}} alkatrész újrasorolva és áthelyezve ide: <a>Feldolgozás alatt</a>",
+    "reprintPartsToProcessing_other": "{{count}} alkatrész újrasorolva és áthelyezve ide: <a>Feldolgozás alatt</a>",
     "resendingJobs": "Feladatok újraküldése",
     "resentJobs_one": "{{count}} feladat újraküldve",
     "resentJobs_other": "{{count}} feladat újraküldve",
@@ -370,6 +376,7 @@
       "inbox": "Alkatrészek feltöltése és felülvizsgálata felhasználóktól vagy alkalmazásoktól.\n\nErősítse meg, hogy az alkatrészekhez a megfelelő nyomtatási sablon van alkalmazva, majd fogadja el gyártásra.",
       "manage": "Felhasználók hozzáadása vagy szerkesztése, külső alkalmazások összekapcsolása, általános beállítások.",
       "parts": "A gyártásra elfogadott alkatrészek megtekintése.\n\nEllenőrizze az állapotukat, hogy lássa, hol tartanak a gyártási folyamatban.",
+      "partsOverview": "Alkatrészek feltöltése és felülvizsgálata felhasználóktól vagy alkalmazásoktól.\n\nFogadja el az alkatrészeket gyártásra, és kövesse nyomon, hol tartanak a gyártási folyamatban.",
       "printJobs": "A létrehozott nyomtatási feladatok felülvizsgálata.\n\nEllenőrizze az állapotukat, hogy lássa, melyik szakaszban tartanak a gyártási folyamatban.",
       "templates": "Felsorolja a Funnelben található összes sablont. Ezek határozzák meg, hogy az egyes alkatrésztípusokhoz milyen anyagok, nyomtatási beállítások és nyomtatók legyenek használva.",
       "timeline": "Tekintse meg az egyes eszközein sorba állított nyomtatási feladatokat a folyamat és a kihasználtság nyomon követéséhez."
@@ -420,12 +427,13 @@
       "resend": "Újraküldés",
       "reviewGroup": "Csoport felülvizsgálata",
       "reviewPart": "Alkatrész felülvizsgálata",
+      "reviewParts": "Alkatrészek felülvizsgálata",
       "reworkOffline": "Offline átdolgozás",
       "ungroup": "Csoport szétbontása"
     },
     "clearAll": "Összes törlése",
     "empty": "Nincsenek értesítések",
-    "requeuePartsConfirmation": "Biztosan újrasorolja az ebből a feladatból származó alkatrészeket? Ez eltávolítja az aktuális feladatot, és új alkatrészeket hoz létre a postafiókban.",
+    "requeuePartsConfirmation": "Biztosan újrasorolja az ebből a feladatból származó alkatrészeket? Ez eltávolítja az aktuális feladatot, és új alkatrészeket hoz létre az Alkatrészek oldal Ellenőrzésre vár lapján.",
     "settings": {
       "label": "Valós idejű értesítések megjelenítése a figyelmet igénylő alkatrészekről, csoportokról, feladatokról és eszközökről.",
       "title": "Értesítések"

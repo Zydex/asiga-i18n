@@ -1,12 +1,20 @@
 {
   "emptyPartsMessages": {
+    "all": {
+      "message": "Díly, které byly přidány do Funnelu, se zobrazí zde spolu s jejich stavem",
+      "title": "Žádné díly"
+    },
     "allParts": {
-      "message": "Jakmile jsou díly v příchozí schránce přijaty k tisku, zobrazí se zde, aby mohly být zváženy k tisku",
+      "message": "Jakmile budou díly na kartě „Ke kontrole“ přijaty, zobrazí se zde, aby mohly být zváženy k tisku",
       "title": "Žádné díly připravené k tisku"
     },
     "printReady": {
       "message": "Díly, které jsou připravené k přidání do tiskové úlohy, se zobrazí zde",
       "title": "Žádné díly ve frontě"
+    },
+    "processing": {
+      "message": "Díly z karty „Ke kontrole“ se zde zobrazí, jakmile budou přijaty",
+      "title": "Žádné díly ve zpracování"
     },
     "sent": {
       "message": "Díly se zde zobrazí, jakmile budou sestaveny do tiskové úlohy a odeslány do tiskárny",
@@ -19,8 +27,10 @@
   },
   "label": {
     "allParts": "Všechny díly",
+    "dropFile": "Přidat soubory do Funnelu",
     "partsQueue": "Díly ve frontě",
     "printReady": "Připraveno k tisku",
+    "processing": "Ve zpracování",
     "sent": "Odesláno"
   },
   "status": {
@@ -125,7 +135,8 @@
     "parts": "Díly"
   },
   "tooltips": {
-    "allParts": "Zde jsou zobrazeny všechny díly, které byly přijaty k tisku, spolu s jejich stavem.",
-    "partsQueue": "Díly zařazené do fronty k tisku jsou zobrazeny zde, seskupené podle šablony."
+    "allParts": "Zde jsou zobrazeny všechny díly, které byly přidány do Funnelu, spolu s jejich stavem.",
+    "partsQueue": "Díly zařazené do fronty k tisku jsou zobrazeny zde, seskupené podle šablony.",
+    "processing": "Zde jsou zobrazeny přijaté díly během zpracování a zařazování do fronty k tisku, seskupené podle šablony."
   }
 }

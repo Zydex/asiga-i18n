@@ -259,10 +259,14 @@
   "label": {
     "acceptedGroupsSuccess_one": "{{count}} skupina přesunuta do <a>Přijaté</a>",
     "acceptedGroupsSuccess_other": "{{count}} skupin přesunuto do <a>Přijaté</a>",
+    "acceptedGroupsToProcessing_one": "{{count}} skupina přesunuta do <a>Ve zpracování</a>",
+    "acceptedGroupsToProcessing_other": "{{count}} skupin přesunuto do <a>Ve zpracování</a>",
     "acceptedJobsSuccess_one": "{{count}} zakázka přesunuta do <a>Přijaté</a>",
     "acceptedJobsSuccess_other": "{{count}} zakázek přesunuto do <a>Přijaté</a>",
     "acceptedPartsSuccess_one": "{{count}} díl přesunut do <a>Přijaté</a>",
     "acceptedPartsSuccess_other": "{{count}} dílů přesunuto do <a>Přijaté</a>",
+    "acceptedPartsToProcessing_one": "{{count}} díl přesunut do <a>Ve zpracování</a>",
+    "acceptedPartsToProcessing_other": "{{count}} dílů přesunuto do <a>Ve zpracování</a>",
     "acceptingGroups": "Přijímání skupin dílů",
     "acceptingJobs": "Přijímání zakázek",
     "acceptingParts": "Přijímání dílů",
@@ -336,6 +340,8 @@
     "reprintingParts": "Zařazování dílů do fronty pro opětovný tisk",
     "reprintPartsSuccess_one": "{{count}} díl zařazen do fronty a přesunut do <a>Přijaté</a>",
     "reprintPartsSuccess_other": "{{count}} dílů zařazeno do fronty a přesunuto do <a>Přijaté</a>",
+    "reprintPartsToProcessing_one": "{{count}} díl zařazen do fronty a přesunut do <a>Ve zpracování</a>",
+    "reprintPartsToProcessing_other": "{{count}} dílů zařazeno do fronty a přesunuto do <a>Ve zpracování</a>",
     "resendingJobs": "Opětovné odesílání zakázek",
     "resentJobs_one": "Znovu odeslána {{count}} zakázka",
     "resentJobs_other": "Znovu odesláno {{count}} zakázek",
@@ -370,6 +376,7 @@
       "inbox": "Nahrávejte a kontrolujte díly od uživatelů nebo aplikací.\n\nOvěřte, že díly mají použitou správnou tiskovou šablonu, a přijměte je k výrobě.",
       "manage": "Přidávejte nebo upravujte uživatele, propojujte externí aplikace, obecná nastavení.",
       "parts": "Zobrazte díly, které byly přijaty k výrobě.\n\nZkontrolujte stav a zjistěte, kde se nacházejí ve výrobním procesu.",
+      "partsOverview": "Nahrávejte a kontrolujte díly od uživatelů nebo aplikací.\n\nPřijímejte díly k výrobě a sledujte, kde se nacházejí ve výrobním procesu.",
       "printJobs": "Zkontrolujte vytvořené tiskové zakázky.\n\nZkontrolujte stav a zjistěte, v jaké fázi výrobního procesu se nacházejí.",
       "templates": "Seznam všech šablon ve Funnelu. Ty určují, jaké materiály, nastavení tisku a tiskárny se použijí pro jednotlivé typy dílů.",
       "timeline": "Zobrazte tiskové zakázky zařazené do fronty na jednotlivých zařízeních a sledujte průběh a využití."
@@ -420,12 +427,13 @@
       "resend": "Odeslat znovu",
       "reviewGroup": "Zkontrolovat skupinu",
       "reviewPart": "Zkontrolovat díl",
+      "reviewParts": "Zkontrolovat díly",
       "reworkOffline": "Upravit offline",
       "ungroup": "Zrušit seskupení"
     },
     "clearAll": "Vymazat vše",
     "empty": "Žádná oznámení",
-    "requeuePartsConfirmation": "Opravdu chcete zařadit díly z této zakázky znovu do fronty? Tím se odstraní aktuální zakázka a v doručené poště se vytvoří nové díly.",
+    "requeuePartsConfirmation": "Opravdu chcete zařadit díly z této zakázky znovu do fronty? Tím se odstraní aktuální zakázka a na kartě Ke kontrole na stránce Díly se vytvoří nové díly.",
     "settings": {
       "label": "Zobrazovat oznámení v reálném čase pro díly, skupiny, zakázky a zařízení, které vyžadují pozornost.",
       "title": "Oznámení"

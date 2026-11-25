@@ -259,10 +259,14 @@
   "label": {
     "acceptedGroupsSuccess_one": "{{count}} gruppo spostato in <a>Accettati</a>",
     "acceptedGroupsSuccess_other": "{{count}} gruppi spostati in <a>Accettati</a>",
+    "acceptedGroupsToProcessing_one": "{{count}} gruppo spostato in <a>In elaborazione</a>",
+    "acceptedGroupsToProcessing_other": "{{count}} gruppi spostati in <a>In elaborazione</a>",
     "acceptedJobsSuccess_one": "{{count}} lavoro spostato in <a>Accettati</a>",
     "acceptedJobsSuccess_other": "{{count}} lavori spostati in <a>Accettati</a>",
     "acceptedPartsSuccess_one": "{{count}} pezzo spostato in <a>Accettati</a>",
     "acceptedPartsSuccess_other": "{{count}} pezzi spostati in <a>Accettati</a>",
+    "acceptedPartsToProcessing_one": "{{count}} pezzo spostato in <a>In elaborazione</a>",
+    "acceptedPartsToProcessing_other": "{{count}} pezzi spostati in <a>In elaborazione</a>",
     "acceptingGroups": "Accettazione gruppi di pezzi",
     "acceptingJobs": "Accettazione lavori",
     "acceptingParts": "Accettazione pezzi",
@@ -336,6 +340,8 @@
     "reprintingParts": "Rimessa in coda dei pezzi per la ristampa",
     "reprintPartsSuccess_one": "{{count}} pezzo rimesso in coda e spostato in <a>Accettati</a>",
     "reprintPartsSuccess_other": "{{count}} pezzi rimessi in coda e spostati in <a>Accettati</a>",
+    "reprintPartsToProcessing_one": "{{count}} pezzo rimesso in coda e spostato in <a>In elaborazione</a>",
+    "reprintPartsToProcessing_other": "{{count}} pezzi rimessi in coda e spostati in <a>In elaborazione</a>",
     "resendingJobs": "Reinvio lavori",
     "resentJobs_one": "{{count}} lavoro reinviato",
     "resentJobs_other": "{{count}} lavori reinviati",
@@ -370,6 +376,7 @@
       "inbox": "Carica e revisiona pezzi da utenti o applicazioni.\n\nConferma che ai pezzi sia applicato il modello di stampa corretto e accettali per la produzione.",
       "manage": "Aggiungi o modifica utenti, collega app esterne, impostazioni generali.",
       "parts": "Visualizza i pezzi che sono stati accettati per la produzione.\n\nControlla lo stato per vedere a che punto sono nel processo di produzione.",
+      "partsOverview": "Carica e revisiona pezzi da utenti o applicazioni.\n\nAccetta i pezzi per la produzione e controlla a che punto sono nel processo di produzione.",
       "printJobs": "Rivedi i lavori di stampa che sono stati creati.\n\nControlla lo stato per vedere a che fase sono nel processo di produzione.",
       "templates": "Elenca tutti i modelli nel Funnel. Questi controllano quali materiali, impostazioni di stampa e stampanti vengono utilizzati per ogni tipo di pezzo.",
       "timeline": "Visualizza i lavori di stampa in coda su ciascuno dei tuoi dispositivi per monitorare l'avanzamento e l'utilizzo."
@@ -420,12 +427,13 @@
       "resend": "Reinvia",
       "reviewGroup": "Rivedi gruppo",
       "reviewPart": "Rivedi pezzo",
+      "reviewParts": "Rivedi pezzi",
       "reworkOffline": "Rilavorazione offline",
       "ungroup": "Separa gruppo"
     },
     "clearAll": "Cancella tutto",
     "empty": "Nessuna notifica",
-    "requeuePartsConfirmation": "Sei sicuro di voler rimettere in coda i pezzi di questo lavoro? Questo rimuoverà il lavoro attuale e creerà nuovi pezzi nella posta in arrivo.",
+    "requeuePartsConfirmation": "Sei sicuro di voler rimettere in coda i pezzi di questo lavoro? Questo rimuoverà il lavoro attuale e creerà nuovi pezzi nella scheda Da revisionare della pagina Pezzi.",
     "settings": {
       "label": "Mostra notifiche in tempo reale per pezzi, gruppi, lavori e dispositivi che richiedono attenzione.",
       "title": "Notifiche"

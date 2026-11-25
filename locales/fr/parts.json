@@ -1,12 +1,20 @@
 {
   "emptyPartsMessages": {
+    "all": {
+      "message": "Les pièces ajoutées à l'entonnoir apparaîtront ici, avec leur statut",
+      "title": "Aucune pièce"
+    },
     "allParts": {
-      "message": "Lorsque des pièces sont acceptées dans la boîte de réception, elles apparaîtront ici pour être prises en compte pour l'impression",
+      "message": "Lorsque des pièces sont acceptées dans l'onglet « À réviser », elles apparaîtront ici pour être prises en compte pour l'impression",
       "title": "Aucune pièce prête à imprimer"
     },
     "printReady": {
       "message": "Les pièces prêtes à être ajoutées à une tâche d'impression apparaîtront ici",
       "title": "Aucune pièce mise en file d'attente"
+    },
+    "processing": {
+      "message": "Les pièces de l'onglet « À réviser » apparaîtront ici une fois acceptées",
+      "title": "Aucune pièce en traitement"
     },
     "sent": {
       "message": "Les pièces apparaîtront ici une fois assemblées dans une tâche d'impression et envoyées à l'imprimante",
@@ -19,8 +27,10 @@
   },
   "label": {
     "allParts": "Toutes les pièces",
+    "dropFile": "Ajouter des fichiers au Funnel",
     "partsQueue": "Pièces mises en file d'attente",
     "printReady": "Prêt à imprimer",
+    "processing": "En traitement",
     "sent": "Envoyé"
   },
   "status": {
@@ -125,7 +135,8 @@
     "parts": "Pièces"
   },
   "tooltips": {
-    "allParts": "Toutes les pièces qui ont été acceptées sont affichées ici, avec leur statut.",
-    "partsQueue": "Les pièces en attente d'impression sont affichées ici, regroupées par modèle."
+    "allParts": "Toutes les pièces ajoutées à l'entonnoir sont affichées ici, avec leur statut.",
+    "partsQueue": "Les pièces en attente d'impression sont affichées ici, regroupées par modèle.",
+    "processing": "Les pièces acceptées sont affichées ici pendant leur traitement et leur mise en file d'attente pour l'impression, regroupées par modèle."
   }
 }

@@ -1,12 +1,20 @@
 {
   "emptyPartsMessages": {
+    "all": {
+      "message": "As peças adicionadas ao Funil aparecerão aqui, juntamente com o seu estado",
+      "title": "Nenhuma peça"
+    },
     "allParts": {
-      "message": "Quando as peças forem aceites na caixa de entrada, aparecerão aqui para serem consideradas para impressão",
+      "message": "Quando as peças forem aceites no separador 'Para Rever', aparecerão aqui para serem consideradas para impressão",
       "title": "Nenhuma peça pronta para impressão"
     },
     "printReady": {
       "message": "As peças que estão prontas para serem adicionadas a um trabalho de impressão aparecerão aqui",
       "title": "Nenhuma peça em fila"
+    },
+    "processing": {
+      "message": "As peças do separador 'Para Rever' aparecerão aqui depois de serem aceites",
+      "title": "Nenhuma peça em processamento"
     },
     "sent": {
       "message": "As peças aparecerão aqui quando tiverem sido reunidas num trabalho de impressão e enviadas para a impressora",
@@ -19,8 +27,10 @@
   },
   "label": {
     "allParts": "Todas as Peças",
+    "dropFile": "Adicionar ficheiros ao Funnel",
     "partsQueue": "Peças em Fila",
     "printReady": "Pronto para impressão",
+    "processing": "Em processamento",
     "sent": "Enviado"
   },
   "status": {
@@ -125,7 +135,8 @@
     "parts": "Peças"
   },
   "tooltips": {
-    "allParts": "Todas as peças que foram aceites são mostradas aqui, juntamente com o seu estado.",
-    "partsQueue": "As peças que estão em fila para impressão são mostradas aqui, agrupadas pelo seu modelo."
+    "allParts": "Todas as peças que foram adicionadas ao Funil são mostradas aqui, juntamente com o seu estado.",
+    "partsQueue": "As peças que estão em fila para impressão são mostradas aqui, agrupadas pelo seu modelo.",
+    "processing": "As peças aceites são mostradas aqui enquanto são processadas e colocadas na fila para impressão, agrupadas pelo respetivo modelo."
   }
 }

@@ -35,9 +35,9 @@
         "tooltip": "Nodig teamleden uit zodat zij samen met u onderdelen kunnen uploaden, taken kunnen beoordelen en printers kunnen beheren."
       },
       "uploadAcceptParts": {
-        "description": "Sleep op de pagina <bold>Postvak IN</bold> uw STL-bestanden, selecteer de geüploade onderdelen en klik op “Accepteren”",
+        "description": "Sleep op de pagina <bold>Onderdelen</bold> uw STL-bestanden, selecteer de geüploade onderdelen en klik op “Accepteren”",
         "title": "Onderdelen uploaden en accepteren",
-        "tooltip": "Upload ontworpen STL-onderdelen naar het Postvak IN en beoordeel vervolgens de toegewezen instellingen voor acceptatie."
+        "tooltip": "Upload ontworpen STL-onderdelen op de pagina Onderdelen en beoordeel vervolgens de toegewezen instellingen voor acceptatie."
       }
     },
     "subtitle": "Doorloop de stappen om printtaken naar uw apparaten te sturen",

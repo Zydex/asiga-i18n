@@ -35,9 +35,9 @@
         "tooltip": "Pozvěte členy týmu, aby mohli společně s vámi nahrávat díly, kontrolovat zakázky a spravovat tiskárny."
       },
       "uploadAcceptParts": {
-        "description": "Na stránce <bold>Doručená pošta</bold> přetáhněte soubory STL, vyberte nahrané díly a klikněte na „Přijmout“",
+        "description": "Na stránce <bold>Díly</bold> přetáhněte soubory STL, vyberte nahrané díly a klikněte na „Přijmout“",
         "title": "Nahrát a přijmout díly",
-        "tooltip": "Nahrajte navržené díly STL do doručené pošty a poté zkontrolujte přiřazená nastavení k přijetí."
+        "tooltip": "Nahrajte navržené díly STL na stránce Díly a poté zkontrolujte přiřazená nastavení k přijetí."
       }
     },
     "subtitle": "Dokončete kroky pro odesílání tiskových zakázek do vašich zařízení",

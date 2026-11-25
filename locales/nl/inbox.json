@@ -113,7 +113,7 @@
     "designSelected_one": "{{count}} ontwerp geselecteerd",
     "designSelected_other": "{{count}} ontwerpen geselecteerd",
     "downloadPartError": "Onderdeel downloaden mislukt",
-    "dropFile": "Sleep bestanden of mappen hierheen om ze aan de inbox toe te voegen",
+    "dropFile": "Sleep bestanden of mappen hierheen om ze aan de Funnel toe te voegen",
     "groupHasBeenPrioritised": "Groep is geprioriteerd",
     "invalidUploadFileContent": "Een of meer bestanden konden niet worden gelezen als geldige STL-inhoud",
     "invalidUploadFileSize": "Een of meer bestanden overschrijden de maximale uploadgrootte",

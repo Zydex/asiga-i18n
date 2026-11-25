@@ -259,10 +259,14 @@
   "label": {
     "acceptedGroupsSuccess_one": "{{count}} groupe déplacé vers <a>Accepté</a>",
     "acceptedGroupsSuccess_other": "{{count}} groupes déplacés vers <a>Accepté</a>",
+    "acceptedGroupsToProcessing_one": "{{count}} groupe déplacé vers <a>En traitement</a>",
+    "acceptedGroupsToProcessing_other": "{{count}} groupes déplacés vers <a>En traitement</a>",
     "acceptedJobsSuccess_one": "{{count}} tâche déplacée vers <a>Accepté</a>",
     "acceptedJobsSuccess_other": "{{count}} tâches déplacées vers <a>Accepté</a>",
     "acceptedPartsSuccess_one": "{{count}} pièce déplacée vers <a>Accepté</a>",
     "acceptedPartsSuccess_other": "{{count}} pièces déplacées vers <a>Accepté</a>",
+    "acceptedPartsToProcessing_one": "{{count}} pièce déplacée vers <a>En traitement</a>",
+    "acceptedPartsToProcessing_other": "{{count}} pièces déplacées vers <a>En traitement</a>",
     "acceptingGroups": "Acceptation des groupes de pièces",
     "acceptingJobs": "Acceptation des tâches",
     "acceptingParts": "Acceptation des pièces",
@@ -336,6 +340,8 @@
     "reprintingParts": "Remise en file d'attente des pièces pour réimpression",
     "reprintPartsSuccess_one": "{{count}} pièce remise en file d'attente et déplacée vers <a>Accepté</a>",
     "reprintPartsSuccess_other": "{{count}} pièces remises en file d'attente et déplacées vers <a>Accepté</a>",
+    "reprintPartsToProcessing_one": "{{count}} pièce remise en file d'attente et déplacée vers <a>En traitement</a>",
+    "reprintPartsToProcessing_other": "{{count}} pièces remises en file d'attente et déplacées vers <a>En traitement</a>",
     "resendingJobs": "Renvoi des tâches",
     "resentJobs_one": "{{count}} tâche renvoyée",
     "resentJobs_other": "{{count}} tâches renvoyées",
@@ -370,6 +376,7 @@
       "inbox": "Téléchargez et révisez les pièces des utilisateurs ou des applications.\n\nConfirmez que les pièces ont le bon modèle d'impression appliqué et acceptez-les pour la fabrication.",
       "manage": "Ajoutez ou modifiez des utilisateurs, liez des applications externes, paramètres généraux.",
       "parts": "Consultez les pièces qui ont été acceptées pour la fabrication.\n\nVérifiez le statut pour voir où elles en sont dans le processus de fabrication.",
+      "partsOverview": "Téléchargez et révisez les pièces des utilisateurs ou des applications.\n\nAcceptez les pièces pour la fabrication et suivez où elles en sont dans le processus de fabrication.",
       "printJobs": "Passez en revue les tâches d'impression qui ont été créées.\n\nVérifiez le statut pour voir à quelle étape elles en sont dans le processus de fabrication.",
       "templates": "Répertorie tous les modèles dans le Funnel. Ceux-ci contrôlent quels matériaux, paramètres d'impression et imprimantes sont utilisés pour chaque type de pièce.",
       "timeline": "Consultez les tâches d'impression que vous avez mises en file d'attente sur chacun de vos appareils pour surveiller la progression et l'utilisation."
@@ -420,12 +427,13 @@
       "resend": "Renvoyer",
       "reviewGroup": "Réviser le groupe",
       "reviewPart": "Réviser la pièce",
+      "reviewParts": "Réviser les pièces",
       "reworkOffline": "Retravailler hors ligne",
       "ungroup": "Dégrouper"
     },
     "clearAll": "Tout effacer",
     "empty": "Aucune notification",
-    "requeuePartsConfirmation": "Êtes-vous sûr de vouloir remettre en file d'attente les pièces de cette tâche ? Cela supprimera la tâche actuelle et créera de nouvelles pièces dans la boîte de réception.",
+    "requeuePartsConfirmation": "Êtes-vous sûr de vouloir remettre en file d'attente les pièces de cette tâche ? Cela supprimera la tâche actuelle et créera de nouvelles pièces dans l'onglet À réviser de la page Pièces.",
     "settings": {
       "label": "Afficher les notifications en temps réel pour les pièces, groupes, tâches et appareils nécessitant une attention.",
       "title": "Notifications"
